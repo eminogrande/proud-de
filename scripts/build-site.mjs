@@ -149,7 +149,7 @@ nav.topnav a:hover { color: var(--ink); }
   border-bottom: 1px solid var(--line);
 }
 body.article-page .hero {
-  padding: clamp(1.6rem, 4vw, 3rem) 0 1.2rem;
+  padding: clamp(1.1rem, 2.6vw, 2rem) 0 0.7rem;
   border-bottom: 0;
 }
 body.article-page .article-hero-inner {
@@ -241,7 +241,7 @@ body.article-page .article-hero-inner {
 }
 body.article-page .hero h2 {
   max-width: 18ch;
-  margin-top: 0.55rem;
+  margin-top: 0.35rem;
   font-family: var(--ui-font);
   font-size: var(--size-title);
   font-weight: 800;
@@ -258,7 +258,7 @@ body.article-page .hero h2 {
 }
 body.article-page .lede {
   max-width: 720px;
-  margin-top: 1.35rem;
+  margin-top: 0.7rem;
   color: var(--ink);
   font-size: var(--size-body);
   line-height: 1.45;
@@ -408,13 +408,14 @@ body.article-page .article-main > .panel {
 }
 .article-top-scans {
   width: min(100%, 920px);
-  margin: 1.4rem auto 2.6rem;
+  margin: 1rem auto 2rem;
 }
 .article-top-scans .page-gallery {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 460px));
   gap: 0;
   justify-content: center;
+  align-items: start;
 }
 .article-top-scans.single {
   max-width: 520px;
@@ -423,6 +424,7 @@ body.article-page .article-main > .panel {
   grid-template-columns: 1fr;
 }
 .article-top-scans .page-card {
+  margin: 0;
   padding: 0;
   border: 0;
   background: transparent;
@@ -786,15 +788,16 @@ body:not(.article-page) .content > p:first-of-type::first-letter {
   flex-wrap: wrap;
   gap: 0.75rem;
   margin-top: 1rem;
-  font-family: var(--ui-font);
-  font-size: var(--size-meta);
+  font-family: var(--serif-font);
+  font-size: var(--size-body);
+  line-height: 1.45;
   color: var(--muted);
   text-transform: none;
   letter-spacing: 0;
 }
 body.article-page .story-byline {
-  margin-top: 1.3rem;
-  padding-bottom: 1rem;
+  margin-top: 0.65rem;
+  padding-bottom: 0.65rem;
   border-bottom: 1px solid var(--line);
 }
 .language-switch {
@@ -808,7 +811,7 @@ body.article-page .story-byline {
   margin-top: 0.8rem;
 }
 body.article-page .language-switch {
-  margin-top: 1rem;
+  margin-top: 0.75rem;
 }
 .language-switch-label {
   font-family: var(--ui-font);
@@ -2295,6 +2298,44 @@ function displaySummaryForArticle(article, locale) {
   return sentenceSummaryFromText(stripRepeatedLeadingTitle(article, article.bodyText), 3, 420);
 }
 
+function displayHeroSummaryForArticle(article, locale) {
+  const articleBody = buildPublishedArticleBody(article)
+    .replace(/\[[^\]]+\]\(([^)]+)\)/g, "$1")
+    .replace(/`([^`]+)`/g, "$1");
+  const publishedBodyParagraph = articleBody
+    .split(/\n{2,}/)
+    .map((chunk) => chunk.trim())
+    .find((chunk) => {
+      if (!chunk) {
+        return false;
+      }
+
+      const lines = chunk.split("\n").map((line) => line.trim()).filter(Boolean);
+      return lines.some((line) => !/^#{1,6}\s/.test(line) && !/^>\s/.test(line) && !/^(?:[-*]|\d+\.)\s/.test(line));
+    });
+
+  const publishedBodySummary = sentenceSummaryFromText(
+    stripRepeatedLeadingTitle(
+      article,
+      String(publishedBodyParagraph ?? "")
+        .split("\n")
+        .filter((line) => {
+          const trimmed = line.trim();
+          return trimmed && !/^#{1,6}\s/.test(trimmed) && !/^>\s/.test(trimmed) && !/^(?:[-*]|\d+\.)\s/.test(trimmed);
+        })
+        .join(" "),
+    ),
+    4,
+    760,
+  );
+  if (publishedBodySummary) {
+    return publishedBodySummary;
+  }
+
+  const summary = displaySummaryForArticle(article, locale);
+  return isGeneratedArchiveSummary(summary, article) ? "" : summary;
+}
+
 function visibleSummaryForArticle(article, locale) {
   const summary = displaySummaryForArticle(article, locale);
   return isGeneratedArchiveSummary(summary, article) ? "" : summary;
@@ -2624,7 +2665,8 @@ function buildArticleHtml(site, localized, locale, locales, articlePool, manualE
       ? `<div class="translation-note"><strong>${escapeHtml(localeLabelForUi(locale, locale))}:</strong> ${escapeHtml(copy.untranslatedNote(localeLabelForUi(locale, locale), contentLocaleLabel))}</div>`
       : "";
   const sourcePanel = "";
-  const articleSummary = displaySummaryForArticle(localized, locale);
+  const articleSummary = displayHeroSummaryForArticle(localized, locale);
+  const articleSummaryHtml = articleSummary ? `\n          <p class="lede">${renderInlineMarkdown(articleSummary)}</p>` : "";
   const topicPills = renderTopicPills(enrichment.topics);
   const videosSection = renderVideos(copy, enrichment.videos);
   const relatedArchiveSection = renderRelatedArchive(copy, site, locale, enrichment.relatedArticles);
@@ -2635,12 +2677,11 @@ function buildArticleHtml(site, localized, locale, locales, articlePool, manualE
         <div class="hero-copy">
           <h2>${escapeHtml(localized.title)}</h2>
           ${topicPills}
-          ${articleSummary ? `<p class="lede">${renderInlineMarkdown(articleSummary)}</p>` : ""}
           <div class="story-byline">
             <span>${escapeHtml(issueTitle)}</span>
             <span>${escapeHtml(copy.pages)} ${pageRangeLabel(localized)}</span>
             <span>${escapeHtml(copy.minutesRead(enrichment.readingTime))}</span>
-          </div>
+          </div>${articleSummaryHtml}
           <div class="language-switch">
             <span class="language-switch-label">${escapeHtml(copy.languages)}</span>
             <div class="locale-nav">
