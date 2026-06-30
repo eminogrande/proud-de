@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "proud-archive-search",
+      "type": "skill-md",
+      "description": "Search and retrieve proud.de archive content via MCP, llms.txt, or JSON endpoints.",
+      "url": "/.well-known/agent-skills/proud-archive-search/SKILL.md",
+      "digest": "sha256:679012464b9c4e0600ed32796453bf8cdb8bed56d17ecca3ae5a2c3e53a0c20a"
+    },
+    {
+      "name": "proud-archive-citation",
+      "type": "skill-md",
+      "description": "Cite proud archive content with stable URLs, issue identifiers, and page spans.",
+      "url": "/.well-known/agent-skills/proud-archive-citation/SKILL.md",
+      "digest": "sha256:f8b0cf1921a3ea5334331d4a5e13227e3daa6feca5b0debfcbf21867ac9b98ee"
+    }
+  ]
+}

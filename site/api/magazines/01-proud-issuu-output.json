@@ -1,0 +1,665 @@
+{
+  "slug": "01-proud-issuu-output",
+  "title": "01 proud issuu_output",
+  "publicationDate": null,
+  "sourcePdf": "01 proud issuu_output.pdf",
+  "pageCount": 68,
+  "articleCount": 63,
+  "articles": [
+    {
+      "slug": "editorial",
+      "title": "editorial",
+      "pages": {
+        "start": 6,
+        "end": 6
+      },
+      "authors": [],
+      "summary": "This is the first issue of proud magazine, which aims to provide a guide for living in Berlin. The editorial team defines itself with an ironic twist on professions ending in \"-ist\" and invites readers to join them on a journey of glamour, style, sex, and yoga, with the ultimate goal of taking over the city. It ends with the slogans \"Be Berlin. Be proud.\" and a date and location from Hong Kong."
+    },
+    {
+      "slug": "proud",
+      "title": "proud",
+      "pages": {
+        "start": 6,
+        "end": 6
+      },
+      "authors": [
+        "Richard Kirschstein",
+        "Emin Henri Mahrt",
+        "Miron Tenenberg",
+        "Emilie Wong",
+        "Rico Kramer",
+        "Kash Patton"
+      ],
+      "summary": "proud Publisher Richard Kirschstein Emin Henri Mahrt Text Editor Miron Tenenberg Fashion Editor Emilie Wong Event Manager Rico Kramer Advertising Manager Richard Kirschstein (proud@me.com) Emin Henri Mahrt Kash Patton Production Richard Kirschstein Emin Henri Mahrt Cover Jason Forster www.salondepigeon.com Regular Contributors Moritz Stellmacher, Till Kolter, Frederik Eichelbaum, Nuri Sezer, Eva und Lale Mahrt, Karl-Heinz und Ariane Kirschstein, Diyalog Theater Fest, Danyell, Christof Zollfrank, Martin Agosti, Hannes Greve, Benjamin Heps, Don Ludwig, Michael Mattersberger, Dominic Czaja. Contributors Sarai Schubert, Konstantin Spies, Dinah, Felix Buchholz, Mabel Ascheneller, Sünje von Ahn, Oliver Keresztes, Alf und seine Fotografin, Mario Martin, Christopher Gabbert, Denise, Fred Kreeger, Ron Wilson, Cotumo, Peta Pumpa, Uwe Krass, Tillman, Jakob Ellwanger, Kai, Max, Shermin Langhoff, Nermin, Negar, Luzie Baumgart, Susanna, Vinz."
+    },
+    {
+      "slug": "flap-flap-flap",
+      "title": "Flap..flap..flap..",
+      "pages": {
+        "start": 10,
+        "end": 10
+      },
+      "authors": [],
+      "summary": "Sebastian's girlfriend was caught masturbating, and it turns out Sebastian's mother taught her how. Now Sebastian can't get it up for her and is looking for advice."
+    },
+    {
+      "slug": "gut-erkannt",
+      "title": "Gut erkannt",
+      "pages": {
+        "start": 10,
+        "end": 10
+      },
+      "authors": [],
+      "summary": "This article discusses a critical email received by the magazine and their humorous response to it."
+    },
+    {
+      "slug": "kitlers",
+      "title": "kitlers",
+      "pages": {
+        "start": 10,
+        "end": 10
+      },
+      "authors": [],
+      "summary": "kitlers Wir bilden uns ein, dass politische und soziale Freiheiten wichtig sind und so. Wir tolerieren auch diese ganze New-Wave-Punk-Todeszickzack-Kultur und die politisch interessierten Yuppies, die – Tag ein, Tag aus – jedem ihre Meinung aufzwingen."
+    },
+    {
+      "slug": "mail-of-the-month",
+      "title": "mail of the month..",
+      "pages": {
+        "start": 10,
+        "end": 10
+      },
+      "authors": [],
+      "summary": "Felix K. writes in about his dating experiences with over 200 models, prompting a sarcastic response from the magazine."
+    },
+    {
+      "slug": "new-uri-geller",
+      "title": "New Uri Geller",
+      "pages": {
+        "start": 10,
+        "end": 10
+      },
+      "authors": [],
+      "summary": "New Uri Geller Liebe proud, Du wirst sehr müde... sehr, sehr müde..."
+    },
+    {
+      "slug": "vorsicht-vor-irgendwas",
+      "title": "Vorsicht vor irgendwas",
+      "pages": {
+        "start": 10,
+        "end": 10
+      },
+      "authors": [],
+      "summary": "Vorsicht vor irgendwas Liebe proud, Snape tötet bald Dumbledore! Hahahahaha!"
+    },
+    {
+      "slug": "write-to-us-and-win",
+      "title": "write to us and win..",
+      "pages": {
+        "start": 10,
+        "end": 10
+      },
+      "authors": [],
+      "summary": "write to us and win.. Die nächste Mail Of The Month gewinnt alles für die Durchführung einer klassischen Homeparty: Die party-o-box."
+    },
+    {
+      "slug": "ihr-koennt-alle-kommen",
+      "title": "Ihr könnt alle kommen",
+      "pages": {
+        "start": 11,
+        "end": 11
+      },
+      "authors": [],
+      "summary": "This article advertises a party at PHB-CLUB featuring various DJs and special guests."
+    },
+    {
+      "slug": "phb-berlin",
+      "title": "phb berlin",
+      "pages": {
+        "start": 12,
+        "end": 12
+      },
+      "authors": [],
+      "summary": "phb berlin Hier entsteht etwas ganz Großes – Potential ohne Ende. Es ist so verdammt gut, dass es sogar gefördert wird."
+    },
+    {
+      "slug": "shit-glitter",
+      "title": "shit glitter",
+      "pages": {
+        "start": 12,
+        "end": 12
+      },
+      "authors": [],
+      "summary": "shit glitter Shit Glitter lässt dich Gold scheißen! Für lächerliche $450 bekommst du deine 14-Karat Goldkapsel nach Hause."
+    },
+    {
+      "slug": "tr-s-bonjour",
+      "title": "très bonjour",
+      "pages": {
+        "start": 12,
+        "end": 12
+      },
+      "authors": [],
+      "summary": "très bonjour Ihr fragt Euch, wie unglaublich heiß eine Frau in einem blaumetallikfarbenen Swimsuit aussehen kann? Dann gehen Sie nicht über Los, ziehen Sie nie wieder etwas anderes an und begeben sich auf direktem Weg zum Report!"
+    },
+    {
+      "slug": "world-2-1",
+      "title": "world 2.1",
+      "pages": {
+        "start": 12,
+        "end": 12
+      },
+      "authors": [],
+      "summary": "world 2.1 Was wäre die Welt ohne Science-Fiction? Die rechte Gehirnhälfte des Gehirns liebt Personenprofile, MySpace, Facebook und die ganze neue Konnektivität."
+    },
+    {
+      "slug": "200-calories",
+      "title": "200 calories",
+      "pages": {
+        "start": 13,
+        "end": 13
+      },
+      "authors": [],
+      "summary": "200 calories Hey Fetties, hab ihr euch schon einmal gefragt wie 200 Kalorien eigentlich aussehen? Hier ein Beispiel..."
+    },
+    {
+      "slug": "artgerechtes",
+      "title": "artgerechtes",
+      "pages": {
+        "start": 13,
+        "end": 13
+      },
+      "authors": [],
+      "summary": "artgerechtes Ökosein ist Jutestyle? Am Arsch, Alter."
+    },
+    {
+      "slug": "e-rags",
+      "title": "e-rags",
+      "pages": {
+        "start": 13,
+        "end": 13
+      },
+      "authors": [],
+      "summary": "e-rags Mariendorf. Eine alte, graue Fabrikhalle."
+    },
+    {
+      "slug": "mavi",
+      "title": "mavi",
+      "pages": {
+        "start": 13,
+        "end": 13
+      },
+      "authors": [],
+      "summary": "mavi Hong Kong. Hippe Party, wir sind eingeladen – auf der Liste."
+    },
+    {
+      "slug": "oh-mi-bod",
+      "title": "oh!mi!bod",
+      "pages": {
+        "start": 13,
+        "end": 13
+      },
+      "authors": [],
+      "summary": "oh!mi!bod www.ohmibod.com Er ist hart. Er ist aus Plastik."
+    },
+    {
+      "slug": "superethe-com",
+      "title": "Superethe.com",
+      "pages": {
+        "start": 13,
+        "end": 13
+      },
+      "authors": [],
+      "summary": "Superethe.com Immer wieder und wieder und wieder und wieder. Creative Director Kali Arulpragasam beeindruckt uns seit 2006."
+    },
+    {
+      "slug": "five-minutes-review-on",
+      "title": "five minutes review on",
+      "pages": {
+        "start": 14,
+        "end": 14
+      },
+      "authors": [],
+      "summary": "This article is a review of Traktor Scratch Pro, detailing the initial experience of switching to the system, including installation and early use with timecode records."
+    },
+    {
+      "slug": "fritz-helder",
+      "title": "fritz helder",
+      "pages": {
+        "start": 14,
+        "end": 14
+      },
+      "authors": [],
+      "summary": "This article introduces Fritz Helder & The Phantoms, highlighting their exciting live performances and catchy music. It also reviews TRAKTOR SCRATCH PRO, discussing its features like vinyl emulation, effects, loop function, and cover display, concluding that it offers great possibilities for DJs despite the importance of human interaction in music discovery."
+    },
+    {
+      "slug": "launch-at-yaka-paka",
+      "title": "launch at yaka paka",
+      "pages": {
+        "start": 16,
+        "end": 16
+      },
+      "authors": [],
+      "summary": "This article describes a Bulgarian dance party called \"Yaka Paka\" in a former Bulgarian \"Kuppelnest\" (brothel) in Kreuzberg, Berlin. It highlights the lively atmosphere, the quick organization thanks to a \"good Turkish papa,\" and the crowd's enjoyment of the venue's unique decor and the event's overall success."
+    },
+    {
+      "slug": "schnaps-magazine",
+      "title": "schnaps magazine",
+      "pages": {
+        "start": 17,
+        "end": 17
+      },
+      "authors": [],
+      "summary": "schnaps magazine berlin's daily circus Endlich – das neue Video-Magazin für die Generation Exzess. Scheiß auf Anstand, Hochglanz und Apfelschorle!"
+    },
+    {
+      "slug": "ceza-at-ballhaus-naunynstrasse",
+      "title": "ceza at ballhaus naunynstrasse",
+      "pages": {
+        "start": 18,
+        "end": 18
+      },
+      "authors": [],
+      "summary": "This article discusses the revitalization of Ballhaus Naunynstraße, highlighted by a music video shoot for rapper Ceza from Fatih Akın's “Crossing the Bridge.” It also mentions the venue's growing role as a creative hub in Kreuzberg."
+    },
+    {
+      "slug": "tr-s-bonjour-fashion-show-2008",
+      "title": "très bonjour fashion show 2008",
+      "pages": {
+        "start": 21,
+        "end": 21
+      },
+      "authors": [],
+      "summary": "This article covers the 2008 Très Bonjour Fashion Show, highlighting its unique latex couture lingerie and swimwear collections by designer Viola Jaeger, complemented by extravagant hat creations from Hat-Affairs. The event featured immersive lighting by Mark Beversdorf and 3D projections by Till Nowak, with notable guests like Peaches and Estelle attending the after-party. The article expresses anticipation for future collaborations and the upcoming showroom opening in Berlin."
+    },
+    {
+      "slug": "love-in-berlin",
+      "title": "love in berlin",
+      "pages": {
+        "start": 22,
+        "end": 23
+      },
+      "authors": [
+        "Christian Rothenhage"
+      ],
+      "summary": "This article interviews Berlin-based graphic designer and illustrator Christian Rothenhagen, known as “deerBLN,” who uses intricate tile art to beautify the city. He discusses his motivations, Berlin's unique character, his views on street art, and his recent exhibition tour in California."
+    },
+    {
+      "slug": "pentagonik",
+      "title": "pentagonik",
+      "pages": {
+        "start": 24,
+        "end": 25
+      },
+      "authors": [
+        "Don",
+        "Kai"
+      ],
+      "summary": "This article features an interview with Don and Kai, two of the founders of Pentagonik, a Berlin-based netlabel established in 2005. They discuss the origins and philosophy of Pentagonik, which combines the distribution of free electronic music with organizing parties. The conversation covers the evolution of music distribution, the role of physical music formats, and the netlabel's approach to artist selection."
+    },
+    {
+      "slug": "kannibalistische-babarenvoelker",
+      "title": "Kannibalistische Babarenvölker",
+      "pages": {
+        "start": 26,
+        "end": 26
+      },
+      "authors": [
+        "Demir"
+      ],
+      "summary": "Kannibalistische Babarenvölker. Dschungelwälder, kreischende Einhörner - was macht Demir."
+    },
+    {
+      "slug": "andere-richtungen",
+      "title": "Andere Richtungen",
+      "pages": {
+        "start": 26,
+        "end": 27
+      },
+      "authors": [
+        "Demir"
+      ],
+      "summary": "This article features an interview with DJ Demir, discussing his experiences as a DJ, his views on Berlin's music scene, and some humorous anecdotes."
+    },
+    {
+      "slug": "dj-craft",
+      "title": "dj craft",
+      "pages": {
+        "start": 28,
+        "end": 28
+      },
+      "authors": [],
+      "summary": "dj craft Spiel Technol Und zeichne... K.I.Z."
+    },
+    {
+      "slug": "proud-2",
+      "title": "proud",
+      "pages": {
+        "start": 29,
+        "end": 29
+      },
+      "authors": [],
+      "summary": "proud Damn. Yee!"
+    },
+    {
+      "slug": "maximal-my-ass",
+      "title": "maximal my ass",
+      "pages": {
+        "start": 30,
+        "end": 31
+      },
+      "authors": [],
+      "summary": "This article discusses the \"MAXIMAL\" music movement, often characterized by a blend of electro-bounce beats and rap vocals, reminiscent of 90s Miami Bass. It highlights how MAXIMAL pushes the boundaries of excessive electronic dance music. The article also introduces Bugati Force, a group that started in Marburg and later reformed in Berlin, producing electronic beats and remixes for various artists, and touring Germany with their unique Electrobooty and Hip-Hop sound."
+    },
+    {
+      "slug": "alte-legenden-neue-entdeckungen",
+      "title": "Alte Legenden, neue Entdeckungen",
+      "pages": {
+        "start": 32,
+        "end": 32
+      },
+      "authors": [],
+      "summary": "Dave Krass discusses his search for older techno records with specific sounds, highlighting Carl Craig's Paperclip Remix of Green Velvet's \"Flash\" as a prime example of the raw, percussive style he enjoys."
+    },
+    {
+      "slug": "vom-anfang-bis-zum",
+      "title": "Vom Anfang bis zum…",
+      "pages": {
+        "start": 32,
+        "end": 32
+      },
+      "authors": [],
+      "summary": "The author reflects on their journey from initial fascination with techno to becoming a DJ, describing the captivating experience of the music and the role of the DJ."
+    },
+    {
+      "slug": "wie-ueberzeugt-man-jemanden-vom-techno",
+      "title": "Wie überzeugt man jemanden vom Techno?",
+      "pages": {
+        "start": 32,
+        "end": 32
+      },
+      "authors": [],
+      "summary": "This article outlines a humorous 10-step plan to gradually convince someone to appreciate techno music, starting with car rides and escalating to club experiences and marathon weekends."
+    },
+    {
+      "slug": "proud-dj-kolumnen",
+      "title": "proud DJ-Kolumnen",
+      "pages": {
+        "start": 33,
+        "end": 33
+      },
+      "authors": [],
+      "summary": "„Musik, die mich verprügelt und auspeitscht und trotzdem zärtlich zu mir ist.“ proud DJ-Kolumnen"
+    },
+    {
+      "slug": "berlin-bedtime",
+      "title": "Berlin bedtime",
+      "pages": {
+        "start": 34,
+        "end": 34
+      },
+      "authors": [],
+      "summary": "This article describes a person's experience discovering Berlin's underground techno scene, starting from a spontaneous summer evening that led them to an unexpected party in an old factory building. They were captivated by the unique atmosphere, the community, and the DIY aspect of the event. The author expresses pride in being part of this movement and grateful for the organizers who pour their love into creating these experiences."
+    },
+    {
+      "slug": "farbreiz",
+      "title": "farbreiz",
+      "pages": {
+        "start": 35,
+        "end": 35
+      },
+      "authors": [],
+      "summary": "Farbreiz events are built around a simple concept: everything is color, and each event features a new one, impacting drinks, visuals, makeup, and even guest attire."
+    },
+    {
+      "slug": "warum-ueberhaupt-diese-ganze",
+      "title": "Warum überhaupt diese ganze",
+      "pages": {
+        "start": 36,
+        "end": 36
+      },
+      "authors": [],
+      "summary": "Ein Interview über die Berliner Partyszene, die Herausforderungen bei der Organisation von Events und die Schwierigkeiten im Umgang mit Behörden."
+    },
+    {
+      "slug": "hoervergnuegen",
+      "title": "hörvergnügen",
+      "pages": {
+        "start": 37,
+        "end": 37
+      },
+      "authors": [],
+      "summary": "This article interviews the organizers of \"hörvergnügen\" about their events, their approach to music events, their target audience, and what makes their parties special."
+    },
+    {
+      "slug": "deinen-name-sieht-man-ueberall-ein-paar-worte-zur-szene",
+      "title": "Deinen Name sieht man überall. Ein paar Worte zur Szene?",
+      "pages": {
+        "start": 38,
+        "end": 38
+      },
+      "authors": [],
+      "summary": "This article discusses the changing club scene in Berlin, focusing on the dynamic between older and younger party-goers, contrasting large-scale events with more intimate, creative gatherings, and the author's personal preferences regarding music and event aesthetics."
+    },
+    {
+      "slug": "jakob-ellwanger",
+      "title": "jakob ellwanger",
+      "pages": {
+        "start": 38,
+        "end": 38
+      },
+      "authors": [],
+      "summary": "jakob ellwanger Futuristischer Industrial hat natürlich seine Faszination, aber da bin im Grunde meines Herzens ein Blumenkind. Jakob Ellwanger über Berliner Urgestein und die zarten Blümchen."
+    },
+    {
+      "slug": "keller",
+      "title": "keller",
+      "pages": {
+        "start": 39,
+        "end": 39
+      },
+      "authors": [],
+      "summary": "This article discusses the allure and experience of 'illegal' underground parties in Berlin, characterized by word-of-mouth promotion, minimal entry fees, and a unique atmosphere that attracts both locals and tourists."
+    },
+    {
+      "slug": "7days-in-sieben-outfits",
+      "title": "7days in sieben Outfits",
+      "pages": {
+        "start": 43,
+        "end": 43
+      },
+      "authors": [],
+      "summary": "7days in sieben Outfits. Sarai und Mack dürfen sich zeigen."
+    },
+    {
+      "slug": "wardrobe",
+      "title": "wardrobe",
+      "pages": {
+        "start": 44,
+        "end": 44
+      },
+      "authors": [],
+      "summary": "wardrobe Très Bonjour Latex Couture Swimsuit & Bikini Fred Perry Tenniskleid Très Bonjour Satin Kimono „Deep Sea Geisha\" Urban Outfitters Minirock, schwarz gepunktet Urban Outfitters Kleid mit Blumenmuster Stockist Fred Perry Neue Schönhauser Str. 10 10178 Berlin www.fredperry.de Onitsuka Tiger Alte Schönhauser Str."
+    },
+    {
+      "slug": "end-skater-heroes",
+      "title": "end skater heroes",
+      "pages": {
+        "start": 45,
+        "end": 45
+      },
+      "authors": [],
+      "summary": "end skater heroes Urban Outfitters Webshop www.urbanoutfitters.co.uk Drop-In Selected Streetwear Webshop www.drop-in.de Search & Destroy Oranienstraße 198 10999 Kreuzberg F0 VE F0 MCKELMOR F0 VER F0 MCKELMOR F0 VER F0 MCKELMOR F0 VER F0 MCKELM Wardrobe F0 VER F0 MCKELM Golde Golbes T-Shirt Mack Mckelton Ltd. Edition Globe T-Shirt schwarz Golde T-Shirt schwarz F0 VER F0 MCKELM F0 VER F0 MCKELM"
+    },
+    {
+      "slug": "6-rags",
+      "title": "6-rags",
+      "pages": {
+        "start": 48,
+        "end": 48
+      },
+      "authors": [],
+      "summary": "6-rags Absolut richtig erkannt. Die Marke, die seit einiger Zeit die Busse in Berlin schmückt."
+    },
+    {
+      "slug": "naketan",
+      "title": "naketan",
+      "pages": {
+        "start": 48,
+        "end": 48
+      },
+      "authors": [],
+      "summary": "naketan Blondie hat es uns ziemlich angetan. Die durchweg stark bequeme Kollektion wird nicht umsonst mit dem Slogan „Lieblingsteile“ beworben."
+    },
+    {
+      "slug": "traktor-scratch-pro",
+      "title": "traktor scratch pro",
+      "pages": {
+        "start": 48,
+        "end": 48
+      },
+      "authors": [],
+      "summary": "This article describes a competition to win Traktor Scratch Pro, with four conditions to be met by entrants."
+    },
+    {
+      "slug": "tr-s-bonjour-2",
+      "title": "très bonjour",
+      "pages": {
+        "start": 48,
+        "end": 48
+      },
+      "authors": [],
+      "summary": "très bonjour Ihr habt es gesehen. Ihr wollt es haben."
+    },
+    {
+      "slug": "lyndon-wade",
+      "title": "Lyndon Wade",
+      "pages": {
+        "start": 50,
+        "end": 55
+      },
+      "authors": [],
+      "summary": "This article introduces Lyndon Wade, a photographer with a unique style, highlighting his work and his willingness to collaborate with \"proud\" magazine. He is recognized as one of the top 15 photographers in America and works for major global brands."
+    },
+    {
+      "slug": "blvd-of",
+      "title": "BLVD OF",
+      "pages": {
+        "start": 53,
+        "end": 53
+      },
+      "authors": [],
+      "summary": "BLVD OF One of a Kind Scott & Robert S. A."
+    },
+    {
+      "slug": "on-the-road-with-a-radio-skater",
+      "title": "on the road with a radio skater",
+      "pages": {
+        "start": 56,
+        "end": 56
+      },
+      "authors": [],
+      "summary": "The author recounts a road trip to Munich for a skate contest, a night of heavy drinking, and a surreal encounter with the police while seeking a place to sleep."
+    },
+    {
+      "slug": "pola-kardumx-maren-boettcher",
+      "title": "pola kardumx maren böttcher",
+      "pages": {
+        "start": 58,
+        "end": 58
+      },
+      "authors": [],
+      "summary": "This article introduces Pola Kardum, an Esmod Fashion student and designer, and Maren Böttcher, a professional photographer. The piece highlights their collaboration, focusing on a photoshoot in the cellar of a flower shop, showcasing their talents and the potential within the Berlin creative scene. It subtly touches upon the financial realities of magazine publishing while emphasizing artistic integrity."
+    },
+    {
+      "slug": "tatsch",
+      "title": "tatsch",
+      "pages": {
+        "start": 60,
+        "end": 60
+      },
+      "authors": [],
+      "summary": "tatsch Nov techno gossip Wie und wo sollen wir denn anfangen? Vielleicht mit der Geschichte von der Oma vorm Berghain?"
+    },
+    {
+      "slug": "doktorspielchen",
+      "title": "doktorspielchen",
+      "pages": {
+        "start": 62,
+        "end": 62
+      },
+      "authors": [],
+      "summary": "doktorspielchen SAMSTAG 31. Januar VCF [Dirksen Ecke Roche Str.] DJs: Nhan Solo (Neighbourhood), Stassy_k (Technotaverna), Yason (Duscholux) Nic.o (Keller), Malte Um 21:00 gibts Sushi und ab 24:00 feinsten Electro-Indie-Sound."
+    },
+    {
+      "slug": "farbreiz-2",
+      "title": "farbreiz",
+      "pages": {
+        "start": 62,
+        "end": 62
+      },
+      "authors": [],
+      "summary": "farbreiz SAMSTAG 10. Januar PHB-CLUB [Landsberger Allee 54] MS Elbe (Femalepressure), Katovl Menovsky (proud), CanDJane (Pentagonik), Phillisight Farbreiz."
+    },
+    {
+      "slug": "proud-launch-party",
+      "title": "proud launch party",
+      "pages": {
+        "start": 62,
+        "end": 62
+      },
+      "authors": [],
+      "summary": "This article announces the proud magazine launch party and provides information about the Ballhaus Naunynstraße, including its reopening and current programs."
+    },
+    {
+      "slug": "showroom",
+      "title": "showroom",
+      "pages": {
+        "start": 62,
+        "end": 62
+      },
+      "authors": [],
+      "summary": "showroom SAMSTAG 24. Januar Showroom Opening [Torstraße 3] Très Bonjour Showroom & Atelier Torstrasse 3 10119 Berlin fon +49.30.22803.180 mail@tresbonjour.de Mo, Do, Fr 14-20 Uhr Sa 14-19 Uhr www.tresbonjour.de"
+    },
+    {
+      "slug": "tal-der-verwirrung",
+      "title": "tal der verwirrung",
+      "pages": {
+        "start": 62,
+        "end": 62
+      },
+      "authors": [],
+      "summary": "tal der verwirrung SAMSTAG 24. Januar Ritterbutzke [Ritterstraße 24] Live: Vinzent Bela, AmpVitamin, Demir & Seymen (Pentagonik), Pierre Deutschmann (Farbenfroh Rec.), Johnny Awkward (Hoervergnuegen) DJs: Herr Süss & Herr Sauer (Süss & Sauer), Demir & Seymen (Pentagonik), Pierre Deutschmann (Farbenfroh Rec.), Cotumo (Pentagonik), Johnny Awkward (Hoervergnuegen), Swamp Thing (Hasch Mich), Team Tanzmichmal (Tanzmichmal), Leo Bedderman (Keller) Specials: Noytoys, Technorobics"
+    },
+    {
+      "slug": "zey-break",
+      "title": "ZEY' BREAK",
+      "pages": {
+        "start": 63,
+        "end": 63
+      },
+      "authors": [
+        "KADIR MEMIS ALIAS >>AMIGO<<",
+        "ZULA LEMES",
+        "NEVZAT AKPINAR",
+        "YAVUZ TOPUZ ALIAS >>RISK ONE<<"
+      ],
+      "summary": "ZEY' BREAK CHOREOGRAFIE: KADİR MEMİŞ ALIAS >>AMIGO<< BERATUNG: ZULA LEMES, KOMPOSITION: NEVZAT AKPINAR MIT KADİR MEMİŞ ALIAS >>AMIGO<< UND YAVUZ TOPUZ ALIAS >>RISK ONE<< BALLHAUS NAUNYNSTRASSE Toijana (Krisia) www.BallhausNaurynstrasse.de kultur&friese benn kultur&friese"
+    },
+    {
+      "slug": "m-und-die-verantwortung-nach-der-niemand-fragt",
+      "title": "M und die Verantwortung, nach der Niemand fragt",
+      "pages": {
+        "start": 66,
+        "end": 66
+      },
+      "authors": [],
+      "summary": "M visits the apartment of a silent Yellow Power Ranger, who is troubled by his 'sensibility,' and is later joined by another person."
+    }
+  ],
+  "file": "magazines/01-proud-issuu-output.json",
+  "displayTitle": "proud #01",
+  "canonicalUrl": "https://proud.xn--wp9h.tk/magazines/01-proud-issuu-output/",
+  "pdfUrl": "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf"
+}

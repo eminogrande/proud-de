@@ -1,0 +1,12 @@
+{
+  "locale": "en",
+  "slug": "anne-at-home",
+  "sourceTitle": "ANNE AT HOME",
+  "detectedLanguage": "en",
+  "title": null,
+  "summary": null,
+  "excerpt": null,
+  "bodyText": null,
+  "markdown": null,
+  "notes": "Fill only the translated fields you want to override. Null means fallback to the original article."
+}

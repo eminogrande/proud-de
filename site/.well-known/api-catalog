@@ -1,0 +1,60 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://proud.xn--wp9h.tk/.well-known/api-catalog",
+      "item": [
+        {
+          "href": "https://proud.xn--wp9h.tk/api/openapi.json"
+        },
+        {
+          "href": "https://proud.xn--wp9h.tk/api/library.json"
+        },
+        {
+          "href": "https://proud.xn--wp9h.tk/api/articles.json"
+        },
+        {
+          "href": "https://proud.xn--wp9h.tk/api/magazines.json"
+        },
+        {
+          "href": "https://proud.xn--wp9h.tk/api/search"
+        },
+        {
+          "href": "https://proud.xn--wp9h.tk/.well-known/oauth-authorization-server"
+        },
+        {
+          "href": "https://proud.xn--wp9h.tk/oauth/token"
+        },
+        {
+          "href": "https://proud.xn--wp9h.tk/.well-known/http-message-signatures-directory"
+        },
+        {
+          "href": "https://proud.xn--wp9h.tk/llms.txt"
+        },
+        {
+          "href": "https://proud.xn--wp9h.tk/llms-full.txt"
+        },
+        {
+          "href": "https://proud.xn--wp9h.tk/.well-known/agent.json"
+        },
+        {
+          "href": "https://proud.xn--wp9h.tk/.well-known/webmcp.json"
+        },
+        {
+          "href": "https://proud.xn--wp9h.tk/.well-known/agent-skills/index.json"
+        },
+        {
+          "href": "https://proud.xn--wp9h.tk/.well-known/mcp/server-card.json"
+        },
+        {
+          "href": "https://proud.xn--wp9h.tk/.well-known/oauth-protected-resource"
+        },
+        {
+          "href": "https://proud.xn--wp9h.tk/.well-known/oauth-protected-resource/mcp"
+        },
+        {
+          "href": "https://proud.xn--wp9h.tk/mcp"
+        }
+      ]
+    }
+  ]
+}

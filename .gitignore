@@ -1,0 +1,11 @@
+.DS_Store
+.env
+.env.local
+.venv/
+node_modules/
+.wrangler/
+.wrangler-home/
+data/input/pdfs/*
+!data/input/pdfs/.gitkeep
+data/output/*
+!data/output/.gitkeep

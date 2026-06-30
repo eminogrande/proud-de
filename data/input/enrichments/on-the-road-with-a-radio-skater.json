@@ -1,0 +1,46 @@
+{
+  "kicker": {
+    "de": "Skatekultur",
+    "en": "Skate culture"
+  },
+  "heroCaption": {
+    "de": "Eine nächtliche Geschichte zwischen Autobahn, Rausch und Berliner Skate-Szene.",
+    "en": "A late-night story of autobahns, alcohol, and Berlin skate culture."
+  },
+  "topics": {
+    "de": ["Berlin", "Skateboarding", "Roadtrip", "München"],
+    "en": ["Berlin", "Skateboarding", "Road trip", "Munich"]
+  },
+  "relatedLinks": [
+    {
+      "title": "Radio Skateboards Berlin",
+      "url": "https://www.radioskateboards.com/",
+      "source": "Radio Skateboards",
+      "note": {
+        "de": "Offizieller Auftritt der Berliner Marke.",
+        "en": "Official home of the Berlin brand."
+      }
+    },
+    {
+      "title": "Radio Skateboards - A Radiospective (2003-2023)",
+      "url": "https://www.skatevideosite.com/videos/radio-skateboards-a-radiospective-2003-2023",
+      "source": "SkateVideoSite",
+      "note": {
+        "de": "Dokumentation über 20 Jahre Radio Skateboards.",
+        "en": "A documentary covering 20 years of Radio Skateboards."
+      }
+    }
+  ],
+  "videos": [
+    {
+      "title": "Radio Skateboards - A Radiospective (2003-2023)",
+      "embedUrl": "https://www.youtube.com/embed/dlxkX27lGh8",
+      "sourceUrl": "https://youtu.be/dlxkX27lGh8",
+      "provider": "YouTube",
+      "caption": {
+        "de": "Eine spätere Dokumentation, die den Berliner Kontext von Radio Skateboards sichtbar macht.",
+        "en": "A later documentary that gives broader context to the Berlin world around Radio Skateboards."
+      }
+    }
+  ]
+}

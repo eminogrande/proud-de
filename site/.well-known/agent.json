@@ -1,0 +1,83 @@
+{
+  "awp_version": "0.2",
+  "domain": "proud.xn--wp9h.tk",
+  "intent": "Open archive of proud magazine content for reading, search, citation, and machine retrieval.",
+  "authentication": {
+    "type": "none",
+    "required": false
+  },
+  "protocols": {
+    "mcp": {
+      "endpoint": "https://proud.xn--wp9h.tk/mcp",
+      "discovery": "https://proud.xn--wp9h.tk/.well-known/mcp.json"
+    },
+    "webmcp": {
+      "manifest": "https://proud.xn--wp9h.tk/.well-known/webmcp.json"
+    },
+    "openapi": {
+      "url": "https://proud.xn--wp9h.tk/api/openapi.json"
+    },
+    "api_catalog": {
+      "url": "https://proud.xn--wp9h.tk/.well-known/api-catalog"
+    },
+    "oauth": {
+      "discovery": "https://proud.xn--wp9h.tk/.well-known/oauth-authorization-server",
+      "protected_resource": "https://proud.xn--wp9h.tk/.well-known/oauth-protected-resource"
+    }
+  },
+  "actions": [
+    {
+      "id": "search_archive",
+      "name": "Search the archive",
+      "description": "Search proud articles, issues, and excerpts by keyword.",
+      "method": "GET",
+      "endpoint": "/api/search",
+      "via": [
+        "mcp",
+        "webmcp",
+        "openapi"
+      ],
+      "params": {
+        "type": "object",
+        "properties": {
+          "q": {
+            "type": "string",
+            "description": "Search query"
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 50
+          }
+        },
+        "required": [
+          "q"
+        ]
+      }
+    },
+    {
+      "id": "read_article",
+      "name": "Read an article",
+      "description": "Fetch the full structured JSON for a known article slug.",
+      "method": "GET",
+      "endpoint": "/api/articles/{slug}.json",
+      "via": [
+        "mcp",
+        "webmcp",
+        "openapi"
+      ]
+    },
+    {
+      "id": "read_issue",
+      "name": "Read an issue",
+      "description": "Fetch the full structured JSON for a magazine issue slug.",
+      "method": "GET",
+      "endpoint": "/api/magazines/{slug}.json",
+      "via": [
+        "mcp",
+        "webmcp",
+        "openapi"
+      ]
+    }
+  ]
+}

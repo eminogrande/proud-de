@@ -1,0 +1,29 @@
+{
+  "siteTitle": "proud.de",
+  "domain": "proud.de",
+  "description": "Digitales Archiv von proud mit Fokus auf Volltextzugriff für Suchmaschinen, Programme und AI-Agents.",
+  "publicDescription": {
+    "de": "Digitale Ausgabe des proud-Archivs mit Geschichten über Musik, Stadt, Nachtleben, Stil und Berlin.",
+    "en": "Digital edition of the proud archive with stories on music, city life, nightlife, style, and Berlin."
+  },
+  "language": "de",
+  "defaultLocale": "de",
+  "locales": ["de", "en"],
+  "contentSignals": {
+    "aiTrain": true,
+    "aiInput": true,
+    "search": true
+  },
+  "drive": {
+    "remote": "proud-gdrive",
+    "path": "proud"
+  },
+  "paths": {
+    "pdfInputDir": "data/input/pdfs",
+    "manifestDir": "data/input/manifests",
+    "enrichmentDir": "data/input/enrichments",
+    "translationDir": "data/input/translations",
+    "outputDir": "data/output",
+    "siteOutputDir": "site"
+  }
+}

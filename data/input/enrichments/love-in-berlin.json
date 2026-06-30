@@ -1,0 +1,34 @@
+{
+  "kicker": {
+    "de": "Stadtbild",
+    "en": "City image"
+  },
+  "heroCaption": {
+    "de": "Ein Gespräch über Berlin als Motiv, Material und Denkraum.",
+    "en": "A conversation about Berlin as motif, material, and way of thinking."
+  },
+  "topics": {
+    "de": ["Berlin", "Kunst", "Stadt", "Illustration"],
+    "en": ["Berlin", "Art", "City", "Illustration"]
+  },
+  "relatedLinks": [
+    {
+      "title": "DEERBLN — The Haus",
+      "url": "https://thehaus.de/artists/deerbln/",
+      "source": "The Haus",
+      "note": {
+        "de": "Künstlerprofil zu Christian Rothenhagen alias deerBLN.",
+        "en": "Artist profile for Christian Rothenhagen, aka deerBLN."
+      }
+    },
+    {
+      "title": "deerbln.de",
+      "url": "https://deerbln.de/",
+      "source": "deerBLN",
+      "note": {
+        "de": "Offizielle Website des Künstlers.",
+        "en": "Official website of the artist."
+      }
+    }
+  ]
+}

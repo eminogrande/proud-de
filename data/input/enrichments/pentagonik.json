@@ -1,0 +1,34 @@
+{
+  "kicker": {
+    "de": "Berliner Elektronik",
+    "en": "Berlin electronics"
+  },
+  "heroCaption": {
+    "de": "Ein Blick auf ein Berliner Label zwischen Netzkultur, Clubnächten und digitaler Distribution.",
+    "en": "A look at a Berlin label moving between net culture, club nights, and digital distribution."
+  },
+  "topics": {
+    "de": ["Label", "Berlin", "Elektronische Musik", "Clubkultur"],
+    "en": ["Label", "Berlin", "Electronic music", "Club culture"]
+  },
+  "relatedLinks": [
+    {
+      "title": "Pentagonik · Record label ⟋ RA",
+      "url": "https://ra.co/labels/3154",
+      "source": "Resident Advisor",
+      "note": {
+        "de": "Profil des Labels mit Kontext zu Gründung, Stil und Berliner Veranstaltungen.",
+        "en": "Label profile with context on its founding, style, and Berlin events."
+      }
+    },
+    {
+      "title": "Relaunch von Pentagonik",
+      "url": "https://netzpolitik.org/2007/relaunch-von-pentagonik/",
+      "source": "netzpolitik.org",
+      "note": {
+        "de": "Zeitgenössischer Hinweis auf den Relaunch des Berliner Netlabels.",
+        "en": "A contemporary note on the relaunch of the Berlin netlabel."
+      }
+    }
+  ]
+}

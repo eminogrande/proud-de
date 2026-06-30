@@ -1,0 +1,75 @@
+# proud.de (Deutsch)
+> Digitale Ausgabe des proud-Archivs mit Geschichten über Musik, Stadt, Nachtleben, Stil und Berlin.
+
+## Key Resources
+- [Archive Home](https://proud.xn--wp9h.tk/index.md): Root overview of the archive.
+- [Articles Index](https://proud.xn--wp9h.tk/articles/index.md): All article pages in Deutsch routing.
+- [Magazines Index](https://proud.xn--wp9h.tk/magazines/index.md): All magazine issues.
+- [OpenAPI](https://proud.xn--wp9h.tk/api/openapi.json): Machine-readable API description.
+- [MCP Server Card](https://proud.xn--wp9h.tk/.well-known/mcp/server-card.json): Remote MCP discovery document.
+
+## Articles
+- [200 calories](https://proud.xn--wp9h.tk/articles/200-calories/index.md): Hey Fetties, hab ihr euch schon einmal gefragt wie 200 Kalorien eigentlich aussehen? Hier ein Beispiel...
+- [6-rags](https://proud.xn--wp9h.tk/articles/6-rags/index.md): Absolut richtig erkannt. Die Marke, die seit einiger Zeit die Busse in Berlin schmückt.
+- [7days in sieben Outfits](https://proud.xn--wp9h.tk/articles/7days-in-sieben-outfits/index.md): Sarai und Mack dürfen sich zeigen. Persönliche Garderobe und geliehene Lieblingsteile.
+- [Alte Legenden, neue Entdeckungen](https://proud.xn--wp9h.tk/articles/alte-legenden-neue-entdeckungen/index.md): Es gibt wohl kein anderes Musikgenre, das wöchentlich mehr Veröffentlichungen ans Licht bringt als Techno. Bei dem Überangebot ist es nicht immer einfach, das zu finden, was man eigentlich sucht.
+- [Andere Richtungen](https://proud.xn--wp9h.tk/articles/andere-richtungen/index.md): Ich habe mich vor dem Auflegen schon derartig abgeschossen, dass ich mich während des Spielens ständig gefragt habe, welcher der beiden Plattenspieler denn nun läuft und warum? Den Fehler habe ich aber auch nur einmal gemacht.
+- [artgerechtes](https://proud.xn--wp9h.tk/articles/artgerechtes/index.md): Ökosein ist Jutestyle? Am Arsch, Alter.
+- [Berlin bedtime](https://proud.xn--wp9h.tk/articles/berlin-bedtime/index.md): Wer einmal Nacht lebt, will noch mehr.
+- [BLVD OF](https://proud.xn--wp9h.tk/articles/blvd-of/index.md): Dieser Artikel aus dem Magazin "01 proud issuu_output" stellt "BLVD OF" vor. Er hebt die Einzigartigkeit von Scott & Robert hervor und verspricht, mehr zu bieten, als man erwartet.
+- [ceza at ballhaus naunynstrasse](https://proud.xn--wp9h.tk/articles/ceza-at-ballhaus-naunynstrasse/index.md): Das Ballhaus-Theater in der Naunynstraße ist nach vielen Jahren zu neuem Leben erwacht. Endlich nicht nur alle drei Monate ein Stück, von dem keiner etwas mitbekommen.
+- [Deinen Name sieht man überall. Ein paar Worte zur Szene?](https://proud.xn--wp9h.tk/articles/deinen-name-sieht-man-ueberall-ein-paar-worte-zur-szene/index.md): Die junge nachwachsende Feiergemeinde in Berlin ist interessant, auch wenn die Alten immer auf die Jungen schimpfen und borniert reagieren. Es ist aber nun mal das Berliner Urgestein, das zu den Großen geht oder ganz junge Menschen, die grade zugezogen sind und nur die großen Namen kennen.
+- [dj craft](https://proud.xn--wp9h.tk/articles/dj-craft/index.md): Spiel Technol Und zeichne...
+- [doktorspielchen](https://proud.xn--wp9h.tk/articles/doktorspielchen/index.md): SAMSTAG 31. Januar VCF [Dirksen Ecke Roche Str.
+- [e-rags](https://proud.xn--wp9h.tk/articles/e-rags/index.md): Mariendorf. Eine alte, graue Fabrikhalle.
+- [editorial](https://proud.xn--wp9h.tk/articles/editorial/index.md): Willkommen bei der ersten Ausgabe **proud** magazine! Wir sind Deine Waffe im Großstadtschungel.
+- [end skater heroes](https://proud.xn--wp9h.tk/articles/end-skater-heroes/index.md): Urban Outfitters Webshop
+- [farbreiz](https://proud.xn--wp9h.tk/articles/farbreiz/index.md): Das Veranstaltungskonzept von Farbreiz ist einfach. Alles ist Farbe; jede Veranstaltung eine neue.
+- [farbreiz](https://proud.xn--wp9h.tk/articles/farbreiz-2/index.md): SAMSTAG 10. Januar PHB-CLUB [Landsberger Allee 54]
+- [five minutes review on](https://proud.xn--wp9h.tk/articles/five-minutes-review-on/index.md): Nach der Entscheidung auf TRAKTOR SCRATCH umzusteigen, ist Schlafen vorbei. Zwischen Gewissensbissen, was wohl die anderen DJs denken, und ob ich noch in den DJ-Himmel kommen werde, und totaler Faszination ziehen die nächtlichen Stunden an mir vorbei.
+- [Flap..flap..flap..](https://proud.xn--wp9h.tk/articles/flap-flap-flap/index.md): Hi proud, Letschtes habe ich meine Freundin heimlich beim Masturbieren erwischt. Ich fand es auch irgendwie ganz geil, weil sie das sonst nie macht und mir immer sagte, dass sie darauf gar nicht stehen würde.
+- [fritz helder](https://proud.xn--wp9h.tk/articles/fritz-helder/index.md): Entdeckt bei YouTube, wo auch sonst. Fritz Helder & The Phantoms.
+- [Gut erkannt](https://proud.xn--wp9h.tk/articles/gut-erkannt/index.md): Euer Magazin ist total schlecht, albern und uninteressant. Ihr könnt erstmal gar nichts und seid so hässlich, dass ihr auch niemals was erreichen werdet.
+- [hörvergnügen](https://proud.xn--wp9h.tk/articles/hoervergnuegen/index.md): Bunt, bewegt und mitreißend
+- [Ihr könnt alle kommen](https://proud.xn--wp9h.tk/articles/ihr-koennt-alle-kommen/index.md): Nur muss der Großteil leider vor der Tür stehen bleiben. Aber das ist ja nicht so schlimm.
+- [jakob ellwanger](https://proud.xn--wp9h.tk/articles/jakob-ellwanger/index.md): Futuristischer Industrial hat natürlich seine Faszination, aber da bin im Grunde meines Herzens ein Blumenkind. Jakob Ellwanger über Berliner Urgestein und die zarten Blümchen.
+- [Kannibalistische Babarenvölker](https://proud.xn--wp9h.tk/articles/kannibalistische-babarenvoelker/index.md): Dschungelwälder, kreischende Einhörner - was macht Demir. Produzent und DJ von Pentagonik außerhalb von Berlin?
+- [keller](https://proud.xn--wp9h.tk/articles/keller/index.md): Weiße Männchen und Kanonen
+- [kitlers](https://proud.xn--wp9h.tk/articles/kitlers/index.md): Wir bilden uns ein, dass politische und soziale Freiheiten wichtig sind und so. Wir tolerieren auch diese ganze New-Wave-Punk-Todeszickzack-Kultur und die politisch interessierten Yuppies, die – Tag ein, Tag aus – jedem ihre Meinung aufzwingen.
+- [launch at yaka paka](https://proud.xn--wp9h.tk/articles/launch-at-yaka-paka/index.md): Bulgarischer Tanzabend mit fett Krach und viel Hurra
+- [love in berlin](https://proud.xn--wp9h.tk/articles/love-in-berlin/index.md): Christian Rothenhagen alias deerBLN, Berliner Lokalpatriot mit Hang zum Konzeptionellen
+- [Lyndon Wade](https://proud.xn--wp9h.tk/articles/lyndon-wade/index.md): Lyndon Wade ist ein renommierter Fotograf, der für seine einzigartigen Bilder bekannt ist und zu den Top 15 Fotografen Amerikas zählt. Er arbeitet mit großen globalen Marken zusammen und ist für seine beeindruckende Arbeit weithin anerkannt. Seine Fotos haben die Redaktion von "proud" so begeistert, dass sie ihn unbedingt vorstellen wollten.
+- [M und die Verantwortung, nach der Niemand fragt](https://proud.xn--wp9h.tk/articles/m-und-die-verantwortung-nach-der-niemand-fragt/index.md): Als M durch die Wohnungstür des Apartments im dritten Stock trat, sah er ihn, den gelben Powerranger, in seinem gelben Powerrangerkostüm, die Beine übereinander geschlagen, in der Mitte des Zimmer sitzen. Er hat…
+- [mail of the month..](https://proud.xn--wp9h.tk/articles/mail-of-the-month/index.md): Liebes proud, ich lebe nun seit einigen Jahren in Berlin und ich hatte mittlerweile Dates mit über 200 Models. Verdammt, jetzt hab ich vergessen was ich eigentlich sagen wollte.
+- [mavi](https://proud.xn--wp9h.tk/articles/mavi/index.md): Hong Kong. Hippe Party, wir sind eingeladen – auf der Liste.
+- [maximal my ass](https://proud.xn--wp9h.tk/articles/maximal-my-ass/index.md): a gang bang with bucati force
+- [naketan](https://proud.xn--wp9h.tk/articles/naketan/index.md): Blondie hat es uns ziemlich angetan. Die durchweg stark bequeme Kollektion wird nicht umsonst mit dem Slogan „Lieblingsteile“ beworben.
+- [New Uri Geller](https://proud.xn--wp9h.tk/articles/new-uri-geller/index.md): Liebe proud, Du wirst sehr müde... sehr, sehr müde...
+- [oh!mi!bod](https://proud.xn--wp9h.tk/articles/oh-mi-bod/index.md): Er ist hart. Er ist aus Plastik.
+- [unterwegs mit einem Radioskater](https://proud.xn--wp9h.tk/articles/on-the-road-with-a-radio-skater/index.md): Ein Roadtrip nach München für einen Skate-Wettbewerb endet in einem betrunkenen Chaos. Die Gruppe sucht verzweifelt nach einer Unterkunft und gerät dabei in eine skurrile Begegnung mit der Polizei. Trotz des Alkoholkonsums und der Verwirrung finden sie schließlich eine unerwartete Lösung für die Nacht.
+- [pentagonik](https://proud.xn--wp9h.tk/articles/pentagonik/index.md): „Am Anfang gab es den Masterplan! Wir sind apostelmäßig rumgerannt.
+- [phb berlin](https://proud.xn--wp9h.tk/articles/phb-berlin/index.md): Hier entsteht etwas ganz Großes – Potential ohne Ende. Es ist so verdammt gut, dass es sogar gefördert wird.
+- [pola kardumx maren böttcher](https://proud.xn--wp9h.tk/articles/pola-kardumx-maren-boettcher/index.md): Esmod Fashion trifft Profifotografin bei Blumen-Sühr im Keller.
+- [proud](https://proud.xn--wp9h.tk/articles/proud/index.md): Richard Kirschstein Emin Henri Mahrt
+- [proud](https://proud.xn--wp9h.tk/articles/proud-2/index.md): Damn. Yee!
+- [proud DJ-Kolumnen](https://proud.xn--wp9h.tk/articles/proud-dj-kolumnen/index.md): „Jungs, heute will ich richtig feiern gehen! “, posaunten meine angetrunkenen Stimmbänder.
+- [proud launch party](https://proud.xn--wp9h.tk/articles/proud-launch-party/index.md): SAMSTAG 17. Januar PHB-CLUB [Landsberger Allee 54]
+- [schnaps magazine](https://proud.xn--wp9h.tk/articles/schnaps-magazine/index.md): Endlich – das neue Video-Magazin für die Generation Exzess.
+- [shit glitter](https://proud.xn--wp9h.tk/articles/shit-glitter/index.md): lässt dich Gold scheißen! Für lächerliche $450 bekommst du deine 14-Karat Goldkapsel nach Hause.
+- [Showroom](https://proud.xn--wp9h.tk/articles/showroom/index.md): Am Samstag, den 24. Januar, findet in der Torstraße 3 die Eröffnung des Très Bonjour Showrooms statt. Très Bonjour ist ein Showroom und Atelier in Berlin-Mitte. Die Öffnungszeiten sind Montag, Donnerstag und Freitag von 14 bis 20 Uhr sowie Samstag von 14 bis 19 Uhr.
+- [Superethe.com](https://proud.xn--wp9h.tk/articles/superethe-com/index.md): Immer wieder und wieder und wieder und wieder. Creative Director Kali Arulpragasam beeindruckt uns seit 2006.
+- [tal der verwirrung](https://proud.xn--wp9h.tk/articles/tal-der-verwirrung/index.md): SAMSTAG 24. Januar Ritterbutzke [Ritterstraße 24]
+- [tatsch](https://proud.xn--wp9h.tk/articles/tatsch/index.md): Wie und wo sollen wir denn anfangen? Vielleicht mit der Geschichte von der Oma vorm Berghain?
+- [traktor scratch pro](https://proud.xn--wp9h.tk/articles/traktor-scratch-pro/index.md): Es sieht wirklich aus, wonach es aussieht. Und nein, wir verschenken nicht eine MP3-CD mit Timecode-Piep-Tönen.
+- [très bonjour](https://proud.xn--wp9h.tk/articles/tr-s-bonjour/index.md): Ihr fragt Euch, wie unglaublich heiß eine Frau in einem blaumetallikfarbenen Swimsuit aussehen kann? Dann gehen Sie nicht über Los, ziehen Sie nie wieder etwas anderes an und begeben sich auf direktem Weg zum Report!
+- [très bonjour](https://proud.xn--wp9h.tk/articles/tr-s-bonjour-2/index.md): Ihr habt es gesehen. Ihr wollt es haben.
+- [très bonjour fashion show 2008](https://proud.xn--wp9h.tk/articles/tr-s-bonjour-fashion-show-2008/index.md): Eine abendliche Exkursion ist eine feine Sache. Wenn dabei heiße Frauen in abgefahrener Latex-Couture-Lingerie und Swimwear-Kollektionen eine entscheidende Rolle spielen, reicht es, das süße Sein zu begrüßen.
+- [Vom Anfang bis zum…](https://proud.xn--wp9h.tk/articles/vom-anfang-bis-zum/index.md): Warum sitze ich hier und verfasse einen Text für ein Magazin? Für die Antwort muss ich ganz zum Anfang zurück gehen, genau zu dem Zeitpunkt, als Techno anfing, mich um seinen Finger zu wickeln.
+- [Vorsicht vor irgendwas](https://proud.xn--wp9h.tk/articles/vorsicht-vor-irgendwas/index.md): Liebe proud, Snape tötet bald Dumbledore! Hahahahaha!
+- [wardrobe](https://proud.xn--wp9h.tk/articles/wardrobe/index.md): Très Bonjour Latex Couture Swimsuit & Bikini Fred Perry Tenniskleid Très Bonjour Satin Kimono „Deep Sea Geisha" Urban Outfitters Minirock, schwarz gepunktet Urban Outfitters Kleid mit Blumenmuster Stockist Fred Perry Neue Schönhauser Str. 10 10178 Be…
+- [Warum überhaupt diese ganze](https://proud.xn--wp9h.tk/articles/warum-ueberhaupt-diese-ganze/index.md): Partyschiene und nicht irgendetwas
+- [Wie überzeugt man jemanden vom Techno?](https://proud.xn--wp9h.tk/articles/wie-ueberzeugt-man-jemanden-vom-techno/index.md): Text Pumpa Petz
+- [world 2.1](https://proud.xn--wp9h.tk/articles/world-2-1/index.md): Was wäre die Welt ohne Science-Fiction? Die rechte Gehirnhälfte des Gehirns liebt Personenprofile, MySpace, Facebook und die ganze neue Konnektivität.
+- [write to us and win..](https://proud.xn--wp9h.tk/articles/write-to-us-and-win/index.md): Die nächste Mail Of The Month gewinnt alles für die Durchführung einer klassischen Homeparty: Die party-o-box. proud versorgt Dich mit massig Bier, Wein, Wodka, Rum und überhaupt allem, was damit zu mischen ist.
+- [ZEY' BREAK](https://proud.xn--wp9h.tk/articles/zey-break/index.md): CHOREOGRAFIE: KADİR MEMİŞ ALIAS >>AMIGO<<
+

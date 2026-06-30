@@ -1,0 +1,134 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "proud archive read API",
+    "version": "0.2.0",
+    "description": "Read-only JSON and search API for the proud.de magazine archive."
+  },
+  "servers": [
+    {
+      "url": "https://proud.xn--wp9h.tk"
+    },
+    {
+      "url": "http://localhost:8787"
+    }
+  ],
+  "paths": {
+    "/api/library.json": {
+      "get": {
+        "summary": "Get archive library index",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/articles.json": {
+      "get": {
+        "summary": "List articles",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/magazines.json": {
+      "get": {
+        "summary": "List magazines",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/articles/{slug}.json": {
+      "get": {
+        "summary": "Get article by slug",
+        "parameters": [
+          {
+            "name": "slug",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "404": {
+            "description": "Not found"
+          }
+        }
+      }
+    },
+    "/api/magazines/{slug}.json": {
+      "get": {
+        "summary": "Get magazine by slug",
+        "parameters": [
+          {
+            "name": "slug",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "404": {
+            "description": "Not found"
+          }
+        }
+      }
+    },
+    "/api/search": {
+      "get": {
+        "summary": "Search article full text",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/mcp": {
+      "post": {
+        "summary": "Streamable HTTP MCP endpoint",
+        "responses": {
+          "200": {
+            "description": "MCP response"
+          }
+        }
+      }
+    }
+  }
+}

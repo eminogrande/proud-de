@@ -1,0 +1,81 @@
+{
+  "manifest_version": "0.1",
+  "name": "proud archive",
+  "version": "0.2.0",
+  "description": "Read-only WebMCP tool catalog for the proud archive.",
+  "homepage_url": "https://proud.xn--wp9h.tk/",
+  "tools": [
+    {
+      "name": "search_archive",
+      "description": "Search proud archive articles, issues, and excerpts by keyword.",
+      "endpoint": {
+        "method": "GET",
+        "url": "https://proud.xn--wp9h.tk/api/search"
+      },
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "q": {
+            "type": "string",
+            "description": "Search query"
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 50
+          }
+        },
+        "required": [
+          "q"
+        ]
+      },
+      "annotations": {
+        "readOnlyHint": true
+      }
+    },
+    {
+      "name": "get_article",
+      "description": "Read the structured JSON representation of one article by slug.",
+      "endpoint": {
+        "method": "GET",
+        "url": "https://proud.xn--wp9h.tk/api/articles/{slug}.json"
+      },
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "slug": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "slug"
+        ]
+      },
+      "annotations": {
+        "readOnlyHint": true
+      }
+    },
+    {
+      "name": "get_issue",
+      "description": "Read the structured JSON representation of one magazine issue by slug.",
+      "endpoint": {
+        "method": "GET",
+        "url": "https://proud.xn--wp9h.tk/api/magazines/{slug}.json"
+      },
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "slug": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "slug"
+        ]
+      },
+      "annotations": {
+        "readOnlyHint": true
+      }
+    }
+  ]
+}

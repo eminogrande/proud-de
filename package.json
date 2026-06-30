@@ -1,0 +1,31 @@
+{
+  "name": "proud-archive",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "CLI-first PDF archive and MCP server for proud.de",
+  "scripts": {
+    "sync:drive": "node scripts/sync-drive.mjs",
+    "ingest": "node scripts/ingest.mjs",
+    "ingest:drive": "node scripts/sync-drive.mjs && node scripts/ingest.mjs",
+    "build:site": "node scripts/build-site.mjs",
+    "build:all": "node scripts/ingest.mjs && node scripts/build-site.mjs",
+    "generate": "node scripts/generate.mjs",
+    "scaffold:translations": "node scripts/scaffold-translations.mjs",
+    "translate:articles": "node scripts/translate-articles.mjs",
+    "cli": "node src/cli.mjs",
+    "mcp": "node src/mcp-server.mjs",
+    "serve": "node src/serve.mjs",
+    "audit:live": "node scripts/audit-live.mjs",
+    "cf:whoami": "wrangler whoami",
+    "cf:dev": "wrangler dev",
+    "cf:deploy": "wrangler deploy",
+    "status": "node src/cli.mjs status"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.91.0"
+  }
+}

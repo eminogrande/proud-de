@@ -1,0 +1,125 @@
+{
+  "slug": "blvd-of",
+  "title": "BLVD OF",
+  "magazineSlug": "01-proud-issuu-output",
+  "magazineTitle": "01 proud issuu_output",
+  "publicationDate": null,
+  "sourcePdf": "01 proud issuu_output.pdf",
+  "authors": [],
+  "tags": [],
+  "pages": {
+    "start": 53,
+    "end": 53
+  },
+  "summary": "BLVD OF One of a Kind Scott & Robert S. A.",
+  "excerpt": "BLVD OF One of a Kind Scott & Robert S. A. More Than You I Perguined For",
+  "wordCount": 16,
+  "bodyText": "BLVD OF\nOne of a Kind\nScott & Robert\nS. A.\nMore Than You I Perguined For",
+  "markdown": "# BLVD OF\n\n> Quelle: 01 proud issuu_output, Seiten 53-53\n\n## Seite 53\n\nBLVD OF\n\nOne of a Kind\n\nScott & Robert\n\nS. A.\n\nMore Than You I Perguined For\n",
+  "previewImage": "previews/blvd-of.png",
+  "pageImages": [
+    {
+      "pageNumber": 53,
+      "image": "page-images/blvd-of/page-053.jpg",
+      "width": 1677,
+      "height": 2247,
+      "url": "https://proud.xn--wp9h.tk/assets/page-images/blvd-of/page-053.webp"
+    }
+  ],
+  "pageDetails": [
+    {
+      "pageNumber": 53,
+      "text": "BLVD OF\nOne of a Kind\nScott & Robert\nS. A.\nMore Than You I Perguined For",
+      "nativeText": "",
+      "ocrMarkdown": "<file name=\"01 proud issuu_output-page-053.pdf\">\nBLVD OF\n\nOne of a Kind\n\nScott &amp; Robert\n\nS. A.\n\n![img-0.jpeg](img-0.jpeg)\n\nMore Than You I Perguined For\n</file>",
+      "ocrSource": "openrouter:mistral-ocr",
+      "ocrImageCount": 1,
+      "ocrRawFile": "/Users/eminmahrt/Developer/proud-de/data/output/ocr/01-proud-issuu-output/pages/page-053.json",
+      "displayMarkdown": "BLVD OF\n\nOne of a Kind\n\nScott & Robert\n\nS. A.\n\nMore Than You I Perguined For",
+      "sectionIds": [
+        "p053s01"
+      ],
+      "titles": [
+        "BLVD OF"
+      ]
+    }
+  ],
+  "contentBlocks": [
+    {
+      "pageNumber": 53,
+      "spreadPages": [
+        52,
+        53
+      ],
+      "sectionIds": [
+        "p053s01"
+      ],
+      "titles": [
+        "BLVD OF"
+      ],
+      "markdown": "BLVD OF\n\nOne of a Kind\n\nScott & Robert\n\nS. A.\n\nMore Than You I Perguined For",
+      "text": "BLVD OF\nOne of a Kind\nScott & Robert\nS. A.\nMore Than You I Perguined For",
+      "pageImage": {
+        "pageNumber": 53,
+        "image": "page-images/blvd-of/page-053.jpg",
+        "width": 1677,
+        "height": 2247,
+        "url": "https://proud.xn--wp9h.tk/assets/page-images/blvd-of/page-053.webp"
+      }
+    }
+  ],
+  "contentHash": "74454911de0c4daf5926ab2ad08b39e1b8176cf1d51226ac8d77fde1c4d5a2b4",
+  "locales": {
+    "de": {
+      "title": "BLVD OF",
+      "summary": "Dieser Artikel aus dem Magazin \"01 proud issuu_output\" stellt \"BLVD OF\" vor. Er hebt die Einzigartigkeit von Scott & Robert hervor. Der Inhalt verspricht, mehr zu bieten, als man erwartet.",
+      "excerpt": "Dieser Artikel aus dem Magazin \"01 proud issuu_output\" stellt \"BLVD OF\" vor. Er hebt die Einzigartigkeit von Scott & Robert hervor und verspricht, mehr zu bieten, als man erwartet.",
+      "translationState": "translated"
+    },
+    "en": {
+      "title": "BLVD OF",
+      "summary": "This article, titled \"BLVD OF,\" features Scott & Robert, highlighting them as \"One of a Kind.\" It suggests a unique and special quality about them, possibly implying a deeper connection or story. The phrase \"More Than You I Perguined For\" hints at an unexpected or profound experience.",
+      "excerpt": "This article from \"01 proud issuu_output\" introduces \"BLVD OF,\" focusing on Scott & Robert. They are described as \"One of a Kind,\" suggesting a unique and special bond or characteristic. The intriguing phrase \"More Than You I Perguined For\" hints at a deeper, perhaps unexpected, narrative.",
+      "translationState": "original"
+    }
+  },
+  "enrichment": {
+    "de": {
+      "kicker": null,
+      "heroCaption": null,
+      "topics": [],
+      "quickPoints": [
+        "Dieser Artikel aus dem Magazin \"01 proud issuu_output\" stellt \"BLVD OF\" vor.",
+        "Er hebt die Einzigartigkeit von Scott & Robert hervor und verspricht, mehr zu bieten, als man erwartet."
+      ],
+      "relatedLinks": [],
+      "videos": [],
+      "relatedArticles": [
+        "on-the-road-with-a-radio-skater",
+        "lyndon-wade",
+        "pola-kardumx-maren-boettcher"
+      ],
+      "readingTime": 1
+    },
+    "en": {
+      "kicker": null,
+      "heroCaption": null,
+      "topics": [],
+      "quickPoints": [
+        "This article from \"01 proud issuu_output\" introduces \"BLVD OF,\" focusing on Scott & Robert.",
+        "They are described as \"One of a Kind,\" suggesting a unique and special bond or characteristic."
+      ],
+      "relatedLinks": [],
+      "videos": [],
+      "relatedArticles": [
+        "on-the-road-with-a-radio-skater",
+        "lyndon-wade",
+        "pola-kardumx-maren-boettcher"
+      ],
+      "readingTime": 1
+    }
+  },
+  "canonicalUrl": "https://proud.xn--wp9h.tk/articles/blvd-of/",
+  "pdfUrl": "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=53",
+  "previewUrl": "https://proud.xn--wp9h.tk/assets/previews/blvd-of.webp"
+}
