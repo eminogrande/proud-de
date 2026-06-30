@@ -7,5 +7,6 @@ node_modules/
 .wrangler-home/
 data/input/pdfs/*
 !data/input/pdfs/.gitkeep
+data/input/**/*.pdf
 data/output/*
 !data/output/.gitkeep
