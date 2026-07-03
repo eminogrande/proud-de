@@ -2,6 +2,7 @@
 .env
 .env.local
 .venv/
+__pycache__/
 node_modules/
 .wrangler/
 .wrangler-home/

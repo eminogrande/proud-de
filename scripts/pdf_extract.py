@@ -467,7 +467,7 @@ def run_tesseract(page) -> str:
             image_path = temp_file.name
 
         command = [tesseract, image_path, "stdout", "-l", languages]
-        result = subprocess.run(command, capture_output=True, text=True, check=False)
+        result = subprocess.run(command, capture_output=True, text=True, errors="replace", check=False)
         return normalize_page_text(result.stdout)
     finally:
         if "image_path" in locals() and os.path.exists(image_path):
@@ -498,7 +498,7 @@ def run_tesseract_layout(page, pdf_slug: str, page_number: int, output_dir: Path
 
     languages = os.environ.get("PROUD_OCR_LANG", "deu+eng")
     command = [tesseract, image_path.as_posix(), "stdout", "-l", languages, "tsv"]
-    result = subprocess.run(command, capture_output=True, text=True, check=False)
+    result = subprocess.run(command, capture_output=True, text=True, errors="replace", check=False)
     rows = result.stdout.splitlines()
     reader = csv.DictReader(rows, delimiter="\t")
 

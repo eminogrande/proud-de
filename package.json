@@ -20,6 +20,7 @@
     "cf:whoami": "wrangler whoami",
     "cf:dev": "wrangler dev",
     "cf:deploy": "wrangler deploy",
+    "cf:deploy:local": "node scripts/deploy-cloudflare.mjs",
     "status": "node src/cli.mjs status"
   },
   "dependencies": {
