@@ -15,6 +15,7 @@ magazine_title: "01 proud issuu_output"
 issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "58-58"
+authors: []
 ---
 ## TL;DR
 
@@ -28,6 +29,7 @@ Esmod Fashion meets professional photographer at Blumen-Sühr's basement.
 
 > Source: 01 proud issuu_output, page 58
 > Issue date: January 2009
+> Photo: www.MarenBoettcher.com · Assistant: Katarzyna Konopka · Fashion & Model: Pola Kardum · Make-Up: Rouge Bunny Rouge
 
 Esmod Fashion meets professional photographer at Blumen-Sühr's basement.
 

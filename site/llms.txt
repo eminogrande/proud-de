@@ -7,6 +7,38 @@
 - [Magazines Index](https://proud.xn--wp9h.tk/magazines/index.md): All magazine issues.
 - [OpenAPI](https://proud.xn--wp9h.tk/api/openapi.json): Machine-readable API description.
 - [MCP Server Card](https://proud.xn--wp9h.tk/.well-known/mcp/server-card.json): Remote MCP discovery document.
+- [Authors](https://proud.xn--wp9h.tk/authors/index.md): Everyone credited in print, with roles and articles. JSON: https://proud.xn--wp9h.tk/api/authors.json
+
+## About the magazine
+- [Über proud](https://proud.xn--wp9h.tk/about/index.md): Was proud magazine Berlin war, wie dieses Archiv die Hefte neu veröffentlicht und wo die gedruckten Ausgaben liegen.
+- [Redaktion](https://proud.xn--wp9h.tk/masthead/index.md): Das Impressum von proud Heft 01 (Januar 2009), so wiedergegeben wie auf Seite 6 gedruckt.
+- [Redaktionelle Grundsätze und Archivregeln](https://proud.xn--wp9h.tk/standards/index.md): Wie das proud-Archiv gedruckte Artikel neu veröffentlicht, was verändert wird und wie Fehler behandelt werden.
+- [Presse](https://proud.xn--wp9h.tk/press/index.md): Belegte Fakten über proud magazine Berlin für Journalist:innen, mit Quellen.
+- [Korrekturen und Rechteanfragen](https://proud.xn--wp9h.tk/corrections/index.md): Wie man Fehler im proud-Archiv meldet und wie Rechteinhaber Änderungen anfragen.
+- [Archiv-Leitfaden](https://proud.xn--wp9h.tk/archive-guide/index.md): Wie man das proud-Archiv liest, durchsucht und zitiert, für Menschen und für Software-Agenten.
+- Library record: German National Library, shelf mark Z 2009 B 1863, ZDB 2473146-8, https://d-nb.info/992028108
+
+## Authors
+- [Christian Rothenhagen](https://proud.xn--wp9h.tk/authors/christian-rothenhagen/index.md): Layout
+- [Cotumo](https://proud.xn--wp9h.tk/authors/cotumo/index.md): Mitarbeit, Text
+- [Emilie Wong](https://proud.xn--wp9h.tk/authors/emilie-wong/index.md): Moderedaktion
+- [Emin Henri Mahrt](https://proud.xn--wp9h.tk/authors/emin-henri-mahrt/index.md): Herausgeber, Anzeigen, Produktion
+- [Fred Kreeger](https://proud.xn--wp9h.tk/authors/fred-kreeger/index.md): Mitarbeit, Text
+- [Jan Adler](https://proud.xn--wp9h.tk/authors/jan-adler/index.md): Foto
+- [Jason Forster](https://proud.xn--wp9h.tk/authors/jason-forster/index.md): Cover
+- [Johnny Macchiato, Schnaps Magazine](https://proud.xn--wp9h.tk/authors/johnny-macchiato-schnaps-magazine/index.md): Gastautor
+- [Kash Patton](https://proud.xn--wp9h.tk/authors/kash-patton/index.md): Anzeigen
+- [Katarzyna Konopka](https://proud.xn--wp9h.tk/authors/katarzyna-konopka/index.md): Assistant
+- [Lukas Kampfmann](https://proud.xn--wp9h.tk/authors/lukas-kampfmann/index.md): Text
+- [Miron Tenenberg](https://proud.xn--wp9h.tk/authors/miron-tenenberg/index.md): Textredaktion
+- [Moritz Stellmacher](https://proud.xn--wp9h.tk/authors/moritz-stellmacher/index.md): Ständige Mitarbeit, Foto, Text
+- [Peta Pumpa](https://proud.xn--wp9h.tk/authors/peta-pumpa/index.md): Mitarbeit, Text
+- [Pola Kardum](https://proud.xn--wp9h.tk/authors/pola-kardum/index.md): Fashion & Model
+- [Richard Kirschstein](https://proud.xn--wp9h.tk/authors/richard-kirschstein/index.md): Herausgeber, Anzeigen, Produktion
+- [Rico Kramer](https://proud.xn--wp9h.tk/authors/rico-kramer/index.md): Eventmanagement
+- [Ron Wilson](https://proud.xn--wp9h.tk/authors/ron-wilson/index.md): Mitarbeit, Text
+- [Tim](https://proud.xn--wp9h.tk/authors/tim/index.md): Text
+- [Uwe Krass](https://proud.xn--wp9h.tk/authors/uwe-krass/index.md): Mitarbeit, Text
 
 ## Articles
 - [200 calories](https://proud.xn--wp9h.tk/articles/200-calories/index.md): Hey Fetties, hab ihr euch schon einmal gefragt wie 200 Kalorien eigentlich aussehen? Hier ein Beispiel...

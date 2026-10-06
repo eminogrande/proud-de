@@ -1,0 +1,6 @@
+{
+  "_doc": "Optional public contact addresses. Leave a field empty and the site shows no address for it (no invented contact). Fill, rebuild (npm run build:site), commit site/, deploy. pressEmail -> /press/, correctionsEmail -> /corrections/, email -> fallback for both.",
+  "email": "",
+  "pressEmail": "",
+  "correctionsEmail": ""
+}

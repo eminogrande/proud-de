@@ -15,6 +15,7 @@ magazine_title: "01 proud issuu_output"
 issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "16-16"
+authors: []
 ---
 ## TL;DR
 
@@ -28,6 +29,7 @@ Bulgarischer Tanzabend mit fett Krach und viel Hurra
 
 > Quelle: 01 proud issuu_output, Seite 16
 > Erschienen: Januar 2009
+> Foto: Moritz Stellmacher
 
 Bulgarischer Tanzabend mit fett Krach und viel Hurra
 

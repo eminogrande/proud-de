@@ -15,6 +15,7 @@ magazine_title: "01 proud issuu_output"
 issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "33-33"
+authors: ["Ron WIlson","Tim","Cotumo"]
 ---
 ## TL;DR
 
@@ -29,6 +30,7 @@ pages: "33-33"
 
 > Source: 01 proud issuu_output, page 33
 > Issue date: January 2009
+> By: Ron WIlson, Tim, Cotumo
 
 ### Spoiled Berlin
 

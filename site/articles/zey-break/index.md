@@ -15,6 +15,7 @@ magazine_title: "01 proud issuu_output"
 issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "63-63"
+authors: []
 ---
 ## TL;DR
 
@@ -28,6 +29,7 @@ CHOREOGRAFIE: KADİR MEMİŞ ALIAS >>AMIGO<<
 
 > Quelle: 01 proud issuu_output, Seite 63
 > Erschienen: Januar 2009
+> Choreografie: Kadir Memiş alias »Amigo« · Beratung: Zula Lemes · Komposition: Nevzat Akpinar · Mit: Kadir Memiş alias »Amigo« und Yavuz Topuz alias »Risk One«
 
 CHOREOGRAFIE: KADİR MEMİŞ ALIAS >>AMIGO<<
 

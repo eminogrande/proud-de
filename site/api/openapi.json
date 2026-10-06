@@ -101,6 +101,37 @@
         }
       }
     },
+    "/api/authors.json": {
+      "get": {
+        "operationId": "listAuthors",
+        "summary": "List people credited in print (name as printed, roles, article credits)",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object"
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Error (RFC 9457 problem details)",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/articles/{slug}.json": {
       "get": {
         "operationId": "getArticle",

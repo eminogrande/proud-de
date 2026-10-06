@@ -15,6 +15,7 @@ magazine_title: "01 proud issuu_output"
 issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "10-10"
+authors: []
 ---
 ## TL;DR
 
@@ -29,6 +30,7 @@ Wir bilden uns ein, dass politische und soziale Freiheiten wichtig sind und so. 
 
 > Quelle: 01 proud issuu_output, Seite 10
 > Erschienen: Januar 2009
+> Foto: flickr.com
 
 Wir bilden uns ein, dass politische und soziale Freiheiten wichtig sind und so. Wir tolerieren auch diese ganze New-Wave-Punk-Todeszickzack-Kultur und die politisch interessierten Yuppies, die – Tag ein, Tag aus – jedem ihre Meinung aufzwingen. Wenn Hauskatzen sich aber wie Hitler stylen, um Eindruck auf ihre Freunde zu schinden, sehen wir das kritisch.
 

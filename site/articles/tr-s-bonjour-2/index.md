@@ -15,6 +15,7 @@ magazine_title: "01 proud issuu_output"
 issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "48-48"
+authors: []
 ---
 ## TL;DR
 
@@ -29,6 +30,7 @@ Ihr habt es gesehen. Ihr wollt es haben.
 
 > Quelle: 01 proud issuu_output, Seite 48
 > Erschienen: Januar 2009
+> Foto: JanAdler.com
 
 Ihr habt es gesehen. Ihr wollt es haben. Wir verstehen das. Interessentinnen lassen uns bitte ihre Konfektionsgröße wissen. Es gibt:
 

@@ -21,12 +21,12 @@ flowchart TD
 
 ## 1 · Pflichtseiten (Tag 1–7)
 
-- [ ] 🤖🧑 `/impressum/` – § 5 DDG: Name, Anschrift, E-Mail, Telefon/Kontakt, ggf. USt-ID
+- [ ] 🤖🧑 `/impressum/` – § 5 DDG: Anbieter ist die **natürliche Person Emin Mahrt** (keine GmbH, kein HRB): Name, Anschrift, E-Mail, Telefon/Kontakt, USt-ID nur falls vorhanden. Daten in `config/legal.json`
 - [ ] 🤖🧑 `/impressum/` – § 18 Abs. 2 MStV: Verantwortliche/r mit Name + Anschrift (Wohnsitz Inland)
 - [ ] 🤖 `/datenschutz/` – Hoster, Server-Logs, Kontakt, YouTube 2-Klick
 - [ ] 🤖 Cookie-Check: keine nicht-notwendigen Cookies → kein Banner nötig (§ 25 TDDDG)
 - [ ] 🤖🧑 `/ueber/` – Geschichte 2008–2014, ~32 Ausgaben, Neustart
-- [ ] 🤖🧑 `/redaktion/` – Emin als Chefredakteur **und** Herausgeber, Autorenprofile
+- [ ] 🤖🧑 `/redaktion/` – „Herausgeber heute: Emin Mahrt“ (allein, Privatperson) + historisches Impressum Heft 01 mit beiden Herausgebern wie gedruckt; Autorenprofile
 - [ ] 🤖🧑 `/grundsaetze/` – Pressekodex, Trennung Werbung, KI-Hinweis (OCR/Übersetzung)
 - [ ] 🤖 `/korrekturen/` – Prozess + Liste; Korrektur am Originalartikel (Pressekodex RL 3.1)
 - [ ] 🤖 `/rechte/` – Credits, Widerspruch, Takedown binnen 72 h

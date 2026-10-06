@@ -1,0 +1,473 @@
+[
+  {
+    "slug": "christian-rothenhagen",
+    "name": "Christian Rothenhagen",
+    "printedAs": [],
+    "roles": [
+      "Layout"
+    ],
+    "masthead": [],
+    "credits": [
+      {
+        "article": "love-in-berlin",
+        "issue": "01-proud-issuu-output",
+        "role": "layout",
+        "printedLabel": "Layout",
+        "printedName": "Christian Rothenhagen"
+      }
+    ],
+    "bio": null,
+    "url": "https://proud.xn--wp9h.tk/authors/christian-rothenhagen/"
+  },
+  {
+    "slug": "cotumo",
+    "name": "Cotumo",
+    "printedAs": [],
+    "roles": [
+      "Contributors",
+      "Text"
+    ],
+    "masthead": [
+      {
+        "issue": "01-proud-issuu-output",
+        "role": "Contributors",
+        "page": 6
+      }
+    ],
+    "credits": [
+      {
+        "article": "proud-dj-kolumnen",
+        "issue": "01-proud-issuu-output",
+        "role": "text",
+        "printedLabel": "Text",
+        "printedName": "Cotumo"
+      }
+    ],
+    "bio": null,
+    "url": "https://proud.xn--wp9h.tk/authors/cotumo/"
+  },
+  {
+    "slug": "emilie-wong",
+    "name": "Emilie Wong",
+    "printedAs": [],
+    "roles": [
+      "Fashion Editor"
+    ],
+    "masthead": [
+      {
+        "issue": "01-proud-issuu-output",
+        "role": "Fashion Editor",
+        "page": 6
+      }
+    ],
+    "credits": [],
+    "bio": null,
+    "url": "https://proud.xn--wp9h.tk/authors/emilie-wong/"
+  },
+  {
+    "slug": "emin-henri-mahrt",
+    "name": "Emin Henri Mahrt",
+    "printedAs": [],
+    "roles": [
+      "Publisher",
+      "Advertising Manager",
+      "Production"
+    ],
+    "masthead": [
+      {
+        "issue": "01-proud-issuu-output",
+        "role": "Publisher",
+        "page": 6
+      },
+      {
+        "issue": "01-proud-issuu-output",
+        "role": "Advertising Manager",
+        "page": 6
+      },
+      {
+        "issue": "01-proud-issuu-output",
+        "role": "Production",
+        "page": 6
+      }
+    ],
+    "credits": [],
+    "bio": null,
+    "url": "https://proud.xn--wp9h.tk/authors/emin-henri-mahrt/"
+  },
+  {
+    "slug": "fred-kreeger",
+    "name": "Fred Kreeger",
+    "printedAs": [],
+    "roles": [
+      "Contributors",
+      "Text"
+    ],
+    "masthead": [
+      {
+        "issue": "01-proud-issuu-output",
+        "role": "Contributors",
+        "page": 6
+      }
+    ],
+    "credits": [
+      {
+        "article": "vom-anfang-bis-zum",
+        "issue": "01-proud-issuu-output",
+        "role": "text",
+        "printedLabel": "Text",
+        "printedName": "Fred Kreeger"
+      }
+    ],
+    "bio": null,
+    "url": "https://proud.xn--wp9h.tk/authors/fred-kreeger/"
+  },
+  {
+    "slug": "jan-adler",
+    "name": "Jan Adler",
+    "printedAs": [],
+    "roles": [
+      "Photo"
+    ],
+    "masthead": [],
+    "credits": [
+      {
+        "article": "tr-s-bonjour-fashion-show-2008",
+        "issue": "01-proud-issuu-output",
+        "role": "photo",
+        "printedLabel": "image",
+        "printedName": "Jan Adler"
+      }
+    ],
+    "bio": null,
+    "url": "https://proud.xn--wp9h.tk/authors/jan-adler/"
+  },
+  {
+    "slug": "jason-forster",
+    "name": "Jason Forster",
+    "printedAs": [],
+    "roles": [
+      "Cover"
+    ],
+    "masthead": [
+      {
+        "issue": "01-proud-issuu-output",
+        "role": "Cover",
+        "page": 6
+      }
+    ],
+    "credits": [],
+    "bio": null,
+    "url": "https://proud.xn--wp9h.tk/authors/jason-forster/"
+  },
+  {
+    "slug": "johnny-macchiato-schnaps-magazine",
+    "name": "Johnny Macchiato, Schnaps Magazine",
+    "printedAs": [],
+    "roles": [
+      "Guest author"
+    ],
+    "masthead": [],
+    "credits": [
+      {
+        "article": "maximal-my-ass",
+        "issue": "01-proud-issuu-output",
+        "role": "text",
+        "printedLabel": "GASTAUTOR",
+        "printedName": "Johnny Macchiato, Schnaps Magazine"
+      }
+    ],
+    "bio": null,
+    "url": "https://proud.xn--wp9h.tk/authors/johnny-macchiato-schnaps-magazine/"
+  },
+  {
+    "slug": "kash-patton",
+    "name": "Kash Patton",
+    "printedAs": [],
+    "roles": [
+      "Advertising Manager"
+    ],
+    "masthead": [
+      {
+        "issue": "01-proud-issuu-output",
+        "role": "Advertising Manager",
+        "page": 6
+      }
+    ],
+    "credits": [],
+    "bio": null,
+    "url": "https://proud.xn--wp9h.tk/authors/kash-patton/"
+  },
+  {
+    "slug": "katarzyna-konopka",
+    "name": "Katarzyna Konopka",
+    "printedAs": [],
+    "roles": [
+      "Assistant"
+    ],
+    "masthead": [],
+    "credits": [
+      {
+        "article": "pola-kardumx-maren-boettcher",
+        "issue": "01-proud-issuu-output",
+        "role": "other",
+        "printedLabel": "Assistant",
+        "printedName": "Katarzyna Konopka"
+      }
+    ],
+    "bio": null,
+    "url": "https://proud.xn--wp9h.tk/authors/katarzyna-konopka/"
+  },
+  {
+    "slug": "lukas-kampfmann",
+    "name": "Lukas Kampfmann",
+    "printedAs": [],
+    "roles": [
+      "Text"
+    ],
+    "masthead": [],
+    "credits": [
+      {
+        "article": "love-in-berlin",
+        "issue": "01-proud-issuu-output",
+        "role": "text",
+        "printedLabel": "Text",
+        "printedName": "Lukas Kampfmann"
+      }
+    ],
+    "bio": null,
+    "url": "https://proud.xn--wp9h.tk/authors/lukas-kampfmann/"
+  },
+  {
+    "slug": "miron-tenenberg",
+    "name": "Miron Tenenberg",
+    "printedAs": [],
+    "roles": [
+      "Text Editor"
+    ],
+    "masthead": [
+      {
+        "issue": "01-proud-issuu-output",
+        "role": "Text Editor",
+        "page": 6
+      }
+    ],
+    "credits": [],
+    "bio": null,
+    "url": "https://proud.xn--wp9h.tk/authors/miron-tenenberg/"
+  },
+  {
+    "slug": "moritz-stellmacher",
+    "name": "Moritz Stellmacher",
+    "printedAs": [],
+    "roles": [
+      "Regular Contributors",
+      "Photo",
+      "Text"
+    ],
+    "masthead": [
+      {
+        "issue": "01-proud-issuu-output",
+        "role": "Regular Contributors",
+        "page": 6
+      }
+    ],
+    "credits": [
+      {
+        "article": "launch-at-yaka-paka",
+        "issue": "01-proud-issuu-output",
+        "role": "photo",
+        "printedLabel": "Images",
+        "printedName": "Moritz Stellmacher"
+      },
+      {
+        "article": "m-und-die-verantwortung-nach-der-niemand-fragt",
+        "issue": "01-proud-issuu-output",
+        "role": "text",
+        "printedLabel": "Text",
+        "printedName": "Moritz Stellmacher"
+      }
+    ],
+    "bio": {
+      "text": "Moritz Stellmacher kommt aus dem Nimmer-Nimmer-Land. Dort wird unendlich viel getanzt. Deshalb lebt er, wo Bewegung zu Bumm-Bumm-Musik am weitesten verbreitet ist. Als fester Teil von proud ist er in der Redaktion unverzichtbar.",
+      "language": "de",
+      "source": {
+        "magazineSlug": "01-proud-issuu-output",
+        "page": 8
+      }
+    },
+    "url": "https://proud.xn--wp9h.tk/authors/moritz-stellmacher/"
+  },
+  {
+    "slug": "peta-pumpa",
+    "name": "Peta Pumpa",
+    "printedAs": [
+      "Pumpa Peta"
+    ],
+    "roles": [
+      "Contributors",
+      "Text"
+    ],
+    "masthead": [
+      {
+        "issue": "01-proud-issuu-output",
+        "role": "Contributors",
+        "page": 6
+      }
+    ],
+    "credits": [
+      {
+        "article": "wie-ueberzeugt-man-jemanden-vom-techno",
+        "issue": "01-proud-issuu-output",
+        "role": "text",
+        "printedLabel": "Text",
+        "printedName": "Pumpa Peta"
+      }
+    ],
+    "bio": null,
+    "url": "https://proud.xn--wp9h.tk/authors/peta-pumpa/"
+  },
+  {
+    "slug": "pola-kardum",
+    "name": "Pola Kardum",
+    "printedAs": [],
+    "roles": [
+      "Fashion & Model"
+    ],
+    "masthead": [],
+    "credits": [
+      {
+        "article": "pola-kardumx-maren-boettcher",
+        "issue": "01-proud-issuu-output",
+        "role": "other",
+        "printedLabel": "Fashion & Model",
+        "printedName": "Pola Kardum"
+      }
+    ],
+    "bio": null,
+    "url": "https://proud.xn--wp9h.tk/authors/pola-kardum/"
+  },
+  {
+    "slug": "richard-kirschstein",
+    "name": "Richard Kirschstein",
+    "printedAs": [],
+    "roles": [
+      "Publisher",
+      "Advertising Manager",
+      "Production"
+    ],
+    "masthead": [
+      {
+        "issue": "01-proud-issuu-output",
+        "role": "Publisher",
+        "page": 6
+      },
+      {
+        "issue": "01-proud-issuu-output",
+        "role": "Advertising Manager",
+        "page": 6
+      },
+      {
+        "issue": "01-proud-issuu-output",
+        "role": "Production",
+        "page": 6
+      }
+    ],
+    "credits": [],
+    "bio": null,
+    "url": "https://proud.xn--wp9h.tk/authors/richard-kirschstein/"
+  },
+  {
+    "slug": "rico-kramer",
+    "name": "Rico Kramer",
+    "printedAs": [],
+    "roles": [
+      "Event Manager"
+    ],
+    "masthead": [
+      {
+        "issue": "01-proud-issuu-output",
+        "role": "Event Manager",
+        "page": 6
+      }
+    ],
+    "credits": [],
+    "bio": null,
+    "url": "https://proud.xn--wp9h.tk/authors/rico-kramer/"
+  },
+  {
+    "slug": "ron-wilson",
+    "name": "Ron Wilson",
+    "printedAs": [
+      "Ron WIlson"
+    ],
+    "roles": [
+      "Contributors",
+      "Text"
+    ],
+    "masthead": [
+      {
+        "issue": "01-proud-issuu-output",
+        "role": "Contributors",
+        "page": 6
+      }
+    ],
+    "credits": [
+      {
+        "article": "proud-dj-kolumnen",
+        "issue": "01-proud-issuu-output",
+        "role": "text",
+        "printedLabel": "Text",
+        "printedName": "Ron WIlson"
+      }
+    ],
+    "bio": null,
+    "url": "https://proud.xn--wp9h.tk/authors/ron-wilson/"
+  },
+  {
+    "slug": "tim",
+    "name": "Tim",
+    "printedAs": [],
+    "roles": [
+      "Text"
+    ],
+    "masthead": [],
+    "credits": [
+      {
+        "article": "proud-dj-kolumnen",
+        "issue": "01-proud-issuu-output",
+        "role": "text",
+        "printedLabel": "Text",
+        "printedName": "Tim"
+      }
+    ],
+    "bio": null,
+    "url": "https://proud.xn--wp9h.tk/authors/tim/"
+  },
+  {
+    "slug": "uwe-krass",
+    "name": "Uwe Krass",
+    "printedAs": [],
+    "roles": [
+      "Contributors",
+      "Text"
+    ],
+    "masthead": [
+      {
+        "issue": "01-proud-issuu-output",
+        "role": "Contributors",
+        "page": 6
+      }
+    ],
+    "credits": [
+      {
+        "article": "alte-legenden-neue-entdeckungen",
+        "issue": "01-proud-issuu-output",
+        "role": "text",
+        "printedLabel": "Text",
+        "printedName": "Uwe Krass"
+      }
+    ],
+    "bio": null,
+    "url": "https://proud.xn--wp9h.tk/authors/uwe-krass/"
+  }
+]

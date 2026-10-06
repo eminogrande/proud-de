@@ -18,11 +18,13 @@ Status-Stufen:
 | 2 | ZDB-ID 2473146-8, OCLC 723868146, monatlich, 2009–2014, eingestellt mit Ausgabe #32 (6. Jahrgang) | VERIFIED-PRIMARY | https://ld.zdb-services.de/data/2473146-8.jsonld |
 | 3 | Verlag: Kirschstein & Mahrt GbR → Proud GbR → Proud Works GmbH, Berlin | VERIFIED-PRIMARY | DNB-Datensatz (Feld 264) |
 | 4 | Herausgeber Heft 01 (Jan. 2009): Richard Kirschstein und Emin Henri Mahrt | VERIFIED-PRIMARY | Impressum Heft 01, S. 6 (eigenes Archiv) |
+| 4a | Herausgeber **heute**: Emin Mahrt; Betreiber des Archivs: Emin Mahrt als Privatperson (keine GmbH). Kirschstein seit Langem ausgeschieden. | SELF-REPORTED (06.10.2026) | Emin, Chat 2026-10-06 |
 | 5 | proud works GmbH, Amtsgericht Charlottenburg HRB 132080 B; Gegenstand u. a. „Die Publikation der Proud Magazine“; heute gelöscht | VERIFIED-SECONDARY | northdata.de (Register-Aggregator) |
 | 6 | Auflage 20.000 Exemplare pro Heft, kostenlos, werbefinanziert | SELF-REPORTED | proud.de/impressum, Wayback 2012-01-05 |
 | 7 | 33 Ausgaben, mehr als 650.000 gedruckte Exemplare, 68 Seiten | SELF-REPORTED | LinkedIn proud works GmbH |
 | 8 | „1,5 Millionen Auflage“ | UNVERIFIED / widersprüchlich | nur bitget.com PR-Text |
-| 9 | „Vom DFJV anerkannt / ausgezeichnet“ | UNVERIFIED | nur emin.de, coinagenda.com, bitget.com |
+| 9 | „Vom DFJV anerkannt / ausgezeichnet“ oder „mehrfach erwähnt“ | UNVERIFIED | nur emin.de, coinagenda.com, bitget.com |
+| 9a | DFJV-Newsletter „DFJV-News Mai 2009“ (07.05.2009) stellt proud vor: „bunt, aufregend, frisch und eben anders“ | VERIFIED-PRIMARY (Originalmail beim Herausgeber, keine öffentliche URL) | [docs/evidence/DFJV_NEWSLETTER_2009-05.md](evidence/DFJV_NEWSLETTER_2009-05.md) |
 | 10 | Unabhängige Erwähnung: Deutsche Grammophon über Yuja-Wang-Cover (06.05.2011) | VERIFIED-SECONDARY | deutschegrammophon.com |
 
 ```mermaid
@@ -96,7 +98,7 @@ Offen: Bestand „2009 – 6.2014“ ist eine Spanne. Ob jedes Heft vollständig
 
 ## 2. DFJV (Deutscher Fachjournalisten-Verband)
 
-**Ergebnis: nicht bestätigt.** Keine öffentliche DFJV-Quelle nennt proud oder Emin Mahrt.
+**Ergebnis (Update 06.10.2026):** Eine Erwähnung ist belegt: Newsletter „DFJV-News Mai 2009“ (07.05.2009), Abschnitt „Proud Magazine“, Originalmail beim Herausgeber, siehe [Beleg](evidence/DFJV_NEWSLETTER_2009-05.md). „Anerkannt“, „ausgezeichnet“ oder „mehrfach erwähnt“ bleibt **unbelegt**. Keine öffentliche DFJV-Quelle online.
 
 ### Was gesucht wurde
 
@@ -232,7 +234,7 @@ Hinweis: Die Texte auf bitget.com und bitcoinethereumnews.com sind fast wortglei
 4. Gründung: Dummy 2008 oder Heft 01 Januar 2009 als Startdatum? (Kirschsteins LinkedIn sagt 2006.)
 5. Wann genau wurde die GmbH gelöscht? Handelsregister-Auszug (HRB 132080 B) als PDF beschaffen.
 6. Gibt es Presseartikel über proud (Tip, Zitty, taz …) im eigenen Archiv? Bitte Scan oder Link.
-7. Darf Richard Kirschstein als Mitgründer genannt werden? (Er ist überall gleichberechtigt genannt.)
+7. ~~Darf Richard Kirschstein als Mitgründer genannt werden?~~ Geklärt 06.10.2026: Kirschstein bleibt als Herausgeber von Heft 01 (wie gedruckt) genannt; heutiger Herausgeber ist allein Emin Mahrt.
 8. DNB: Sind alle 32 Hefte vollständig? Bestätigung bei der DNB (Zeitschriftenstelle) anfragen.
 
 ## Was wir auf der About-Seite sicher sagen können
@@ -242,8 +244,9 @@ Nur VERIFIED-PRIMARY oder VERIFIED-SECONDARY.
 **Deutsch**
 
 - proud war ein unabhängiges Berliner Monatsmagazin. Es erschien von 2009 bis 2014 in 32 Ausgaben.
-- Herausgeber waren Richard Kirschstein und Emin Henri Mahrt.
-- Verlag war zuerst die Kirschstein & Mahrt GbR, später die proud works GmbH in Berlin.
+- Herausgeber heute: Emin Mahrt (Angabe des Herausgebers, 06.10.2026). Er betreibt das Archiv als Privatperson.
+- Heft 01 (2009): Herausgeber laut Impressum Richard Kirschstein und Emin Henri Mahrt.
+- Laut Katalog der DNB erschien das Heft früher bei der Kirschstein & Mahrt GbR, der Proud GbR und der Proud Works GmbH (nur als Geschichte, nie als heutiger Betreiber).
 - Das Magazin ist in der Deutschen Nationalbibliothek in Frankfurt am Main und Leipzig archiviert (Signatur Z 2009 B 1863, ZDB-ID 2473146-8).
 - Die Deutsche Grammophon berichtete 2011 über das proud-Cover mit der Pianistin Yuja Wang.
 - Die deutschsprachige Wikipedia zitiert ein proud-Interview mit SoundCloud-Gründer Eric Wahlforss aus dem Jahr 2009.
@@ -251,8 +254,9 @@ Nur VERIFIED-PRIMARY oder VERIFIED-SECONDARY.
 **English**
 
 - proud was an independent monthly magazine from Berlin. It ran from 2009 to 2014 and published 32 issues.
-- It was published by Richard Kirschstein and Emin Henri Mahrt.
-- The publisher was first Kirschstein & Mahrt GbR, later proud works GmbH, Berlin.
+- Publisher today: Emin Mahrt (owner statement, 6 Oct 2026). He runs the archive as a private person.
+- Issue 01 (2009): publishers according to the masthead, Richard Kirschstein and Emin Henri Mahrt.
+- According to the DNB catalogue, earlier publishing entities were Kirschstein & Mahrt GbR, Proud GbR and Proud Works GmbH (history only, never the current operator).
 - The magazine is archived at the German National Library in Frankfurt am Main and Leipzig (shelf mark Z 2009 B 1863, ZDB ID 2473146-8).
 - Deutsche Grammophon reported on proud's 2011 cover with pianist Yuja Wang.
 - German Wikipedia cites a 2009 proud interview with SoundCloud co-founder Eric Wahlforss.
@@ -271,3 +275,5 @@ Hinweis: Der DNB-Bestand lautet „2009 – 6.2014“. „Alle Ausgaben“ erst 
 - „Gegründet 2006“ oder „2008“ als Erscheinungsbeginn. Belegt ist Januar 2009 (Dummy 2008).
 - Berichte in Tip, Zitty, taz, Spiegel usw. Nichts gefunden.
 - Eine ISSN. Es gibt keine im Katalog.
+- „Emin Mahrt war 2009 alleiniger Herausgeber.“ Falsch: Heft 01 nennt zwei Herausgeber. Richtig: „Herausgeber heute: Emin Mahrt“ und „Heft 01 (2009): Herausgeber laut Impressum Richard Kirschstein und Emin Henri Mahrt“.
+- proud works GmbH (oder eine andere Gesellschaft) als heutigen Betreiber oder Verlag nennen. Betreiber ist Emin Mahrt als Privatperson.

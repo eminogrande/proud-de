@@ -15,6 +15,7 @@ magazine_title: "01 proud issuu_output"
 issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "58-58"
+authors: []
 ---
 ## TL;DR
 
@@ -28,6 +29,7 @@ Esmod Fashion trifft Profifotografin bei Blumen-Sühr im Keller.
 
 > Quelle: 01 proud issuu_output, Seite 58
 > Erschienen: Januar 2009
+> Foto: www.MarenBoettcher.com · Assistant: Katarzyna Konopka · Fashion & Model: Pola Kardum · Make-Up: Rouge Bunny Rouge
 
 ### Pola Kardum x Maren Böttcher
 

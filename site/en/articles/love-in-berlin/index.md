@@ -15,6 +15,7 @@ magazine_title: "01 proud issuu_output"
 issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "22-23"
+authors: ["Lukas Kampfmann"]
 ---
 ## TL;DR
 
@@ -30,6 +31,8 @@ Christian Rothenhagen, also known as deerBLN, is a Berlin-based artist who beaut
 
 > Source: 01 proud issuu_output, pages 22-23
 > Issue date: January 2009
+> By: Lukas Kampfmann
+> Layout: Christian Rothenhagen
 
 Christian Rothenhagen, also known as deerBLN, a Berlin local patriot with a penchant for the conceptual.
 

@@ -15,6 +15,7 @@ magazine_title: "01 proud issuu_output"
 issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "33-33"
+authors: ["Ron WIlson","Tim","Cotumo"]
 ---
 ## TL;DR
 
@@ -29,6 +30,7 @@ pages: "33-33"
 
 > Quelle: 01 proud issuu_output, Seite 33
 > Erschienen: Januar 2009
+> Von: Ron WIlson, Tim, Cotumo
 
 ### Verwöhntes Berlin
 

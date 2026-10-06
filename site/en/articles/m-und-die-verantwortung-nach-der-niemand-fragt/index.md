@@ -15,6 +15,7 @@ magazine_title: "01 proud issuu_output"
 issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "66-66"
+authors: ["Moritz Stellmacher"]
 ---
 ## TL;DR
 
@@ -30,7 +31,7 @@ M visits a young man, dressed as a yellow Power Ranger, who is withdrawn and unr
 
 > Source: 01 proud issuu_output, page 66
 > Issue date: January 2009
-> Text: Moritz Stellmacher
+> By: Moritz Stellmacher
 
 M and the Responsibility Nobody Asks For
 

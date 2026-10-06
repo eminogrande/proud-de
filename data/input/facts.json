@@ -59,7 +59,8 @@
         "accessed": "2026-10-06",
         "quote": "Berlin : Proud Works GmbH; Berlin : Proud GbR [anfangs] - Berlin : Kirschstein & Mahrt GbR [früher]"
       }
-    ]
+    ],
+    "usage": "Historical only, phrase as 'laut Katalog der DNB'. Never present any of these entities as the current operator."
   },
   {
     "id": "publishers-issue01",
@@ -71,6 +72,21 @@
         "url": "https://issuu.com/proud/docs/01-proud-magazine-berlin-januar-2009",
         "accessed": "2026-10-06",
         "quote": "Impressum S. 6: Publisher Richard Kirschstein Emin Henri Mahrt (repo: data/output/ocr/01-proud-issuu-output/pages/page-006.md)"
+      }
+    ]
+  },
+  {
+    "id": "publisher-today",
+    "claim_de": "Herausgeber von proud heute: Emin Mahrt. Betreiber dieses Archivs ist Emin Mahrt als Privatperson (keine Gesellschaft). Richard Kirschstein ist seit Langem nicht mehr beteiligt; die proud works GmbH ist nicht Betreiberin.",
+    "claim_en": "Publisher of proud today: Emin Mahrt. This archive is operated by Emin Mahrt as a private person (no company). Richard Kirschstein left long ago; proud works GmbH is not the operator.",
+    "status": "SELF-REPORTED",
+    "dated": "2026-10-06",
+    "usage": "Say 'Herausgeber heute: Emin Mahrt'. For 2009 say 'Heft 01 (2009): Herausgeber laut Impressum Richard Kirschstein und Emin Henri Mahrt'. Never write that Emin was sole publisher in 2009.",
+    "sources": [
+      {
+        "url": "owner statement",
+        "accessed": "2026-10-06",
+        "quote": "Emin, chat 2026-10-06"
       }
     ]
   },
@@ -150,9 +166,25 @@
     ]
   },
   {
+    "id": "dfjv-newsletter-2009-05",
+    "claim_de": "Der Deutsche Fachjournalisten-Verband stellte proud im Newsletter DFJV-News vom 7. Mai 2009 vor: „bunt, aufregend, frisch und eben anders.“",
+    "claim_en": "The German professional journalists' association DFJV featured proud in its newsletter DFJV-News of 7 May 2009: “bunt, aufregend, frisch und eben anders” (colourful, exciting, fresh and simply different).",
+    "status": "VERIFIED-PRIMARY",
+    "usage": "Quote only in this form. No public URL exists: do not link dfjv.de as the source. Never write recognised/awarded/praised multiple times. Never publish the private addresses from the mail.",
+    "sources": [
+      {
+        "url": null,
+        "evidence": "docs/evidence/DFJV_NEWSLETTER_2009-05.md",
+        "held_by": "original newsletter mail (News@dfjv.de, 07.05.2009) in the owner's mailbox",
+        "accessed": "2026-10-06",
+        "quote": "Das monatlich erscheinende Magazin ist aber vor allem eins: von Berlinern für Berliner. Und das bedeutet bunt, aufregend, frisch und eben anders."
+      }
+    ]
+  },
+  {
     "id": "dfjv",
-    "claim_de": "proud wurde vom DFJV anerkannt.",
-    "claim_en": "proud was recognized by the DFJV.",
+    "claim_de": "proud wurde vom DFJV anerkannt/ausgezeichnet bzw. mehrfach erwähnt.",
+    "claim_en": "proud was recognised/awarded by the DFJV or mentioned by it multiple times.",
     "status": "UNVERIFIED",
     "sources": [
       {
@@ -175,7 +207,8 @@
         "accessed": "2026-10-06",
         "quote": "No public DFJV page found; site search returns 'Seite nicht gefunden'"
       }
-    ]
+    ],
+    "usage": "Do NOT claim. Only the single newsletter mention (id dfjv-newsletter-2009-05) is verified."
   },
   {
     "id": "yuja-wang",

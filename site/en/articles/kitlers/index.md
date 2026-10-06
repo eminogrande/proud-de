@@ -15,6 +15,7 @@ magazine_title: "01 proud issuu_output"
 issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "10-10"
+authors: []
 ---
 ## TL;DR
 
@@ -29,6 +30,7 @@ We imagine that political and social freedoms are important and all that. We als
 
 > Source: 01 proud issuu_output, page 10
 > Issue date: January 2009
+> Photo: flickr.com
 
 We imagine that political and social freedoms are important and all that. We also tolerate this whole New Wave Punk Death Zigzag culture and the politically engaged yuppies who – day in, day out – force their opinions on everyone. However, when house cats style themselves like Hitler to impress their friends, we view that critically.
 

@@ -15,6 +15,7 @@ magazine_title: "01 proud issuu_output"
 issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "30-31"
+authors: ["Johnny Macchiato, Schnaps Magazine"]
 ---
 ## TL;DR
 
@@ -28,6 +29,7 @@ a gang bang with bucati force
 
 > Quelle: 01 proud issuu_output, Seiten 30-31
 > Erschienen: Januar 2009
+> Von: Johnny Macchiato, Schnaps Magazine
 
 a gang bang with bucati force
 

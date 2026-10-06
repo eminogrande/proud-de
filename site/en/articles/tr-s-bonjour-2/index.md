@@ -15,6 +15,7 @@ magazine_title: "01 proud issuu_output"
 issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "48-48"
+authors: []
 ---
 ## TL;DR
 
@@ -29,6 +30,7 @@ You've seen it. You want it.
 
 > Source: 01 proud issuu_output, page 48
 > Issue date: January 2009
+> Photo: JanAdler.com
 
 You've seen it. You want it. We understand. Interested parties, please let us know your dress size. Available:
 

@@ -15,6 +15,7 @@ magazine_title: "01 proud issuu_output"
 issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "12-12"
+authors: []
 ---
 ## TL;DR
 
@@ -29,6 +30,7 @@ Wondering how incredibly hot a woman can look in a blue metallic swimsuit? Then 
 
 > Source: 01 proud issuu_output, page 12
 > Issue date: January 2009
+> Photo: JanAdler.com
 
 très bonjour
 

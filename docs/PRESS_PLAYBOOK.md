@@ -185,7 +185,7 @@ flowchart TD
 
 | Block | Inhalt |
 |---|---|
-| Kopf | Logo, „proud – Magazin aus Berlin, seit 2008“, Gründer/Herausgeber, ISSN (print + online) |
+| Kopf | Logo, „proud – Magazin aus Berlin“, erstes Heft Januar 2009, „Herausgeber heute: Emin Mahrt“, ISSN nur falls später vergeben |
 | Kurzprofil | 3 Sätze: Musik, Stadt, Nacht, Stil. Print 2008–2014, ~32 Ausgaben, Archiv komplett online, Neustart 2026 |
 | Reichweite (messen!) | Monatliche Besucher, Seitenaufrufe, Top-Artikel, YouTube-Abos/Views, Newsletter, Social-Follower – jeweils mit Datum und Messmethode |
 | Publikum | Länder/Städte, Sprache DE/EN, Interessen. Nur echte Daten |
@@ -198,6 +198,8 @@ flowchart TD
 ---
 
 ## 5. Recht: Pflicht für eine journalistische Website
+
+> **Stand 06.10.2026 (Angabe Emin):** Betreiber ist **Emin Mahrt als Privatperson** (freiberuflich, keine Gesellschaft). Herausgeber heute: Emin Mahrt allein. proud works GmbH ist nicht mehr Betreiberin; Kirschstein ist ausgeschieden. Impressum daher ohne Registergericht, HRB oder Geschäftsführer. Für den Presseausweis zählt Emins eigene journalistische Arbeit (Byline-Artikel), nicht die Herausgeber-Rolle.
 
 | Thema | Regel | Quelle |
 |---|---|---|
@@ -309,7 +311,7 @@ ISSN auf der Seite: im Footer und Impressum „ISSN xxxx-xxxx (Online)“ + Prin
 | **Redaktionelle Grundsätze** | `/grundsaetze/` | Wie wir arbeiten | Bekenntnis Pressekodex, Trennung Redaktion/Werbung, Quellen, Interviews autorisieren, KI-Nutzung offenlegen (Übersetzung/OCR des Archivs) |
 | **Korrekturen** | `/korrekturen/` | Fehler offen korrigieren | Prozess, Fristen, Kennzeichnung im Artikel, Liste der Korrekturen |
 | **Kontakt / Presse** | `/kontakt/` | Erreichbarkeit | `redaktion@`, `presse@`, Media Kit-PDF, Bildmaterial, Antwortzeit |
-| **Impressum** | `/impressum/` | Gesetzliche Anbieterkennzeichnung | § 5 DDG + § 18 Abs. 2 MStV, ggf. USt-ID, Presserat-Hinweis, ISSN |
+| **Impressum** | `/impressum/` | Gesetzliche Anbieterkennzeichnung | Anbieter = **natürliche Person Emin Mahrt** (keine GmbH, kein HRB): Name, ladungsfähige Anschrift, E-Mail; V.i.S.d. § 18 Abs. 2 MStV = Emin Mahrt; USt-ID nur falls vorhanden; Presserat-Hinweis |
 | **Datenschutz** | `/datenschutz/` | DSGVO-Information | Hoster, Logs, Kontakt, YouTube-Embeds (2-Klick), keine Tracking-Cookies (wenn wahr) |
 | **Urheberrecht & Takedown** | `/rechte/` | Rechte der Beitragenden | Credits-Prinzip, Widerspruch/Entfernung, Reaktionszeit, Kontakt, Löschbitten Personen |
 | **Archiv-Leitfaden** | `/archiv/` | Wie das Archiv entstand und zu lesen ist | Quelle (Scans), OCR/KI-Übersetzung, Fehlerhinweis, Zitierweise, Permalinks, API/MCP/llms.txt |

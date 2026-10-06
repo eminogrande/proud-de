@@ -15,6 +15,7 @@ magazine_title: "01 proud issuu_output"
 issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "6-6"
+authors: []
 ---
 ## TL;DR
 
@@ -30,8 +31,6 @@ This document outlines the masthead for "proud" magazine, detailing the key pers
 
 > Source: 01 proud issuu_output, page 6
 > Issue date: January 2009
-> Text: Editor
-Miron Tenenberg
 
 ### Publisher
 Richard Kirschstein
