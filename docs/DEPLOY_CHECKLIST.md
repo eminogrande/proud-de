@@ -2,6 +2,13 @@
 
 Use this checklist before every public deploy.
 
+```mermaid
+flowchart LR
+  B[build:site] --> C[commit site/] --> PR[PR + merge] --> D[wrangler deploy]
+  D --> L[live proof: curl, isitagentready, Ora, Lighthouse]
+  L -->|regression| R[wrangler rollback VERSION_ID]
+```
+
 ## Required local checks
 
 1. Build the site:
@@ -33,7 +40,7 @@ npm run audit:live -- https://proud.xn--wp9h.tk
 
 1. Agent readiness target is 100%.
 2. PageSpeed target is 100 for Performance, Accessibility, Best Practices, and SEO.
-3. No broken images, PDFs, canonicals, alternates, sitemap, robots, `llms.txt`, MCP, OAuth, or search endpoints.
+3. No broken images, PDFs, canonicals, alternates, sitemap, robots, `llms.txt`, MCP, or search endpoints. 404s return a body (Markdown on pages, `application/problem+json` on `/api*`).
 4. Visible article pages must read like a modern magazine, not a technical archive export.
 5. If any score is below target, document the exact failing check before release.
 

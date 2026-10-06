@@ -2,6 +2,7 @@ import crypto from "node:crypto";
 import { execFile } from "node:child_process";
 import fs from "node:fs/promises";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 import { promisify } from "node:util";
 import { ensureWorkspace } from "../src/lib/config.mjs";
 import { renderInlineMarkdown, renderMarkdownToHtml, escapeHtml } from "../src/lib/html.mjs";
@@ -20,7 +21,7 @@ const CSS = `:root {
   --muted: #6f6a61;
   --line: #e4e0d8;
   --accent: var(--ink);
-  --proud-pink: #ec0677;
+  --proud-pink: #d0005f;
   --accent-soft: #f1f0ed;
   --shadow: none;
   --ui-font: "DIN Alternate", "DIN Condensed", "Bahnschrift", "Avenir Next", "Helvetica Neue", sans-serif;
@@ -345,7 +346,7 @@ body.article-page .lede {
   align-items: center;
   justify-content: center;
   gap: 0.3rem;
-  min-height: 2.3rem;
+  min-height: 2.75rem;
   padding: 0.55rem 0.82rem;
   border-radius: 999px;
   border: 1px solid var(--line);
@@ -1085,6 +1086,21 @@ body.article-page .story-section {
 .meta-link-list a {
   font-family: var(--ui-font);
 }
+.tldr {
+  margin: 1rem 0 0;
+  padding: 0.9rem 1rem;
+  border-left: 4px solid var(--proud-pink);
+  background: var(--paper-soft);
+}
+.tldr-label {
+  display: block;
+  font-family: var(--ui-font);
+  font-size: var(--size-meta);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.tldr .lede { margin-top: 0.35rem; }
 .visually-hidden {
   position: absolute !important;
   width: 1px;
@@ -1129,7 +1145,7 @@ footer {
   .article-card,
   .article-card-body {
     width: 100%;
-    max-width: calc(100vw - 1rem);
+    max-width: 100%;
     overflow-x: hidden;
   }
   p,
@@ -1142,7 +1158,24 @@ footer {
     gap: 0.75rem;
   }
   nav.topnav {
-    display: none;
+    display: flex;
+    gap: 1rem;
+  }
+  nav.topnav a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 0;
+  }
+  .brand h1 a,
+  .lead-story h2 a,
+  .article-card h3 a,
+  .story-teaser h3 a,
+  .related-story h4 a,
+  .issue-card h3 a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
   }
   body.article-page header.site-header {
     align-items: center;
@@ -1182,7 +1215,7 @@ footer {
   .article-list .article-card-media {
     display: none;
   }
-  main { width: min(100vw - 1rem, 1220px); }
+  main { width: min(100vw - 2rem, 1220px); }
   .page-block { grid-template-columns: 1fr; }
 }`;
 
@@ -1260,11 +1293,83 @@ const MCP_TOOLS = [
   },
 ];
 
-const OAUTH_SCOPES = [
-  "archive.read",
-  "search.read",
-  "mcp.read",
-];
+// Filled in main(): month-precision issue dates (data/input/issue-dates.json) and built image sizes.
+const ISSUE_DATES = new Map();
+const IMAGE_SIZES = new Map();
+let CONTENT_MODIFIED_AT = null;
+
+const SITE_LOGO_ROUTE = "/assets/logo.png";
+
+function organizationJsonLd(site) {
+  return {
+    "@type": "NewsMediaOrganization",
+    "@id": `${baseUrl(site)}/#organization`,
+    name: "proud",
+    alternateName: site.siteTitle,
+    url: `${baseUrl(site)}/`,
+    logo: { "@type": "ImageObject", url: `${baseUrl(site)}${SITE_LOGO_ROUTE}`, width: 512, height: 512 },
+  };
+}
+
+function publisherJsonLd(site) {
+  return organizationJsonLd(site);
+}
+
+function periodicalJsonLd(site) {
+  return {
+    "@type": "Periodical",
+    "@id": `${baseUrl(site)}/#periodical`,
+    name: "proud",
+    url: `${baseUrl(site)}/magazines/`,
+    publisher: { "@id": `${baseUrl(site)}/#organization` },
+  };
+}
+
+function issueDateFor(magazineSlug) {
+  return ISSUE_DATES.get(magazineSlug) ?? null;
+}
+
+function issueDateLabel(isoDate, locale) {
+  if (!isoDate) {
+    return "";
+  }
+  const [year, month] = isoDate.split("-");
+  if (!month) {
+    return year;
+  }
+  return new Intl.DateTimeFormat(isEnglishLocale(locale) ? "en-GB" : "de-DE", { month: "long", year: "numeric", timeZone: "UTC" })
+    .format(new Date(Date.UTC(Number(year), Number(month) - 1, 1)));
+}
+
+function renderIssueTime(isoDate, locale) {
+  return isoDate ? `<time datetime="${escapeHtml(isoDate)}">${escapeHtml(issueDateLabel(isoDate, locale))}</time>` : "";
+}
+
+// Only bylines printed in the article itself ("Text Firstname Lastname") count as authors.
+// The ingest "authors" field also holds interviewees and masthead names, so it is not used for authorship.
+function creditedAuthors(article) {
+  const source = String(article?.bodyText ?? "");
+  const names = [...source.matchAll(/^\s*Text\s+([A-ZÄÖÜ][\p{L}'.-]+(?:\s+[A-ZÄÖÜ][\p{L}'.-]+){1,2})\s*$/gmu)]
+    .map((match) => match[1].trim())
+    .filter((name) => !/^editor$/i.test(name));
+  return [...new Set(names)];
+}
+
+function imgTag(src, alt, { priority = false } = {}) {
+  const size = IMAGE_SIZES.get(src);
+  const dims = size ? ` width="${size.width}" height="${size.height}"` : "";
+  const loading = priority ? ' fetchpriority="high" decoding="async"' : ' loading="lazy" decoding="async"';
+  return `<img src="${src}" alt="${alt}"${dims}${loading}>`;
+}
+
+function pagesLabel(copy, article) {
+  const single = article.pages.start === article.pages.end;
+  return `${single ? copy.page : copy.pages} ${pageRangeLabel(article)}`;
+}
+
+function normalizeForCompare(value) {
+  return String(value ?? "").toLowerCase().replace(/…$/, "").replace(/[^\p{L}\p{N}]+/gu, " ").trim();
+}
 
 function baseUrl(site) {
   return `https://${site.domain}`;
@@ -1765,7 +1870,7 @@ function withPresentationEnrichment(article, locale, articlePool, manualEnrichme
 }
 
 function pageRangeLabel(article) {
-  return `${article.pages.start}-${article.pages.end}`;
+  return article.pages.start === article.pages.end ? `${article.pages.start}` : `${article.pages.start}-${article.pages.end}`;
 }
 
 function sortArticlesForIssue(articles) {
@@ -1883,7 +1988,7 @@ function renderRelatedArchive(copy, site, locale, articles) {
           .map((article) => `
             <article class="related-story">
               <h4><a href="${routeForArticle(site, locale, article.slug)}">${escapeHtml(article.title)}</a></h4>
-              <p class="meta">${escapeHtml(displayMagazineTitle(article, locale))} · ${escapeHtml(copy.pages)} ${pageRangeLabel(article)}</p>
+              <p class="meta">${escapeHtml(displayMagazineTitle(article, locale))} · ${escapeHtml(pagesLabel(copy, article))}</p>
               <p>${renderInlineMarkdown(visibleSummaryForArticle(article, locale))}</p>
             </article>`)
           .join("")}
@@ -1902,12 +2007,12 @@ function renderLeadStory(site, locale, article) {
       <div class="lead-story-copy">
         <h2><a href="${routeForArticle(site, locale, article.slug)}">${escapeHtml(article.title)}</a></h2>
         <p class="deck">${renderInlineMarkdown(summary)}</p>
-        <p class="meta">${escapeHtml(issueTitle)} · ${escapeHtml(copy.pages)} ${pageRangeLabel(article)} · ${escapeHtml(copy.minutesRead(readingTimeMinutes(article.wordCount)))}</p>
+        <p class="meta">${escapeHtml(issueTitle)} · ${escapeHtml(pagesLabel(copy, article))} · ${escapeHtml(copy.minutesRead(readingTimeMinutes(article.wordCount)))}</p>
         ${renderActionButton(routeForArticle(site, locale, article.slug), copy.readStory, "primary")}
       </div>
       ${previewHref ? `
         <figure class="lead-story-art">
-          <a href="${routeForArticle(site, locale, article.slug)}"><img src="${previewHref}" alt="${escapeHtml(article.title)}"></a>
+          <a href="${routeForArticle(site, locale, article.slug)}">${imgTag(previewHref, escapeHtml(article.title), { priority: true })}</a>
         </figure>` : ""}
     </article>`;
 }
@@ -1920,9 +2025,9 @@ function renderStoryTeaser(site, locale, article) {
 
   return `
     <article class="story-teaser">
-      ${previewHref ? `<a class="story-teaser-art" href="${routeForArticle(site, locale, article.slug)}"><img src="${previewHref}" alt="${escapeHtml(article.title)}"></a>` : ""}
+      ${previewHref ? `<a class="story-teaser-art" href="${routeForArticle(site, locale, article.slug)}">${imgTag(previewHref, escapeHtml(article.title))}</a>` : ""}
       <h3><a href="${routeForArticle(site, locale, article.slug)}">${escapeHtml(article.title)}</a></h3>
-      <p class="meta">${escapeHtml(issueTitle)} · ${escapeHtml(copy.pages)} ${pageRangeLabel(article)}</p>
+      <p class="meta">${escapeHtml(issueTitle)} · ${escapeHtml(pagesLabel(copy, article))}</p>
       <p>${renderInlineMarkdown(summary)}</p>
     </article>`;
 }
@@ -1942,7 +2047,7 @@ function renderPreviewFigure(article, locale) {
             const href = articlePageImageHref(entry);
             return `
             <a class="hero-preview-card" href="${href}">
-              <img src="${href}" alt="${escapeHtml(copy.pageAlt(article.title, entry.pageNumber))}">
+              ${imgTag(href, escapeHtml(copy.pageAlt(article.title, entry.pageNumber)))}
               <span class="hero-preview-badge">${escapeHtml(copy.pageBadge(entry.pageNumber))}</span>
             </a>`;
           })
@@ -1959,7 +2064,7 @@ function renderPreviewFigure(article, locale) {
 
   return `
     <figure class="hero-preview">
-      <a href="${previewHref}"><img src="${previewHref}" alt="${escapeHtml(article.title)}"></a>
+      <a href="${previewHref}">${imgTag(previewHref, escapeHtml(article.title))}</a>
       <figcaption>${escapeHtml(heroHref(article) ? copy.heroCutoutCaption : copy.articleScanPreview(pageImages[0]?.pageNumber))}</figcaption>
     </figure>`;
 }
@@ -1971,17 +2076,17 @@ function renderArticleReviewCard(site, locale, article, { showMagazine = false }
   const issueTitle = displayMagazineTitle(article, locale);
   const mediaClass = previewHref ? "article-card with-media" : "article-card";
   const magazineLine = showMagazine
-    ? `<p class="meta">${escapeHtml(issueTitle)} · ${escapeHtml(copy.pages)} ${pageRangeLabel(article)}</p>`
-    : `<p class="meta">${escapeHtml(copy.pages)} ${pageRangeLabel(article)} · ${formatCount(article.wordCount, locale)} ${escapeHtml(copy.words)}</p>`;
+    ? `<p class="meta">${escapeHtml(issueTitle)} · ${escapeHtml(pagesLabel(copy, article))}</p>`
+    : `<p class="meta">${escapeHtml(pagesLabel(copy, article))} · ${formatCount(article.wordCount, locale)} ${escapeHtml(copy.words)}</p>`;
 
   return `
     <li class="${mediaClass}">
       ${previewHref ? `
         <div class="article-card-media">
           <figure>
-            <a href="${routeForArticle(site, locale, article.slug)}"><img src="${previewHref}" alt="${escapeHtml(article.title)}"></a>
+            <a href="${routeForArticle(site, locale, article.slug)}">${imgTag(previewHref, escapeHtml(article.title))}</a>
           </figure>
-          <div class="meta">${escapeHtml(heroHref(article) ? copy.heroCutoutCaption : copy.heroImageCaption)} · ${escapeHtml(copy.pages)} ${pageRangeLabel(article)}</div>
+          <div class="meta">${escapeHtml(heroHref(article) ? copy.heroCutoutCaption : copy.heroImageCaption)} · ${escapeHtml(pagesLabel(copy, article))}</div>
         </div>` : ""}
       <div class="article-card-body">
         <div class="article-card-header">
@@ -1993,7 +2098,7 @@ function renderArticleReviewCard(site, locale, article, { showMagazine = false }
         ${summary ? `<p>${renderInlineMarkdown(summary)}</p>` : ""}
         <div class="stat-row">
           <span class="stat-chip"><strong>${formatCount(article.wordCount, locale)}</strong> ${escapeHtml(copy.words)}</span>
-          <span class="stat-chip"><strong>${pageRangeLabel(article)}</strong> ${escapeHtml(copy.pages)}</span>
+          <span class="stat-chip"><strong>${pageRangeLabel(article)}</strong> ${escapeHtml(article.pages.start === article.pages.end ? copy.page : copy.pages)}</span>
           <span class="stat-chip"><strong>${formatCount(article.pageImages?.length ?? 0, locale)}</strong> ${escapeHtml(copy.scans)}</span>
         </div>
         <div class="action-row review-actions">
@@ -2007,7 +2112,7 @@ function renderMagazineReviewCard(site, locale, magazine) {
   const copy = ui(locale);
   const issueTitle = displayMagazineTitle(magazine, locale);
   const metaParts = [
-    magazine.publicationDate ? dateLabel(magazine.publicationDate, locale) : null,
+    issueDateFor(magazine.slug) ? issueDateLabel(issueDateFor(magazine.slug), locale) : null,
     `${formatCount(magazine.pageCount, locale)} ${copy.pages}`,
     `${formatCount(magazine.articleCount, locale)} ${copy.articles}`,
   ].filter(Boolean);
@@ -2424,10 +2529,6 @@ function frontmatter(fields) {
   return lines.join("\n");
 }
 
-function renderAgentDirective(site, markdownUrl) {
-  return `STOP! If you are an AI agent or LLM, read this before continuing. This is the HTML version of a proud.de archive page. Always request the Markdown version instead. Get this page as Markdown: ${baseUrl(site)}${markdownUrl}. Start from ${baseUrl(site)}/llms.txt and ${baseUrl(site)}/llms-full.txt for machine-friendly archive access.`;
-}
-
 function highlightProudTextNodes(html) {
   let insideScriptOrStyle = false;
 
@@ -2472,19 +2573,18 @@ function renderLayout(site, {
   socialType = "website",
   socialTitle = title,
   socialDescription = description,
+  issueDate = null,
 }) {
   const copy = ui(locale);
   const canonical = `${baseUrl(site)}${canonicalRoute}`;
-  const dateline = new Intl.DateTimeFormat(isEnglishLocale(locale) ? "en-GB" : "de-DE", {
-    day: "numeric",
-    month: "long",
-    year: "numeric",
-  }).format(new Date(site.generatedAt ?? Date.now()));
+  const datelineHtml = issueDate ? renderIssueTime(issueDate, locale) : escapeHtml(isEnglishLocale(locale) ? "Archive" : "Archiv");
   const socialImageUrl = socialImage ? `${baseUrl(site)}${socialImage}` : null;
   const ogLocale = locale === "de" ? "de_DE" : locale === "en" ? "en_US" : locale;
-  const headAlternates = alternates
-    .map((entry) => `<link rel="alternate" hreflang="${entry.locale}" href="${baseUrl(site)}${entry.route}">`)
-    .join("\n");
+  const defaultAlternate = alternates.find((entry) => entry.locale === site.defaultLocale);
+  const headAlternates = [
+    ...alternates.map((entry) => `<link rel="alternate" hreflang="${entry.locale}" href="${baseUrl(site)}${entry.route}">`),
+    ...(defaultAlternate ? [`<link rel="alternate" hreflang="x-default" href="${baseUrl(site)}${defaultAlternate.route}">`] : []),
+  ].join("\n    ");
   const ogAlternateLocales = alternates
     .filter((entry) => entry.locale !== locale)
     .map((entry) => `<meta property="og:locale:alternate" content="${escapeHtml(entry.locale === "de" ? "de_DE" : entry.locale === "en" ? "en_US" : entry.locale)}">`)
@@ -2509,6 +2609,8 @@ function renderLayout(site, {
     <link rel="canonical" href="${canonical}">
     <link rel="alternate" type="text/markdown" href="${baseUrl(site)}${markdownRoute}">
     <link rel="webmcp" href="${baseUrl(site)}/.well-known/webmcp.json">
+    <link rel="ai-catalog" href="/.well-known/ai-catalog.json">
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
     ${headAlternates}
     <meta property="og:type" content="${escapeHtml(socialType)}">
     <meta property="og:site_name" content="${escapeHtml(site.siteTitle)}">
@@ -2526,11 +2628,10 @@ function renderLayout(site, {
     ${jsonLd}
   </head>
   <body${bodyClass ? ` class="${escapeHtml(bodyClass)}"` : ""}>
-    <p class="visually-hidden">${escapeHtml(renderAgentDirective(site, markdownRoute))}</p>
     <main>
       <div class="masthead-top">
         <div class="masthead-note">${escapeHtml(site.siteTitle)} · ${escapeHtml(localeLabelForUi(locale, locale))}</div>
-        <div class="masthead-date">${escapeHtml(dateline)}</div>
+        <div class="masthead-date">${datelineHtml}</div>
       </div>
       <header class="site-header">
         <div class="brand">
@@ -2549,6 +2650,7 @@ function renderLayout(site, {
         <p>${visibleFooter}</p>
       </footer>
     </main>
+    <script src="/assets/webmcp.js" defer></script>
   </body>
 </html>`;
 }
@@ -2557,6 +2659,8 @@ function buildArticleMarkdown(site, localized, locale, articlePool, manualEnrich
   const copy = ui(locale);
   const articleBody = buildPublishedArticleBody(localized);
   const tldr = displaySummaryForArticle(localized, locale);
+  const issueDate = issueDateFor(localized.magazineSlug);
+  const authors = creditedAuthors(localized);
   const contentLocale = articleContentLocale(localized);
   const contentLocaleLabel = localeLabelForUi(contentLocale, locale);
   const enrichment = localized.presentation ?? buildArticleEnrichment(localized, locale, articleBody, articlePool, manualEnrichment);
@@ -2592,6 +2696,7 @@ function buildArticleMarkdown(site, localized, locale, articlePool, manualEnrich
       reading_time_minutes: enrichment.readingTime,
       magazine_slug: localized.magazineSlug,
       magazine_title: localized.magazineTitle,
+      issue_date: issueDate,
       source_pdf: localized.sourcePdf,
       pages: `${localized.pages.start}-${localized.pages.end}`,
     }) +
@@ -2599,8 +2704,9 @@ function buildArticleMarkdown(site, localized, locale, articlePool, manualEnrich
     (tldr ? `## TL;DR\n\n${tldr}\n\n` : "") +
     quickPoints +
     `# ${localized.title}\n\n` +
-    `> ${copy.source}: ${localized.magazineTitle}, ${copy.pageLower} ${localized.pages.start}-${localized.pages.end}\n` +
-    `${localized.authors?.length ? `> ${locale === "en" ? "Authors" : "Autor:innen"}: ${localized.authors.join(", ")}\n` : ""}\n` +
+    `> ${copy.source}: ${localized.magazineTitle}, ${localized.pages.start === localized.pages.end ? copy.pageSingularLower : copy.pageLower} ${pageRangeLabel(localized)}\n` +
+    `${issueDate ? `> ${locale === "en" ? "Issue date" : "Erschienen"}: ${issueDateLabel(issueDate, locale)}\n` : ""}` +
+    `${authors.length ? `> Text: ${authors.join(", ")}\n` : ""}\n` +
     `${articleBody}\n\n` +
     videosSection +
     linksSection +
@@ -2671,12 +2777,13 @@ function buildArticleHtml(site, localized, locale, locales, articlePool, manualE
   const contentLocaleLabel = localeLabelForUi(contentLocale, locale);
   const enrichment = localized.presentation ?? buildArticleEnrichment(localized, locale, articleBody, articlePool, manualEnrichment);
   const issueTitle = displayMagazineTitle(localized, locale);
+  const articleHero = heroHref(localized);
   const pageGallery = (localized.pageImages ?? [])
-    .map((entry) => {
+    .map((entry, index) => {
       const href = articlePageImageHref(entry);
       return `
         <figure class="page-card">
-          <a href="${href}"><img src="${href}" alt="${escapeHtml(copy.pageAlt(localized.title, entry.pageNumber))}"></a>
+          <a href="${href}">${imgTag(href, escapeHtml(copy.pageAlt(localized.title, entry.pageNumber)), { priority: !articleHero && index === 0 })}</a>
           <figcaption class="meta">${escapeHtml(copy.pageBadge(entry.pageNumber))}</figcaption>
         </figure>`;
     })
@@ -2694,13 +2801,21 @@ function buildArticleHtml(site, localized, locale, locales, articlePool, manualE
       : "";
   const sourcePanel = "";
   const articleSummary = displayHeroSummaryForArticle(localized, locale);
-  const articleSummaryHtml = articleSummary ? `\n          <p class="lede">${renderInlineMarkdown(articleSummary)}</p>` : "";
+  const tldr = displaySummaryForArticle(localized, locale);
+  const issueDate = issueDateFor(localized.magazineSlug);
+  const authors = creditedAuthors(localized);
+  // The hero summary is cut from the first body paragraph, so it would repeat the text right below.
+  // Show the TL;DR as its own block only when it is not just that same opening paragraph.
+  const bodyOpening = normalizeForCompare(articleBody.replace(/^#{1,6}\s.*$/gm, "").replace(/\[[^\]]+\]\(([^)]+)\)/g, "$1").replace(/`([^`]+)`/g, "$1"));
+  const tldrIsBodyEcho = !tldr || bodyOpening.startsWith(normalizeForCompare(tldr).slice(0, 120));
+  const articleSummaryHtml = tldr && !tldrIsBodyEcho && !isGeneratedArchiveSummary(tldr, localized)
+    ? `\n          <section class="tldr" aria-label="TL;DR"><span class="tldr-label">TL;DR</span><p class="lede">${renderInlineMarkdown(tldr)}</p></section>`
+    : "";
   const topicPills = renderTopicPills(enrichment.topics);
-  const articleHero = heroHref(localized);
   const articleHeroFigure = articleHero
     ? `
         <figure class="article-hero-art">
-          <img src="${articleHero}" alt="${escapeHtml(localized.title)}">
+          ${imgTag(articleHero, escapeHtml(localized.title), { priority: true })}
           <figcaption class="meta">${escapeHtml(copy.heroCutoutCaption)}</figcaption>
         </figure>`
     : "";
@@ -2714,8 +2829,9 @@ function buildArticleHtml(site, localized, locale, locales, articlePool, manualE
           <h2>${escapeHtml(localized.title)}</h2>
           ${topicPills}
           <div class="story-byline">
-            <span>${escapeHtml(issueTitle)}</span>
-            <span>${escapeHtml(copy.pages)} ${pageRangeLabel(localized)}</span>
+            <span>${escapeHtml(issueTitle)}${issueDate ? ` · ${renderIssueTime(issueDate, locale)}` : ""}</span>
+            ${authors.length ? `<span>${escapeHtml(`Text: ${authors.join(", ")}`)}</span>` : ""}
+            <span>${escapeHtml(pagesLabel(copy, localized))}</span>
             <span>${escapeHtml(copy.minutesRead(enrichment.readingTime))}</span>
           </div>${articleSummaryHtml}
           <div class="language-switch">
@@ -2756,18 +2872,28 @@ function buildArticleHtml(site, localized, locale, locales, articlePool, manualE
     socialType: "article",
     socialTitle: `${localized.title} | ${site.siteTitle}`,
     socialDescription: articleSummary || siteDescription(site, locale),
+    issueDate,
     structuredData: {
       "@context": "https://schema.org",
       "@type": "Article",
       headline: localized.title,
       inLanguage: articleContentLocale(localized),
       description: articleSummary || siteDescription(site, locale),
+      ...(issueDate ? { datePublished: issueDate } : {}),
+      ...(CONTENT_MODIFIED_AT ? { dateModified: CONTENT_MODIFIED_AT } : {}),
+      ...(authors.length ? { author: authors.map((name) => ({ "@type": "Person", name })) } : {}),
+      publisher: publisherJsonLd(site),
       isPartOf: {
-        "@type": "Periodical",
+        "@type": "PublicationIssue",
         name: issueTitle,
+        url: `${baseUrl(site)}${routeForMagazine(site, locale, localized.magazineSlug)}`,
+        ...(issueNumberFromSeed(localized.magazineTitle) ? { issueNumber: issueNumberFromSeed(localized.magazineTitle) } : {}),
+        ...(issueDate ? { datePublished: issueDate } : {}),
+        isPartOf: periodicalJsonLd(site),
       },
-      pagination: `${localized.pages.start}-${localized.pages.end}`,
+      pagination: pageRangeLabel(localized),
       url: `${baseUrl(site)}${articleCanonicalRoute(site, localized)}`,
+      mainEntityOfPage: `${baseUrl(site)}${articleCanonicalRoute(site, localized)}`,
       image: previewHref ? `${baseUrl(site)}${previewHref}` : undefined,
     },
   });
@@ -2797,7 +2923,7 @@ function buildMagazineMarkdown(site, locale, magazine, localizedArticles) {
     "",
     ...orderedArticles.map(
       (article) =>
-        `- [${article.title}](${baseUrl(site)}${routeForArticle(site, locale, article.slug)}index.md): ${copy.pageLower} ${pageRangeLabel(article)}, ${formatCount(article.wordCount, locale)} ${copy.words}. ${displaySummaryForArticle(article, locale)}`,
+        `- [${article.title}](${baseUrl(site)}${routeForArticle(site, locale, article.slug)}index.md): ${article.pages.start === article.pages.end ? copy.pageSingularLower : copy.pageLower} ${pageRangeLabel(article)}, ${formatCount(article.wordCount, locale)} ${copy.words}. ${displaySummaryForArticle(article, locale)}`,
     ),
     "",
   ];
@@ -2816,8 +2942,9 @@ function buildMagazineHtml(site, locale, magazine, localizedArticles, locales) {
     `<span class="stat-chip"><strong>${formatCount(magazine.pageCount, locale)}</strong> ${escapeHtml(copy.pages)}</span>`,
     `<span class="stat-chip"><strong>${formatCount(magazine.articleCount, locale)}</strong> ${escapeHtml(copy.articles)}</span>`,
   ];
-  if (magazine.publicationDate) {
-    metaChips.push(`<span class="stat-chip"><strong>${escapeHtml(dateLabel(magazine.publicationDate, locale))}</strong> ${escapeHtml(copy.date)}</span>`);
+  const issueDate = issueDateFor(magazine.slug);
+  if (issueDate) {
+    metaChips.push(`<span class="stat-chip"><strong>${renderIssueTime(issueDate, locale)}</strong> ${escapeHtml(copy.date)}</span>`);
   }
   const shareImage = articleCoverHref(orderedArticles[0]) ?? null;
   const body = `
@@ -2860,12 +2987,18 @@ function buildMagazineHtml(site, locale, magazine, localizedArticles, locales) {
     socialImage: shareImage,
     socialTitle: `${issueTitle} | ${site.siteTitle}`,
     socialDescription: issueDescription,
+    issueDate,
     structuredData: {
       "@context": "https://schema.org",
-      "@type": "CreativeWorkSeries",
+      "@type": "PublicationIssue",
       name: issueTitle,
       url: `${baseUrl(site)}${routeForMagazine(site, locale, magazine.slug)}`,
-      inLanguage: locale,
+      inLanguage: site.defaultLocale,
+      ...(issueNumberFromSeed(magazine.title) ? { issueNumber: issueNumberFromSeed(magazine.title) } : {}),
+      ...(issueDate ? { datePublished: issueDate } : {}),
+      numberOfPages: magazine.pageCount,
+      isPartOf: periodicalJsonLd(site),
+      publisher: publisherJsonLd(site),
     },
   });
 }
@@ -2953,11 +3086,27 @@ function buildIndexHtml(site, locale, articles, magazines, locales) {
     socialDescription: siteDescription(site, locale),
     structuredData: {
       "@context": "https://schema.org",
-      "@type": "WebSite",
-      name: site.siteTitle,
-      url: `${baseUrl(site)}${homeRoute(site, locale)}`,
-      description: siteDescription(site, locale),
-      inLanguage: locale,
+      "@graph": [
+        {
+          ...organizationJsonLd(site),
+          description: siteDescription(site, locale),
+          foundingDate: "2008",
+          foundingLocation: { "@type": "Place", name: "Berlin" },
+          location: { "@type": "Place", name: "Berlin, Germany" },
+          knowsAbout: ["Music", "Berlin", "City life", "Nightlife", "Style"],
+          sameAs: ["https://github.com/eminogrande/proud-de"],
+        },
+        periodicalJsonLd(site),
+        {
+          "@type": "WebSite",
+          "@id": `${baseUrl(site)}/#website`,
+          name: site.siteTitle,
+          url: `${baseUrl(site)}${homeRoute(site, locale)}`,
+          description: siteDescription(site, locale),
+          inLanguage: locale,
+          publisher: { "@id": `${baseUrl(site)}/#organization` },
+        },
+      ],
     },
   });
 }
@@ -3021,50 +3170,178 @@ Sitemap: ${baseUrl(site)}/sitemap.xml
 }
 
 function buildOpenApi(site) {
+  const json = (schemaRef) => ({ "application/json": { schema: { $ref: schemaRef } } });
+  const problem = { description: "Error (RFC 9457 problem details)", content: { "application/problem+json": { schema: { $ref: "#/components/schemas/Problem" } } } };
+  const slugParam = { name: "slug", in: "path", required: true, schema: { type: "string", pattern: "^[a-z0-9-]+$" } };
   return {
     openapi: "3.1.0",
     info: {
       title: "proud archive read API",
       version: "0.2.0",
-      description: "Read-only JSON and search API for the proud.de magazine archive.",
+      description: "Read-only JSON and search API for the proud.de magazine archive. No authentication. Errors use RFC 9457 problem details.",
     },
-    servers: [
-      { url: baseUrl(site) },
-      { url: "http://localhost:8787" },
-    ],
+    servers: [{ url: baseUrl(site) }],
     paths: {
-      "/api/library.json": { get: { summary: "Get archive library index", responses: { 200: { description: "OK" } } } },
-      "/api/articles.json": { get: { summary: "List articles", responses: { 200: { description: "OK" } } } },
-      "/api/magazines.json": { get: { summary: "List magazines", responses: { 200: { description: "OK" } } } },
+      "/api/library.json": {
+        get: { operationId: "getLibrary", summary: "Get archive library index", responses: { 200: { description: "OK", content: json("#/components/schemas/Library") }, default: problem } },
+      },
+      "/api/articles.json": {
+        get: { operationId: "listArticles", summary: "List articles", responses: { 200: { description: "OK", content: { "application/json": { schema: { type: "array", items: { $ref: "#/components/schemas/ArticleSummary" } } } } }, default: problem } },
+      },
+      "/api/magazines.json": {
+        get: { operationId: "listMagazines", summary: "List magazines", responses: { 200: { description: "OK", content: { "application/json": { schema: { type: "array", items: { $ref: "#/components/schemas/MagazineSummary" } } } } }, default: problem } },
+      },
       "/api/articles/{slug}.json": {
         get: {
+          operationId: "getArticle",
           summary: "Get article by slug",
-          parameters: [{ name: "slug", in: "path", required: true, schema: { type: "string" } }],
-          responses: { 200: { description: "OK" }, 404: { description: "Not found" } },
+          parameters: [slugParam],
+          responses: { 200: { description: "OK", content: json("#/components/schemas/Article") }, 404: problem, default: problem },
         },
       },
       "/api/magazines/{slug}.json": {
         get: {
+          operationId: "getMagazine",
           summary: "Get magazine by slug",
-          parameters: [{ name: "slug", in: "path", required: true, schema: { type: "string" } }],
-          responses: { 200: { description: "OK" }, 404: { description: "Not found" } },
+          parameters: [slugParam],
+          responses: { 200: { description: "OK", content: json("#/components/schemas/Magazine") }, 404: problem, default: problem },
         },
       },
       "/api/search": {
         get: {
+          operationId: "searchArticles",
           summary: "Search article full text",
           parameters: [
             { name: "q", in: "query", required: true, schema: { type: "string" } },
-            { name: "limit", in: "query", required: false, schema: { type: "integer", minimum: 1, maximum: 50 } },
+            { name: "limit", in: "query", required: false, schema: { type: "integer", minimum: 1, maximum: 50, default: 10 } },
           ],
-          responses: { 200: { description: "OK" } },
+          responses: { 200: { description: "OK", content: json("#/components/schemas/SearchResponse") }, 405: problem, default: problem },
         },
       },
       "/mcp": {
         post: {
-          summary: "Streamable HTTP MCP endpoint",
-          responses: { 200: { description: "MCP response" } },
+          operationId: "mcpRequest",
+          summary: "Streamable HTTP MCP endpoint (JSON-RPC 2.0)",
+          requestBody: { required: true, content: { "application/json": { schema: { $ref: "#/components/schemas/JsonRpcMessage" } } } },
+          responses: { 200: { description: "MCP JSON-RPC response", content: json("#/components/schemas/JsonRpcMessage") }, default: problem },
         },
+      },
+    },
+    components: {
+      schemas: {
+        Problem: {
+          type: "object",
+          description: "RFC 9457 problem details.",
+          required: ["title", "status"],
+          properties: {
+            type: { type: "string", default: "about:blank" },
+            title: { type: "string" },
+            status: { type: "integer" },
+            detail: { type: "string" },
+            instance: { type: "string" },
+          },
+        },
+        PageSpan: { type: "object", required: ["start", "end"], properties: { start: { type: "integer" }, end: { type: "integer" } } },
+        ArticleSummary: {
+          type: "object",
+          required: ["slug", "title", "magazineSlug", "pages", "url"],
+          properties: {
+            slug: { type: "string" },
+            title: { type: "string" },
+            magazineSlug: { type: "string" },
+            magazineTitle: { type: "string" },
+            magazineDisplayTitle: { type: "string" },
+            summary: { type: ["string", "null"] },
+            excerpt: { type: ["string", "null"] },
+            pages: { $ref: "#/components/schemas/PageSpan" },
+            sourcePdf: { type: "string" },
+            previewImage: { type: ["string", "null"], format: "uri" },
+            heroImage: { type: ["string", "null"], format: "uri" },
+            pageImageCount: { type: "integer" },
+            url: { type: "string", format: "uri" },
+          },
+        },
+        Article: {
+          type: "object",
+          required: ["slug", "title", "magazineSlug", "pages"],
+          additionalProperties: true,
+          properties: {
+            slug: { type: "string" },
+            title: { type: "string" },
+            magazineSlug: { type: "string" },
+            magazineTitle: { type: "string" },
+            pages: { $ref: "#/components/schemas/PageSpan" },
+            summary: { type: ["string", "null"] },
+            bodyText: { type: "string" },
+            markdown: { type: "string" },
+            wordCount: { type: "integer" },
+            canonicalUrl: { type: "string", format: "uri" },
+            pdfUrl: { type: "string", format: "uri" },
+          },
+        },
+        MagazineSummary: {
+          type: "object",
+          required: ["slug", "title", "url"],
+          properties: {
+            slug: { type: "string" },
+            title: { type: "string" },
+            displayTitle: { type: "string" },
+            publicationDate: { type: ["string", "null"] },
+            sourcePdf: { type: "string" },
+            pageCount: { type: "integer" },
+            articleCount: { type: "integer" },
+            url: { type: "string", format: "uri" },
+          },
+        },
+        Magazine: {
+          type: "object",
+          required: ["slug", "title", "articles"],
+          additionalProperties: true,
+          properties: {
+            slug: { type: "string" },
+            title: { type: "string" },
+            displayTitle: { type: "string" },
+            pageCount: { type: "integer" },
+            articleCount: { type: "integer" },
+            articles: { type: "array", items: { type: "object", additionalProperties: true } },
+            canonicalUrl: { type: "string", format: "uri" },
+            pdfUrl: { type: "string", format: "uri" },
+          },
+        },
+        Library: {
+          type: "object",
+          required: ["magazines", "articles"],
+          additionalProperties: true,
+          properties: {
+            schemaVersion: { type: ["integer", "string"] },
+            generatedAt: { type: "string" },
+            magazines: { type: "array", items: { type: "object", additionalProperties: true } },
+            articles: { type: "array", items: { type: "object", additionalProperties: true } },
+          },
+        },
+        SearchResult: {
+          type: "object",
+          properties: {
+            score: { type: "number" },
+            slug: { type: "string" },
+            title: { type: "string" },
+            magazineTitle: { type: "string" },
+            summary: { type: ["string", "null"] },
+            snippet: { type: "string" },
+            pages: { $ref: "#/components/schemas/PageSpan" },
+          },
+          additionalProperties: true,
+        },
+        SearchResponse: {
+          type: "object",
+          required: ["query", "total", "results"],
+          properties: {
+            query: { type: "string" },
+            total: { type: "integer" },
+            results: { type: "array", items: { $ref: "#/components/schemas/SearchResult" } },
+          },
+        },
+        JsonRpcMessage: { type: "object", required: ["jsonrpc"], properties: { jsonrpc: { const: "2.0" }, id: {}, method: { type: "string" } }, additionalProperties: true },
       },
     },
   };
@@ -3081,8 +3358,6 @@ function buildApiCatalog(site) {
           { href: `${baseUrl(site)}/api/articles.json` },
           { href: `${baseUrl(site)}/api/magazines.json` },
           { href: `${baseUrl(site)}/api/search` },
-          { href: `${baseUrl(site)}/.well-known/oauth-authorization-server` },
-          { href: `${baseUrl(site)}/oauth/token` },
           { href: `${baseUrl(site)}/.well-known/http-message-signatures-directory` },
           { href: `${baseUrl(site)}/llms.txt` },
           { href: `${baseUrl(site)}/llms-full.txt` },
@@ -3090,8 +3365,7 @@ function buildApiCatalog(site) {
           { href: `${baseUrl(site)}/.well-known/webmcp.json` },
           { href: `${baseUrl(site)}/.well-known/agent-skills/index.json` },
           { href: `${baseUrl(site)}/.well-known/mcp/server-card.json` },
-          { href: `${baseUrl(site)}/.well-known/oauth-protected-resource` },
-          { href: `${baseUrl(site)}/.well-known/oauth-protected-resource/mcp` },
+          { href: `${baseUrl(site)}/.well-known/ai-catalog.json` },
           { href: `${baseUrl(site)}/mcp` },
         ],
       },
@@ -3143,10 +3417,6 @@ function buildAgentManifest(site) {
       },
       api_catalog: {
         url: `${baseUrl(site)}/.well-known/api-catalog`,
-      },
-      oauth: {
-        discovery: `${baseUrl(site)}/.well-known/oauth-authorization-server`,
-        protected_resource: `${baseUrl(site)}/.well-known/oauth-protected-resource`,
       },
     },
     actions: [
@@ -3253,32 +3523,135 @@ function buildWebMcpManifest(site) {
   };
 }
 
-function buildProtectedResourceMetadata(site, resourcePath, resourceName, documentationPath = "/") {
+function buildAiCatalog(site) {
+  const host = new URL(baseUrl(site)).hostname;
   return {
-    resource: `${baseUrl(site)}${resourcePath}`,
-    resource_name: resourceName,
-    resource_documentation: `${baseUrl(site)}${documentationPath}`,
-    authorization_servers: [baseUrl(site)],
-    bearer_methods_supported: ["header"],
+    specVersion: "1.0",
+    host: {
+      displayName: "proud magazine archive",
+      identifier: `did:web:${host}`,
+    },
+    entries: [
+      {
+        identifier: `urn:air:${host}:server:proud-archive`,
+        displayName: "proud archive MCP server",
+        description: "Read-only MCP server: list issues and articles, search full text, fetch article and issue payloads.",
+        type: "application/mcp-server-card+json",
+        url: `${baseUrl(site)}/.well-known/mcp/server-card.json`,
+        representativeQueries: [
+          "find proud magazine articles about Berlin techno",
+          "get the full text of the proud article love in berlin",
+          "list the articles in proud issue 01",
+        ],
+      },
+      {
+        identifier: `urn:air:${host}:skill:proud-archive-search`,
+        displayName: "proud archive search skill",
+        description: "Agent Skill: search and retrieve proud archive content via MCP, llms.txt or the JSON API.",
+        type: 'text/markdown; profile="urn:air:agent-skills"',
+        url: `${baseUrl(site)}/.well-known/agent-skills/proud-archive-search/SKILL.md`,
+        representativeQueries: [
+          "search the proud archive for DJ interviews",
+          "how do I fetch a proud article as Markdown",
+        ],
+      },
+      {
+        identifier: `urn:air:${host}:skill:proud-archive-citation`,
+        displayName: "proud archive citation skill",
+        description: "Agent Skill: cite proud archive material with issue, page span and PDF URL.",
+        type: 'text/markdown; profile="urn:air:agent-skills"',
+        url: `${baseUrl(site)}/.well-known/agent-skills/proud-archive-citation/SKILL.md`,
+        representativeQueries: [
+          "how do I cite a proud magazine article with page numbers",
+          "which issue and pages is a proud article from",
+        ],
+      },
+    ],
   };
 }
 
-function buildOAuthAuthorizationServerMetadata(site) {
-  return {
-    issuer: baseUrl(site),
-    token_endpoint: `${baseUrl(site)}/oauth/token`,
-    grant_types_supported: ["client_credentials"],
-    response_types_supported: [],
-    token_endpoint_auth_methods_supported: ["none"],
-    scopes_supported: OAUTH_SCOPES,
-    service_documentation: `${baseUrl(site)}/.well-known/agent.json`,
+const WEBMCP_SCRIPT = `// WebMCP: expose the existing read-only archive endpoints as in-page tools.
+(() => {
+  const modelContext = document.modelContext ?? navigator.modelContext;
+  if (!modelContext || typeof modelContext.registerTool !== "function") return;
+  const root = new URL("..", document.currentScript?.src ?? location.href);
+  const getJson = async (route) => {
+    const response = await fetch(new URL(route, root), { headers: { Accept: "application/json" } });
+    const body = await response.json();
+    if (!response.ok) throw new Error(body.detail ?? body.title ?? String(response.status));
+    return { content: [{ type: "text", text: JSON.stringify(body) }] };
   };
-}
+  const tools = [
+    {
+      name: "search_archive",
+      description: "Search proud magazine archive articles by keyword. Returns slug, title, snippet and page span.",
+      inputSchema: { type: "object", properties: { q: { type: "string", description: "Search query" }, limit: { type: "integer", minimum: 1, maximum: 50 } }, required: ["q"] },
+      annotations: { readOnlyHint: true },
+      execute: ({ q, limit }) => getJson("api/search?" + new URLSearchParams({ q: String(q), limit: String(limit ?? 10) })),
+    },
+    {
+      name: "get_article",
+      description: "Get the full structured JSON (text, issue, pages, scans) of one proud article by slug.",
+      inputSchema: { type: "object", properties: { slug: { type: "string" } }, required: ["slug"] },
+      annotations: { readOnlyHint: true },
+      execute: ({ slug }) => getJson("api/articles/" + encodeURIComponent(String(slug)) + ".json"),
+    },
+  ];
+  for (const tool of tools) {
+    try {
+      const result = modelContext.registerTool(tool);
+      if (result && typeof result.catch === "function") result.catch(() => {});
+    } catch (_error) {
+      // Tool already registered or API shape differs; the page works without it.
+    }
+  }
+})();
+`;
 
 function buildHttpMessageSignaturesDirectory() {
   return {
     keys: [],
   };
+}
+
+const BRAND_DIR = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "src", "brand");
+
+// Width/height straight from the WebP header (VP8, VP8L, VP8X) so <img> tags reserve space (no CLS).
+function webpSize(buffer) {
+  if (buffer.toString("ascii", 0, 4) !== "RIFF" || buffer.toString("ascii", 8, 12) !== "WEBP") {
+    return null;
+  }
+  const chunk = buffer.toString("ascii", 12, 16);
+  if (chunk === "VP8X") {
+    return { width: 1 + buffer.readUIntLE(24, 3), height: 1 + buffer.readUIntLE(27, 3) };
+  }
+  if (chunk === "VP8L") {
+    const bits = buffer.readUInt32LE(21);
+    return { width: 1 + (bits & 0x3fff), height: 1 + ((bits >> 14) & 0x3fff) };
+  }
+  if (chunk === "VP8 ") {
+    return { width: buffer.readUInt16LE(26) & 0x3fff, height: buffer.readUInt16LE(28) & 0x3fff };
+  }
+  return null;
+}
+
+async function recordImageSizes(dir, routePrefix) {
+  if (!(await fs.stat(dir).catch(() => null))?.isDirectory()) {
+    return;
+  }
+  for (const filePath of await walkFiles(dir)) {
+    if (!filePath.endsWith(".webp")) {
+      continue;
+    }
+    const handle = await fs.open(filePath, "r");
+    const header = Buffer.alloc(32);
+    await handle.read(header, 0, 32, 0);
+    await handle.close();
+    const size = webpSize(header);
+    if (size) {
+      IMAGE_SIZES.set(`${routePrefix}/${path.relative(dir, filePath).split(path.sep).join("/")}`, size);
+    }
+  }
 }
 
 async function walkFiles(rootDir) {
@@ -3351,6 +3724,21 @@ async function main() {
   });
   await fs.mkdir(path.join(site.paths.siteOutputDir, "assets", "pdfs"), { recursive: true });
   await writeText(site, "/assets/site.css", CSS);
+  await writeText(site, "/assets/webmcp.js", WEBMCP_SCRIPT);
+  for (const [from, to] of [["favicon.ico", "favicon.ico"], ["logo.png", "assets/logo.png"]]) {
+    await fs.copyFile(path.join(BRAND_DIR, from), path.join(site.paths.siteOutputDir, to));
+  }
+  for (const tree of ["previews", "hero", "page-images"]) {
+    await recordImageSizes(path.join(site.paths.siteOutputDir, "assets", tree), `/assets/${tree}`);
+  }
+  const issueDates = await readOptionalJson(path.join(path.dirname(site.paths.enrichmentDir), "issue-dates.json"));
+  for (const [magazineSlug, issueNumber] of Object.entries(issueDates?.magazines ?? {})) {
+    const isoDate = issueDates.issues?.[issueNumber];
+    if (isoDate) {
+      ISSUE_DATES.set(magazineSlug, isoDate);
+    }
+  }
+  CONTENT_MODIFIED_AT = library.generatedAt ? String(library.generatedAt).slice(0, 10) : null;
 
   const localizedByLocale = new Map();
   for (const locale of locales) {
@@ -3590,41 +3978,42 @@ async function main() {
   }
 
   await writeText(site, "/robots.txt", buildRobots(site));
-  const sitemapRoutes = new Set([
-    "/sitemap.xml",
-    "/robots.txt",
-    "/llms.txt",
-    "/llms-full.txt",
-    "/.well-known/api-catalog",
-    "/.well-known/agent.json",
-    "/.well-known/webmcp.json",
-    "/.well-known/oauth-authorization-server",
-    "/.well-known/mcp.json",
-    "/.well-known/mcp/server-card.json",
-    "/.well-known/agent-skills/index.json",
-    "/.well-known/http-message-signatures-directory",
-    "/.well-known/oauth-protected-resource",
-    "/.well-known/oauth-protected-resource/mcp",
-  ]);
+  // Pages only (plus the llms.txt reading lists); /.well-known/* discovery documents are not pages.
+  // Each HTML page carries its language alternates (de, en, x-default = German default locale).
+  const sitemapAlternates = new Map();
+  const addPageGroup = (entries) => {
+    const defaultEntry = entries.find((entry) => entry.locale === site.defaultLocale);
+    const links = [...entries, ...(defaultEntry ? [{ locale: "x-default", route: defaultEntry.route }] : [])];
+    for (const entry of entries) {
+      sitemapAlternates.set(entry.route, links);
+    }
+  };
+  addPageGroup(locales.map((locale) => ({ locale, route: homeRoute(site, locale) })));
+  addPageGroup(locales.map((locale) => ({ locale, route: routeForArticlesIndex(site, locale) })));
+  addPageGroup(locales.map((locale) => ({ locale, route: routeForMagazinesIndex(site, locale) })));
+  const defaultLocalized = localizedByLocale.get(site.defaultLocale);
+  for (const article of defaultLocalized) {
+    addPageGroup(articleAlternateEntries(site, article, locales));
+  }
+  for (const magazine of magazines) {
+    addPageGroup(renderAlternates(site, magazine, routeForMagazine, locales));
+  }
+  const sitemapRoutes = new Set(["/llms.txt", "/llms-full.txt", ...sitemapAlternates.keys()]);
   for (const locale of locales) {
-    sitemapRoutes.add(homeRoute(site, locale));
-    sitemapRoutes.add(routeForArticlesIndex(site, locale));
-    sitemapRoutes.add(routeForMagazinesIndex(site, locale));
     sitemapRoutes.add(routeForLlms(site, locale));
     sitemapRoutes.add(routeForLlmsFull(site, locale));
-    for (const article of sortedArticles) {
-      sitemapRoutes.add(routeForArticle(site, locale, article.slug));
-    }
-    for (const magazine of magazines) {
-      sitemapRoutes.add(routeForMagazine(site, locale, magazine.slug));
-    }
   }
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 ${[...sitemapRoutes]
   .sort()
-  .map((route) => `  <url><loc>${baseUrl(site)}${route}</loc></url>`)
+  .map((route) => {
+    const links = (sitemapAlternates.get(route) ?? [])
+      .map((entry) => `<xhtml:link rel="alternate" hreflang="${entry.locale}" href="${baseUrl(site)}${entry.route}"/>`)
+      .join("");
+    return `  <url><loc>${baseUrl(site)}${route}</loc>${links}</url>`;
+  })
   .join("\n")}
 </urlset>
 `;
@@ -3724,17 +4113,7 @@ Example citation fields:
   await writeJson(site, "/.well-known/mcp.json", mcpServerCard);
   await writeJson(site, "/.well-known/agent.json", buildAgentManifest(site));
   await writeJson(site, "/.well-known/webmcp.json", buildWebMcpManifest(site));
-  await writeJson(site, "/.well-known/oauth-authorization-server/index.json", buildOAuthAuthorizationServerMetadata(site));
-  await writeJson(
-    site,
-    "/.well-known/oauth-protected-resource/index.json",
-    buildProtectedResourceMetadata(site, "/", "proud archive public content", "/"),
-  );
-  await writeJson(
-    site,
-    "/.well-known/oauth-protected-resource/mcp.json",
-    buildProtectedResourceMetadata(site, "/mcp", "proud archive MCP endpoint", "/mcp"),
-  );
+  await writeJson(site, "/.well-known/ai-catalog.json", buildAiCatalog(site));
   await writeJson(site, "/.well-known/http-message-signatures-directory/index.json", buildHttpMessageSignaturesDirectory());
 
   await writeJson(site, "/.well-known/api-catalog", buildApiCatalog(site));
@@ -3747,6 +4126,7 @@ Example citation fields:
     "  Link: </.well-known/agent-skills/index.json>; rel=\"agent-skills\"",
     "  Link: </.well-known/webmcp.json>; rel=\"webmcp\"",
     "  Link: </.well-known/mcp/server-card.json>; rel=\"mcp-server\"",
+    "  Link: </.well-known/ai-catalog.json>; rel=\"ai-catalog\"; type=\"application/json\"",
     "",
     "/*.md",
     "  Content-Type: text/markdown; charset=utf-8",
@@ -3754,14 +4134,18 @@ Example citation fields:
     "/.well-known/api-catalog",
     "  Content-Type: application/linkset+json; profile=\"https://www.rfc-editor.org/info/rfc9727\"",
     "",
-    "/.well-known/oauth-authorization-server",
+    "/.well-known/ai-catalog.json",
     "  Content-Type: application/json; charset=utf-8",
+    "  Access-Control-Allow-Origin: *",
     "",
-    "/.well-known/oauth-protected-resource",
-    "  Content-Type: application/json; charset=utf-8",
+    "/assets/hero/*",
+    "  Cache-Control: public, max-age=31536000, immutable",
     "",
-    "/.well-known/oauth-protected-resource/mcp",
-    "  Content-Type: application/json; charset=utf-8",
+    "/assets/previews/*",
+    "  Cache-Control: public, max-age=31536000, immutable",
+    "",
+    "/assets/page-images/*",
+    "  Cache-Control: public, max-age=31536000, immutable",
     "",
     "/.well-known/http-message-signatures-directory",
     "  Content-Type: application/http-message-signatures-directory+json",

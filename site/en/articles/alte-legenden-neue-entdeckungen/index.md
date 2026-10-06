@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 2
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "32-32"
 ---
@@ -26,7 +27,9 @@ There is probably no other music genre that releases more new music weekly than 
 
 # Old Legends, New Discoveries
 
-> Source: 01 proud issuu_output, pages 32-32
+> Source: 01 proud issuu_output, page 32
+> Issue date: January 2009
+> Text: Dave Krass
 
 There is probably no other music genre that releases more new music weekly than techno. With such an oversupply, it's not always easy to find what you're looking for. Often, you don't even know what you're looking for! Some days, a powerful kickdrum and a simple bassline—some call that minimal—are enough; on other days, it needs to be funky or percussive, depending on the mood. What always gets me, though, are rattling hi-hats paired with claps and snares. The rawer the sounds, the better. Music that beats and whips me, yet is tender to me. Perhaps you could call it technoid masochist house. New tracks in this style are unfortunately extremely rare. So, I decided to go looking for old records.
 

@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "48-48"
 ---
@@ -26,7 +27,8 @@ Es sieht wirklich aus, wonach es aussieht. Und nein, wir verschenken nicht eine 
 
 # traktor scratch pro
 
-> Quelle: 01 proud issuu_output, Seiten 48-48
+> Quelle: 01 proud issuu_output, Seite 48
+> Erschienen: Januar 2009
 
 Es sieht wirklich aus, wonach es aussieht. Und nein, wir verschenken nicht eine MP3-CD mit Timecode-Piep-Tönen. Wahr und wahrhaftig. Ein echter TRAKTOR mit vier Scheiben. Mafiakontakte in die Tiefen der Musikindustrie haben uns das ermöglicht und wir geben das Teil auch nur unter folgenden vier Umständen her:
 

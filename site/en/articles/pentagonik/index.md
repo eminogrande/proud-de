@@ -12,6 +12,7 @@ page_image_count: 2
 reading_time_minutes: 5
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "24-25"
 ---
@@ -28,7 +29,7 @@ Pentagonik, founded in 2005 by five friends in Berlin, started as a netlabel and
 # pentagonik
 
 > Source: 01 proud issuu_output, pages 24-25
-> Authors: Don, Kai
+> Issue date: January 2009
 
 "In the beginning, there was the master plan! We ran around like apostles. From club to club until people realized we were serious. Even after four years, I still meet people who remember it. These are moments when you realize that it somehow worked."
 

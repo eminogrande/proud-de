@@ -3,49 +3,107 @@
   "info": {
     "title": "proud archive read API",
     "version": "0.2.0",
-    "description": "Read-only JSON and search API for the proud.de magazine archive."
+    "description": "Read-only JSON and search API for the proud.de magazine archive. No authentication. Errors use RFC 9457 problem details."
   },
   "servers": [
     {
       "url": "https://proud.xn--wp9h.tk"
-    },
-    {
-      "url": "http://localhost:8787"
     }
   ],
   "paths": {
     "/api/library.json": {
       "get": {
+        "operationId": "getLibrary",
         "summary": "Get archive library index",
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Library"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Error (RFC 9457 problem details)",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            }
           }
         }
       }
     },
     "/api/articles.json": {
       "get": {
+        "operationId": "listArticles",
         "summary": "List articles",
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ArticleSummary"
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Error (RFC 9457 problem details)",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            }
           }
         }
       }
     },
     "/api/magazines.json": {
       "get": {
+        "operationId": "listMagazines",
         "summary": "List magazines",
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MagazineSummary"
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Error (RFC 9457 problem details)",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            }
           }
         }
       }
     },
     "/api/articles/{slug}.json": {
       "get": {
+        "operationId": "getArticle",
         "summary": "Get article by slug",
         "parameters": [
           {
@@ -53,22 +111,48 @@
             "in": "path",
             "required": true,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "pattern": "^[a-z0-9-]+$"
             }
           }
         ],
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Article"
+                }
+              }
+            }
           },
           "404": {
-            "description": "Not found"
+            "description": "Error (RFC 9457 problem details)",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Error (RFC 9457 problem details)",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            }
           }
         }
       }
     },
     "/api/magazines/{slug}.json": {
       "get": {
+        "operationId": "getMagazine",
         "summary": "Get magazine by slug",
         "parameters": [
           {
@@ -76,22 +160,48 @@
             "in": "path",
             "required": true,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "pattern": "^[a-z0-9-]+$"
             }
           }
         ],
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Magazine"
+                }
+              }
+            }
           },
           "404": {
-            "description": "Not found"
+            "description": "Error (RFC 9457 problem details)",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Error (RFC 9457 problem details)",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            }
           }
         }
       }
     },
     "/api/search": {
       "get": {
+        "operationId": "searchArticles",
         "summary": "Search article full text",
         "parameters": [
           {
@@ -109,25 +219,422 @@
             "schema": {
               "type": "integer",
               "minimum": 1,
-              "maximum": 50
+              "maximum": 50,
+              "default": 10
             }
           }
         ],
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SearchResponse"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "Error (RFC 9457 problem details)",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Error (RFC 9457 problem details)",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            }
           }
         }
       }
     },
     "/mcp": {
       "post": {
-        "summary": "Streamable HTTP MCP endpoint",
+        "operationId": "mcpRequest",
+        "summary": "Streamable HTTP MCP endpoint (JSON-RPC 2.0)",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/JsonRpcMessage"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
-            "description": "MCP response"
+            "description": "MCP JSON-RPC response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/JsonRpcMessage"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Error (RFC 9457 problem details)",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            }
           }
         }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Problem": {
+        "type": "object",
+        "description": "RFC 9457 problem details.",
+        "required": [
+          "title",
+          "status"
+        ],
+        "properties": {
+          "type": {
+            "type": "string",
+            "default": "about:blank"
+          },
+          "title": {
+            "type": "string"
+          },
+          "status": {
+            "type": "integer"
+          },
+          "detail": {
+            "type": "string"
+          },
+          "instance": {
+            "type": "string"
+          }
+        }
+      },
+      "PageSpan": {
+        "type": "object",
+        "required": [
+          "start",
+          "end"
+        ],
+        "properties": {
+          "start": {
+            "type": "integer"
+          },
+          "end": {
+            "type": "integer"
+          }
+        }
+      },
+      "ArticleSummary": {
+        "type": "object",
+        "required": [
+          "slug",
+          "title",
+          "magazineSlug",
+          "pages",
+          "url"
+        ],
+        "properties": {
+          "slug": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "magazineSlug": {
+            "type": "string"
+          },
+          "magazineTitle": {
+            "type": "string"
+          },
+          "magazineDisplayTitle": {
+            "type": "string"
+          },
+          "summary": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "excerpt": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "pages": {
+            "$ref": "#/components/schemas/PageSpan"
+          },
+          "sourcePdf": {
+            "type": "string"
+          },
+          "previewImage": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "uri"
+          },
+          "heroImage": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "uri"
+          },
+          "pageImageCount": {
+            "type": "integer"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      },
+      "Article": {
+        "type": "object",
+        "required": [
+          "slug",
+          "title",
+          "magazineSlug",
+          "pages"
+        ],
+        "additionalProperties": true,
+        "properties": {
+          "slug": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "magazineSlug": {
+            "type": "string"
+          },
+          "magazineTitle": {
+            "type": "string"
+          },
+          "pages": {
+            "$ref": "#/components/schemas/PageSpan"
+          },
+          "summary": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "bodyText": {
+            "type": "string"
+          },
+          "markdown": {
+            "type": "string"
+          },
+          "wordCount": {
+            "type": "integer"
+          },
+          "canonicalUrl": {
+            "type": "string",
+            "format": "uri"
+          },
+          "pdfUrl": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      },
+      "MagazineSummary": {
+        "type": "object",
+        "required": [
+          "slug",
+          "title",
+          "url"
+        ],
+        "properties": {
+          "slug": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "displayTitle": {
+            "type": "string"
+          },
+          "publicationDate": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sourcePdf": {
+            "type": "string"
+          },
+          "pageCount": {
+            "type": "integer"
+          },
+          "articleCount": {
+            "type": "integer"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      },
+      "Magazine": {
+        "type": "object",
+        "required": [
+          "slug",
+          "title",
+          "articles"
+        ],
+        "additionalProperties": true,
+        "properties": {
+          "slug": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "displayTitle": {
+            "type": "string"
+          },
+          "pageCount": {
+            "type": "integer"
+          },
+          "articleCount": {
+            "type": "integer"
+          },
+          "articles": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": true
+            }
+          },
+          "canonicalUrl": {
+            "type": "string",
+            "format": "uri"
+          },
+          "pdfUrl": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      },
+      "Library": {
+        "type": "object",
+        "required": [
+          "magazines",
+          "articles"
+        ],
+        "additionalProperties": true,
+        "properties": {
+          "schemaVersion": {
+            "type": [
+              "integer",
+              "string"
+            ]
+          },
+          "generatedAt": {
+            "type": "string"
+          },
+          "magazines": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": true
+            }
+          },
+          "articles": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": true
+            }
+          }
+        }
+      },
+      "SearchResult": {
+        "type": "object",
+        "properties": {
+          "score": {
+            "type": "number"
+          },
+          "slug": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "magazineTitle": {
+            "type": "string"
+          },
+          "summary": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "snippet": {
+            "type": "string"
+          },
+          "pages": {
+            "$ref": "#/components/schemas/PageSpan"
+          }
+        },
+        "additionalProperties": true
+      },
+      "SearchResponse": {
+        "type": "object",
+        "required": [
+          "query",
+          "total",
+          "results"
+        ],
+        "properties": {
+          "query": {
+            "type": "string"
+          },
+          "total": {
+            "type": "integer"
+          },
+          "results": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SearchResult"
+            }
+          }
+        }
+      },
+      "JsonRpcMessage": {
+        "type": "object",
+        "required": [
+          "jsonrpc"
+        ],
+        "properties": {
+          "jsonrpc": {
+            "const": "2.0"
+          },
+          "id": {},
+          "method": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
       }
     }
   }

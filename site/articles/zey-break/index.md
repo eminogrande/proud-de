@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "63-63"
 ---
@@ -25,8 +26,8 @@ CHOREOGRAFIE: KADİR MEMİŞ ALIAS >>AMIGO<<
 
 # ZEY' BREAK
 
-> Quelle: 01 proud issuu_output, Seiten 63-63
-> Autor:innen: KADIR MEMIS ALIAS >>AMIGO<<, ZULA LEMES, NEVZAT AKPINAR, YAVUZ TOPUZ ALIAS >>RISK ONE<<
+> Quelle: 01 proud issuu_output, Seite 63
+> Erschienen: Januar 2009
 
 CHOREOGRAFIE: KADİR MEMİŞ ALIAS >>AMIGO<<
 

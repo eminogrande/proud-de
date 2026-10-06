@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "10-10"
 ---
@@ -27,7 +28,8 @@ A reader, Mario, attempts to hypnotize the magazine 'proud' into giving his band
 
 # New Uri Geller
 
-> Source: 01 proud issuu_output, pages 10-10
+> Source: 01 proud issuu_output, page 10
+> Issue date: January 2009
 
 Dear proud,
 You are getting very sleepy... very, very sleepy... Your eyes are getting heavy... You can't keep them open... You are sinking deep... yes... stop fighting... just give up... When I count to three, you will wake up and be under my control. When I snap my fingers, you will be under my control... one... two... three... *snap* Now give me a free advertising page for my band. Mario

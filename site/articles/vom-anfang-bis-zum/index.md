@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 2
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "32-32"
 ---
@@ -26,7 +27,9 @@ Warum sitze ich hier und verfasse einen Text für ein Magazin? Für die Antwort 
 
 # Vom Anfang bis zum…
 
-> Quelle: 01 proud issuu_output, Seiten 32-32
+> Quelle: 01 proud issuu_output, Seite 32
+> Erschienen: Januar 2009
+> Text: Fred Kreeger
 
 Warum sitze ich hier und verfasse einen Text für ein Magazin? Für die Antwort muss ich ganz zum Anfang zurück gehen, genau zu dem Zeitpunkt, als Techno anfing, mich um seinen Finger zu wickeln. Doch was ist passiert, dass ich eine Symbiose aus zwei Musikstücken faszinierend und unvorstellbar aufregend fand? Die ersten eingehenden Cluberfahrungen sind Zustände, an die man sich wie an seine erste Liebe erinnert. Die ekstatische, eng miteinander verbundene Vertrautheit vollkommener Verblendung. Angefickt von dieser fraglichen Liebschaft zieht es mich nachgelang in die Technotempel, als wäre man frisch im Honeymoon, doch die antimetaphysischen und psychischen Gegebenheiten zwingen Dich, deine Liebe nur an zwei Tagen zu leben. Was dann hieß, zurück in die Realität. Der DJ, der Medizinmann der Neuzeit, der mit monotonen magischen 4/4-Takten der Strippenzieher im Puppentheater ist, zieht mich unaufhaltsam immer tiefer in seinen Bann. Man fragt sich schon, wie er selbst die ekstatischen Augenblicke wahrnimmt. Eigens die Nadel auf das unschuldige Vinyl zu legen, Teil dieses magischen Momentes zu werden. Das Steuer an sich zu nehmen, um das Raumschiff in die unendlichen Tiefen der Gefühlsspektren zu schießen. Initiator des unbeschreiblichen Gefühls zu sein und im selben Moment sich seinen eigenen, freien Lauf zu lassen.
 

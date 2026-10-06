@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "13-13"
 ---
@@ -27,7 +28,8 @@ Superethe.com, led by Creative Director Kali Arulpragasam, has been impressing s
 
 # Superethe.com
 
-> Source: 01 proud issuu_output, pages 13-13
+> Source: 01 proud issuu_output, page 13
+> Issue date: January 2009
 
 ### [Superethe.com](https://Superethe.com)
 

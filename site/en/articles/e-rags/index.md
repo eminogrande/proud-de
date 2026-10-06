@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "13-13"
 ---
@@ -26,7 +27,8 @@ Mariendorf. An old, gray factory hall.
 
 # e-rags
 
-> Source: 01 proud issuu_output, pages 13-13
+> Source: 01 proud issuu_output, page 13
+> Issue date: January 2009
 
 Mariendorf. An old, gray factory hall. Deadly silence reigns after passing the doorman. Down into the elevator. Once there, the same setting: empty corridors, morbid quiet; until a loud singing frightens you to death. Following the direction of the singing, you eventually encounter a guy pushing a cart with stacked clothes. The brand is called E-Rags.
 

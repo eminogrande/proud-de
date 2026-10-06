@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "18-18"
 ---
@@ -26,7 +27,8 @@ Das Ballhaus-Theater in der Naunynstraße ist nach vielen Jahren zu neuem Leben 
 
 # ceza at ballhaus naunynstrasse
 
-> Quelle: 01 proud issuu_output, Seiten 18-18
+> Quelle: 01 proud issuu_output, Seite 18
+> Erschienen: Januar 2009
 
 Das Ballhaus-Theater in der Naunynstraße ist nach vielen Jahren zu neuem Leben erwacht. Endlich nicht nur alle drei Monate ein Stück, von dem keiner etwas mitbekommen. Gerade erst wurde dort der Videodreh des Rappers Ceza aus Fatih Akins „Crossing the Bridge“ gedreht. Die gesamte Naunynmafia versammelte sich, neugierig wie kleine Jungs, wollten ordentlich rum, benahmen sich aber unter den prüfenden Blicken von Ibo aus der Naunynritze ausgesprochen gut. Wahrscheinlich waren es die aufgedonnerten Hip-Hop-Gurlz, welche bis in die frühen Morgenstunden wie Magneten auf die Schar Statisten wirkten. Denn mehr haben wir vom Dreh auch nicht mitbekommen. Das Video gibt's jedenfalls bald auf MTV und YouTube zu sehen. Die sabbernden Jungs bleiben dagegen in der Naunynstraße. Dort, wo Ihr auch das Ballhaus findet. Langsam mausert sich nämlich der Schuppen zum Dreh- und Treffpunkt für Kreative in Kreuzberg. Wenn Ihr mehr über das unterhaltsame Theater-Programm wissen wollt, dann schnell auf deren Webseite.
 

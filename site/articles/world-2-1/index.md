@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 2
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "12-12"
 ---
@@ -26,7 +27,8 @@ Was wäre die Welt ohne Science-Fiction? Die rechte Gehirnhälfte des Gehirns li
 
 # world 2.1
 
-> Quelle: 01 proud issuu_output, Seiten 12-12
+> Quelle: 01 proud issuu_output, Seite 12
+> Erschienen: Januar 2009
 
 Was wäre die Welt ohne Science-Fiction? Die rechte Gehirnhälfte des Gehirns liebt Personenprofile, MySpace, Facebook und die ganze neue Konnektivität. Stell Dir vor, Du hockst irgendwo im Park und checkst auf Deinem Handy, wer so um Dich herumsetzt. Nicht unbedingt Deine Kumpels, sondern eher gegenüber, die Schnecke auf der Decke. Manchmal siehst Du gleich ihren Namen, manchmal ihre Hobbys oder was auch immer – je nach privaten Einstellungen. Installiert wird das Programm idiotensicher über die Internet-Verbindung vom Handy. Social Networking, nächste Etappe. Deine beste Freundin steigt in die U-Bahn, Du bemerkst sie nicht, aber Dein Handy tut’s! Ihr trefft Euch, quatscht und verpasst Eure Station. Wahnsinn. Natürlich ist das umsonst und kommt, wie alles Gute, aus Berlin. UDK-Jungs und -Mädels haben das als Diplomarbeit begonnen und feilen jetzt an allen Ecken und Enden für Qualität und Look. World Weit Welt 2.1 wir kommen!
 

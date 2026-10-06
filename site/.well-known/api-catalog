@@ -19,12 +19,6 @@
           "href": "https://proud.xn--wp9h.tk/api/search"
         },
         {
-          "href": "https://proud.xn--wp9h.tk/.well-known/oauth-authorization-server"
-        },
-        {
-          "href": "https://proud.xn--wp9h.tk/oauth/token"
-        },
-        {
           "href": "https://proud.xn--wp9h.tk/.well-known/http-message-signatures-directory"
         },
         {
@@ -46,10 +40,7 @@
           "href": "https://proud.xn--wp9h.tk/.well-known/mcp/server-card.json"
         },
         {
-          "href": "https://proud.xn--wp9h.tk/.well-known/oauth-protected-resource"
-        },
-        {
-          "href": "https://proud.xn--wp9h.tk/.well-known/oauth-protected-resource/mcp"
+          "href": "https://proud.xn--wp9h.tk/.well-known/ai-catalog.json"
         },
         {
           "href": "https://proud.xn--wp9h.tk/mcp"

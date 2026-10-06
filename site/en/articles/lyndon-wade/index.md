@@ -12,6 +12,7 @@ page_image_count: 6
 reading_time_minutes: 2
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "50-55"
 ---
@@ -27,6 +28,7 @@ really loves to photograph. Damn, he's a photographer.
 # Lyndon Wade
 
 > Source: 01 proud issuu_output, pages 50-55
+> Issue date: January 2009
 
 Lyndon Wade really loves to photograph. Damn, he's a photographer. That's his life. After all, he gets money and recognition for it. And since he's really, really good at one thing, everyone wants to be like him. That's how it is with stars, including Lyndon.
 

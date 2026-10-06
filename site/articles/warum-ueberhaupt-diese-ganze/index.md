@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 2
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "36-36"
 ---
@@ -25,7 +26,8 @@ Partyschiene und nicht irgendetwas
 
 # Warum überhaupt diese ganze
 
-> Quelle: 01 proud issuu_output, Seiten 36-36
+> Quelle: 01 proud issuu_output, Seite 36
+> Erschienen: Januar 2009
 
 Warum überhaupt diese ganze
 Partyschiene und nicht irgendetwas

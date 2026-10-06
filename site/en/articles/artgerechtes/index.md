@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "13-13"
 ---
@@ -27,7 +28,8 @@ pages: "13-13"
 
 # artgerechtes
 
-> Source: 01 proud issuu_output, pages 13-13
+> Source: 01 proud issuu_output, page 13
+> Issue date: January 2009
 
 Being eco-friendly means wearing jute? Hell no, say 14 students. The hot stuff they sell is ethically produced, fair trade, and organically made. Hell, yeah! What's really cool is the open invitation to submit your own design suggestions and have your ideas printed on shirts with the team. It works, we tried it and have been happier, better people ever since.
 

@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "48-48"
 ---
@@ -26,7 +27,8 @@ It really looks like what it is. And no, we're not giving away an MP3 CD with ti
 
 # traktor scratch pro
 
-> Source: 01 proud issuu_output, pages 48-48
+> Source: 01 proud issuu_output, page 48
+> Issue date: January 2009
 
 It really looks like what it is. And no, we're not giving away an MP3 CD with timecode beeps. True and true. A real four-deck TRAKTOR. Mafia contacts deep within the music industry made this possible, and we're only giving this unit away under the following four circumstances:
 

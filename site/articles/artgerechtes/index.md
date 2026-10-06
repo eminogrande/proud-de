@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "13-13"
 ---
@@ -26,7 +27,8 @@ pages: "13-13"
 
 # artgerechtes
 
-> Quelle: 01 proud issuu_output, Seiten 13-13
+> Quelle: 01 proud issuu_output, Seite 13
+> Erschienen: Januar 2009
 
 Ökosein ist Jutestyle? Am Arsch, Alter. Das sehen 14 Studis anders. Der heiße Scheiß, den die vertreiben, ist nämlich artgerecht, fair gehandelt und aus ökologischer Herstellung. Hell, yeah! Wirklich cool ist die offene Einladung, eigene Designvorschläge einzusenden und mit dem Team die Ideen auf Shirts drucken zu lassen. Das klappt auch, wir haben es versucht und sind seitdem glücklichere, bessere Menschen.
 

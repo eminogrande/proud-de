@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 2
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "32-32"
 ---
@@ -26,7 +27,9 @@ Es gibt wohl kein anderes Musikgenre, das wöchentlich mehr Veröffentlichungen 
 
 # Alte Legenden, neue Entdeckungen
 
-> Quelle: 01 proud issuu_output, Seiten 32-32
+> Quelle: 01 proud issuu_output, Seite 32
+> Erschienen: Januar 2009
+> Text: Dave Krass
 
 Es gibt wohl kein anderes Musikgenre, das wöchentlich mehr Veröffentlichungen ans Licht bringt als Techno. Bei dem Überangebot ist es nicht immer einfach, das zu finden, was man eigentlich sucht. Oft weiß man auch gar nicht, was man eigentlich sucht! An manchen Tagen reicht bereits ein druckvoller Kickdrum und eine simple Bassline – manche nennen das Minimal – an anderen Tagen muss es funky oder perkussiv sein. Je nach Tagesform. Womit man mich allerdings immer hinterm Ofen hervorlocken kann, sind rasselnde Hi-Hats, gepaart mit Claps und Snares. Je roher die Sounds, desto besser. Musik, die mich verprügelt und auspeitscht und trotzdem zärtlich zu mir ist. Technoiden Masochisten-House kann man das vielleicht nennen. Neue Tracks in diesem Stil sind leider extrem rar. Daher habe ich beschlossen, mich auf die Suche nach alten Platten zu begeben.
 

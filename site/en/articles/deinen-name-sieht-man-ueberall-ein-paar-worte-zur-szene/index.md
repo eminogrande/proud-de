@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 2
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "38-38"
 ---
@@ -26,7 +27,8 @@ The young, growing party community in Berlin is interesting, even if the older g
 
 # Your name is everywhere. A few words about the scene?
 
-> Source: 01 proud issuu_output, pages 38-38
+> Source: 01 proud issuu_output, page 38
+> Issue date: January 2009
 
 The young, growing party community in Berlin is interesting, even if the older generation always grumbles and reacts arrogantly. But it's the Berlin old-timers who go to the big names, or very young people who have just moved here and only know the big names. Even if many make fun of the young scene in Berlin, these are actually the people who don't care about names and come for a good party: sheep in the meadow – no matter who's playing. In the bunker – just everyone in there! At the basement party, for example, I found it much more innovative and loving; with make-up stands, light installations, and time-consuming decorations. I found that refreshing and new. Of course, I'm too old for it, and it's not always my cup of tea musically, but in contrast to many large events by old Berliners, these are truly idealistic, creative, and simply nice.
 

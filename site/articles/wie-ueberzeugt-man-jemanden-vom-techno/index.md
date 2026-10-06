@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "32-32"
 ---
@@ -25,7 +26,9 @@ Text Pumpa Petz
 
 # Wie überzeugt man jemanden vom Techno?
 
-> Quelle: 01 proud issuu_output, Seiten 32-32
+> Quelle: 01 proud issuu_output, Seite 32
+> Erschienen: Januar 2009
+> Text: Pumpa Petz
 
 1. Kauf Dir ein Auto.
 2. Immer wenn Du mit Deiner Bezugsperson nach Hause fährst, lass ein dunkles Techno-Mixtape im Anschlag laufen.

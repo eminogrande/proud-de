@@ -20,9 +20,10 @@ const TEXT = /\.(html|md|txt|xml|json|css|js)$|\/\.well-known\/[^/.]+$/;
 function rewrite(file, body) {
   body = body.split(SOURCE_ORIGIN).join(origin + base);
   body = body.split(new URL(SOURCE_ORIGIN).host).join(new URL(origin).host);
-  // Worker-only discovery docs are directories with index.json; Pages can't serve them (301 -> 404).
-  if (file === "sitemap.xml") body = body.replace(/\n\s*<url><loc>[^<]*\/\.well-known\/(oauth-[^<]*|http-message-signatures-directory)<\/loc><\/url>/g, "");
-  if (file === "sitemap.xml") body = body.replace(/<\/loc><\/url>/g, `</loc><lastmod>${LASTMOD}</lastmod></url>`);
+  // The sitemap lists pages only; drop any /.well-known/* entry defensively (Pages can't serve the worker-only ones).
+  if (file === "sitemap.xml") body = body.replace(/\n\s*<url><loc>[^<]*\/\.well-known\/[^<]*<\/loc>.*?<\/url>/g, "");
+  // <lastmod> goes right after <loc>; entries may carry <xhtml:link> hreflang alternates after it.
+  if (file === "sitemap.xml") body = body.replace(/<\/loc>/g, `</loc><lastmod>${LASTMOD}</lastmod>`);
   if (!base) return body;
   if (file.endsWith(".html")) {
     body = body.replace(/\b(href|src|action|poster)="\/(?!\/)/g, `$1="${base}/`);

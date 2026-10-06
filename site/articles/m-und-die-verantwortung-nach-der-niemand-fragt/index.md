@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 2
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "66-66"
 ---
@@ -26,7 +27,9 @@ Als M durch die Wohnungstür des Apartments im dritten Stock trat, sah er ihn, d
 
 # M und die Verantwortung, nach der Niemand fragt
 
-> Quelle: 01 proud issuu_output, Seiten 66-66
+> Quelle: 01 proud issuu_output, Seite 66
+> Erschienen: Januar 2009
+> Text: Moritz Stellmacher
 
 M und die Verantwortung, nach der Niemand fragt
 

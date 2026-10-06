@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "12-12"
 ---
@@ -27,7 +28,8 @@ phb berlin is an ambitious project creating a large cultural space for art, arti
 
 # phb berlin
 
-> Source: 01 proud issuu_output, pages 12-12
+> Source: 01 proud issuu_output, page 12
+> Issue date: January 2009
 
 Something truly grand is emerging here – endless potential. It's so incredibly good that it's even receiving funding, including from proud. This space will house halls for art, artists, and artworks, along with over 100 studios and sound stages. It will cater to photography, film, music, and fashion. Additionally, there will be an electronic club for us, which will also host our launch party on January 17th. Currently, they are diligently cleaning, planning, and developing. Incidentally, the walls look like the city's graphic guestbook. proud will accompany phb over the coming months and years, feature artists, and provide you with hook-ups if you need them.
 

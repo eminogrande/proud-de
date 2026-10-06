@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "10-10"
 ---
@@ -27,7 +28,8 @@ Enter our "Mail Of The Month" contest to win the ultimate home party package. Th
 
 # write to us and win..
 
-> Source: 01 proud issuu_output, pages 10-10
+> Source: 01 proud issuu_output, page 10
+> Issue date: January 2009
 
 The next Mail Of The Month winner will receive everything for hosting a classic home party: The party-o-box. Proud will supply you with plenty of beer, wine, vodka, rum, and everything to mix with them.
 

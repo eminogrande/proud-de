@@ -19,10 +19,6 @@
     },
     "api_catalog": {
       "url": "https://proud.xn--wp9h.tk/.well-known/api-catalog"
-    },
-    "oauth": {
-      "discovery": "https://proud.xn--wp9h.tk/.well-known/oauth-authorization-server",
-      "protected_resource": "https://proud.xn--wp9h.tk/.well-known/oauth-protected-resource"
     }
   },
   "actions": [

@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "43-43"
 ---
@@ -26,7 +27,8 @@ Sarai und Mack dürfen sich zeigen. Persönliche Garderobe und geliehene Lieblin
 
 # 7days in sieben Outfits
 
-> Quelle: 01 proud issuu_output, Seiten 43-43
+> Quelle: 01 proud issuu_output, Seite 43
+> Erschienen: Januar 2009
 
 7days in sieben Outfits. Sarai und Mack dürfen sich zeigen. Persönliche Garderobe und geliehene Lieblingsteile. Mack Mckelton, versorgt durch seine zahlreichen Sponsoren. Königin Sarai, versorgt durch ihre zahlreichen Verehrer. Wir zeigen Dir die Woche zweier Fashion-Gurus, die wissen wie man sich darstellt. Fühle Dich frei sie zu kopieren, anzubeten und zu verfolgen.
 

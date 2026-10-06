@@ -33,20 +33,12 @@ const COMMON_LINK_HEADERS = [
 
 const ROUTE_CONTENT_TYPES = new Map([
   ["/.well-known/api-catalog", 'application/linkset+json; profile="https://www.rfc-editor.org/info/rfc9727"'],
-  ["/.well-known/oauth-authorization-server", "application/json; charset=utf-8"],
-  ["/.well-known/oauth-protected-resource", "application/json; charset=utf-8"],
-  ["/.well-known/oauth-protected-resource/mcp", "application/json; charset=utf-8"],
   ["/.well-known/http-message-signatures-directory", "application/http-message-signatures-directory+json"],
 ]);
 
 const ROUTE_STATIC_FILES = new Map([
-  ["/.well-known/oauth-authorization-server", "/.well-known/oauth-authorization-server/index.json"],
-  ["/.well-known/oauth-protected-resource", "/.well-known/oauth-protected-resource/index.json"],
-  ["/.well-known/oauth-protected-resource/mcp", "/.well-known/oauth-protected-resource/mcp.json"],
   ["/.well-known/http-message-signatures-directory", "/.well-known/http-message-signatures-directory/index.json"],
 ]);
-
-const SUPPORTED_OAUTH_SCOPES = new Set(["archive.read", "search.read", "mcp.read"]);
 
 function wantsMarkdown(req) {
   return String(req.headers.accept ?? "").includes("text/markdown");
@@ -169,25 +161,6 @@ async function readJsonBody(req) {
   return body ? JSON.parse(body) : {};
 }
 
-async function readRequestFields(req) {
-  const contentType = String(req.headers["content-type"] ?? "");
-  const body = await readTextBody(req);
-  if (!body) {
-    return new URLSearchParams();
-  }
-
-  if (contentType.includes("application/json")) {
-    const payload = JSON.parse(body);
-    return new URLSearchParams(
-      Object.entries(payload).flatMap(([key, value]) =>
-        value == null ? [] : Array.isArray(value) ? value.map((item) => [key, String(item)]) : [[key, String(value)]],
-      ),
-    );
-  }
-
-  return new URLSearchParams(body);
-}
-
 async function handleSearchApi(req, res) {
   const requestUrl = new URL(req.url, "http://localhost");
   const query = requestUrl.searchParams.get("q") ?? "";
@@ -199,70 +172,6 @@ async function handleSearchApi(req, res) {
   res.setHeader("Content-Type", "application/json; charset=utf-8");
   addCommonHeaders(res);
   res.end(JSON.stringify({ query, total: results.length, results }, null, 2));
-}
-
-async function handleOAuthToken(req, res) {
-  if (req.method === "OPTIONS") {
-    res.statusCode = 204;
-    res.setHeader("Allow", "POST, OPTIONS");
-    res.setHeader("Access-Control-Allow-Origin", "*");
-    res.setHeader("Access-Control-Allow-Methods", "POST, OPTIONS");
-    res.setHeader("Access-Control-Allow-Headers", "Accept, Content-Type");
-    res.end();
-    return;
-  }
-
-  if (req.method !== "POST") {
-    res.statusCode = 405;
-    res.setHeader("Allow", "POST, OPTIONS");
-    res.end("Method Not Allowed");
-    return;
-  }
-
-  const fields = await readRequestFields(req);
-  const grantType = fields.get("grant_type") ?? "";
-  res.setHeader("Content-Type", "application/json; charset=utf-8");
-  res.setHeader("Access-Control-Allow-Origin", "*");
-  res.setHeader("Cache-Control", "no-store");
-  res.setHeader("Pragma", "no-cache");
-  addCommonHeaders(res);
-
-  if (grantType !== "client_credentials") {
-    res.statusCode = 400;
-    res.end(
-      JSON.stringify(
-        {
-          error: "unsupported_grant_type",
-          error_description: "This public archive only supports the client_credentials grant for optional read-only tokens.",
-        },
-        null,
-        2,
-      ),
-    );
-    return;
-  }
-
-  const requestedScopes = String(fields.get("scope") ?? "")
-    .split(/\s+/)
-    .map((value) => value.trim())
-    .filter(Boolean);
-  const grantedScopes = requestedScopes.length > 0
-    ? requestedScopes.filter((scope) => SUPPORTED_OAUTH_SCOPES.has(scope))
-    : [...SUPPORTED_OAUTH_SCOPES];
-
-  res.statusCode = 200;
-  res.end(
-    JSON.stringify(
-      {
-        access_token: `proud_${randomUUID().replace(/-/g, "")}`,
-        token_type: "Bearer",
-        expires_in: 3600,
-        scope: grantedScopes.join(" "),
-      },
-      null,
-      2,
-    ),
-  );
 }
 
 async function main() {
@@ -351,11 +260,6 @@ async function main() {
         }
 
         await transport.handleRequest(req, res, body);
-        return;
-      }
-
-      if (routePath === "/oauth/token") {
-        await handleOAuthToken(req, res);
         return;
       }
 

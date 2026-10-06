@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "48-48"
 ---
@@ -26,7 +27,8 @@ You've seen it. You want it.
 
 # très bonjour
 
-> Source: 01 proud issuu_output, pages 48-48
+> Source: 01 proud issuu_output, page 48
+> Issue date: January 2009
 
 You've seen it. You want it. We understand. Interested parties, please let us know your dress size. Available:
 

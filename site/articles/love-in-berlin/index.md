@@ -12,6 +12,7 @@ page_image_count: 2
 reading_time_minutes: 3
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "22-23"
 ---
@@ -26,7 +27,7 @@ Christian Rothenhagen alias deerBLN, Berliner Lokalpatriot mit Hang zum Konzepti
 # love in berlin
 
 > Quelle: 01 proud issuu_output, Seiten 22-23
-> Autor:innen: Christian Rothenhage
+> Erschienen: Januar 2009
 
 Christian Rothenhagen alias deerBLN, Berliner Lokalpatriot mit Hang zum Konzeptionellen
 

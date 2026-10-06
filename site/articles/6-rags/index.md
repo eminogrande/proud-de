@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "48-48"
 ---
@@ -26,7 +27,8 @@ Absolut richtig erkannt. Die Marke, die seit einiger Zeit die Busse in Berlin sc
 
 # 6-rags
 
-> Quelle: 01 proud issuu_output, Seiten 48-48
+> Quelle: 01 proud issuu_output, Seite 48
+> Erschienen: Januar 2009
 
 Absolut richtig erkannt. Die Marke, die seit einiger Zeit die Busse in Berlin schmückt. In Berlin als Headquarter wurden auch gleich einmal neun Stores aus dem Boden gestampft. Checkt die frische Kollektion auf der Webseite. Weil wir so sind, gibt's ein paar Jeans und Sweater aufs Haus.
 

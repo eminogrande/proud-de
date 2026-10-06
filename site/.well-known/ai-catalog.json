@@ -1,0 +1,43 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "proud magazine archive",
+    "identifier": "did:web:proud.xn--wp9h.tk"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:proud.xn--wp9h.tk:server:proud-archive",
+      "displayName": "proud archive MCP server",
+      "description": "Read-only MCP server: list issues and articles, search full text, fetch article and issue payloads.",
+      "type": "application/mcp-server-card+json",
+      "url": "https://proud.xn--wp9h.tk/.well-known/mcp/server-card.json",
+      "representativeQueries": [
+        "find proud magazine articles about Berlin techno",
+        "get the full text of the proud article love in berlin",
+        "list the articles in proud issue 01"
+      ]
+    },
+    {
+      "identifier": "urn:air:proud.xn--wp9h.tk:skill:proud-archive-search",
+      "displayName": "proud archive search skill",
+      "description": "Agent Skill: search and retrieve proud archive content via MCP, llms.txt or the JSON API.",
+      "type": "text/markdown; profile=\"urn:air:agent-skills\"",
+      "url": "https://proud.xn--wp9h.tk/.well-known/agent-skills/proud-archive-search/SKILL.md",
+      "representativeQueries": [
+        "search the proud archive for DJ interviews",
+        "how do I fetch a proud article as Markdown"
+      ]
+    },
+    {
+      "identifier": "urn:air:proud.xn--wp9h.tk:skill:proud-archive-citation",
+      "displayName": "proud archive citation skill",
+      "description": "Agent Skill: cite proud archive material with issue, page span and PDF URL.",
+      "type": "text/markdown; profile=\"urn:air:agent-skills\"",
+      "url": "https://proud.xn--wp9h.tk/.well-known/agent-skills/proud-archive-citation/SKILL.md",
+      "representativeQueries": [
+        "how do I cite a proud magazine article with page numbers",
+        "which issue and pages is a proud article from"
+      ]
+    }
+  ]
+}
