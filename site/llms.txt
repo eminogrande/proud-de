@@ -18,6 +18,22 @@
 - [Archiv-Leitfaden](https://proud.xn--wp9h.tk/archive-guide/index.md): Wie man das proud-Archiv liest, durchsucht und zitiert, für Menschen und für Software-Agenten.
 - Library record: German National Library, shelf mark Z 2009 B 1863, ZDB 2473146-8, https://d-nb.info/992028108
 
+## Rubrics
+- [Flash](https://proud.xn--wp9h.tk/rubrics/flash/index.md): 12 Artikel
+- [Feature](https://proud.xn--wp9h.tk/rubrics/feature/index.md): 7 Artikel
+- [Chat](https://proud.xn--wp9h.tk/rubrics/chat/index.md): 5 Artikel
+- [Navigator](https://proud.xn--wp9h.tk/rubrics/navigator/index.md): 5 Artikel
+- [Grabs](https://proud.xn--wp9h.tk/rubrics/grabs/index.md): 4 Artikel
+- [Report](https://proud.xn--wp9h.tk/rubrics/report/index.md): 4 Artikel
+- [Sounds](https://proud.xn--wp9h.tk/rubrics/sounds/index.md): 4 Artikel
+- [7days](https://proud.xn--wp9h.tk/rubrics/7days/index.md): 1 Artikel
+- [Focus artist](https://proud.xn--wp9h.tk/rubrics/focus-artist/index.md): 1 Artikel
+- [Knowlege](https://proud.xn--wp9h.tk/rubrics/knowlege/index.md): 1 Artikel
+- [Last word](https://proud.xn--wp9h.tk/rubrics/last-word/index.md): 1 Artikel
+- [Shoot](https://proud.xn--wp9h.tk/rubrics/shoot/index.md): 1 Artikel
+- [Streets ahead](https://proud.xn--wp9h.tk/rubrics/streets-ahead/index.md): 1 Artikel
+- [Wardrobe](https://proud.xn--wp9h.tk/rubrics/wardrobe/index.md): 1 Artikel
+
 ## Authors
 - [Christian Rothenhagen](https://proud.xn--wp9h.tk/authors/christian-rothenhagen/index.md): Layout
 - [Cotumo](https://proud.xn--wp9h.tk/authors/cotumo/index.md): Mitarbeit, Text

@@ -1387,6 +1387,222 @@ footer.site-footer {
 }
 `;
 
+
+// Design v2 (October 2026): warm paper palette after the owner's reference site, black label headings
+// (proud CI: Barlow bold, white on black), the real ambigram logo that turns 180° on hover/focus/tap.
+// Appended last, so it overrides the earlier layers. Minimum text 17px; body 21.6–24px.
+const DESIGN_V2_CSS = `
+:root {
+  --bg: #fdf6e3;
+  --paper: #fdf6e3;
+  --band: #eee8d5;
+  --paper-soft: #eee8d5;
+  --ink: #073642;
+  --head: #002b36;
+  --label-bg: #1a1713;
+  --muted: #4f646b;
+  --line: #e4dfcf;
+  --link: #1a669c;
+  --logo-pink: #ed0677;
+  --proud-pink: #b8004f;
+  --accent: var(--head);
+  --accent-soft: #eee8d5;
+  --radius: 12px;
+  --wrap: 1120px;
+  --read: 760px;
+  --size-label-title: clamp(2.2rem, 5.5vw, 3.6rem);
+  --size-label-h2: clamp(1.6rem, 3vw, 2.1rem);
+}
+html { background: var(--bg); }
+body { background: var(--bg); color: var(--ink); font-family: var(--serif-font); font-size: var(--size-body); line-height: 1.6; }
+a { color: var(--link); text-decoration-color: rgba(26, 102, 156, 0.4); text-decoration-thickness: 1px; text-underline-offset: 0.18em; }
+a:hover { color: var(--proud-pink); text-decoration-color: currentColor; }
+a:focus-visible, .logo-link:focus-visible { outline: 3px solid var(--logo-pink); outline-offset: 3px; border-radius: 4px; }
+main, body.article-page main { width: min(var(--wrap), calc(100vw - 2.5rem)); margin: 0 auto; padding: 0 0 4rem; }
+
+/* Header: logo left, quiet text nav, language pill. No rules, no caps. */
+header.site-header, body.article-page header.site-header {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.25rem 1.6rem;
+  width: min(var(--wrap), calc(100vw - 2.5rem)); margin: 0 auto; padding: 1.4rem 0 1rem; border: 0;
+}
+.logo-link { display: inline-flex; align-items: center; min-height: 48px; line-height: 0; color: var(--logo-pink); }
+.logo { display: block; width: 116px; height: auto; transform: rotate(0deg); transition: transform 0.6s cubic-bezier(0.65, 0, 0.35, 1); }
+.logo-link:hover .logo, .logo-link:focus .logo, .logo-link:active .logo { transform: rotate(180deg); }
+@media (prefers-reduced-motion: reduce) {
+  .logo { transition: none; }
+  .logo-link:hover .logo, .logo-link:focus .logo, .logo-link:active .logo { transform: none; }
+}
+nav.sections { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 0 1.5rem; margin: 0 0 0 auto; width: auto; border: 0; }
+nav.sections a {
+  display: inline-flex; align-items: center; min-height: 44px; padding: 0;
+  font-family: var(--serif-font); font-size: 1.125rem; font-weight: 400; letter-spacing: 0; text-transform: none;
+  color: var(--head); text-decoration: none; box-shadow: none;
+}
+nav.sections a:hover { color: var(--proud-pink); box-shadow: none; text-decoration: underline; text-underline-offset: 0.3em; }
+nav.sections a[aria-current="page"] { box-shadow: none; text-decoration: underline; text-decoration-color: var(--logo-pink); text-decoration-thickness: 2px; text-underline-offset: 0.35em; }
+.lang-pill, .action-bar a {
+  display: inline-flex; align-items: center; min-height: 44px; padding: 0 1rem; border: 1px solid var(--line); border-radius: 999px;
+  background: rgba(255, 255, 255, 0.45); color: var(--head); font-family: var(--serif-font); font-size: 1.0625rem; font-weight: 500; text-decoration: none;
+}
+.lang-pill:hover, .action-bar a:hover { border-color: var(--head); color: var(--head); }
+.action-bar a[aria-current="page"] { background: var(--head); border-color: var(--head); color: #fff; }
+
+/* Black label headings: the proud look. Inline + clone so each wrapped line gets its own black box. */
+.label-title, .label-heading, .content h2, .content h3, .content h4, .prose h2, .prose h3 {
+  display: block; width: auto; max-width: 100%; margin: 0; padding: 0; background: none; color: inherit;
+  font-family: var(--display-font); font-weight: 700; letter-spacing: -0.01em; text-wrap: balance; overflow-wrap: break-word; hyphens: manual;
+}
+.label {
+  display: inline; background: var(--label-bg); color: #fff; padding: 0.06em 0.32em 0.1em;
+  box-decoration-break: clone; -webkit-box-decoration-break: clone; line-height: 1.32;
+}
+.label .proud-word, .label a { color: inherit; }
+.label-title { font-size: var(--size-label-title); line-height: 1.32; margin: 0.7rem 0 0; }
+.label-heading, .content h2, .prose h2 { font-size: var(--size-label-h2); line-height: 1.36; }
+.content h3, .content h4, .prose h3 { font-size: clamp(1.4rem, 2.4vw, 1.7rem); line-height: 1.36; }
+body.article-page .content h2, body.article-page .content h3 { font-family: var(--display-font); font-weight: 700; font-size: var(--size-label-h2); line-height: 1.36; margin: 2.6rem 0 0.9rem; }
+body.article-page .content h3 { font-size: clamp(1.4rem, 2.4vw, 1.7rem); }
+.prose h2 { margin: 2.4rem 0 0.8rem; }
+
+/* Kicker: pink rubric + quiet issue label, no caps tracking. */
+.kicker { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.2rem 0.8rem; margin: 0; font-family: var(--serif-font); font-size: 1.0625rem; font-weight: 600; letter-spacing: 0; text-transform: none; color: var(--muted); }
+.kicker-rubric { color: var(--proud-pink); font-weight: 700; text-decoration: none; }
+a.kicker-rubric { display: inline-flex; align-items: center; min-height: 44px; }
+a.kicker-rubric:hover { text-decoration: underline; }
+.kicker-issue { color: var(--muted); font-weight: 500; }
+
+/* Section heads */
+.section-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 0.6rem 1.2rem; margin: 0 0 1.6rem; padding: 0; border: 0; }
+.more-link, .section-head a.more-link { font-family: var(--serif-font); font-size: 1.125rem; color: var(--link); display: inline-flex; align-items: center; min-height: 44px; }
+
+/* Home */
+.home-intro { max-width: 52rem; margin: 0 auto; padding: clamp(2.5rem, 7vw, 5.5rem) 0 clamp(2.5rem, 6vw, 4.5rem); text-align: center; }
+.home-intro .kicker { justify-content: center; }
+.home-intro .label-title { font-size: clamp(2rem, 4.6vw, 3.1rem); }
+.intro-text { max-width: 40rem; margin: 1.6rem auto 0; color: var(--muted); line-height: 1.6; }
+.home-band, .article-band, .related-band {
+  background: var(--band); box-shadow: 0 0 0 100vmax var(--band); clip-path: inset(0 -100vmax);
+}
+.home-band { padding: clamp(2.5rem, 5vw, 4rem) 0; }
+.home-section { padding: clamp(2.8rem, 6vw, 4.5rem) 0 0; }
+.cover-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(2rem, 3.5vw, 3rem) clamp(1.4rem, 2.6vw, 2.4rem); }
+.cover-card { min-width: 0; display: grid; align-content: start; gap: 0.55rem; padding: 0; border: 0; }
+.cover-card.lead { grid-column: 1 / -1; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 0.6rem clamp(1.6rem, 4vw, 3.4rem); align-items: center; }
+.cover-media { display: block; border-radius: var(--radius); overflow: hidden; background: var(--line); line-height: 0; }
+.cover-media img { width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; border: 0; border-radius: 0; transition: none; }
+.cover-body { display: grid; gap: 0.45rem; min-width: 0; padding-top: 0.35rem; }
+.card-title { margin: 0; font-family: var(--display-font); font-weight: 700; font-size: clamp(1.45rem, 2vw, 1.7rem); line-height: 1.22; letter-spacing: -0.01em; color: var(--head); text-wrap: balance; background: none; padding: 0; display: block; }
+.cover-card.lead .card-title { font-size: clamp(1.9rem, 3.4vw, 2.7rem); line-height: 1.12; }
+.card-title a { color: inherit; text-decoration: none; display: inline; }
+.card-title a:hover { text-decoration: underline; text-decoration-thickness: 2px; text-decoration-color: var(--logo-pink); }
+.card-deck { margin: 0; color: var(--ink); font-size: 1.1875rem; line-height: 1.55; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; overflow: hidden; }
+.cover-card.lead .card-deck { font-size: var(--size-body); -webkit-line-clamp: 5; }
+.card-meta { margin: 0.15rem 0 0; color: var(--muted); font-size: 1.0625rem; line-height: 1.5; }
+.card-byline { color: var(--ink); font-weight: 500; }
+.more-list { list-style: none; margin: 0; padding: 0; columns: 2 22rem; column-gap: 2.6rem; }
+.more-list li { break-inside: avoid; padding: 0.55rem 0; border-bottom: 1px solid var(--line); }
+.more-list a { color: var(--head); font-weight: 600; text-decoration: none; }
+.more-list a:hover { color: var(--proud-pink); text-decoration: underline; }
+.more-rubric { color: var(--muted); font-size: 1.0625rem; }
+.all-link { margin: 2rem 0 0; font-size: 1.125rem; }
+.all-link a { display: inline-flex; align-items: center; min-height: 44px; }
+
+/* Article: centered header, then content on the alt band */
+.article-head { max-width: 50rem; margin: 0 auto; padding: clamp(2.4rem, 7vw, 5.5rem) 0 clamp(2.2rem, 5vw, 3.6rem); text-align: center; }
+.article-head .kicker { justify-content: center; }
+.article-head .deck { max-width: 40rem; margin: 1.6rem auto 0; font-family: var(--serif-font); font-size: var(--size-body); line-height: 1.5; color: var(--muted); }
+.article-head .deck strong { color: var(--head); font-weight: 700; }
+.article-head .byline-block { margin: 1.3rem auto 0; padding: 0; border: 0; display: grid; gap: 0.15rem; justify-items: center; }
+.byline { margin: 0; font-family: var(--serif-font); font-size: 1.125rem; font-weight: 500; color: var(--ink); letter-spacing: 0; }
+.byline a, .byline-credits a, .author-note a { color: var(--link); }
+.byline-credits, .dateline { margin: 0; font-family: var(--serif-font); font-size: 1.0625rem; color: var(--muted); line-height: 1.55; }
+.action-bar { justify-content: center; margin-top: 1.3rem; gap: 0.5rem; }
+.author-note { max-width: 40rem; margin: 1.3rem auto 0; padding: 0; border: 0; text-align: center; font-family: var(--serif-font); font-size: 1.0625rem; color: var(--muted); }
+.translation-note { max-width: 40rem; margin: 1.2rem auto 0; text-align: left; background: #fbefd0; border-color: #e3cf9b; font-family: var(--serif-font); font-size: 1.0625rem; }
+.article-band { padding: clamp(2.2rem, 5vw, 4rem) 0 clamp(2.6rem, 6vw, 4.5rem); }
+.article-figure { max-width: 900px; margin: 0 auto clamp(2rem, 4vw, 3rem); }
+.article-figure img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border-radius: var(--radius); border: 0; background: var(--line); }
+.article-figure figcaption { margin-top: 0.6rem; font-family: var(--serif-font); font-size: 1.0625rem; color: var(--muted); }
+.photo-credit { text-transform: none; letter-spacing: 0; }
+.article-top-scans { margin: 0 auto clamp(2rem, 4vw, 3rem); }
+.article-top-scans .page-card figcaption { font-family: var(--serif-font); font-size: 1.0625rem; color: var(--muted); }
+.article-band .content { max-width: var(--read); margin: 0 auto; font-size: var(--size-body); line-height: 1.65; }
+.content blockquote { border-left: 3px solid var(--logo-pink); color: var(--ink); font-style: normal; }
+.author-box { max-width: var(--read); margin: 3rem auto 0; padding: 1.6rem 0 0; border: 0; border-top: 1px solid #d9d2bd; gap: 1rem; }
+.author-box-entry h3 { font-family: var(--display-font); font-size: clamp(1.4rem, 2.4vw, 1.7rem); color: var(--head); }
+.author-box-entry h3 a { color: inherit; }
+.author-box-entry p { font-size: 1.1875rem; }
+.related-band { margin-top: 0; padding: 0 0 clamp(3rem, 6vw, 4.5rem); }
+body.article-page .story-section { max-width: var(--read); margin: 3rem auto 0; border-top: 1px solid #d9d2bd; }
+
+/* Generic page heads, prose, lists */
+.page-head { max-width: 50rem; margin: 0 auto; padding: clamp(2.4rem, 6vw, 4.5rem) 0 clamp(1.8rem, 4vw, 2.8rem); text-align: center; border: 0; }
+.page-head .kicker { justify-content: center; }
+.page-head .deck { max-width: 40rem; margin: 1.4rem auto 0; color: var(--muted); font-size: var(--size-body); line-height: 1.5; }
+.prose { max-width: var(--read); margin: 0 auto; font-size: var(--size-body); line-height: 1.65; }
+p.prose { margin-bottom: 1.6rem; }
+.prose blockquote, .press-quote blockquote { border-left: 3px solid var(--logo-pink); }
+.meta { font-family: var(--serif-font); color: var(--muted); font-size: 1.0625rem; }
+.people-list { max-width: var(--wrap); }
+.people-list li, .plain-list li, .more-list li { border-color: var(--line); }
+.people-list a { font-family: var(--display-font); color: var(--head); }
+.people-list span { font-family: var(--serif-font); }
+.plain-list a { font-family: var(--serif-font); color: var(--link); }
+.list-panel { max-width: var(--wrap); margin: 0 auto; padding: 0; border: 0; }
+.list-panel .label-heading { margin: 2.4rem 0 0.6rem; }
+.article-list .article-card { border-color: var(--line); }
+.article-list .article-card h3 { font-family: var(--display-font); color: var(--head); }
+.article-list .article-card h3 a, .issue-card h3 a { display: inline; background: none; color: var(--head); padding: 0; text-decoration: none; }
+.article-list .article-card h3 a:hover, .issue-card h3 a:hover { text-decoration: underline; text-decoration-color: var(--logo-pink); }
+.article-list .article-card-media img, .article-card img, .issue-card img, .page-card img, .page-block-media img { border-radius: var(--radius); border: 0; }
+.button-link { border-radius: 999px; text-transform: none; letter-spacing: 0; font-family: var(--serif-font); font-size: 1.0625rem; background: rgba(255,255,255,0.45); color: var(--head); text-decoration: none; min-height: 44px; }
+.button-link.primary { background: var(--head); border-color: var(--head); color: #fff; }
+.stat-chip { text-transform: none; letter-spacing: 0; font-family: var(--serif-font); background: rgba(255,255,255,0.45); }
+.locale-chip { min-height: 44px; text-decoration: none; background: rgba(255,255,255,0.45); color: var(--head); }
+.locale-chip.current { background: var(--head); border-color: var(--head); color: #fff; }
+.hero h2, .panel > h2, .panel > h3, .lead-story h2 a, .article-card h3 a, .story-teaser h3 a, .related-story h3 a { background: none; color: inherit; padding: 0; }
+.proud-word { color: inherit; }
+.content .proud-word, .prose .proud-word, .intro-text .proud-word, .deck .proud-word { color: var(--proud-pink); }
+.label .proud-word, a .proud-word, .kicker .proud-word, .card-title .proud-word, :is(.content, .prose, .intro-text, .deck, .trust-line) a .proud-word { color: inherit; }
+.article-band .content { hyphens: auto; }
+.article-band .content a, .prose a { hyphens: manual; overflow-wrap: anywhere; }
+.author-box h2.label-heading { font-family: var(--display-font); font-size: var(--size-label-h2); font-weight: 700; letter-spacing: -0.01em; text-transform: none; color: inherit; background: none; padding: 0; }
+.card-deck { -webkit-line-clamp: 3; }
+.plain-list { padding: 0; }
+.more-link span[aria-hidden], .all-link span[aria-hidden] { display: inline-block; margin-left: 0.3em; text-decoration: none; }
+body:not(.article-page) main { padding-bottom: 2.5rem; }
+
+/* Footer: quiet, same columns, DNB trust line */
+footer.site-footer {
+  width: min(var(--wrap), calc(100vw - 2.5rem)); margin: 0 auto; padding: 2.6rem 0 3rem; border: 0; border-top: 1px solid var(--line);
+  font-family: var(--serif-font); font-size: 1.0625rem; color: var(--muted); line-height: 1.55;
+}
+.footer-brand { margin: 0 0 1rem; line-height: 0; }
+.footer-brand .logo { width: 92px; }
+.footer-columns a { color: var(--head); font-weight: 500; }
+.trust-line { border-color: var(--line); }
+.trust-line a { color: var(--link); }
+
+@media (max-width: 980px) {
+  .cover-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .cover-card.lead { grid-template-columns: 1fr; }
+}
+@media (max-width: 760px) {
+  main, body.article-page main { width: calc(100vw - 2.5rem); overflow-x: visible; }
+  header.site-header, body.article-page header.site-header { padding: 0.9rem 0 0.4rem; gap: 0 0.9rem; }
+  .logo { width: 84px; }
+  nav.sections { order: 3; width: 100%; justify-content: flex-start; gap: 0 1.15rem; margin: 0; }
+  nav.sections a { font-size: 1.0625rem; }
+  .lang-pill { margin-left: auto; }
+  .cover-grid { grid-template-columns: 1fr; }
+  .home-intro, .article-head, .page-head { padding-top: 1.8rem; }
+  .article-head .kicker, .page-head .kicker, .home-intro .kicker { gap: 0 0.7rem; }
+  .action-bar { gap: 0.45rem; }
+  .action-bar a { padding: 0 0.85rem; }
+  .more-list { columns: 1; }
+}
+`;
+
 const AI_CRAWLER_RULES = [
   "GPTBot",
   "OAI-SearchBot",
@@ -1466,7 +1682,9 @@ const ISSUE_DATES = new Map();
 const IMAGE_SIZES = new Map();
 let CONTENT_MODIFIED_AT = null;
 
-const SITE_LOGO_ROUTE = "/assets/logo.png";
+const SITE_LOGO_ROUTE = "/assets/logo-1200.png";
+// Filled in main(): the real proud ambigram (src/brand/proud-logo.svg), inlined in header and footer.
+let LOGO_SVG_INLINE = "";
 // Filled in main(): printed credits, verified facts, people registry, optional contact/legal config.
 let EDITORIAL = { creditsByMagazine: new Map(), facts: [], contact: {}, legal: {} };
 let PEOPLE = [];
@@ -1499,7 +1717,7 @@ function organizationJsonLd(site) {
     name: "proud magazine Berlin",
     alternateName: ["proud", site.siteTitle],
     url: `${baseUrl(site)}/`,
-    logo: { "@type": "ImageObject", url: `${baseUrl(site)}${SITE_LOGO_ROUTE}`, width: 512, height: 512 },
+    logo: { "@type": "ImageObject", url: `${baseUrl(site)}${SITE_LOGO_ROUTE}`, width: 1200, height: 553 },
   };
 }
 
@@ -1577,11 +1795,23 @@ function creditedAuthors(article) {
   return [...new Set(names)];
 }
 
-function imgTag(src, alt, { priority = false } = {}) {
+// Hero cutouts also exist as 800px variants (/assets/hero-800/...); cards and article heroes offer both via srcset.
+function heroSmallHref(src) {
+  if (src?.startsWith("/assets/hero/")) return src.replace("/assets/hero/", "/assets/hero-800/");
+  if (src?.startsWith("/assets/page-images/")) return src.replace("/assets/page-images/", "/assets/page-images-760/");
+  return null;
+}
+
+function imgTag(src, alt, { priority = false, sizes = null } = {}) {
   const size = IMAGE_SIZES.get(src);
   const dims = size ? ` width="${size.width}" height="${size.height}"` : "";
   const loading = priority ? ' fetchpriority="high" decoding="async"' : ' loading="lazy" decoding="async"';
-  return `<img src="${src}" alt="${alt}"${dims}${loading}>`;
+  const small = heroSmallHref(src);
+  const smallSize = small ? IMAGE_SIZES.get(small) : null;
+  const srcset = sizes && smallSize && size && smallSize.width < size.width
+    ? ` srcset="${small} ${smallSize.width}w, ${src} ${size.width}w" sizes="${sizes}"`
+    : "";
+  return `<img src="${src}"${srcset} alt="${alt}"${dims}${loading}>`;
 }
 
 function pagesLabel(copy, article) {
@@ -2178,7 +2408,7 @@ function renderVideos(copy, videos) {
   return `
     <section class="story-section">
       <div class="section-rule"></div>
-      <h2 class="section-label">${escapeHtml(copy.watchListen)}</h2>
+      <h2 class="label-heading"><span class="label">${escapeHtml(copy.watchListen)}</span></h2>
       <div class="video-grid">
         ${videos
           .map((video) => `
@@ -2200,21 +2430,12 @@ function renderRelatedArchive(copy, site, locale, articles) {
   if (!articles?.length) {
     return "";
   }
-
   return `
-    <section class="story-section">
-      <div class="section-rule"></div>
-      <h2 class="section-label">${escapeHtml(copy.relatedArchive)}</h2>
-      <div class="story-related-grid">
-        ${articles
-          .map((article) => `
-            <article class="related-story">
-              <h3><a href="${routeForArticle(site, locale, article.slug)}">${escapeHtml(article.title)}</a></h3>
-              <p class="meta">${escapeHtml(displayMagazineTitle(article, locale))} · ${escapeHtml(pagesLabel(copy, article))}</p>
-              <p>${renderInlineMarkdown(visibleSummaryForArticle(article, locale))}</p>
-            </article>`)
-          .join("")}
-      </div>
+    <section class="related-band" aria-labelledby="related-title">
+      ${labelSection(copy.relatedArchive, { id: "related-title" })}
+      <ul class="cover-grid">
+        ${articles.map((article) => renderCoverCard(site, locale, article)).join("")}
+      </ul>
     </section>`;
 }
 
@@ -2797,6 +3018,7 @@ function renderLayout(site, {
   socialDescription = description,
   issueDate = null,
   navCurrent = null,
+  preloadImage = null,
 }) {
   const copy = ui(locale);
   const canonical = `${baseUrl(site)}${canonicalRoute}`;
@@ -2828,14 +3050,17 @@ function renderLayout(site, {
     <title>${escapeHtml(title)}</title>
     <meta name="description" content="${escapeHtml(description)}">
     <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
-    <meta name="theme-color" content="#f8f3ea">
+    <meta name="theme-color" content="#fdf6e3">
     <link rel="canonical" href="${canonical}">
     <link rel="alternate" type="text/markdown" href="${baseUrl(site)}${markdownRoute}">
     <link rel="webmcp" href="${baseUrl(site)}/.well-known/webmcp.json">
     <link rel="ai-catalog" href="/.well-known/ai-catalog.json">
     <link rel="icon" href="/favicon.ico" sizes="32x32">
+    <link rel="icon" href="/assets/proud-logo.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/assets/logo.png">
     <link rel="preload" href="/assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/assets/fonts/barlow-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+    ${preloadImage ? `<link rel="preload" as="image" href="${preloadImage.src}"${preloadImage.srcset ? ` imagesrcset="${preloadImage.srcset}" imagesizes="${preloadImage.sizes}"` : ""} fetchpriority="high">` : ""}
     ${headAlternates}
     <meta property="og:type" content="${escapeHtml(socialType)}">
     <meta property="og:site_name" content="${escapeHtml(site.siteTitle)}">
@@ -2853,11 +3078,11 @@ function renderLayout(site, {
     ${jsonLd}
   </head>
   <body${bodyClass ? ` class="${escapeHtml(bodyClass)}"` : ""}>
+    ${renderMastheadHeader(site, locale, { alternates, navCurrent })}
     <main>
-      ${renderMastheadHeader(site, locale, { alternates, navCurrent })}
       ${visibleBody}
-      ${renderSiteFooter(site, locale)}
     </main>
+    ${renderSiteFooter(site, locale)}
     <script src="/assets/webmcp.js" defer></script>
   </body>
 </html>`;
@@ -2880,18 +3105,14 @@ function renderMastheadHeader(site, locale, { alternates = [], navCurrent = null
   const otherLocale = other?.locale ?? (en ? "de" : "en");
   const otherRoute = other?.route ?? homeRoute(site, otherLocale);
   const langLabel = otherLocale === "en" ? "English" : "Deutsch";
-  return `<div class="masthead-strip">
-        <span>${escapeHtml(en ? "Archive edition: Berlin 2009–2014" : "Archiv-Ausgabe: Berlin 2009–2014")}</span>
-        <a href="${otherRoute}" hreflang="${otherLocale}" lang="${otherLocale}">${escapeHtml(langLabel)}</a>
-      </div>
-      <header class="site-header masthead">
-        <p class="wordmark"><a href="${homeRoute(site, locale)}" aria-label="proud. ${escapeHtml(en ? "home" : "Startseite")}">proud.</a></p>
-        <p class="wordmark-sub">magazine Berlin</p>
+  return `<header class="site-header">
+        <a class="logo-link" href="${homeRoute(site, locale)}" aria-label="${escapeHtml(en ? "proud magazine Berlin home" : "proud magazine Berlin Startseite")}">${LOGO_SVG_INLINE}</a>
         <nav class="sections" aria-label="${escapeHtml(en ? "Sections" : "Rubriken")}">
           ${navItems(site, locale)
             .map(([key, href, label]) => `<a href="${href}"${key === navCurrent ? ' aria-current="page"' : ""}>${escapeHtml(label)}</a>`)
             .join("\n          ")}
         </nav>
+        <a class="lang-pill" href="${otherRoute}" hreflang="${otherLocale}" lang="${otherLocale}">${escapeHtml(langLabel)}</a>
       </header>`;
 }
 
@@ -2907,13 +3128,13 @@ function renderSiteFooter(site, locale) {
     ...(legalPagesEnabled() ? [["impressum", en ? "Legal notice" : "Impressum"], ["datenschutz", en ? "Privacy" : "Datenschutz"]] : []),
   ];
   return `<footer class="site-footer">
-        <p class="footer-brand">proud.</p>
+        <p class="footer-brand"><a class="logo-link" href="${homeRoute(site, locale)}" aria-label="${escapeHtml(en ? "proud magazine Berlin home" : "proud magazine Berlin Startseite")}">${LOGO_SVG_INLINE}</a></p>
         <ul class="footer-columns">
           ${links.map(([key, label]) => `<li><a href="${routeForStatic(site, locale, key)}">${escapeHtml(label)}</a></li>`).join("\n          ")}
         </ul>
         <p class="trust-line">${escapeHtml(en ? `Publisher today: ${CURRENT_PUBLISHER}` : `Herausgeber heute: ${CURRENT_PUBLISHER}`)}<br>${en
-          ? `Archived in the German National Library (<a href="${DNB_URL}">${DNB_SHELF} · ZDB ${ZDB_ID}</a>)`
-          : `Archiviert in der Deutschen Nationalbibliothek (<a href="${DNB_URL}">${DNB_SHELF} · ZDB ${ZDB_ID}</a>)`}</p>
+          ? `Archived in the German National Library (<a class="nowrap" href="${DNB_URL}">${DNB_SHELF} · ZDB ${ZDB_ID}</a>)`
+          : `Archiviert in der Deutschen Nationalbibliothek (<a class="nowrap" href="${DNB_URL}">${DNB_SHELF} · ZDB ${ZDB_ID}</a>)`}</p>
       </footer>`;
 }
 
@@ -3049,7 +3270,7 @@ function buildArticleHtml(site, localized, locale, locales, articlePool, manualE
       const href = articlePageImageHref(entry);
       return `
         <figure class="page-card">
-          <a href="${href}">${imgTag(href, escapeHtml(copy.pageAlt(localized.title, entry.pageNumber)), { priority: !articleHero && index === 0 })}</a>
+          <a href="${href}">${imgTag(href, escapeHtml(copy.pageAlt(localized.title, entry.pageNumber)), { priority: !articleHero && index === 0, sizes: (localized.pageImages?.length ?? 0) === 1 ? "(max-width: 560px) calc(100vw - 2.5rem), 520px" : "(max-width: 960px) calc(50vw - 1.25rem), 460px" })}</a>
           <figcaption class="meta">${escapeHtml(copy.pageBadge(entry.pageNumber))}</figcaption>
         </figure>`;
     })
@@ -3083,12 +3304,12 @@ function buildArticleHtml(site, localized, locale, locales, articlePool, manualE
   const articleHeroFigure = articleHero
     ? `
         <figure class="article-figure">
-          ${imgTag(articleHero, escapeHtml(localized.title), { priority: true })}
+          ${imgTag(articleHero, escapeHtml(localized.title), { priority: true, sizes: "(max-width: 940px) calc(100vw - 2.5rem), 900px" })}
           <figcaption><span>${escapeHtml(copy.heroCutoutCaption)}, ${escapeHtml(issueTitle)}, ${escapeHtml(pagesLabel(copy, localized).replace("-", "–"))}</span>${photoCredits.length ? `<span class="photo-credit">${escapeHtml(photoCredits.map((credit) => `${credit.label}: ${credit.name}`).join(" · "))}</span>` : ""}</figcaption>
         </figure>`
     : "";
   const videosSection = renderVideos(copy, enrichment.videos);
-  const relatedArchiveSection = renderRelatedArchive(copy, site, locale, enrichment.relatedArticles);
+  const relatedArchiveSection = renderRelatedArchive(copy, site, locale, enrichment.relatedArticles.map((entry) => ARTICLES_BY_SLUG.get(entry.slug) ?? entry));
 
   const en = isEnglishLocale(locale);
   const rubric = articleRubric(localized);
@@ -3102,12 +3323,14 @@ function buildArticleHtml(site, localized, locale, locales, articlePool, manualE
     : "";
   const nb = (text) => `<span class="nowrap">${text}</span>`;
   const datelineHtml = `<p class="dateline">Berlin${issueDate ? ` · ${nb(renderIssueTime(issueDate, locale))}` : ""} · ${nb(`${escapeHtml(en ? "Issue" : "Heft")} ${escapeHtml(issueNumberFromSeed(localized.magazineTitle) ?? "")},`)} ${nb(`${escapeHtml(localized.pages.start === localized.pages.end ? copy.page : copy.pages)} ${escapeHtml(pageRangeLabel(localized).replace("-", "–"))}`)} ${nb(`· ${escapeHtml(copy.minutesRead(enrichment.readingTime))}`)}</p>`;
+  const rubricHtml = rubric ? `<a class="kicker-rubric" href="${routeForRubric(site, locale, rubricSlug(rubric))}">${escapeHtml(rubricLabel(rubric))}</a>` : "";
   const linkedPeople = [...byline.authors, ...byline.secondary].filter((entry) => entry.slug).map((entry) => PEOPLE_BY_SLUG.get(entry.slug));
   const uniquePeople = [...new Map(linkedPeople.map((person) => [person.slug, person])).values()];
-  const authorNote = uniquePeople.length
-    ? `<aside class="author-note" aria-label="${escapeHtml(en ? "About the contributors" : "Über die Beteiligten")}">${uniquePeople.map((person) => `<p><strong><a href="${routeForAuthor(site, locale, person.slug)}">${escapeHtml(person.name)}</a></strong> · ${escapeHtml(personRoleLabels(person, locale).join(", "))}${person.bio ? ` · <span lang="de">${escapeHtml(sentenceSummaryFromText(person.bio, 1, 200))}</span>` : ""}</p>`).join("")}</aside>`
+  const notePeople = uniquePeople.filter((person) => person.bio);
+  const authorNote = notePeople.length
+    ? `<aside class="author-note" aria-label="${escapeHtml(en ? "About the contributors" : "Über die Beteiligten")}">${notePeople.map((person) => `<p><strong><a href="${routeForAuthor(site, locale, person.slug)}">${escapeHtml(person.name)}</a></strong> · ${escapeHtml(personRoleLabels(person, locale).join(", "))}${person.bio ? ` · <span lang="de">${escapeHtml(sentenceSummaryFromText(person.bio, 1, 200))}</span>` : ""}</p>`).join("")}</aside>`
     : "";
-  const actionBar = `<div class="action-bar">
+  const actionBar = `<div class="action-bar" role="group" aria-label="${escapeHtml(en ? "Reading options" : "Leseoptionen")}">
             ${topScans ? `<a href="#original-pages">${escapeHtml(en ? "View original page" : "Originalseite ansehen")}</a>` : ""}
             <a href="${routeForArticle(site, locale, localized.slug)}index.md" type="text/markdown">Markdown</a>
             ${locales.map((entry) => {
@@ -3118,37 +3341,29 @@ function buildArticleHtml(site, localized, locale, locales, articlePool, manualE
           </div>`;
   const body = `
     <article>
-    <section class="hero">
-      <div class="article-hero-inner">
-        <div class="hero-copy">
-          <p class="kicker"><span class="kicker-tag">${escapeHtml(issueTitle)}${issueDate ? ` · ${escapeHtml(issueDateLabel(issueDate, locale))}` : ""}</span>${rubric ? `<span class="kicker-rubric">${escapeHtml(rubric)}</span>` : ""}</p>
-          <h1 class="news-headline">${escapeHtml(localized.title)}</h1>
-          ${deck ? `<p class="deck">${renderInlineMarkdown(deck)}</p>` : ""}
-          <div class="byline-block">
-            ${bylineHtml}
-            ${secondaryHtml}
-            ${datelineHtml}
-          </div>
-          ${authorNote}
-          ${actionBar}
-          ${translationNote}
-        </div>${articleHeroFigure}
+    <header class="article-head">
+      <p class="kicker">${rubricHtml}<span class="kicker-issue">${escapeHtml(issueTitle)}${issueDate ? ` · ${escapeHtml(issueDateLabel(issueDate, locale))}` : ""}</span></p>
+      ${labelTitle(localized.title)}
+      ${deck ? `<p class="deck"><strong>${escapeHtml(en ? "In short:" : "Kurz gesagt:")}</strong> <em>${renderInlineMarkdown(deck)}</em></p>` : ""}
+      <div class="byline-block">
+        ${bylineHtml}
+        ${secondaryHtml}
+        ${datelineHtml}
       </div>
-    </section>
-    ${topScans}
-    <section class="article-shell no-support">
-      <div class="article-main">
-        <section class="panel">
-          <div class="content">
-            ${normalizeBodyHeadings(stripDeckEcho(renderMarkdownToHtml(articleBody), deck))}
-          </div>
-        </section>
-        ${renderAuthorBox(site, locale, uniquePeople, localized.slug)}
-        ${videosSection}
-        ${relatedArchiveSection}
+      ${actionBar}
+      ${authorNote}
+      ${translationNote}
+    </header>
+    <div class="article-band">
+      ${articleHeroFigure}
+      ${topScans}
+      <div class="content">
+        ${labelHeadings(normalizeBodyHeadings(stripDeckEcho(renderMarkdownToHtml(articleBody), deck)))}
       </div>
-      ${sourcePanel}
-    </section>
+      ${renderAuthorBox(site, locale, uniquePeople, localized.slug)}
+      ${videosSection}
+    </div>
+    ${relatedArchiveSection}
     </article>`;
 
   return renderLayout(site, {
@@ -3239,7 +3454,7 @@ function renderAuthorBox(site, locale, people, currentSlug) {
   const en = isEnglishLocale(locale);
   return `
         <section class="author-box" aria-labelledby="author-box-title">
-          <h2 class="section-label" id="author-box-title">${escapeHtml(en ? (people.length > 1 ? "About the contributors" : "About the contributor") : (people.length > 1 ? "Über die Beteiligten" : "Über die Person"))}</h2>
+          <h2 class="label-heading" id="author-box-title"><span class="label">${escapeHtml(en ? (people.length > 1 ? "About the contributors" : "About the contributor") : (people.length > 1 ? "Über die Beteiligten" : "Über die Person"))}</span></h2>
           ${people.map((person) => {
             const others = person.credits.filter((credit) => credit.articleSlug !== currentSlug).map((credit) => ARTICLES_BY_SLUG.get(credit.articleSlug)).filter(Boolean);
             return `<div class="author-box-entry">
@@ -3304,8 +3519,8 @@ function buildMagazineHtml(site, locale, magazine, localizedArticles, locales) {
     <section class="hero">
       <div class="hero-grid">
         <div class="hero-copy">
-          <p class="kicker"><span class="kicker-tag">proud magazine Berlin</span></p>
-          <h1 class="news-headline">${escapeHtml(issueTitle)}</h1>
+          <p class="kicker"><span class="kicker-rubric">proud magazine Berlin</span></p>
+          ${labelTitle(issueTitle)}
           <p class="lede">${escapeHtml(copy.issueIntro)}</p>
           <div class="stat-row">${metaChips.join("")}</div>
           <div class="locale-nav compact-locale-nav">
@@ -3323,7 +3538,7 @@ function buildMagazineHtml(site, locale, magazine, localizedArticles, locales) {
     <section class="section-stack">
       <section class="panel list-panel">
         <div class="section-rule"></div>
-        <h2 class="section-label">${escapeHtml(copy.issueContents)}</h2>
+        <h2 class="label-heading"><span class="label">${escapeHtml(copy.issueContents)}</span></h2>
         <ol class="article-list" style="margin-top:1rem">
           ${orderedArticles.map((article) => renderArticleReviewCard(site, locale, article)).join("")}
         </ol>
@@ -3394,14 +3609,18 @@ function buildIndexMarkdown(site, locale, articles, magazines) {
   return lines.join("\n");
 }
 
+// Kicker: pink rubric (links to its rubric page when wanted) + quiet issue label. No black tag: black is for label headings.
 function renderStoryKicker(site, locale, article, { link = false } = {}) {
   const issueTitle = displayMagazineTitle(article, locale);
   const rubric = articleRubric(article);
-  void link;
-  const tag = `<span class="kicker-tag">${escapeHtml(issueTitle)}</span>`;
-  return `<p class="kicker">${tag}${rubric ? `<span class="kicker-rubric">${escapeHtml(rubric)}</span>` : ""}</p>`;
+  const rubricHtml = rubric
+    ? (link ? `<a class="kicker-rubric" href="${routeForRubric(site, locale, rubricSlug(rubric))}">${escapeHtml(rubricLabel(rubric))}</a>` : `<span class="kicker-rubric">${escapeHtml(rubricLabel(rubric))}</span>`)
+    : "";
+  return `<p class="kicker">${rubricHtml}<span class="kicker-issue">${escapeHtml(issueTitle)}</span></p>`;
 }
 
+// Card byline: printed author (or printed photo credit) and issue month. Class is card-byline, not byline:
+// pages without a printed credit must not carry a byline element (tests/editorial.test.mjs).
 function renderStoryByline(site, locale, article) {
   const en = isEnglishLocale(locale);
   const byline = bylineFor(EDITORIAL, article, PEOPLE_BY_SLUG, locale);
@@ -3409,7 +3628,64 @@ function renderStoryByline(site, locale, article) {
   const parts = [];
   if (byline.authors.length) parts.push(`${en ? "By" : "Von"} ${byline.authors.map((entry) => entry.name).join(", ")}`);
   else if (byline.secondary.some((entry) => entry.role === "photo" && entry.slug)) parts.push(byline.secondary.filter((entry) => entry.role === "photo" && entry.slug).map((entry) => `${entry.label}: ${entry.name}`).join(" · "));
-  return `<p class="dateline">${parts.length ? `<span class="byline">${escapeHtml(parts.join(" · "))}</span> · ` : ""}${issueDate ? renderIssueTime(issueDate, locale) : ""}</p>`;
+  return `<p class="card-meta">${parts.length ? `<span class="card-byline">${escapeHtml(parts.join(" · "))}</span> · ` : ""}${issueDate ? renderIssueTime(issueDate, locale) : ""}</p>`;
+}
+
+// Big cover card (home, rubric pages, related stories): 3:2 cutout, kicker, plain bold title, deck, byline.
+function renderCoverCard(site, locale, article, { priority = false, headingLevel = 3, lead = false } = {}) {
+  const href = routeForArticle(site, locale, article.slug);
+  const cover = articleCoverHref(article);
+  const deck = articleDeck(article, locale);
+  const h = `h${headingLevel}`;
+  return `<li class="cover-card${lead ? " lead" : ""}">
+        ${cover ? `<a class="cover-media" href="${href}" tabindex="-1" aria-hidden="true">${imgTag(cover, "", { priority, sizes: lead ? "(max-width: 980px) calc(100vw - 2.5rem), 620px" : "(max-width: 760px) calc(100vw - 2.5rem), (max-width: 980px) 45vw, 360px" })}</a>` : ""}
+        <div class="cover-body">
+        ${renderStoryKicker(site, locale, article)}
+        <${h} class="card-title"><a href="${href}">${escapeHtml(article.title)}</a></${h}>
+        ${deck ? `<p class="card-deck">${renderInlineMarkdown(deck)}</p>` : ""}
+        ${renderStoryByline(site, locale, article)}
+        </div>
+      </li>`;
+}
+
+// Section/question headings render as black label headings: the inline span carries the black box so it wraps line by line.
+function labelHeadings(html) {
+  return String(html ?? "").replace(/<h([1-4])([^>]*)>([\s\S]*?)<\/h\1>/g, (_m, level, attrs, inner) => `<h${level}${attrs}><span class="label">${inner}</span></h${level}>`);
+}
+
+function labelTitle(text, tag = "h1", attrs = "") {
+  return `<${tag} class="label-title"${attrs}><span class="label">${escapeHtml(text)}</span></${tag}>`;
+}
+
+function labelSection(text, { tag = "h2", id = "", moreHref = "", moreLabel = "" } = {}) {
+  return `<div class="section-head"><${tag} class="label-heading"${id ? ` id="${id}"` : ""}><span class="label">${escapeHtml(text)}</span></${tag}>${moreHref ? `<a class="more-link" href="${moreHref}">${escapeHtml(moreLabel)} <span aria-hidden="true">→</span></a>` : ""}</div>`;
+}
+
+// Rubrics are the printed section tags of the issue (Streets ahead, Chat, Sounds, ...), shown as printed with a capital first letter.
+function rubricLabel(rubric) {
+  const text = String(rubric ?? "").trim();
+  return text ? text.charAt(0).toUpperCase() + text.slice(1) : "";
+}
+
+function rubricSlug(rubric) {
+  return slugifyName(String(rubric ?? ""));
+}
+
+function routeForRubric(site, locale, slug) {
+  return `${routePrefix(site, locale)}/rubrics/${slug}/`;
+}
+
+function rubricGroups(articles) {
+  const groups = new Map();
+  for (const article of articles) {
+    const rubric = articleRubric(article);
+    if (!rubric) continue;
+    const slug = rubricSlug(rubric);
+    if (!groups.has(slug)) groups.set(slug, { slug, rubric, label: rubricLabel(rubric), articles: [] });
+    groups.get(slug).articles.push(article);
+  }
+  for (const group of groups.values()) group.articles = sortArticlesByWordCount(group.articles);
+  return [...groups.values()].sort((a, b) => b.articles.length - a.articles.length || a.label.localeCompare(b.label));
 }
 
 // Issue cover thumbnail: only when a real cover asset exists (none are published yet, so the strip shows text).
@@ -3438,38 +3714,45 @@ function buildIndexHtml(site, locale, articles, magazines, locales) {
     .map((magazine) => ({ magazine, cover: issueCoverHref(magazine) }))
     .filter((entry) => entry.cover);
   void issueCovers;
+  // Latest: the lead story plus the next five longest stories with a cutout and a summary.
+  const latest = gridArticles.slice(0, 5);
+  const shown = new Set([leadArticle?.slug, ...latest.map((article) => article.slug)].filter(Boolean));
+  const rubricSections = rubricGroups(articles)
+    .map((group) => ({ ...group, picks: group.articles.filter((article) => !shown.has(article.slug)).slice(0, 3) }))
+    .filter((group) => group.picks.length >= 2)
+    .slice(0, 6);
+  for (const group of rubricSections) for (const article of group.picks) shown.add(article.slug);
+  const moreList = sortArticlesByWordCount(articles).filter((article) => !shown.has(article.slug)).slice(0, 12);
   const body = `
-    <h1 class="visually-hidden">proud magazine Berlin: ${escapeHtml(en ? "archive edition" : "Archiv-Ausgabe")}</h1>
-    ${leadArticle ? `
-    <article class="home-lead">
-      <div>
-        ${renderStoryKicker(site, locale, leadArticle, { link: true })}
-        <h2 class="news-headline"><a href="${leadHref}">${escapeHtml(leadArticle.title)}</a></h2>
-        <p class="deck">${renderInlineMarkdown(articleDeck(leadArticle, locale))}</p>
-        <div class="byline-block">${renderStoryByline(site, locale, leadArticle).replace('<p class="dateline">', `<p class="dateline">Berlin · `)}</div>
+    <section class="home-intro">
+      <p class="kicker"><span class="kicker-rubric">proud magazine Berlin</span><span class="kicker-issue">2009–2014</span></p>
+      <h1 class="label-title"><span class="label">${escapeHtml(en ? "Berlin, 2009 to 2014. The archive is coming back online, issue by issue." : "Berlin, 2009 bis 2014. Das Archiv kommt zurück ins Netz, Heft für Heft.")}</span></h1>
+      <p class="intro-text">${escapeHtml(en ? "Stories on music, the city, nightlife and style, as they were printed: readable text, the original pages and the printed credits." : "Geschichten über Musik, Stadt, Nachtleben und Stil, so wie sie gedruckt wurden: lesbarer Text, die Originalseiten und die gedruckten Credits.")} <a href="${routeForStatic(site, locale, "about")}">${escapeHtml(en ? "About proud" : "Über proud")}</a>.</p>
+    </section>
+    <section class="home-band" aria-labelledby="latest-title">
+      <div class="wrap">
+        ${labelSection(en ? "Latest" : "Neu im Archiv", { id: "latest-title", moreHref: routeForArticlesIndex(site, locale), moreLabel: en ? "All articles" : "Alle Artikel" })}
+        <ul class="cover-grid">
+          ${leadArticle ? renderCoverCard(site, locale, leadArticle, { priority: true, lead: true }) : ""}
+          ${latest.map((article) => renderCoverCard(site, locale, article)).join("")}
+        </ul>
       </div>
-      ${leadImage ? `<figure><a href="${leadHref}" tabindex="-1" aria-hidden="true">${imgTag(leadImage, "", { priority: true })}</a><figcaption>${escapeHtml(copy.heroCutoutCaption)}, ${escapeHtml(displayMagazineTitle(leadArticle, locale))}, ${escapeHtml(pagesLabel(copy, leadArticle).replace("-", "–"))}</figcaption></figure>` : ""}
-    </article>` : ""}
-    <ul class="story-grid">
-      ${gridArticles.map((article) => {
-        const href = routeForArticle(site, locale, article.slug);
-        return `<li>
-        <a href="${href}" tabindex="-1" aria-hidden="true">${imgTag(articleCoverHref(article), "")}</a>
-        ${renderStoryKicker(site, locale, article)}
-        <h3 class="news-headline"><a href="${href}">${escapeHtml(article.title)}</a></h3>
-        <p class="deck">${renderInlineMarkdown(articleDeck(article, locale))}</p>
-        ${renderStoryByline(site, locale, article)}
-      </li>`;
-      }).join("")}
-    </ul>
-    <div class="section-head"><h2 class="section-label">${escapeHtml(en ? "Issues" : "Ausgaben")}</h2><a href="${routeForArticlesIndex(site, locale)}">${escapeHtml(en ? "All articles" : "Alle Artikel")}</a></div>
-    <ul class="issue-strip">
-      ${magazines.map((magazine) => {
-        const cover = issueCoverHref(magazine);
-        const issueDate = issueDateFor(magazine.slug);
-        return `<li><a href="${routeForMagazine(site, locale, magazine.slug)}">${cover ? imgTag(cover, "") : ""}<strong>${escapeHtml(displayMagazineTitle(magazine, locale))}</strong><span>${issueDate ? renderIssueTime(issueDate, locale) : ""} · ${formatCount(magazine.articleCount, locale)} ${escapeHtml(copy.articles)}</span></a></li>`;
-      }).join("")}
-    </ul>`;
+    </section>
+    ${rubricSections.map((group) => `
+    <section class="home-section" aria-labelledby="rubric-${group.slug}">
+      ${labelSection(group.label, { id: `rubric-${group.slug}`, moreHref: routeForRubric(site, locale, group.slug), moreLabel: en ? `More ${group.label}` : `Mehr ${group.label}` })}
+      <ul class="cover-grid">
+        ${group.picks.map((article) => renderCoverCard(site, locale, article)).join("")}
+      </ul>
+    </section>`).join("")}
+    ${moreList.length ? `
+    <section class="home-section" aria-labelledby="more-title">
+      ${labelSection(en ? "More" : "Mehr", { id: "more-title" })}
+      <ul class="more-list">
+        ${moreList.map((article) => `<li><a href="${routeForArticle(site, locale, article.slug)}">${escapeHtml(article.title)}</a>${articleRubric(article) ? ` <span class="more-rubric">${escapeHtml(rubricLabel(articleRubric(article)))}</span>` : ""}</li>`).join("")}
+      </ul>
+      <p class="all-link"><a href="${routeForArticlesIndex(site, locale)}">${escapeHtml(en ? `All ${articles.length} articles` : `Alle ${articles.length} Artikel`)} <span aria-hidden="true">→</span></a> · <a href="${routeForMagazinesIndex(site, locale)}">${escapeHtml(en ? "Issues" : "Ausgaben")}</a> · <a href="${routeForStatic(site, locale, "authors")}">${escapeHtml(en ? "Authors" : "Autor:innen")}</a></p>
+    </section>` : ""}`;
 
   return renderLayout(site, {
     locale,
@@ -3539,11 +3822,11 @@ function buildListPageHtml(site, locale, title, route, markdownRoute, itemsHtml,
     route,
     markdownRoute,
     body: `
-      <section class="hero">
-        <h1 class="news-headline">${escapeHtml(title)}</h1>
-        <p class="lede">${escapeHtml(copy.listPageIntro)}</p>
+      <section class="page-head">
+        ${labelTitle(title)}
+        <p class="deck">${escapeHtml(copy.listPageIntro)}</p>
       </section>
-      <section class="panel list-panel" style="margin-top:1rem">
+      <section class="panel list-panel">
         ${itemsHtml}
       </section>`,
     socialImage,
@@ -3586,12 +3869,12 @@ function buildStaticPage(site, locale, key, locales, context) {
     alternates: locales.map((entry) => ({ locale: entry, route: routeForStatic(site, entry, key) })),
     body: `
     <section class="page-head">
-      <p class="kicker"><span class="kicker-tag">proud magazine Berlin</span><span class="kicker-rubric">${escapeHtml(en ? "Archive edition" : "Archiv-Ausgabe")}</span></p>
-      <h1 class="news-headline">${escapeHtml(title)}</h1>
+      <p class="kicker"><span class="kicker-rubric">proud magazine Berlin</span><span class="kicker-issue">${escapeHtml(en ? "Archive edition" : "Archiv-Ausgabe")}</span></p>
+      ${labelTitle(title)}
       <p class="deck">${escapeHtml(description)}</p>
     </section>
     <div class="prose">
-      ${renderMarkdownToHtml(staticPageMarkdownWithMarker(key, locale, { editorial: EDITORIAL, site, routes: staticRoutes(site, locale), ...context })).replace(/<p>@@DFJV_QUOTE@@<\/p>/, dfjvMentionHtml(locale))}
+      ${labelHeadings(renderMarkdownToHtml(staticPageMarkdownWithMarker(key, locale, { editorial: EDITORIAL, site, routes: staticRoutes(site, locale), ...context }))).replace(/<p>@@DFJV_QUOTE@@<\/p>/, dfjvMentionHtml(locale))}
     </div>`,
     structuredData: {
       "@context": "https://schema.org",
@@ -3657,15 +3940,15 @@ function buildAuthorPage(site, locale, person, locales) {
     alternates: locales.map((entry) => ({ locale: entry, route: routeForAuthor(site, entry, person.slug) })),
     body: `
     <section class="page-head">
-      <p class="kicker"><span class="kicker-tag">${escapeHtml(en ? "Authors" : "Autor:innen")}</span><span class="kicker-rubric">proud #01</span></p>
-      <h1 class="news-headline">${escapeHtml(person.name)}</h1>
+      <p class="kicker"><a class="kicker-rubric" href="${routeForStatic(site, locale, "authors")}">${escapeHtml(en ? "Authors" : "Autor:innen")}</a><span class="kicker-issue">proud #01</span></p>
+      ${labelTitle(person.name)}
       <p class="deck">${escapeHtml(roles.join(", "))} · ${escapeHtml(en ? "Contributor to proud #01" : "Mitarbeit an proud #01")}</p>
     </section>
     <div class="prose">
       ${currentNote ? `<p>${escapeHtml(currentNote)}</p>` : ""}
-      ${person.bio ? `<h2>${escapeHtml(en ? "Printed bio" : "Gedruckte Kurzbio")}</h2><blockquote lang="de">${escapeHtml(person.bio)}</blockquote><p class="meta">${escapeHtml(en ? `proud #01, page ${person.bioSource.page}, German original` : `proud #01, Seite ${person.bioSource.page}`)}</p>` : ""}
-      ${mastheadLines.length ? `<h2>${escapeHtml(en ? "Masthead" : "Impressum")}</h2><ul>${mastheadLines.map((line) => `<li>${escapeHtml(line)}</li>`).join("")}</ul>` : ""}
-      ${items.length ? `<h2>${escapeHtml(en ? "Articles" : "Artikel")}</h2>
+      ${person.bio ? `<h2 class="label-heading"><span class="label">${escapeHtml(en ? "Printed bio" : "Gedruckte Kurzbio")}</span></h2><blockquote lang="de">${escapeHtml(person.bio)}</blockquote><p class="meta">${escapeHtml(en ? `proud #01, page ${person.bioSource.page}, German original` : `proud #01, Seite ${person.bioSource.page}`)}</p>` : ""}
+      ${mastheadLines.length ? `<h2 class="label-heading"><span class="label">${escapeHtml(en ? "Masthead" : "Impressum")}</span></h2><ul>${mastheadLines.map((line) => `<li>${escapeHtml(line)}</li>`).join("")}</ul>` : ""}
+      ${items.length ? `<h2 class="label-heading"><span class="label">${escapeHtml(en ? "Articles" : "Artikel")}</span></h2>
       <ul class="plain-list">${items.map(({ credit, article }) => `<li><a href="${routeForArticle(site, locale, article.slug)}">${escapeHtml(article.title)}</a><span class="meta">${escapeHtml(`${credit.printedLabel} ${credit.printedName}`)} · ${escapeHtml(displayMagazineTitle(article, locale))} · ${escapeHtml(pagesLabel(ui(locale), article))}</span></li>`).join("")}</ul>` : ""}
       ${printedAsNote ? `<p class="meta">${escapeHtml(printedAsNote)}</p>` : ""}
       <p class="meta">${escapeHtml(en ? "Source: printed credits in the scanned issue. No further biography is known to this archive." : "Quelle: gedruckte Credits im gescannten Heft. Weitere biografische Angaben liegen dem Archiv nicht vor.")}</p>
@@ -3718,8 +4001,8 @@ function buildAuthorsIndex(site, locale, locales) {
     alternates: locales.map((entry) => ({ locale: entry, route: routeForStatic(site, entry, "authors") })),
     body: `
     <section class="page-head">
-      <p class="kicker"><span class="kicker-tag">proud magazine Berlin</span></p>
-      <h1 class="news-headline">${escapeHtml(title)}</h1>
+      <p class="kicker"><span class="kicker-rubric">proud magazine Berlin</span></p>
+      ${labelTitle(title)}
       <p class="deck">${escapeHtml(description)}</p>
     </section>
     <p class="prose">${escapeHtml(note)} <a href="${routeForStatic(site, locale, "masthead")}">${escapeHtml(en ? "Full masthead" : "Vollständiges Impressum")}</a></p>
@@ -3741,6 +4024,52 @@ function buildAuthorsIndex(site, locale, locales) {
     },
   });
   const markdown = `${frontmatter({ title, locale, canonical_url: `${baseUrl(site)}${route}`, type: "authors-index" })}# ${title}\n\n> ${description}\n\n${note}\n\n${PEOPLE.map((person) => `- [${person.name}](${baseUrl(site)}${routeForAuthor(site, locale, person.slug)}index.md): ${personRoleLabels(person, locale).join(", ")}`).join("\n")}\n`;
+  return { route, html, markdown };
+}
+
+function buildRubricPage(site, locale, group, locales) {
+  const en = isEnglishLocale(locale);
+  const route = routeForRubric(site, locale, group.slug);
+  const title = group.label;
+  const description = en
+    ? `${group.label}: the stories printed under this rubric in proud magazine Berlin, issue 01 (January 2009).`
+    : `${group.label}: die Geschichten, die in proud magazine Berlin, Heft 01 (Januar 2009), unter dieser Rubrik erschienen.`;
+  const html = renderLayout(site, {
+    locale,
+    title: `${title} | proud magazine Berlin`,
+    description,
+    route,
+    markdownRoute: `${route}index.md`,
+    navCurrent: "articles",
+    alternates: locales.map((entry) => ({ locale: entry, route: routeForRubric(site, entry, group.slug) })),
+    socialImage: articleCoverHref(group.articles[0]) ?? null,
+    body: `
+    <section class="page-head">
+      <p class="kicker"><a class="kicker-rubric" href="${routeForArticlesIndex(site, locale)}">${escapeHtml(en ? "Rubric" : "Rubrik")}</a><span class="kicker-issue">proud #01</span></p>
+      ${labelTitle(title)}
+      <p class="deck">${escapeHtml(description)}</p>
+    </section>
+    <ul class="cover-grid">
+      ${group.articles.map((article, index) => renderCoverCard(site, locale, article, { headingLevel: 2, priority: index === 0 })).join("")}
+    </ul>
+    <p class="all-link"><a href="${routeForArticlesIndex(site, locale)}">${escapeHtml(en ? "All articles" : "Alle Artikel")} <span aria-hidden="true">→</span></a></p>`,
+    structuredData: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CollectionPage",
+          name: title,
+          description,
+          url: `${baseUrl(site)}${route}`,
+          inLanguage: locale,
+          isPartOf: { "@type": "WebSite", "@id": `${baseUrl(site)}/#website` },
+          mainEntity: { "@type": "ItemList", itemListElement: group.articles.map((article, index) => ({ "@type": "ListItem", position: index + 1, url: `${baseUrl(site)}${routeForArticle(site, locale, article.slug)}`, name: article.title })) },
+        },
+        breadcrumbJsonLd(site, [{ name: "proud", route: homeRoute(site, locale) }, { name: en ? "Articles" : "Artikel", route: routeForArticlesIndex(site, locale) }, { name: title, route }]),
+      ],
+    },
+  });
+  const markdown = `${frontmatter({ title, locale, canonical_url: `${baseUrl(site)}${route}`, type: "rubric" })}# ${title}\n\n> ${description}\n\n${group.articles.map((article) => `- [${article.title}](${baseUrl(site)}${routeForArticle(site, locale, article.slug)}index.md): ${displaySummaryForArticle(article, locale)}`).join("\n")}\n`;
   return { route, html, markdown };
 }
 
@@ -4316,21 +4645,35 @@ async function main() {
     maxDimension: 1600,
     quality: 80,
   });
+  await optimizeImageTree(path.join(site.paths.outputDir, "hero"), path.join(site.paths.siteOutputDir, "assets", "hero-800"), {
+    maxDimension: 800,
+    quality: 78,
+  });
+  await optimizeImageTree(path.join(site.paths.outputDir, "page-images"), path.join(site.paths.siteOutputDir, "assets", "page-images-760"), {
+    maxDimension: 760,
+    quality: 78,
+  });
   await optimizeImageTree(path.join(site.paths.outputDir, "page-images"), path.join(site.paths.siteOutputDir, "assets", "page-images"), {
     maxDimension: 1400,
     quality: 82,
   });
   await fs.mkdir(path.join(site.paths.siteOutputDir, "assets", "pdfs"), { recursive: true });
-  await writeText(site, "/assets/site.css", `${CSS}\n${EDITORIAL_CSS_SOURCE}`);
+  await writeText(site, "/assets/site.css", `${CSS}\n${EDITORIAL_CSS_SOURCE}\n${DESIGN_V2_CSS}`);
   await writeText(site, "/assets/webmcp.js", WEBMCP_SCRIPT);
-  for (const [from, to] of [["favicon.ico", "favicon.ico"], ["logo.png", "assets/logo.png"]]) {
+  for (const [from, to] of [["favicon.ico", "favicon.ico"], ["logo.png", "assets/logo.png"], ["logo-1200.png", "assets/logo-1200.png"], ["proud-logo.svg", "assets/proud-logo.svg"]]) {
     await fs.copyFile(path.join(BRAND_DIR, from), path.join(site.paths.siteOutputDir, to));
   }
+  // Inline copy: decorative inside the labelled home link, so no title/role and hidden from the accessibility tree.
+  LOGO_SVG_INLINE = (await fs.readFile(path.join(BRAND_DIR, "proud-logo.svg"), "utf8"))
+    .trim()
+    .replace(/<title[^>]*>[\s\S]*?<\/title>/, "")
+    .replace(/ role="img"| aria-labelledby="[^"]*"/g, "")
+    .replace("<svg ", '<svg class="logo" aria-hidden="true" focusable="false" width="120" height="55" ');
   await fs.mkdir(path.join(site.paths.siteOutputDir, "assets", "fonts"), { recursive: true });
   for (const font of (await fs.readdir(path.join(BRAND_DIR, "fonts"))).filter((name) => name.endsWith(".woff2"))) {
     await fs.copyFile(path.join(BRAND_DIR, "fonts", font), path.join(site.paths.siteOutputDir, "assets", "fonts", font));
   }
-  for (const tree of ["previews", "hero", "page-images"]) {
+  for (const tree of ["previews", "hero", "hero-800", "page-images", "page-images-760"]) {
     await recordImageSizes(path.join(site.paths.siteOutputDir, "assets", tree), `/assets/${tree}`);
   }
   const issueDates = await readOptionalJson(path.join(path.dirname(site.paths.enrichmentDir), "issue-dates.json"));
@@ -4395,11 +4738,11 @@ async function main() {
       routeForArticlesIndex(site, locale),
       `${routeForArticlesIndex(site, locale)}index.md`,
       `
-        <h2 class="section-label">${escapeHtml(ui(locale).sortedByWordCount)}</h2>
+        <h2 class="label-heading"><span class="label">${escapeHtml(ui(locale).sortedByWordCount)}</span></h2>
         <ol class="article-list">
           ${wordRankedArticles.map((article) => renderArticleReviewCard(site, locale, article, { showMagazine: true })).join("")}
         </ol>
-        <h2 class="section-label" style="margin-top:1.5rem">${escapeHtml(ui(locale).inIssueOrder)}</h2>
+        <h2 class="label-heading"><span class="label">${escapeHtml(ui(locale).inIssueOrder)}</span></h2>
         <ol class="article-list">
           ${issueOrderedArticles.map((article) => renderArticleReviewCard(site, locale, article, { showMagazine: true })).join("")}
         </ol>`,
@@ -4467,6 +4810,10 @@ async function main() {
       const page = buildStaticPage(site, locale, key, locales, staticContext);
       await writePage(site, page.route, page.html, page.markdown);
     }
+    for (const group of rubricGroups(localizedArticles)) {
+      const page = buildRubricPage(site, locale, group, locales);
+      await writePage(site, page.route, page.html, page.markdown);
+    }
     const authorsIndex = buildAuthorsIndex(site, locale, locales);
     await writePage(site, authorsIndex.route, authorsIndex.html, authorsIndex.markdown);
     for (const person of PEOPLE) {
@@ -4489,6 +4836,9 @@ async function main() {
       "## About the magazine",
       ...staticKeys.map((key) => `- [${staticPageTitle(key, locale)}](${baseUrl(site)}${routeForStatic(site, locale, key)}index.md): ${staticPageDescription(key, locale)}`),
       `- Library record: German National Library, shelf mark ${DNB_SHELF}, ZDB ${ZDB_ID}, ${DNB_URL}`,
+      "",
+      "## Rubrics",
+      ...rubricGroups(localizedArticles).map((group) => `- [${group.label}](${baseUrl(site)}${routeForRubric(site, locale, group.slug)}index.md): ${group.articles.length} ${isEnglishLocale(locale) ? "articles" : "Artikel"}`),
       "",
       "## Authors",
       ...PEOPLE.map((person) => `- [${person.name}](${baseUrl(site)}${routeForAuthor(site, locale, person.slug)}index.md): ${personRoleLabels(person, locale).join(", ")}`),
@@ -4647,6 +4997,9 @@ async function main() {
   for (const person of PEOPLE) {
     addPageGroup(locales.map((locale) => ({ locale, route: routeForAuthor(site, locale, person.slug) })));
   }
+  for (const group of rubricGroups(defaultLocalized)) {
+    addPageGroup(locales.map((locale) => ({ locale, route: routeForRubric(site, locale, group.slug) })));
+  }
   const sitemapRoutes = new Set(["/llms.txt", "/llms-full.txt", ...sitemapAlternates.keys()]);
   for (const locale of locales) {
     sitemapRoutes.add(routeForLlms(site, locale));
@@ -4790,10 +5143,16 @@ Example citation fields:
     "/assets/hero/*",
     "  Cache-Control: public, max-age=31536000, immutable",
     "",
+    "/assets/hero-800/*",
+    "  Cache-Control: public, max-age=31536000, immutable",
+    "",
     "/assets/previews/*",
     "  Cache-Control: public, max-age=31536000, immutable",
     "",
     "/assets/page-images/*",
+    "  Cache-Control: public, max-age=31536000, immutable",
+    "",
+    "/assets/page-images-760/*",
     "  Cache-Control: public, max-age=31536000, immutable",
     "",
     "/.well-known/http-message-signatures-directory",

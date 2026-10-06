@@ -22,7 +22,7 @@ const STATIC_ROUTE_ASSETS = new Map([
 ]);
 
 // Long-lived, content-addressed-by-slug image trees. HTML/Markdown stay short so edits show up quickly.
-const IMMUTABLE_ASSET_PREFIXES = ["/assets/fonts/", "/assets/hero/", "/assets/previews/", "/assets/page-images/"];
+const IMMUTABLE_ASSET_PREFIXES = ["/assets/fonts/", "/assets/hero/", "/assets/hero-800/", "/assets/previews/", "/assets/page-images/", "/assets/page-images-760/"];
 const IMMUTABLE_CACHE_CONTROL = "public, max-age=31536000, immutable";
 const DOCUMENT_CACHE_CONTROL = "public, max-age=300, must-revalidate";
 
