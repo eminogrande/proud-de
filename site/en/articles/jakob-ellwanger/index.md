@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "38-38"
 ---
@@ -27,7 +28,8 @@ Jakob Ellwanger, despite an appreciation for futuristic industrial music, identi
 
 # jakob ellwanger
 
-> Source: 01 proud issuu_output, pages 38-38
+> Source: 01 proud issuu_output, page 38
+> Issue date: January 2009
 
 Futuristic industrial music certainly has its fascination, but deep down, I'm a flower child. Jakob Ellwanger on Berlin's original sound and delicate blossoms. The feeling of well-being. Luft&Liebe. Pentagonik & Nachtbanditen.
 

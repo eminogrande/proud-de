@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 2
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "36-36"
 ---
@@ -25,7 +26,8 @@ I already had allegedly meaningful things in my employee existence, but somehow 
 
 # Why all this party scene anyway?
 
-> Source: 01 proud issuu_output, pages 36-36
+> Source: 01 proud issuu_output, page 36
+> Issue date: January 2009
 
 ### Why all this anyway
 

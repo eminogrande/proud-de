@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "12-12"
 ---
@@ -26,7 +27,8 @@ Hier entsteht etwas ganz Großes – Potential ohne Ende. Es ist so verdammt gut
 
 # phb berlin
 
-> Quelle: 01 proud issuu_output, Seiten 12-12
+> Quelle: 01 proud issuu_output, Seite 12
+> Erschienen: Januar 2009
 
 Hier entsteht etwas ganz Großes – Potential ohne Ende. Es ist so verdammt gut, dass es sogar gefördert wird. Auch von proud. Säle für Kunst, Künstler und Kunstwerke. Fläche für mehr als 100 Ateliers und Tonstudios. Fotografie, Film, Musik und Mode. Dazu ein elektronischer Club für uns, der auch für unsere Launch-Party am 17. Januar herhalten wird. Im Moment putzen die sich ganz emsig, planen und entwickeln. Im Übrigen wirken die Wände wie das grafische Gästebuch der Stadt. proud begleitet den phb über die nächsten Monate und Jahre, featured Künstler und gibt Euch Hook-ups, wenn Ihr es nötig habt.
 

@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "14-14"
 ---
@@ -27,7 +28,8 @@ Fritz Helder & The Phantoms, discovered on YouTube, deliver an infectious sound.
 
 # fritz helder
 
-> Source: 01 proud issuu_output, pages 14-14
+> Source: 01 proud issuu_output, page 14
+> Issue date: January 2009
 
 Discovered on YouTube, where else? Fritz Helder & The Phantoms. Enticed by a super cool video for “Making A Scene,” we can't stop watching their live gigs. If you know and love Namosh, you'll go wild for Fritz Helder. The song is an earworm! Clearly, the show is absolutely paramount. So go celebrate and really rock out, guys and girls!
 

@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "11-11"
 ---
@@ -26,7 +27,8 @@ But most of you, unfortunately, will have to stay outside. But that's not so bad
 
 # You Can All Come
 
-> Source: 01 proud issuu_output, pages 11-11
+> Source: 01 proud issuu_output, page 11
+> Issue date: January 2009
 
 You can all come. But most of you, unfortunately, will have to stay outside. But that's not so bad. It's not cold, after all. Inside, however, the sickest party is raging. Entry from coolness factor 7. That would be David Hasselhoff doing the Moonwalk to Grandmaster Flash in Berghain.
 

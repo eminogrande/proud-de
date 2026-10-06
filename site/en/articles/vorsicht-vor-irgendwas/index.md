@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "10-10"
 ---
@@ -26,7 +27,8 @@ Dear proud, Snape will kill Dumbledore soon! Hahahahaha!
 
 # Beware of Something
 
-> Source: 01 proud issuu_output, pages 10-10
+> Source: 01 proud issuu_output, page 10
+> Issue date: January 2009
 
 Dear proud,
 Snape will kill Dumbledore soon!

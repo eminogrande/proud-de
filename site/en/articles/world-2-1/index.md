@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 2
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "12-12"
 ---
@@ -26,7 +27,8 @@ What would the world be without science fiction? The right hemisphere of the bra
 
 # world 2.1
 
-> Source: 01 proud issuu_output, pages 12-12
+> Source: 01 proud issuu_output, page 12
+> Issue date: January 2009
 
 What would the world be without science fiction? The right hemisphere of the brain loves personal profiles, MySpace, Facebook, and all the new connectivity. Imagine you're sitting in a park, checking your phone to see who's around you. Not necessarily your friends, but maybe the person across from you on the blanket. Sometimes you see their name, sometimes their hobbies or whatever – depending on their private settings. The program is idiot-proof to install via your phone's internet connection. Social networking, next stage. Your best friend gets on the subway, you don't notice her, but your phone does! You meet, chat, and miss your station. Crazy. Of course, it's free and, like all good things, comes from Berlin. UDK guys and girls started this as a diploma thesis and are now refining every aspect for quality and look. World Wide Web 2.1, here we come!
 

@@ -12,8 +12,8 @@ const getChecks = [
   ["/.well-known/mcp/server-card.json", "json"],
   ["/.well-known/agent-skills/index.json", "json"],
   ["/.well-known/webmcp.json", "json"],
-  ["/.well-known/oauth-authorization-server", "json"],
-  ["/.well-known/oauth-protected-resource", "json"],
+  ["/.well-known/ai-catalog.json", "json"],
+  ["/favicon.ico", "image/"],
   ["/.well-known/http-message-signatures-directory", "json"],
   ["/articles/vom-anfang-bis-zum/", "text/html"],
   ["/en/articles/vom-anfang-bis-zum/", "text/html"],
@@ -33,7 +33,10 @@ for (const [route, expected] of getChecks) {
 }
 
 await checkMarkdownNegotiation("/articles/vom-anfang-bis-zum/");
-await checkOAuthToken();
+await checkVaryAccept("/");
+await checkNotFound("/nope-audit-probe", "text/markdown");
+await checkNotFound("/api/nope-audit-probe", "application/problem+json");
+await checkNotFound("/oauth/token", "application/problem+json");
 
 for (const [route, snippet] of requiredHtmlSnippets) {
   await checkSnippet(route, snippet);
@@ -84,24 +87,24 @@ async function checkMarkdownNegotiation(route) {
   }
 }
 
-async function checkOAuthToken() {
+async function checkVaryAccept(route) {
   try {
-    const body = new URLSearchParams({
-      grant_type: "client_credentials",
-      scope: "archive.read search.read",
-    });
-    const response = await fetch(urlFor("/oauth/token"), {
-      method: "POST",
-      headers: {
-        "content-type": "application/x-www-form-urlencoded",
-        "User-Agent": "proud-live-audit/1.0",
-      },
-      body,
-    });
-    const json = await response.json().catch(() => null);
-    report(response.ok && json?.access_token, "POST", "/oauth/token", `${response.status}`);
+    const response = await fetch(urlFor(route), { headers: { "User-Agent": "proud-live-audit/1.0" } });
+    const vary = response.headers.get("vary") ?? "";
+    report(response.ok && /accept/i.test(vary), "VARY", route, vary || "missing");
   } catch (error) {
-    report(false, "POST", "/oauth/token", error.message);
+    report(false, "VARY", route, error.message);
+  }
+}
+
+async function checkNotFound(route, expectedType) {
+  try {
+    const response = await fetch(urlFor(route), { headers: { "User-Agent": "proud-live-audit/1.0" } });
+    const contentType = response.headers.get("content-type") ?? "";
+    const body = await response.text();
+    report(response.status === 404 && contentType.includes(expectedType) && body.length > 0, "404", route, `${response.status} ${contentType}`);
+  } catch (error) {
+    report(false, "404", route, error.message);
   }
 }
 

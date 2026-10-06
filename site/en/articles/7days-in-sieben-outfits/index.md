@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "43-43"
 ---
@@ -26,7 +27,8 @@ Sarai and Mack get to show off. Personal wardrobe and borrowed favorite pieces.
 
 # 7days in seven Outfits
 
-> Source: 01 proud issuu_output, pages 43-43
+> Source: 01 proud issuu_output, page 43
+> Issue date: January 2009
 
 7days in seven Outfits. Sarai and Mack get to show off. Personal wardrobe and borrowed favorite pieces. Mack Mckelton, supported by his numerous sponsors. Queen Sarai, supported by her numerous admirers. We show you the week of two fashion gurus who know how to present themselves. Feel free to copy, worship, and follow them.
 

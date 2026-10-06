@@ -21,7 +21,8 @@
     "cf:dev": "wrangler dev",
     "cf:deploy": "wrangler deploy",
     "cf:deploy:local": "node scripts/deploy-cloudflare.mjs",
-    "status": "node src/cli.mjs status"
+    "status": "node src/cli.mjs status",
+    "test": "node --test tests/*.test.mjs"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0"

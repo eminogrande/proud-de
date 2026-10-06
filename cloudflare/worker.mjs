@@ -8,25 +8,23 @@ const COMMON_LINK_HEADERS = [
   "</.well-known/agent-skills/index.json>; rel=\"agent-skills\"",
   "</.well-known/webmcp.json>; rel=\"webmcp\"",
   "</.well-known/mcp/server-card.json>; rel=\"mcp-server\"",
+  "</.well-known/ai-catalog.json>; rel=\"ai-catalog\"; type=\"application/json\"",
 ];
 
 const STATIC_CONTENT_TYPES = new Map([
   ["/.well-known/api-catalog", 'application/linkset+json; profile="https://www.rfc-editor.org/info/rfc9727"'],
-  ["/.well-known/oauth-authorization-server", "application/json; charset=utf-8"],
-  ["/.well-known/oauth-protected-resource", "application/json; charset=utf-8"],
-  ["/.well-known/oauth-protected-resource/mcp", "application/json; charset=utf-8"],
   ["/.well-known/http-message-signatures-directory", "application/http-message-signatures-directory+json"],
 ]);
 
 const STATIC_ROUTE_ASSETS = new Map([
   ["/.well-known/api-catalog", "/.well-known/api-catalog"],
-  ["/.well-known/oauth-authorization-server", "/.well-known/oauth-authorization-server/index.json"],
-  ["/.well-known/oauth-protected-resource", "/.well-known/oauth-protected-resource/index.json"],
-  ["/.well-known/oauth-protected-resource/mcp", "/.well-known/oauth-protected-resource/mcp.json"],
   ["/.well-known/http-message-signatures-directory", "/.well-known/http-message-signatures-directory/index.json"],
 ]);
 
-const SUPPORTED_OAUTH_SCOPES = new Set(["archive.read", "search.read", "mcp.read"]);
+// Long-lived, content-addressed-by-slug image trees. HTML/Markdown stay short so edits show up quickly.
+const IMMUTABLE_ASSET_PREFIXES = ["/assets/hero/", "/assets/previews/", "/assets/page-images/"];
+const IMMUTABLE_CACHE_CONTROL = "public, max-age=31536000, immutable";
+const DOCUMENT_CACHE_CONTROL = "public, max-age=300, must-revalidate";
 
 const jsonCache = new Map();
 
@@ -109,36 +107,74 @@ function parseLimit(value, fallback) {
   return Math.max(1, Math.min(50, numeric));
 }
 
-async function readRequestFields(request) {
-  const contentType = String(request.headers.get("content-type") ?? "");
-  const bodyText = await request.text();
-
-  if (!bodyText) {
-    return new URLSearchParams();
-  }
-
-  if (contentType.includes("application/json")) {
-    const payload = JSON.parse(bodyText);
-    return new URLSearchParams(
-      Object.entries(payload).flatMap(([key, value]) =>
-        value == null ? [] : Array.isArray(value) ? value.map((item) => [key, String(item)]) : [[key, String(value)]],
-      ),
-    );
-  }
-
-  return new URLSearchParams(bodyText);
-}
-
 async function fetchAsset(env, request, assetPath) {
   const url = new URL(assetPath, request.url);
   return env.ASSETS.fetch(new Request(url.toString(), { method: "GET" }));
 }
 
+function prefersJson(request) {
+  const accept = String(request.headers.get("accept") ?? "").toLowerCase();
+  return /application\/(?:problem\+)?json/.test(accept) && !accept.includes("text/html");
+}
+
+function isApiPath(pathname) {
+  return /^\/(?:api|v\d+)(?:\/|$)/.test(pathname) || pathname === "/graphql";
+}
+
+// RFC 9457 problem details for API paths and JSON clients; short Markdown recovery page otherwise.
+function notFoundResponse(request) {
+  const url = new URL(request.url);
+  const headers = new Headers({ "Cache-Control": "no-store", Vary: "Accept" });
+  addCommonHeaders(headers);
+  if (isApiPath(url.pathname) || prefersJson(request)) {
+    headers.set("Content-Type", "application/problem+json; charset=utf-8");
+    headers.set("Access-Control-Allow-Origin", "*");
+    const problem = {
+      type: "about:blank",
+      title: "Not Found",
+      status: 404,
+      detail: `No resource exists at ${url.pathname}.`,
+      instance: url.pathname,
+      documentation: `${url.origin}/api/openapi.json`,
+    };
+    return new Response(request.method === "HEAD" ? null : JSON.stringify(problem, null, 2), { status: 404, headers });
+  }
+  headers.set("Content-Type", "text/markdown; charset=utf-8");
+  const body = `# 404: page not found
+
+There is no page at \`${url.pathname}\` in the proud archive.
+
+- [Front page](${url.origin}/)
+- [All articles](${url.origin}/articles/)
+- [Sitemap](${url.origin}/sitemap.xml)
+- [llms.txt](${url.origin}/llms.txt)
+- [Search API](${url.origin}/api/search?q=berlin)
+`;
+  return new Response(request.method === "HEAD" ? null : body, { status: 404, headers });
+}
+
+function cacheControlFor(pathname, contentType) {
+  if (IMMUTABLE_ASSET_PREFIXES.some((prefix) => pathname.startsWith(prefix))) {
+    return IMMUTABLE_CACHE_CONTROL;
+  }
+  if (/text\/(?:html|markdown)/.test(contentType)) {
+    return DOCUMENT_CACHE_CONTROL;
+  }
+  return null;
+}
+
 function withAltMarkdownLink(response, request) {
   const headers = new Headers(response.headers);
   addCommonHeaders(headers);
-  if (String(headers.get("content-type") ?? "").includes("text/html")) {
-    headers.append("Link", `<${altMarkdownPath(new URL(request.url).pathname)}>; rel="alternate"; type="text/markdown"`);
+  const pathname = new URL(request.url).pathname;
+  const contentType = String(headers.get("content-type") ?? "");
+  if (contentType.includes("text/html")) {
+    headers.append("Link", `<${altMarkdownPath(pathname)}>; rel="alternate"; type="text/markdown"`);
+    headers.set("Vary", "Accept");
+  }
+  const cacheControl = response.ok ? cacheControlFor(pathname, contentType) : null;
+  if (cacheControl) {
+    headers.set("Cache-Control", cacheControl);
   }
   return new Response(response.body, {
     status: response.status,
@@ -192,6 +228,14 @@ async function handleStaticRequest(request, env) {
     });
   }
 
+  if (url.pathname === "/.well-known/ai-catalog.json") {
+    const response = await fetchAsset(env, request, url.pathname);
+    return withCommonHeaders(response, {
+      "Content-Type": "application/json; charset=utf-8",
+      "Access-Control-Allow-Origin": "*",
+    });
+  }
+
   if (STATIC_CONTENT_TYPES.has(url.pathname)) {
     const response = await fetchAsset(env, request, STATIC_ROUTE_ASSETS.get(url.pathname) ?? url.pathname);
     return withCommonHeaders(response, {
@@ -204,11 +248,16 @@ async function handleStaticRequest(request, env) {
     if (markdownResponse.ok) {
       return withCommonHeaders(markdownResponse, {
         "Content-Type": "text/markdown; charset=utf-8",
+        "Cache-Control": DOCUMENT_CACHE_CONTROL,
+        Vary: "Accept",
       });
     }
   }
 
   const response = await env.ASSETS.fetch(request);
+  if (response.status === 404) {
+    return notFoundResponse(request);
+  }
   return withAltMarkdownLink(response, request);
 }
 
@@ -305,61 +354,6 @@ async function handleMcp(request, env) {
   }
 }
 
-async function handleOAuthToken(request) {
-  if (request.method === "OPTIONS") {
-    return optionsResponse("POST, OPTIONS");
-  }
-
-  if (request.method !== "POST") {
-    return methodNotAllowed("POST, OPTIONS");
-  }
-
-  const fields = await readRequestFields(request);
-  const grantType = fields.get("grant_type") ?? "";
-
-  if (grantType !== "client_credentials") {
-    return jsonResponse(
-      {
-        error: "unsupported_grant_type",
-        error_description: "This public archive only supports the client_credentials grant for optional read-only tokens.",
-      },
-      {
-        status: 400,
-        headers: {
-          "Access-Control-Allow-Origin": "*",
-          "Access-Control-Expose-Headers": "Link",
-          "Cache-Control": "no-store",
-        },
-      },
-    );
-  }
-
-  const requestedScopes = String(fields.get("scope") ?? "")
-    .split(/\s+/)
-    .map((value) => value.trim())
-    .filter(Boolean);
-  const grantedScopes = requestedScopes.length > 0
-    ? requestedScopes.filter((scope) => SUPPORTED_OAUTH_SCOPES.has(scope))
-    : [...SUPPORTED_OAUTH_SCOPES];
-
-  return jsonResponse(
-    {
-      access_token: `proud_${crypto.randomUUID().replace(/-/g, "")}`,
-      token_type: "Bearer",
-      expires_in: 3600,
-      scope: grantedScopes.join(" "),
-    },
-    {
-      headers: {
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Expose-Headers": "Link",
-        "Cache-Control": "no-store",
-        Pragma: "no-cache",
-      },
-    },
-  );
-}
-
 export default {
   async fetch(request, env) {
     const routePath = decodeURIComponent(new URL(request.url).pathname);
@@ -370,10 +364,6 @@ export default {
 
     if (routePath === "/mcp") {
       return handleMcp(request, env);
-    }
-
-    if (routePath === "/oauth/token") {
-      return handleOAuthToken(request);
     }
 
     return handleStaticRequest(request, env);

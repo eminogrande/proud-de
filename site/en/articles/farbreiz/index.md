@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 2
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "35-35"
 ---
@@ -27,7 +28,8 @@ Farbreiz is an event concept where everything revolves around color, offering a 
 
 # farbreiz
 
-> Source: 01 proud issuu_output, pages 35-35
+> Source: 01 proud issuu_output, page 35
+> Issue date: January 2009
 
 The Farbreiz event concept is simple. Everything is color; each event is new. Everything is always new: the drinks, the visuals, the make-up stand, the colored shot at the entrance, and even the guests' clothing.
 

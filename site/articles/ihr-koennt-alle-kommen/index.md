@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "11-11"
 ---
@@ -26,7 +27,8 @@ Nur muss der Großteil leider vor der Tür stehen bleiben. Aber das ist ja nicht
 
 # Ihr könnt alle kommen
 
-> Quelle: 01 proud issuu_output, Seiten 11-11
+> Quelle: 01 proud issuu_output, Seite 11
+> Erschienen: Januar 2009
 
 Ihr könnt alle kommen. Nur muss der Großteil leider vor der Tür stehen bleiben. Aber das ist ja nicht so schlimm. Ist ja nicht kalt. Drinnen tobt jedenfalls die sickeste Party. Eintritt ab Coolnessfaktor 7. Das wäre David Hasselhoff im Moonwalk zu Grandmaster Flash im Berghain.
 

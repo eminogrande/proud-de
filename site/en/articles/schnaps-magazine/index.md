@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "17-17"
 ---
@@ -27,7 +28,8 @@ Schnaps Magazine is a new video magazine for the "excess generation" in Berlin. 
 
 # schnaps magazine
 
-> Source: 01 proud issuu_output, pages 17-17
+> Source: 01 proud issuu_output, page 17
+> Issue date: January 2009
 
 ### berlin's daily circus
 

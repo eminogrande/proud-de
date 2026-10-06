@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "48-48"
 ---
@@ -27,7 +28,8 @@ pages: "48-48"
 
 # 6-rags
 
-> Source: 01 proud issuu_output, pages 48-48
+> Source: 01 proud issuu_output, page 48
+> Issue date: January 2009
 
 Absolutely correct. The brand that has been adorning buses in Berlin for some time now. With its headquarters in Berlin, nine stores were immediately launched. Check out the fresh collection on their website. Because we're awesome, we're giving away some jeans and sweaters on the house.
 

@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "26-26"
 ---
@@ -26,8 +27,8 @@ Dschungelwälder, kreischende Einhörner - was macht Demir. Produzent und DJ von
 
 # Kannibalistische Babarenvölker
 
-> Quelle: 01 proud issuu_output, Seiten 26-26
-> Autor:innen: Demir
+> Quelle: 01 proud issuu_output, Seite 26
+> Erschienen: Januar 2009
 
 ### Kannibalistische Babarenvölker. Dschungelwälder, kreischende Einhörner - was macht Demir. Produzent und DJ von Pentagonik außerhalb von Berlin?
 

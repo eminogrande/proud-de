@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "45-45"
 ---
@@ -25,7 +26,8 @@ Urban Outfitters Webshop
 
 # end skater heroes
 
-> Source: 01 proud issuu_output, pages 45-45
+> Source: 01 proud issuu_output, page 45
+> Issue date: January 2009
 
 Urban Outfitters
 Webshop

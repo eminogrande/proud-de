@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 2
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "35-35"
 ---
@@ -26,7 +27,8 @@ Das Veranstaltungskonzept von Farbreiz ist einfach. Alles ist Farbe; jede Verans
 
 # farbreiz
 
-> Quelle: 01 proud issuu_output, Seiten 35-35
+> Quelle: 01 proud issuu_output, Seite 35
+> Erschienen: Januar 2009
 
 Das Veranstaltungskonzept von Farbreiz ist einfach. Alles ist Farbe; jede Veranstaltung eine neue. Alles immer wieder neu: die Drinks, die Visuals, der Schminkstand, der farbige Shot am Eingang und sogar die Kleidung der Gäste.
 

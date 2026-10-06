@@ -12,6 +12,7 @@ page_image_count: 2
 reading_time_minutes: 5
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "24-25"
 ---
@@ -27,7 +28,7 @@ pages: "24-25"
 # pentagonik
 
 > Quelle: 01 proud issuu_output, Seiten 24-25
-> Autor:innen: Don, Kai
+> Erschienen: Januar 2009
 
 „Am Anfang gab es den Masterplan! Wir sind apostelmäßig rumgerannt. Von Club zu Club bis die Leute gemerkt haben das wir es ernst meinen. Selbst nach vier Jahren treffe ich noch Leute die sich daran erinnern. Das sind Punkte, an denen man merkt, dass es irgendwie funktioniert hat.“
 

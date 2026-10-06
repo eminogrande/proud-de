@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "21-21"
 ---
@@ -27,7 +28,8 @@ The Très Bonjour Fashion Show 2008 featured hot women in avant-garde latex cout
 
 # très bonjour fashion show 2008
 
-> Source: 01 proud issuu_output, pages 21-21
+> Source: 01 proud issuu_output, page 21
+> Issue date: January 2009
 
 An evening excursion is a fine thing. When it involves hot women in avant-garde latex couture lingerie and swimwear collections, it's enough to simply embrace the sweet existence. The proud editorial team found themselves joyfully celebrating in a lovingly designed S-Bahn arch, amidst endless rows of bikinis. With eyes and mouths wide open, we stared at the latest collection by young designer Viola Jaeger. The icing on the cake was the extravagant hat creations by Hat-Affairs from Munich, designed exclusively for this event. The "Deep Sea Geishas" underwater atmosphere was created by the incredibly cool lighting design (by Mark Beversdorf and projections by renowned 3D artist Till Nowak!). All guests, including Peaches and Estelle, also made an appearance at the after-show party hosted by Disko44. We expect great things from the extraordinary fashion label Très Bonjour in the future and look forward to exciting collaborations and the showroom opening on January 24th in Berlin. Need more proof besides our compelling pictures? Search for the keywords "Deep Sea Geishas" on [vimeo.com](https://vimeo.com).
 

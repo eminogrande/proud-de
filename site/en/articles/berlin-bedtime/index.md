@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 2
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "34-34"
 ---
@@ -25,7 +26,8 @@ Once you live the night, you want more.
 
 # Berlin bedtime
 
-> Source: 01 proud issuu_output, pages 34-34
+> Source: 01 proud issuu_output, page 34
+> Issue date: January 2009
 
 Once you live the night, you want more.
 

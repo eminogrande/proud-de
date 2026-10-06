@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "10-10"
 ---
@@ -26,7 +27,8 @@ Liebe proud, Du wirst sehr müde... sehr, sehr müde...
 
 # New Uri Geller
 
-> Quelle: 01 proud issuu_output, Seiten 10-10
+> Quelle: 01 proud issuu_output, Seite 10
+> Erschienen: Januar 2009
 
 Liebe proud,
 Du wirst sehr müde... sehr, sehr müde... Deine Augen werden schwer... Du kannst sie nicht offen halten... Du sinkst in die Tiefe... jaaa... hör auf zu kämpfen... gib einfach auf... Wenn ich bis drei gezählt habe, wachst Du auf und bist unter meiner Kontrolle. Wenn ich schnipse, bist Du unter meiner Kontrolle... eins... zwei... drei... *schnips* Jetzt gibt mir eine freie Werbeseite für meine Band. Mario

@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "32-32"
 ---
@@ -25,7 +26,9 @@ Text Pumpa Petz
 
 # How to convince someone about Techno?
 
-> Source: 01 proud issuu_output, pages 32-32
+> Source: 01 proud issuu_output, page 32
+> Issue date: January 2009
+> Text: Pumpa Petz
 
 1.  Buy a car.
 2.  Whenever you drive home with your significant other, have a dark techno mixtape playing at full blast.

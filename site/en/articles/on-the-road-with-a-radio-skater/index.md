@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 3
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "56-56"
 ---
@@ -26,7 +27,8 @@ Flickering air on the horizon. Summer sun.
 
 # On the Road with a Radio Skater
 
-> Source: 01 proud issuu_output, pages 56-56
+> Source: 01 proud issuu_output, page 56
+> Issue date: January 2009
 
 Flickering air on the horizon. Summer sun. Cooling wind.
 I'm driving on the highway to Munich in the old, wine-red Golf 2. One of my co-passengers is a radio skater. He's going to compete in a skate contest tonight. The rest of us are accompanying him and plan to get drunk. Munich can't be anything for a Berliner. So much is firmly established and unquestioned.

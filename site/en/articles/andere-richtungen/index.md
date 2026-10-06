@@ -12,6 +12,7 @@ page_image_count: 2
 reading_time_minutes: 2
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "26-27"
 ---
@@ -28,7 +29,7 @@ Demir, a DJ, shares humorous anecdotes and insights into his experiences, from p
 # Other Directions
 
 > Source: 01 proud issuu_output, pages 26-27
-> Authors: Demir
+> Issue date: January 2009
 
 ### Have you ever cleared a dance floor?
 

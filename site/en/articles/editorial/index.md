@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "6-6"
 ---
@@ -27,7 +28,8 @@ Welcome to the inaugural issue of **proud** magazine, your guide through the urb
 
 # Editorial
 
-> Source: 01 proud issuu_output, pages 6-6
+> Source: 01 proud issuu_output, page 6
+> Issue date: January 2009
 
 Welcome to the first issue of **proud** magazine! We are your weapon in the urban jungle. We are the cold sweat on your brow, the predator's breath on your neck. We are your flight instinct and your hunting drive. Our mission: to provide for the needy. Because the Berlin behemoth hasn't swallowed all the straightforward people, it's just obscured them. We'll show you what's going on.
 

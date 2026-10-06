@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "13-13"
 ---
@@ -26,7 +27,8 @@ Mariendorf. Eine alte, graue Fabrikhalle.
 
 # e-rags
 
-> Quelle: 01 proud issuu_output, Seiten 13-13
+> Quelle: 01 proud issuu_output, Seite 13
+> Erschienen: Januar 2009
 
 Mariendorf. Eine alte, graue Fabrikhalle. Totenstille herrscht nach dem Passieren des Portiers. Ab in den Fahrstuhl nach unten. Dort angekommen, das gleiche Setting: leere Gänge, morbide Ruhe; bis Dich ein lautes Singen zu Tode erschreckt. Der Richtung des Gesangs folgend trifft Du irgendwann auf einen Kerl der einen Wagen mit gestapelten Kleidungsstücken vor sich herschiebt. Die Marke heißt E-Rags.
 

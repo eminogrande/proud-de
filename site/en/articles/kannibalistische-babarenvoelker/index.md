@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "26-26"
 ---
@@ -26,8 +27,8 @@ Jungle forests, screaming unicorns – what is Demir, producer and DJ of Pentago
 
 # Cannibalistic Barbarian Peoples
 
-> Source: 01 proud issuu_output, pages 26-26
-> Authors: Demir
+> Source: 01 proud issuu_output, page 26
+> Issue date: January 2009
 
 > Author(s): Demir
 

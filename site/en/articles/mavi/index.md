@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "13-13"
 ---
@@ -26,7 +27,8 @@ Hong Kong. Hip party, we're invited – on the list.
 
 # mavi
 
-> Source: 01 proud issuu_output, pages 13-13
+> Source: 01 proud issuu_output, page 13
+> Issue date: January 2009
 
 Hong Kong. Hip party, we're invited – on the list. Great, but we're laughed at and sent away at the door. Shit, because our apartment is on Peng Chau Island. Fortunately, our handsome model friend helps us out. Off to his apartment, into his Mavi jeans, and back to the club. Happy ending.
 

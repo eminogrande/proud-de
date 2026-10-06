@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "58-58"
 ---
@@ -25,7 +26,8 @@ Esmod Fashion trifft Profifotografin bei Blumen-Sühr im Keller.
 
 # pola kardumx maren böttcher
 
-> Quelle: 01 proud issuu_output, Seiten 58-58
+> Quelle: 01 proud issuu_output, Seite 58
+> Erschienen: Januar 2009
 
 ### Pola Kardum x Maren Böttcher
 

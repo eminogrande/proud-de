@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 2
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "38-38"
 ---
@@ -26,7 +27,8 @@ Die junge nachwachsende Feiergemeinde in Berlin ist interessant, auch wenn die A
 
 # Deinen Name sieht man überall. Ein paar Worte zur Szene?
 
-> Quelle: 01 proud issuu_output, Seiten 38-38
+> Quelle: 01 proud issuu_output, Seite 38
+> Erschienen: Januar 2009
 
 Die junge nachwachsende Feiergemeinde in Berlin ist interessant, auch wenn die Alten immer auf die Jungen schimpfen und borniert reagieren. Es ist aber nun mal das Berliner Urgestein, das zu den Großen geht oder ganz junge Menschen, die grade zugezogen sind und nur die großen Namen kennen. Auch wenn sich viele über die junge Szene in Berlin lustig machen, sind das eigentlich die Leute, die eher auf die Namen scheißen und wegen der guten Party kommen: Schafe auf der Wiese – egal, wer da auflegt. Im Bunker – einfach alle rein da! Auf der Kellerparty fand ich es zum Beispiel wesentlich innovativer und liebevoller; mit Schminkständen, Lichtinstallationen und zeitaufwändiger Deko. Das empfand ich als erfrischend und neu. Klar bin ich dafür zu alt, und das ist auch musikbezogen nicht immer unbedingt mein Fall, aber im Gegensatz zu vielen Großveranstaltungen von Altberlinern sind diese echt idealistisch, kreativ und einfach nett.
 

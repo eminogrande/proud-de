@@ -32,7 +32,7 @@ the following:
 - It rewrites `https://proud.xn--wp9h.tk` (and the bare host) to `PAGES_ORIGIN + PAGES_BASE_PATH`. This covers canonical, hreflang, OpenGraph, JSON-LD, sitemap, robots, llms.txt and `.well-known/*`.
 - It prefixes root-absolute `href`/`src`/`srcset`/`action` in HTML, `](/` in Markdown and `url(/` in CSS with the base path.
 - It adds `<lastmod>` to the sitemap, using the date of the last commit that touched `site/`.
-- It removes the worker-only `.well-known/oauth-*` and `http-message-signatures-directory` entries from the sitemap, because Pages can't serve them.
+- It drops any `/.well-known/*` entry from the sitemap (the generator already lists pages only, with `xhtml:link` hreflang alternates).
 - It drops the Cloudflare-only `_headers` file and adds `.nojekyll`. Without `.nojekyll`, Pages skips `.well-known/`.
 
 `actions/configure-pages` supplies the origin and base path. Today they are
@@ -56,7 +56,8 @@ Pages only serves static files. It ignores everything that runs in
 |---|---|---|
 | `/mcp` remote MCP server | 404 | Keep the Cloudflare worker on a subdomain (e.g. `mcp.proud.de`) and point server-card/mcp.json at it |
 | `/api/search?q=` | 404 | Use the static `api/search-index.json` client-side, or route via the worker subdomain |
-| `/oauth/token` | 404 | Worker subdomain only |
+| WebMCP `search_archive` tool | `/api/search` 404s | `get_article` works (static JSON); search needs the worker |
+| 404 bodies (Markdown / RFC 9457 JSON) | GitHub's HTML 404 | Worker only |
 | `Accept: text/markdown` negotiation | serves HTML | Agents should use `<link rel=alternate type=text/markdown>` → `index.md` (present) |
 | `Link:` response headers, `X-Robots-Tag` | not sent | Same links exist in HTML `<link>` tags; put Cloudflare proxy in front of Pages if required |
 | Custom content types for extensionless `.well-known/*` files and `.md` | served as `application/octet-stream` / `text/markdown` defaults | Cloudflare proxy, or accept the defaults |

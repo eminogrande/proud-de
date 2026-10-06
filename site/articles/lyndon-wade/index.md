@@ -12,6 +12,7 @@ page_image_count: 6
 reading_time_minutes: 2
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "50-55"
 ---
@@ -28,6 +29,7 @@ Lyndon Wade ist ein renommierter Fotograf, der für seine einzigartigen Bilder b
 # Lyndon Wade
 
 > Quelle: 01 proud issuu_output, Seiten 50-55
+> Erschienen: Januar 2009
 
 Lyndon Wade liebt es wirklich zu fotografieren. Verdammt, er ist ein Fotograf. Das ist sein Leben. Schließlich bekommt er dafür Geld und Anerkennung. Und da er wirklich, wirklich gut in einer Sache ist, wollen alle so sein wie er. So ist das bei Stars, auch bei Lyndon.
 

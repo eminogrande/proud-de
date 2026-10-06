@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 3
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "56-56"
 ---
@@ -27,7 +28,8 @@ Ein Roadtrip nach München für einen Skate-Wettbewerb endet in einem betrunkene
 
 # unterwegs mit einem Radioskater
 
-> Quelle: 01 proud issuu_output, Seiten 56-56
+> Quelle: 01 proud issuu_output, Seite 56
+> Erschienen: Januar 2009
 
 Flimmernde Luft am Horizont. Sommersonne. Kühlender Wind.
 Ich fahre auf der Autobahn nach München im alten, weinroten Golf 2. Einer meiner Mitfahrer ist ein Radioskater. Er wird heute Abend an einem Skate-Wettbewerb teilnehmen. Der Rest von uns begleitet ihn und plant, sich zu betrinken. München kann für einen Berliner nichts sein. So viel steht fest und ist unbestritten.

@@ -12,6 +12,7 @@ page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"
 magazine_title: "01 proud issuu_output"
+issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "12-12"
 ---
@@ -26,7 +27,8 @@ lässt dich Gold scheißen! Für lächerliche $450 bekommst du deine 14-Karat Go
 
 # shit glitter
 
-> Quelle: 01 proud issuu_output, Seiten 12-12
+> Quelle: 01 proud issuu_output, Seite 12
+> Erschienen: Januar 2009
 
 Shit Glitter lässt dich Gold scheißen! Für lächerliche $450 bekommst du deine 14-Karat Goldkapsel nach Hause.
 
