@@ -29,6 +29,9 @@ function rewrite(file, body) {
   if (file.endsWith(".md") || file.endsWith(".txt")) {
     body = body.replace(/\]\(\/(?!\/)/g, `](${base}/`);
   }
+  if (file === ".well-known/agent-skills/index.json") {
+    body = body.replace(/("url"\s*:\s*")\/(?=\.well-known\/agent-skills\/)/g, `$1${base}/`);
+  }
   if (file.endsWith(".css")) body = body.replace(/url\((["']?)\/(?!\/)/g, `url($1${base}/`);
   return body;
 }

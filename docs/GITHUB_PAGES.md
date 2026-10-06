@@ -4,6 +4,12 @@ The committed static export in `site/` gets published to
 https://eminogrande.github.io/proud-de/ by `.github/workflows/pages.yml`.
 CI doesn't rebuild anything and doesn't download Git LFS objects.
 
+Prerequisite (one time, already done for this repo): set Pages to publish
+from Actions, either via Settings → Pages → Build and deployment → Source →
+**GitHub Actions** or with
+`gh api -X POST repos/eminogrande/proud-de/pages -f build_type=workflow`.
+`configure-pages` does not enable Pages by itself.
+
 ```mermaid
 flowchart LR
   A[npm run build:site<br/>local, needs data/] --> B[commit site/ to main]
