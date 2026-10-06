@@ -20,6 +20,8 @@ const TEXT = /\.(html|md|txt|xml|json|css|js)$|\/\.well-known\/[^/.]+$/;
 function rewrite(file, body) {
   body = body.split(SOURCE_ORIGIN).join(origin + base);
   body = body.split(new URL(SOURCE_ORIGIN).host).join(new URL(origin).host);
+  // Worker-only discovery docs are directories with index.json; Pages can't serve them (301 -> 404).
+  if (file === "sitemap.xml") body = body.replace(/\n\s*<url><loc>[^<]*\/\.well-known\/(oauth-[^<]*|http-message-signatures-directory)<\/loc><\/url>/g, "");
   if (file === "sitemap.xml") body = body.replace(/<\/loc><\/url>/g, `</loc><lastmod>${LASTMOD}</lastmod></url>`);
   if (!base) return body;
   if (file.endsWith(".html")) {
