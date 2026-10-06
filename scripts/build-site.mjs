@@ -1282,6 +1282,7 @@ body .news-headline,
 .byline-block { margin-top: 1.1rem; padding-top: 0.9rem; border-top: 1px solid var(--line); display: grid; gap: 0.35rem; }
 .byline { margin: 0; font-family: var(--ui-font); font-size: var(--size-meta); font-weight: 600; color: var(--ink); letter-spacing: 0.01em; }
 .byline a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 0.2em; }
+.nowrap, .dateline time { white-space: nowrap; }
 .byline-credits, .dateline { margin: 0; font-family: var(--ui-font); font-size: var(--size-meta); color: var(--muted); line-height: 1.5; }
 .byline-credits a { color: var(--muted); }
 .action-bar { display: flex; flex-wrap: wrap; gap: 0.5rem 0.6rem; margin-top: 0.9rem; }
@@ -1378,9 +1379,8 @@ footer.site-footer {
 @media (max-width: 640px) {
   .story-grid { grid-template-columns: 1fr; }
   .story-grid > li, .story-grid > li:nth-child(n) { padding: 1.2rem 0; border-left: 0; }
-  nav.sections { flex-wrap: nowrap; justify-content: flex-start; gap: 0 1.1rem; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
-  nav.sections::-webkit-scrollbar { display: none; }
-  nav.sections a { flex: 0 0 auto; }
+  nav.sections { flex-wrap: wrap; justify-content: center; gap: 0 0.85rem; }
+  nav.sections a { flex: 0 0 auto; min-height: 44px; letter-spacing: 0.02em; }
   .masthead-strip { justify-content: center; text-align: center; }
   body.article-page .action-row { flex-direction: row; }
   .footer-columns { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -3084,7 +3084,7 @@ function buildArticleHtml(site, localized, locale, locales, articlePool, manualE
     ? `
         <figure class="article-figure">
           ${imgTag(articleHero, escapeHtml(localized.title), { priority: true })}
-          <figcaption><span>${escapeHtml(copy.heroCutoutCaption)}, ${escapeHtml(issueTitle)}, ${escapeHtml(pagesLabel(copy, localized))}</span>${photoCredits.length ? `<span class="photo-credit">${escapeHtml(photoCredits.map((credit) => `${credit.label}: ${credit.name}`).join(" · "))}</span>` : ""}</figcaption>
+          <figcaption><span>${escapeHtml(copy.heroCutoutCaption)}, ${escapeHtml(issueTitle)}, ${escapeHtml(pagesLabel(copy, localized).replace("-", "–"))}</span>${photoCredits.length ? `<span class="photo-credit">${escapeHtml(photoCredits.map((credit) => `${credit.label}: ${credit.name}`).join(" · "))}</span>` : ""}</figcaption>
         </figure>`
     : "";
   const videosSection = renderVideos(copy, enrichment.videos);
@@ -3100,7 +3100,8 @@ function buildArticleHtml(site, localized, locale, locales, articlePool, manualE
   const secondaryHtml = byline.secondary.length
     ? `<p class="byline-credits">${byline.secondary.map((entry) => `${escapeHtml(entry.label)}: ${nameHtml(entry)}`).join(" · ")}</p>`
     : "";
-  const datelineHtml = `<p class="dateline">Berlin${issueDate ? ` · ${renderIssueTime(issueDate, locale)}` : ""} · ${escapeHtml(en ? "Issue" : "Heft")} ${escapeHtml(issueNumberFromSeed(localized.magazineTitle) ?? "")}, ${escapeHtml(localized.pages.start === localized.pages.end ? copy.page : copy.pages)} ${escapeHtml(pageRangeLabel(localized).replace("-", "–"))} · ${escapeHtml(copy.minutesRead(enrichment.readingTime)).replace(/ /g, "\u00a0")}</p>`;
+  const nb = (text) => `<span class="nowrap">${text}</span>`;
+  const datelineHtml = `<p class="dateline">Berlin${issueDate ? ` · ${nb(renderIssueTime(issueDate, locale))}` : ""} · ${nb(`${escapeHtml(en ? "Issue" : "Heft")} ${escapeHtml(issueNumberFromSeed(localized.magazineTitle) ?? "")},`)} ${nb(`${escapeHtml(localized.pages.start === localized.pages.end ? copy.page : copy.pages)} ${escapeHtml(pageRangeLabel(localized).replace("-", "–"))}`)} ${nb(`· ${escapeHtml(copy.minutesRead(enrichment.readingTime))}`)}</p>`;
   const linkedPeople = [...byline.authors, ...byline.secondary].filter((entry) => entry.slug).map((entry) => PEOPLE_BY_SLUG.get(entry.slug));
   const uniquePeople = [...new Map(linkedPeople.map((person) => [person.slug, person])).values()];
   const authorNote = uniquePeople.length
@@ -3447,7 +3448,7 @@ function buildIndexHtml(site, locale, articles, magazines, locales) {
         <p class="deck">${renderInlineMarkdown(articleDeck(leadArticle, locale))}</p>
         <div class="byline-block">${renderStoryByline(site, locale, leadArticle).replace('<p class="dateline">', `<p class="dateline">Berlin · `)}</div>
       </div>
-      ${leadImage ? `<figure><a href="${leadHref}" tabindex="-1" aria-hidden="true">${imgTag(leadImage, "", { priority: true })}</a><figcaption>${escapeHtml(copy.heroCutoutCaption)}, ${escapeHtml(displayMagazineTitle(leadArticle, locale))}, ${escapeHtml(pagesLabel(copy, leadArticle))}</figcaption></figure>` : ""}
+      ${leadImage ? `<figure><a href="${leadHref}" tabindex="-1" aria-hidden="true">${imgTag(leadImage, "", { priority: true })}</a><figcaption>${escapeHtml(copy.heroCutoutCaption)}, ${escapeHtml(displayMagazineTitle(leadArticle, locale))}, ${escapeHtml(pagesLabel(copy, leadArticle).replace("-", "–"))}</figcaption></figure>` : ""}
     </article>` : ""}
     <ul class="story-grid">
       ${gridArticles.map((article) => {
