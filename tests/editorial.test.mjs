@@ -142,3 +142,27 @@ test("article JSON-LD carries printed author, contributor and breadcrumb", () =>
   assert.equal(article.isPartOf.datePublished, "2009-01");
   assert.ok(graph.some((node) => node["@type"] === "BreadcrumbList"));
 });
+
+test("design v2: real ambigram logo, label headings, rubric pages", () => {
+  const svg = fs.readFileSync(path.join(root, "src/brand/proud-logo.svg"), "utf8");
+  assert.match(svg, /<title[^>]*>proud<\/title>/);
+  assert.match(svg, /role="img"/);
+  assert.match(svg, /fill="#ed0677"/);
+  for (const file of ["index.html", "en/index.html", "articles/love-in-berlin/index.html"]) {
+    const html = fs.readFileSync(path.join(site, file), "utf8");
+    assert.match(html, /<a class="logo-link" href="[^"]*" aria-label="proud magazine Berlin (home|Startseite)"><svg class="logo" aria-hidden="true"/, file);
+    assert.match(html, /<h1 class="label-title"><span class="label">/, file);
+  }
+  const css = fs.readFileSync(path.join(site, "assets/site.css"), "utf8");
+  assert.match(css, /\.logo-link:hover \.logo, \.logo-link:focus \.logo, \.logo-link:active \.logo \{ transform: rotate\(180deg\)/);
+  assert.match(css, /prefers-reduced-motion: reduce\)[\s\S]*?transform: none/);
+  const sitemap = fs.readFileSync(path.join(site, "sitemap.xml"), "utf8");
+  for (const prefix of ["", "en/"]) {
+    assert.ok(fs.existsSync(path.join(site, prefix, "rubrics/streets-ahead/index.html")));
+    assert.ok(fs.existsSync(path.join(site, prefix, "rubrics/streets-ahead/index.md")));
+    assert.match(sitemap, new RegExp(`/${prefix}rubrics/chat/</loc>`));
+  }
+  const graph = JSON.parse(fs.readFileSync(path.join(site, "index.html"), "utf8").match(/<script type="application\/ld\+json">(.*?)<\/script>/s)[1])["@graph"];
+  assert.match(graph.find((node) => node["@type"] === "NewsMediaOrganization").logo.url, /\/assets\/logo-1200\.png$/);
+  assert.ok(fs.existsSync(path.join(site, "assets/logo-1200.png")));
+});
