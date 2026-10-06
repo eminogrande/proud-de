@@ -259,7 +259,7 @@ body.article-page .lede {
 .lead-story h2 a,
 .article-card h3 a,
 .story-teaser h3 a,
-.related-story h4 a,
+.related-story h3 a,
 .content h1,
 .content h2,
 .content h3 {
@@ -948,8 +948,8 @@ body.article-page .story-section {
   height: 100%;
   border: 0;
 }
-.video-card-body h4,
-.related-story h4,
+.video-card-body h3,
+.related-story h3,
 .story-teaser h3 {
   margin: 0;
   font-family: var(--ui-font);
@@ -1160,7 +1160,7 @@ footer {
   .lead-story h2 a,
   .article-card h3 a,
   .story-teaser h3 a,
-  .related-story h4 a,
+  .related-story h3 a,
   .issue-card h3 a {
     display: inline-flex;
     align-items: center;
