@@ -279,7 +279,7 @@ body.article-page .lede {
 .lead-story h2 a,
 .article-card h3 a,
 .story-teaser h3 a,
-.related-story h4 a,
+.related-story h3 a,
 .content h1,
 .content h2,
 .content h3 {
@@ -968,8 +968,8 @@ body.article-page .story-section {
   height: 100%;
   border: 0;
 }
-.video-card-body h4,
-.related-story h4,
+.video-card-body h3,
+.related-story h3,
 .story-teaser h3 {
   margin: 0;
   font-family: var(--ui-font);
@@ -1180,7 +1180,7 @@ footer {
   .lead-story h2 a,
   .article-card h3 a,
   .story-teaser h3 a,
-  .related-story h4 a,
+  .related-story h3 a,
   .issue-card h3 a {
     display: inline-flex;
     align-items: center;
@@ -2178,14 +2178,14 @@ function renderVideos(copy, videos) {
   return `
     <section class="story-section">
       <div class="section-rule"></div>
-      <h3>${escapeHtml(copy.watchListen)}</h3>
+      <h2 class="section-label">${escapeHtml(copy.watchListen)}</h2>
       <div class="video-grid">
         ${videos
           .map((video) => `
             <article class="video-card">
               ${video.embedUrl ? `<div class="video-frame"><iframe src="${video.embedUrl}" title="${escapeHtml(video.title)}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>` : ""}
               <div class="video-card-body">
-                <h4>${escapeHtml(video.title)}</h4>
+                <h3>${escapeHtml(video.title)}</h3>
                 ${video.provider ? `<div class="meta">${escapeHtml(video.provider)}</div>` : ""}
                 ${video.caption ? `<p>${renderInlineMarkdown(video.caption)}</p>` : ""}
                 ${video.sourceUrl ? `<p><a href="${video.sourceUrl}">${escapeHtml(video.sourceUrl)}</a></p>` : ""}
@@ -2204,12 +2204,12 @@ function renderRelatedArchive(copy, site, locale, articles) {
   return `
     <section class="story-section">
       <div class="section-rule"></div>
-      <h3>${escapeHtml(copy.relatedArchive)}</h3>
+      <h2 class="section-label">${escapeHtml(copy.relatedArchive)}</h2>
       <div class="story-related-grid">
         ${articles
           .map((article) => `
             <article class="related-story">
-              <h4><a href="${routeForArticle(site, locale, article.slug)}">${escapeHtml(article.title)}</a></h4>
+              <h3><a href="${routeForArticle(site, locale, article.slug)}">${escapeHtml(article.title)}</a></h3>
               <p class="meta">${escapeHtml(displayMagazineTitle(article, locale))} · ${escapeHtml(pagesLabel(copy, article))}</p>
               <p>${renderInlineMarkdown(visibleSummaryForArticle(article, locale))}</p>
             </article>`)
@@ -3139,7 +3139,7 @@ function buildArticleHtml(site, localized, locale, locales, articlePool, manualE
       <div class="article-main">
         <section class="panel">
           <div class="content">
-            ${stripDeckEcho(renderMarkdownToHtml(articleBody), deck)}
+            ${normalizeBodyHeadings(stripDeckEcho(renderMarkdownToHtml(articleBody), deck))}
           </div>
         </section>
         ${renderAuthorBox(site, locale, uniquePeople, localized.slug)}
@@ -3205,6 +3205,15 @@ function articleRubric(article) {
   const tag = (article.tags ?? [])[0];
   if (!tag || (article.tags ?? []).length > 2) return "";
   return String(tag).trim();
+}
+
+// The page H1 is the headline, so the body's highest heading level becomes H2 (keeps heading order valid).
+function normalizeBodyHeadings(html) {
+  const levels = [...html.matchAll(/<h([1-6])\b/g)].map((match) => Number(match[1]));
+  if (!levels.length) return html;
+  const shift = Math.min(...levels) - 2;
+  if (shift === 0) return html;
+  return html.replace(/<(\/?)h([1-6])\b/g, (_m, slash, level) => `<${slash}h${Math.min(6, Math.max(2, Number(level) - shift))}`);
 }
 
 // The deck is often the printed sub-headline, which is also the first body paragraph. Show it once.
