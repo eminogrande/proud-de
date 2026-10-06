@@ -1,3 +1,6 @@
+@font-face { font-family: "Barlow"; font-weight: 600; font-style: normal; font-display: swap; src: url("/assets/fonts/barlow-latin-600-normal.woff2") format("woff2"); }
+@font-face { font-family: "Barlow"; font-weight: 700; font-style: normal; font-display: swap; src: url("/assets/fonts/barlow-latin-700-normal.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-weight: 100 900; font-style: normal; font-display: swap; src: url("/assets/fonts/inter-latin-wght-normal.woff2") format("woff2"); }
 :root {
   color-scheme: light;
   --bg: #ffffff;
@@ -10,13 +13,13 @@
   --proud-pink: #d0005f;
   --accent-soft: #f1f0ed;
   --shadow: none;
-  --ui-font: "DIN Alternate", "DIN Condensed", "Bahnschrift", "Avenir Next", "Helvetica Neue", sans-serif;
-  --serif-font: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Baskerville, Georgia, serif;
-  --display-font: "DIN Alternate", "DIN Condensed", "Bahnschrift", "Avenir Next", "Helvetica Neue", sans-serif;
+  --ui-font: "Barlow", "DIN Alternate", "Bahnschrift", "Helvetica Neue", Arial, sans-serif;
+  --serif-font: "Inter", system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --display-font: "Barlow", "DIN Alternate", "Bahnschrift", "Helvetica Neue", Arial, sans-serif;
   --size-logo: clamp(1.8rem, 3vw, 2.45rem);
-  --size-title: clamp(2rem, 5vw, 3.4rem);
-  --size-subhead: clamp(1.28rem, 2vw, 1.62rem);
-  --size-body: clamp(1.3rem, 1.6vw, 1.4rem);
+  --size-title: clamp(2.5rem, 6vw, 4.2rem);
+  --size-subhead: clamp(1.6rem, 2.6vw, 2.1rem);
+  --size-body: clamp(1.35rem, 1.9vw, 1.5rem);
   --size-meta: 1.1rem;
 }
 
@@ -458,7 +461,7 @@ body.article-page .article-main > .panel {
 }
 .content {
   margin: 0 auto;
-  line-height: 1.72;
+  line-height: 1.6;
   font-size: var(--size-body);
   max-width: 760px;
 }

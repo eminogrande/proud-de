@@ -12,7 +12,10 @@ import { loadLibrary, sortArticles } from "../src/lib/store.mjs";
 const execFileAsync = promisify(execFile);
 const IMAGE_EXTENSION_RE = /\.(png|jpe?g)$/i;
 
-const CSS = `:root {
+const CSS = `@font-face { font-family: "Barlow"; font-weight: 600; font-style: normal; font-display: swap; src: url("/assets/fonts/barlow-latin-600-normal.woff2") format("woff2"); }
+@font-face { font-family: "Barlow"; font-weight: 700; font-style: normal; font-display: swap; src: url("/assets/fonts/barlow-latin-700-normal.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-weight: 100 900; font-style: normal; font-display: swap; src: url("/assets/fonts/inter-latin-wght-normal.woff2") format("woff2"); }
+:root {
   color-scheme: light;
   --bg: #ffffff;
   --paper: #ffffff;
@@ -24,13 +27,13 @@ const CSS = `:root {
   --proud-pink: #d0005f;
   --accent-soft: #f1f0ed;
   --shadow: none;
-  --ui-font: "DIN Alternate", "DIN Condensed", "Bahnschrift", "Avenir Next", "Helvetica Neue", sans-serif;
-  --serif-font: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Baskerville, Georgia, serif;
-  --display-font: "DIN Alternate", "DIN Condensed", "Bahnschrift", "Avenir Next", "Helvetica Neue", sans-serif;
+  --ui-font: "Barlow", "DIN Alternate", "Bahnschrift", "Helvetica Neue", Arial, sans-serif;
+  --serif-font: "Inter", system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --display-font: "Barlow", "DIN Alternate", "Bahnschrift", "Helvetica Neue", Arial, sans-serif;
   --size-logo: clamp(1.8rem, 3vw, 2.45rem);
-  --size-title: clamp(2rem, 5vw, 3.4rem);
-  --size-subhead: clamp(1.28rem, 2vw, 1.62rem);
-  --size-body: clamp(1.3rem, 1.6vw, 1.4rem);
+  --size-title: clamp(2.5rem, 6vw, 4.2rem);
+  --size-subhead: clamp(1.6rem, 2.6vw, 2.1rem);
+  --size-body: clamp(1.35rem, 1.9vw, 1.5rem);
   --size-meta: 1.1rem;
 }
 
@@ -472,7 +475,7 @@ body.article-page .article-main > .panel {
 }
 .content {
   margin: 0 auto;
-  line-height: 1.72;
+  line-height: 1.6;
   font-size: var(--size-body);
   max-width: 760px;
 }
@@ -2611,6 +2614,8 @@ function renderLayout(site, {
     <link rel="webmcp" href="${baseUrl(site)}/.well-known/webmcp.json">
     <link rel="ai-catalog" href="/.well-known/ai-catalog.json">
     <link rel="icon" href="/favicon.ico" sizes="32x32">
+    <link rel="preload" href="/assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/barlow-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
     ${headAlternates}
     <meta property="og:type" content="${escapeHtml(socialType)}">
     <meta property="og:site_name" content="${escapeHtml(site.siteTitle)}">
@@ -3727,6 +3732,10 @@ async function main() {
   await writeText(site, "/assets/webmcp.js", WEBMCP_SCRIPT);
   for (const [from, to] of [["favicon.ico", "favicon.ico"], ["logo.png", "assets/logo.png"]]) {
     await fs.copyFile(path.join(BRAND_DIR, from), path.join(site.paths.siteOutputDir, to));
+  }
+  await fs.mkdir(path.join(site.paths.siteOutputDir, "assets", "fonts"), { recursive: true });
+  for (const font of (await fs.readdir(path.join(BRAND_DIR, "fonts"))).filter((name) => name.endsWith(".woff2"))) {
+    await fs.copyFile(path.join(BRAND_DIR, "fonts", font), path.join(site.paths.siteOutputDir, "assets", "fonts", font));
   }
   for (const tree of ["previews", "hero", "page-images"]) {
     await recordImageSizes(path.join(site.paths.siteOutputDir, "assets", tree), `/assets/${tree}`);
