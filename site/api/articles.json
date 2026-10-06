@@ -14,6 +14,13 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/200-calories.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/200-calories.webp",
+    "credits": [
+      {
+        "name": "flickr.com",
+        "label": "Photo",
+        "author": null
+      }
+    ],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/200-calories/"
   },
@@ -32,6 +39,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/previews/6-rags.webp",
     "heroImage": null,
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/6-rags/"
   },
@@ -50,6 +58,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/7days-in-sieben-outfits.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/7days-in-sieben-outfits.webp",
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/7days-in-sieben-outfits/"
   },
@@ -68,6 +77,13 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/alte-legenden-neue-entdeckungen.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/alte-legenden-neue-entdeckungen.webp",
+    "credits": [
+      {
+        "name": "Uwe Krass",
+        "label": "Text",
+        "author": "https://proud.xn--wp9h.tk/authors/uwe-krass/"
+      }
+    ],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/alte-legenden-neue-entdeckungen/"
   },
@@ -86,6 +102,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/andere-richtungen.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/andere-richtungen.webp",
+    "credits": [],
     "pageImageCount": 2,
     "url": "https://proud.xn--wp9h.tk/articles/andere-richtungen/"
   },
@@ -104,6 +121,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/artgerechtes.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/artgerechtes.webp",
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/artgerechtes/"
   },
@@ -122,6 +140,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/berlin-bedtime.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/berlin-bedtime.webp",
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/berlin-bedtime/"
   },
@@ -140,6 +159,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/blvd-of.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/blvd-of.webp",
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/blvd-of/"
   },
@@ -158,6 +178,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/ceza-at-ballhaus-naunynstrasse.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/ceza-at-ballhaus-naunynstrasse.webp",
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/ceza-at-ballhaus-naunynstrasse/"
   },
@@ -176,6 +197,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/previews/deinen-name-sieht-man-ueberall-ein-paar-worte-zur-szene.webp",
     "heroImage": null,
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/deinen-name-sieht-man-ueberall-ein-paar-worte-zur-szene/"
   },
@@ -194,6 +216,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/dj-craft.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/dj-craft.webp",
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/dj-craft/"
   },
@@ -212,6 +235,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/previews/doktorspielchen.webp",
     "heroImage": null,
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/doktorspielchen/"
   },
@@ -230,6 +254,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/previews/e-rags.webp",
     "heroImage": null,
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/e-rags/"
   },
@@ -248,6 +273,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/editorial.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/editorial.webp",
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/editorial/"
   },
@@ -266,6 +292,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/end-skater-heroes.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/end-skater-heroes.webp",
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/end-skater-heroes/"
   },
@@ -284,6 +311,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/farbreiz.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/farbreiz.webp",
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/farbreiz/"
   },
@@ -302,6 +330,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/farbreiz-2.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/farbreiz-2.webp",
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/farbreiz-2/"
   },
@@ -320,6 +349,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/five-minutes-review-on.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/five-minutes-review-on.webp",
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/five-minutes-review-on/"
   },
@@ -338,6 +368,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/previews/flap-flap-flap.webp",
     "heroImage": null,
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/flap-flap-flap/"
   },
@@ -356,6 +387,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/fritz-helder.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/fritz-helder.webp",
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/fritz-helder/"
   },
@@ -374,6 +406,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/previews/gut-erkannt.webp",
     "heroImage": null,
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/gut-erkannt/"
   },
@@ -392,6 +425,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/hoervergnuegen.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/hoervergnuegen.webp",
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/hoervergnuegen/"
   },
@@ -410,6 +444,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/ihr-koennt-alle-kommen.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/ihr-koennt-alle-kommen.webp",
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/ihr-koennt-alle-kommen/"
   },
@@ -428,6 +463,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/jakob-ellwanger.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/jakob-ellwanger.webp",
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/jakob-ellwanger/"
   },
@@ -446,6 +482,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/previews/kannibalistische-babarenvoelker.webp",
     "heroImage": null,
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/kannibalistische-babarenvoelker/"
   },
@@ -464,6 +501,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/keller.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/keller.webp",
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/keller/"
   },
@@ -482,6 +520,13 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/previews/kitlers.webp",
     "heroImage": null,
+    "credits": [
+      {
+        "name": "flickr.com",
+        "label": "Photo",
+        "author": null
+      }
+    ],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/kitlers/"
   },
@@ -500,6 +545,13 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/launch-at-yaka-paka.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/launch-at-yaka-paka.webp",
+    "credits": [
+      {
+        "name": "Moritz Stellmacher",
+        "label": "Photo",
+        "author": "https://proud.xn--wp9h.tk/authors/moritz-stellmacher/"
+      }
+    ],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/launch-at-yaka-paka/"
   },
@@ -518,6 +570,18 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/love-in-berlin.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/love-in-berlin.webp",
+    "credits": [
+      {
+        "name": "Lukas Kampfmann",
+        "label": "Text",
+        "author": "https://proud.xn--wp9h.tk/authors/lukas-kampfmann/"
+      },
+      {
+        "name": "Christian Rothenhagen",
+        "label": "Layout",
+        "author": "https://proud.xn--wp9h.tk/authors/christian-rothenhagen/"
+      }
+    ],
     "pageImageCount": 2,
     "url": "https://proud.xn--wp9h.tk/articles/love-in-berlin/"
   },
@@ -536,6 +600,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/lyndon-wade.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/lyndon-wade.webp",
+    "credits": [],
     "pageImageCount": 6,
     "url": "https://proud.xn--wp9h.tk/articles/lyndon-wade/"
   },
@@ -554,6 +619,13 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/previews/m-und-die-verantwortung-nach-der-niemand-fragt.webp",
     "heroImage": null,
+    "credits": [
+      {
+        "name": "Moritz Stellmacher",
+        "label": "Text",
+        "author": "https://proud.xn--wp9h.tk/authors/moritz-stellmacher/"
+      }
+    ],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/m-und-die-verantwortung-nach-der-niemand-fragt/"
   },
@@ -572,6 +644,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/previews/mail-of-the-month.webp",
     "heroImage": null,
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/mail-of-the-month/"
   },
@@ -590,6 +663,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/mavi.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/mavi.webp",
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/mavi/"
   },
@@ -608,6 +682,13 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/maximal-my-ass.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/maximal-my-ass.webp",
+    "credits": [
+      {
+        "name": "Johnny Macchiato, Schnaps Magazine",
+        "label": "Guest author",
+        "author": "https://proud.xn--wp9h.tk/authors/johnny-macchiato-schnaps-magazine/"
+      }
+    ],
     "pageImageCount": 2,
     "url": "https://proud.xn--wp9h.tk/articles/maximal-my-ass/"
   },
@@ -626,6 +707,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/naketan.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/naketan.webp",
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/naketan/"
   },
@@ -644,6 +726,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/previews/new-uri-geller.webp",
     "heroImage": null,
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/new-uri-geller/"
   },
@@ -662,6 +745,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/previews/oh-mi-bod.webp",
     "heroImage": null,
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/oh-mi-bod/"
   },
@@ -680,6 +764,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/on-the-road-with-a-radio-skater.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/on-the-road-with-a-radio-skater.webp",
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/on-the-road-with-a-radio-skater/"
   },
@@ -698,6 +783,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/pentagonik.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/pentagonik.webp",
+    "credits": [],
     "pageImageCount": 2,
     "url": "https://proud.xn--wp9h.tk/articles/pentagonik/"
   },
@@ -716,6 +802,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/phb-berlin.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/phb-berlin.webp",
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/phb-berlin/"
   },
@@ -734,6 +821,28 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/pola-kardumx-maren-boettcher.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/pola-kardumx-maren-boettcher.webp",
+    "credits": [
+      {
+        "name": "www.MarenBoettcher.com",
+        "label": "Photo",
+        "author": null
+      },
+      {
+        "name": "Katarzyna Konopka",
+        "label": "Assistant",
+        "author": "https://proud.xn--wp9h.tk/authors/katarzyna-konopka/"
+      },
+      {
+        "name": "Pola Kardum",
+        "label": "Fashion & Model",
+        "author": "https://proud.xn--wp9h.tk/authors/pola-kardum/"
+      },
+      {
+        "name": "Rouge Bunny Rouge",
+        "label": "Make-Up",
+        "author": null
+      }
+    ],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/pola-kardumx-maren-boettcher/"
   },
@@ -752,6 +861,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/previews/proud.webp",
     "heroImage": null,
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/proud/"
   },
@@ -770,6 +880,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/proud-2.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/proud-2.webp",
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/proud-2/"
   },
@@ -788,6 +899,23 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/proud-dj-kolumnen.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/proud-dj-kolumnen.webp",
+    "credits": [
+      {
+        "name": "Ron WIlson",
+        "label": "Text",
+        "author": "https://proud.xn--wp9h.tk/authors/ron-wilson/"
+      },
+      {
+        "name": "Tim",
+        "label": "Text",
+        "author": "https://proud.xn--wp9h.tk/authors/tim/"
+      },
+      {
+        "name": "Cotumo",
+        "label": "Text",
+        "author": "https://proud.xn--wp9h.tk/authors/cotumo/"
+      }
+    ],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/proud-dj-kolumnen/"
   },
@@ -806,6 +934,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/previews/proud-launch-party.webp",
     "heroImage": null,
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/proud-launch-party/"
   },
@@ -824,6 +953,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/schnaps-magazine.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/schnaps-magazine.webp",
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/schnaps-magazine/"
   },
@@ -842,6 +972,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/previews/shit-glitter.webp",
     "heroImage": null,
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/shit-glitter/"
   },
@@ -860,6 +991,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/showroom.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/showroom.webp",
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/showroom/"
   },
@@ -878,6 +1010,13 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/previews/superethe-com.webp",
     "heroImage": null,
+    "credits": [
+      {
+        "name": "www.jannicahoney.com",
+        "label": "Photo",
+        "author": null
+      }
+    ],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/superethe-com/"
   },
@@ -896,6 +1035,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/previews/tal-der-verwirrung.webp",
     "heroImage": null,
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/tal-der-verwirrung/"
   },
@@ -914,6 +1054,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/tatsch.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/tatsch.webp",
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/tatsch/"
   },
@@ -932,6 +1073,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/traktor-scratch-pro.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/traktor-scratch-pro.webp",
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/traktor-scratch-pro/"
   },
@@ -950,6 +1092,13 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/previews/tr-s-bonjour.webp",
     "heroImage": null,
+    "credits": [
+      {
+        "name": "JanAdler.com",
+        "label": "Photo",
+        "author": null
+      }
+    ],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/tr-s-bonjour/"
   },
@@ -968,6 +1117,13 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/tr-s-bonjour-2.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/tr-s-bonjour-2.webp",
+    "credits": [
+      {
+        "name": "JanAdler.com",
+        "label": "Photo",
+        "author": null
+      }
+    ],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/tr-s-bonjour-2/"
   },
@@ -986,6 +1142,13 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/tr-s-bonjour-fashion-show-2008.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/tr-s-bonjour-fashion-show-2008.webp",
+    "credits": [
+      {
+        "name": "Jan Adler",
+        "label": "Photo",
+        "author": "https://proud.xn--wp9h.tk/authors/jan-adler/"
+      }
+    ],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/tr-s-bonjour-fashion-show-2008/"
   },
@@ -1004,6 +1167,13 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/previews/vom-anfang-bis-zum.webp",
     "heroImage": null,
+    "credits": [
+      {
+        "name": "Fred Kreeger",
+        "label": "Text",
+        "author": "https://proud.xn--wp9h.tk/authors/fred-kreeger/"
+      }
+    ],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/vom-anfang-bis-zum/"
   },
@@ -1022,6 +1192,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/vorsicht-vor-irgendwas.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/vorsicht-vor-irgendwas.webp",
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/vorsicht-vor-irgendwas/"
   },
@@ -1040,6 +1211,13 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/wardrobe.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/wardrobe.webp",
+    "credits": [
+      {
+        "name": "JanAdler.com",
+        "label": "Photo",
+        "author": null
+      }
+    ],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/wardrobe/"
   },
@@ -1058,6 +1236,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/warum-ueberhaupt-diese-ganze.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/warum-ueberhaupt-diese-ganze.webp",
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/warum-ueberhaupt-diese-ganze/"
   },
@@ -1076,6 +1255,13 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/wie-ueberzeugt-man-jemanden-vom-techno.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/wie-ueberzeugt-man-jemanden-vom-techno.webp",
+    "credits": [
+      {
+        "name": "Pumpa Peta",
+        "label": "Text",
+        "author": "https://proud.xn--wp9h.tk/authors/peta-pumpa/"
+      }
+    ],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/wie-ueberzeugt-man-jemanden-vom-techno/"
   },
@@ -1094,6 +1280,7 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/previews/world-2-1.webp",
     "heroImage": null,
+    "credits": [],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/world-2-1/"
   },
@@ -1112,6 +1299,13 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/previews/write-to-us-and-win.webp",
     "heroImage": null,
+    "credits": [
+      {
+        "name": "flickr.com",
+        "label": "Photo",
+        "author": null
+      }
+    ],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/write-to-us-and-win/"
   },
@@ -1130,6 +1324,28 @@
     "sourcePdf": "01 proud issuu_output.pdf",
     "previewImage": "https://proud.xn--wp9h.tk/assets/hero/zey-break.webp",
     "heroImage": "https://proud.xn--wp9h.tk/assets/hero/zey-break.webp",
+    "credits": [
+      {
+        "name": "Kadir Memiş alias »Amigo«",
+        "label": "Choreografie",
+        "author": null
+      },
+      {
+        "name": "Zula Lemes",
+        "label": "Beratung",
+        "author": null
+      },
+      {
+        "name": "Nevzat Akpinar",
+        "label": "Komposition",
+        "author": null
+      },
+      {
+        "name": "Kadir Memiş alias »Amigo« und Yavuz Topuz alias »Risk One«",
+        "label": "Mit",
+        "author": null
+      }
+    ],
     "pageImageCount": 1,
     "url": "https://proud.xn--wp9h.tk/articles/zey-break/"
   }

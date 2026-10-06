@@ -15,6 +15,7 @@ magazine_title: "01 proud issuu_output"
 issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "13-13"
+authors: []
 ---
 ## TL;DR
 
@@ -29,6 +30,7 @@ Hey Fetties, hab ihr euch schon einmal gefragt wie 200 Kalorien eigentlich ausse
 
 > Quelle: 01 proud issuu_output, Seite 13
 > Erschienen: Januar 2009
+> Foto: flickr.com
 
 Hey Fetties, hab ihr euch schon einmal gefragt wie 200 Kalorien eigentlich aussehen? Hier ein Beispiel...
 

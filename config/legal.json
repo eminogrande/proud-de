@@ -1,0 +1,12 @@
+{
+  "_doc": "Impressum (§ 5 DDG, § 18 Abs. 2 MStV) and Datenschutz. Operator is a NATURAL PERSON (Emin Mahrt, private; owner statement 2026-10-06): no company name, no register court/HRB, no GmbH. The /impressum/ and /datenschutz/ pages are generated and linked ONLY when operatorName, responsibleEditor, street, postalCode, city and email are all filled. phone, responsibleEditorAddress (if different from the operator address) and vatId (only if one exists) are optional. Owner must supply real values; never invent them.",
+  "operatorName": "",
+  "responsibleEditor": "",
+  "responsibleEditorAddress": "",
+  "street": "",
+  "postalCode": "",
+  "city": "",
+  "email": "",
+  "phone": "",
+  "vatId": ""
+}

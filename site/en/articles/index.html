@@ -14,14 +14,16 @@
     <link rel="icon" href="/favicon.ico" sizes="32x32">
     <link rel="preload" href="/assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/assets/fonts/barlow-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
-    
+    <link rel="alternate" hreflang="de" href="https://proud.xn--wp9h.tk/articles/">
+    <link rel="alternate" hreflang="en" href="https://proud.xn--wp9h.tk/en/articles/">
+    <link rel="alternate" hreflang="x-default" href="https://proud.xn--wp9h.tk/articles/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="proud.de">
     <meta property="og:title" content="Stories | proud.de">
     <meta property="og:description" content="A reading-first index of proud stories with clean text pages, original scans, and issue navigation.">
     <meta property="og:url" content="https://proud.xn--wp9h.tk/en/articles/">
     <meta property="og:locale" content="en_US">
-    
+    <meta property="og:locale:alternate" content="de_DE">
     <meta property="og:image" content="https://proud.xn--wp9h.tk/assets/hero/pentagonik.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Stories | proud.de">
@@ -32,30 +34,29 @@
   </head>
   <body>
     <main>
-      <div class="masthead-top">
-        <div class="masthead-note">proud.de · English</div>
-        <div class="masthead-date">Archive</div>
+      <div class="masthead-strip">
+        <span>Archive edition: Berlin 2009–2014</span>
+        <a href="/articles/" hreflang="de" lang="de">Deutsch</a>
       </div>
-      <header class="site-header">
-        <div class="brand">
-          <h1><a href="/en/" style="text-decoration:none;color:inherit"><span class="proud-word">proud</span>.de</a></h1>
-          <p>Digital edition of the <span class="proud-word">proud</span> archive with stories on music, city life, nightlife, style, and Berlin.</p>
-        </div>
-        <div>
-          <nav class="topnav">
-            <a href="/en/articles/">Articles</a>
-            <a href="/en/magazines/">Issues</a>
-          </nav>
-        </div>
+      <header class="site-header masthead">
+        <p class="wordmark"><a href="/en/" aria-label="proud. home">proud.</a></p>
+        <p class="wordmark-sub">magazine Berlin</p>
+        <nav class="sections" aria-label="Sections">
+          <a href="/en/articles/" aria-current="page">Articles</a>
+          <a href="/en/magazines/">Issues</a>
+          <a href="/en/authors/">Authors</a>
+          <a href="/en/about/">About</a>
+          <a href="/en/masthead/">Masthead</a>
+        </nav>
       </header>
       
       <section class="hero">
-        <h2>Stories</h2>
+        <h1 class="news-headline">Stories</h1>
         <p class="lede">A curated way into the archive with stable reading pages, original scans, and clear routes through the issues.</p>
       </section>
       <section class="panel list-panel" style="margin-top:1rem">
         
-        <h3>By word count</h3>
+        <h2 class="section-label">By word count</h2>
         <ol class="article-list">
           
     <li class="article-card with-media">
@@ -1697,7 +1698,7 @@
       </div>
     </li>
         </ol>
-        <h3 style="margin-top:1.5rem">In issue order</h3>
+        <h2 class="section-label" style="margin-top:1.5rem">In issue order</h2>
         <ol class="article-list">
           
     <li class="article-card with-media">
@@ -3340,8 +3341,17 @@
     </li>
         </ol>
       </section>
-      <footer>
-        <p><span class="proud-word">proud</span>.de appears here as an open digital magazine archive.</p>
+      <footer class="site-footer">
+        <p class="footer-brand">proud.</p>
+        <ul class="footer-columns">
+          <li><a href="/en/about/">About</a></li>
+          <li><a href="/en/masthead/">Masthead</a></li>
+          <li><a href="/en/standards/">Editorial standards</a></li>
+          <li><a href="/en/press/">Press</a></li>
+          <li><a href="/en/archive-guide/">Archive guide</a></li>
+          <li><a href="/en/corrections/">Corrections</a></li>
+        </ul>
+        <p class="trust-line">Publisher today: Emin Mahrt<br>Archived in the German National Library (<a href="https://d-nb.info/992028108">Z 2009 B 1863 · ZDB 2473146-8</a>)</p>
       </footer>
     </main>
     <script src="/assets/webmcp.js" defer></script>

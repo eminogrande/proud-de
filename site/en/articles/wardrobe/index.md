@@ -15,6 +15,7 @@ magazine_title: "01 proud issuu_output"
 issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "44-44"
+authors: []
 ---
 ## TL;DR
 
@@ -29,6 +30,7 @@ This "wardrobe" feature presents a selection of fashion items, from daring latex
 
 > Source: 01 proud issuu_output, page 44
 > Issue date: January 2009
+> Photo: JanAdler.com
 
 wardrobe
 

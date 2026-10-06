@@ -8,6 +8,12 @@ import { ensureWorkspace } from "../src/lib/config.mjs";
 import { renderInlineMarkdown, renderMarkdownToHtml, escapeHtml } from "../src/lib/html.mjs";
 import { detectLanguageFromText, localizeArticle, localeLabel } from "../src/lib/i18n.mjs";
 import { loadLibrary, sortArticles } from "../src/lib/store.mjs";
+import { PROJECT_ROOT } from "../src/lib/config.mjs";
+import {
+  DNB_URL, ISSUU_URL, ZDB_ID, DNB_SHELF, STATIC_PAGES,
+  CURRENT_PUBLISHER, loadEditorialData, buildPeople, bylineFor, personRoleLabels, legalIsComplete,
+  staticPageTitle, staticPageDescription, staticPageMarkdown, staticPageMarkdownWithMarker, dfjvMentionHtml, canonicalPersonName, slugifyName,
+} from "./lib/editorial.mjs";
 
 const execFileAsync = promisify(execFile);
 const IMAGE_EXTENSION_RE = /\.(png|jpe?g)$/i;
@@ -1222,6 +1228,165 @@ footer {
   .page-block { grid-template-columns: 1fr; }
 }`;
 
+// Editorial layer (NYT-style masthead, bylines, author pages, static pages). Bright paper, hairline rules,
+// pink only for the wordmark, kickers and focus. No animation. Minimum text 17px (1.0625rem at 16px root).
+const EDITORIAL_CSS_SOURCE = `
+.masthead-strip {
+  display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 0 1rem;
+  padding: 0; border-bottom: 1px solid var(--line);
+  font-family: var(--ui-font); font-size: var(--size-meta); color: var(--muted); letter-spacing: 0.02em;
+}
+.masthead-strip a { color: var(--muted); text-decoration: none; display: inline-flex; align-items: center; min-height: 44px; }
+.masthead-strip a:hover { color: var(--ink); text-decoration: underline; }
+header.site-header.masthead {
+  display: grid; grid-template-columns: 1fr; justify-items: center; gap: 0.2rem;
+  padding: 0.9rem 0 0; border-bottom: 3px double var(--ink);
+}
+body.article-page header.site-header.masthead { display: grid; padding: 0.9rem 0 0; border-bottom: 3px double var(--ink); }
+.wordmark {
+  margin: 0; font-family: var(--display-font); font-weight: 700; line-height: 1;
+  font-size: clamp(2.8rem, 8vw, 4.6rem); letter-spacing: -0.05em; color: var(--proud-pink);
+}
+.wordmark a { color: var(--proud-pink); text-decoration: none; display: inline-flex; min-height: 44px; align-items: center; }
+.wordmark-sub { margin: 0; font-family: var(--ui-font); font-size: var(--size-meta); color: var(--muted); letter-spacing: 0.14em; text-transform: uppercase; }
+nav.sections {
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 0 1.4rem; width: 100%;
+  margin-top: 0.5rem; border-top: 1px solid var(--line);
+}
+nav.sections a {
+  display: inline-flex; align-items: center; min-height: 48px; padding: 0 0.1rem;
+  font-family: var(--ui-font); font-size: var(--size-meta); font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--ink); text-decoration: none;
+}
+nav.sections a:hover, nav.sections a[aria-current="page"] { box-shadow: inset 0 -3px 0 var(--proud-pink); }
+nav.sections .lang-link { color: var(--muted); }
+a:focus-visible { outline: 3px solid var(--proud-pink); outline-offset: 2px; }
+.kicker {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.45rem 0.7rem; margin: 0 0 0.25rem;
+  font-family: var(--ui-font); font-size: var(--size-meta); font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted);
+}
+.kicker .kicker-tag { background: var(--ink); color: #fff; padding: 0.1em 0.45em; letter-spacing: 0.04em; }
+.kicker-rubric { color: var(--proud-pink); }
+.kicker .proud-word, .news-headline .proud-word, .byline .proud-word { color: inherit; }
+body .news-headline,
+.content h1, .content h2, .content h3 {
+  display: block; width: auto; background: transparent; color: var(--ink); padding: 0;
+}
+.news-headline {
+  margin: 0.7rem 0 0; text-wrap: balance; font-family: var(--display-font); font-weight: 700; font-size: var(--size-title);
+  line-height: 1.08; letter-spacing: -0.02em; overflow-wrap: break-word; hyphens: auto;
+}
+.news-headline a { color: inherit; text-decoration: none; }
+.news-headline a:hover { text-decoration: underline; text-decoration-thickness: 2px; }
+.deck { text-wrap: pretty; margin: 0.8rem 0 0; font-family: var(--serif-font); font-size: var(--size-body); line-height: 1.45; color: #3a352f; max-width: 42rem; }
+.byline-block { margin-top: 1.1rem; padding-top: 0.9rem; border-top: 1px solid var(--line); display: grid; gap: 0.35rem; }
+.byline { margin: 0; font-family: var(--ui-font); font-size: var(--size-meta); font-weight: 600; color: var(--ink); letter-spacing: 0.01em; }
+.byline a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 0.2em; }
+.byline-credits, .dateline { margin: 0; font-family: var(--ui-font); font-size: var(--size-meta); color: var(--muted); line-height: 1.5; }
+.byline-credits a { color: var(--muted); }
+.action-bar { display: flex; flex-wrap: wrap; gap: 0.5rem 0.6rem; margin-top: 0.9rem; }
+.action-bar a {
+  display: inline-flex; align-items: center; min-height: 44px; padding: 0 0.9rem; border: 1px solid var(--line); border-radius: 2px;
+  font-family: var(--ui-font); font-size: var(--size-meta); font-weight: 600; color: var(--ink); text-decoration: none; background: #fff;
+}
+.action-bar a:hover { border-color: var(--ink); }
+.action-bar a[aria-current="page"] { background: var(--ink); color: #fff; border-color: var(--ink); }
+.author-note {
+  display: grid; gap: 0.2rem; margin-top: 0.9rem; padding: 0.1rem 0 0.1rem 0.9rem; border-left: 2px solid var(--line);
+  font-family: var(--ui-font); font-size: var(--size-meta); line-height: 1.5; color: var(--muted);
+}
+.author-note strong { color: var(--ink); }
+.author-note a, .byline a, .byline-credits a, .author-box-entry a { text-decoration: underline; text-decoration-thickness: 1px; text-decoration-color: rgba(24, 20, 17, 0.35); text-underline-offset: 0.2em; }
+.author-note p { margin: 0; }
+.article-figure { margin: 1.4rem 0 0; }
+.article-figure img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 0; border: 0; background: var(--paper-soft); }
+.article-figure figcaption { display: flex; flex-wrap: wrap; gap: 0.2rem 0.6rem; justify-content: space-between; margin-top: 0.45rem; font-family: var(--ui-font); font-size: var(--size-meta); color: var(--muted); line-height: 1.45; }
+.photo-credit { text-transform: uppercase; letter-spacing: 0.05em; }
+body.article-page .content h2, body.article-page .content h3 {
+  font-family: var(--ui-font); font-weight: 800; font-size: var(--size-subhead); line-height: 1.25; letter-spacing: -0.015em;
+  margin: 2.4rem 0 0.7rem;
+}
+body.article-page .content h1 { font-size: var(--size-subhead); font-weight: 800; }
+.author-box {
+  max-width: 760px; margin: 3rem auto 0; padding: 1.2rem 0; border-top: 2px solid var(--ink); border-bottom: 1px solid var(--line);
+  display: grid; gap: 1.1rem;
+}
+.author-box h2, .section-label {
+  margin: 0; font-family: var(--ui-font); font-size: var(--size-meta); font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink);
+  background: transparent; padding: 0; display: block;
+}
+.author-box-entry h3 { margin: 0; font-family: var(--display-font); font-size: var(--size-subhead); font-weight: 700; line-height: 1.2; background: transparent; color: var(--ink); padding: 0; display: block; }
+.author-box-entry h3 a { color: inherit; text-decoration: none; display: inline-flex; min-height: 44px; align-items: center; }
+.author-box-entry p { margin: 0.25rem 0 0; font-size: var(--size-body); line-height: 1.5; }
+.author-box-entry .meta { font-size: var(--size-meta); }
+.home-lead { display: grid; gap: clamp(1.2rem, 3vw, 2.4rem); grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr); align-items: start; padding: 1.6rem 0 1.8rem; border-bottom: 1px solid var(--ink); }
+.home-lead figure { margin: 0; }
+.home-lead img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+.home-lead figcaption { margin-top: 0.4rem; font-family: var(--ui-font); font-size: var(--size-meta); color: var(--muted); }
+.story-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; padding: 0; margin: 0; list-style: none; }
+.story-grid > li { padding: 1.4rem 1.2rem 1.6rem; border-bottom: 1px solid var(--line); border-left: 1px solid var(--line); min-width: 0; }
+.story-grid > li:nth-child(3n+1) { border-left: 0; padding-left: 0; }
+.story-grid > li:nth-child(3n) { padding-right: 0; }
+.story-grid img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; margin-bottom: 0.8rem; }
+.story-grid .news-headline { font-size: var(--size-subhead); line-height: 1.18; }
+.story-grid .dateline { margin-top: 0.7rem; }
+.story-grid .deck { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; overflow: hidden; }
+.section-head { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; margin: 2.4rem 0 0; padding-top: 0.6rem; border-top: 2px solid var(--ink); }
+.section-head a { font-family: var(--ui-font); font-size: var(--size-meta); color: var(--ink); display: inline-flex; min-height: 44px; align-items: center; }
+.issue-strip { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1.2rem; list-style: none; padding: 0; margin: 1rem 0 0; }
+.issue-strip a { display: block; text-decoration: none; color: var(--ink); }
+.issue-strip img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; border: 1px solid var(--line); }
+.issue-strip strong { display: block; margin-top: 0.5rem; font-family: var(--display-font); font-size: var(--size-subhead); }
+.issue-strip span { font-family: var(--ui-font); font-size: var(--size-meta); color: var(--muted); }
+.page-head { padding: 1.8rem 0 1.2rem; border-bottom: 1px solid var(--line); }
+.prose { max-width: 760px; margin: 1.6rem 0 0; font-size: var(--size-body); line-height: 1.6; }
+.prose h2 { font-family: var(--ui-font); font-size: var(--size-subhead); font-weight: 800; line-height: 1.25; margin: 2.2rem 0 0.6rem; background: transparent; color: var(--ink); padding: 0; display: block; }
+.prose ul { padding-left: 1.2rem; }
+.prose blockquote { margin: 0.8rem 0 0.4rem; padding: 0 0 0 1rem; border-left: 3px solid var(--proud-pink); font-style: normal; }
+.prose blockquote + .meta { margin-top: 0; }
+.press-quote { margin: 1rem 0 0; }
+.press-quote blockquote { margin: 0; padding: 0 0 0 1rem; border-left: 3px solid var(--proud-pink); }
+.press-quote blockquote p { margin: 0; }
+.press-quote figcaption { margin-top: 0.4rem; font-family: var(--ui-font); font-size: var(--size-meta); color: var(--muted); }
+.prose li { margin: 0.35rem 0; }
+.people-list { list-style: none; padding: 0; margin: 1.4rem 0 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 0 1.6rem; }
+.people-list li { padding: 0.9rem 0; border-top: 1px solid var(--line); }
+.people-list a { font-family: var(--display-font); font-size: var(--size-subhead); font-weight: 700; color: var(--ink); text-decoration: none; display: inline-flex; min-height: 44px; align-items: center; }
+.people-list span { display: block; font-family: var(--ui-font); font-size: var(--size-meta); color: var(--muted); }
+.plain-list { list-style: none; padding: 0; margin: 0.6rem 0 0; }
+.plain-list li { padding: 0.75rem 0; border-top: 1px solid var(--line); }
+.plain-list a { font-family: var(--ui-font); font-weight: 700; font-size: var(--size-body); color: var(--ink); }
+.plain-list .meta { display: block; }
+footer.site-footer {
+  margin-top: 4rem; padding: 1.6rem 0 2rem; border-top: 3px double var(--ink);
+  font-family: var(--ui-font); font-size: var(--size-meta); color: var(--muted); line-height: 1.5;
+}
+.footer-brand { margin: 0 0 1rem; font-family: var(--display-font); font-weight: 700; font-size: 2.2rem; letter-spacing: -0.05em; color: var(--proud-pink); }
+.footer-columns { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 0.2rem 1.4rem; list-style: none; padding: 0; margin: 0; }
+.footer-columns a { display: inline-flex; align-items: center; min-height: 44px; color: var(--ink); text-decoration: none; font-weight: 600; }
+.footer-columns a:hover { text-decoration: underline; }
+.trust-line { margin: 1.2rem 0 0; padding-top: 1rem; border-top: 1px solid var(--line); }
+.trust-line a { color: var(--ink); }
+@media (max-width: 980px) {
+  .home-lead { grid-template-columns: 1fr; }
+  .home-lead figure { order: -1; }
+  .story-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .story-grid > li, .story-grid > li:nth-child(3n+1), .story-grid > li:nth-child(3n) { padding: 1.3rem 1rem 1.5rem; border-left: 1px solid var(--line); }
+  .story-grid > li:nth-child(2n+1) { border-left: 0; padding-left: 0; }
+  .story-grid > li:nth-child(2n) { padding-right: 0; }
+}
+@media (max-width: 640px) {
+  .story-grid { grid-template-columns: 1fr; }
+  .story-grid > li, .story-grid > li:nth-child(n) { padding: 1.2rem 0; border-left: 0; }
+  nav.sections { flex-wrap: nowrap; justify-content: flex-start; gap: 0 1.1rem; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  nav.sections::-webkit-scrollbar { display: none; }
+  nav.sections a { flex: 0 0 auto; }
+  .masthead-strip { justify-content: center; text-align: center; }
+  body.article-page .action-row { flex-direction: row; }
+  .footer-columns { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+`;
+
 const AI_CRAWLER_RULES = [
   "GPTBot",
   "OAI-SearchBot",
@@ -1302,16 +1467,61 @@ const IMAGE_SIZES = new Map();
 let CONTENT_MODIFIED_AT = null;
 
 const SITE_LOGO_ROUTE = "/assets/logo.png";
+// Filled in main(): printed credits, verified facts, people registry, optional contact/legal config.
+let EDITORIAL = { creditsByMagazine: new Map(), facts: [], contact: {}, legal: {} };
+let PEOPLE = [];
+const PEOPLE_BY_SLUG = new Map();
+const ARTICLES_BY_SLUG = new Map();
+
+function routeForStatic(site, locale, key) {
+  return `${routePrefix(site, locale)}/${key}/`;
+}
+
+function routeForAuthor(site, locale, slug) {
+  return `${routePrefix(site, locale)}/authors/${slug}/`;
+}
+
+function legalPagesEnabled() {
+  return legalIsComplete(EDITORIAL.legal);
+}
+
+function personJsonLd(site, name, slug = null) {
+  const person = slug ? PEOPLE_BY_SLUG.get(slug) : null;
+  return person
+    ? { "@type": "Person", "@id": `${baseUrl(site)}/authors/${person.slug}/#person`, name: person.name, url: `${baseUrl(site)}/authors/${person.slug}/` }
+    : { "@type": "Person", name };
+}
 
 function organizationJsonLd(site) {
   return {
     "@type": "NewsMediaOrganization",
     "@id": `${baseUrl(site)}/#organization`,
-    name: "proud",
-    alternateName: site.siteTitle,
+    name: "proud magazine Berlin",
+    alternateName: ["proud", site.siteTitle],
     url: `${baseUrl(site)}/`,
     logo: { "@type": "ImageObject", url: `${baseUrl(site)}${SITE_LOGO_ROUTE}`, width: 512, height: 512 },
   };
+}
+
+// Full organization entity for the home page: only verified identifiers and the policy pages that exist.
+function organizationFullJsonLd(site, locale) {
+  return {
+    ...organizationJsonLd(site),
+    sameAs: [DNB_URL, ISSUU_URL],
+    identifier: { "@type": "PropertyValue", propertyID: "ZDB-ID", value: ZDB_ID },
+    location: { "@type": "Place", name: "Berlin, Germany" },
+    publishingPrinciples: `${baseUrl(site)}${routeForStatic(site, locale, "standards")}`,
+    ethicsPolicy: `${baseUrl(site)}${routeForStatic(site, locale, "standards")}`,
+    correctionsPolicy: `${baseUrl(site)}${routeForStatic(site, locale, "corrections")}`,
+    masthead: `${baseUrl(site)}${routeForStatic(site, locale, "masthead")}`,
+    // Publisher today (owner statement 2026-10-06): Emin Mahrt as a natural person. The issue-01 co-publishers
+    // stay on the PublicationIssue as printed, not as the current operator.
+    founder: personJsonLd(site, "Emin Henri Mahrt", "emin-henri-mahrt"),
+  };
+}
+
+function currentPublisherJsonLd(site) {
+  return { ...personJsonLd(site, "Emin Henri Mahrt", "emin-henri-mahrt"), alternateName: CURRENT_PUBLISHER };
 }
 
 function publisherJsonLd(site) {
@@ -1322,9 +1532,18 @@ function periodicalJsonLd(site) {
   return {
     "@type": "Periodical",
     "@id": `${baseUrl(site)}/#periodical`,
-    name: "proud",
+    name: "proud magazine Berlin",
     url: `${baseUrl(site)}/magazines/`,
+    identifier: { "@type": "PropertyValue", propertyID: "ZDB-ID", value: ZDB_ID },
+    sameAs: [DNB_URL],
     publisher: { "@id": `${baseUrl(site)}/#organization` },
+  };
+}
+
+function breadcrumbJsonLd(site, items) {
+  return {
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, index) => ({ "@type": "ListItem", position: index + 1, name: item.name, item: `${baseUrl(site)}${item.route}` })),
   };
 }
 
@@ -2577,6 +2796,7 @@ function renderLayout(site, {
   socialTitle = title,
   socialDescription = description,
   issueDate = null,
+  navCurrent = null,
 }) {
   const copy = ui(locale);
   const canonical = `${baseUrl(site)}${canonicalRoute}`;
@@ -2634,30 +2854,67 @@ function renderLayout(site, {
   </head>
   <body${bodyClass ? ` class="${escapeHtml(bodyClass)}"` : ""}>
     <main>
-      <div class="masthead-top">
-        <div class="masthead-note">${escapeHtml(site.siteTitle)} · ${escapeHtml(localeLabelForUi(locale, locale))}</div>
-        <div class="masthead-date">${datelineHtml}</div>
-      </div>
-      <header class="site-header">
-        <div class="brand">
-          <h1><a href="${homeRoute(site, locale)}" style="text-decoration:none;color:inherit">${visibleSiteTitle}</a></h1>
-          <p>${visibleDescription}</p>
-        </div>
-        <div>
-          <nav class="topnav">
-            <a href="${routeForArticlesIndex(site, locale)}">${escapeHtml(copy.articlesNav)}</a>
-            <a href="${routeForMagazinesIndex(site, locale)}">${escapeHtml(copy.magazinesNav)}</a>
-          </nav>
-        </div>
-      </header>
+      ${renderMastheadHeader(site, locale, { alternates, navCurrent })}
       ${visibleBody}
-      <footer>
-        <p>${visibleFooter}</p>
-      </footer>
+      ${renderSiteFooter(site, locale)}
     </main>
     <script src="/assets/webmcp.js" defer></script>
   </body>
 </html>`;
+}
+
+function navItems(site, locale) {
+  const en = isEnglishLocale(locale);
+  return [
+    ["articles", routeForArticlesIndex(site, locale), en ? "Articles" : "Artikel"],
+    ["issues", routeForMagazinesIndex(site, locale), en ? "Issues" : "Ausgaben"],
+    ["authors", routeForStatic(site, locale, "authors"), en ? "Authors" : "Autor:innen"],
+    ["about", routeForStatic(site, locale, "about"), en ? "About" : "Über proud"],
+    ["masthead", routeForStatic(site, locale, "masthead"), en ? "Masthead" : "Redaktion"],
+  ];
+}
+
+function renderMastheadHeader(site, locale, { alternates = [], navCurrent = null } = {}) {
+  const en = isEnglishLocale(locale);
+  const other = (alternates ?? []).find((entry) => entry.locale !== locale);
+  const otherLocale = other?.locale ?? (en ? "de" : "en");
+  const otherRoute = other?.route ?? homeRoute(site, otherLocale);
+  const langLabel = otherLocale === "en" ? "English" : "Deutsch";
+  return `<div class="masthead-strip">
+        <span>${escapeHtml(en ? "Archive edition: Berlin 2009–2014" : "Archiv-Ausgabe: Berlin 2009–2014")}</span>
+        <a href="${otherRoute}" hreflang="${otherLocale}" lang="${otherLocale}">${escapeHtml(langLabel)}</a>
+      </div>
+      <header class="site-header masthead">
+        <p class="wordmark"><a href="${homeRoute(site, locale)}" aria-label="proud. ${escapeHtml(en ? "home" : "Startseite")}">proud.</a></p>
+        <p class="wordmark-sub">magazine Berlin</p>
+        <nav class="sections" aria-label="${escapeHtml(en ? "Sections" : "Rubriken")}">
+          ${navItems(site, locale)
+            .map(([key, href, label]) => `<a href="${href}"${key === navCurrent ? ' aria-current="page"' : ""}>${escapeHtml(label)}</a>`)
+            .join("\n          ")}
+        </nav>
+      </header>`;
+}
+
+function renderSiteFooter(site, locale) {
+  const en = isEnglishLocale(locale);
+  const links = [
+    ["about", en ? "About" : "Über proud"],
+    ["masthead", en ? "Masthead" : "Redaktion"],
+    ["standards", en ? "Editorial standards" : "Grundsätze"],
+    ["press", en ? "Press" : "Presse"],
+    ["archive-guide", en ? "Archive guide" : "Archiv-Leitfaden"],
+    ["corrections", en ? "Corrections" : "Korrekturen"],
+    ...(legalPagesEnabled() ? [["impressum", en ? "Legal notice" : "Impressum"], ["datenschutz", en ? "Privacy" : "Datenschutz"]] : []),
+  ];
+  return `<footer class="site-footer">
+        <p class="footer-brand">proud.</p>
+        <ul class="footer-columns">
+          ${links.map(([key, label]) => `<li><a href="${routeForStatic(site, locale, key)}">${escapeHtml(label)}</a></li>`).join("\n          ")}
+        </ul>
+        <p class="trust-line">${escapeHtml(en ? `Publisher today: ${CURRENT_PUBLISHER}` : `Herausgeber heute: ${CURRENT_PUBLISHER}`)}<br>${en
+          ? `Archived in the German National Library (<a href="${DNB_URL}">${DNB_SHELF} · ZDB ${ZDB_ID}</a>)`
+          : `Archiviert in der Deutschen Nationalbibliothek (<a href="${DNB_URL}">${DNB_SHELF} · ZDB ${ZDB_ID}</a>)`}</p>
+      </footer>`;
 }
 
 function buildArticleMarkdown(site, localized, locale, articlePool, manualEnrichment = null) {
@@ -2665,7 +2922,9 @@ function buildArticleMarkdown(site, localized, locale, articlePool, manualEnrich
   const articleBody = buildPublishedArticleBody(localized);
   const tldr = displaySummaryForArticle(localized, locale);
   const issueDate = issueDateFor(localized.magazineSlug);
-  const authors = creditedAuthors(localized);
+  const mdByline = bylineFor(EDITORIAL, localized, PEOPLE_BY_SLUG, locale);
+  const authors = mdByline.authors.map((entry) => entry.name);
+  const creditLine = mdByline.secondary.map((entry) => `${entry.label}: ${entry.name}`).join(" · ");
   const contentLocale = articleContentLocale(localized);
   const contentLocaleLabel = localeLabelForUi(contentLocale, locale);
   const enrichment = localized.presentation ?? buildArticleEnrichment(localized, locale, articleBody, articlePool, manualEnrichment);
@@ -2704,6 +2963,7 @@ function buildArticleMarkdown(site, localized, locale, articlePool, manualEnrich
       issue_date: issueDate,
       source_pdf: localized.sourcePdf,
       pages: `${localized.pages.start}-${localized.pages.end}`,
+      authors: mdByline.authors.map((entry) => entry.name),
     }) +
     note +
     (tldr ? `## TL;DR\n\n${tldr}\n\n` : "") +
@@ -2711,7 +2971,8 @@ function buildArticleMarkdown(site, localized, locale, articlePool, manualEnrich
     `# ${localized.title}\n\n` +
     `> ${copy.source}: ${localized.magazineTitle}, ${localized.pages.start === localized.pages.end ? copy.pageSingularLower : copy.pageLower} ${pageRangeLabel(localized)}\n` +
     `${issueDate ? `> ${locale === "en" ? "Issue date" : "Erschienen"}: ${issueDateLabel(issueDate, locale)}\n` : ""}` +
-    `${authors.length ? `> Text: ${authors.join(", ")}\n` : ""}\n` +
+    `${authors.length ? `> ${locale === "en" ? "By" : "Von"}: ${authors.join(", ")}\n` : ""}` +
+    `${creditLine ? `> ${creditLine}\n` : ""}\n` +
     `${articleBody}\n\n` +
     videosSection +
     linksSection +
@@ -2796,7 +3057,7 @@ function buildArticleHtml(site, localized, locale, locales, articlePool, manualE
   const topScansClass = (localized.pageImages?.length ?? 0) === 1 ? "article-top-scans single" : "article-top-scans";
   const topScans = pageGallery
     ? `
-    <section class="${topScansClass}" aria-label="${escapeHtml(copy.printedPages)}">
+    <section class="${topScansClass}" id="original-pages" aria-label="${escapeHtml(copy.printedPages)}">
       <div class="page-gallery">${pageGallery}</div>
     </section>`
     : "";
@@ -2817,34 +3078,58 @@ function buildArticleHtml(site, localized, locale, locales, articlePool, manualE
     ? `\n          <section class="tldr" aria-label="TL;DR"><span class="tldr-label">TL;DR</span><p class="lede">${renderInlineMarkdown(tldr)}</p></section>`
     : "";
   const topicPills = renderTopicPills(enrichment.topics);
+  const byline = bylineFor(EDITORIAL, localized, PEOPLE_BY_SLUG, locale);
+  const photoCredits = byline.secondary.filter((credit) => credit.role === "photo");
   const articleHeroFigure = articleHero
     ? `
-        <figure class="article-hero-art">
+        <figure class="article-figure">
           ${imgTag(articleHero, escapeHtml(localized.title), { priority: true })}
-          <figcaption class="meta">${escapeHtml(copy.heroCutoutCaption)}</figcaption>
+          <figcaption><span>${escapeHtml(copy.heroCutoutCaption)}, ${escapeHtml(issueTitle)}, ${escapeHtml(pagesLabel(copy, localized))}</span>${photoCredits.length ? `<span class="photo-credit">${escapeHtml(photoCredits.map((credit) => `${credit.label}: ${credit.name}`).join(" · "))}</span>` : ""}</figcaption>
         </figure>`
     : "";
   const videosSection = renderVideos(copy, enrichment.videos);
   const relatedArchiveSection = renderRelatedArchive(copy, site, locale, enrichment.relatedArticles);
 
+  const en = isEnglishLocale(locale);
+  const rubric = articleRubric(localized);
+  const deck = articleDeck(localized, locale);
+  const nameHtml = (entry) => entry.slug ? `<a href="${routeForAuthor(site, locale, entry.slug)}">${escapeHtml(entry.name)}</a>` : escapeHtml(entry.name);
+  const bylineHtml = byline.authors.length
+    ? `<p class="byline">${escapeHtml(en ? "By" : "Von")} ${byline.authors.map(nameHtml).join(byline.authors.length === 2 ? (en ? " and " : " und ") : ", ")}${byline.authors.some((entry) => entry.guest) ? ` <span class="byline-credits">(${escapeHtml(en ? "guest author" : "Gastautor")})</span>` : ""}</p>`
+    : "";
+  const secondaryHtml = byline.secondary.length
+    ? `<p class="byline-credits">${byline.secondary.map((entry) => `${escapeHtml(entry.label)}: ${nameHtml(entry)}`).join(" · ")}</p>`
+    : "";
+  const datelineHtml = `<p class="dateline">Berlin${issueDate ? ` · ${renderIssueTime(issueDate, locale)}` : ""} · ${escapeHtml(en ? "Issue" : "Heft")} ${escapeHtml(issueNumberFromSeed(localized.magazineTitle) ?? "")}, ${escapeHtml(localized.pages.start === localized.pages.end ? copy.page : copy.pages)} ${escapeHtml(pageRangeLabel(localized).replace("-", "–"))} · ${escapeHtml(copy.minutesRead(enrichment.readingTime)).replace(/ /g, "\u00a0")}</p>`;
+  const linkedPeople = [...byline.authors, ...byline.secondary].filter((entry) => entry.slug).map((entry) => PEOPLE_BY_SLUG.get(entry.slug));
+  const uniquePeople = [...new Map(linkedPeople.map((person) => [person.slug, person])).values()];
+  const authorNote = uniquePeople.length
+    ? `<aside class="author-note" aria-label="${escapeHtml(en ? "About the contributors" : "Über die Beteiligten")}">${uniquePeople.map((person) => `<p><strong><a href="${routeForAuthor(site, locale, person.slug)}">${escapeHtml(person.name)}</a></strong> · ${escapeHtml(personRoleLabels(person, locale).join(", "))}${person.bio ? ` · <span lang="de">${escapeHtml(sentenceSummaryFromText(person.bio, 1, 200))}</span>` : ""}</p>`).join("")}</aside>`
+    : "";
+  const actionBar = `<div class="action-bar">
+            ${topScans ? `<a href="#original-pages">${escapeHtml(en ? "View original page" : "Originalseite ansehen")}</a>` : ""}
+            <a href="${routeForArticle(site, locale, localized.slug)}index.md" type="text/markdown">Markdown</a>
+            ${locales.map((entry) => {
+              if (articleLocaleState(localized, entry) === "missing") return "";
+              const current = entry === locale ? ' aria-current="page"' : "";
+              return `<a href="${routeForArticle(site, entry, localized.slug)}" hreflang="${entry}" lang="${entry}"${current}>${escapeHtml(entry === "de" ? "Deutsch" : "English")}</a>`;
+            }).join("")}
+          </div>`;
   const body = `
+    <article>
     <section class="hero">
       <div class="article-hero-inner">
         <div class="hero-copy">
-          <h2>${escapeHtml(localized.title)}</h2>
-          ${topicPills}
-          <div class="story-byline">
-            <span>${escapeHtml(issueTitle)}${issueDate ? ` · ${renderIssueTime(issueDate, locale)}` : ""}</span>
-            ${authors.length ? `<span>${escapeHtml(`Text: ${authors.join(", ")}`)}</span>` : ""}
-            <span>${escapeHtml(pagesLabel(copy, localized))}</span>
-            <span>${escapeHtml(copy.minutesRead(enrichment.readingTime))}</span>
-          </div>${articleSummaryHtml}
-          <div class="language-switch">
-            <span class="language-switch-label">${escapeHtml(copy.languages)}</span>
-            <div class="locale-nav">
-              ${renderArticleLocaleNav(site, localized, locales, locale)}
-            </div>
+          <p class="kicker"><span class="kicker-tag">${escapeHtml(issueTitle)}${issueDate ? ` · ${escapeHtml(issueDateLabel(issueDate, locale))}` : ""}</span>${rubric ? `<span class="kicker-rubric">${escapeHtml(rubric)}</span>` : ""}</p>
+          <h1 class="news-headline">${escapeHtml(localized.title)}</h1>
+          ${deck ? `<p class="deck">${renderInlineMarkdown(deck)}</p>` : ""}
+          <div class="byline-block">
+            ${bylineHtml}
+            ${secondaryHtml}
+            ${datelineHtml}
           </div>
+          ${authorNote}
+          ${actionBar}
           ${translationNote}
         </div>${articleHeroFigure}
       </div>
@@ -2854,14 +3139,16 @@ function buildArticleHtml(site, localized, locale, locales, articlePool, manualE
       <div class="article-main">
         <section class="panel">
           <div class="content">
-            ${renderMarkdownToHtml(articleBody)}
+            ${stripDeckEcho(renderMarkdownToHtml(articleBody), deck)}
           </div>
         </section>
+        ${renderAuthorBox(site, locale, uniquePeople, localized.slug)}
         ${videosSection}
         ${relatedArchiveSection}
       </div>
       ${sourcePanel}
-    </section>`;
+    </section>
+    </article>`;
 
   return renderLayout(site, {
     locale,
@@ -2878,15 +3165,18 @@ function buildArticleHtml(site, localized, locale, locales, articlePool, manualE
     socialTitle: `${localized.title} | ${site.siteTitle}`,
     socialDescription: articleSummary || siteDescription(site, locale),
     issueDate,
+    navCurrent: "articles",
     structuredData: {
       "@context": "https://schema.org",
+      "@graph": [{
       "@type": "Article",
       headline: localized.title,
       inLanguage: articleContentLocale(localized),
-      description: articleSummary || siteDescription(site, locale),
+      description: deck || articleSummary || siteDescription(site, locale),
       ...(issueDate ? { datePublished: issueDate } : {}),
       ...(CONTENT_MODIFIED_AT ? { dateModified: CONTENT_MODIFIED_AT } : {}),
-      ...(authors.length ? { author: authors.map((name) => ({ "@type": "Person", name })) } : {}),
+      ...(byline.authors.length ? { author: byline.authors.map((entry) => personJsonLd(site, entry.slug ? PEOPLE_BY_SLUG.get(entry.slug).name : entry.name, entry.slug)) } : {}),
+      ...(byline.secondary.some((entry) => entry.slug) ? { contributor: byline.secondary.filter((entry) => entry.slug).map((entry) => personJsonLd(site, PEOPLE_BY_SLUG.get(entry.slug).name, entry.slug)) } : {}),
       publisher: publisherJsonLd(site),
       isPartOf: {
         "@type": "PublicationIssue",
@@ -2900,8 +3190,56 @@ function buildArticleHtml(site, localized, locale, locales, articlePool, manualE
       url: `${baseUrl(site)}${articleCanonicalRoute(site, localized)}`,
       mainEntityOfPage: `${baseUrl(site)}${articleCanonicalRoute(site, localized)}`,
       image: previewHref ? `${baseUrl(site)}${previewHref}` : undefined,
+      },
+      breadcrumbJsonLd(site, [
+        { name: "proud", route: homeRoute(site, locale) },
+        { name: issueTitle, route: routeForMagazine(site, locale, localized.magazineSlug) },
+        { name: localized.title, route: routeForArticle(site, locale, localized.slug) },
+      ])],
     },
   });
+}
+
+// Rubric printed above the article (from ingest tags). The masthead page's tags are role names, not a rubric.
+function articleRubric(article) {
+  const tag = (article.tags ?? [])[0];
+  if (!tag || (article.tags ?? []).length > 2) return "";
+  return String(tag).trim();
+}
+
+// The deck is often the printed sub-headline, which is also the first body paragraph. Show it once.
+function stripDeckEcho(html, deck) {
+  if (!deck) return html;
+  const match = html.match(/^\s*<p>([\s\S]*?)<\/p>\s*/);
+  if (!match) return html;
+  const first = normalizeForCompare(match[1].replace(/<[^>]+>/g, ""));
+  return first && first === normalizeForCompare(deck) ? html.slice(match[0].length) : html;
+}
+
+// One-sentence deck from the existing summary text.
+function articleDeck(article, locale) {
+  const summary = visibleSummaryForArticle(article, locale);
+  let deck = sentenceSummaryFromText(summary, 1, 260) || "";
+  if ((deck.match(/„/g) ?? []).length > (deck.match(/“/g) ?? []).length) deck += "“";
+  return deck;
+}
+
+function renderAuthorBox(site, locale, people, currentSlug) {
+  if (!people.length) return "";
+  const en = isEnglishLocale(locale);
+  return `
+        <section class="author-box" aria-labelledby="author-box-title">
+          <h2 class="section-label" id="author-box-title">${escapeHtml(en ? (people.length > 1 ? "About the contributors" : "About the contributor") : (people.length > 1 ? "Über die Beteiligten" : "Über die Person"))}</h2>
+          ${people.map((person) => {
+            const others = person.credits.filter((credit) => credit.articleSlug !== currentSlug).map((credit) => ARTICLES_BY_SLUG.get(credit.articleSlug)).filter(Boolean);
+            return `<div class="author-box-entry">
+            <h3><a href="${routeForAuthor(site, locale, person.slug)}">${escapeHtml(person.name)}</a></h3>
+            <p class="meta">${escapeHtml(personRoleLabels(person, locale).join(", "))} · ${escapeHtml(en ? "Contributor to proud #01" : "Mitarbeit an proud #01")}</p>
+            ${person.bio ? `<p>${escapeHtml(person.bio)} <span class="meta">(${escapeHtml(en ? `printed bio, proud #01, page ${person.bioSource.page}, German original` : `gedruckte Kurzbio, proud #01, Seite ${person.bioSource.page}`)})</span></p>` : ""}
+            ${others.length ? `<p class="meta">${escapeHtml(en ? "Also in the archive:" : "Außerdem im Archiv:")} ${others.map((article) => `<a href="${routeForArticle(site, locale, article.slug)}">${escapeHtml(article.title)}</a>`).join(", ")}</p>` : ""}
+          </div>`;
+          }).join("")}
+        </section>`;
 }
 
 function buildMagazineMarkdown(site, locale, magazine, localizedArticles) {
@@ -2956,7 +3294,8 @@ function buildMagazineHtml(site, locale, magazine, localizedArticles, locales) {
     <section class="hero">
       <div class="hero-grid">
         <div class="hero-copy">
-          <h2>${escapeHtml(issueTitle)}</h2>
+          <p class="kicker"><span class="kicker-tag">proud magazine Berlin</span></p>
+          <h1 class="news-headline">${escapeHtml(issueTitle)}</h1>
           <p class="lede">${escapeHtml(copy.issueIntro)}</p>
           <div class="stat-row">${metaChips.join("")}</div>
           <div class="locale-nav compact-locale-nav">
@@ -2974,7 +3313,7 @@ function buildMagazineHtml(site, locale, magazine, localizedArticles, locales) {
     <section class="section-stack">
       <section class="panel list-panel">
         <div class="section-rule"></div>
-        <h3>${escapeHtml(copy.issueContents)}</h3>
+        <h2 class="section-label">${escapeHtml(copy.issueContents)}</h2>
         <ol class="article-list" style="margin-top:1rem">
           ${orderedArticles.map((article) => renderArticleReviewCard(site, locale, article)).join("")}
         </ol>
@@ -2989,6 +3328,7 @@ function buildMagazineHtml(site, locale, magazine, localizedArticles, locales) {
     markdownRoute: `${routeForMagazine(site, locale, magazine.slug)}index.md`,
     body,
     alternates: renderAlternates(site, magazine, routeForMagazine, locales),
+    navCurrent: "issues",
     socialImage: shareImage,
     socialTitle: `${issueTitle} | ${site.siteTitle}`,
     socialDescription: issueDescription,
@@ -3044,39 +3384,82 @@ function buildIndexMarkdown(site, locale, articles, magazines) {
   return lines.join("\n");
 }
 
+function renderStoryKicker(site, locale, article, { link = false } = {}) {
+  const issueTitle = displayMagazineTitle(article, locale);
+  const rubric = articleRubric(article);
+  void link;
+  const tag = `<span class="kicker-tag">${escapeHtml(issueTitle)}</span>`;
+  return `<p class="kicker">${tag}${rubric ? `<span class="kicker-rubric">${escapeHtml(rubric)}</span>` : ""}</p>`;
+}
+
+function renderStoryByline(site, locale, article) {
+  const en = isEnglishLocale(locale);
+  const byline = bylineFor(EDITORIAL, article, PEOPLE_BY_SLUG, locale);
+  const issueDate = issueDateFor(article.magazineSlug);
+  const parts = [];
+  if (byline.authors.length) parts.push(`${en ? "By" : "Von"} ${byline.authors.map((entry) => entry.name).join(", ")}`);
+  else if (byline.secondary.some((entry) => entry.role === "photo" && entry.slug)) parts.push(byline.secondary.filter((entry) => entry.role === "photo" && entry.slug).map((entry) => `${entry.label}: ${entry.name}`).join(" · "));
+  return `<p class="dateline">${parts.length ? `<span class="byline">${escapeHtml(parts.join(" · "))}</span> · ` : ""}${issueDate ? renderIssueTime(issueDate, locale) : ""}</p>`;
+}
+
+// Issue cover thumbnail: only when a real cover asset exists (none are published yet, so the strip shows text).
+function issueCoverHref(magazine) {
+  return magazine?.coverImage ? `/assets/${optimizedImagePath(magazine.coverImage)}` : null;
+}
+
+// Home lead: the longest article that has both a printed text credit and a hero cutout; fall back to longest with hero.
+function pickLeadArticle(articles) {
+  const ranked = sortArticlesByWordCount(articles);
+  return ranked.find((article) => heroHref(article) && bylineFor(EDITORIAL, article, PEOPLE_BY_SLUG, "de").authors.filter((entry) => entry.slug).length === 1)
+    ?? ranked.find((article) => heroHref(article))
+    ?? ranked[0];
+}
+
 function buildIndexHtml(site, locale, articles, magazines, locales) {
   const copy = ui(locale);
-  const featuredArticles = sortArticlesByWordCount(articles).slice(0, 8);
-  const leadArticle = featuredArticles[0] ?? articles[0];
-  const secondaryArticles = featuredArticles.slice(1, 4);
-  const latestIssue = magazines[0] ?? null;
-  const otherIssues = magazines.slice(1);
+  const en = isEnglishLocale(locale);
+  const leadArticle = pickLeadArticle(articles);
+  const gridArticles = sortArticlesByWordCount(articles)
+    .filter((article) => article.slug !== leadArticle?.slug && heroHref(article) && visibleSummaryForArticle(article, locale))
+    .slice(0, 9);
+  const leadHref = leadArticle ? routeForArticle(site, locale, leadArticle.slug) : null;
+  const leadImage = leadArticle ? articleCoverHref(leadArticle) : null;
+  const issueCovers = magazines
+    .map((magazine) => ({ magazine, cover: issueCoverHref(magazine) }))
+    .filter((entry) => entry.cover);
+  void issueCovers;
   const body = `
-    <section class="front-page-grid">
-      <div class="front-page-main">
-        ${leadArticle ? renderLeadStory(site, locale, leadArticle) : ""}
+    <h1 class="visually-hidden">proud magazine Berlin: ${escapeHtml(en ? "archive edition" : "Archiv-Ausgabe")}</h1>
+    ${leadArticle ? `
+    <article class="home-lead">
+      <div>
+        ${renderStoryKicker(site, locale, leadArticle, { link: true })}
+        <h2 class="news-headline"><a href="${leadHref}">${escapeHtml(leadArticle.title)}</a></h2>
+        <p class="deck">${renderInlineMarkdown(articleDeck(leadArticle, locale))}</p>
+        <div class="byline-block">${renderStoryByline(site, locale, leadArticle).replace('<p class="dateline">', `<p class="dateline">Berlin · `)}</div>
       </div>
-    </section>
-    <section class="section-stack">
-      <section class="panel">
-        <div class="story-teaser-grid">
-          ${secondaryArticles.map((article) => renderStoryTeaser(site, locale, article)).join("")}
-        </div>
-      </section>
-      <section class="panel">
-        <h3>${escapeHtml(copy.latestIssue)}</h3>
-        <ol class="issue-grid">
-          ${latestIssue ? renderMagazineReviewCard(site, locale, latestIssue) : ""}
-        </ol>
-      </section>
-      ${otherIssues.length > 0 ? `
-      <section class="panel">
-        <h3>${escapeHtml(copy.issues)}</h3>
-        <ol class="issue-grid">
-          ${otherIssues.map((magazine) => renderMagazineReviewCard(site, locale, magazine)).join("")}
-        </ol>
-      </section>` : ""}
-    </section>`;
+      ${leadImage ? `<figure><a href="${leadHref}" tabindex="-1" aria-hidden="true">${imgTag(leadImage, "", { priority: true })}</a><figcaption>${escapeHtml(copy.heroCutoutCaption)}, ${escapeHtml(displayMagazineTitle(leadArticle, locale))}, ${escapeHtml(pagesLabel(copy, leadArticle))}</figcaption></figure>` : ""}
+    </article>` : ""}
+    <ul class="story-grid">
+      ${gridArticles.map((article) => {
+        const href = routeForArticle(site, locale, article.slug);
+        return `<li>
+        <a href="${href}" tabindex="-1" aria-hidden="true">${imgTag(articleCoverHref(article), "")}</a>
+        ${renderStoryKicker(site, locale, article)}
+        <h3 class="news-headline"><a href="${href}">${escapeHtml(article.title)}</a></h3>
+        <p class="deck">${renderInlineMarkdown(articleDeck(article, locale))}</p>
+        ${renderStoryByline(site, locale, article)}
+      </li>`;
+      }).join("")}
+    </ul>
+    <div class="section-head"><h2 class="section-label">${escapeHtml(en ? "Issues" : "Ausgaben")}</h2><a href="${routeForArticlesIndex(site, locale)}">${escapeHtml(en ? "All articles" : "Alle Artikel")}</a></div>
+    <ul class="issue-strip">
+      ${magazines.map((magazine) => {
+        const cover = issueCoverHref(magazine);
+        const issueDate = issueDateFor(magazine.slug);
+        return `<li><a href="${routeForMagazine(site, locale, magazine.slug)}">${cover ? imgTag(cover, "") : ""}<strong>${escapeHtml(displayMagazineTitle(magazine, locale))}</strong><span>${issueDate ? renderIssueTime(issueDate, locale) : ""} · ${formatCount(magazine.articleCount, locale)} ${escapeHtml(copy.articles)}</span></a></li>`;
+      }).join("")}
+    </ul>`;
 
   return renderLayout(site, {
     locale,
@@ -3093,15 +3476,19 @@ function buildIndexHtml(site, locale, articles, magazines, locales) {
       "@context": "https://schema.org",
       "@graph": [
         {
-          ...organizationJsonLd(site),
+          ...organizationFullJsonLd(site, locale),
           description: siteDescription(site, locale),
-          foundingDate: "2008",
-          foundingLocation: { "@type": "Place", name: "Berlin" },
-          location: { "@type": "Place", name: "Berlin, Germany" },
           knowsAbout: ["Music", "Berlin", "City life", "Nightlife", "Style"],
-          sameAs: ["https://github.com/eminogrande/proud-de"],
         },
         periodicalJsonLd(site),
+        ...magazines.map((magazine) => ({
+          "@type": "PublicationIssue",
+          name: displayMagazineTitle(magazine, locale),
+          url: `${baseUrl(site)}${routeForMagazine(site, locale, magazine.slug)}`,
+          ...(issueNumberFromSeed(magazine.title) ? { issueNumber: issueNumberFromSeed(magazine.title) } : {}),
+          ...(issueDateFor(magazine.slug) ? { datePublished: issueDateFor(magazine.slug) } : {}),
+          isPartOf: { "@id": `${baseUrl(site)}/#periodical` },
+        })),
         {
           "@type": "WebSite",
           "@id": `${baseUrl(site)}/#website`,
@@ -3109,7 +3496,7 @@ function buildIndexHtml(site, locale, articles, magazines, locales) {
           url: `${baseUrl(site)}${homeRoute(site, locale)}`,
           description: siteDescription(site, locale),
           inLanguage: locale,
-          publisher: { "@id": `${baseUrl(site)}/#organization` },
+          publisher: currentPublisherJsonLd(site),
         },
       ],
     },
@@ -3133,7 +3520,7 @@ function buildListPageMarkdown(site, locale, title, route, items, type) {
   return lines.join("\n");
 }
 
-function buildListPageHtml(site, locale, title, route, markdownRoute, itemsHtml, description = title, socialImage = null) {
+function buildListPageHtml(site, locale, title, route, markdownRoute, itemsHtml, description = title, socialImage = null, navCurrent = null, locales = [site.defaultLocale]) {
   const copy = ui(locale);
   return renderLayout(site, {
     locale,
@@ -3143,7 +3530,7 @@ function buildListPageHtml(site, locale, title, route, markdownRoute, itemsHtml,
     markdownRoute,
     body: `
       <section class="hero">
-        <h2>${escapeHtml(title)}</h2>
+        <h1 class="news-headline">${escapeHtml(title)}</h1>
         <p class="lede">${escapeHtml(copy.listPageIntro)}</p>
       </section>
       <section class="panel list-panel" style="margin-top:1rem">
@@ -3152,7 +3539,199 @@ function buildListPageHtml(site, locale, title, route, markdownRoute, itemsHtml,
     socialImage,
     socialTitle: `${title} | ${site.siteTitle}`,
     socialDescription: description,
+    navCurrent,
+    alternates: locales.map((entry) => ({ locale: entry, route: route.replace(/^\/en\//, "/").replace(/^\//, entry === site.defaultLocale ? "/" : `/${entry}/`) })),
   });
+}
+
+function staticRoutes(site, locale) {
+  return {
+    about: routeForStatic(site, locale, "about"),
+    masthead: routeForStatic(site, locale, "masthead"),
+    standards: routeForStatic(site, locale, "standards"),
+    press: routeForStatic(site, locale, "press"),
+    corrections: routeForStatic(site, locale, "corrections"),
+    authors: routeForStatic(site, locale, "authors"),
+    articles: routeForArticlesIndex(site, locale),
+    issues: routeForMagazinesIndex(site, locale),
+    author: (slug) => routeForAuthor(site, locale, slug),
+  };
+}
+
+// Generic text page (About, Masthead, Standards, Press, Corrections, Archive guide, Impressum, Datenschutz).
+function buildStaticPage(site, locale, key, locales, context) {
+  const title = staticPageTitle(key, locale);
+  const description = staticPageDescription(key, locale);
+  const markdownBody = staticPageMarkdown(key, locale, { editorial: EDITORIAL, site, routes: staticRoutes(site, locale), ...context });
+  const route = routeForStatic(site, locale, key);
+  const en = isEnglishLocale(locale);
+  const pageTypes = { about: "AboutPage", masthead: "AboutPage", press: "AboutPage", impressum: "AboutPage", datenschutz: "WebPage" };
+  const html = renderLayout(site, {
+    locale,
+    title: `${title} | proud magazine Berlin`,
+    description,
+    route,
+    markdownRoute: `${route}index.md`,
+    navCurrent: ["about", "masthead"].includes(key) ? key : null,
+    alternates: locales.map((entry) => ({ locale: entry, route: routeForStatic(site, entry, key) })),
+    body: `
+    <section class="page-head">
+      <p class="kicker"><span class="kicker-tag">proud magazine Berlin</span><span class="kicker-rubric">${escapeHtml(en ? "Archive edition" : "Archiv-Ausgabe")}</span></p>
+      <h1 class="news-headline">${escapeHtml(title)}</h1>
+      <p class="deck">${escapeHtml(description)}</p>
+    </section>
+    <div class="prose">
+      ${renderMarkdownToHtml(staticPageMarkdownWithMarker(key, locale, { editorial: EDITORIAL, site, routes: staticRoutes(site, locale), ...context })).replace(/<p>@@DFJV_QUOTE@@<\/p>/, dfjvMentionHtml(locale))}
+    </div>`,
+    structuredData: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": pageTypes[key] ?? "WebPage",
+          name: title,
+          description,
+          url: `${baseUrl(site)}${route}`,
+          inLanguage: locale,
+          isPartOf: { "@type": "WebSite", "@id": `${baseUrl(site)}/#website` },
+          about: { "@id": `${baseUrl(site)}/#organization` },
+        },
+        breadcrumbJsonLd(site, [{ name: "proud", route: homeRoute(site, locale) }, { name: title, route }]),
+      ],
+    },
+  });
+  const markdown = `${frontmatter({ title, locale, canonical_url: `${baseUrl(site)}${route}`, type: `page-${key}` })}# ${title}\n\n> ${description}\n\n${markdownBody}\n`;
+  return { route, html, markdown };
+}
+
+function authorArticleItems(site, locale, person) {
+  const seen = new Set();
+  return person.credits
+    .filter((credit) => !seen.has(credit.articleSlug) && seen.add(credit.articleSlug))
+    .map((credit) => ({ credit, article: ARTICLES_BY_SLUG.get(credit.articleSlug) }))
+    .filter((entry) => entry.article);
+}
+
+function buildAuthorPage(site, locale, person, locales) {
+  const en = isEnglishLocale(locale);
+  const route = routeForAuthor(site, locale, person.slug);
+  const roles = personRoleLabels(person, locale);
+  const items = authorArticleItems(site, locale, person);
+  const description = en
+    ? `${person.name}: ${roles.join(", ")} in proud magazine Berlin, issue 01 (January 2009). Credits as printed.`
+    : `${person.name}: ${roles.join(", ")} bei proud magazine Berlin, Heft 01 (Januar 2009). Credits wie gedruckt.`;
+  const printedAsNote = person.printedAs.length
+    ? (en ? `Printed in an article credit as “${person.printedAs.join("”, “")}”; the masthead spells “${person.name}”.` : `In einem Artikel-Credit gedruckt als „${person.printedAs.join("“, „")}“; das Impressum schreibt „${person.name}“.`)
+    : "";
+  const mastheadLines = person.mastheadRoles.map((role) => `${en ? role.en : role.de} (${en ? "masthead" : "Impressum"} proud #01, ${en ? "page" : "Seite"} ${role.page})`);
+  const currentNote = person.slug === "emin-henri-mahrt"
+    ? (en ? `Publisher today: ${CURRENT_PUBLISHER} (owner statement, October 2026). The roles below are those printed in issue 01 (2009).` : `Herausgeber heute: ${CURRENT_PUBLISHER} (Angabe des Herausgebers, Oktober 2026). Die Rollen unten sind die in Heft 01 (2009) gedruckten.`)
+    : "";
+  const markdownLines = [
+    ...(currentNote ? [currentNote] : []),
+    `**${en ? "Roles" : "Rollen"}:** ${roles.join(", ")}`,
+    `${en ? "Contributor to proud #01" : "Mitarbeit an proud #01"} (${en ? "January 2009" : "Januar 2009"}).`,
+    ...(person.bio ? [`## ${en ? "Printed bio" : "Gedruckte Kurzbio"}`, `> ${person.bio}`, en ? `(proud #01, page ${person.bioSource.page}, German original)` : `(proud #01, Seite ${person.bioSource.page})`] : []),
+    ...(mastheadLines.length ? [`## ${en ? "Masthead" : "Impressum"}`, mastheadLines.map((line) => `- ${line}`).join("\n")] : []),
+    ...(items.length ? [`## ${en ? "Articles" : "Artikel"}`, items.map(({ credit, article }) => `- [${article.title}](${routeForArticle(site, locale, article.slug)}): ${credit.printedLabel} ${credit.printedName}, ${displayMagazineTitle(article, locale)}, ${pagesLabel(ui(locale), article)}`).join("\n")] : []),
+    ...(printedAsNote ? [printedAsNote] : []),
+    en ? "Source: printed credits in the scanned issue. No further biography is known to this archive." : "Quelle: gedruckte Credits im gescannten Heft. Weitere biografische Angaben liegen dem Archiv nicht vor.",
+  ];
+  const markdownBody = markdownLines.join("\n\n");
+  const html = renderLayout(site, {
+    locale,
+    title: `${person.name} | proud magazine Berlin`,
+    description,
+    route,
+    markdownRoute: `${route}index.md`,
+    navCurrent: "authors",
+    alternates: locales.map((entry) => ({ locale: entry, route: routeForAuthor(site, entry, person.slug) })),
+    body: `
+    <section class="page-head">
+      <p class="kicker"><span class="kicker-tag">${escapeHtml(en ? "Authors" : "Autor:innen")}</span><span class="kicker-rubric">proud #01</span></p>
+      <h1 class="news-headline">${escapeHtml(person.name)}</h1>
+      <p class="deck">${escapeHtml(roles.join(", "))} · ${escapeHtml(en ? "Contributor to proud #01" : "Mitarbeit an proud #01")}</p>
+    </section>
+    <div class="prose">
+      ${currentNote ? `<p>${escapeHtml(currentNote)}</p>` : ""}
+      ${person.bio ? `<h2>${escapeHtml(en ? "Printed bio" : "Gedruckte Kurzbio")}</h2><blockquote lang="de">${escapeHtml(person.bio)}</blockquote><p class="meta">${escapeHtml(en ? `proud #01, page ${person.bioSource.page}, German original` : `proud #01, Seite ${person.bioSource.page}`)}</p>` : ""}
+      ${mastheadLines.length ? `<h2>${escapeHtml(en ? "Masthead" : "Impressum")}</h2><ul>${mastheadLines.map((line) => `<li>${escapeHtml(line)}</li>`).join("")}</ul>` : ""}
+      ${items.length ? `<h2>${escapeHtml(en ? "Articles" : "Artikel")}</h2>
+      <ul class="plain-list">${items.map(({ credit, article }) => `<li><a href="${routeForArticle(site, locale, article.slug)}">${escapeHtml(article.title)}</a><span class="meta">${escapeHtml(`${credit.printedLabel} ${credit.printedName}`)} · ${escapeHtml(displayMagazineTitle(article, locale))} · ${escapeHtml(pagesLabel(ui(locale), article))}</span></li>`).join("")}</ul>` : ""}
+      ${printedAsNote ? `<p class="meta">${escapeHtml(printedAsNote)}</p>` : ""}
+      <p class="meta">${escapeHtml(en ? "Source: printed credits in the scanned issue. No further biography is known to this archive." : "Quelle: gedruckte Credits im gescannten Heft. Weitere biografische Angaben liegen dem Archiv nicht vor.")}</p>
+    </div>`,
+    structuredData: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ProfilePage",
+          url: `${baseUrl(site)}${route}`,
+          inLanguage: locale,
+          mainEntity: {
+            "@type": "Person",
+            "@id": `${baseUrl(site)}/authors/${person.slug}/#person`,
+            name: person.name,
+            ...(person.printedAs.length ? { alternateName: person.printedAs } : {}),
+            ...(person.mastheadRoles.some((role) => ["publisher", "textEditor", "fashionEditor", "eventManager", "advertisingManager", "production"].includes(role.key)) ? { worksFor: { "@id": `${baseUrl(site)}/#organization` } } : {}),
+            ...(person.mastheadRoles.length ? { jobTitle: [...new Set(person.mastheadRoles.map((role) => role.en))].join(", ") } : {}),
+            ...(person.bio ? { description: person.bio } : {}),
+          },
+          ...(items.length ? { hasPart: items.map(({ article }) => ({ "@type": "Article", headline: article.title, url: `${baseUrl(site)}${routeForArticle(site, locale, article.slug)}` })) } : {}),
+        },
+        breadcrumbJsonLd(site, [
+          { name: "proud", route: homeRoute(site, locale) },
+          { name: en ? "Authors" : "Autor:innen", route: routeForStatic(site, locale, "authors") },
+          { name: person.name, route },
+        ]),
+      ],
+    },
+  });
+  const markdown = `${frontmatter({ title: person.name, locale, canonical_url: `${baseUrl(site)}${route}`, type: "author", roles })}# ${person.name}\n\n${markdownBody}\n`;
+  return { route, html, markdown };
+}
+
+function buildAuthorsIndex(site, locale, locales) {
+  const en = isEnglishLocale(locale);
+  const route = routeForStatic(site, locale, "authors");
+  const title = staticPageTitle("authors", locale);
+  const description = staticPageDescription("authors", locale);
+  const note = en
+    ? "Everyone named here is credited in print: in an article credit or in the masthead of issue 01. Names as printed. Image agencies and websites credited as photo sources are not listed as people."
+    : "Alle hier genannten Personen haben einen gedruckten Credit: an einem Artikel oder im Impressum von Heft 01. Namen wie gedruckt. Bildagenturen und Websites als Bildquelle sind nicht als Personen gelistet.";
+  const html = renderLayout(site, {
+    locale,
+    title: `${title} | proud magazine Berlin`,
+    description,
+    route,
+    markdownRoute: `${route}index.md`,
+    navCurrent: "authors",
+    alternates: locales.map((entry) => ({ locale: entry, route: routeForStatic(site, entry, "authors") })),
+    body: `
+    <section class="page-head">
+      <p class="kicker"><span class="kicker-tag">proud magazine Berlin</span></p>
+      <h1 class="news-headline">${escapeHtml(title)}</h1>
+      <p class="deck">${escapeHtml(description)}</p>
+    </section>
+    <p class="prose">${escapeHtml(note)} <a href="${routeForStatic(site, locale, "masthead")}">${escapeHtml(en ? "Full masthead" : "Vollständiges Impressum")}</a></p>
+    <ul class="people-list">
+      ${PEOPLE.map((person) => `<li><a href="${routeForAuthor(site, locale, person.slug)}">${escapeHtml(person.name)}</a><span>${escapeHtml(personRoleLabels(person, locale).join(", "))}${person.credits.length ? ` · ${person.credits.length} ${escapeHtml(en ? (person.credits.length === 1 ? "article" : "articles") : (person.credits.length === 1 ? "Artikel" : "Artikel"))}` : ""}</span></li>`).join("\n      ")}
+    </ul>`,
+    structuredData: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CollectionPage",
+          name: title,
+          url: `${baseUrl(site)}${route}`,
+          inLanguage: locale,
+          mainEntity: { "@type": "ItemList", itemListElement: PEOPLE.map((person, index) => ({ "@type": "ListItem", position: index + 1, url: `${baseUrl(site)}${routeForAuthor(site, locale, person.slug)}`, name: person.name })) },
+        },
+        breadcrumbJsonLd(site, [{ name: "proud", route: homeRoute(site, locale) }, { name: title, route }]),
+      ],
+    },
+  });
+  const markdown = `${frontmatter({ title, locale, canonical_url: `${baseUrl(site)}${route}`, type: "authors-index" })}# ${title}\n\n> ${description}\n\n${note}\n\n${PEOPLE.map((person) => `- [${person.name}](${baseUrl(site)}${routeForAuthor(site, locale, person.slug)}index.md): ${personRoleLabels(person, locale).join(", ")}`).join("\n")}\n`;
+  return { route, html, markdown };
 }
 
 function digestForText(value) {
@@ -3195,6 +3774,9 @@ function buildOpenApi(site) {
       },
       "/api/magazines.json": {
         get: { operationId: "listMagazines", summary: "List magazines", responses: { 200: { description: "OK", content: { "application/json": { schema: { type: "array", items: { $ref: "#/components/schemas/MagazineSummary" } } } } }, default: problem } },
+      },
+      "/api/authors.json": {
+        get: { operationId: "listAuthors", summary: "List people credited in print (name as printed, roles, article credits)", responses: { 200: { description: "OK", content: { "application/json": { schema: { type: "array", items: { type: "object" } } } } }, default: problem } },
       },
       "/api/articles/{slug}.json": {
         get: {
@@ -3362,6 +3944,7 @@ function buildApiCatalog(site) {
           { href: `${baseUrl(site)}/api/library.json` },
           { href: `${baseUrl(site)}/api/articles.json` },
           { href: `${baseUrl(site)}/api/magazines.json` },
+          { href: `${baseUrl(site)}/api/authors.json` },
           { href: `${baseUrl(site)}/api/search` },
           { href: `${baseUrl(site)}/.well-known/http-message-signatures-directory` },
           { href: `${baseUrl(site)}/llms.txt` },
@@ -3728,7 +4311,7 @@ async function main() {
     quality: 82,
   });
   await fs.mkdir(path.join(site.paths.siteOutputDir, "assets", "pdfs"), { recursive: true });
-  await writeText(site, "/assets/site.css", CSS);
+  await writeText(site, "/assets/site.css", `${CSS}\n${EDITORIAL_CSS_SOURCE}`);
   await writeText(site, "/assets/webmcp.js", WEBMCP_SCRIPT);
   for (const [from, to] of [["favicon.ico", "favicon.ico"], ["logo.png", "assets/logo.png"]]) {
     await fs.copyFile(path.join(BRAND_DIR, from), path.join(site.paths.siteOutputDir, to));
@@ -3748,6 +4331,9 @@ async function main() {
     }
   }
   CONTENT_MODIFIED_AT = library.generatedAt ? String(library.generatedAt).slice(0, 10) : null;
+  EDITORIAL = await loadEditorialData(PROJECT_ROOT);
+  PEOPLE = buildPeople(EDITORIAL, sortedArticles);
+  for (const person of PEOPLE) PEOPLE_BY_SLUG.set(person.slug, person);
 
   const localizedByLocale = new Map();
   for (const locale of locales) {
@@ -3769,6 +4355,8 @@ async function main() {
   for (const locale of locales) {
     const localizedArticles = localizedByLocale.get(locale);
     const localizedArticleMap = new Map(localizedArticles.map((article) => [article.slug, article]));
+    ARTICLES_BY_SLUG.clear();
+    for (const article of localizedArticles) ARTICLES_BY_SLUG.set(article.slug, article);
     const issueOrderedArticles = sortArticlesForIssue(localizedArticles);
     const wordRankedArticles = sortArticlesByWordCount(localizedArticles);
 
@@ -3797,11 +4385,11 @@ async function main() {
       routeForArticlesIndex(site, locale),
       `${routeForArticlesIndex(site, locale)}index.md`,
       `
-        <h3>${escapeHtml(ui(locale).sortedByWordCount)}</h3>
+        <h2 class="section-label">${escapeHtml(ui(locale).sortedByWordCount)}</h2>
         <ol class="article-list">
           ${wordRankedArticles.map((article) => renderArticleReviewCard(site, locale, article, { showMagazine: true })).join("")}
         </ol>
-        <h3 style="margin-top:1.5rem">${escapeHtml(ui(locale).inIssueOrder)}</h3>
+        <h2 class="section-label" style="margin-top:1.5rem">${escapeHtml(ui(locale).inIssueOrder)}</h2>
         <ol class="article-list">
           ${issueOrderedArticles.map((article) => renderArticleReviewCard(site, locale, article, { showMagazine: true })).join("")}
         </ol>`,
@@ -3809,6 +4397,8 @@ async function main() {
         ? "A reading-first index of proud stories with clean text pages, original scans, and issue navigation."
         : "Ein leseoptimierter Index der proud-Geschichten mit klaren Textseiten, Originalscans und Heftnavigation.",
       articleCoverHref(wordRankedArticles[0]) ?? null,
+      "articles",
+      locales,
     );
     await writePage(site, routeForArticlesIndex(site, locale), articlesListHtml, articlesListMarkdown);
 
@@ -3834,6 +4424,8 @@ async function main() {
         ? "All proud issues in a clean reading archive with direct access to issue pages and article editions."
         : "Alle proud-Ausgaben in einem klaren Lesearchiv mit direktem Zugang zu Heften und Artikelseiten.",
       articleCoverHref(localizedArticles[0]) ?? null,
+      "issues",
+      locales,
     );
     await writePage(site, routeForMagazinesIndex(site, locale), localizedMagazineHtml, localizedMagazineMarkdown);
 
@@ -3859,6 +4451,19 @@ async function main() {
       );
     }
 
+    const staticContext = { publishedIssues: magazines.length, articleCount: localizedArticles.length, authorCount: PEOPLE.length };
+    const staticKeys = [...STATIC_PAGES, ...(legalPagesEnabled() ? ["impressum", "datenschutz"] : [])];
+    for (const key of staticKeys) {
+      const page = buildStaticPage(site, locale, key, locales, staticContext);
+      await writePage(site, page.route, page.html, page.markdown);
+    }
+    const authorsIndex = buildAuthorsIndex(site, locale, locales);
+    await writePage(site, authorsIndex.route, authorsIndex.html, authorsIndex.markdown);
+    for (const person of PEOPLE) {
+      const page = buildAuthorPage(site, locale, person, locales);
+      await writePage(site, page.route, page.html, page.markdown);
+    }
+
     const llmsLines = [
       `# ${site.siteTitle} (${localeLabel(locale)})`,
       `> ${siteDescription(site, locale)}`,
@@ -3869,6 +4474,14 @@ async function main() {
       `- [Magazines Index](${baseUrl(site)}${routeForMagazinesIndex(site, locale)}index.md): All magazine issues.`,
       `- [OpenAPI](${baseUrl(site)}/api/openapi.json): Machine-readable API description.`,
       `- [MCP Server Card](${baseUrl(site)}/.well-known/mcp/server-card.json): Remote MCP discovery document.`,
+      `- [Authors](${baseUrl(site)}${routeForStatic(site, locale, "authors")}index.md): Everyone credited in print, with roles and articles. JSON: ${baseUrl(site)}/api/authors.json`,
+      "",
+      "## About the magazine",
+      ...staticKeys.map((key) => `- [${staticPageTitle(key, locale)}](${baseUrl(site)}${routeForStatic(site, locale, key)}index.md): ${staticPageDescription(key, locale)}`),
+      `- Library record: German National Library, shelf mark ${DNB_SHELF}, ZDB ${ZDB_ID}, ${DNB_URL}`,
+      "",
+      "## Authors",
+      ...PEOPLE.map((person) => `- [${person.name}](${baseUrl(site)}${routeForAuthor(site, locale, person.slug)}index.md): ${personRoleLabels(person, locale).join(", ")}`),
       "",
       "## Articles",
       ...localizedArticles.map(
@@ -3906,6 +4519,7 @@ async function main() {
     sourcePdf: article.sourcePdf,
     previewImage: articleCoverHref(article) ? `${baseUrl(site)}${articleCoverHref(article)}` : null,
     heroImage: heroHref(article) ? `${baseUrl(site)}${heroHref(article)}` : null,
+    credits: bylineFor(EDITORIAL, article, PEOPLE_BY_SLUG, "en").authors.concat(bylineFor(EDITORIAL, article, PEOPLE_BY_SLUG, "en").secondary).map((entry) => ({ name: entry.name, label: entry.label, author: entry.slug ? `${baseUrl(site)}/authors/${entry.slug}/` : null })),
     pageImageCount: article.pageImages?.length ?? 0,
     url: `${baseUrl(site)}${routeForArticle(site, site.defaultLocale, article.slug)}`,
   }));
@@ -3924,6 +4538,16 @@ async function main() {
   await writeJson(site, "/api/library.json", library);
   await writeJson(site, "/api/articles.json", apiArticles);
   await writeJson(site, "/api/magazines.json", apiMagazines);
+  await writeJson(site, "/api/authors.json", PEOPLE.map((person) => ({
+    slug: person.slug,
+    name: person.name,
+    printedAs: person.printedAs,
+    roles: personRoleLabels(person, "en"),
+    masthead: person.mastheadRoles.map((role) => ({ issue: role.magazineSlug, role: role.en, page: role.page })),
+    credits: person.credits.map((credit) => ({ article: credit.articleSlug, issue: credit.magazineSlug, role: credit.role, printedLabel: credit.printedLabel, printedName: credit.printedName })),
+    bio: person.bio ? { text: person.bio, language: "de", source: person.bioSource } : null,
+    url: `${baseUrl(site)}${routeForAuthor(site, site.defaultLocale, person.slug)}`,
+  })));
   await writeJson(site, "/api/search-index.json", sortedArticles);
   await writeJson(site, "/api/openapi.json", buildOpenApi(site));
 
@@ -4006,6 +4630,12 @@ async function main() {
   }
   for (const magazine of magazines) {
     addPageGroup(renderAlternates(site, magazine, routeForMagazine, locales));
+  }
+  for (const key of [...STATIC_PAGES, "authors", ...(legalPagesEnabled() ? ["impressum", "datenschutz"] : [])]) {
+    addPageGroup(locales.map((locale) => ({ locale, route: routeForStatic(site, locale, key) })));
+  }
+  for (const person of PEOPLE) {
+    addPageGroup(locales.map((locale) => ({ locale, route: routeForAuthor(site, locale, person.slug) })));
   }
   const sitemapRoutes = new Set(["/llms.txt", "/llms-full.txt", ...sitemapAlternates.keys()]);
   for (const locale of locales) {

@@ -15,6 +15,7 @@ magazine_title: "01 proud issuu_output"
 issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "12-12"
+authors: []
 ---
 ## TL;DR
 
@@ -29,6 +30,7 @@ Ihr fragt Euch, wie unglaublich heiß eine Frau in einem blaumetallikfarbenen Sw
 
 > Quelle: 01 proud issuu_output, Seite 12
 > Erschienen: Januar 2009
+> Foto: JanAdler.com
 
 très bonjour
 

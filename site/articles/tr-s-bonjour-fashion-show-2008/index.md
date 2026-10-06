@@ -15,6 +15,7 @@ magazine_title: "01 proud issuu_output"
 issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "21-21"
+authors: []
 ---
 ## TL;DR
 
@@ -29,6 +30,7 @@ Eine abendliche Exkursion ist eine feine Sache. Wenn dabei heiße Frauen in abge
 
 > Quelle: 01 proud issuu_output, Seite 21
 > Erschienen: Januar 2009
+> Foto: Jan Adler
 
 Eine abendliche Exkursion ist eine feine Sache. Wenn dabei heiße Frauen in abgefahrener Latex-Couture-Lingerie und Swimwear-Kollektionen eine entscheidende Rolle spielen, reicht es, das süße Sein zu begrüßen. Jauchzend am Feiern findet sich die proud Redaktion in einem mit viel Liebe designten S-Bahn-Bogen, zwischen endlosen Bikinireihen. Augen und Münder weit geöffnet starren wir die aktuelle Kollektion der jungen Designerin Viola Jaeger an. Als Sahnehäubchen gibt es außerdem die extravaganten Hutkreationen von Hat-Affairs aus München, exklusiv für dieses Event entworfen. „Deep Sea Geishas“-Unterwasseratmosphäre
 

@@ -15,6 +15,7 @@ magazine_title: "01 proud issuu_output"
 issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "22-23"
+authors: ["Lukas Kampfmann"]
 ---
 ## TL;DR
 
@@ -28,6 +29,8 @@ Christian Rothenhagen alias deerBLN, Berliner Lokalpatriot mit Hang zum Konzepti
 
 > Quelle: 01 proud issuu_output, Seiten 22-23
 > Erschienen: Januar 2009
+> Von: Lukas Kampfmann
+> Layout: Christian Rothenhagen
 
 Christian Rothenhagen alias deerBLN, Berliner Lokalpatriot mit Hang zum Konzeptionellen
 

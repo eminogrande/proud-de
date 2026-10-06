@@ -15,6 +15,7 @@ magazine_title: "01 proud issuu_output"
 issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "32-32"
+authors: ["Pumpa Peta"]
 ---
 ## TL;DR
 
@@ -28,7 +29,7 @@ Text Pumpa Petz
 
 > Source: 01 proud issuu_output, page 32
 > Issue date: January 2009
-> Text: Pumpa Petz
+> By: Pumpa Peta
 
 1.  Buy a car.
 2.  Whenever you drive home with your significant other, have a dark techno mixtape playing at full blast.

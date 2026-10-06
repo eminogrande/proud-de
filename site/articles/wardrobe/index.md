@@ -15,6 +15,7 @@ magazine_title: "01 proud issuu_output"
 issue_date: "2009-01"
 source_pdf: "01 proud issuu_output.pdf"
 pages: "44-44"
+authors: []
 ---
 ## TL;DR
 
@@ -29,6 +30,7 @@ Très Bonjour Latex Couture Swimsuit & Bikini Fred Perry Tenniskleid Très Bonjo
 
 > Quelle: 01 proud issuu_output, Seite 44
 > Erschienen: Januar 2009
+> Foto: JanAdler.com
 
 wardrobe
 

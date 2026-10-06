@@ -1,6 +1,6 @@
 # Handoff: republish all proud magazine issues
 
-Owner: Emin Mahrt, publisher of proud magazine Berlin (2008-2014, 32 print issues).
+Owner: Emin Mahrt, publisher of proud today (private person, operates this archive; owner statement 06.10.2026). Issue 01 (2009) masthead: Richard Kirschstein and Emin Henri Mahrt. Print run: monthly 2009-2014, final issue #32 (DNB).
 Goal: every article of every issue live, agent-ready, indexed by Google and ChatGPT. Later: custom domain `proud.de`, then new content (videos, interviews, YouTube).
 
 ```mermaid
@@ -28,6 +28,8 @@ flowchart LR
 | Issue 02 | `docs/ISSUE_02_STATUS.md`: OpenRouter OCR failed with 402. Local Tesseract fallback gave 23 broken articles. Do not publish the fallback. |
 | OpenRouter | Balance negative (used 256.05 vs 236 credits). **Needs a new key or top-up from the owner before the OCR run.** Never commit keys. `.env.local` is gitignored. |
 | GitHub Pages | LIVE: https://eminogrande.github.io/proud-de/ (PR #1 7d8cfe5, PR #2 86790cb merged). Workflow `.github/workflows/pages.yml` copies committed `site/` via `scripts/build-pages.mjs` (no rebuild, no LFS). **New articles must be built into `site/` and committed; then Pages redeploys.** Details and audit: `docs/GITHUB_PAGES.md`. Static limits: no `/mcp`, `/api/search`, `Accept: text/markdown` (needs Cloudflare worker). |
+| Editorial redesign | NYT-style article pages (kicker, headline, deck, printed byline, dateline, author note/box), `/authors/<slug>/` (20 people from printed credits + masthead), About, Masthead, Standards, Press, Corrections, Archive guide (de + en + Markdown twins). Design + honesty rules: `docs/DESIGN_SYSTEM.md`. Data: `scripts/lib/editorial.mjs`. |
+| Owner inputs open | `config/legal.json` (Impressum/Datenschutz hidden until filled: operatorName, responsibleEditor, street, postalCode, city, email), `config/contact.json` (press/corrections email), author bios, confirmation of issue dates (`data/input/issue-dates.json` `_confirmed: false`). |
 | Drive source | rclone remote `proud-gdrive:proud` (`scripts/sync-drive.mjs`). Same 31 issues, no 10, no 15. |
 
 ## Rules from the owner

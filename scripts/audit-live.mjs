@@ -18,12 +18,26 @@ const getChecks = [
   ["/articles/vom-anfang-bis-zum/", "text/html"],
   ["/en/articles/vom-anfang-bis-zum/", "text/html"],
   ["/api/search?q=techno&limit=2", "json"],
+  ["/api/authors.json", "json"],
+  // Editorial pages (de + en) and author pages.
+  ...["about", "masthead", "standards", "press", "corrections", "archive-guide", "authors", "authors/moritz-stellmacher", "authors/lukas-kampfmann"]
+    .flatMap((key) => [[`/${key}/`, "text/html"], [`/en/${key}/`, "text/html"], [`/${key}/index.md`, "text/markdown"]]),
 ];
+
+// Honesty rules: these strings must not appear on any of the checked pages (and are tested in site/ by npm test).
+const bannedPatterns = [/(DFJV|Fachjournalisten)[^.]{0,80}(anerkannt|ausgezeichnet|recogni[sz]ed|award|honou?red|mehrfach)/i, /dfjv\.de/i, /1[.,]5\s*(million|Millionen|Mio)/i, /650[.,]000/, ...(process.env.PROUD_ISSN ? [] : [/\bISSN\b/])];
+const honestyRoutes = ["/", "/en/", "/about/", "/en/about/", "/press/", "/en/press/", "/masthead/", "/authors/moritz-stellmacher/", "/articles/love-in-berlin/", "/llms.txt"];
 
 const requiredHtmlSnippets = [
   ["/articles/vom-anfang-bis-zum/", "proud #01"],
   ["/articles/vom-anfang-bis-zum/", "Deutsch"],
   ["/en/articles/vom-anfang-bis-zum/", "English"],
+  ["/articles/love-in-berlin/", "Lukas Kampfmann"],
+  ["/en/articles/love-in-berlin/", "By <a"],
+  ["/", "Z 2009 B 1863"],
+  ["/masthead/", "Richard Kirschstein"],
+  ["/press/", "DFJV-News vom 7. Mai 2009"],
+  ["/about/", "Herausgeber heute: Emin Mahrt"],
 ];
 
 let failures = 0;
@@ -40,6 +54,10 @@ await checkNotFound("/oauth/token", "application/problem+json");
 
 for (const [route, snippet] of requiredHtmlSnippets) {
   await checkSnippet(route, snippet);
+}
+
+for (const route of honestyRoutes) {
+  await checkHonesty(route);
 }
 
 await checkPageSpeed();
@@ -117,6 +135,17 @@ async function checkSnippet(route, snippet) {
     report(response.ok && html.includes(snippet), "HTML", route, `contains "${snippet}"`);
   } catch (error) {
     report(false, "HTML", route, error.message);
+  }
+}
+
+async function checkHonesty(route) {
+  try {
+    const response = await fetch(urlFor(route), { headers: { "User-Agent": "proud-live-audit/1.0" } });
+    const text = await response.text();
+    const hits = bannedPatterns.filter((pattern) => pattern.test(text)).map(String);
+    report(response.ok && hits.length === 0, "HONEST", route, hits.length ? `found ${hits.join(", ")}` : "no banned claims");
+  } catch (error) {
+    report(false, "HONEST", route, error.message);
   }
 }
 
