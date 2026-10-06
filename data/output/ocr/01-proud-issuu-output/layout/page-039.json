@@ -1,0 +1,1247 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2237,
+        258,
+        3077,
+        306
+      ],
+      "left": 2237,
+      "top": 258,
+      "right": 3077,
+      "bottom": 306,
+      "width": 840,
+      "height": 48,
+      "confidence": 91.036,
+      "text": "In Gruppchen tigern wir zu Fu8 auf der"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2235,
+        323,
+        3007,
+        360
+      ],
+      "left": 2235,
+      "top": 323,
+      "right": 3007,
+      "bottom": 360,
+      "width": 772,
+      "height": 37,
+      "confidence": 94.41,
+      "text": "Suche nach den Mannchen"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2234,
+        387,
+        3005,
+        424
+      ],
+      "left": 2234,
+      "top": 387,
+      "right": 3005,
+      "bottom": 424,
+      "width": 771,
+      "height": 37,
+      "confidence": 96.135,
+      "text": "durch den Park. Wir suchen das im"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        2237,
+        450,
+        3069,
+        496
+      ],
+      "left": 2237,
+      "top": 450,
+      "right": 3069,
+      "bottom": 496,
+      "width": 832,
+      "height": 46,
+      "confidence": 94.563,
+      "text": "Dunklen Verborgene. Uns geht es gut!"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        2235,
+        512,
+        2996,
+        550
+      ],
+      "left": 2235,
+      "top": 512,
+      "right": 2996,
+      "bottom": 550,
+      "width": 761,
+      "height": 38,
+      "confidence": 94.944,
+      "text": "SMS fur SMS wird uns letztendlich"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        2234,
+        577,
+        3029,
+        624
+      ],
+      "left": 2234,
+      "top": 577,
+      "right": 3029,
+      "bottom": 624,
+      "width": 795,
+      "height": 47,
+      "confidence": 92.627,
+      "text": "der genaue Ort mitgeteilt. Teelichter"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        2236,
+        639,
+        3017,
+        687
+      ],
+      "left": 2236,
+      "top": 639,
+      "right": 3017,
+      "bottom": 687,
+      "width": 781,
+      "height": 48,
+      "confidence": 92.609,
+      "text": "und dumpfe Bassklange lotsen uns"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        2236,
+        704,
+        3021,
+        740
+      ],
+      "left": 2236,
+      "top": 704,
+      "right": 3021,
+      "bottom": 740,
+      "width": 785,
+      "height": 36,
+      "confidence": 93.369,
+      "text": "nun durch die Ruinen zur ersehnten"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        2235,
+        767,
+        2350,
+        812
+      ],
+      "left": 2235,
+      "top": 767,
+      "right": 2350,
+      "bottom": 812,
+      "width": 115,
+      "height": 45,
+      "confidence": 96.53,
+      "text": "Party."
+    },
+    {
+      "id": "l010",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 10,
+      "bbox": [
+        2237,
+        830,
+        3037,
+        877
+      ],
+      "left": 2237,
+      "top": 830,
+      "right": 3037,
+      "bottom": 877,
+      "width": 800,
+      "height": 47,
+      "confidence": 92.771,
+      "text": "Die Tanzflache klein, prall gefullt und"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 11,
+      "bbox": [
+        2234,
+        894,
+        3060,
+        940
+      ],
+      "left": 2234,
+      "top": 894,
+      "right": 3060,
+      "bottom": 940,
+      "width": 826,
+      "height": 46,
+      "confidence": 93.643,
+      "text": "es wird geflirtet. Alle tanzen. Die"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 12,
+      "bbox": [
+        2236,
+        957,
+        3023,
+        994
+      ],
+      "left": 2236,
+      "top": 957,
+      "right": 3023,
+      "bottom": 994,
+      "width": 787,
+      "height": 37,
+      "confidence": 92.973,
+      "text": "Mucke besteht aus tiefstem Elektro"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 13,
+      "bbox": [
+        2236,
+        1022,
+        2985,
+        1068
+      ],
+      "left": 2236,
+      "top": 1022,
+      "right": 2985,
+      "bottom": 1068,
+      "width": 749,
+      "height": 46,
+      "confidence": 96.174,
+      "text": "und Minimal. Bier ist billig und als"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 14,
+      "bbox": [
+        2234,
+        1085,
+        3030,
+        1131
+      ],
+      "left": 2234,
+      "top": 1085,
+      "right": 3030,
+      "bottom": 1131,
+      "width": 796,
+      "height": 46,
+      "confidence": 94.89,
+      "text": "die Polizei kommt, will keiner gehen."
+    },
+    {
+      "id": "l015",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 15,
+      "bbox": [
+        2235,
+        1146,
+        3033,
+        1190
+      ],
+      "left": 2235,
+      "top": 1146,
+      "right": 3033,
+      "bottom": 1190,
+      "width": 798,
+      "height": 44,
+      "confidence": 84.928,
+      "text": "Schmerzvoll, weil man unumstoflich"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 16,
+      "bbox": [
+        2233,
+        1211,
+        2909,
+        1257
+      ],
+      "left": 2233,
+      "top": 1211,
+      "right": 2909,
+      "bottom": 1257,
+      "width": 676,
+      "height": 46,
+      "confidence": 94.33,
+      "text": "gehen muss, aber schmerzlos,"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 17,
+      "bbox": [
+        2234,
+        1274,
+        2975,
+        1320
+      ],
+      "left": 2234,
+      "top": 1274,
+      "right": 2975,
+      "bottom": 1320,
+      "width": 741,
+      "height": 46,
+      "confidence": 93.698,
+      "text": "da doch alles ohne Korpereinsatz"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 18,
+      "bbox": [
+        2233,
+        1338,
+        2986,
+        1375
+      ],
+      "left": 2233,
+      "top": 1338,
+      "right": 2986,
+      "bottom": 1375,
+      "width": 753,
+      "height": 37,
+      "confidence": 93.931,
+      "text": "funktioniert. Wir ziehen weiter und"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 19,
+      "bbox": [
+        2235,
+        1400,
+        2977,
+        1439
+      ],
+      "left": 2235,
+      "top": 1400,
+      "right": 2977,
+      "bottom": 1439,
+      "width": 742,
+      "height": 39,
+      "confidence": 81.78,
+      "text": "suchen weifse Mannchen im Park."
+    },
+    {
+      "id": "l020",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 20,
+      "bbox": [
+        2237,
+        1464,
+        2981,
+        1507
+      ],
+      "left": 2237,
+      "top": 1464,
+      "right": 2981,
+      "bottom": 1507,
+      "width": 744,
+      "height": 43,
+      "confidence": 94.994,
+      "text": "Klar, kleine Off-Feiern sind einfach"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 21,
+      "bbox": [
+        2235,
+        1529,
+        3004,
+        1575
+      ],
+      "left": 2235,
+      "top": 1529,
+      "right": 3004,
+      "bottom": 1575,
+      "width": 769,
+      "height": 46,
+      "confidence": 95.391,
+      "text": "spannend. Wer hat nicht gerne von"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 22,
+      "bbox": [
+        2234,
+        1590,
+        2959,
+        1638
+      ],
+      "left": 2234,
+      "top": 1590,
+      "right": 2959,
+      "bottom": 1638,
+      "width": 725,
+      "height": 48,
+      "confidence": 81.888,
+      "text": "der ,,illegalen Party“ gehort? Wer"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 23,
+      "bbox": [
+        2233,
+        1655,
+        3069,
+        1701
+      ],
+      "left": 2233,
+      "top": 1655,
+      "right": 3069,
+      "bottom": 1701,
+      "width": 836,
+      "height": 46,
+      "confidence": 94.377,
+      "text": "geht nicht gerne zur ,illegalen Party“?"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 24,
+      "bbox": [
+        2233,
+        1718,
+        2980,
+        1762
+      ],
+      "left": 2233,
+      "top": 1718,
+      "right": 2980,
+      "bottom": 1762,
+      "width": 747,
+      "height": 44,
+      "confidence": 95.136,
+      "text": "Wer hort nicht akribisch hin, wenn"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 25,
+      "bbox": [
+        2228,
+        1781,
+        2930,
+        1828
+      ],
+      "left": 2228,
+      "top": 1781,
+      "right": 2930,
+      "bottom": 1828,
+      "width": 702,
+      "height": 47,
+      "confidence": 87.95,
+      "text": "jemand Uber die ,,illegale Party“"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 26,
+      "bbox": [
+        2235,
+        1844,
+        3025,
+        1891
+      ],
+      "left": 2235,
+      "top": 1844,
+      "right": 3025,
+      "bottom": 1891,
+      "width": 790,
+      "height": 47,
+      "confidence": 91.611,
+      "text": "spricht? Naturlich sind wir glucklich,"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 27,
+      "bbox": [
+        2233,
+        1908,
+        2988,
+        1945
+      ],
+      "left": 2233,
+      "top": 1908,
+      "right": 2988,
+      "bottom": 1945,
+      "width": 755,
+      "height": 37,
+      "confidence": 96.001,
+      "text": "wenn wir etwas von diesen Events"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 28,
+      "bbox": [
+        2236,
+        1973,
+        3001,
+        2009
+      ],
+      "left": 2236,
+      "top": 1973,
+      "right": 3001,
+      "bottom": 2009,
+      "width": 765,
+      "height": 36,
+      "confidence": 91.624,
+      "text": "mitoekommen. Das ist wie bei den"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 29,
+      "bbox": [
+        2237,
+        2036,
+        2975,
+        2082
+      ],
+      "left": 2237,
+      "top": 2036,
+      "right": 2975,
+      "bottom": 2082,
+      "width": 738,
+      "height": 46,
+      "confidence": 94.397,
+      "text": "Drei Fragezeichen. Abenteuer und"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 30,
+      "bbox": [
+        2235,
+        2099,
+        2972,
+        2135
+      ],
+      "left": 2235,
+      "top": 2099,
+      "right": 2972,
+      "bottom": 2135,
+      "width": 737,
+      "height": 36,
+      "confidence": 95.431,
+      "text": "Geheimnis und am Ende hat man"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 31,
+      "bbox": [
+        2234,
+        2162,
+        3032,
+        2204
+      ],
+      "left": 2234,
+      "top": 2162,
+      "right": 3032,
+      "bottom": 2204,
+      "width": 798,
+      "height": 42,
+      "confidence": 93.95,
+      "text": "ordentlich was erlebt. Viele, die zum"
+    },
+    {
+      "id": "l032",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 32,
+      "bbox": [
+        2234,
+        2225,
+        3073,
+        2264
+      ],
+      "left": 2234,
+      "top": 2225,
+      "right": 3073,
+      "bottom": 2264,
+      "width": 839,
+      "height": 39,
+      "confidence": 84.963,
+      "text": "ersten Mal weiSe Mannchen im Keller"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 33,
+      "bbox": [
+        2228,
+        2289,
+        2971,
+        2335
+      ],
+      "left": 2228,
+      "top": 2289,
+      "right": 2971,
+      "bottom": 2335,
+      "width": 743,
+      "height": 46,
+      "confidence": 94.061,
+      "text": "jagen sind, lassen daraufhin Jack"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 34,
+      "bbox": [
+        2233,
+        2352,
+        2986,
+        2398
+      ],
+      "left": 2233,
+      "top": 2352,
+      "right": 2986,
+      "bottom": 2398,
+      "width": 753,
+      "height": 46,
+      "confidence": 96.532,
+      "text": "Johnson, Shaggy und Snoop Dogg"
+    },
+    {
+      "id": "l035",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 35,
+      "bbox": [
+        2236,
+        2415,
+        3054,
+        2452
+      ],
+      "left": 2236,
+      "top": 2415,
+      "right": 3054,
+      "bottom": 2452,
+      "width": 818,
+      "height": 37,
+      "confidence": 94.22,
+      "text": "hinter sich. Wenn auch nur zeitweise."
+    },
+    {
+      "id": "l036",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 36,
+      "bbox": [
+        2237,
+        2480,
+        2973,
+        2526
+      ],
+      "left": 2237,
+      "top": 2480,
+      "right": 2973,
+      "bottom": 2526,
+      "width": 736,
+      "height": 46,
+      "confidence": 93.758,
+      "text": "Diese schummrigen Orte machen"
+    },
+    {
+      "id": "l037",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 37,
+      "bbox": [
+        2235,
+        2542,
+        2935,
+        2579
+      ],
+      "left": 2235,
+      "top": 2542,
+      "right": 2935,
+      "bottom": 2579,
+      "width": 700,
+      "height": 37,
+      "confidence": 92.868,
+      "text": "beruhmt. Die Veranstalter leben"
+    },
+    {
+      "id": "l038",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 38,
+      "bbox": [
+        2233,
+        2605,
+        3029,
+        2642
+      ],
+      "left": 2233,
+      "top": 2605,
+      "right": 3029,
+      "bottom": 2642,
+      "width": 796,
+      "height": 37,
+      "confidence": 89.456,
+      "text": "von einer bluhenden Mund-zu-Mund-"
+    },
+    {
+      "id": "l039",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 39,
+      "bbox": [
+        2235,
+        2670,
+        2933,
+        2716
+      ],
+      "left": 2235,
+      "top": 2670,
+      "right": 2933,
+      "bottom": 2716,
+      "width": 698,
+      "height": 46,
+      "confidence": 96.487,
+      "text": "Propaganda. Es gibt keine Flyer,"
+    },
+    {
+      "id": "l040",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 40,
+      "bbox": [
+        2233,
+        2733,
+        2937,
+        2779
+      ],
+      "left": 2233,
+      "top": 2733,
+      "right": 2937,
+      "bottom": 2779,
+      "width": 704,
+      "height": 46,
+      "confidence": 95.474,
+      "text": "vielleicht mal ein Posting. Es ist"
+    },
+    {
+      "id": "l041",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 41,
+      "bbox": [
+        2236,
+        2796,
+        2955,
+        2833
+      ],
+      "left": 2236,
+      "top": 2796,
+      "right": 2955,
+      "bottom": 2833,
+      "width": 719,
+      "height": 37,
+      "confidence": 92.993,
+      "text": "normalerweise ein lockerer Kreis"
+    },
+    {
+      "id": "l042",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 42,
+      "bbox": [
+        2233,
+        2859,
+        3022,
+        2904
+      ],
+      "left": 2233,
+      "top": 2859,
+      "right": 3022,
+      "bottom": 2904,
+      "width": 789,
+      "height": 45,
+      "confidence": 94.23,
+      "text": "von ein paar Hundert Leuten. Diese"
+    },
+    {
+      "id": "l043",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 43,
+      "bbox": [
+        2235,
+        2924,
+        3007,
+        2960
+      ],
+      "left": 2235,
+      "top": 2924,
+      "right": 3007,
+      "bottom": 2960,
+      "width": 772,
+      "height": 36,
+      "confidence": 94.695,
+      "text": "bekommen die Information oft zwei"
+    },
+    {
+      "id": "l044",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 44,
+      "bbox": [
+        2234,
+        2987,
+        2961,
+        3033
+      ],
+      "left": 2234,
+      "top": 2987,
+      "right": 2961,
+      "bottom": 3033,
+      "width": 727,
+      "height": 46,
+      "confidence": 96.452,
+      "text": "oder drei Tage vor dem Event mit"
+    },
+    {
+      "id": "l045",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 45,
+      "bbox": [
+        2236,
+        3050,
+        3058,
+        3096
+      ],
+      "left": 2236,
+      "top": 3050,
+      "right": 3058,
+      "bottom": 3096,
+      "width": 822,
+      "height": 46,
+      "confidence": 93.877,
+      "text": "und verteilen die Infos langsam, aber"
+    },
+    {
+      "id": "l046",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 46,
+      "bbox": [
+        2203,
+        3113,
+        2974,
+        3162
+      ],
+      "left": 2203,
+      "top": 3113,
+      "right": 2974,
+      "bottom": 3162,
+      "width": 771,
+      "height": 49,
+      "confidence": 86.322,
+      "text": "- sicher an alle Freunde. Freundlich"
+    },
+    {
+      "id": "l047",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 47,
+      "bbox": [
+        2234,
+        3177,
+        3075,
+        3223
+      ],
+      "left": 2234,
+      "top": 3177,
+      "right": 3075,
+      "bottom": 3223,
+      "width": 841,
+      "height": 46,
+      "confidence": 94.322,
+      "text": "auch der Eintritt. In der Regel nur eine"
+    },
+    {
+      "id": "l048",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 48,
+      "bbox": [
+        2236,
+        3239,
+        2970,
+        3285
+      ],
+      "left": 2236,
+      "top": 3239,
+      "right": 2970,
+      "bottom": 3285,
+      "width": 734,
+      "height": 46,
+      "confidence": 84.29,
+      "text": "kleine Spende — wenn Uberhaupt."
+    },
+    {
+      "id": "l049",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 49,
+      "bbox": [
+        2235,
+        3302,
+        2900,
+        3349
+      ],
+      "left": 2235,
+      "top": 3302,
+      "right": 2900,
+      "bottom": 3349,
+      "width": 665,
+      "height": 47,
+      "confidence": 93.313,
+      "text": "Glaubt man dem eintrachtigen"
+    },
+    {
+      "id": "l050",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 50,
+      "bbox": [
+        2235,
+        3367,
+        2960,
+        3410
+      ],
+      "left": 2235,
+      "top": 3367,
+      "right": 2960,
+      "bottom": 3410,
+      "width": 725,
+      "height": 43,
+      "confidence": 82.142,
+      "text": "Geraune der Touristen, bdte wohl"
+    },
+    {
+      "id": "l051",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 51,
+      "bbox": [
+        2207,
+        3431,
+        2985,
+        3467
+      ],
+      "left": 2207,
+      "top": 3431,
+      "right": 2985,
+      "bottom": 3467,
+      "width": 778,
+      "height": 36,
+      "confidence": 87.335,
+      "text": "- keine andere Stadt der Welt diese"
+    },
+    {
+      "id": "l052",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 52,
+      "bbox": [
+        2234,
+        3493,
+        2994,
+        3540
+      ],
+      "left": 2234,
+      "top": 3493,
+      "right": 2994,
+      "bottom": 3540,
+      "width": 760,
+      "height": 47,
+      "confidence": 91.066,
+      "text": "ausgepragte Vielfalt an Off-Events."
+    },
+    {
+      "id": "l053",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 53,
+      "bbox": [
+        2236,
+        3557,
+        3026,
+        3603
+      ],
+      "left": 2236,
+      "top": 3557,
+      "right": 3026,
+      "bottom": 3603,
+      "width": 790,
+      "height": 46,
+      "confidence": 94.423,
+      "text": "Nun gut. Menschen aus Metropolen"
+    },
+    {
+      "id": "l054",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 54,
+      "bbox": [
+        2233,
+        3621,
+        3063,
+        3667
+      ],
+      "left": 2233,
+      "top": 3621,
+      "right": 3063,
+      "bottom": 3667,
+      "width": 830,
+      "height": 46,
+      "confidence": 96.519,
+      "text": "wie London, New York oder Hongkong"
+    },
+    {
+      "id": "l055",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 55,
+      "bbox": [
+        2233,
+        3683,
+        2993,
+        3721
+      ],
+      "left": 2233,
+      "top": 3683,
+      "right": 2993,
+      "bottom": 3721,
+      "width": 760,
+      "height": 38,
+      "confidence": 94.433,
+      "text": "wissen Geschichten Uber Berlin zu"
+    },
+    {
+      "id": "l056",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 56,
+      "bbox": [
+        2234,
+        3746,
+        3018,
+        3793
+      ],
+      "left": 2234,
+      "top": 3746,
+      "right": 3018,
+      "bottom": 3793,
+      "width": 784,
+      "height": 47,
+      "confidence": 93.015,
+      "text": "erzahlen, wo jeder gespannt zuhort."
+    },
+    {
+      "id": "l057",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 57,
+      "bbox": [
+        2233,
+        3810,
+        2921,
+        3853
+      ],
+      "left": 2233,
+      "top": 3810,
+      "right": 2921,
+      "bottom": 3853,
+      "width": 688,
+      "height": 43,
+      "confidence": 95.047,
+      "text": "Viele, die es selbst nicht erlebt"
+    },
+    {
+      "id": "l058",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 58,
+      "bbox": [
+        2236,
+        3875,
+        2973,
+        3921
+      ],
+      "left": 2236,
+      "top": 3875,
+      "right": 2973,
+      "bottom": 3921,
+      "width": 737,
+      "height": 46,
+      "confidence": 94.677,
+      "text": "haben, glauben nicht alles davon."
+    },
+    {
+      "id": "l059",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 59,
+      "bbox": [
+        2233,
+        3938,
+        3007,
+        3984
+      ],
+      "left": 2233,
+      "top": 3938,
+      "right": 3007,
+      "bottom": 3984,
+      "width": 774,
+      "height": 46,
+      "confidence": 94.79,
+      "text": "Viele, die genau wissen, wovon der"
+    },
+    {
+      "id": "l060",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 60,
+      "bbox": [
+        2237,
+        4000,
+        3023,
+        4047
+      ],
+      "left": 2237,
+      "top": 4000,
+      "right": 3023,
+      "bottom": 4047,
+      "width": 786,
+      "height": 47,
+      "confidence": 84.698,
+      "text": "Erzahler spricht, liebaugeln mit dem"
+    },
+    {
+      "id": "l061",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 61,
+      "bbox": [
+        2236,
+        4063,
+        2930,
+        4100
+      ],
+      "left": 2236,
+      "top": 4063,
+      "right": 2930,
+      "bottom": 4100,
+      "width": 694,
+      "height": 37,
+      "confidence": 95.5,
+      "text": "nachsten Event und freuen sich"
+    },
+    {
+      "id": "l062",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 62,
+      "bbox": [
+        2236,
+        4128,
+        2429,
+        4165
+      ],
+      "left": 2236,
+      "top": 4128,
+      "right": 2429,
+      "bottom": 4165,
+      "width": 193,
+      "height": 37,
+      "confidence": 92.646,
+      "text": "heimlich."
+    }
+  ]
+}

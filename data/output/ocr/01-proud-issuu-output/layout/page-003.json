@@ -1,0 +1,127 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1283,
+        1487,
+        2107,
+        1564
+      ],
+      "left": 1283,
+      "top": 1487,
+      "right": 2107,
+      "bottom": 1564,
+      "width": 824,
+      "height": 77,
+      "confidence": 96.547,
+      "text": "MADE OF JAPAN"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1469,
+        1664,
+        2039,
+        1778
+      ],
+      "left": 1469,
+      "top": 1664,
+      "right": 2039,
+      "bottom": 1778,
+      "width": 570,
+      "height": 114,
+      "confidence": 83.912,
+      "text": "nitsuka"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2048,
+        2037,
+        2106,
+        2069
+      ],
+      "left": 2048,
+      "top": 2037,
+      "right": 2106,
+      "bottom": 2069,
+      "width": 58,
+      "height": 32,
+      "confidence": 92.474,
+      "text": "™"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1345,
+        2153,
+        2040,
+        2199
+      ],
+      "left": 1345,
+      "top": 2153,
+      "right": 2040,
+      "bottom": 2199,
+      "width": 695,
+      "height": 46,
+      "confidence": 96.4,
+      "text": "Onitsuka Tiger Store Berlin"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1346,
+        2216,
+        2039,
+        2254
+      ],
+      "left": 1346,
+      "top": 2216,
+      "right": 2039,
+      "bottom": 2254,
+      "width": 693,
+      "height": 38,
+      "confidence": 89.518,
+      "text": "Alte Schénhauser Str. 20-22"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1451,
+        2284,
+        1930,
+        2321
+      ],
+      "left": 1451,
+      "top": 2284,
+      "right": 1930,
+      "bottom": 2321,
+      "width": 479,
+      "height": 37,
+      "confidence": 92.326,
+      "text": "10119 Berlin-Mitte"
+    }
+  ]
+}

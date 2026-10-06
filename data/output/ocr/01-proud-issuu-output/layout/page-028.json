@@ -1,0 +1,147 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        83,
+        68,
+        979,
+        315
+      ],
+      "left": 83,
+      "top": 68,
+      "right": 979,
+      "bottom": 315,
+      "width": 896,
+      "height": 247,
+      "confidence": 66.102,
+      "text": "chat ij"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        567,
+        435,
+        1432,
+        551
+      ],
+      "left": 567,
+      "top": 435,
+      "right": 1432,
+      "bottom": 551,
+      "width": 865,
+      "height": 116,
+      "confidence": 77.847,
+      "text": "Spiel Techno! Und zeichne... -"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        2149,
+        816,
+        2831,
+        886
+      ],
+      "left": 2149,
+      "top": 816,
+      "right": 2831,
+      "bottom": 886,
+      "width": 682,
+      "height": 70,
+      "confidence": 36.982,
+      "text": "aS Pcie"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        89,
+        1194,
+        148,
+        1282
+      ],
+      "left": 89,
+      "top": 1194,
+      "right": 148,
+      "bottom": 1282,
+      "width": 59,
+      "height": 88,
+      "confidence": 86.129,
+      "text": "X"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        529,
+        1438,
+        550,
+        1456
+      ],
+      "left": 529,
+      "top": 1438,
+      "right": 550,
+      "bottom": 1456,
+      "width": 21,
+      "height": 18,
+      "confidence": 25.898,
+      "text": "A"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2399,
+        1797,
+        2886,
+        1835
+      ],
+      "left": 2399,
+      "top": 1797,
+      "right": 2886,
+      "bottom": 1835,
+      "width": 487,
+      "height": 38,
+      "confidence": 78.568,
+      "text": "Dein letztes Fruhstuck"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        347,
+        2594,
+        940,
+        2638
+      ],
+      "left": 347,
+      "top": 2594,
+      "right": 940,
+      "bottom": 2638,
+      "width": 593,
+      "height": 44,
+      "confidence": 91.7,
+      "text": "Dein schlimmster Alptraum"
+    }
+  ]
+}

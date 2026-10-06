@@ -1,0 +1,1567 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1983,
+        1974,
+        2128,
+        2004
+      ],
+      "left": 1983,
+      "top": 1974,
+      "right": 2128,
+      "bottom": 2004,
+      "width": 145,
+      "height": 30,
+      "confidence": 49.734,
+      "text": "we a"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2143,
+        2026,
+        2157,
+        2036
+      ],
+      "left": 2143,
+      "top": 2026,
+      "right": 2157,
+      "bottom": 2036,
+      "width": 14,
+      "height": 10,
+      "confidence": 40.688,
+      "text": ">"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1145,
+        2048,
+        3066,
+        2116
+      ],
+      "left": 1145,
+      "top": 2048,
+      "right": 3066,
+      "bottom": 2116,
+      "width": 1921,
+      "height": 68,
+      "confidence": 89.068,
+      "text": "P Egal, woher der Einfluss kommt — ob — Candela, Lady Bitch Ray und remixen"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        241,
+        2120,
+        1014,
+        2175
+      ],
+      "left": 241,
+      "top": 2120,
+      "right": 1014,
+      "bottom": 2175,
+      "width": 773,
+      "height": 55,
+      "confidence": 94.955,
+      "text": "| geben, die ihre Jacke noch immer"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1255,
+        2123,
+        3026,
+        2184
+      ],
+      "left": 1255,
+      "top": 2123,
+      "right": 3026,
+      "bottom": 2184,
+      "width": 1771,
+      "height": 61,
+      "confidence": 87.447,
+      "text": "mehr Techno-Bumm oder Hip-Hop-Ohh Ras Ludacris, Lumidee, Tarkan und Jam"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1152,
+        2177,
+        2439,
+        2246
+      ],
+      "left": 1152,
+      "top": 2177,
+      "right": 2439,
+      "bottom": 2246,
+      "width": 1287,
+      "height": 69,
+      "confidence": 74.639,
+      "text": "a | & Spoon."
+    },
+    {
+      "id": "l007",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        273,
+        2192,
+        1085,
+        2238
+      ],
+      "left": 273,
+      "top": 2192,
+      "right": 1085,
+      "bottom": 2238,
+      "width": 812,
+      "height": 46,
+      "confidence": 95.449,
+      "text": "nicht an der Garderobe im Watergate"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1251,
+        2198,
+        2019,
+        2234
+      ],
+      "left": 1251,
+      "top": 2198,
+      "right": 2019,
+      "bottom": 2234,
+      "width": 768,
+      "height": 36,
+      "confidence": 95.079,
+      "text": "— MAXIMAL holt das Maximum aus"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        141,
+        2255,
+        1027,
+        2301
+      ],
+      "left": 141,
+      "top": 2255,
+      "right": 1027,
+      "bottom": 2301,
+      "width": 886,
+      "height": 46,
+      "confidence": 79.868,
+      "text": "___ abgeholt haben und sich weiterhin"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1253,
+        2256,
+        2134,
+        2297
+      ],
+      "left": 1253,
+      "top": 2256,
+      "right": 2134,
+      "bottom": 2297,
+      "width": 881,
+      "height": 41,
+      "confidence": 69.775,
+      "text": "exzessiv-elektronischer Tanzmusik. |"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        270,
+        2319,
+        1006,
+        2356
+      ],
+      "left": 270,
+      "top": 2319,
+      "right": 1006,
+      "bottom": 2356,
+      "width": 736,
+      "height": 37,
+      "confidence": 94.716,
+      "text": "von einem Klicker hier und einem"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1256,
+        2323,
+        2958,
+        2360
+      ],
+      "left": 1256,
+      "top": 2323,
+      "right": 2958,
+      "bottom": 2360,
+      "width": 1702,
+      "height": 37,
+      "confidence": 89.19,
+      "text": "Und immer mehr Jacken aus der Bald merken die in der Blutezeit"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        125,
+        2376,
+        923,
+        2419
+      ],
+      "left": 125,
+      "top": 2376,
+      "right": 923,
+      "bottom": 2419,
+      "width": 798,
+      "height": 43,
+      "confidence": 82.619,
+      "text": "= Klacker da mini-mal ans Limit"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1252,
+        2383,
+        2955,
+        2437
+      ],
+      "left": 1252,
+      "top": 2383,
+      "right": 2955,
+      "bottom": 2437,
+      "width": 1703,
+      "height": 54,
+      "confidence": 80.82,
+      "text": "Watergate-Garderobe. ihnres Lebens stehenden, jungen"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        0,
+        2408,
+        1039,
+        2490
+      ],
+      "left": 0,
+      "top": 2408,
+      "right": 1039,
+      "bottom": 2490,
+      "width": 1039,
+      "height": 82,
+      "confidence": 85.579,
+      "text": "a pushen lassen. Doch die Zeiten, in"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1145,
+        2422,
+        3024,
+        2524
+      ],
+      "left": 1145,
+      "top": 2422,
+      "right": 3024,
+      "bottom": 2524,
+      "width": 1879,
+      "height": 102,
+      "confidence": 86.503,
+      "text": "aa | Manner, dass sie fur den alleinigen"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1145,
+        2486,
+        2980,
+        2559
+      ],
+      "left": 1145,
+      "top": 2486,
+      "right": 2980,
+      "bottom": 2559,
+      "width": 1835,
+      "height": 73,
+      "confidence": 89.669,
+      "text": "= Zeitvertreib im Mischpultkeller zu"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        272,
+        2508,
+        1057,
+        2554
+      ],
+      "left": 272,
+      "top": 2508,
+      "right": 1057,
+      "bottom": 2554,
+      "width": 785,
+      "height": 46,
+      "confidence": 93.007,
+      "text": "denen sich lediglich der hip-frisierte"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        0,
+        2536,
+        1037,
+        2619
+      ],
+      "left": 0,
+      "top": 2536,
+      "right": 1037,
+      "bottom": 2619,
+      "width": 1037,
+      "height": 83,
+      "confidence": 71.447,
+      "text": ", MZ Mitte-Scheitel bei bodenstandigem"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        2128,
+        2576,
+        3016,
+        2614
+      ],
+      "left": 2128,
+      "top": 2576,
+      "right": 3016,
+      "bottom": 2614,
+      "width": 888,
+      "height": 38,
+      "confidence": 83.088,
+      "text": "fee schon sind und unter"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        0,
+        2598,
+        1006,
+        2682
+      ],
+      "left": 0,
+      "top": 2598,
+      "right": 1006,
+      "bottom": 2682,
+      "width": 1006,
+      "height": 84,
+      "confidence": 83.432,
+      "text": "a Tanzgewippe richtig gehen lassen"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 26,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2122,
+        2604,
+        2239,
+        3806
+      ],
+      "left": 2122,
+      "top": 2604,
+      "right": 2239,
+      "bottom": 3806,
+      "width": 117,
+      "height": 1202,
+      "confidence": 45.953,
+      "text": "HE DS SG ||"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1145,
+        2629,
+        1811,
+        2761
+      ],
+      "left": 1145,
+      "top": 2629,
+      "right": 1811,
+      "bottom": 2761,
+      "width": 666,
+      "height": 132,
+      "confidence": 92.588,
+      "text": "A noch nicht im Watergate."
+    },
+    {
+      "id": "l024",
+      "blockNumber": 14,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1208,
+        2642,
+        2990,
+        2701
+      ],
+      "left": 1208,
+      "top": 2642,
+      "right": 2990,
+      "bottom": 2701,
+      "width": 1782,
+      "height": 59,
+      "confidence": 93.684,
+      "text": "A Die Jungs von der Bugati Force waren dem Namen Bugati Force und mit"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 10,
+      "bbox": [
+        178,
+        2668,
+        1054,
+        2748
+      ],
+      "left": 178,
+      "top": 2668,
+      "right": 1054,
+      "bottom": 2748,
+      "width": 876,
+      "height": 80,
+      "confidence": 85.96,
+      "text": "4 konnte, sind vorbei: MAXIMAL heift"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 16,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2234,
+        2705,
+        3045,
+        2750
+      ],
+      "left": 2234,
+      "top": 2705,
+      "right": 3045,
+      "bottom": 2750,
+      "width": 811,
+      "height": 45,
+      "confidence": 94.669,
+      "text": "einem Sound zwischen Electrobooty"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1145,
+        2761,
+        2075,
+        2848
+      ],
+      "left": 1145,
+      "top": 2761,
+      "right": 2075,
+      "bottom": 2848,
+      "width": 930,
+      "height": 87,
+      "confidence": 85.226,
+      "text": "y Wahrscheinlich haben sie auch noch"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 11,
+      "bbox": [
+        272,
+        2762,
+        1041,
+        2808
+      ],
+      "left": 272,
+      "top": 2762,
+      "right": 1041,
+      "bottom": 2808,
+      "width": 769,
+      "height": 46,
+      "confidence": 92.634,
+      "text": "die unfreiwillige Anti-Bewegung, die"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 16,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2236,
+        2768,
+        3076,
+        2812
+      ],
+      "left": 2236,
+      "top": 2768,
+      "right": 3076,
+      "bottom": 2812,
+      "width": 840,
+      "height": 44,
+      "confidence": 94.907,
+      "text": "und Hip-Hop die Herzen verschwitzter"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 12,
+      "bbox": [
+        273,
+        2826,
+        1012,
+        2863
+      ],
+      "left": 273,
+      "top": 2826,
+      "right": 1012,
+      "bottom": 2863,
+      "width": 739,
+      "height": 37,
+      "confidence": 93.885,
+      "text": "mit wabernden Basslines und viel"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1255,
+        2830,
+        1989,
+        2877
+      ],
+      "left": 1255,
+      "top": 2830,
+      "right": 1989,
+      "bottom": 2877,
+      "width": 734,
+      "height": 47,
+      "confidence": 95.178,
+      "text": "nie von dem Laden gehort. Denn"
+    },
+    {
+      "id": "l032",
+      "blockNumber": 16,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2235,
+        2831,
+        2992,
+        2867
+      ],
+      "left": 2235,
+      "top": 2831,
+      "right": 2992,
+      "bottom": 2867,
+      "width": 757,
+      "height": 36,
+      "confidence": 92.024,
+      "text": "Clubs zu erobern. Seitdem touren"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 13,
+      "bbox": [
+        273,
+        2888,
+        1067,
+        2934
+      ],
+      "left": 273,
+      "top": 2888,
+      "right": 1067,
+      "bottom": 2934,
+      "width": 794,
+      "height": 46,
+      "confidence": 93.36,
+      "text": "Shake-your-ass Uber die Tanzflachen"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 16,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1252,
+        2895,
+        3044,
+        2938
+      ],
+      "left": 1252,
+      "top": 2895,
+      "right": 3044,
+      "bottom": 2938,
+      "width": 1792,
+      "height": 43,
+      "confidence": 95.025,
+      "text": "wenn sie mal nicht in den Neon- sie im Lovetrain durch Deutschland,"
+    },
+    {
+      "id": "l035",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 14,
+      "bbox": [
+        273,
+        2952,
+        995,
+        2997
+      ],
+      "left": 273,
+      "top": 2952,
+      "right": 995,
+      "bottom": 2997,
+      "width": 722,
+      "height": 45,
+      "confidence": 94.008,
+      "text": "peitscht und dabei ,,in your face“"
+    },
+    {
+      "id": "l036",
+      "blockNumber": 16,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        1253,
+        2957,
+        2969,
+        3003
+      ],
+      "left": 1253,
+      "top": 2957,
+      "right": 2969,
+      "bottom": 3003,
+      "width": 1716,
+      "height": 46,
+      "confidence": 94.572,
+      "text": "Clubs dieses Landes eines ihrer klatschen ihren betorenden Rap-"
+    },
+    {
+      "id": "l037",
+      "blockNumber": 18,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1144,
+        3000,
+        1227,
+        3110
+      ],
+      "left": 1144,
+      "top": 3000,
+      "right": 1227,
+      "bottom": 3110,
+      "width": 83,
+      "height": 110,
+      "confidence": 43.505,
+      "text": "VA |"
+    },
+    {
+      "id": "l038",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 15,
+      "bbox": [
+        272,
+        3017,
+        785,
+        3062
+      ],
+      "left": 272,
+      "top": 3017,
+      "right": 785,
+      "bottom": 3062,
+      "width": 513,
+      "height": 45,
+      "confidence": 95.508,
+      "text": "schreit wie Ron Jeremy."
+    },
+    {
+      "id": "l039",
+      "blockNumber": 16,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        1252,
+        3021,
+        3033,
+        3067
+      ],
+      "left": 1252,
+      "top": 3021,
+      "right": 3033,
+      "bottom": 3067,
+      "width": 1781,
+      "height": 46,
+      "confidence": 90.942,
+      "text": "gnadenlosen Live-Sets runterbret- Poplectro-Bastard-Mix aufs Tanzpar-"
+    },
+    {
+      "id": "l040",
+      "blockNumber": 16,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        2236,
+        3083,
+        2986,
+        3130
+      ],
+      "left": 2236,
+      "top": 3083,
+      "right": 2986,
+      "bottom": 3130,
+      "width": 750,
+      "height": 47,
+      "confidence": 92.517,
+      "text": "kett und fangen wieder Schlupfer."
+    },
+    {
+      "id": "l041",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1251,
+        3084,
+        2095,
+        3129
+      ],
+      "left": 1251,
+      "top": 3084,
+      "right": 2095,
+      "bottom": 3129,
+      "width": 844,
+      "height": 45,
+      "confidence": 94.347,
+      "text": "tern, sitzen sie im Studio und produz-"
+    },
+    {
+      "id": "l042",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        274,
+        3143,
+        1051,
+        3189
+      ],
+      "left": 274,
+      "top": 3143,
+      "right": 1051,
+      "bottom": 3189,
+      "width": 777,
+      "height": 46,
+      "confidence": 92.655,
+      "text": "Die Verbindung von Elektro-Bounce-"
+    },
+    {
+      "id": "l043",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1255,
+        3148,
+        2031,
+        3185
+      ],
+      "left": 1255,
+      "top": 3148,
+      "right": 2031,
+      "bottom": 3185,
+      "width": 776,
+      "height": 37,
+      "confidence": 93.182,
+      "text": "ieren Tracks fur namhafte Musiker."
+    },
+    {
+      "id": "l044",
+      "blockNumber": 16,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        2233,
+        3148,
+        3015,
+        3195
+      ],
+      "left": 2233,
+      "top": 3148,
+      "right": 3015,
+      "bottom": 3195,
+      "width": 782,
+      "height": 47,
+      "confidence": 88.356,
+      "text": "Aber diesmal eine Nummer grofer."
+    },
+    {
+      "id": "l045",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        274,
+        3206,
+        1014,
+        3250
+      ],
+      "left": 274,
+      "top": 3206,
+      "right": 1014,
+      "bottom": 3250,
+      "width": 740,
+      "height": 44,
+      "confidence": 93.556,
+      "text": "Beats und Rap-Vocals erinnert oft"
+    },
+    {
+      "id": "l046",
+      "blockNumber": 16,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        2237,
+        3211,
+        2903,
+        3257
+      ],
+      "left": 2237,
+      "top": 3211,
+      "right": 2903,
+      "bottom": 3257,
+      "width": 666,
+      "height": 46,
+      "confidence": 92.749,
+      "text": "EP-Release im Fruhjahr 2009."
+    },
+    {
+      "id": "l047",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1252,
+        3212,
+        2093,
+        3258
+      ],
+      "left": 1252,
+      "top": 3212,
+      "right": 2093,
+      "bottom": 3258,
+      "width": 841,
+      "height": 46,
+      "confidence": 94.588,
+      "text": "Aber von vorne: Angefangen hat alles"
+    },
+    {
+      "id": "l048",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        272,
+        3270,
+        948,
+        3307
+      ],
+      "left": 272,
+      "top": 3270,
+      "right": 948,
+      "bottom": 3307,
+      "width": 676,
+      "height": 37,
+      "confidence": 92.613,
+      "text": "an DJ Funks 90er-Jahre-Miami-"
+    },
+    {
+      "id": "l049",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1255,
+        3275,
+        1977,
+        3321
+      ],
+      "left": 1255,
+      "top": 3275,
+      "right": 1977,
+      "bottom": 3321,
+      "width": 722,
+      "height": 46,
+      "confidence": 92.045,
+      "text": "imagegerecht auf irgendwelchen"
+    },
+    {
+      "id": "l050",
+      "blockNumber": 16,
+      "paragraphNumber": 1,
+      "lineNumber": 10,
+      "bbox": [
+        2237,
+        3275,
+        2403,
+        3311
+      ],
+      "left": 2237,
+      "top": 3275,
+      "right": 2403,
+      "bottom": 3311,
+      "width": 166,
+      "height": 36,
+      "confidence": 92.876,
+      "text": "Kaufen."
+    },
+    {
+      "id": "l051",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1225,
+        3326,
+        2045,
+        3385
+      ],
+      "left": 1225,
+      "top": 3326,
+      "right": 2045,
+      "bottom": 3385,
+      "width": 820,
+      "height": 59,
+      "confidence": 87.587,
+      "text": "| Jugendclubbuhnen, irgendwo in der"
+    },
+    {
+      "id": "l052",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        274,
+        3333,
+        998,
+        3379
+      ],
+      "left": 274,
+      "top": 3333,
+      "right": 998,
+      "bottom": 3379,
+      "width": 724,
+      "height": 46,
+      "confidence": 95.351,
+      "text": "Bass-Sound. Aber MAXIMAL geht"
+    },
+    {
+      "id": "l053",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        270,
+        3395,
+        1030,
+        3442
+      ],
+      "left": 270,
+      "top": 3395,
+      "right": 1030,
+      "bottom": 3442,
+      "width": 760,
+      "height": 47,
+      "confidence": 93.567,
+      "text": "weiter. Die sich standig steigernde"
+    },
+    {
+      "id": "l054",
+      "blockNumber": 23,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1252,
+        3401,
+        2096,
+        3448
+      ],
+      "left": 1252,
+      "top": 3401,
+      "right": 2096,
+      "bottom": 3448,
+      "width": 844,
+      "height": 47,
+      "confidence": 93.753,
+      "text": "Weltstadt Marburg, wo Droopy, Spank"
+    },
+    {
+      "id": "l055",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        274,
+        3459,
+        1076,
+        3505
+      ],
+      "left": 274,
+      "top": 3459,
+      "right": 1076,
+      "bottom": 3505,
+      "width": 802,
+      "height": 46,
+      "confidence": 95.417,
+      "text": "Dramaturgie der Tracks stellt schnell"
+    },
+    {
+      "id": "l056",
+      "blockNumber": 23,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1255,
+        3465,
+        2062,
+        3502
+      ],
+      "left": 1255,
+      "top": 3465,
+      "right": 2062,
+      "bottom": 3502,
+      "width": 807,
+      "height": 37,
+      "confidence": 94.906,
+      "text": "und Cashmaster Diamond Mitte der"
+    },
+    {
+      "id": "l057",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        273,
+        3524,
+        994,
+        3566
+      ],
+      "left": 273,
+      "top": 3524,
+      "right": 994,
+      "bottom": 3566,
+      "width": 721,
+      "height": 42,
+      "confidence": 94.46,
+      "text": "klar, dass MAXIMAL eine Techno-"
+    },
+    {
+      "id": "l058",
+      "blockNumber": 23,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1254,
+        3528,
+        2049,
+        3574
+      ],
+      "left": 1254,
+      "top": 3528,
+      "right": 2049,
+      "bottom": 3574,
+      "width": 795,
+      "height": 46,
+      "confidence": 88.299,
+      "text": "90er gemeinsame Hip-Hop-Projekte"
+    },
+    {
+      "id": "l059",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        274,
+        3587,
+        1051,
+        3632
+      ],
+      "left": 274,
+      "top": 3587,
+      "right": 1051,
+      "bottom": 3632,
+      "width": 777,
+      "height": 45,
+      "confidence": 95.942,
+      "text": "Retorte und der Hip Hop oft nur die"
+    },
+    {
+      "id": "l060",
+      "blockNumber": 23,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1254,
+        3588,
+        2030,
+        3643
+      ],
+      "left": 1254,
+      "top": 3588,
+      "right": 2030,
+      "bottom": 3643,
+      "width": 776,
+      "height": 55,
+      "confidence": 92.525,
+      "text": "starten und erste Schlupfer junger"
+    },
+    {
+      "id": "l061",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 7,
+      "bbox": [
+        274,
+        3650,
+        1062,
+        3686
+      ],
+      "left": 274,
+      "top": 3650,
+      "right": 1062,
+      "bottom": 3686,
+      "width": 788,
+      "height": 36,
+      "confidence": 93.086,
+      "text": "Kirsche oben drauf ist. Der liebliche"
+    },
+    {
+      "id": "l062",
+      "blockNumber": 23,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        1217,
+        3650,
+        1994,
+        3702
+      ],
+      "left": 1217,
+      "top": 3650,
+      "right": 1994,
+      "bottom": 3702,
+      "width": 777,
+      "height": 52,
+      "confidence": 86.981,
+      "text": "| Groupie-Girls fangen. Anfang des"
+    },
+    {
+      "id": "l063",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 8,
+      "bbox": [
+        272,
+        3713,
+        1066,
+        3759
+      ],
+      "left": 272,
+      "top": 3713,
+      "right": 1066,
+      "bottom": 3759,
+      "width": 794,
+      "height": 46,
+      "confidence": 92.67,
+      "text": "Gesang moderner Synthesizer flirtet"
+    },
+    {
+      "id": "l064",
+      "blockNumber": 23,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        1255,
+        3719,
+        2087,
+        3755
+      ],
+      "left": 1255,
+      "top": 3719,
+      "right": 2087,
+      "bottom": 3755,
+      "width": 832,
+      "height": 36,
+      "confidence": 94.817,
+      "text": "neuen Jahrtausends suchen alle drei"
+    },
+    {
+      "id": "l065",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 9,
+      "bbox": [
+        273,
+        3777,
+        1055,
+        3823
+      ],
+      "left": 273,
+      "top": 3777,
+      "right": 1055,
+      "bottom": 3823,
+      "width": 782,
+      "height": 46,
+      "confidence": 92.869,
+      "text": "mit den essentiellen und tragenden"
+    },
+    {
+      "id": "l066",
+      "blockNumber": 23,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        1255,
+        3782,
+        2071,
+        3828
+      ],
+      "left": 1255,
+      "top": 3782,
+      "right": 2071,
+      "bottom": 3828,
+      "width": 816,
+      "height": 46,
+      "confidence": 91.826,
+      "text": "neue Herausforderungen und ziehen"
+    },
+    {
+      "id": "l067",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 10,
+      "bbox": [
+        270,
+        3840,
+        1084,
+        3886
+      ],
+      "left": 270,
+      "top": 3840,
+      "right": 1084,
+      "bottom": 3886,
+      "width": 814,
+      "height": 46,
+      "confidence": 94.212,
+      "text": "Tiefen der Basslinien und sagt direkt"
+    },
+    {
+      "id": "l068",
+      "blockNumber": 23,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        1252,
+        3845,
+        2002,
+        3888
+      ],
+      "left": 1252,
+      "top": 3845,
+      "right": 2002,
+      "bottom": 3888,
+      "width": 750,
+      "height": 43,
+      "confidence": 92.525,
+      "text": "zunachst in verschiedene Stadte,"
+    },
+    {
+      "id": "l069",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 11,
+      "bbox": [
+        275,
+        3903,
+        1040,
+        3945
+      ],
+      "left": 275,
+      "top": 3903,
+      "right": 1040,
+      "bottom": 3945,
+      "width": 765,
+      "height": 42,
+      "confidence": 84.368,
+      "text": "»Nallo und zieh Dich aus“. Auf 110"
+    },
+    {
+      "id": "l070",
+      "blockNumber": 23,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        1253,
+        3909,
+        2032,
+        3946
+      ],
+      "left": 1253,
+      "top": 3909,
+      "right": 2032,
+      "bottom": 3946,
+      "width": 779,
+      "height": 37,
+      "confidence": 95.739,
+      "text": "ehe sie sich 2004 in Berlin wieder"
+    },
+    {
+      "id": "l071",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 12,
+      "bbox": [
+        273,
+        3968,
+        1047,
+        4014
+      ],
+      "left": 273,
+      "top": 3968,
+      "right": 1047,
+      "bottom": 4014,
+      "width": 774,
+      "height": 46,
+      "confidence": 94.281,
+      "text": "bis 140 bpm werden gepitchte Hip-"
+    },
+    {
+      "id": "l072",
+      "blockNumber": 23,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1225,
+        3972,
+        2098,
+        4009
+      ],
+      "left": 1225,
+      "top": 3972,
+      "right": 2098,
+      "bottom": 4009,
+      "width": 873,
+      "height": 37,
+      "confidence": 88.419,
+      "text": "| formieren. Hier konzentrieren sie sich"
+    },
+    {
+      "id": "l073",
+      "blockNumber": 23,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        1145,
+        3986,
+        2000,
+        4085
+      ],
+      "left": 1145,
+      "top": 3986,
+      "right": 2000,
+      "bottom": 4085,
+      "width": 855,
+      "height": 99,
+      "confidence": 80.87,
+      "text": "f/f auf ihre Arbeit im Studio und pro-"
+    },
+    {
+      "id": "l074",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 13,
+      "bbox": [
+        274,
+        4031,
+        1074,
+        4077
+      ],
+      "left": 274,
+      "top": 4031,
+      "right": 1074,
+      "bottom": 4077,
+      "width": 800,
+      "height": 46,
+      "confidence": 92.486,
+      "text": "Hop-Beats gelegt und Cuts geglitcht."
+    },
+    {
+      "id": "l075",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 14,
+      "bbox": [
+        274,
+        4094,
+        1091,
+        4140
+      ],
+      "left": 274,
+      "top": 4094,
+      "right": 1091,
+      "bottom": 4140,
+      "width": 817,
+      "height": 46,
+      "confidence": 94.264,
+      "text": "Erlaubt ist alles, was eindringlich und"
+    },
+    {
+      "id": "l076",
+      "blockNumber": 23,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        1253,
+        4100,
+        2054,
+        4146
+      ],
+      "left": 1253,
+      "top": 4100,
+      "right": 2054,
+      "bottom": 4146,
+      "width": 801,
+      "height": 46,
+      "confidence": 93.3,
+      "text": "duzieren prollig-elektronische Beats"
+    },
+    {
+      "id": "l077",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 15,
+      "bbox": [
+        272,
+        4157,
+        681,
+        4201
+      ],
+      "left": 272,
+      "top": 4157,
+      "right": 681,
+      "bottom": 4201,
+      "width": 409,
+      "height": 44,
+      "confidence": 93.95,
+      "text": "euphorisierend ist."
+    },
+    {
+      "id": "l078",
+      "blockNumber": 23,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        1252,
+        4162,
+        1993,
+        4209
+      ],
+      "left": 1252,
+      "top": 4162,
+      "right": 1993,
+      "bottom": 4209,
+      "width": 741,
+      "height": 47,
+      "confidence": 93.066,
+      "text": "fur Deine Lieblingsrapper, Culcha"
+    }
+  ]
+}

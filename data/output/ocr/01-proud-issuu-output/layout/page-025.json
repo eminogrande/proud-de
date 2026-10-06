@@ -1,0 +1,1407 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2144,
+        0,
+        2306,
+        51
+      ],
+      "left": 2144,
+      "top": 0,
+      "right": 2306,
+      "bottom": 51,
+      "width": 162,
+      "height": 51,
+      "confidence": 21.47,
+      "text": "SIMO"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 1,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1365,
+        22,
+        3074,
+        124
+      ],
+      "left": 1365,
+      "top": 22,
+      "right": 3074,
+      "bottom": 124,
+      "width": 1709,
+      "height": 102,
+      "confidence": 33.648,
+      "text": "IOI GS"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 1,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        0,
+        164,
+        2728,
+        235
+      ],
+      "left": 0,
+      "top": 164,
+      "right": 2728,
+      "bottom": 235,
+      "width": 2728,
+      "height": 71,
+      "confidence": 26.28,
+      "text": "PILL SATIS LIM"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 1,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        422,
+        201,
+        3110,
+        280
+      ],
+      "left": 422,
+      "top": 201,
+      "right": 3110,
+      "bottom": 280,
+      "width": 2688,
+      "height": 79,
+      "confidence": 29.123,
+      "text": "LISA SELIM POI LIPID SALE MII MOI SHY"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 1,
+      "paragraphNumber": 5,
+      "lineNumber": 1,
+      "bbox": [
+        0,
+        239,
+        3034,
+        294
+      ],
+      "left": 0,
+      "top": 239,
+      "right": 3034,
+      "bottom": 294,
+      "width": 3034,
+      "height": 55,
+      "confidence": 31.096,
+      "text": ": I DPI SILOS"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 1,
+      "paragraphNumber": 6,
+      "lineNumber": 1,
+      "bbox": [
+        289,
+        252,
+        3114,
+        331
+      ],
+      "left": 289,
+      "top": 252,
+      "right": 3114,
+      "bottom": 331,
+      "width": 2825,
+      "height": 79,
+      "confidence": 34.885,
+      "text": "SA LIPO I POI SEMIS MIPS MIPS"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 1,
+      "paragraphNumber": 7,
+      "lineNumber": 1,
+      "bbox": [
+        0,
+        282,
+        3101,
+        351
+      ],
+      "left": 0,
+      "top": 282,
+      "right": 3101,
+      "bottom": 351,
+      "width": 3101,
+      "height": 69,
+      "confidence": 28.517,
+      "text": "| OO OR ir a Dir Se Bi SO ar aU Dir OL Tar ROB ONL Ne"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 1,
+      "paragraphNumber": 9,
+      "lineNumber": 1,
+      "bbox": [
+        396,
+        343,
+        3134,
+        414
+      ],
+      "left": 396,
+      "top": 343,
+      "right": 3134,
+      "bottom": 414,
+      "width": 2738,
+      "height": 71,
+      "confidence": 38.669,
+      "text": "LPAI I LAPIS LPI ILI I LPI I LHP PII LPI I LHP II LPI IS"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 1,
+      "paragraphNumber": 10,
+      "lineNumber": 1,
+      "bbox": [
+        0,
+        364,
+        3121,
+        437
+      ],
+      "left": 0,
+      "top": 364,
+      "right": 3121,
+      "bottom": 437,
+      "width": 3121,
+      "height": 73,
+      "confidence": 34.551,
+      "text": "SSL PIM LPT LPI MLPA SID LPAI MPD EM LPI ITI ILIA SG"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 1,
+      "paragraphNumber": 11,
+      "lineNumber": 1,
+      "bbox": [
+        1835,
+        394,
+        2123,
+        476
+      ],
+      "left": 1835,
+      "top": 394,
+      "right": 2123,
+      "bottom": 476,
+      "width": 288,
+      "height": 82,
+      "confidence": 31.507,
+      "text": "LGM IIE"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 1,
+      "paragraphNumber": 12,
+      "lineNumber": 1,
+      "bbox": [
+        229,
+        424,
+        3154,
+        497
+      ],
+      "left": 229,
+      "top": 424,
+      "right": 3154,
+      "bottom": 497,
+      "width": 2925,
+      "height": 73,
+      "confidence": 34.742,
+      "text": "SILT SDLP RI SIMI I PT AI IMT SEM LPAI MIT"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 1,
+      "paragraphNumber": 13,
+      "lineNumber": 2,
+      "bbox": [
+        883,
+        475,
+        3030,
+        533
+      ],
+      "left": 883,
+      "top": 475,
+      "right": 3030,
+      "bottom": 533,
+      "width": 2147,
+      "height": 58,
+      "confidence": 34.767,
+      "text": "SOS SMS OS MONSON EMS OD SMSO SSO SMSO SMS"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 1,
+      "paragraphNumber": 14,
+      "lineNumber": 1,
+      "bbox": [
+        0,
+        578,
+        3130,
+        642
+      ],
+      "left": 0,
+      "top": 578,
+      "right": 3130,
+      "bottom": 642,
+      "width": 3130,
+      "height": 64,
+      "confidence": 45.187,
+      "text": "| ES ee MRL SRY ROARS OD Or 6 OS SS Ls VR MAAS May COND CARAS Or oO OS -S"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 1,
+      "paragraphNumber": 15,
+      "lineNumber": 1,
+      "bbox": [
+        271,
+        633,
+        2994,
+        694
+      ],
+      "left": 271,
+      "top": 633,
+      "right": 2994,
+      "bottom": 694,
+      "width": 2723,
+      "height": 61,
+      "confidence": 90.963,
+      "text": "dann haben wir uns einfach dazu ~.S immer schon auch andere Orte eine Schnittstelle wie Soundcloud,"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 1,
+      "paragraphNumber": 16,
+      "lineNumber": 1,
+      "bbox": [
+        0,
+        684,
+        3046,
+        764
+      ],
+      "left": 0,
+      "top": 684,
+      "right": 3046,
+      "bottom": 764,
+      "width": 3046,
+      "height": 80,
+      "confidence": 85.463,
+      "text": "SS YQ entschlossen, auch so etwas auf die Sy wichtig wie naturlich Clubs und Partys die sehr intuitiv funktioniert, bestens"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 1,
+      "paragraphNumber": 17,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        734,
+        2433,
+        834
+      ],
+      "left": 273,
+      "top": 734,
+      "right": 2433,
+      "bottom": 834,
+      "width": 2160,
+      "height": 100,
+      "confidence": 90.132,
+      "text": "Beine zu stellen. In Verbindung damit und dazu ist naturlich in den letzten Se geeignet."
+    },
+    {
+      "id": "l017",
+      "blockNumber": 1,
+      "paragraphNumber": 18,
+      "lineNumber": 1,
+      "bbox": [
+        0,
+        803,
+        2018,
+        907
+      ],
+      "left": 0,
+      "top": 803,
+      "right": 2018,
+      "bottom": 907,
+      "width": 2018,
+      "height": 104,
+      "confidence": 81.661,
+      "text": "SEEKS haben wir dann Partys organisiert, : Jahren im gro8en Still das Internet"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 1,
+      "paragraphNumber": 19,
+      "lineNumber": 1,
+      "bbox": [
+        0,
+        871,
+        3021,
+        968
+      ],
+      "left": 0,
+      "top": 871,
+      "right": 3021,
+      "bottom": 968,
+      "width": 3021,
+      "height": 97,
+      "confidence": 83.675,
+      "text": "SSE das war die perfekte Kombination. mit seinen vielfaltigen Moglichkeiten oh Wieviele Anfragen von potentiellen"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 1,
+      "paragraphNumber": 20,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        957,
+        2733,
+        994
+      ],
+      "left": 273,
+      "top": 957,
+      "right": 2733,
+      "bottom": 994,
+      "width": 2460,
+      "height": 37,
+      "confidence": 89.087,
+      "text": "Bei dieser einen Afterhour mit gekommen Produzenten habt Ihr?"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 1,
+      "paragraphNumber": 21,
+      "lineNumber": 1,
+      "bbox": [
+        0,
+        962,
+        1277,
+        1020
+      ],
+      "left": 0,
+      "top": 962,
+      "right": 1277,
+      "bottom": 1020,
+      "width": 1277,
+      "height": 58,
+      "confidence": 58.673,
+      "text": "Poses ons &"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 1,
+      "paragraphNumber": 22,
+      "lineNumber": 1,
+      "bbox": [
+        0,
+        989,
+        3045,
+        1088
+      ],
+      "left": 0,
+      "top": 989,
+      "right": 3045,
+      "bottom": 1088,
+      "width": 3045,
+      "height": 99,
+      "confidence": 84.954,
+      "text": "EROS Max haben wir dann irgendwie von & rw Don: Zur Zeit um die funf Demos pro"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 1,
+      "paragraphNumber": 23,
+      "lineNumber": 1,
+      "bbox": [
+        0,
+        1060,
+        3067,
+        1140
+      ],
+      "left": 0,
+      "top": 1060,
+      "right": 3067,
+      "bottom": 1140,
+      "width": 3067,
+      "height": 80,
+      "confidence": 85.681,
+      "text": "SENS Kamps Backerpapier geholt und wie Die Notwendigkeit Uber Musik auch Sf Woche, in Hochzeiten auch mal bis zu"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 1,
+      "paragraphNumber": 24,
+      "lineNumber": 1,
+      "bbox": [
+        271,
+        1120,
+        3110,
+        1220
+      ],
+      "left": 271,
+      "top": 1120,
+      "right": 3110,
+      "bottom": 1220,
+      "width": 2839,
+      "height": 100,
+      "confidence": 82.983,
+      "text": "die Wahnsinnigen dieses Konzept os zu reden wird immer vorhanden sein. RX zehn. |"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 1,
+      "paragraphNumber": 25,
+      "lineNumber": 1,
+      "bbox": [
+        0,
+        1187,
+        2074,
+        1283
+      ],
+      "left": 0,
+      "top": 1187,
+      "right": 2074,
+      "bottom": 1283,
+      "width": 2074,
+      "height": 96,
+      "confidence": 85.172,
+      "text": "RON aufgeschrieben. Als wir es dann am os Der Ort fur den Austausch verschiebt"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 1,
+      "paragraphNumber": 26,
+      "lineNumber": 1,
+      "bbox": [
+        0,
+        1254,
+        3058,
+        1343
+      ],
+      "left": 0,
+      "top": 1254,
+      "right": 3058,
+      "bottom": 1343,
+      "width": 3058,
+      "height": 89,
+      "confidence": 85.467,
+      "text": "PL nachsten Tag noch mal durchgelesen oS sich vielleicht, aber er wird nie ~ ‘ Dann entscheidet Ihr ziemlich strikt,"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 1,
+      "paragraphNumber": 27,
+      "lineNumber": 1,
+      "bbox": [
+        0,
+        1315,
+        2795,
+        1411
+      ],
+      "left": 0,
+      "top": 1315,
+      "right": 2795,
+      "bottom": 1411,
+      "width": 2795,
+      "height": 96,
+      "confidence": 87.218,
+      "text": "SEINE haben und es auch am zweiten Tag 0 verschwinden. wer bei euch rausbringt?"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 1,
+      "paragraphNumber": 28,
+      "lineNumber": 1,
+      "bbox": [
+        41,
+        1374,
+        2961,
+        1465
+      ],
+      "left": 41,
+      "top": 1374,
+      "right": 2961,
+      "bottom": 1465,
+      "width": 2920,
+      "height": 91,
+      "confidence": 86.267,
+      "text": "SOX noch alles einen Sinn ergeben hat, oe Kai: Ja! Auf jeden Fall. Unser Ziel"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 1,
+      "paragraphNumber": 29,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        1454,
+        2929,
+        1536
+      ],
+      "left": 273,
+      "top": 1454,
+      "right": 2929,
+      "bottom": 1536,
+      "width": 2656,
+      "height": 82,
+      "confidence": 87.805,
+      "text": "haben wir von diesem Zeitpunkt aX Seht Ihr die Gefahr, dass das Vinyl do war nie moglichst viele Release"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 1,
+      "paragraphNumber": 30,
+      "lineNumber": 1,
+      "bbox": [
+        271,
+        1527,
+        2528,
+        1574
+      ],
+      "left": 271,
+      "top": 1527,
+      "right": 2528,
+      "bottom": 1574,
+      "width": 2257,
+      "height": 47,
+      "confidence": 93.014,
+      "text": "angefangen das Konzept umzusetzen. verschwindet? rauszuhauen."
+    },
+    {
+      "id": "l030",
+      "blockNumber": 1,
+      "paragraphNumber": 31,
+      "lineNumber": 1,
+      "bbox": [
+        0,
+        1569,
+        3009,
+        1665
+      ],
+      "left": 0,
+      "top": 1569,
+      "right": 3009,
+      "bottom": 1665,
+      "width": 3009,
+      "height": 96,
+      "confidence": 89.026,
+      "text": "Poesy Es gab da ein Paar Eckpunkte an oS Kai: Es geht hier gar nicht um die Don: Interessanterweise entstehen"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 1,
+      "paragraphNumber": 32,
+      "lineNumber": 1,
+      "bbox": [
+        0,
+        1632,
+        2887,
+        1727
+      ],
+      "left": 0,
+      "top": 1632,
+      "right": 2887,
+      "bottom": 1727,
+      "width": 2887,
+      "height": 95,
+      "confidence": 86.097,
+      "text": "IPE denen wir uns orientieren wollten: S ¢ Frage ob Gefahr oder nicht. Aber es Se Kontakte auch, wenn man ein"
+    },
+    {
+      "id": "l032",
+      "blockNumber": 1,
+      "paragraphNumber": 33,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        1690,
+        3068,
+        1784
+      ],
+      "left": 273,
+      "top": 1690,
+      "right": 3068,
+      "bottom": 1784,
+      "width": 2795,
+      "height": 94,
+      "confidence": 88.215,
+      "text": "Musik, Kunst, Abendgestaltung, SS, ist Tatsache, dass der Trend ganz klar ond Netlabel macht, oft auf Partys face-to-"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 1,
+      "paragraphNumber": 34,
+      "lineNumber": 1,
+      "bbox": [
+        0,
+        1761,
+        2808,
+        1852
+      ],
+      "left": 0,
+      "top": 1761,
+      "right": 2808,
+      "bottom": 1852,
+      "width": 2808,
+      "height": 91,
+      "confidence": 77.104,
+      "text": "OES Kommunikation. Darauf aufoauend Ox in Richtung digitaler Vertrieoswege do face und nicht nur virtuell."
+    },
+    {
+      "id": "l034",
+      "blockNumber": 1,
+      "paragraphNumber": 35,
+      "lineNumber": 1,
+      "bbox": [
+        0,
+        1821,
+        3050,
+        1915
+      ],
+      "left": 0,
+      "top": 1821,
+      "right": 3050,
+      "bottom": 1915,
+      "width": 3050,
+      "height": 94,
+      "confidence": 85.645,
+      "text": "oS Wok haben wir das an die Anderen heran- Src geht. Egal ob die Musik frei ist oder S&S Kai: Im Vordergrund steht immer und"
+    },
+    {
+      "id": "l035",
+      "blockNumber": 1,
+      "paragraphNumber": 36,
+      "lineNumber": 1,
+      "bbox": [
+        0,
+        1878,
+        3017,
+        1980
+      ],
+      "left": 0,
+      "top": 1878,
+      "right": 3017,
+      "bottom": 1980,
+      "width": 3017,
+      "height": 102,
+      "confidence": 84.688,
+      "text": "RI getragen, wir haben einfach ange- oS nicht. Mit allen seinen Vor- und PON sollte auch immer die musikalische"
+    },
+    {
+      "id": "l036",
+      "blockNumber": 1,
+      "paragraphNumber": 37,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        1954,
+        2910,
+        2034
+      ],
+      "left": 270,
+      "top": 1954,
+      "right": 2910,
+      "bottom": 2034,
+      "width": 2640,
+      "height": 80,
+      "confidence": 85.566,
+      "text": "fangen uns regelmafig zu treffen und Ik Nachteilen, die das mit sich bringt. 36 Qualitat der Tracks stehen. Als"
+    },
+    {
+      "id": "l037",
+      "blockNumber": 1,
+      "paragraphNumber": 38,
+      "lineNumber": 1,
+      "bbox": [
+        271,
+        2015,
+        2858,
+        2105
+      ],
+      "left": 271,
+      "top": 2015,
+      "right": 2858,
+      "bottom": 2105,
+      "width": 2587,
+      "height": 90,
+      "confidence": 87.675,
+      "text": "alles hat wunderbar funktioniert. Wir my Manche Leute, die heute neu SS, Produzent muss man immer"
+    },
+    {
+      "id": "l038",
+      "blockNumber": 1,
+      "paragraphNumber": 39,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        2096,
+        2896,
+        2151
+      ],
+      "left": 270,
+      "top": 2096,
+      "right": 2896,
+      "bottom": 2151,
+      "width": 2626,
+      "height": 55,
+      "confidence": 89.21,
+      "text": "waren bald nicht nur ein Veranstalter anfangen aufzulegen stellen sich ihre 5 ‘< Uberlegen, welche Tracks man"
+    },
+    {
+      "id": "l039",
+      "blockNumber": 1,
+      "paragraphNumber": 40,
+      "lineNumber": 1,
+      "bbox": [
+        0,
+        2138,
+        3032,
+        2235
+      ],
+      "left": 0,
+      "top": 2138,
+      "right": 3032,
+      "bottom": 2235,
+      "width": 3032,
+      "height": 97,
+      "confidence": 80.083,
+      "text": "RN sondern ein Veranstalter, der im ~.S ,Plattensammlung* sehr sehr schnell tatsachlich auch ver6ffentlichen will."
+    },
+    {
+      "id": "l040",
+      "blockNumber": 1,
+      "paragraphNumber": 41,
+      "lineNumber": 1,
+      "bbox": [
+        0,
+        2208,
+        3031,
+        2294
+      ],
+      "left": 0,
+      "top": 2208,
+      "right": 3031,
+      "bottom": 2294,
+      "width": 3031,
+      "height": 86,
+      "confidence": 88.392,
+      "text": "SS Hintergrund noch ein Label hat. Die os zusammen. Fruher musste man sich oS Es gibt leider zu viele Leute, die ihre"
+    },
+    {
+      "id": "l041",
+      "blockNumber": 1,
+      "paragraphNumber": 42,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        2266,
+        3038,
+        2360
+      ],
+      "left": 273,
+      "top": 2266,
+      "right": 3038,
+      "bottom": 2360,
+      "width": 2765,
+      "height": 94,
+      "confidence": 90.592,
+      "text": "Frage nach dem Sinn haben wir uns “of vielleicht mehr Muhe damit geben. Sof Musik einfach nach dem Motto ,,mal"
+    },
+    {
+      "id": "l042",
+      "blockNumber": 1,
+      "paragraphNumber": 43,
+      "lineNumber": 1,
+      "bbox": [
+        0,
+        2331,
+        2953,
+        2421
+      ],
+      "left": 0,
+      "top": 2331,
+      "right": 2953,
+      "bottom": 2421,
+      "width": 2953,
+      "height": 90,
+      "confidence": 84.667,
+      "text": "SOPs nicht gestellt, weil es einfach of Fur Labelmacher hat sich aber SS, sehen was passiert” raushauen."
+    },
+    {
+      "id": "l043",
+      "blockNumber": 1,
+      "paragraphNumber": 44,
+      "lineNumber": 1,
+      "bbox": [
+        0,
+        2392,
+        3045,
+        2489
+      ],
+      "left": 0,
+      "top": 2392,
+      "right": 3045,
+      "bottom": 2489,
+      "width": 3045,
+      "height": 97,
+      "confidence": 84.555,
+      "text": "SENS gemacht hat und die Resonnanz Sy definitiv vieles vereinfacht... om Was die Netlabel Szene teilweise ein"
+    },
+    {
+      "id": "l044",
+      "blockNumber": 1,
+      "paragraphNumber": 45,
+      "lineNumber": 1,
+      "bbox": [
+        81,
+        2457,
+        3022,
+        2543
+      ],
+      "left": 81,
+      "top": 2457,
+      "right": 3022,
+      "bottom": 2543,
+      "width": 2941,
+      "height": 86,
+      "confidence": 87.333,
+      "text": "OSS stimmte. Don: Wer was die Zukunft bringt. wenig unibersichtlich und schwerer"
+    },
+    {
+      "id": "l045",
+      "blockNumber": 1,
+      "paragraphNumber": 46,
+      "lineNumber": 1,
+      "bbox": [
+        0,
+        2519,
+        2627,
+        2614
+      ],
+      "left": 0,
+      "top": 2519,
+      "right": 2627,
+      "bottom": 2614,
+      "width": 2627,
+      "height": 95,
+      "confidence": 79.539,
+      "text": "CORRS So Erst einmal werden Vinyl und Digital se zuganglich macht."
+    },
+    {
+      "id": "l046",
+      "blockNumber": 1,
+      "paragraphNumber": 47,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        2594,
+        2209,
+        2664
+      ],
+      "left": 270,
+      "top": 2594,
+      "right": 2209,
+      "bottom": 2664,
+      "width": 1939,
+      "height": 70,
+      "confidence": 89.924,
+      "text": "Wird der Plattenladen als Forum Sy weiter koexistieren. Vielleicht gibt es Sof"
+    },
+    {
+      "id": "l047",
+      "blockNumber": 1,
+      "paragraphNumber": 48,
+      "lineNumber": 1,
+      "bbox": [
+        271,
+        2656,
+        2704,
+        2726
+      ],
+      "left": 271,
+      "top": 2656,
+      "right": 2704,
+      "bottom": 2726,
+      "width": 2433,
+      "height": 70,
+      "confidence": 87.878,
+      "text": "des Austausches zwischwen Djs or irgendwann ein abgefahrenes neues Grofste Entdeckung?"
+    },
+    {
+      "id": "l048",
+      "blockNumber": 1,
+      "paragraphNumber": 49,
+      "lineNumber": 1,
+      "bbox": [
+        0,
+        2712,
+        2932,
+        2808
+      ],
+      "left": 0,
+      "top": 2712,
+      "right": 2932,
+      "bottom": 2808,
+      "width": 2932,
+      "height": 96,
+      "confidence": 90.109,
+      "text": "RSC aussterben? Medium. Im Trend wird auf jeden Fall Don: In letzer Zeit Tom Ellis aus"
+    },
+    {
+      "id": "l049",
+      "blockNumber": 1,
+      "paragraphNumber": 50,
+      "lineNumber": 1,
+      "bbox": [
+        272,
+        2787,
+        3034,
+        2858
+      ],
+      "left": 272,
+      "top": 2787,
+      "right": 3034,
+      "bottom": 2858,
+      "width": 2762,
+      "height": 71,
+      "confidence": 88.985,
+      "text": "Don: Nein! Der Austausch in Ss das Netz bleiben, warum sollte man Sof Wales, den habe ich in London beim"
+    },
+    {
+      "id": "l050",
+      "blockNumber": 1,
+      "paragraphNumber": 51,
+      "lineNumber": 1,
+      "bbox": [
+        0,
+        2840,
+        2980,
+        2929
+      ],
+      "left": 0,
+      "top": 2840,
+      "right": 2980,
+      "bottom": 2929,
+      "width": 2980,
+      "height": 89,
+      "confidence": 80.493,
+      "text": "SPOS Plattenladen wird weiterhin 0 nicht schon bald kooperativ Tracks Ss Netaudiofestival live gesehen und"
+    },
+    {
+      "id": "l051",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        0,
+        2897,
+        985,
+        2995
+      ],
+      "left": 0,
+      "top": 2897,
+      "right": 985,
+      "bottom": 2995,
+      "width": 985,
+      "height": 98,
+      "confidence": 79.804,
+      "text": "PROS, stattfinden, aber daneben waren"
+    },
+    {
+      "id": "l052",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2198,
+        2921,
+        3009,
+        2968
+      ],
+      "left": 2198,
+      "top": 2921,
+      "right": 3009,
+      "bottom": 2968,
+      "width": 811,
+      "height": 47,
+      "confidence": 94.818,
+      "text": "- auch fur die nachste Release Party"
+    },
+    {
+      "id": "l053",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2234,
+        2985,
+        3000,
+        3032
+      ],
+      "left": 2234,
+      "top": 2985,
+      "right": 3000,
+      "bottom": 3032,
+      "width": 766,
+      "height": 47,
+      "confidence": 82.356,
+      "text": "am 23. Januar gebucht. Au8erdem"
+    },
+    {
+      "id": "l054",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2158,
+        3048,
+        3010,
+        3097
+      ],
+      "left": 2158,
+      "top": 3048,
+      "right": 3010,
+      "bottom": 3097,
+      "width": 852,
+      "height": 49,
+      "confidence": 81.752,
+      "text": "~s* hat er eine sehr schdne EP bei uns"
+    },
+    {
+      "id": "l055",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        2232,
+        3111,
+        2530,
+        3150
+      ],
+      "left": 2232,
+      "top": 3111,
+      "right": 2530,
+      "bottom": 3150,
+      "width": 298,
+      "height": 39,
+      "confidence": 57.842,
+      "text": "verOffentlicht."
+    },
+    {
+      "id": "l056",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2168,
+        3238,
+        3037,
+        3290
+      ],
+      "left": 2168,
+      "top": 3238,
+      "right": 3037,
+      "bottom": 3290,
+      "width": 869,
+      "height": 52,
+      "confidence": 88.25,
+      "text": "<5 Irgendeine andere Stadt als Berlin?"
+    },
+    {
+      "id": "l057",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2235,
+        3303,
+        2913,
+        3340
+      ],
+      "left": 2235,
+      "top": 3303,
+      "right": 2913,
+      "bottom": 3340,
+      "width": 678,
+      "height": 37,
+      "confidence": 94.894,
+      "text": "Don und Kai: Nein! Wir kennen"
+    },
+    {
+      "id": "l058",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2232,
+        3365,
+        3022,
+        3409
+      ],
+      "left": 2232,
+      "top": 3365,
+      "right": 3022,
+      "bottom": 3409,
+      "width": 790,
+      "height": 44,
+      "confidence": 95.339,
+      "text": "viele andere Stadte, wollen aber nix"
+    },
+    {
+      "id": "l059",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2238,
+        3639,
+        2827,
+        3686
+      ],
+      "left": 2238,
+      "top": 3639,
+      "right": 2827,
+      "bottom": 3686,
+      "width": 589,
+      "height": 47,
+      "confidence": 95.363,
+      "text": "Pentagonik Digital Release"
+    },
+    {
+      "id": "l060",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2239,
+        3702,
+        2831,
+        3749
+      ],
+      "left": 2239,
+      "top": 3702,
+      "right": 2831,
+      "bottom": 3749,
+      "width": 592,
+      "height": 47,
+      "confidence": 91.985,
+      "text": "Demir & Seymen: Treibjagd"
+    },
+    {
+      "id": "l061",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2019,
+        3723,
+        2070,
+        3802
+      ],
+      "left": 2019,
+      "top": 3723,
+      "right": 2070,
+      "bottom": 3802,
+      "width": 51,
+      "height": 79,
+      "confidence": 22.283,
+      "text": "ie"
+    },
+    {
+      "id": "l062",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2036,
+        3747,
+        2972,
+        3854
+      ],
+      "left": 2036,
+      "top": 3747,
+      "right": 2972,
+      "bottom": 3854,
+      "width": 936,
+      "height": 107,
+      "confidence": 79.943,
+      "text": "aa. [pntgd001] & Larsson: Stadtwind"
+    },
+    {
+      "id": "l063",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1926,
+        3791,
+        1948,
+        3809
+      ],
+      "left": 1926,
+      "top": 3791,
+      "right": 1948,
+      "bottom": 3809,
+      "width": 22,
+      "height": 18,
+      "confidence": 72.446,
+      "text": "4"
+    },
+    {
+      "id": "l064",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1949,
+        3813,
+        1956,
+        3826
+      ],
+      "left": 1949,
+      "top": 3813,
+      "right": 1956,
+      "bottom": 3826,
+      "width": 7,
+      "height": 13,
+      "confidence": 45.221,
+      "text": "wd"
+    },
+    {
+      "id": "l065",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2238,
+        3827,
+        3061,
+        3875
+      ],
+      "left": 2238,
+      "top": 3827,
+      "right": 3061,
+      "bottom": 3875,
+      "width": 823,
+      "height": 48,
+      "confidence": 89.248,
+      "text": "[pntgd002] verfugbar ab 23.01.2009"
+    },
+    {
+      "id": "l066",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2237,
+        3892,
+        3042,
+        3938
+      ],
+      "left": 2237,
+      "top": 3892,
+      "right": 3042,
+      "bottom": 3938,
+      "width": 805,
+      "height": 46,
+      "confidence": 96.184,
+      "text": "auf iTunes, Beatport, Juno Download"
+    },
+    {
+      "id": "l067",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2127,
+        3938,
+        2933,
+        3993
+      ],
+      "left": 2127,
+      "top": 3938,
+      "right": 2933,
+      "bottom": 3993,
+      "width": 806,
+      "height": 55,
+      "confidence": 89.147,
+      "text": "P oder bei deinem elektronischen"
+    },
+    {
+      "id": "l068",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2161,
+        4011,
+        2521,
+        4077
+      ],
+      "left": 2161,
+      "top": 4011,
+      "right": 2521,
+      "bottom": 4077,
+      "width": 360,
+      "height": 66,
+      "confidence": 76.189,
+      "text": "ot Online Store."
+    },
+    {
+      "id": "l069",
+      "blockNumber": 16,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2245,
+        4076,
+        3041,
+        4110
+      ],
+      "left": 2245,
+      "top": 4076,
+      "right": 3041,
+      "bottom": 4110,
+      "width": 796,
+      "height": 34,
+      "confidence": 33.912,
+      "text": "DS TOAD 7 <0 ee"
+    },
+    {
+      "id": "l070",
+      "blockNumber": 16,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2513,
+        4080,
+        2866,
+        4161
+      ],
+      "left": 2513,
+      "top": 4080,
+      "right": 2866,
+      "bottom": 4161,
+      "width": 353,
+      "height": 81,
+      "confidence": 26.912,
+      "text": "ANN RIS"
+    }
+  ]
+}

@@ -1,0 +1,987 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        85,
+        83,
+        280,
+        120
+      ],
+      "left": 85,
+      "top": 83,
+      "right": 280,
+      "bottom": 120,
+      "width": 195,
+      "height": 37,
+      "confidence": 95.978,
+      "text": "last word"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        342,
+        1374,
+        388
+      ],
+      "left": 273,
+      "top": 342,
+      "right": 1374,
+      "bottom": 388,
+      "width": 1101,
+      "height": 46,
+      "confidence": 94.039,
+      "text": "M und die Verantwortung, nach der Niemand fragt"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        465,
+        1915,
+        513
+      ],
+      "left": 270,
+      "top": 465,
+      "right": 1915,
+      "bottom": 513,
+      "width": 1645,
+      "height": 48,
+      "confidence": 93.26,
+      "text": "Als M durch die Wohnungsttr des Apartments im dritten Stock trat, sah er"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        530,
+        1985,
+        577
+      ],
+      "left": 273,
+      "top": 530,
+      "right": 1985,
+      "bottom": 577,
+      "width": 1712,
+      "height": 47,
+      "confidence": 93.021,
+      "text": "inn, den gelben Powerranger, in seinem gelben Powerrangerkostum, die Beine"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        273,
+        593,
+        1546,
+        640
+      ],
+      "left": 273,
+      "top": 593,
+      "right": 1546,
+      "bottom": 640,
+      "width": 1273,
+      "height": 47,
+      "confidence": 91.672,
+      "text": "ubereinander geschlagen, in der Mitte des Zimmer sitzen."
+    },
+    {
+      "id": "l006",
+      "blockNumber": 4,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        274,
+        656,
+        2012,
+        703
+      ],
+      "left": 274,
+      "top": 656,
+      "right": 2012,
+      "bottom": 703,
+      "width": 1738,
+      "height": 47,
+      "confidence": 94.899,
+      "text": "Er hatte seinen Blick unbestimmt aus dem Fenster auf das gegenuberliegende"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 4,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        274,
+        719,
+        2082,
+        766
+      ],
+      "left": 274,
+      "top": 719,
+      "right": 2082,
+      "bottom": 766,
+      "width": 1808,
+      "height": 47,
+      "confidence": 94.032,
+      "text": "Haus gerichtet, das gerade in den buntesten funf Minuten des Sonnenuntergangs"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 4,
+      "paragraphNumber": 3,
+      "lineNumber": 3,
+      "bbox": [
+        273,
+        784,
+        1070,
+        831
+      ],
+      "left": 273,
+      "top": 784,
+      "right": 1070,
+      "bottom": 831,
+      "width": 797,
+      "height": 47,
+      "confidence": 92.838,
+      "text": "in einem hellen Orangeton erschien."
+    },
+    {
+      "id": "l009",
+      "blockNumber": 4,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        846,
+        1874,
+        894
+      ],
+      "left": 270,
+      "top": 846,
+      "right": 1874,
+      "bottom": 894,
+      "width": 1604,
+      "height": 48,
+      "confidence": 93.704,
+      "text": "Als M die Wohnungstur schloss, zuckte er kurz, aber seine Position blieb"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 4,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        273,
+        909,
+        546,
+        947
+      ],
+      "left": 273,
+      "top": 909,
+      "right": 546,
+      "bottom": 947,
+      "width": 273,
+      "height": 38,
+      "confidence": 92.218,
+      "text": "unverandert."
+    },
+    {
+      "id": "l011",
+      "blockNumber": 4,
+      "paragraphNumber": 5,
+      "lineNumber": 1,
+      "bbox": [
+        274,
+        972,
+        1916,
+        1020
+      ],
+      "left": 274,
+      "top": 972,
+      "right": 1916,
+      "bottom": 1020,
+      "width": 1642,
+      "height": 48,
+      "confidence": 92.857,
+      "text": "Die Wohnung war unmobliert und die wenigen Gegenstande, die sich in ihr"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 4,
+      "paragraphNumber": 5,
+      "lineNumber": 2,
+      "bbox": [
+        272,
+        1037,
+        2053,
+        1084
+      ],
+      "left": 272,
+      "top": 1037,
+      "right": 2053,
+      "bottom": 1084,
+      "width": 1781,
+      "height": 47,
+      "confidence": 90.983,
+      "text": "befanden: einiges an Geschirr, Kleidung und BUchern, waren an den Wanden der"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 4,
+      "paragraphNumber": 5,
+      "lineNumber": 3,
+      "bbox": [
+        271,
+        1100,
+        2052,
+        1147
+      ],
+      "left": 271,
+      "top": 1100,
+      "right": 2052,
+      "bottom": 1147,
+      "width": 1781,
+      "height": 47,
+      "confidence": 92.937,
+      "text": "Zimmer aufgereiht. Von der drang das Gerausch eines Presslufthammers"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 4,
+      "paragraphNumber": 5,
+      "lineNumber": 4,
+      "bbox": [
+        273,
+        1164,
+        524,
+        1201
+      ],
+      "left": 273,
+      "top": 1164,
+      "right": 524,
+      "bottom": 1201,
+      "width": 251,
+      "height": 37,
+      "confidence": 96.609,
+      "text": "ins Zimmer."
+    },
+    {
+      "id": "l015",
+      "blockNumber": 4,
+      "paragraphNumber": 6,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        1227,
+        659,
+        1274
+      ],
+      "left": 273,
+      "top": 1227,
+      "right": 659,
+      "bottom": 1274,
+      "width": 386,
+      "height": 47,
+      "confidence": 93.44,
+      "text": "M rausperte sich."
+    },
+    {
+      "id": "l016",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        275,
+        1355,
+        2010,
+        1401
+      ],
+      "left": 275,
+      "top": 1355,
+      "right": 2010,
+      "bottom": 1401,
+      "width": 1735,
+      "height": 46,
+      "confidence": 94.002,
+      "text": "»Dein Vater bat mich, dich zu besuchen, er sagt, es ginge dir nicht sehr gut zur"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        271,
+        1418,
+        386,
+        1454
+      ],
+      "left": 271,
+      "top": 1418,
+      "right": 386,
+      "bottom": 1454,
+      "width": 115,
+      "height": 36,
+      "confidence": 90.344,
+      "text": "Zeit.“"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        274,
+        1544,
+        1682,
+        1592
+      ],
+      "left": 274,
+      "top": 1544,
+      "right": 1682,
+      "bottom": 1592,
+      "width": 1408,
+      "height": 48,
+      "confidence": 93.315,
+      "text": "Der Powerranger, der mit dem Rucken zu M reagierte nicht."
+    },
+    {
+      "id": "l019",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        275,
+        1670,
+        1761,
+        1717
+      ],
+      "left": 275,
+      "top": 1670,
+      "right": 1761,
+      "bottom": 1717,
+      "width": 1486,
+      "height": 47,
+      "confidence": 88.823,
+      "text": "»Dein Vater sagt, du hattest ein Problem mit ... deiner Sensibilitat.“"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        1799,
+        1060,
+        1845
+      ],
+      "left": 273,
+      "top": 1799,
+      "right": 1060,
+      "bottom": 1845,
+      "width": 787,
+      "height": 46,
+      "confidence": 93.133,
+      "text": "Der Powerranger zuckte zusammen."
+    },
+    {
+      "id": "l021",
+      "blockNumber": 7,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        1860,
+        1924,
+        1908
+      ],
+      "left": 273,
+      "top": 1860,
+      "right": 1924,
+      "bottom": 1908,
+      "width": 1651,
+      "height": 48,
+      "confidence": 92.805,
+      "text": "Beim letzten Wort hatten die Bauarbeiten unten aufgehort, und es hallte in"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 7,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        273,
+        1925,
+        1200,
+        1971
+      ],
+      "left": 273,
+      "top": 1925,
+      "right": 1200,
+      "bottom": 1971,
+      "width": 927,
+      "height": 46,
+      "confidence": 94.795,
+      "text": "unpassender Lautstarke durch den Raum."
+    },
+    {
+      "id": "l023",
+      "blockNumber": 7,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        1989,
+        2080,
+        2032
+      ],
+      "left": 273,
+      "top": 1989,
+      "right": 2080,
+      "bottom": 2032,
+      "width": 1807,
+      "height": 43,
+      "confidence": 93.913,
+      "text": "M durchschritt das Zimmer und stellte sich vor die Fensterfront, sein Schatten fiel"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 7,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        271,
+        2052,
+        1438,
+        2099
+      ],
+      "left": 271,
+      "top": 2052,
+      "right": 1438,
+      "bottom": 2099,
+      "width": 1167,
+      "height": 47,
+      "confidence": 94.422,
+      "text": "auf den Powerranger, der den Kopf zur Seite abwand."
+    },
+    {
+      "id": "l025",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        275,
+        2180,
+        2079,
+        2226
+      ],
+      "left": 275,
+      "top": 2180,
+      "right": 2079,
+      "bottom": 2226,
+      "width": 1804,
+      "height": 46,
+      "confidence": 91.229,
+      "text": ",Dein Vater sagt, du sitzt hier und schaust aus dem Fenster und du isst nicht und"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        271,
+        2243,
+        672,
+        2288
+      ],
+      "left": 271,
+      "top": 2243,
+      "right": 672,
+      "bottom": 2288,
+      "width": 401,
+      "height": 45,
+      "confidence": 92.697,
+      "text": "du sprichst nicht.“"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        2367,
+        2003,
+        2415
+      ],
+      "left": 273,
+      "top": 2367,
+      "right": 2003,
+      "bottom": 2415,
+      "width": 1730,
+      "height": 48,
+      "confidence": 90.981,
+      "text": "M sprach jetzt langsam, auf die Reaktion seines Gegenubers bedacht, dessen"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        270,
+        2433,
+        1788,
+        2480
+      ],
+      "left": 270,
+      "top": 2433,
+      "right": 1788,
+      "bottom": 2480,
+      "width": 1518,
+      "height": 47,
+      "confidence": 85.77,
+      "text": "grofer Powerrangerhelm aber nur unbewegt M selbst widerspiegelte."
+    },
+    {
+      "id": "l029",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        275,
+        2559,
+        2088,
+        2606
+      ],
+      "left": 275,
+      "top": 2559,
+      "right": 2088,
+      "bottom": 2606,
+      "width": 1813,
+      "height": 47,
+      "confidence": 90.986,
+      "text": ",Das Wetter war heute unglaublich wundervoll, wirklich unglaublich wundervoll.. Ja"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        274,
+        2622,
+        2036,
+        2669
+      ],
+      "left": 274,
+      "top": 2622,
+      "right": 2036,
+      "bottom": 2669,
+      "width": 1762,
+      "height": 47,
+      "confidence": 93.941,
+      "text": ".. du hast es vielleicht gesehen. Die Sonne hat unglaublich geschienen, und die"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        270,
+        2687,
+        2031,
+        2733
+      ],
+      "left": 270,
+      "top": 2687,
+      "right": 2031,
+      "bottom": 2733,
+      "width": 1761,
+      "height": 46,
+      "confidence": 93.53,
+      "text": "Temperatur war ganz genau so, wie du dir die Temperatur vorstellst, wenn du an"
+    },
+    {
+      "id": "l032",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        271,
+        2749,
+        1171,
+        2796
+      ],
+      "left": 271,
+      "top": 2749,
+      "right": 1171,
+      "bottom": 2796,
+      "width": 900,
+      "height": 47,
+      "confidence": 85.038,
+      "text": "einen wundervollen Sommertag denkst.“"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        2873,
+        2076,
+        2929
+      ],
+      "left": 270,
+      "top": 2873,
+      "right": 2076,
+      "bottom": 2929,
+      "width": 1806,
+      "height": 56,
+      "confidence": 94.211,
+      "text": "Aber es war jetzt dunkel geworden, und als M zum Eingang des Zimmers ging, um"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        271,
+        2940,
+        1083,
+        2985
+      ],
+      "left": 271,
+      "top": 2940,
+      "right": 1083,
+      "bottom": 2985,
+      "width": 812,
+      "height": 45,
+      "confidence": 94.162,
+      "text": "das Licht einzuschalten, stolperte er."
+    },
+    {
+      "id": "l035",
+      "blockNumber": 11,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        274,
+        3003,
+        2019,
+        3050
+      ],
+      "left": 274,
+      "top": 3003,
+      "right": 2019,
+      "bottom": 3050,
+      "width": 1745,
+      "height": 47,
+      "confidence": 93.973,
+      "text": "Er blinzelte in die Dunkelheit und erkannte das Bein des Powerrangers als das,"
+    },
+    {
+      "id": "l036",
+      "blockNumber": 11,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        270,
+        3065,
+        1008,
+        3113
+      ],
+      "left": 270,
+      "top": 3065,
+      "right": 1008,
+      "bottom": 3113,
+      "width": 738,
+      "height": 48,
+      "confidence": 94.217,
+      "text": "woruber er gerade gestolpert war."
+    },
+    {
+      "id": "l037",
+      "blockNumber": 11,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        3129,
+        1987,
+        3177
+      ],
+      "left": 273,
+      "top": 3129,
+      "right": 1987,
+      "bottom": 3177,
+      "width": 1714,
+      "height": 48,
+      "confidence": 91.82,
+      "text": "Nun uberlegte M, ob er das Bein Ubersehen hatte oder ob der Ranger es dort"
+    },
+    {
+      "id": "l038",
+      "blockNumber": 11,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        273,
+        3194,
+        1994,
+        3240
+      ],
+      "left": 273,
+      "top": 3194,
+      "right": 1994,
+      "bottom": 3240,
+      "width": 1721,
+      "height": 46,
+      "confidence": 93.624,
+      "text": "hingestellt hatte, und dass dies ein gewaltiger Unterschied sei, denn letzteres"
+    },
+    {
+      "id": "l039",
+      "blockNumber": 11,
+      "paragraphNumber": 3,
+      "lineNumber": 3,
+      "bbox": [
+        270,
+        3255,
+        1876,
+        3299
+      ],
+      "left": 270,
+      "top": 3255,
+      "right": 1876,
+      "bottom": 3299,
+      "width": 1606,
+      "height": 44,
+      "confidence": 95.371,
+      "text": "ware doch immerhin eine Art der Kommunikation, und dies er als"
+    },
+    {
+      "id": "l040",
+      "blockNumber": 11,
+      "paragraphNumber": 3,
+      "lineNumber": 4,
+      "bbox": [
+        273,
+        3320,
+        670,
+        3356
+      ],
+      "left": 273,
+      "top": 3320,
+      "right": 670,
+      "bottom": 3356,
+      "width": 397,
+      "height": 36,
+      "confidence": 92.223,
+      "text": "Fortschritt werten."
+    },
+    {
+      "id": "l041",
+      "blockNumber": 11,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        3383,
+        1985,
+        3431
+      ],
+      "left": 270,
+      "top": 3383,
+      "right": 1985,
+      "bottom": 3431,
+      "width": 1715,
+      "height": 48,
+      "confidence": 94.511,
+      "text": "Wahrend er dies Uberlegte, schaltete er das Licht ein, der Schein der nackten"
+    },
+    {
+      "id": "l042",
+      "blockNumber": 11,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        272,
+        3446,
+        1932,
+        3494
+      ],
+      "left": 272,
+      "top": 3446,
+      "right": 1932,
+      "bottom": 3494,
+      "width": 1660,
+      "height": 48,
+      "confidence": 88.217,
+      "text": "Gluhbirne und die Kahlheit weifSer Wande erzeugten eine Sterilitat, die in M"
+    },
+    {
+      "id": "l043",
+      "blockNumber": 11,
+      "paragraphNumber": 4,
+      "lineNumber": 3,
+      "bbox": [
+        271,
+        3509,
+        947,
+        3557
+      ],
+      "left": 271,
+      "top": 3509,
+      "right": 947,
+      "bottom": 3557,
+      "width": 676,
+      "height": 48,
+      "confidence": 90.989,
+      "text": "dumpfes Unbehagen ausloste."
+    },
+    {
+      "id": "l044",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        275,
+        3638,
+        2052,
+        3683
+      ],
+      "left": 275,
+      "top": 3638,
+      "right": 2052,
+      "bottom": 3683,
+      "width": 1777,
+      "height": 45,
+      "confidence": 93.64,
+      "text": "»Du warst so cool, als ich dich kennen lernte, ... So cool ... und jetzt sitzt du hier"
+    },
+    {
+      "id": "l045",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        273,
+        3701,
+        1611,
+        3746
+      ],
+      "left": 273,
+      "top": 3701,
+      "right": 1611,
+      "bottom": 3746,
+      "width": 1338,
+      "height": 45,
+      "confidence": 91.843,
+      "text": "in diesem weifen Loch und isst nicht und du sprichst nicht.“"
+    },
+    {
+      "id": "l046",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        274,
+        3827,
+        1091,
+        3875
+      ],
+      "left": 274,
+      "top": 3827,
+      "right": 1091,
+      "bottom": 3875,
+      "width": 817,
+      "height": 48,
+      "confidence": 91.395,
+      "text": "Die Wohnungsttr wurde aufgeworfen."
+    },
+    {
+      "id": "l047",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        275,
+        3954,
+        1841,
+        3999
+      ],
+      "left": 275,
+      "top": 3954,
+      "right": 1841,
+      "bottom": 3999,
+      "width": 1566,
+      "height": 45,
+      "confidence": 90.519,
+      "text": "Jetzt bin ich da, mein kleiner Spinner, mein Schatz, ich bin wieder da.“"
+    },
+    {
+      "id": "l048",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1573,
+        4188,
+        2102,
+        4225
+      ],
+      "left": 1573,
+      "top": 4188,
+      "right": 2102,
+      "bottom": 4225,
+      "width": 529,
+      "height": 37,
+      "confidence": 93.833,
+      "text": "Text Moritz Stellmacher"
+    },
+    {
+      "id": "l049",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        87,
+        4366,
+        269,
+        4422
+      ],
+      "left": 87,
+      "top": 4366,
+      "right": 269,
+      "bottom": 4422,
+      "width": 182,
+      "height": 56,
+      "confidence": 96.376,
+      "text": "66 proud"
+    }
+  ]
+}

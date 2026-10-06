@@ -1,0 +1,2947 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        82,
+        83,
+        238,
+        120
+      ],
+      "left": 82,
+      "top": 83,
+      "right": 238,
+      "bottom": 120,
+      "width": 156,
+      "height": 37,
+      "confidence": 96.115,
+      "text": "sounds"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1587,
+        210,
+        1756,
+        244
+      ],
+      "left": 1587,
+      "top": 210,
+      "right": 1756,
+      "bottom": 244,
+      "width": 169,
+      "height": 34,
+      "confidence": 27.822,
+      "text": "ns"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1252,
+        253,
+        1937,
+        327
+      ],
+      "left": 1252,
+      "top": 253,
+      "right": 1937,
+      "bottom": 327,
+      "width": 685,
+      "height": 74,
+      "confidence": 93.739,
+      "text": "Alte Legenden, neue"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1257,
+        325,
+        1725,
+        399
+      ],
+      "left": 1257,
+      "top": 325,
+      "right": 1725,
+      "bottom": 399,
+      "width": 468,
+      "height": 74,
+      "confidence": 91.195,
+      "text": "Entdeckungen"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        329,
+        1013,
+        404
+      ],
+      "left": 270,
+      "top": 329,
+      "right": 1013,
+      "bottom": 404,
+      "width": 743,
+      "height": 75,
+      "confidence": 96.169,
+      "text": "Vom Anfang bis zum..."
+    },
+    {
+      "id": "l006",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1255,
+        443,
+        1818,
+        489
+      ],
+      "left": 1255,
+      "top": 443,
+      "right": 1818,
+      "bottom": 489,
+      "width": 563,
+      "height": 46,
+      "confidence": 94.927,
+      "text": "Es gibt wohl kein anderes"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        447,
+        1018,
+        484
+      ],
+      "left": 270,
+      "top": 447,
+      "right": 1018,
+      "bottom": 484,
+      "width": 748,
+      "height": 37,
+      "confidence": 93.399,
+      "text": "Warum sitze ich hier und verfasse"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2234,
+        449,
+        2880,
+        523
+      ],
+      "left": 2234,
+      "top": 449,
+      "right": 2880,
+      "bottom": 523,
+      "width": 646,
+      "height": 74,
+      "confidence": 94.129,
+      "text": "Wie Uberzeugt man"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1255,
+        504,
+        2022,
+        552
+      ],
+      "left": 1255,
+      "top": 504,
+      "right": 2022,
+      "bottom": 552,
+      "width": 767,
+      "height": 48,
+      "confidence": 93.178,
+      "text": "Musikgenre, das wochentlich mehr"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 6,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        271,
+        509,
+        959,
+        556
+      ],
+      "left": 271,
+      "top": 509,
+      "right": 959,
+      "bottom": 556,
+      "width": 688,
+      "height": 47,
+      "confidence": 96.234,
+      "text": "einen Text fur ein Magazin? Fur"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2232,
+        520,
+        3017,
+        594
+      ],
+      "left": 2232,
+      "top": 520,
+      "right": 3017,
+      "bottom": 594,
+      "width": 785,
+      "height": 74,
+      "confidence": 92.963,
+      "text": "jemanden vom Techno?"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1252,
+        567,
+        2017,
+        615
+      ],
+      "left": 1252,
+      "top": 567,
+      "right": 2017,
+      "bottom": 615,
+      "width": 765,
+      "height": 48,
+      "confidence": 87.316,
+      "text": "Veroffentlichungen ans Licht bringt"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 6,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        271,
+        573,
+        956,
+        619
+      ],
+      "left": 271,
+      "top": 573,
+      "right": 956,
+      "bottom": 619,
+      "width": 685,
+      "height": 46,
+      "confidence": 96.521,
+      "text": "die Antwort muss ich ganz zum"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1253,
+        624,
+        1999,
+        679
+      ],
+      "left": 1253,
+      "top": 624,
+      "right": 1999,
+      "bottom": 679,
+      "width": 746,
+      "height": 55,
+      "confidence": 95.109,
+      "text": "als Techno. Bei dem Uberangebot"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 6,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        635,
+        1065,
+        682
+      ],
+      "left": 270,
+      "top": 635,
+      "right": 1065,
+      "bottom": 682,
+      "width": 795,
+      "height": 47,
+      "confidence": 94.252,
+      "text": "Anfang zuruck gehen, genau zu dem"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 16,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2236,
+        637,
+        2679,
+        674
+      ],
+      "left": 2236,
+      "top": 637,
+      "right": 2679,
+      "bottom": 674,
+      "width": 443,
+      "height": 37,
+      "confidence": 94.863,
+      "text": "1. Kauf Dir ein Auto."
+    },
+    {
+      "id": "l017",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        1255,
+        696,
+        1998,
+        739
+      ],
+      "left": 1255,
+      "top": 696,
+      "right": 1998,
+      "bottom": 739,
+      "width": 743,
+      "height": 43,
+      "confidence": 96.587,
+      "text": "ist es nicht immer einfach, das zu"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 6,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        271,
+        700,
+        1106,
+        747
+      ],
+      "left": 271,
+      "top": 700,
+      "right": 1106,
+      "bottom": 747,
+      "width": 835,
+      "height": 47,
+      "confidence": 93.708,
+      "text": "Zeitpunkt, als Techno anfing, mich um"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 16,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        2235,
+        702,
+        2886,
+        739
+      ],
+      "left": 2235,
+      "top": 702,
+      "right": 2886,
+      "bottom": 739,
+      "width": 651,
+      "height": 37,
+      "confidence": 93.1,
+      "text": "2. Immer wenn Du mit Deiner"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        1252,
+        759,
+        2072,
+        805
+      ],
+      "left": 1252,
+      "top": 759,
+      "right": 2072,
+      "bottom": 805,
+      "width": 820,
+      "height": 46,
+      "confidence": 95.175,
+      "text": "finden, was man eigentlich sucht. Oft"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 6,
+      "paragraphNumber": 4,
+      "lineNumber": 3,
+      "bbox": [
+        272,
+        764,
+        1052,
+        810
+      ],
+      "left": 272,
+      "top": 764,
+      "right": 1052,
+      "bottom": 810,
+      "width": 780,
+      "height": 46,
+      "confidence": 94.292,
+      "text": "seinen Finger zu wickeln. Doch was"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 16,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        2236,
+        764,
+        2982,
+        811
+      ],
+      "left": 2236,
+      "top": 764,
+      "right": 2982,
+      "bottom": 811,
+      "width": 746,
+      "height": 47,
+      "confidence": 93.3,
+      "text": "Bezugsperson nach Hause fahrst,"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        1252,
+        822,
+        2018,
+        868
+      ],
+      "left": 1252,
+      "top": 822,
+      "right": 2018,
+      "bottom": 868,
+      "width": 766,
+      "height": 46,
+      "confidence": 87.88,
+      "text": "weif§ man auch gar nicht, was man"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 6,
+      "paragraphNumber": 5,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        826,
+        1075,
+        872
+      ],
+      "left": 273,
+      "top": 826,
+      "right": 1075,
+      "bottom": 872,
+      "width": 802,
+      "height": 46,
+      "confidence": 93.539,
+      "text": "ist passiert, dass ich eine Symbiose"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 16,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        2236,
+        828,
+        3018,
+        873
+      ],
+      "left": 2236,
+      "top": 828,
+      "right": 3018,
+      "bottom": 873,
+      "width": 782,
+      "height": 45,
+      "confidence": 93.809,
+      "text": "lass ein dunkles Techno-Mixtape im"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        1253,
+        887,
+        2046,
+        933
+      ],
+      "left": 1253,
+      "top": 887,
+      "right": 2046,
+      "bottom": 933,
+      "width": 793,
+      "height": 46,
+      "confidence": 94.316,
+      "text": "eigentlich sucht! An manchen Tagen"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 6,
+      "paragraphNumber": 5,
+      "lineNumber": 2,
+      "bbox": [
+        271,
+        890,
+        1062,
+        928
+      ],
+      "left": 271,
+      "top": 890,
+      "right": 1062,
+      "bottom": 928,
+      "width": 791,
+      "height": 38,
+      "confidence": 91.411,
+      "text": "aus zwei Musikstucken faszinierend"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 16,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        2233,
+        892,
+        2595,
+        939
+      ],
+      "left": 2233,
+      "top": 892,
+      "right": 2595,
+      "bottom": 939,
+      "width": 362,
+      "height": 47,
+      "confidence": 91.765,
+      "text": "Anschlag laufen."
+    },
+    {
+      "id": "l029",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        1255,
+        950,
+        2098,
+        986
+      ],
+      "left": 1255,
+      "top": 950,
+      "right": 2098,
+      "bottom": 986,
+      "width": 843,
+      "height": 36,
+      "confidence": 92.718,
+      "text": "reicht bereits ein druckvoller Kickdrum"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 6,
+      "paragraphNumber": 6,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        954,
+        1029,
+        1000
+      ],
+      "left": 273,
+      "top": 954,
+      "right": 1029,
+      "bottom": 1000,
+      "width": 756,
+      "height": 46,
+      "confidence": 91.445,
+      "text": "und unvorstellbar aufregend fand?"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 16,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        2234,
+        955,
+        2955,
+        1002
+      ],
+      "left": 2234,
+      "top": 955,
+      "right": 2955,
+      "bottom": 1002,
+      "width": 721,
+      "height": 47,
+      "confidence": 95.304,
+      "text": "3. Leugne, dass Du noch andere"
+    },
+    {
+      "id": "l032",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 10,
+      "bbox": [
+        1254,
+        1013,
+        2042,
+        1057
+      ],
+      "left": 1254,
+      "top": 1013,
+      "right": 2042,
+      "bottom": 1057,
+      "width": 788,
+      "height": 44,
+      "confidence": 92.76,
+      "text": "und eine simple Bassline — manche"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 6,
+      "paragraphNumber": 7,
+      "lineNumber": 1,
+      "bbox": [
+        274,
+        1017,
+        797,
+        1063
+      ],
+      "left": 274,
+      "top": 1017,
+      "right": 797,
+      "bottom": 1063,
+      "width": 523,
+      "height": 46,
+      "confidence": 93.072,
+      "text": "Die ersten eingehenden"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 16,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        2236,
+        1019,
+        2539,
+        1055
+      ],
+      "left": 2236,
+      "top": 1019,
+      "right": 2539,
+      "bottom": 1055,
+      "width": 303,
+      "height": 36,
+      "confidence": 92.569,
+      "text": "Musik besitzt."
+    },
+    {
+      "id": "l035",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 11,
+      "bbox": [
+        1254,
+        1076,
+        2007,
+        1112
+      ],
+      "left": 1254,
+      "top": 1076,
+      "right": 2007,
+      "bottom": 1112,
+      "width": 753,
+      "height": 36,
+      "confidence": 92.384,
+      "text": "nennen das Minimal — an anderen"
+    },
+    {
+      "id": "l036",
+      "blockNumber": 6,
+      "paragraphNumber": 7,
+      "lineNumber": 2,
+      "bbox": [
+        272,
+        1079,
+        977,
+        1126
+      ],
+      "left": 272,
+      "top": 1079,
+      "right": 977,
+      "bottom": 1126,
+      "width": 705,
+      "height": 47,
+      "confidence": 92.069,
+      "text": "Cluberfahrungen sind Zustande,"
+    },
+    {
+      "id": "l037",
+      "blockNumber": 16,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        2234,
+        1081,
+        3073,
+        1124
+      ],
+      "left": 2234,
+      "top": 1081,
+      "right": 3073,
+      "bottom": 1124,
+      "width": 839,
+      "height": 43,
+      "confidence": 94.259,
+      "text": "4. Keine Pausen, wenn Dein Beifahrer"
+    },
+    {
+      "id": "l038",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 12,
+      "bbox": [
+        1252,
+        1140,
+        2057,
+        1186
+      ],
+      "left": 1252,
+      "top": 1140,
+      "right": 2057,
+      "bottom": 1186,
+      "width": 805,
+      "height": 46,
+      "confidence": 94.669,
+      "text": "Tagen muss es funky oder perkussiv"
+    },
+    {
+      "id": "l039",
+      "blockNumber": 6,
+      "paragraphNumber": 8,
+      "lineNumber": 1,
+      "bbox": [
+        271,
+        1145,
+        1046,
+        1181
+      ],
+      "left": 271,
+      "top": 1145,
+      "right": 1046,
+      "bottom": 1181,
+      "width": 775,
+      "height": 36,
+      "confidence": 96.59,
+      "text": "an die man sich wie an seine erste"
+    },
+    {
+      "id": "l040",
+      "blockNumber": 16,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        2236,
+        1146,
+        3054,
+        1189
+      ],
+      "left": 2236,
+      "top": 1146,
+      "right": 3054,
+      "bottom": 1189,
+      "width": 818,
+      "height": 43,
+      "confidence": 94.303,
+      "text": "leiser macht, mache subtil mit einem"
+    },
+    {
+      "id": "l041",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 13,
+      "bbox": [
+        1254,
+        1203,
+        2066,
+        1249
+      ],
+      "left": 1254,
+      "top": 1203,
+      "right": 2066,
+      "bottom": 1249,
+      "width": 812,
+      "height": 46,
+      "confidence": 94.014,
+      "text": "sein. Je nach Tagesform. Womit man"
+    },
+    {
+      "id": "l042",
+      "blockNumber": 6,
+      "paragraphNumber": 8,
+      "lineNumber": 2,
+      "bbox": [
+        274,
+        1208,
+        1062,
+        1254
+      ],
+      "left": 274,
+      "top": 1208,
+      "right": 1062,
+      "bottom": 1254,
+      "width": 788,
+      "height": 46,
+      "confidence": 93.131,
+      "text": "Liebe erinnert. Die ekstatische, eng"
+    },
+    {
+      "id": "l043",
+      "blockNumber": 16,
+      "paragraphNumber": 4,
+      "lineNumber": 3,
+      "bbox": [
+        2235,
+        1209,
+        2943,
+        1254
+      ],
+      "left": 2235,
+      "top": 1209,
+      "right": 2943,
+      "bottom": 1254,
+      "width": 708,
+      "height": 45,
+      "confidence": 95.201,
+      "text": "Satz wie: “Ey, achte mal auf den"
+    },
+    {
+      "id": "l044",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 14,
+      "bbox": [
+        1254,
+        1266,
+        2042,
+        1312
+      ],
+      "left": 1254,
+      "top": 1266,
+      "right": 2042,
+      "bottom": 1312,
+      "width": 788,
+      "height": 46,
+      "confidence": 91.704,
+      "text": "mich allerdings immer hinterm Ofen"
+    },
+    {
+      "id": "l045",
+      "blockNumber": 6,
+      "paragraphNumber": 8,
+      "lineNumber": 3,
+      "bbox": [
+        273,
+        1271,
+        1080,
+        1307
+      ],
+      "left": 273,
+      "top": 1271,
+      "right": 1080,
+      "bottom": 1307,
+      "width": 807,
+      "height": 36,
+      "confidence": 86.643,
+      "text": "miteinander verbundene Vertrautheit"
+    },
+    {
+      "id": "l046",
+      "blockNumber": 16,
+      "paragraphNumber": 4,
+      "lineNumber": 4,
+      "bbox": [
+        2235,
+        1271,
+        2955,
+        1318
+      ],
+      "left": 2235,
+      "top": 1271,
+      "right": 2955,
+      "bottom": 1318,
+      "width": 720,
+      "height": 47,
+      "confidence": 94.457,
+      "text": "Sound, das klingt als warst du in"
+    },
+    {
+      "id": "l047",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 15,
+      "bbox": [
+        1254,
+        1329,
+        2011,
+        1372
+      ],
+      "left": 1254,
+      "top": 1329,
+      "right": 2011,
+      "bottom": 1372,
+      "width": 757,
+      "height": 43,
+      "confidence": 93.254,
+      "text": "hervorlocken kann, sind rasselnde"
+    },
+    {
+      "id": "l048",
+      "blockNumber": 6,
+      "paragraphNumber": 8,
+      "lineNumber": 4,
+      "bbox": [
+        270,
+        1333,
+        1069,
+        1380
+      ],
+      "left": 270,
+      "top": 1333,
+      "right": 1069,
+      "bottom": 1380,
+      "width": 799,
+      "height": 47,
+      "confidence": 92.019,
+      "text": "vollkommener Verblendung. Angefixt"
+    },
+    {
+      "id": "l049",
+      "blockNumber": 16,
+      "paragraphNumber": 4,
+      "lineNumber": 5,
+      "bbox": [
+        2234,
+        1334,
+        2981,
+        1381
+      ],
+      "left": 2234,
+      "top": 1334,
+      "right": 2981,
+      "bottom": 1381,
+      "width": 747,
+      "height": 47,
+      "confidence": 92.64,
+      "text": "einem U-Boot und jemand schlagt"
+    },
+    {
+      "id": "l050",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 16,
+      "bbox": [
+        1255,
+        1393,
+        1930,
+        1440
+      ],
+      "left": 1255,
+      "top": 1393,
+      "right": 1930,
+      "bottom": 1440,
+      "width": 675,
+      "height": 47,
+      "confidence": 92.759,
+      "text": "Hi-Hats, gepaart mit Claps und"
+    },
+    {
+      "id": "l051",
+      "blockNumber": 6,
+      "paragraphNumber": 9,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        1398,
+        974,
+        1444
+      ],
+      "left": 270,
+      "top": 1398,
+      "right": 974,
+      "bottom": 1444,
+      "width": 704,
+      "height": 46,
+      "confidence": 93.213,
+      "text": "von dieser fraglichen Liebschaft"
+    },
+    {
+      "id": "l052",
+      "blockNumber": 16,
+      "paragraphNumber": 4,
+      "lineNumber": 6,
+      "bbox": [
+        2233,
+        1400,
+        2890,
+        1446
+      ],
+      "left": 2233,
+      "top": 1400,
+      "right": 2890,
+      "bottom": 1446,
+      "width": 657,
+      "height": 46,
+      "confidence": 94.697,
+      "text": "gegen die Rohre!” wieder laut"
+    },
+    {
+      "id": "l053",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 17,
+      "bbox": [
+        1254,
+        1456,
+        2032,
+        1499
+      ],
+      "left": 1254,
+      "top": 1456,
+      "right": 2032,
+      "bottom": 1499,
+      "width": 778,
+      "height": 43,
+      "confidence": 93.706,
+      "text": "Snares. Je roher die Sounds, desto"
+    },
+    {
+      "id": "l054",
+      "blockNumber": 6,
+      "paragraphNumber": 10,
+      "lineNumber": 1,
+      "bbox": [
+        271,
+        1460,
+        957,
+        1507
+      ],
+      "left": 271,
+      "top": 1460,
+      "right": 957,
+      "bottom": 1507,
+      "width": 686,
+      "height": 47,
+      "confidence": 94.317,
+      "text": "zieht es mich nachtelang in die"
+    },
+    {
+      "id": "l055",
+      "blockNumber": 16,
+      "paragraphNumber": 5,
+      "lineNumber": 1,
+      "bbox": [
+        2236,
+        1462,
+        2983,
+        1509
+      ],
+      "left": 2236,
+      "top": 1462,
+      "right": 2983,
+      "bottom": 1509,
+      "width": 747,
+      "height": 47,
+      "confidence": 92.799,
+      "text": "und ignoriere seinen verzweifelten"
+    },
+    {
+      "id": "l056",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 18,
+      "bbox": [
+        1254,
+        1518,
+        2011,
+        1566
+      ],
+      "left": 1254,
+      "top": 1518,
+      "right": 2011,
+      "bottom": 1566,
+      "width": 757,
+      "height": 48,
+      "confidence": 93.927,
+      "text": "besser. Musik, die mich verprugelt"
+    },
+    {
+      "id": "l057",
+      "blockNumber": 6,
+      "paragraphNumber": 10,
+      "lineNumber": 2,
+      "bbox": [
+        270,
+        1523,
+        1036,
+        1569
+      ],
+      "left": 270,
+      "top": 1523,
+      "right": 1036,
+      "bottom": 1569,
+      "width": 766,
+      "height": 46,
+      "confidence": 94.068,
+      "text": "Technotempel, als ware man frisch"
+    },
+    {
+      "id": "l058",
+      "blockNumber": 16,
+      "paragraphNumber": 5,
+      "lineNumber": 2,
+      "bbox": [
+        2235,
+        1525,
+        2642,
+        1562
+      ],
+      "left": 2235,
+      "top": 1525,
+      "right": 2642,
+      "bottom": 1562,
+      "width": 407,
+      "height": 37,
+      "confidence": 91.848,
+      "text": "Gesichtsausdruck."
+    },
+    {
+      "id": "l059",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 19,
+      "bbox": [
+        1254,
+        1583,
+        2087,
+        1629
+      ],
+      "left": 1254,
+      "top": 1583,
+      "right": 2087,
+      "bottom": 1629,
+      "width": 833,
+      "height": 46,
+      "confidence": 92.665,
+      "text": "und auspeitscht und trotzdem zartlich"
+    },
+    {
+      "id": "l060",
+      "blockNumber": 16,
+      "paragraphNumber": 6,
+      "lineNumber": 1,
+      "bbox": [
+        2235,
+        1588,
+        3024,
+        1625
+      ],
+      "left": 2235,
+      "top": 1588,
+      "right": 3024,
+      "bottom": 1625,
+      "width": 789,
+      "height": 37,
+      "confidence": 92.935,
+      "text": "5. Nun eine Stufe weiter. Ab mit der"
+    },
+    {
+      "id": "l061",
+      "blockNumber": 6,
+      "paragraphNumber": 11,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        1589,
+        1114,
+        1634
+      ],
+      "left": 273,
+      "top": 1589,
+      "right": 1114,
+      "bottom": 1634,
+      "width": 841,
+      "height": 45,
+      "confidence": 94.251,
+      "text": "im Honeymoon, doch die antimetaphy-"
+    },
+    {
+      "id": "l062",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 20,
+      "bbox": [
+        1252,
+        1647,
+        2046,
+        1684
+      ],
+      "left": 1252,
+      "top": 1647,
+      "right": 2046,
+      "bottom": 1684,
+      "width": 794,
+      "height": 37,
+      "confidence": 93.823,
+      "text": "zu mir ist. Technoiden Masochisten-"
+    },
+    {
+      "id": "l063",
+      "blockNumber": 6,
+      "paragraphNumber": 11,
+      "lineNumber": 2,
+      "bbox": [
+        272,
+        1651,
+        1050,
+        1698
+      ],
+      "left": 272,
+      "top": 1651,
+      "right": 1050,
+      "bottom": 1698,
+      "width": 778,
+      "height": 47,
+      "confidence": 92.845,
+      "text": "sischen und psychischen Gegeben-"
+    },
+    {
+      "id": "l064",
+      "blockNumber": 16,
+      "paragraphNumber": 6,
+      "lineNumber": 2,
+      "bbox": [
+        2236,
+        1653,
+        3037,
+        1699
+      ],
+      "left": 2236,
+      "top": 1653,
+      "right": 3037,
+      "bottom": 1699,
+      "width": 801,
+      "height": 46,
+      "confidence": 94.139,
+      "text": "Bezugsperson in die richtigen Clubs."
+    },
+    {
+      "id": "l065",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 21,
+      "bbox": [
+        1255,
+        1710,
+        1934,
+        1747
+      ],
+      "left": 1255,
+      "top": 1710,
+      "right": 1934,
+      "bottom": 1747,
+      "width": 679,
+      "height": 37,
+      "confidence": 94.746,
+      "text": "House kann man das vielleicht"
+    },
+    {
+      "id": "l066",
+      "blockNumber": 6,
+      "paragraphNumber": 11,
+      "lineNumber": 3,
+      "bbox": [
+        273,
+        1715,
+        1082,
+        1761
+      ],
+      "left": 273,
+      "top": 1715,
+      "right": 1082,
+      "bottom": 1761,
+      "width": 809,
+      "height": 46,
+      "confidence": 95.173,
+      "text": "heiten zwingen Dich, deine Liebe nur"
+    },
+    {
+      "id": "l067",
+      "blockNumber": 16,
+      "paragraphNumber": 6,
+      "lineNumber": 3,
+      "bbox": [
+        2236,
+        1716,
+        2990,
+        1762
+      ],
+      "left": 2236,
+      "top": 1716,
+      "right": 2990,
+      "bottom": 1762,
+      "width": 754,
+      "height": 46,
+      "confidence": 96.34,
+      "text": "Fang hier nicht gleich hardcore an."
+    },
+    {
+      "id": "l068",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 22,
+      "bbox": [
+        1254,
+        1773,
+        2034,
+        1810
+      ],
+      "left": 1254,
+      "top": 1773,
+      "right": 2034,
+      "bottom": 1810,
+      "width": 780,
+      "height": 37,
+      "confidence": 95.841,
+      "text": "nennen. Neue Tracks in diesem Stil"
+    },
+    {
+      "id": "l069",
+      "blockNumber": 6,
+      "paragraphNumber": 11,
+      "lineNumber": 4,
+      "bbox": [
+        271,
+        1778,
+        1023,
+        1824
+      ],
+      "left": 271,
+      "top": 1778,
+      "right": 1023,
+      "bottom": 1824,
+      "width": 752,
+      "height": 46,
+      "confidence": 95.899,
+      "text": "an zwei Tagen zu leben. Was dann"
+    },
+    {
+      "id": "l070",
+      "blockNumber": 16,
+      "paragraphNumber": 6,
+      "lineNumber": 4,
+      "bbox": [
+        2237,
+        1779,
+        3014,
+        1825
+      ],
+      "left": 2237,
+      "top": 1779,
+      "right": 3014,
+      "bottom": 1825,
+      "width": 777,
+      "height": 46,
+      "confidence": 93.941,
+      "text": "Erstmal einen Club, der in Richtung"
+    },
+    {
+      "id": "l071",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 23,
+      "bbox": [
+        1254,
+        1838,
+        2004,
+        1874
+      ],
+      "left": 1254,
+      "top": 1838,
+      "right": 2004,
+      "bottom": 1874,
+      "width": 750,
+      "height": 36,
+      "confidence": 96.357,
+      "text": "sind leider extrem rar. Daher habe"
+    },
+    {
+      "id": "l072",
+      "blockNumber": 6,
+      "paragraphNumber": 11,
+      "lineNumber": 5,
+      "bbox": [
+        273,
+        1841,
+        869,
+        1885
+      ],
+      "left": 273,
+      "top": 1841,
+      "right": 869,
+      "bottom": 1885,
+      "width": 596,
+      "height": 44,
+      "confidence": 88.844,
+      "text": "hie8, zuruck in die Realitat."
+    },
+    {
+      "id": "l073",
+      "blockNumber": 16,
+      "paragraphNumber": 6,
+      "lineNumber": 5,
+      "bbox": [
+        2236,
+        1844,
+        3064,
+        1890
+      ],
+      "left": 2236,
+      "top": 1844,
+      "right": 3064,
+      "bottom": 1890,
+      "width": 828,
+      "height": 46,
+      "confidence": 82.645,
+      "text": "Bastardpop geht. Ihr trinkt am besten"
+    },
+    {
+      "id": "l074",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 24,
+      "bbox": [
+        1255,
+        1900,
+        2064,
+        1943
+      ],
+      "left": 1255,
+      "top": 1900,
+      "right": 2064,
+      "bottom": 1943,
+      "width": 809,
+      "height": 43,
+      "confidence": 94.822,
+      "text": "ich beschlossen, mich auf die Suche"
+    },
+    {
+      "id": "l075",
+      "blockNumber": 6,
+      "paragraphNumber": 12,
+      "lineNumber": 1,
+      "bbox": [
+        274,
+        1905,
+        1103,
+        1948
+      ],
+      "left": 274,
+      "top": 1905,
+      "right": 1103,
+      "bottom": 1948,
+      "width": 829,
+      "height": 43,
+      "confidence": 92.731,
+      "text": "Der DJ, der Medizinmann der Neuzeit,"
+    },
+    {
+      "id": "l076",
+      "blockNumber": 16,
+      "paragraphNumber": 6,
+      "lineNumber": 6,
+      "bbox": [
+        2235,
+        1905,
+        2983,
+        1953
+      ],
+      "left": 2235,
+      "top": 1905,
+      "right": 2983,
+      "bottom": 1953,
+      "width": 748,
+      "height": 48,
+      "confidence": 94.935,
+      "text": "so viele Drinks, dass es ertraglich"
+    },
+    {
+      "id": "l077",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 25,
+      "bbox": [
+        1254,
+        1964,
+        1934,
+        2010
+      ],
+      "left": 1254,
+      "top": 1964,
+      "right": 1934,
+      "bottom": 2010,
+      "width": 680,
+      "height": 46,
+      "confidence": 94.961,
+      "text": "nach alten Platten zu begeben."
+    },
+    {
+      "id": "l078",
+      "blockNumber": 6,
+      "paragraphNumber": 12,
+      "lineNumber": 2,
+      "bbox": [
+        271,
+        1968,
+        944,
+        2014
+      ],
+      "left": 271,
+      "top": 1968,
+      "right": 944,
+      "bottom": 2014,
+      "width": 673,
+      "height": 46,
+      "confidence": 93.041,
+      "text": "der mit monotonen magischen"
+    },
+    {
+      "id": "l079",
+      "blockNumber": 16,
+      "paragraphNumber": 6,
+      "lineNumber": 7,
+      "bbox": [
+        2233,
+        1970,
+        2938,
+        2006
+      ],
+      "left": 2233,
+      "top": 1970,
+      "right": 2938,
+      "bottom": 2006,
+      "width": 705,
+      "height": 36,
+      "confidence": 93.082,
+      "text": "wird. Du musst durchhalten und"
+    },
+    {
+      "id": "l080",
+      "blockNumber": 6,
+      "paragraphNumber": 12,
+      "lineNumber": 3,
+      "bbox": [
+        271,
+        2031,
+        933,
+        2076
+      ],
+      "left": 271,
+      "top": 2031,
+      "right": 933,
+      "bottom": 2076,
+      "width": 662,
+      "height": 45,
+      "confidence": 91.72,
+      "text": "4/4-Takten der Strippenzieher"
+    },
+    {
+      "id": "l081",
+      "blockNumber": 16,
+      "paragraphNumber": 6,
+      "lineNumber": 8,
+      "bbox": [
+        2236,
+        2033,
+        3034,
+        2077
+      ],
+      "left": 2236,
+      "top": 2033,
+      "right": 3034,
+      "bottom": 2077,
+      "width": 798,
+      "height": 44,
+      "confidence": 94.623,
+      "text": "immer wieder anspornen zu bleiben."
+    },
+    {
+      "id": "l082",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1255,
+        2090,
+        1951,
+        2133
+      ],
+      "left": 1255,
+      "top": 2090,
+      "right": 1951,
+      "bottom": 2133,
+      "width": 696,
+      "height": 43,
+      "confidence": 83.319,
+      "text": "Mein erstes Fundstuck ist ,,Carl"
+    },
+    {
+      "id": "l083",
+      "blockNumber": 6,
+      "paragraphNumber": 13,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        2096,
+        983,
+        2140
+      ],
+      "left": 273,
+      "top": 2096,
+      "right": 983,
+      "bottom": 2140,
+      "width": 710,
+      "height": 44,
+      "confidence": 93.12,
+      "text": "im Puppentheater ist, zieht mich"
+    },
+    {
+      "id": "l084",
+      "blockNumber": 16,
+      "paragraphNumber": 6,
+      "lineNumber": 9,
+      "bbox": [
+        2237,
+        2097,
+        3027,
+        2143
+      ],
+      "left": 2237,
+      "top": 2097,
+      "right": 3027,
+      "bottom": 2143,
+      "width": 790,
+      "height": 46,
+      "confidence": 93.635,
+      "text": "Ein Wochenende mehr oder weniger"
+    },
+    {
+      "id": "l085",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1253,
+        2154,
+        2027,
+        2200
+      ],
+      "left": 1253,
+      "top": 2154,
+      "right": 2027,
+      "bottom": 2200,
+      "width": 774,
+      "height": 46,
+      "confidence": 94.881,
+      "text": "Craig’s Paperclip Remix“ von Green"
+    },
+    {
+      "id": "l086",
+      "blockNumber": 6,
+      "paragraphNumber": 13,
+      "lineNumber": 2,
+      "bbox": [
+        273,
+        2158,
+        1073,
+        2195
+      ],
+      "left": 273,
+      "top": 2158,
+      "right": 1073,
+      "bottom": 2195,
+      "width": 800,
+      "height": 37,
+      "confidence": 94.125,
+      "text": "unaufhaltsam immer tiefer in seinen"
+    },
+    {
+      "id": "l087",
+      "blockNumber": 16,
+      "paragraphNumber": 6,
+      "lineNumber": 10,
+      "bbox": [
+        2234,
+        2160,
+        2543,
+        2197
+      ],
+      "left": 2234,
+      "top": 2160,
+      "right": 2543,
+      "bottom": 2197,
+      "width": 309,
+      "height": 37,
+      "confidence": 91.561,
+      "text": "durchmachen."
+    },
+    {
+      "id": "l088",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1252,
+        2217,
+        2052,
+        2259
+      ],
+      "left": 1252,
+      "top": 2217,
+      "right": 2052,
+      "bottom": 2259,
+      "width": 800,
+      "height": 42,
+      "confidence": 87.61,
+      "text": "Velvets ,,Flash“ aus dem Jahr 1996."
+    },
+    {
+      "id": "l089",
+      "blockNumber": 6,
+      "paragraphNumber": 13,
+      "lineNumber": 3,
+      "bbox": [
+        273,
+        2221,
+        1041,
+        2268
+      ],
+      "left": 273,
+      "top": 2221,
+      "right": 1041,
+      "bottom": 2268,
+      "width": 768,
+      "height": 47,
+      "confidence": 96.21,
+      "text": "Bann. Man fragt sich schon, wie er"
+    },
+    {
+      "id": "l090",
+      "blockNumber": 16,
+      "paragraphNumber": 7,
+      "lineNumber": 1,
+      "bbox": [
+        2234,
+        2223,
+        3036,
+        2268
+      ],
+      "left": 2234,
+      "top": 2223,
+      "right": 3036,
+      "bottom": 2268,
+      "width": 802,
+      "height": 45,
+      "confidence": 94.64,
+      "text": "6. Zwischendrin immer paar positive"
+    },
+    {
+      "id": "l091",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1255,
+        2279,
+        1973,
+        2317
+      ],
+      "left": 1255,
+      "top": 2279,
+      "right": 1973,
+      "bottom": 2317,
+      "width": 718,
+      "height": 38,
+      "confidence": 94.966,
+      "text": "Der Track startet ohne zartliches"
+    },
+    {
+      "id": "l092",
+      "blockNumber": 6,
+      "paragraphNumber": 13,
+      "lineNumber": 4,
+      "bbox": [
+        272,
+        2285,
+        1065,
+        2331
+      ],
+      "left": 272,
+      "top": 2285,
+      "right": 1065,
+      "bottom": 2331,
+      "width": 793,
+      "height": 46,
+      "confidence": 93.538,
+      "text": "selbst die ekstatischen Augenblicke"
+    },
+    {
+      "id": "l093",
+      "blockNumber": 16,
+      "paragraphNumber": 7,
+      "lineNumber": 2,
+      "bbox": [
+        2237,
+        2286,
+        2955,
+        2331
+      ],
+      "left": 2237,
+      "top": 2286,
+      "right": 2955,
+      "bottom": 2331,
+      "width": 718,
+      "height": 45,
+      "confidence": 91.348,
+      "text": "Erlebnisse streuen, zum Beispiel"
+    },
+    {
+      "id": "l094",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        1252,
+        2345,
+        2030,
+        2390
+      ],
+      "left": 1252,
+      "top": 2345,
+      "right": 2030,
+      "bottom": 2390,
+      "width": 778,
+      "height": 45,
+      "confidence": 92.782,
+      "text": "Vorspiel des bereits beschriebenen"
+    },
+    {
+      "id": "l095",
+      "blockNumber": 6,
+      "paragraphNumber": 13,
+      "lineNumber": 5,
+      "bbox": [
+        270,
+        2349,
+        1097,
+        2395
+      ],
+      "left": 270,
+      "top": 2349,
+      "right": 1097,
+      "bottom": 2395,
+      "width": 827,
+      "height": 46,
+      "confidence": 94.543,
+      "text": "wahrnimmt. Eigens die Nadel auf das"
+    },
+    {
+      "id": "l096",
+      "blockNumber": 16,
+      "paragraphNumber": 7,
+      "lineNumber": 3,
+      "bbox": [
+        2236,
+        2349,
+        2934,
+        2393
+      ],
+      "left": 2236,
+      "top": 2349,
+      "right": 2934,
+      "bottom": 2393,
+      "width": 698,
+      "height": 44,
+      "confidence": 91.465,
+      "text": "Fruhstucken, Sex, Obst oder so."
+    },
+    {
+      "id": "l097",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        1255,
+        2408,
+        1953,
+        2454
+      ],
+      "left": 1255,
+      "top": 2408,
+      "right": 1953,
+      "bottom": 2454,
+      "width": 698,
+      "height": 46,
+      "confidence": 95.059,
+      "text": "Kettengerassels. Um aber nicht"
+    },
+    {
+      "id": "l098",
+      "blockNumber": 6,
+      "paragraphNumber": 13,
+      "lineNumber": 6,
+      "bbox": [
+        273,
+        2412,
+        1111,
+        2458
+      ],
+      "left": 273,
+      "top": 2412,
+      "right": 1111,
+      "bottom": 2458,
+      "width": 838,
+      "height": 46,
+      "confidence": 95.719,
+      "text": "unschuldige Vinyl zu legen, Teil dieses"
+    },
+    {
+      "id": "l099",
+      "blockNumber": 16,
+      "paragraphNumber": 8,
+      "lineNumber": 1,
+      "bbox": [
+        2236,
+        2413,
+        2990,
+        2460
+      ],
+      "left": 2236,
+      "top": 2413,
+      "right": 2990,
+      "bottom": 2460,
+      "width": 754,
+      "height": 47,
+      "confidence": 92.727,
+      "text": "7. Aber: gib dem fluffigen, leichten"
+    },
+    {
+      "id": "l100",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        1254,
+        2469,
+        2049,
+        2517
+      ],
+      "left": 1254,
+      "top": 2469,
+      "right": 2049,
+      "bottom": 2517,
+      "width": 795,
+      "height": 48,
+      "confidence": 83.971,
+      "text": "unhoflich zu sein begru8t uns Green"
+    },
+    {
+      "id": "l101",
+      "blockNumber": 6,
+      "paragraphNumber": 13,
+      "lineNumber": 7,
+      "bbox": [
+        273,
+        2475,
+        1116,
+        2521
+      ],
+      "left": 273,
+      "top": 2475,
+      "right": 1116,
+      "bottom": 2521,
+      "width": 843,
+      "height": 46,
+      "confidence": 94.219,
+      "text": "magischen Momentes zu werden. Das"
+    },
+    {
+      "id": "l102",
+      "blockNumber": 16,
+      "paragraphNumber": 8,
+      "lineNumber": 2,
+      "bbox": [
+        2235,
+        2477,
+        2918,
+        2522
+      ],
+      "left": 2235,
+      "top": 2477,
+      "right": 2918,
+      "bottom": 2522,
+      "width": 683,
+      "height": 45,
+      "confidence": 95.638,
+      "text": "Pop-Elektro nicht zu viel Macht."
+    },
+    {
+      "id": "l103",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        1252,
+        2534,
+        1941,
+        2580
+      ],
+      "left": 1252,
+      "top": 2534,
+      "right": 1941,
+      "bottom": 2580,
+      "width": 689,
+      "height": 46,
+      "confidence": 90.448,
+      "text": "Velvet hochstpersonlich, druckt"
+    },
+    {
+      "id": "l104",
+      "blockNumber": 6,
+      "paragraphNumber": 13,
+      "lineNumber": 8,
+      "bbox": [
+        272,
+        2540,
+        1043,
+        2582
+      ],
+      "left": 272,
+      "top": 2540,
+      "right": 1043,
+      "bottom": 2582,
+      "width": 771,
+      "height": 42,
+      "confidence": 94.31,
+      "text": "Steuer an sich zu nehmen, um das"
+    },
+    {
+      "id": "l105",
+      "blockNumber": 16,
+      "paragraphNumber": 9,
+      "lineNumber": 1,
+      "bbox": [
+        2234,
+        2541,
+        3062,
+        2587
+      ],
+      "left": 2234,
+      "top": 2541,
+      "right": 3062,
+      "bottom": 2587,
+      "width": 828,
+      "height": 46,
+      "confidence": 95.39,
+      "text": "8. Jetzt geht’s an den Techno. Wieder"
+    },
+    {
+      "id": "l106",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        1247,
+        2598,
+        2047,
+        2643
+      ],
+      "left": 1247,
+      "top": 2598,
+      "right": 2047,
+      "bottom": 2643,
+      "width": 800,
+      "height": 45,
+      "confidence": 95.452,
+      "text": "jedem eine Kamera in die Hand und"
+    },
+    {
+      "id": "l107",
+      "blockNumber": 6,
+      "paragraphNumber": 13,
+      "lineNumber": 9,
+      "bbox": [
+        273,
+        2602,
+        1086,
+        2639
+      ],
+      "left": 273,
+      "top": 2602,
+      "right": 1086,
+      "bottom": 2639,
+      "width": 813,
+      "height": 37,
+      "confidence": 93.003,
+      "text": "Raumschiff in die unendlichen Tiefen"
+    },
+    {
+      "id": "l108",
+      "blockNumber": 16,
+      "paragraphNumber": 9,
+      "lineNumber": 2,
+      "bbox": [
+        2234,
+        2604,
+        3076,
+        2647
+      ],
+      "left": 2234,
+      "top": 2604,
+      "right": 3076,
+      "bottom": 2647,
+      "width": 842,
+      "height": 43,
+      "confidence": 91.229,
+      "text": "ein Wochenende, diesmal mindestens"
+    },
+    {
+      "id": "l109",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 10,
+      "bbox": [
+        1252,
+        2661,
+        2080,
+        2707
+      ],
+      "left": 1252,
+      "top": 2661,
+      "right": 2080,
+      "bottom": 2707,
+      "width": 828,
+      "height": 46,
+      "confidence": 95.544,
+      "text": "gestattet auch Fotos zu machen. Das"
+    },
+    {
+      "id": "l110",
+      "blockNumber": 6,
+      "paragraphNumber": 13,
+      "lineNumber": 10,
+      "bbox": [
+        271,
+        2664,
+        1012,
+        2711
+      ],
+      "left": 271,
+      "top": 2664,
+      "right": 1012,
+      "bottom": 2711,
+      "width": 741,
+      "height": 47,
+      "confidence": 80.302,
+      "text": "der GefUhlsspektren zu schieBen."
+    },
+    {
+      "id": "l111",
+      "blockNumber": 16,
+      "paragraphNumber": 9,
+      "lineNumber": 3,
+      "bbox": [
+        2234,
+        2667,
+        2852,
+        2712
+      ],
+      "left": 2234,
+      "top": 2667,
+      "right": 2852,
+      "bottom": 2712,
+      "width": 618,
+      "height": 45,
+      "confidence": 90.288,
+      "text": "4O Stunden nonstop Action."
+    },
+    {
+      "id": "l112",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 11,
+      "bbox": [
+        1252,
+        2724,
+        2018,
+        2766
+      ],
+      "left": 1252,
+      "top": 2724,
+      "right": 2018,
+      "bottom": 2766,
+      "width": 766,
+      "height": 42,
+      "confidence": 92.864,
+      "text": "waren damals noch Zeiten! ,,We’ve"
+    },
+    {
+      "id": "l113",
+      "blockNumber": 6,
+      "paragraphNumber": 13,
+      "lineNumber": 11,
+      "bbox": [
+        274,
+        2729,
+        949,
+        2765
+      ],
+      "left": 274,
+      "top": 2729,
+      "right": 949,
+      "bottom": 2765,
+      "width": 675,
+      "height": 36,
+      "confidence": 93.747,
+      "text": "Initiator des unbeschreiblichen"
+    },
+    {
+      "id": "l114",
+      "blockNumber": 16,
+      "paragraphNumber": 10,
+      "lineNumber": 1,
+      "bbox": [
+        2235,
+        2730,
+        2847,
+        2767
+      ],
+      "left": 2235,
+      "top": 2730,
+      "right": 2847,
+      "bottom": 2767,
+      "width": 612,
+      "height": 37,
+      "confidence": 92.747,
+      "text": "9. Jetzt schenkst Du Deiner"
+    },
+    {
+      "id": "l115",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 12,
+      "bbox": [
+        1254,
+        2789,
+        1930,
+        2834
+      ],
+      "left": 1254,
+      "top": 2789,
+      "right": 1930,
+      "bottom": 2834,
+      "width": 676,
+      "height": 45,
+      "confidence": 95.864,
+      "text": "been here not more than thirty"
+    },
+    {
+      "id": "l116",
+      "blockNumber": 6,
+      "paragraphNumber": 13,
+      "lineNumber": 12,
+      "bbox": [
+        272,
+        2792,
+        939,
+        2830
+      ],
+      "left": 272,
+      "top": 2792,
+      "right": 939,
+      "bottom": 2830,
+      "width": 667,
+      "height": 38,
+      "confidence": 93.812,
+      "text": "Gefuhls zu sein und im selben"
+    },
+    {
+      "id": "l117",
+      "blockNumber": 16,
+      "paragraphNumber": 10,
+      "lineNumber": 2,
+      "bbox": [
+        2236,
+        2795,
+        2943,
+        2841
+      ],
+      "left": 2236,
+      "top": 2795,
+      "right": 2943,
+      "bottom": 2841,
+      "width": 707,
+      "height": 46,
+      "confidence": 92.236,
+      "text": "Bezugsperson das Automixtape."
+    },
+    {
+      "id": "l118",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 13,
+      "bbox": [
+        1254,
+        2852,
+        2096,
+        2897
+      ],
+      "left": 1254,
+      "top": 2852,
+      "right": 2096,
+      "bottom": 2897,
+      "width": 842,
+      "height": 45,
+      "confidence": 95.653,
+      "text": "seconds, and already | see a bad little"
+    },
+    {
+      "id": "l119",
+      "blockNumber": 6,
+      "paragraphNumber": 13,
+      "lineNumber": 13,
+      "bbox": [
+        273,
+        2856,
+        1062,
+        2902
+      ],
+      "left": 273,
+      "top": 2856,
+      "right": 1062,
+      "bottom": 2902,
+      "width": 789,
+      "height": 46,
+      "confidence": 96.143,
+      "text": "Moment sich seinen eigenen, freien"
+    },
+    {
+      "id": "l120",
+      "blockNumber": 16,
+      "paragraphNumber": 11,
+      "lineNumber": 1,
+      "bbox": [
+        2236,
+        2858,
+        2618,
+        2904
+      ],
+      "left": 2236,
+      "top": 2858,
+      "right": 2618,
+      "bottom": 2904,
+      "width": 382,
+      "height": 46,
+      "confidence": 94.936,
+      "text": "10. Gut gemacht."
+    },
+    {
+      "id": "l121",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 14,
+      "bbox": [
+        1255,
+        2915,
+        2004,
+        2961
+      ],
+      "left": 1255,
+      "top": 2915,
+      "right": 2004,
+      "bottom": 2961,
+      "width": 749,
+      "height": 46,
+      "confidence": 95.198,
+      "text": "kid doing bad little things.“ Genau"
+    },
+    {
+      "id": "l122",
+      "blockNumber": 6,
+      "paragraphNumber": 13,
+      "lineNumber": 14,
+      "bbox": [
+        274,
+        2919,
+        603,
+        2956
+      ],
+      "left": 274,
+      "top": 2919,
+      "right": 603,
+      "bottom": 2956,
+      "width": 329,
+      "height": 37,
+      "confidence": 95.172,
+      "text": "Lauf zu lassen."
+    },
+    {
+      "id": "l123",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2703,
+        2969,
+        3080,
+        3013
+      ],
+      "left": 2703,
+      "top": 2969,
+      "right": 3080,
+      "bottom": 3013,
+      "width": 377,
+      "height": 44,
+      "confidence": 93.697,
+      "text": "Text Pumpa Peta"
+    },
+    {
+      "id": "l124",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 15,
+      "bbox": [
+        1253,
+        2978,
+        1961,
+        3024
+      ],
+      "left": 1253,
+      "top": 2978,
+      "right": 1961,
+      "bottom": 3024,
+      "width": 708,
+      "height": 46,
+      "confidence": 93.145,
+      "text": "diese Dirtyness, die ich gesucht"
+    },
+    {
+      "id": "l125",
+      "blockNumber": 6,
+      "paragraphNumber": 14,
+      "lineNumber": 1,
+      "bbox": [
+        274,
+        2981,
+        1064,
+        3019
+      ],
+      "left": 274,
+      "top": 2981,
+      "right": 1064,
+      "bottom": 3019,
+      "width": 790,
+      "height": 38,
+      "confidence": 93.987,
+      "text": "Dies war eines der ertraumten Ziele"
+    },
+    {
+      "id": "l126",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 16,
+      "bbox": [
+        1254,
+        3042,
+        2050,
+        3088
+      ],
+      "left": 1254,
+      "top": 3042,
+      "right": 2050,
+      "bottom": 3088,
+      "width": 796,
+      "height": 46,
+      "confidence": 96.491,
+      "text": "habe! Als Carl Craig nach 3 Minuten"
+    },
+    {
+      "id": "l127",
+      "blockNumber": 6,
+      "paragraphNumber": 14,
+      "lineNumber": 2,
+      "bbox": [
+        273,
+        3047,
+        967,
+        3093
+      ],
+      "left": 273,
+      "top": 3047,
+      "right": 967,
+      "bottom": 3093,
+      "width": 694,
+      "height": 46,
+      "confidence": 93.362,
+      "text": "meines Daseins. Doch der Weg"
+    },
+    {
+      "id": "l128",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 17,
+      "bbox": [
+        1255,
+        3104,
+        2005,
+        3151
+      ],
+      "left": 1255,
+      "top": 3104,
+      "right": 2005,
+      "bottom": 3151,
+      "width": 750,
+      "height": 47,
+      "confidence": 93.279,
+      "text": "Rasselei auch noch gefuhlvoll den"
+    },
+    {
+      "id": "l129",
+      "blockNumber": 6,
+      "paragraphNumber": 14,
+      "lineNumber": 3,
+      "bbox": [
+        271,
+        3110,
+        1048,
+        3146
+      ],
+      "left": 271,
+      "top": 3110,
+      "right": 1048,
+      "bottom": 3146,
+      "width": 777,
+      "height": 36,
+      "confidence": 94.954,
+      "text": "dahin schien weiter zu sein als das"
+    },
+    {
+      "id": "l130",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 18,
+      "bbox": [
+        1255,
+        3167,
+        1972,
+        3211
+      ],
+      "left": 1255,
+      "top": 3167,
+      "right": 1972,
+      "bottom": 3211,
+      "width": 717,
+      "height": 44,
+      "confidence": 94.281,
+      "text": "Fader fur die Bassline hochzieht,"
+    },
+    {
+      "id": "l131",
+      "blockNumber": 6,
+      "paragraphNumber": 14,
+      "lineNumber": 4,
+      "bbox": [
+        274,
+        3173,
+        1052,
+        3219
+      ],
+      "left": 274,
+      "top": 3173,
+      "right": 1052,
+      "bottom": 3219,
+      "width": 778,
+      "height": 46,
+      "confidence": 91.902,
+      "text": "Universum, das Vorankommen liegt"
+    },
+    {
+      "id": "l132",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 19,
+      "bbox": [
+        1252,
+        3233,
+        2094,
+        3275
+      ],
+      "left": 1252,
+      "top": 3233,
+      "right": 2094,
+      "bottom": 3275,
+      "width": 842,
+      "height": 42,
+      "confidence": 95.559,
+      "text": "verstehe ich endlich, was seine Musik"
+    },
+    {
+      "id": "l133",
+      "blockNumber": 6,
+      "paragraphNumber": 14,
+      "lineNumber": 5,
+      "bbox": [
+        271,
+        3237,
+        1086,
+        3274
+      ],
+      "left": 271,
+      "top": 3237,
+      "right": 1086,
+      "bottom": 3274,
+      "width": 815,
+      "height": 37,
+      "confidence": 94.084,
+      "text": "auf der zwischenmenschlichen Basis"
+    },
+    {
+      "id": "l134",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 20,
+      "bbox": [
+        1253,
+        3296,
+        2006,
+        3332
+      ],
+      "left": 1253,
+      "top": 3296,
+      "right": 2006,
+      "bottom": 3332,
+      "width": 753,
+      "height": 36,
+      "confidence": 93.5,
+      "text": "ausmacht. Der Mix als Kunstform."
+    },
+    {
+      "id": "l135",
+      "blockNumber": 6,
+      "paragraphNumber": 14,
+      "lineNumber": 6,
+      "bbox": [
+        273,
+        3300,
+        1059,
+        3343
+      ],
+      "left": 273,
+      "top": 3300,
+      "right": 1059,
+      "bottom": 3343,
+      "width": 786,
+      "height": 43,
+      "confidence": 94.293,
+      "text": "und man muss darauf achten, nicht"
+    },
+    {
+      "id": "l136",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 21,
+      "bbox": [
+        1257,
+        3359,
+        2015,
+        3404
+      ],
+      "left": 1257,
+      "top": 3359,
+      "right": 2015,
+      "bottom": 3404,
+      "width": 758,
+      "height": 45,
+      "confidence": 86.308,
+      "text": "»Cameras ready, prepare to flash!“"
+    },
+    {
+      "id": "l137",
+      "blockNumber": 6,
+      "paragraphNumber": 14,
+      "lineNumber": 7,
+      "bbox": [
+        270,
+        3363,
+        637,
+        3410
+      ],
+      "left": 270,
+      "top": 3363,
+      "right": 637,
+      "bottom": 3410,
+      "width": 367,
+      "height": 47,
+      "confidence": 91.361,
+      "text": "wegzuschweben."
+    },
+    {
+      "id": "l138",
+      "blockNumber": 6,
+      "paragraphNumber": 15,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        3426,
+        997,
+        3473
+      ],
+      "left": 270,
+      "top": 3426,
+      "right": 997,
+      "bottom": 3473,
+      "width": 727,
+      "height": 47,
+      "confidence": 94.954,
+      "text": "Wie lange dauert es also, dieses"
+    },
+    {
+      "id": "l139",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1764,
+        3488,
+        2099,
+        3524
+      ],
+      "left": 1764,
+      "top": 3488,
+      "right": 2099,
+      "bottom": 3524,
+      "width": 335,
+      "height": 36,
+      "confidence": 94.106,
+      "text": "Text Uwe Krass"
+    },
+    {
+      "id": "l140",
+      "blockNumber": 6,
+      "paragraphNumber": 15,
+      "lineNumber": 2,
+      "bbox": [
+        272,
+        3490,
+        1055,
+        3537
+      ],
+      "left": 272,
+      "top": 3490,
+      "right": 1055,
+      "bottom": 3537,
+      "width": 783,
+      "height": 47,
+      "confidence": 90.97,
+      "text": "Gefuhl zu verspuren? Die Erfahrung"
+    },
+    {
+      "id": "l141",
+      "blockNumber": 6,
+      "paragraphNumber": 15,
+      "lineNumber": 3,
+      "bbox": [
+        272,
+        3552,
+        1037,
+        3600
+      ],
+      "left": 272,
+      "top": 3552,
+      "right": 1037,
+      "bottom": 3600,
+      "width": 765,
+      "height": 48,
+      "confidence": 92.758,
+      "text": "sagt, bis man darauf zuruckblicken"
+    },
+    {
+      "id": "l142",
+      "blockNumber": 6,
+      "paragraphNumber": 15,
+      "lineNumber": 4,
+      "bbox": [
+        273,
+        3617,
+        1106,
+        3663
+      ],
+      "left": 273,
+      "top": 3617,
+      "right": 1106,
+      "bottom": 3663,
+      "width": 833,
+      "height": 46,
+      "confidence": 96.292,
+      "text": "kann. Und sie sagt auch, dass dieses"
+    },
+    {
+      "id": "l143",
+      "blockNumber": 6,
+      "paragraphNumber": 15,
+      "lineNumber": 5,
+      "bbox": [
+        272,
+        3679,
+        1113,
+        3726
+      ],
+      "left": 272,
+      "top": 3679,
+      "right": 1113,
+      "bottom": 3726,
+      "width": 841,
+      "height": 47,
+      "confidence": 91.565,
+      "text": "Gefuhl Aufgaben anzieht, wie Texte fur"
+    },
+    {
+      "id": "l144",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1252,
+        3727,
+        1779,
+        3763
+      ],
+      "left": 1252,
+      "top": 3727,
+      "right": 1779,
+      "bottom": 3763,
+      "width": 527,
+      "height": 36,
+      "confidence": 90.542,
+      "text": "www.rotation-records.de"
+    },
+    {
+      "id": "l145",
+      "blockNumber": 6,
+      "paragraphNumber": 15,
+      "lineNumber": 6,
+      "bbox": [
+        273,
+        3744,
+        787,
+        3790
+      ],
+      "left": 273,
+      "top": 3744,
+      "right": 787,
+      "bottom": 3790,
+      "width": 514,
+      "height": 46,
+      "confidence": 96.616,
+      "text": "Magazine zu schreiben."
+    },
+    {
+      "id": "l146",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1252,
+        3823,
+        1779,
+        3859
+      ],
+      "left": 1252,
+      "top": 3823,
+      "right": 1779,
+      "bottom": 3859,
+      "width": 527,
+      "height": 36,
+      "confidence": 90.339,
+      "text": "www.rotation-records.de"
+    },
+    {
+      "id": "l147",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        726,
+        3904,
+        1120,
+        3949
+      ],
+      "left": 726,
+      "top": 3904,
+      "right": 1120,
+      "bottom": 3949,
+      "width": 394,
+      "height": 45,
+      "confidence": 93.851,
+      "text": "Text Fred Kreeger"
+    }
+  ]
+}

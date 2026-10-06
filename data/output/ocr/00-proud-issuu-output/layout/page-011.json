@@ -1,0 +1,847 @@
+{
+  "scale": 2.0,
+  "imageWidth": 4478,
+  "imageHeight": 3002,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        850,
+        796,
+        1328,
+        827
+      ],
+      "left": 850,
+      "top": 796,
+      "right": 1328,
+      "bottom": 827,
+      "width": 478,
+      "height": 31,
+      "confidence": 72.072,
+      "text": "In Gruppchen zu Fuf§ tigerten wir"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3068,
+        813,
+        3524,
+        843
+      ],
+      "left": 3068,
+      "top": 813,
+      "right": 3524,
+      "bottom": 843,
+      "width": 456,
+      "height": 30,
+      "confidence": 91.918,
+      "text": "Blumen- und Leopardenmuster,"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        849,
+        839,
+        1200,
+        863
+      ],
+      "left": 849,
+      "top": 839,
+      "right": 1200,
+      "bottom": 863,
+      "width": 351,
+      "height": 24,
+      "confidence": 95.391,
+      "text": "auf der Suche nach den"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3065,
+        855,
+        3604,
+        886
+      ],
+      "left": 3065,
+      "top": 855,
+      "right": 3604,
+      "bottom": 886,
+      "width": 539,
+      "height": 31,
+      "confidence": 79.541,
+      "text": "gleiSend helles Licht, schone Frauen"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        850,
+        882,
+        1298,
+        906
+      ],
+      "left": 850,
+      "top": 882,
+      "right": 1298,
+      "bottom": 906,
+      "width": 448,
+      "height": 24,
+      "confidence": 95.803,
+      "text": "Mannchen durch den Park und"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        3066,
+        897,
+        3545,
+        922
+      ],
+      "left": 3066,
+      "top": 897,
+      "right": 3545,
+      "bottom": 922,
+      "width": 479,
+      "height": 25,
+      "confidence": 93.664,
+      "text": "- die Sommermodekollektion der"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        850,
+        924,
+        1391,
+        955
+      ],
+      "left": 850,
+      "top": 924,
+      "right": 1391,
+      "bottom": 955,
+      "width": 541,
+      "height": 31,
+      "confidence": 92.904,
+      "text": "suchten das im Dunklen Verborgene."
+    },
+    {
+      "id": "l008",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        3068,
+        941,
+        3589,
+        971
+      ],
+      "left": 3068,
+      "top": 941,
+      "right": 3589,
+      "bottom": 971,
+      "width": 521,
+      "height": 30,
+      "confidence": 94.956,
+      "text": "Designer Silron und Franky Lam the"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        850,
+        966,
+        1375,
+        990
+      ],
+      "left": 850,
+      "top": 966,
+      "right": 1375,
+      "bottom": 990,
+      "width": 525,
+      "height": 24,
+      "confidence": 91.128,
+      "text": "SMS fur SMS fur SMS wurde einem"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        3068,
+        983,
+        3234,
+        1013
+      ],
+      "left": 3068,
+      "top": 983,
+      "right": 3234,
+      "bottom": 1013,
+      "width": 166,
+      "height": 30,
+      "confidence": 96.431,
+      "text": "Mysterious."
+    },
+    {
+      "id": "l011",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        849,
+        1008,
+        1332,
+        1039
+      ],
+      "left": 849,
+      "top": 1008,
+      "right": 1332,
+      "bottom": 1039,
+      "width": 483,
+      "height": 31,
+      "confidence": 93.368,
+      "text": "dann letztendlich der genaue Ort"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        3068,
+        1025,
+        3591,
+        1051
+      ],
+      "left": 3068,
+      "top": 1025,
+      "right": 3591,
+      "bottom": 1051,
+      "width": 523,
+      "height": 26,
+      "confidence": 91.623,
+      "text": "Bewundernde Blicke, aufschauende"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        850,
+        1052,
+        1387,
+        1082
+      ],
+      "left": 850,
+      "top": 1052,
+      "right": 1387,
+      "bottom": 1082,
+      "width": 537,
+      "height": 30,
+      "confidence": 92.538,
+      "text": "mitgeteilt und Teelichter und dumpfe"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        3066,
+        1066,
+        3454,
+        1097
+      ],
+      "left": 3066,
+      "top": 1066,
+      "right": 3454,
+      "bottom": 1097,
+      "width": 388,
+      "height": 31,
+      "confidence": 83.423,
+      "text": "Augen, offene Minder und"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        850,
+        1093,
+        1369,
+        1124
+      ],
+      "left": 850,
+      "top": 1093,
+      "right": 1369,
+      "bottom": 1124,
+      "width": 519,
+      "height": 31,
+      "confidence": 94.683,
+      "text": "Bassklange lotsten einen durch die"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        3066,
+        1109,
+        3542,
+        1139
+      ],
+      "left": 3066,
+      "top": 1109,
+      "right": 3542,
+      "bottom": 1139,
+      "width": 476,
+      "height": 30,
+      "confidence": 91.683,
+      "text": "angeregtes, freudiges Getuschel"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        850,
+        1136,
+        1361,
+        1166
+      ],
+      "left": 850,
+      "top": 1136,
+      "right": 1361,
+      "bottom": 1166,
+      "width": 511,
+      "height": 30,
+      "confidence": 94.279,
+      "text": "Ruinen bis hin zur ersehnten Party."
+    },
+    {
+      "id": "l018",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        3066,
+        1152,
+        3547,
+        1176
+      ],
+      "left": 3066,
+      "top": 1152,
+      "right": 3547,
+      "bottom": 1176,
+      "width": 481,
+      "height": 24,
+      "confidence": 93.516,
+      "text": "waren die Reaktionen der Gaste."
+    },
+    {
+      "id": "l019",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        850,
+        1177,
+        1382,
+        1208
+      ],
+      "left": 850,
+      "top": 1177,
+      "right": 1382,
+      "bottom": 1208,
+      "width": 532,
+      "height": 31,
+      "confidence": 90.233,
+      "text": "Die Tanzflache war klein, prall gefullt"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 10,
+      "bbox": [
+        3068,
+        1194,
+        3527,
+        1225
+      ],
+      "left": 3068,
+      "top": 1194,
+      "right": 3527,
+      "bottom": 1225,
+      "width": 459,
+      "height": 31,
+      "confidence": 95.197,
+      "text": "Die Manner, begeistert von den"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 10,
+      "bbox": [
+        850,
+        1221,
+        1308,
+        1252
+      ],
+      "left": 850,
+      "top": 1221,
+      "right": 1308,
+      "bottom": 1252,
+      "width": 458,
+      "height": 31,
+      "confidence": 84.072,
+      "text": "und es wurde heif§ geflirtet und"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 11,
+      "bbox": [
+        3067,
+        1236,
+        3471,
+        1264
+      ],
+      "left": 3067,
+      "top": 1236,
+      "right": 3471,
+      "bottom": 1264,
+      "width": 404,
+      "height": 28,
+      "confidence": 81.897,
+      "text": "schonen Frauen, die Frauen"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 11,
+      "bbox": [
+        848,
+        1263,
+        1308,
+        1294
+      ],
+      "left": 848,
+      "top": 1263,
+      "right": 1308,
+      "bottom": 1294,
+      "width": 460,
+      "height": 31,
+      "confidence": 94.38,
+      "text": "getanzt. Die Mucke war ein Mix"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 12,
+      "bbox": [
+        3067,
+        1278,
+        3578,
+        1309
+      ],
+      "left": 3067,
+      "top": 1278,
+      "right": 3578,
+      "bottom": 1309,
+      "width": 511,
+      "height": 31,
+      "confidence": 89.054,
+      "text": "begeistert von den schonen neuen"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        849,
+        1305,
+        1346,
+        1330
+      ],
+      "left": 849,
+      "top": 1305,
+      "right": 1346,
+      "bottom": 1330,
+      "width": 497,
+      "height": 25,
+      "confidence": 93.325,
+      "text": "aus tiefstem Elektro und Minimal-"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 13,
+      "bbox": [
+        3068,
+        1321,
+        3580,
+        1350
+      ],
+      "left": 3068,
+      "top": 1321,
+      "right": 3580,
+      "bottom": 1350,
+      "width": 512,
+      "height": 29,
+      "confidence": 83.985,
+      "text": "Kleidern, Blusen, R6cken, Schuhen"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        848,
+        1347,
+        1340,
+        1378
+      ],
+      "left": 848,
+      "top": 1347,
+      "right": 1340,
+      "bottom": 1378,
+      "width": 492,
+      "height": 31,
+      "confidence": 96.484,
+      "text": "Techno. Bier war billig und als die"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 14,
+      "bbox": [
+        3067,
+        1364,
+        3555,
+        1388
+      ],
+      "left": 3067,
+      "top": 1364,
+      "right": 3555,
+      "bottom": 1388,
+      "width": 488,
+      "height": 24,
+      "confidence": 96.55,
+      "text": "und Accessoires. Alle wurden mit"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        849,
+        1389,
+        1378,
+        1420
+      ],
+      "left": 849,
+      "top": 1389,
+      "right": 1378,
+      "bottom": 1420,
+      "width": 529,
+      "height": 31,
+      "confidence": 91.114,
+      "text": "Grunen kamen, wollte keiner gehen."
+    },
+    {
+      "id": "l030",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 15,
+      "bbox": [
+        3067,
+        1405,
+        3520,
+        1430
+      ],
+      "left": 3067,
+      "top": 1405,
+      "right": 3520,
+      "bottom": 1430,
+      "width": 453,
+      "height": 25,
+      "confidence": 77.111,
+      "text": "neuen Eindricken bombardiert"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        850,
+        1433,
+        1403,
+        1464
+      ],
+      "left": 850,
+      "top": 1433,
+      "right": 1403,
+      "bottom": 1464,
+      "width": 553,
+      "height": 31,
+      "confidence": 93.884,
+      "text": "Schmerzvoll, weil man gehen musste,"
+    },
+    {
+      "id": "l032",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 16,
+      "bbox": [
+        3067,
+        1447,
+        3554,
+        1479
+      ],
+      "left": 3067,
+      "top": 1447,
+      "right": 3554,
+      "bottom": 1479,
+      "width": 487,
+      "height": 32,
+      "confidence": 87.992,
+      "text": "und gingen froh und glucklich mit"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        849,
+        1475,
+        1391,
+        1503
+      ],
+      "left": 849,
+      "top": 1475,
+      "right": 1391,
+      "bottom": 1503,
+      "width": 542,
+      "height": 28,
+      "confidence": 95.124,
+      "text": "aber schmerzlos, da doch alles ohne"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 17,
+      "bbox": [
+        3066,
+        1491,
+        3518,
+        1522
+      ],
+      "left": 3066,
+      "top": 1491,
+      "right": 3518,
+      "bottom": 1522,
+      "width": 452,
+      "height": 31,
+      "confidence": 96.387,
+      "text": "dem Plan heim, einige von den"
+    },
+    {
+      "id": "l035",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        851,
+        1516,
+        1392,
+        1548
+      ],
+      "left": 851,
+      "top": 1516,
+      "right": 1392,
+      "bottom": 1548,
+      "width": 541,
+      "height": 32,
+      "confidence": 81.116,
+      "text": "Korpereinsatz vonstatten ging, zogen"
+    },
+    {
+      "id": "l036",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 18,
+      "bbox": [
+        3068,
+        1533,
+        3611,
+        1564
+      ],
+      "left": 3068,
+      "top": 1533,
+      "right": 3611,
+      "bottom": 1564,
+      "width": 543,
+      "height": 31,
+      "confidence": 87.727,
+      "text": "DesignerstUcken zu erwerben und so"
+    },
+    {
+      "id": "l037",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        849,
+        1558,
+        1327,
+        1589
+      ],
+      "left": 849,
+      "top": 1558,
+      "right": 1327,
+      "bottom": 1589,
+      "width": 478,
+      "height": 31,
+      "confidence": 93.281,
+      "text": "alle weiter auf die nachste Party."
+    },
+    {
+      "id": "l038",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 19,
+      "bbox": [
+        3066,
+        1575,
+        3616,
+        1606
+      ],
+      "left": 3066,
+      "top": 1575,
+      "right": 3616,
+      "bottom": 1606,
+      "width": 550,
+      "height": 31,
+      "confidence": 93.179,
+      "text": "die lokalen Underground-Designer bei"
+    },
+    {
+      "id": "l039",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        851,
+        1602,
+        1347,
+        1627
+      ],
+      "left": 851,
+      "top": 1602,
+      "right": 1347,
+      "bottom": 1627,
+      "width": 496,
+      "height": 25,
+      "confidence": 93.922,
+      "text": "Und der nachste Keller wartet nur"
+    },
+    {
+      "id": "l040",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 20,
+      "bbox": [
+        3068,
+        1617,
+        3472,
+        1642
+      ],
+      "left": 3068,
+      "top": 1617,
+      "right": 3472,
+      "bottom": 1642,
+      "width": 404,
+      "height": 25,
+      "confidence": 82.564,
+      "text": "ihrer Arbeit zu unterstutzen."
+    },
+    {
+      "id": "l041",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        849,
+        1644,
+        1247,
+        1669
+      ],
+      "left": 849,
+      "top": 1644,
+      "right": 1247,
+      "bottom": 1669,
+      "width": 398,
+      "height": 25,
+      "confidence": 94.592,
+      "text": "darauf entdeckt zu werden."
+    },
+    {
+      "id": "l042",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        108,
+        2373,
+        126,
+        2493
+      ],
+      "left": 108,
+      "top": 2373,
+      "right": 126,
+      "bottom": 2493,
+      "width": 18,
+      "height": 120,
+      "confidence": 32.273,
+      "text": "a,"
+    }
+  ]
+}

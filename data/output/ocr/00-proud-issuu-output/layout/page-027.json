@@ -1,0 +1,87 @@
+{
+  "scale": 2.0,
+  "imageWidth": 4478,
+  "imageHeight": 3002,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        78,
+        60,
+        206,
+        100
+      ],
+      "left": 78,
+      "top": 60,
+      "right": 206,
+      "bottom": 100,
+      "width": 128,
+      "height": 40,
+      "confidence": 96.067,
+      "text": "shoot"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        4272,
+        60,
+        4399,
+        100
+      ],
+      "left": 4272,
+      "top": 60,
+      "right": 4399,
+      "bottom": 100,
+      "width": 127,
+      "height": 40,
+      "confidence": 96.879,
+      "text": "shoot"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        4277,
+        2918,
+        4405,
+        2963
+      ],
+      "left": 4277,
+      "top": 2918,
+      "right": 4405,
+      "bottom": 2963,
+      "width": 128,
+      "height": 45,
+      "confidence": 92.766,
+      "text": "proud 53"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        78,
+        2922,
+        202,
+        2959
+      ],
+      "left": 78,
+      "top": 2922,
+      "right": 202,
+      "bottom": 2959,
+      "width": 124,
+      "height": 37,
+      "confidence": 96.304,
+      "text": "52 proud"
+    }
+  ]
+}

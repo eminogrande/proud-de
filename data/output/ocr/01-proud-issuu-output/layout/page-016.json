@@ -1,0 +1,567 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        271,
+        1437,
+        890,
+        1483
+      ],
+      "left": 271,
+      "top": 1437,
+      "right": 890,
+      "bottom": 1483,
+      "width": 619,
+      "height": 46,
+      "confidence": 94.57,
+      "text": "Yaka Paka. Ein bulgarisches"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1255,
+        1437,
+        1971,
+        1483
+      ],
+      "left": 1255,
+      "top": 1437,
+      "right": 1971,
+      "bottom": 1483,
+      "width": 716,
+      "height": 46,
+      "confidence": 94.218,
+      "text": "Donnerstag gegen 24 Uhr, wobei"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        274,
+        1500,
+        929,
+        1545
+      ],
+      "left": 274,
+      "top": 1500,
+      "right": 929,
+      "bottom": 1545,
+      "width": 655,
+      "height": 45,
+      "confidence": 93.746,
+      "text": "Kuppelnest verwandelt sich in"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1254,
+        1500,
+        2032,
+        1537
+      ],
+      "left": 1254,
+      "top": 1500,
+      "right": 2032,
+      "bottom": 1537,
+      "width": 778,
+      "height": 37,
+      "confidence": 94.383,
+      "text": "bereits um 23 Uhr alle Veranstalter"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1254,
+        1562,
+        1946,
+        1600
+      ],
+      "left": 1254,
+      "top": 1562,
+      "right": 1946,
+      "bottom": 1600,
+      "width": 692,
+      "height": 38,
+      "confidence": 92.988,
+      "text": "betrunken mit den DJs uber die"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        271,
+        1563,
+        1040,
+        1609
+      ],
+      "left": 271,
+      "top": 1563,
+      "right": 1040,
+      "bottom": 1609,
+      "width": 769,
+      "height": 46,
+      "confidence": 93.288,
+      "text": "einen grellen Lichterdschungel. Ein"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        271,
+        1628,
+        1089,
+        1674
+      ],
+      "left": 271,
+      "top": 1628,
+      "right": 1089,
+      "bottom": 1674,
+      "width": 818,
+      "height": 46,
+      "confidence": 92.308,
+      "text": "derartiges Etablissement als Techno-"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1252,
+        1628,
+        1944,
+        1664
+      ],
+      "left": 1252,
+      "top": 1628,
+      "right": 1944,
+      "bottom": 1664,
+      "width": 692,
+      "height": 36,
+      "confidence": 95.072,
+      "text": "Tische tanzten. Um ein Uhr war"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1253,
+        1689,
+        1990,
+        1737
+      ],
+      "left": 1253,
+      "top": 1689,
+      "right": 1990,
+      "bottom": 1737,
+      "width": 737,
+      "height": 48,
+      "confidence": 88.681,
+      "text": "der Laden mit 500 Gasten gefiullt"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        272,
+        1691,
+        983,
+        1737
+      ],
+      "left": 272,
+      "top": 1691,
+      "right": 983,
+      "bottom": 1737,
+      "width": 711,
+      "height": 46,
+      "confidence": 93.216,
+      "text": "Spielplatz im Herzen Kreuzbergs"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 3,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        271,
+        1754,
+        1012,
+        1800
+      ],
+      "left": 271,
+      "top": 1754,
+      "right": 1012,
+      "bottom": 1800,
+      "width": 741,
+      "height": 46,
+      "confidence": 92.231,
+      "text": "zu gewinnen ist eine unglaubliche"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        1254,
+        1754,
+        1954,
+        1800
+      ],
+      "left": 1254,
+      "top": 1754,
+      "right": 1954,
+      "bottom": 1800,
+      "width": 700,
+      "height": 46,
+      "confidence": 93.902,
+      "text": "und alle hingen wie gebannt vor"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 3,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        272,
+        1815,
+        1074,
+        1853
+      ],
+      "left": 272,
+      "top": 1815,
+      "right": 1074,
+      "bottom": 1853,
+      "width": 802,
+      "height": 38,
+      "confidence": 93.686,
+      "text": "Gluckssache. Dazu braucht man nur"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 4,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        1253,
+        1817,
+        1914,
+        1863
+      ],
+      "left": 1253,
+      "top": 1817,
+      "right": 1914,
+      "bottom": 1863,
+      "width": 661,
+      "height": 46,
+      "confidence": 93.465,
+      "text": "den einarmigen Banditen, den"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 3,
+      "paragraphNumber": 3,
+      "lineNumber": 3,
+      "bbox": [
+        271,
+        1880,
+        1107,
+        1927
+      ],
+      "left": 271,
+      "top": 1880,
+      "right": 1107,
+      "bottom": 1927,
+      "width": 836,
+      "height": 47,
+      "confidence": 94.051,
+      "text": "ein Handy und einen guten turkischen"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 4,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        1252,
+        1881,
+        2019,
+        1926
+      ],
+      "left": 1252,
+      "top": 1881,
+      "right": 2019,
+      "bottom": 1926,
+      "width": 767,
+      "height": 45,
+      "confidence": 93.24,
+      "text": "Wandpostern der Playboy-Boys und"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 4,
+      "paragraphNumber": 3,
+      "lineNumber": 3,
+      "bbox": [
+        1251,
+        1943,
+        2052,
+        1990
+      ],
+      "left": 1251,
+      "top": 1943,
+      "right": 2052,
+      "bottom": 1990,
+      "width": 801,
+      "height": 47,
+      "confidence": 92.944,
+      "text": "-Girls und den unglaublich hubschen"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 3,
+      "paragraphNumber": 3,
+      "lineNumber": 4,
+      "bbox": [
+        273,
+        1944,
+        1045,
+        1989
+      ],
+      "left": 273,
+      "top": 1944,
+      "right": 1045,
+      "bottom": 1989,
+      "width": 772,
+      "height": 45,
+      "confidence": 96.3,
+      "text": "Papa, der die Community wie seine"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 3,
+      "paragraphNumber": 3,
+      "lineNumber": 5,
+      "bbox": [
+        271,
+        2007,
+        1068,
+        2053
+      ],
+      "left": 271,
+      "top": 2007,
+      "right": 1068,
+      "bottom": 2053,
+      "width": 797,
+      "height": 46,
+      "confidence": 94.079,
+      "text": "eigene Westentasche kennt und mit"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 4,
+      "paragraphNumber": 3,
+      "lineNumber": 4,
+      "bbox": [
+        1255,
+        2007,
+        2005,
+        2052
+      ],
+      "left": 1255,
+      "top": 2007,
+      "right": 2005,
+      "bottom": 2052,
+      "width": 750,
+      "height": 45,
+      "confidence": 80.208,
+      "text": "Barladys. Die Nachbarin schmeif8t"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 4,
+      "paragraphNumber": 3,
+      "lineNumber": 5,
+      "bbox": [
+        1255,
+        2069,
+        2006,
+        2107
+      ],
+      "left": 1255,
+      "top": 2069,
+      "right": 2006,
+      "bottom": 2107,
+      "width": 751,
+      "height": 38,
+      "confidence": 93.405,
+      "text": "Blumenkasten und bekommt Sekt"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 3,
+      "paragraphNumber": 3,
+      "lineNumber": 6,
+      "bbox": [
+        271,
+        2070,
+        1028,
+        2107
+      ],
+      "left": 271,
+      "top": 2070,
+      "right": 1028,
+      "bottom": 2107,
+      "width": 757,
+      "height": 37,
+      "confidence": 92.973,
+      "text": "zwei Anrufen einen Freischein zum"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 3,
+      "paragraphNumber": 3,
+      "lineNumber": 7,
+      "bbox": [
+        270,
+        2133,
+        1008,
+        2171
+      ],
+      "left": 270,
+      "top": 2133,
+      "right": 1008,
+      "bottom": 2171,
+      "width": 738,
+      "height": 38,
+      "confidence": 85.149,
+      "text": "Veranstalten klarmacht. Tesekkur"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 4,
+      "paragraphNumber": 3,
+      "lineNumber": 6,
+      "bbox": [
+        1252,
+        2133,
+        1909,
+        2181
+      ],
+      "left": 1252,
+      "top": 2133,
+      "right": 1909,
+      "bottom": 2181,
+      "width": 657,
+      "height": 48,
+      "confidence": 93.279,
+      "text": "zuruck, alle sind glucklich und"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 4,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        1254,
+        2197,
+        1952,
+        2235
+      ],
+      "left": 1254,
+      "top": 2197,
+      "right": 1952,
+      "bottom": 2235,
+      "width": 698,
+      "height": 38,
+      "confidence": 86.981,
+      "text": "bald heift es wieder Yaka-Paka-"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 3,
+      "paragraphNumber": 3,
+      "lineNumber": 8,
+      "bbox": [
+        271,
+        2198,
+        571,
+        2240
+      ],
+      "left": 271,
+      "top": 2198,
+      "right": 571,
+      "bottom": 2240,
+      "width": 300,
+      "height": 42,
+      "confidence": 96.495,
+      "text": "ederim, baba!"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 3,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        274,
+        2261,
+        1050,
+        2307
+      ],
+      "left": 274,
+      "top": 2261,
+      "right": 1050,
+      "bottom": 2307,
+      "width": 776,
+      "height": 46,
+      "confidence": 93.737,
+      "text": "Die erste Veranstaltung begann am"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 4,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        1255,
+        2261,
+        1686,
+        2297
+      ],
+      "left": 1255,
+      "top": 2261,
+      "right": 1686,
+      "bottom": 2297,
+      "width": 431,
+      "height": 36,
+      "confidence": 92.107,
+      "text": "Entertainment ahoi."
+    }
+  ]
+}

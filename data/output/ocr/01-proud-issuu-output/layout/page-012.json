@@ -1,0 +1,1227 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        923,
+        122,
+        3188,
+        232
+      ],
+      "left": 923,
+      "top": 122,
+      "right": 3188,
+      "bottom": 232,
+      "width": 2265,
+      "height": 110,
+      "confidence": 90.386,
+      "text": "tres |"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1256,
+        267,
+        3188,
+        333
+      ],
+      "left": 1256,
+      "top": 267,
+      "right": 3188,
+      "bottom": 333,
+      "width": 1932,
+      "height": 66,
+      "confidence": 87.099,
+      "text": "Ihr fragt Euch, wie unglaublich hei eine Frau in einem blaumetallikfarbenen |"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1254,
+        335,
+        3034,
+        382
+      ],
+      "left": 1254,
+      "top": 335,
+      "right": 3034,
+      "bottom": 382,
+      "width": 1780,
+      "height": 47,
+      "confidence": 95.057,
+      "text": "Swimsuit aussehen kann? Dann gehen Sie nicht Uber Los, ziehen Sie nie wieder"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1253,
+        397,
+        3188,
+        463
+      ],
+      "left": 1253,
+      "top": 397,
+      "right": 3188,
+      "bottom": 463,
+      "width": 1935,
+      "height": 66,
+      "confidence": 94.161,
+      "text": "etwas anderes an und begeben sich auf direktem Weg zum Report! |"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2694,
+        480,
+        3141,
+        525
+      ],
+      "left": 2694,
+      "top": 480,
+      "right": 3141,
+      "bottom": 525,
+      "width": 447,
+      "height": 45,
+      "confidence": 92.677,
+      "text": "www.tresbonjour.de"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3152,
+        528,
+        3188,
+        564
+      ],
+      "left": 3152,
+      "top": 528,
+      "right": 3188,
+      "bottom": 564,
+      "width": 36,
+      "height": 36,
+      "confidence": 66.157,
+      "text": "="
+    },
+    {
+      "id": "l007",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1252,
+        1066,
+        1983,
+        1103
+      ],
+      "left": 1252,
+      "top": 1066,
+      "right": 1983,
+      "bottom": 1103,
+      "width": 731,
+      "height": 37,
+      "confidence": 94.75,
+      "text": "Was ware die Welt ohne Science-"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1256,
+        1129,
+        1950,
+        1166
+      ],
+      "left": 1256,
+      "top": 1129,
+      "right": 1950,
+      "bottom": 1166,
+      "width": 694,
+      "height": 37,
+      "confidence": 92.966,
+      "text": "Fiction? Die rechte Gehirnhalfte"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 6,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1253,
+        1193,
+        2000,
+        1237
+      ],
+      "left": 1253,
+      "top": 1193,
+      "right": 2000,
+      "bottom": 1237,
+      "width": 747,
+      "height": 44,
+      "confidence": 91.136,
+      "text": "des Gehirns liebt Personenprofile,"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 6,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        1255,
+        1256,
+        2012,
+        1302
+      ],
+      "left": 1255,
+      "top": 1256,
+      "right": 2012,
+      "bottom": 1302,
+      "width": 757,
+      "height": 46,
+      "confidence": 96.469,
+      "text": "MySpace, Facebook und die ganze"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 6,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        1255,
+        1319,
+        2032,
+        1363
+      ],
+      "left": 1255,
+      "top": 1319,
+      "right": 2032,
+      "bottom": 1363,
+      "width": 777,
+      "height": 44,
+      "confidence": 94.866,
+      "text": "neue Konnektivitat. Stell Dir vor, Du"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 6,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        1255,
+        1383,
+        2076,
+        1429
+      ],
+      "left": 1255,
+      "top": 1383,
+      "right": 2076,
+      "bottom": 1429,
+      "width": 821,
+      "height": 46,
+      "confidence": 93.197,
+      "text": "hockst irgendwo im Park und checkst"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2491,
+        1413,
+        3096,
+        1437
+      ],
+      "left": 2491,
+      "top": 1413,
+      "right": 3096,
+      "bottom": 1437,
+      "width": 605,
+      "height": 24,
+      "confidence": 37.569,
+      "text": "> :"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1253,
+        1446,
+        2377,
+        1494
+      ],
+      "left": 1253,
+      "top": 1446,
+      "right": 2377,
+      "bottom": 1494,
+      "width": 1124,
+      "height": 48,
+      "confidence": 85.796,
+      "text": "auf Deinem Handy, wer so um Dich ."
+    },
+    {
+      "id": "l015",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1255,
+        1511,
+        3070,
+        1578
+      ],
+      "left": 1255,
+      "top": 1511,
+      "right": 3070,
+      "bottom": 1578,
+      "width": 1815,
+      "height": 67,
+      "confidence": 93.662,
+      "text": "herumsitzt. Nicht unbedingt Deine | Okay, die Donerladeninflation in Berlin"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1476,
+        1574,
+        3062,
+        1646
+      ],
+      "left": 1476,
+      "top": 1574,
+      "right": 3062,
+      "bottom": 1646,
+      "width": 1586,
+      "height": 72,
+      "confidence": 91.891,
+      "text": "sondern eher gegenuber, reicht langsam. Es ist ja verstandlich,"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1253,
+        1633,
+        2901,
+        1711
+      ],
+      "left": 1253,
+      "top": 1633,
+      "right": 2901,
+      "bottom": 1711,
+      "width": 1648,
+      "height": 78,
+      "confidence": 90.379,
+      "text": "die sehnecke aut der Decke. dass Bewahrtes gerne kopiert"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1652,
+        1700,
+        2981,
+        1769
+      ],
+      "left": 1652,
+      "top": 1700,
+      "right": 2981,
+      "bottom": 1769,
+      "width": 1329,
+      "height": 69,
+      "confidence": 77.596,
+      "text": "LM ihren und kopiert und kopiert wird, aber"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        1255,
+        1764,
+        2998,
+        1822
+      ],
+      "left": 1255,
+      "top": 1764,
+      "right": 2998,
+      "bottom": 1822,
+      "width": 1743,
+      "height": 58,
+      "confidence": 94.157,
+      "text": "Namen, manchmal ihre Hobbys oder Inflation hat ein charakteristisches"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        1252,
+        1827,
+        2972,
+        1886
+      ],
+      "left": 1252,
+      "top": 1827,
+      "right": 2972,
+      "bottom": 1886,
+      "width": 1720,
+      "height": 59,
+      "confidence": 91.187,
+      "text": "was auch immer — je nach privaten Merkmal: Es macht alles wertlos."
+    },
+    {
+      "id": "l021",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        1256,
+        1890,
+        2996,
+        1949
+      ],
+      "left": 1256,
+      "top": 1890,
+      "right": 2996,
+      "bottom": 1949,
+      "width": 1740,
+      "height": 59,
+      "confidence": 92.817,
+      "text": "Einstellungen. Installiert wird das Im Rest Deutschlands machen die"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        1254,
+        1952,
+        2986,
+        2022
+      ],
+      "left": 1254,
+      "top": 1952,
+      "right": 2986,
+      "bottom": 2022,
+      "width": 1732,
+      "height": 70,
+      "confidence": 94.547,
+      "text": "Programm idiotensicher uber die das anders. Hier gleichen sich die"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1256,
+        2018,
+        3048,
+        2086
+      ],
+      "left": 1256,
+      "top": 2018,
+      "right": 3048,
+      "bottom": 2086,
+      "width": 1792,
+      "height": 68,
+      "confidence": 95.639,
+      "text": "Internet-Verbindung vom Handy. Social Hansestadt Hamburg und die Pampa"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1255,
+        2032,
+        3349,
+        2150
+      ],
+      "left": 1255,
+      "top": 2032,
+      "right": 3349,
+      "bottom": 2150,
+      "width": 2094,
+      "height": 118,
+      "confidence": 87.81,
+      "text": "Networking, nachste Etappe. Deine zwischen Rutenberg und Lychen, '"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        274,
+        2140,
+        2966,
+        2217
+      ],
+      "left": 274,
+      "top": 2140,
+      "right": 2966,
+      "bottom": 2217,
+      "width": 2692,
+      "height": 77,
+      "confidence": 86.881,
+      "text": "Hier entsteht etwas ganz Grofes beste Freundin steigt in die U-Bahn, denn das Déner Sandwich kostet"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 13,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        269,
+        2208,
+        2942,
+        2296
+      ],
+      "left": 269,
+      "top": 2208,
+      "right": 2942,
+      "bottom": 2296,
+      "width": 2673,
+      "height": 88,
+      "confidence": 90.474,
+      "text": "— Potential ohne Ende. Es ist so | Du hemerket sie nicht, aber Dein hier jeweils einen fucking Funfer"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 13,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        270,
+        2271,
+        2992,
+        2339
+      ],
+      "left": 270,
+      "top": 2271,
+      "right": 2992,
+      "bottom": 2339,
+      "width": 2722,
+      "height": 68,
+      "confidence": 89.518,
+      "text": "verdammt gut, dass es sogar Handy tut’s! Ihr trefft Euch, quatscht und ist eine Seltenheit. Manchmal"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 13,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        270,
+        2330,
+        2924,
+        2436
+      ],
+      "left": 270,
+      "top": 2330,
+      "right": 2924,
+      "bottom": 2436,
+      "width": 2654,
+      "height": 106,
+      "confidence": 89.416,
+      "text": "geférdert wird. Auch von _ Sale | und verpasst Eure Station. Wahnsinn. schmecken die sogar ganz geil."
+    },
+    {
+      "id": "l029",
+      "blockNumber": 13,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        2397,
+        2959,
+        2466
+      ],
+      "left": 270,
+      "top": 2397,
+      "right": 2959,
+      "bottom": 2466,
+      "width": 2689,
+      "height": 69,
+      "confidence": 85.883,
+      "text": "fiir Kunst, Kiinstler und Kunstwerke. Naturlich ist das umsonst und _ Aber gerade in der Hochburg des"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 13,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        274,
+        2462,
+        3066,
+        2529
+      ],
+      "left": 274,
+      "top": 2462,
+      "right": 3066,
+      "bottom": 2529,
+      "width": 2792,
+      "height": 67,
+      "confidence": 92.096,
+      "text": "Flache mehr als 100 Ateliers und kommt, wie alles Gute, aus Berlin. echten Déners kann man immer 6fter"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 13,
+      "paragraphNumber": 3,
+      "lineNumber": 3,
+      "bbox": [
+        270,
+        2505,
+        3002,
+        2596
+      ],
+      "left": 270,
+      "top": 2505,
+      "right": 3002,
+      "bottom": 2596,
+      "width": 2732,
+      "height": 91,
+      "confidence": 90.786,
+      "text": "Tonstudios. Fotografie, Film, Musik | UDK-Jungs und -Madels haben das Touristen meckern héren, dass der"
+    },
+    {
+      "id": "l032",
+      "blockNumber": 13,
+      "paragraphNumber": 3,
+      "lineNumber": 4,
+      "bbox": [
+        273,
+        2588,
+        3053,
+        2656
+      ],
+      "left": 273,
+      "top": 2588,
+      "right": 3053,
+      "bottom": 2656,
+      "width": 2780,
+      "height": 68,
+      "confidence": 90.68,
+      "text": "und Mode. Dazu ein elektronischer als Diplomarbeit begonnen und feilen beriihmte Berliner Déner gar nicht so"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 13,
+      "paragraphNumber": 3,
+      "lineNumber": 5,
+      "bbox": [
+        272,
+        2644,
+        3012,
+        2720
+      ],
+      "left": 272,
+      "top": 2644,
+      "right": 3012,
+      "bottom": 2720,
+      "width": 2740,
+      "height": 76,
+      "confidence": 90.197,
+      "text": "Club fiir uns, der auch fiir unsere im jetzt an allen Ecken und Enden fur lecker sei, wie es der Lonely Planet"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 13,
+      "paragraphNumber": 3,
+      "lineNumber": 6,
+      "bbox": [
+        274,
+        2715,
+        2994,
+        2784
+      ],
+      "left": 274,
+      "top": 2715,
+      "right": 2994,
+      "bottom": 2784,
+      "width": 2720,
+      "height": 69,
+      "confidence": 94.068,
+      "text": "Launch-Party am 17. Januar herhalten Qualitat und Look. World Weit Welt predigt. Allererste Anlaufstelle, um"
+    },
+    {
+      "id": "l035",
+      "blockNumber": 13,
+      "paragraphNumber": 3,
+      "lineNumber": 7,
+      "bbox": [
+        270,
+        2778,
+        3060,
+        2847
+      ],
+      "left": 270,
+      "top": 2778,
+      "right": 3060,
+      "bottom": 2847,
+      "width": 2790,
+      "height": 69,
+      "confidence": 94.49,
+      "text": "wird. Im Moment putzen die sich 2.1 wir kommen! das zu widerlegen, ist unser geliebter"
+    },
+    {
+      "id": "l036",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        2852,
+        1055,
+        2898
+      ],
+      "left": 270,
+      "top": 2852,
+      "right": 1055,
+      "bottom": 2898,
+      "width": 785,
+      "height": 46,
+      "confidence": 92.402,
+      "text": "ganz emsig, planen und entwickeln."
+    },
+    {
+      "id": "l037",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2237,
+        2863,
+        2983,
+        2901
+      ],
+      "left": 2237,
+      "top": 2863,
+      "right": 2983,
+      "bottom": 2901,
+      "width": 746,
+      "height": 38,
+      "confidence": 88.602,
+      "text": "Imren in der Schonleinstra8e. Der"
+    },
+    {
+      "id": "l038",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        274,
+        2907,
+        1098,
+        2962
+      ],
+      "left": 274,
+      "top": 2907,
+      "right": 1098,
+      "bottom": 2962,
+      "width": 824,
+      "height": 55,
+      "confidence": 92.009,
+      "text": "Im Ubrigen wirken die Wande wie das"
+    },
+    {
+      "id": "l039",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2236,
+        2926,
+        2995,
+        2963
+      ],
+      "left": 2236,
+      "top": 2926,
+      "right": 2995,
+      "bottom": 2963,
+      "width": 759,
+      "height": 37,
+      "confidence": 95.581,
+      "text": "kostet mit zwei Euro 50 fur unsere"
+    },
+    {
+      "id": "l040",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        270,
+        2978,
+        955,
+        3025
+      ],
+      "left": 270,
+      "top": 2978,
+      "right": 955,
+      "bottom": 3025,
+      "width": 685,
+      "height": 47,
+      "confidence": 93.364,
+      "text": "grafische Gastebuch der Stadt."
+    },
+    {
+      "id": "l041",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2233,
+        2990,
+        2939,
+        3034
+      ],
+      "left": 2233,
+      "top": 2990,
+      "right": 2939,
+      "bottom": 3034,
+      "width": 706,
+      "height": 44,
+      "confidence": 94.217,
+      "text": "Verhaltnisse recht viel, killt aber"
+    },
+    {
+      "id": "l042",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        273,
+        3041,
+        1069,
+        3088
+      ],
+      "left": 273,
+      "top": 3041,
+      "right": 1069,
+      "bottom": 3088,
+      "width": 796,
+      "height": 47,
+      "confidence": 91.937,
+      "text": "begleitet den phb uber die nachsten"
+    },
+    {
+      "id": "l043",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        2228,
+        3054,
+        2979,
+        3100
+      ],
+      "left": 2228,
+      "top": 3054,
+      "right": 2979,
+      "bottom": 3100,
+      "width": 751,
+      "height": 46,
+      "confidence": 91.826,
+      "text": "jegliche restdeutsche Konkurrenz."
+    },
+    {
+      "id": "l044",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        273,
+        3105,
+        1083,
+        3149
+      ],
+      "left": 273,
+      "top": 3105,
+      "right": 1083,
+      "bottom": 3149,
+      "width": 810,
+      "height": 44,
+      "confidence": 95.032,
+      "text": "Monate und Jahre, featured Kunstler"
+    },
+    {
+      "id": "l045",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        2237,
+        3117,
+        2962,
+        3163
+      ],
+      "left": 2237,
+      "top": 3117,
+      "right": 2962,
+      "bottom": 3163,
+      "width": 725,
+      "height": 46,
+      "confidence": 93.469,
+      "text": "Und frischer Ayran ist der Knaller"
+    },
+    {
+      "id": "l046",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        273,
+        3170,
+        1075,
+        3216
+      ],
+      "left": 273,
+      "top": 3170,
+      "right": 1075,
+      "bottom": 3216,
+      "width": 802,
+      "height": 46,
+      "confidence": 94.915,
+      "text": "und gibt Euch Hook-ups, wenn Ihr es"
+    },
+    {
+      "id": "l047",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        2132,
+        3180,
+        2647,
+        3238
+      ],
+      "left": 2132,
+      "top": 3180,
+      "right": 2647,
+      "bottom": 3238,
+      "width": 515,
+      "height": 58,
+      "confidence": 78.963,
+      "text": "mm gegen jeden Kater!"
+    },
+    {
+      "id": "l048",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        273,
+        3231,
+        503,
+        3279
+      ],
+      "left": 273,
+      "top": 3231,
+      "right": 503,
+      "bottom": 3279,
+      "width": 230,
+      "height": 48,
+      "confidence": 85.145,
+      "text": "notig habt."
+    },
+    {
+      "id": "l049",
+      "blockNumber": 18,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        644,
+        3242,
+        2547,
+        3365
+      ],
+      "left": 644,
+      "top": 3242,
+      "right": 2547,
+      "bottom": 3365,
+      "width": 1903,
+      "height": 123,
+      "confidence": 56.72,
+      "text": "www.phb-berlin.de : aaa a"
+    },
+    {
+      "id": "l050",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1254,
+        3566,
+        3044,
+        3613
+      ],
+      "left": 1254,
+      "top": 3566,
+      "right": 3044,
+      "bottom": 3613,
+      "width": 1790,
+      "height": 47,
+      "confidence": 91.699,
+      "text": "Seit Jahren rennt Jurgen durch Berlin und entdeckt die besten Graffitis der Stadt."
+    },
+    {
+      "id": "l051",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1183,
+        3620,
+        3026,
+        3690
+      ],
+      "left": 1183,
+      "top": 3620,
+      "right": 3026,
+      "bottom": 3690,
+      "width": 1843,
+      "height": 70,
+      "confidence": 94.465,
+      "text": "| Inzwischen existieren mehr als 5000 Alben auf seiner Webseite mit in der Regel"
+    },
+    {
+      "id": "l052",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        821,
+        3692,
+        3041,
+        3740
+      ],
+      "left": 821,
+      "top": 3692,
+      "right": 3041,
+      "bottom": 3740,
+      "width": 2220,
+      "height": 48,
+      "confidence": 87.721,
+      "text": ". zwolf Bildern pro Aloum. Hier findet | hr die abgelegensten Farbarrangements der"
+    },
+    {
+      "id": "l053",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        385,
+        3711,
+        2999,
+        3866
+      ],
+      "left": 385,
+      "top": 3711,
+      "right": 2999,
+      "bottom": 3866,
+      "width": 2614,
+      "height": 155,
+      "confidence": 90.033,
+      "text": "S h It g litte r | Stadt. Von der zerstorten Fabrikhalle bis zu den dicken Bombings in Kreuzberg,"
+    },
+    {
+      "id": "l054",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        1253,
+        3820,
+        2991,
+        3867
+      ],
+      "left": 1253,
+      "top": 3820,
+      "right": 2991,
+      "bottom": 3867,
+      "width": 1738,
+      "height": 47,
+      "confidence": 84.085,
+      "text": "alles ist dabei. Mit groSer Leidenschaft wird das Archiv regelmaf8ig aktualisiert"
+    },
+    {
+      "id": "l055",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        1254,
+        3883,
+        3073,
+        3930
+      ],
+      "left": 1254,
+      "top": 3883,
+      "right": 3073,
+      "bottom": 3930,
+      "width": 1819,
+      "height": 47,
+      "confidence": 92.959,
+      "text": "und gepflegt. Besucht die Webseite, hinterlasst einen Kommentar und unterstutzt,"
+    },
+    {
+      "id": "l056",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        272,
+        3898,
+        1190,
+        3968
+      ],
+      "left": 272,
+      "top": 3898,
+      "right": 1190,
+      "bottom": 3968,
+      "width": 918,
+      "height": 70,
+      "confidence": 93.576,
+      "text": "Shit Glitter lasst dich Gold |"
+    },
+    {
+      "id": "l057",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        1252,
+        3947,
+        1653,
+        3983
+      ],
+      "left": 1252,
+      "top": 3947,
+      "right": 1653,
+      "bottom": 3983,
+      "width": 401,
+      "height": 36,
+      "confidence": 93.502,
+      "text": "was dort entsteht!"
+    },
+    {
+      "id": "l058",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        274,
+        3970,
+        1046,
+        4014
+      ],
+      "left": 274,
+      "top": 3970,
+      "right": 1046,
+      "bottom": 4014,
+      "width": 772,
+      "height": 44,
+      "confidence": 92.402,
+      "text": "Fur lacherliche $450 bekommst du"
+    },
+    {
+      "id": "l059",
+      "blockNumber": 20,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        271,
+        4037,
+        1190,
+        4108
+      ],
+      "left": 271,
+      "top": 4037,
+      "right": 1190,
+      "bottom": 4108,
+      "width": 919,
+      "height": 71,
+      "confidence": 92.984,
+      "text": "deine 14-Karat Goldkapsel nach |"
+    },
+    {
+      "id": "l060",
+      "blockNumber": 20,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        274,
+        4101,
+        424,
+        4138
+      ],
+      "left": 274,
+      "top": 4101,
+      "right": 424,
+      "bottom": 4138,
+      "width": 150,
+      "height": 37,
+      "confidence": 96.624,
+      "text": "Hause."
+    },
+    {
+      "id": "l061",
+      "blockNumber": 22,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        572,
+        4175,
+        1189,
+        4247
+      ],
+      "left": 572,
+      "top": 4175,
+      "right": 1189,
+      "bottom": 4247,
+      "width": 617,
+      "height": 72,
+      "confidence": 90.064,
+      "text": "www.citizen-citizen.com |"
+    }
+  ]
+}

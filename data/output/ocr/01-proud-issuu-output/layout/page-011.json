@@ -1,0 +1,407 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        259,
+        1024,
+        296
+      ],
+      "left": 273,
+      "top": 259,
+      "right": 1024,
+      "bottom": 296,
+      "width": 751,
+      "height": 37,
+      "confidence": 94.333,
+      "text": "Ihr konnt alle kommen. Nur muss"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        271,
+        323,
+        1084,
+        362
+      ],
+      "left": 271,
+      "top": 323,
+      "right": 1084,
+      "bottom": 362,
+      "width": 813,
+      "height": 39,
+      "confidence": 89.517,
+      "text": "der Grofteil leider vor der Tur stehen"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        273,
+        383,
+        971,
+        436
+      ],
+      "left": 273,
+      "top": 383,
+      "right": 971,
+      "bottom": 436,
+      "width": 698,
+      "height": 53,
+      "confidence": 96.278,
+      "text": "bleiben. Aber das ist ja nicht so"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        272,
+        446,
+        1013,
+        500
+      ],
+      "left": 272,
+      "top": 446,
+      "right": 1013,
+      "bottom": 500,
+      "width": 741,
+      "height": 54,
+      "confidence": 93.423,
+      "text": "schlimm. Ist ja nicht kalt. Drinnen"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        270,
+        509,
+        1000,
+        563
+      ],
+      "left": 270,
+      "top": 509,
+      "right": 1000,
+      "bottom": 563,
+      "width": 730,
+      "height": 54,
+      "confidence": 92.92,
+      "text": "tobt jedenfalls die sickeste Party."
+    },
+    {
+      "id": "l006",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        274,
+        576,
+        1115,
+        614
+      ],
+      "left": 274,
+      "top": 576,
+      "right": 1115,
+      "bottom": 614,
+      "width": 841,
+      "height": 38,
+      "confidence": 94.267,
+      "text": "Eintritt ab Coolnessfaktor 7. Das ware"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        274,
+        640,
+        1013,
+        677
+      ],
+      "left": 274,
+      "top": 640,
+      "right": 1013,
+      "bottom": 677,
+      "width": 739,
+      "height": 37,
+      "confidence": 96.12,
+      "text": "David Hasselhoff im Moonwalk zu"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 7,
+      "bbox": [
+        272,
+        703,
+        981,
+        750
+      ],
+      "left": 272,
+      "top": 703,
+      "right": 981,
+      "bottom": 750,
+      "width": 709,
+      "height": 47,
+      "confidence": 94.312,
+      "text": "Grandmaster Flash im Berghain."
+    },
+    {
+      "id": "l009",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2233,
+        3441,
+        2716,
+        3478
+      ],
+      "left": 2233,
+      "top": 3441,
+      "right": 2716,
+      "bottom": 3478,
+      "width": 483,
+      "height": 37,
+      "confidence": 96.3,
+      "text": "SAMSTAG 17. Januar"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2235,
+        3504,
+        2469,
+        3541
+      ],
+      "left": 2235,
+      "top": 3504,
+      "right": 2469,
+      "bottom": 3541,
+      "width": 234,
+      "height": 37,
+      "confidence": 91.614,
+      "text": "PHB-CLUB"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2236,
+        3569,
+        2751,
+        3614
+      ],
+      "left": 2236,
+      "top": 3569,
+      "right": 2751,
+      "bottom": 3614,
+      "width": 515,
+      "height": 45,
+      "confidence": 94.856,
+      "text": "[Landsberger Allee 54]"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2235,
+        3695,
+        2930,
+        3731
+      ],
+      "left": 2235,
+      "top": 3695,
+      "right": 2930,
+      "bottom": 3731,
+      "width": 695,
+      "height": 36,
+      "confidence": 92.344,
+      "text": "DJs unter Anderen: Till & Jonka"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2235,
+        3758,
+        3021,
+        3804
+      ],
+      "left": 2235,
+      "top": 3758,
+      "right": 3021,
+      "bottom": 3804,
+      "width": 786,
+      "height": 46,
+      "confidence": 77.171,
+      "text": "(Hoervergnuegen), Katovl Menovsky"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 6,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        2235,
+        3822,
+        3039,
+        3867
+      ],
+      "left": 2235,
+      "top": 3822,
+      "right": 3039,
+      "bottom": 3867,
+      "width": 804,
+      "height": 45,
+      "confidence": 93.505,
+      "text": "( ), Alle Farben (Farbreiz), Stefan"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 6,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        2237,
+        3884,
+        3071,
+        3932
+      ],
+      "left": 2237,
+      "top": 3884,
+      "right": 3071,
+      "bottom": 3932,
+      "width": 834,
+      "height": 48,
+      "confidence": 93.446,
+      "text": "Hoffmann (Keller), Buggy (SexyDoner),"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 6,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        2236,
+        3948,
+        2947,
+        3994
+      ],
+      "left": 2236,
+      "top": 3948,
+      "right": 2947,
+      "bottom": 3994,
+      "width": 711,
+      "height": 46,
+      "confidence": 91.661,
+      "text": "Retro (Playplus), Balinsky (W12),"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 6,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        2233,
+        4013,
+        2638,
+        4058
+      ],
+      "left": 2233,
+      "top": 4013,
+      "right": 2638,
+      "bottom": 4058,
+      "width": 405,
+      "height": 45,
+      "confidence": 89.241,
+      "text": "Yason (Duscholux)"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 6,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        2235,
+        4076,
+        2979,
+        4121
+      ],
+      "left": 2235,
+      "top": 4076,
+      "right": 2979,
+      "bottom": 4121,
+      "width": 744,
+      "height": 45,
+      "confidence": 95.366,
+      "text": "+ a lot of fucking special guests!"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2234,
+        4154,
+        3113,
+        4209
+      ],
+      "left": 2234,
+      "top": 4154,
+      "right": 3113,
+      "bottom": 4209,
+      "width": 879,
+      "height": 55,
+      "confidence": 88.187,
+      "text": "Get Your Ticket ww.proudmagazine.de"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3226,
+        4372,
+        3262,
+        4409
+      ],
+      "left": 3226,
+      "top": 4372,
+      "right": 3262,
+      "bottom": 4409,
+      "width": 36,
+      "height": 37,
+      "confidence": 91.957,
+      "text": "11"
+    }
+  ]
+}

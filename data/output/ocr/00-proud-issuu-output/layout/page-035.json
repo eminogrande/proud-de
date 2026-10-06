@@ -1,0 +1,267 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3416,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3368,
+        1848,
+        3397,
+        1890
+      ],
+      "left": 3368,
+      "top": 1848,
+      "right": 3397,
+      "bottom": 1890,
+      "width": 29,
+      "height": 42,
+      "confidence": 78.454,
+      "text": "L#"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3368,
+        1946,
+        3398,
+        2652
+      ],
+      "left": 3368,
+      "top": 1946,
+      "right": 3398,
+      "bottom": 2652,
+      "width": 30,
+      "height": 706,
+      "confidence": 75.205,
+      "text": "ANSSI HINNV1 SLSILYV NAGGIH"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        233,
+        3679,
+        323,
+        3717
+      ],
+      "left": 233,
+      "top": 3679,
+      "right": 323,
+      "bottom": 3717,
+      "width": 90,
+      "height": 38,
+      "confidence": 96.626,
+      "text": "GbR"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        94,
+        3741,
+        856,
+        3779
+      ],
+      "left": 94,
+      "top": 3741,
+      "right": 856,
+      "bottom": 3779,
+      "width": 762,
+      "height": 38,
+      "confidence": 92.745,
+      "text": "Emin Mahrt & Richard Kirschstein"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        94,
+        3866,
+        478,
+        3912
+      ],
+      "left": 94,
+      "top": 3866,
+      "right": 478,
+      "bottom": 3912,
+      "width": 384,
+      "height": 46,
+      "confidence": 64.533,
+      "text": "Naunynstra8e 27"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        94,
+        3928,
+        389,
+        3966
+      ],
+      "left": 94,
+      "top": 3928,
+      "right": 389,
+      "bottom": 3966,
+      "width": 295,
+      "height": 38,
+      "confidence": 96.281,
+      "text": "10997 Berlin"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        94,
+        3991,
+        371,
+        4028
+      ],
+      "left": 94,
+      "top": 3991,
+      "right": 371,
+      "bottom": 4028,
+      "width": 277,
+      "height": 37,
+      "confidence": 96.583,
+      "text": "Deutschland"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        93,
+        4115,
+        794,
+        4153
+      ],
+      "left": 93,
+      "top": 4115,
+      "right": 794,
+      "bottom": 4153,
+      "width": 701,
+      "height": 38,
+      "confidence": 94.984,
+      "text": "Richard : +49 177 26 88 375"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        93,
+        4177,
+        795,
+        4215
+      ],
+      "left": 93,
+      "top": 4177,
+      "right": 795,
+      "bottom": 4215,
+      "width": 702,
+      "height": 38,
+      "confidence": 85.461,
+      "text": "Emin : +49 170 166 73 48"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3368,
+        4187,
+        3397,
+        4410
+      ],
+      "left": 3368,
+      "top": 4187,
+      "right": 3397,
+      "bottom": 4410,
+      "width": 29,
+      "height": 223,
+      "confidence": 67.901,
+      "text": "600z 4enuer"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        93,
+        4235,
+        794,
+        4290
+      ],
+      "left": 93,
+      "top": 4235,
+      "right": 794,
+      "bottom": 4290,
+      "width": 701,
+      "height": 55,
+      "confidence": 79.891,
+      "text": "Fax. > +49 30 521 36 879"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        93,
+        4302,
+        907,
+        4349
+      ],
+      "left": 93,
+      "top": 4302,
+      "right": 907,
+      "bottom": 4349,
+      "width": 814,
+      "height": 47,
+      "confidence": 81.628,
+      "text": "E-Mail : sales@proudmagazine.de"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        90,
+        4360,
+        859,
+        4415
+      ],
+      "left": 90,
+      "top": 4360,
+      "right": 859,
+      "bottom": 4415,
+      "width": 769,
+      "height": 55,
+      "confidence": 60.008,
+      "text": "Web. : www. proudmagazine.de"
+    }
+  ]
+}

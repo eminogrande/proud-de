@@ -1,0 +1,67 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2226,
+        166,
+        2963,
+        264
+      ],
+      "left": 2226,
+      "top": 166,
+      "right": 2963,
+      "bottom": 264,
+      "width": 737,
+      "height": 98,
+      "confidence": 91.791,
+      "text": "10% Rabatt"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2386,
+        332,
+        2829,
+        455
+      ],
+      "left": 2386,
+      "top": 332,
+      "right": 2829,
+      "bottom": 455,
+      "width": 443,
+      "height": 123,
+      "confidence": 96.137,
+      "text": "Coupon"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2518,
+        4226,
+        3170,
+        4318
+      ],
+      "left": 2518,
+      "top": 4226,
+      "right": 3170,
+      "bottom": 4318,
+      "width": 652,
+      "height": 92,
+      "confidence": 85.13,
+      "text": "Www.e-rags.de"
+    }
+  ]
+}

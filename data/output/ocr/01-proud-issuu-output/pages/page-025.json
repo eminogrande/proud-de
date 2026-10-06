@@ -1,0 +1,68 @@
+{
+  "id": "gen-1778171778-O3ncKNBrYJAOQIotMpOH",
+  "object": "chat.completion",
+  "created": 1778171778,
+  "model": "google/gemini-2.5-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "OK.",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "file",
+            "file": {
+              "hash": "ca30f9359ebbe800f6eea8986ebf4419180a56eb8ae3ebfa4cf3226911d7fe12",
+              "name": "01 proud issuu_output-page-025.pdf",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "<file name=\"01 proud issuu_output-page-025.pdf\">"
+                },
+                {
+                  "type": "text",
+                  "text": "chat\n\ndann haben wir uns einfach dazu entschlossen, auch so etwas auf die Beine zu stellen. In Verbindung damit haben wir dann Partys organisiert, das war die perfekte Kombination. Bei dieser einen Afterhour mit Max haben wir dann irgendwie von Kamps Bäckerpapier geholt und wie die Wahnsinnigen dieses Konzept aufgeschrieben. Als wir es dann am nächsten Tag noch mal durchgelesen haben und es auch am zweiten Tag noch alles einen Sinn ergeben hat, haben wir von diesem Zeitpunkt angefangen das Konzept umzusetzen. Es gab da ein Paar Eckpunkte an denen wir uns orientieren wollten: Musik, Kunst, Abendgestaltung, Kommunikation. Darauf aufbauend haben wir das an die Anderen herangetragen, wir haben einfach angefangen uns regelmäßig zu treffen und alles hat wunderbar funktioniert. Wir waren bald nicht nur ein Veranstalter sondern ein Veranstalter, der im Hintergrund noch ein Label hat. Die Frage nach dem Sinn haben wir uns nicht gestellt, weil es einfach Spaß gemacht hat und die Resonanz stimmte.\n\n## Wird der Plattenladen als Forum des Austausches zwischen DJs aussterben?\n\nDon: Nein! Der Austausch in Plattenläden wird weiterhin stattfinden, aber daneben waren immer schon auch andere Orte wichtig wie natürlich Clubs und Partys und dazu ist natürlich in den letzten Jahren im großen Still das Internet mit seinen vielfältigen Möglichkeiten gekommen.\n\nDie Notwendigkeit über Musik auch zu reden wird immer vorhanden sein. Der Ort für den Austausch verschiebt sich vielleicht, aber er wird nie verschwinden.\n\n## Seht Ihr die Gefahr, dass das Vinyl verschwindet?\n\nKai: Es geht hier gar nicht um die Frage ob Gefahr oder nicht. Aber es ist Tatsache, dass der Trend ganz klar in Richtung digitaler Vertriebswege geht. Egal ob die Musik frei ist oder nicht. Mit allen seinen Vor- und Nachteilen, die das mit sich bringt. Manche Leute, die heute neu anfangen aufzulegen stellen sich ihre „Plattensammlung“ sehr schnell zusammen. Früher musste man sich vielleicht mehr Mühe damit geben. Für Labelmacher hat sich aber definitiv vieles vereinfacht...\n\nDon: Wer weiß was die Zukunft bringt. Erst einmal werden Vinyl und Digital weiter koexistieren. Vielleicht gibt es irgendwann ein abgefahrenes neues Medium. Im Trend wird auf jeden Fall das Netz bleiben, warum sollte man nicht schon bald kooperativ Tracks produzieren können. Dafür ist z.B. eine Schnittstelle wie Soundcloud, die sehr intuitiv funktioniert, bestens geeignet.\n\n## Wieviele Anfragen von potentiellen Produzenten habt Ihr?\n\nDon: Zur Zeit um die fünf Demos pro Woche, in Hochzeiten auch mal bis zu zehn.\n\n## Dann entscheidet Ihr ziemlich strikt, wer bei euch rausbringt?\n\nKai: Ja! Auf jeden Fall. Unser Ziel war nie möglichst viele Release rauszuhauen.\n\nDon: Interessanterweise entstehen Kontakte auch, wenn man ein Netlabel macht, oft auf Partys face-to-face und nicht nur virtuell.\n\nKai: Im Vordergrund steht immer und sollte auch immer die musikalische Qualität der Tracks stehen. Als Produzent muss man immer überlegen, welche Tracks man tatsächlich auch veröffentlichen will. Es gibt leider zu viele Leute, die ihre Musik einfach nach dem Motto „mal sehen was passiert“ raushauen. Was die Netlabel Szene teilweise ein wenig unübersichtlich und schwerer zugänglich macht.\n\n## Größte Entdeckung?\n\nDon: In letzter Zeit Tom Ellis aus Wales, den habe ich in London beim Netaudiofestival live gesehen und auch für die nächste Release Party am 23. Januar gebucht. Außerdem hat er eine sehr schöne EP bei uns veröffentlicht.\n\n## Irgendeine andere Stadt als Berlin?\n\nDon und Kai: Nein! Wir kennen viele andere Städte, wollen aber nix anderes.\n\nPentagonik Digital Release\nDemir &amp; Seymen: Treibjagd\n[pntgd001] &amp; Larsson: Stadtwind\n[pntgd002] verfügbar ab 23.01.2009\nauf iTunes, Beatport, Juno Download\noder bei deinem elektronischen\nOnline Store.\n\nwww.pentagonik.de\n\nprint 25"
+                },
+                {
+                  "type": "text",
+                  "text": "</file>"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 919,
+    "completion_tokens": 2,
+    "total_tokens": 921,
+    "cost": 0.002277893,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002807,
+      "upstream_inference_prompt_cost": 0.0002757,
+      "upstream_inference_completions_cost": 5e-06
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

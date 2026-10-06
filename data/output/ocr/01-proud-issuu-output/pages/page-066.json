@@ -1,0 +1,69 @@
+{
+  "id": "gen-1778172073-yr3E1PweVbALELZcFLyA",
+  "object": "chat.completion",
+  "created": 1778172073,
+  "model": "google/gemini-2.5-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "standard",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "OK.",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "file",
+            "file": {
+              "hash": "2a06398fe8aebcd109903e1a90868e7e500f92f9777eec7fb88b7e289d1f4e65",
+              "name": "01 proud issuu_output-page-066.pdf",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "<file name=\"01 proud issuu_output-page-066.pdf\">"
+                },
+                {
+                  "type": "text",
+                  "text": "last word\n\nM und die Verantwortung, nach der Niemand fragt\n\nAls M durch die Wohnungstür des Apartments im dritten Stock trat, sah er ihn, den gelben Powerranger, in seinem gelben Powerrangerkostüm, die Beine übereinander geschlagen, in der Mitte des Zimmer sitzen.\n\nEr hatte seinen Blick unbestimmt aus dem Fenster auf das gegenüberliegende Haus gerichtet, das gerade in den buntesten fünf Minuten des Sonnenuntergangs in einem hellen Orangeton erschien.\n\nAls M die Wohnungstür schloss, zuckte er kurz, aber seine Position blieb unverändert.\n\nDie Wohnung war unmöbliert und die wenigen Gegenstände, die sich in ihr befanden: einiges an Geschirr, Kleidung und Büchern, waren an den Wänden der Zimmer aufgereiht. Von der Straße drang das Geräusch eines Presslufthammers ins Zimmer.\n\nM räusperte sich.\n\n„Dein Vater bat mich, dich zu besuchen, er sagt, es ginge dir nicht sehr gut zur Zeit.“\n\nDer Powerranger, der mit dem Rücken zu M saß, reagierte nicht.\n\n„Dein Vater sagt, du hättest ein Problem mit ... deiner Sensibilität.“\n\nDer Powerranger zuckte zusammen.\n\nBeim letzten Wort hatten die Bauarbeiten unten aufgehört, und es hallte in unpassender Lautstärke durch den Raum.\n\nM durchschritt das Zimmer und stellte sich vor die Fensterfront, sein Schatten fiel auf den Powerranger, der den Kopf zur Seite abwand.\n\n„Dein Vater sagt, du sitzt hier und schaust aus dem Fenster und du isst nicht und du sprichst nicht.“\n\nM sprach jetzt langsam, auf die Reaktion seines Gegenübers bedacht, dessen großer Powerrangerhelm aber nur unbewegt M selbst widerspiegelte.\n\n„Das Wetter war heute unglaublich wundervoll, wirklich unglaublich wundervoll.. Ja ... du hast es vielleicht gesehen. Die Sonne hat unglaublich geschienen, und die Temperatur war ganz genau so, wie du dir die Temperatur vorstellst, wenn du an einen wundervollen Sommertag denkst.“\n\nAber es war jetzt dunkel geworden, und als M zum Eingang des Zimmers ging, um das Licht einzuschalten, stolperte er.\n\nEr blinzelte in die Dunkelheit und erkannte das Bein des Powerrangers als das, worüber er gerade gestolpert war.\n\nNun überlegte M, ob er das Bein übersehen hatte oder ob der Ranger es dort hingestellt hatte, und dass dies ein gewaltiger Unterschied sei, denn letzteres wäre doch immerhin eine Art der Kommunikation, und dies könnte er als Fortschritt werten.\n\nWährend er dies überlegte, schaltete er das Licht ein, der Schein der nackten Glühbirne und die Kahlheit weißer Wände erzeugten eine Sterilität, die in M dumpfes Unbehagen auslöste.\n\n„Du warst so cool, als ich dich kennen lernte, ... so cool ... und jetzt sitzt du hier in diesem weißen Loch und isst nicht und du sprichst nicht.“\n\nDie Wohnungstür wurde aufgeworfen.\n\n„Jetzt bin ich da, mein kleiner Spinner, mein Schatz, ich bin wieder da.“\n\nText Moritz Stellmacher\n\nproud"
+                },
+                {
+                  "type": "text",
+                  "text": "</file>"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 727,
+    "completion_tokens": 2,
+    "total_tokens": 729,
+    "cost": 0.002220869,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002231,
+      "upstream_inference_prompt_cost": 0.0002181,
+      "upstream_inference_completions_cost": 5e-06
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

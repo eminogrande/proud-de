@@ -1,0 +1,72 @@
+{
+  "slug": "7days-in-sieben-outfits",
+  "title": "7days in sieben Outfits",
+  "magazineSlug": "01-proud-issuu-output",
+  "magazineTitle": "01 proud issuu_output",
+  "publicationDate": null,
+  "sourcePdf": "01 proud issuu_output.pdf",
+  "authors": [],
+  "tags": [
+    "7days"
+  ],
+  "pages": {
+    "start": 43,
+    "end": 43
+  },
+  "summary": "7days in sieben Outfits. Sarai und Mack dürfen sich zeigen.",
+  "excerpt": "7days in sieben Outfits. Sarai und Mack dürfen sich zeigen. Persönliche Garderobe und geliehene Lieblingsteile. Mack Mckelton, versorgt durch seine zahlreichen Sponsoren. Königin Sarai, versorgt durch ihre zahlreichen Verehrer. Wir zeigen Dir die Woche zweier…",
+  "wordCount": 52,
+  "bodyText": "7days in sieben Outfits. Sarai und Mack dürfen sich zeigen. Persönliche Garderobe und geliehene Lieblingsteile. Mack Mckelton, versorgt durch seine zahlreichen Sponsoren. Königin Sarai, versorgt durch ihre zahlreichen Verehrer. Wir zeigen Dir die Woche zweier Fashion-Gurus, die wissen wie man sich darstellt. Fühle Dich frei sie zu kopieren, anzubeten und zu verfolgen.",
+  "markdown": "# 7days in sieben Outfits\n\n> Quelle: 01 proud issuu_output, Seiten 43-43\n\n## Seite 43\n\n7days in sieben Outfits. Sarai und Mack dürfen sich zeigen. Persönliche Garderobe und geliehene Lieblingsteile. Mack Mckelton, versorgt durch seine zahlreichen Sponsoren. Königin Sarai, versorgt durch ihre zahlreichen Verehrer. Wir zeigen Dir die Woche zweier Fashion-Gurus, die wissen wie man sich darstellt. Fühle Dich frei sie zu kopieren, anzubeten und zu verfolgen.\n",
+  "previewImage": "previews/7days-in-sieben-outfits.png",
+  "pageImages": [
+    {
+      "pageNumber": 43,
+      "image": "page-images/7days-in-sieben-outfits/page-043.jpg",
+      "width": 1677,
+      "height": 2247
+    }
+  ],
+  "pageDetails": [
+    {
+      "pageNumber": 43,
+      "text": "7days in sieben Outfits. Sarai und Mack dürfen sich zeigen. Persönliche Garderobe und geliehene Lieblingsteile. Mack Mckelton, versorgt durch seine zahlreichen Sponsoren. Königin Sarai, versorgt durch ihre zahlreichen Verehrer. Wir zeigen Dir die Woche zweier Fashion-Gurus, die wissen wie man sich darstellt. Fühle Dich frei sie zu kopieren, anzubeten und zu verfolgen.",
+      "nativeText": "",
+      "ocrMarkdown": "<file name=\"01 proud issuu_output-page-043.pdf\">\n7days\n\n7days in sieben Outfits. Sarai und Mack dürfen sich zeigen. Persönliche Garderobe und geliehene Lieblingsteile. Mack Mckelton, versorgt durch seine zahlreichen Sponsoren. Königin Sarai, versorgt durch ihre zahlreichen Verehrer. Wir zeigen Dir die Woche zweier Fashion-Gurus, die wissen wie man sich darstellt. Fühle Dich frei sie zu kopieren, anzubeten und zu verfolgen.\n\n![img-0.jpeg](img-0.jpeg)\n\n![img-1.jpeg](img-1.jpeg)\n</file>",
+      "ocrSource": "openrouter:mistral-ocr",
+      "ocrImageCount": 2,
+      "ocrRawFile": "/Users/eminmahrt/Developer/proud-de/data/output/ocr/01-proud-issuu-output/pages/page-043.json",
+      "displayMarkdown": "7days in sieben Outfits. Sarai und Mack dürfen sich zeigen. Persönliche Garderobe und geliehene Lieblingsteile. Mack Mckelton, versorgt durch seine zahlreichen Sponsoren. Königin Sarai, versorgt durch ihre zahlreichen Verehrer. Wir zeigen Dir die Woche zweier Fashion-Gurus, die wissen wie man sich darstellt. Fühle Dich frei sie zu kopieren, anzubeten und zu verfolgen.",
+      "sectionIds": [
+        "p043s01"
+      ],
+      "titles": [
+        "7days in sieben Outfits"
+      ]
+    }
+  ],
+  "contentBlocks": [
+    {
+      "pageNumber": 43,
+      "spreadPages": [
+        42,
+        43
+      ],
+      "sectionIds": [
+        "p043s01"
+      ],
+      "titles": [
+        "7days in sieben Outfits"
+      ],
+      "markdown": "7days in sieben Outfits. Sarai und Mack dürfen sich zeigen. Persönliche Garderobe und geliehene Lieblingsteile. Mack Mckelton, versorgt durch seine zahlreichen Sponsoren. Königin Sarai, versorgt durch ihre zahlreichen Verehrer. Wir zeigen Dir die Woche zweier Fashion-Gurus, die wissen wie man sich darstellt. Fühle Dich frei sie zu kopieren, anzubeten und zu verfolgen.",
+      "text": "7days in sieben Outfits. Sarai und Mack dürfen sich zeigen. Persönliche Garderobe und geliehene Lieblingsteile. Mack Mckelton, versorgt durch seine zahlreichen Sponsoren. Königin Sarai, versorgt durch ihre zahlreichen Verehrer. Wir zeigen Dir die Woche zweier Fashion-Gurus, die wissen wie man sich darstellt. Fühle Dich frei sie zu kopieren, anzubeten und zu verfolgen.",
+      "pageImage": {
+        "pageNumber": 43,
+        "image": "page-images/7days-in-sieben-outfits/page-043.jpg",
+        "width": 1677,
+        "height": 2247
+      }
+    }
+  ],
+  "contentHash": "f12335dd4527c1ecac32be6291c331e60bad8f56f9f8ce0ade6f9c82a00a5ddf"
+}

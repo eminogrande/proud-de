@@ -1,0 +1,327 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3063,
+        83,
+        3269,
+        120
+      ],
+      "left": 3063,
+      "top": 83,
+      "right": 3269,
+      "bottom": 120,
+      "width": 206,
+      "height": 37,
+      "confidence": 96.92,
+      "text": "wardrobe"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2070,
+        311,
+        2785,
+        396
+      ],
+      "left": 2070,
+      "top": 311,
+      "right": 2785,
+      "bottom": 396,
+      "width": 715,
+      "height": 85,
+      "confidence": 63.334,
+      "text": "FO. y"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2070,
+        406,
+        2302,
+        487
+      ],
+      "left": 2070,
+      "top": 406,
+      "right": 2302,
+      "bottom": 487,
+      "width": 232,
+      "height": 81,
+      "confidence": 61.424,
+      "text": "VE me"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        887,
+        726,
+        1072,
+        762
+      ],
+      "left": 887,
+      "top": 726,
+      "right": 1072,
+      "bottom": 762,
+      "width": 185,
+      "height": 36,
+      "confidence": 96.374,
+      "text": "Red Bull"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        887,
+        789,
+        1242,
+        834
+      ],
+      "left": 887,
+      "top": 789,
+      "right": 1242,
+      "bottom": 834,
+      "width": 355,
+      "height": 45,
+      "confidence": 96.083,
+      "text": "Pro Skater Caps"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1494,
+        849,
+        1655,
+        885
+      ],
+      "left": 1494,
+      "top": 849,
+      "right": 1655,
+      "bottom": 885,
+      "width": 161,
+      "height": 36,
+      "confidence": 92.083,
+      "text": "Forvert"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1493,
+        912,
+        1805,
+        948
+      ],
+      "left": 1493,
+      "top": 912,
+      "right": 1805,
+      "bottom": 948,
+      "width": 312,
+      "height": 36,
+      "confidence": 94.876,
+      "text": "Graues T-Shirt"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2234,
+        980,
+        2361,
+        1016
+      ],
+      "left": 2234,
+      "top": 980,
+      "right": 2361,
+      "bottom": 1016,
+      "width": 127,
+      "height": 36,
+      "confidence": 96.056,
+      "text": "Globe"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2235,
+        1043,
+        2676,
+        1079
+      ],
+      "left": 2235,
+      "top": 1043,
+      "right": 2676,
+      "bottom": 1079,
+      "width": 441,
+      "height": 36,
+      "confidence": 95.349,
+      "text": "Gelbes T-Shirt Mack"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2237,
+        1106,
+        2696,
+        1142
+      ],
+      "left": 2237,
+      "top": 1106,
+      "right": 2696,
+      "bottom": 1142,
+      "width": 459,
+      "height": 36,
+      "confidence": 78.898,
+      "text": "Mckelton Ltd. Edition"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2385,
+        1308,
+        2512,
+        1344
+      ],
+      "left": 2385,
+      "top": 1308,
+      "right": 2512,
+      "bottom": 1344,
+      "width": 127,
+      "height": 36,
+      "confidence": 96.203,
+      "text": "Globe"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2385,
+        1373,
+        2714,
+        1409
+      ],
+      "left": 2385,
+      "top": 1373,
+      "right": 2714,
+      "bottom": 1409,
+      "width": 329,
+      "height": 36,
+      "confidence": 96.07,
+      "text": "T-Shirt schwarz"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2399,
+        2244,
+        2921,
+        2296
+      ],
+      "left": 2399,
+      "top": 2244,
+      "right": 2921,
+      "bottom": 2296,
+      "width": 522,
+      "height": 52,
+      "confidence": 52.264,
+      "text": "4 y"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2194,
+        2422,
+        2865,
+        2498
+      ],
+      "left": 2194,
+      "top": 2422,
+      "right": 2865,
+      "bottom": 2498,
+      "width": 671,
+      "height": 76,
+      "confidence": 88.886,
+      "text": "Goldene Kopfhérer + iPod mini"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2583,
+        2508,
+        2868,
+        2581
+      ],
+      "left": 2583,
+      "top": 2508,
+      "right": 2868,
+      "bottom": 2581,
+      "width": 285,
+      "height": 73,
+      "confidence": 49.076,
+      "text": "bs me V4,"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1366,
+        3084,
+        1527,
+        3120
+      ],
+      "left": 1366,
+      "top": 3084,
+      "right": 1527,
+      "bottom": 3120,
+      "width": 161,
+      "height": 36,
+      "confidence": 92.579,
+      "text": "Forvert"
+    }
+  ]
+}

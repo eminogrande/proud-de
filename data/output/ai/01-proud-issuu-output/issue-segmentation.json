@@ -1,0 +1,765 @@
+{
+  "articles": [
+    {
+      "title": "editorial",
+      "startPage": 6,
+      "endPage": 6,
+      "entryIds": [
+        "p006s01"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "proud",
+      "startPage": 6,
+      "endPage": 6,
+      "entryIds": [
+        "p006s03"
+      ],
+      "authors": [
+        "Richard Kirschstein",
+        "Emin Henri Mahrt",
+        "Miron Tenenberg",
+        "Emilie Wong",
+        "Rico Kramer",
+        "Kash Patton"
+      ],
+      "tags": [
+        "Publisher",
+        "Text Editor",
+        "Fashion Editor",
+        "Event Manager",
+        "Advertising Manager"
+      ]
+    },
+    {
+      "title": "Flap..flap..flap..",
+      "startPage": 10,
+      "endPage": 10,
+      "entryIds": [
+        "p010s04"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Gut erkannt",
+      "startPage": 10,
+      "endPage": 10,
+      "entryIds": [
+        "p010s06"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "kitlers",
+      "startPage": 10,
+      "endPage": 10,
+      "entryIds": [
+        "p010s01"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "mail of the month..",
+      "startPage": 10,
+      "endPage": 10,
+      "entryIds": [
+        "p010s02"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "New Uri Geller",
+      "startPage": 10,
+      "endPage": 10,
+      "entryIds": [
+        "p010s07"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Vorsicht vor irgendwas",
+      "startPage": 10,
+      "endPage": 10,
+      "entryIds": [
+        "p010s05"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "write to us and win..",
+      "startPage": 10,
+      "endPage": 10,
+      "entryIds": [
+        "p010s03"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Ihr könnt alle kommen",
+      "startPage": 11,
+      "endPage": 11,
+      "entryIds": [
+        "p011s01"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "phb berlin",
+      "startPage": 12,
+      "endPage": 12,
+      "entryIds": [
+        "p012s02"
+      ],
+      "authors": [],
+      "tags": [
+        "flash"
+      ]
+    },
+    {
+      "title": "shit glitter",
+      "startPage": 12,
+      "endPage": 12,
+      "entryIds": [
+        "p012s03"
+      ],
+      "authors": [],
+      "tags": [
+        "flash"
+      ]
+    },
+    {
+      "title": "très bonjour",
+      "startPage": 12,
+      "endPage": 12,
+      "entryIds": [
+        "p012s01"
+      ],
+      "authors": [],
+      "tags": [
+        "flash"
+      ]
+    },
+    {
+      "title": "world 2.1",
+      "startPage": 12,
+      "endPage": 12,
+      "entryIds": [
+        "p012s04"
+      ],
+      "authors": [],
+      "tags": [
+        "flash"
+      ]
+    },
+    {
+      "title": "200 calories",
+      "startPage": 13,
+      "endPage": 13,
+      "entryIds": [
+        "p013s02"
+      ],
+      "authors": [],
+      "tags": [
+        "flash"
+      ]
+    },
+    {
+      "title": "artgerechtes",
+      "startPage": 13,
+      "endPage": 13,
+      "entryIds": [
+        "p013s01"
+      ],
+      "authors": [],
+      "tags": [
+        "flash"
+      ]
+    },
+    {
+      "title": "e-rags",
+      "startPage": 13,
+      "endPage": 13,
+      "entryIds": [
+        "p013s05"
+      ],
+      "authors": [],
+      "tags": [
+        "flash"
+      ]
+    },
+    {
+      "title": "mavi",
+      "startPage": 13,
+      "endPage": 13,
+      "entryIds": [
+        "p013s03"
+      ],
+      "authors": [],
+      "tags": [
+        "flash"
+      ]
+    },
+    {
+      "title": "oh!mi!bod",
+      "startPage": 13,
+      "endPage": 13,
+      "entryIds": [
+        "p013s04"
+      ],
+      "authors": [],
+      "tags": [
+        "flash"
+      ]
+    },
+    {
+      "title": "Superethe.com",
+      "startPage": 13,
+      "endPage": 13,
+      "entryIds": [
+        "p013s06"
+      ],
+      "authors": [],
+      "tags": [
+        "flash"
+      ]
+    },
+    {
+      "title": "five minutes review on",
+      "startPage": 14,
+      "endPage": 14,
+      "entryIds": [
+        "p014s01"
+      ],
+      "authors": [],
+      "tags": [
+        "flash"
+      ]
+    },
+    {
+      "title": "fritz helder",
+      "startPage": 14,
+      "endPage": 14,
+      "entryIds": [
+        "p014s02"
+      ],
+      "authors": [],
+      "tags": [
+        "flash"
+      ]
+    },
+    {
+      "title": "launch at yaka paka",
+      "startPage": 16,
+      "endPage": 16,
+      "entryIds": [
+        "p016s01"
+      ],
+      "authors": [],
+      "tags": [
+        "report"
+      ]
+    },
+    {
+      "title": "schnaps magazine",
+      "startPage": 17,
+      "endPage": 17,
+      "entryIds": [
+        "p017s01",
+        "p017s02"
+      ],
+      "authors": [],
+      "tags": [
+        "report"
+      ]
+    },
+    {
+      "title": "ceza at ballhaus naunynstrasse",
+      "startPage": 18,
+      "endPage": 18,
+      "entryIds": [
+        "p018s02"
+      ],
+      "authors": [],
+      "tags": [
+        "report"
+      ]
+    },
+    {
+      "title": "très bonjour fashion show 2008",
+      "startPage": 21,
+      "endPage": 21,
+      "entryIds": [
+        "p021s01"
+      ],
+      "authors": [],
+      "tags": [
+        "report"
+      ]
+    },
+    {
+      "title": "love in berlin",
+      "startPage": 22,
+      "endPage": 23,
+      "entryIds": [
+        "p022s01",
+        "p023s01"
+      ],
+      "authors": [
+        "Christian Rothenhage"
+      ],
+      "tags": [
+        "streets ahead"
+      ]
+    },
+    {
+      "title": "pentagonik",
+      "startPage": 24,
+      "endPage": 25,
+      "entryIds": [
+        "p024s01",
+        "p025s01"
+      ],
+      "authors": [
+        "Don",
+        "Kai"
+      ],
+      "tags": [
+        "chat"
+      ]
+    },
+    {
+      "title": "Kannibalistische Babarenvölker",
+      "startPage": 26,
+      "endPage": 26,
+      "entryIds": [
+        "p026s01"
+      ],
+      "authors": [
+        "Demir"
+      ],
+      "tags": [
+        "chat"
+      ]
+    },
+    {
+      "title": "Andere Richtungen",
+      "startPage": 26,
+      "endPage": 27,
+      "entryIds": [
+        "p026s02",
+        "p027s02"
+      ],
+      "authors": [
+        "Demir"
+      ],
+      "tags": [
+        "chat"
+      ]
+    },
+    {
+      "title": "dj craft",
+      "startPage": 28,
+      "endPage": 28,
+      "entryIds": [
+        "p028s01"
+      ],
+      "authors": [],
+      "tags": [
+        "chat"
+      ]
+    },
+    {
+      "title": "proud",
+      "startPage": 29,
+      "endPage": 29,
+      "entryIds": [
+        "p029s01"
+      ],
+      "authors": [],
+      "tags": [
+        "chat"
+      ]
+    },
+    {
+      "title": "maximal my ass",
+      "startPage": 30,
+      "endPage": 31,
+      "entryIds": [
+        "p030s01",
+        "p031s01"
+      ],
+      "authors": [],
+      "tags": [
+        "knowlege"
+      ]
+    },
+    {
+      "title": "Alte Legenden, neue Entdeckungen",
+      "startPage": 32,
+      "endPage": 32,
+      "entryIds": [
+        "p032s02"
+      ],
+      "authors": [],
+      "tags": [
+        "sounds"
+      ]
+    },
+    {
+      "title": "Vom Anfang bis zum…",
+      "startPage": 32,
+      "endPage": 32,
+      "entryIds": [
+        "p032s01"
+      ],
+      "authors": [],
+      "tags": [
+        "sounds"
+      ]
+    },
+    {
+      "title": "Wie überzeugt man jemanden vom Techno?",
+      "startPage": 32,
+      "endPage": 32,
+      "entryIds": [
+        "p032s03"
+      ],
+      "authors": [],
+      "tags": [
+        "sounds"
+      ]
+    },
+    {
+      "title": "proud DJ-Kolumnen",
+      "startPage": 33,
+      "endPage": 33,
+      "entryIds": [
+        "p033s01"
+      ],
+      "authors": [],
+      "tags": [
+        "sounds"
+      ]
+    },
+    {
+      "title": "Berlin bedtime",
+      "startPage": 34,
+      "endPage": 34,
+      "entryIds": [
+        "p034s01"
+      ],
+      "authors": [],
+      "tags": [
+        "feature"
+      ]
+    },
+    {
+      "title": "farbreiz",
+      "startPage": 35,
+      "endPage": 35,
+      "entryIds": [
+        "p035s01"
+      ],
+      "authors": [],
+      "tags": [
+        "feature"
+      ]
+    },
+    {
+      "title": "Warum überhaupt diese ganze",
+      "startPage": 36,
+      "endPage": 36,
+      "entryIds": [
+        "p036s01"
+      ],
+      "authors": [],
+      "tags": [
+        "feature"
+      ]
+    },
+    {
+      "title": "hörvergnügen",
+      "startPage": 37,
+      "endPage": 37,
+      "entryIds": [
+        "p037s01"
+      ],
+      "authors": [],
+      "tags": [
+        "feature"
+      ]
+    },
+    {
+      "title": "Deinen Name sieht man überall. Ein paar Worte zur Szene?",
+      "startPage": 38,
+      "endPage": 38,
+      "entryIds": [
+        "p038s01"
+      ],
+      "authors": [],
+      "tags": [
+        "feature"
+      ]
+    },
+    {
+      "title": "jakob ellwanger",
+      "startPage": 38,
+      "endPage": 38,
+      "entryIds": [
+        "p038s02"
+      ],
+      "authors": [],
+      "tags": [
+        "feature"
+      ]
+    },
+    {
+      "title": "keller",
+      "startPage": 39,
+      "endPage": 39,
+      "entryIds": [
+        "p039s01"
+      ],
+      "authors": [],
+      "tags": [
+        "feature"
+      ]
+    },
+    {
+      "title": "7days in sieben Outfits",
+      "startPage": 43,
+      "endPage": 43,
+      "entryIds": [
+        "p043s01"
+      ],
+      "authors": [],
+      "tags": [
+        "7days"
+      ]
+    },
+    {
+      "title": "wardrobe",
+      "startPage": 44,
+      "endPage": 44,
+      "entryIds": [
+        "p044s01",
+        "p044s02"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "end skater heroes",
+      "startPage": 45,
+      "endPage": 45,
+      "entryIds": [
+        "p045s01"
+      ],
+      "authors": [],
+      "tags": [
+        "wardrobe"
+      ]
+    },
+    {
+      "title": "6-rags",
+      "startPage": 48,
+      "endPage": 48,
+      "entryIds": [
+        "p048s02"
+      ],
+      "authors": [],
+      "tags": [
+        "grabs"
+      ]
+    },
+    {
+      "title": "naketan",
+      "startPage": 48,
+      "endPage": 48,
+      "entryIds": [
+        "p048s04"
+      ],
+      "authors": [],
+      "tags": [
+        "grabs"
+      ]
+    },
+    {
+      "title": "traktor scratch pro",
+      "startPage": 48,
+      "endPage": 48,
+      "entryIds": [
+        "p048s01"
+      ],
+      "authors": [],
+      "tags": [
+        "grabs"
+      ]
+    },
+    {
+      "title": "très bonjour",
+      "startPage": 48,
+      "endPage": 48,
+      "entryIds": [
+        "p048s03"
+      ],
+      "authors": [],
+      "tags": [
+        "grabs"
+      ]
+    },
+    {
+      "title": "Lyndon Wade",
+      "startPage": 50,
+      "endPage": 55,
+      "entryIds": [
+        "p050s01",
+        "p055s01"
+      ],
+      "authors": [],
+      "tags": [
+        "shoot"
+      ]
+    },
+    {
+      "title": "BLVD OF",
+      "startPage": 53,
+      "endPage": 53,
+      "entryIds": [
+        "p053s01"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "on the road witha radio skater",
+      "startPage": 56,
+      "endPage": 56,
+      "entryIds": [
+        "p056s01"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "pola kardumx maren böttcher",
+      "startPage": 58,
+      "endPage": 58,
+      "entryIds": [
+        "p058s01"
+      ],
+      "authors": [],
+      "tags": [
+        "focus artist"
+      ]
+    },
+    {
+      "title": "tatsch",
+      "startPage": 60,
+      "endPage": 60,
+      "entryIds": [
+        "p060s01",
+        "p060s02"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "doktorspielchen",
+      "startPage": 62,
+      "endPage": 62,
+      "entryIds": [
+        "p062s05"
+      ],
+      "authors": [],
+      "tags": [
+        "navigator"
+      ]
+    },
+    {
+      "title": "farbreiz",
+      "startPage": 62,
+      "endPage": 62,
+      "entryIds": [
+        "p062s02"
+      ],
+      "authors": [],
+      "tags": [
+        "navigator"
+      ]
+    },
+    {
+      "title": "proud launch party",
+      "startPage": 62,
+      "endPage": 62,
+      "entryIds": [
+        "p062s01"
+      ],
+      "authors": [],
+      "tags": [
+        "navigator"
+      ]
+    },
+    {
+      "title": "showroom",
+      "startPage": 62,
+      "endPage": 62,
+      "entryIds": [
+        "p062s04"
+      ],
+      "authors": [],
+      "tags": [
+        "navigator"
+      ]
+    },
+    {
+      "title": "tal der verwirrung",
+      "startPage": 62,
+      "endPage": 62,
+      "entryIds": [
+        "p062s03"
+      ],
+      "authors": [],
+      "tags": [
+        "navigator"
+      ]
+    },
+    {
+      "title": "ZEY' BREAK",
+      "startPage": 63,
+      "endPage": 63,
+      "entryIds": [
+        "p063s02"
+      ],
+      "authors": [
+        "KADIR MEMIS ALIAS >>AMIGO<<",
+        "ZULA LEMES",
+        "NEVZAT AKPINAR",
+        "YAVUZ TOPUZ ALIAS >>RISK ONE<<"
+      ],
+      "tags": []
+    },
+    {
+      "title": "M und die Verantwortung, nach der Niemand fragt",
+      "startPage": 66,
+      "endPage": 66,
+      "entryIds": [
+        "p066s01"
+      ],
+      "authors": [],
+      "tags": [
+        "last word"
+      ]
+    }
+  ]
+}

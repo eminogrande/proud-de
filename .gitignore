@@ -6,8 +6,8 @@ __pycache__/
 node_modules/
 .wrangler/
 .wrangler-home/
-data/input/pdfs/*
-!data/input/pdfs/.gitkeep
-data/input/**/*.pdf
-data/output/*
-!data/output/.gitkeep
+# exact duplicate test copies of data/input/pdfs/*
+data/input/layout-test/*.pdf
+data/input/review-issue01/*.pdf
+data/input/review-issues-01-02/*.pdf
+data/input/issue01-test/*.pdf

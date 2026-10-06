@@ -1,0 +1,427 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        85,
+        83,
+        285,
+        131
+      ],
+      "left": 85,
+      "top": 83,
+      "right": 285,
+      "bottom": 131,
+      "width": 200,
+      "height": 48,
+      "confidence": 96.796,
+      "text": "navigator"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        705,
+        291,
+        1123,
+        367
+      ],
+      "left": 705,
+      "top": 291,
+      "right": 1123,
+      "bottom": 367,
+      "width": 418,
+      "height": 76,
+      "confidence": 96.375,
+      "text": "launch party"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        271,
+        474,
+        752,
+        510
+      ],
+      "left": 271,
+      "top": 474,
+      "right": 752,
+      "bottom": 510,
+      "width": 481,
+      "height": 36,
+      "confidence": 96.496,
+      "text": "SAMSTAG 17. Januar"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        273,
+        537,
+        506,
+        573
+      ],
+      "left": 273,
+      "top": 537,
+      "right": 506,
+      "bottom": 573,
+      "width": 233,
+      "height": 36,
+      "confidence": 91.466,
+      "text": "PHB-CLUB"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        274,
+        600,
+        788,
+        645
+      ],
+      "left": 274,
+      "top": 600,
+      "right": 788,
+      "bottom": 645,
+      "width": 514,
+      "height": 45,
+      "confidence": 93.969,
+      "text": "[Landsberger Allee 54]"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        728,
+        807,
+        772
+      ],
+      "left": 270,
+      "top": 728,
+      "right": 807,
+      "bottom": 772,
+      "width": 537,
+      "height": 44,
+      "confidence": 96.205,
+      "text": "Support Your Local DJs!"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1256,
+        790,
+        1515,
+        849
+      ],
+      "left": 1256,
+      "top": 790,
+      "right": 1515,
+      "bottom": 849,
+      "width": 259,
+      "height": 59,
+      "confidence": 91.188,
+      "text": "farbreiz"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        273,
+        854,
+        967,
+        890
+      ],
+      "left": 273,
+      "top": 854,
+      "right": 967,
+      "bottom": 890,
+      "width": 694,
+      "height": 36,
+      "confidence": 91.155,
+      "text": "DJs unter Anderen: Till & Jonka"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        272,
+        918,
+        1736,
+        964
+      ],
+      "left": 272,
+      "top": 918,
+      "right": 1736,
+      "bottom": 964,
+      "width": 1464,
+      "height": 46,
+      "confidence": 92.744,
+      "text": "(Hoervergnuegen), Katovl Menovsky SAMSTAG 10. Januar"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        272,
+        981,
+        1490,
+        1026
+      ],
+      "left": 272,
+      "top": 981,
+      "right": 1490,
+      "bottom": 1026,
+      "width": 1218,
+      "height": 45,
+      "confidence": 90.57,
+      "text": "( ), Alle Farben (Farbreiz), Stefan PHB-CLUB"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        274,
+        1043,
+        1772,
+        1094
+      ],
+      "left": 274,
+      "top": 1043,
+      "right": 1772,
+      "bottom": 1094,
+      "width": 1498,
+      "height": 51,
+      "confidence": 92.041,
+      "text": "Hoffmann (Keller), Buggy (SexyDoner), [Landsberger Allee 54]"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        274,
+        1107,
+        984,
+        1152
+      ],
+      "left": 274,
+      "top": 1107,
+      "right": 984,
+      "bottom": 1152,
+      "width": 710,
+      "height": 45,
+      "confidence": 90.631,
+      "text": "Retro (Playplus), Balinsky (W12),"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        271,
+        1172,
+        1848,
+        1221
+      ],
+      "left": 271,
+      "top": 1172,
+      "right": 1848,
+      "bottom": 1221,
+      "width": 1577,
+      "height": 49,
+      "confidence": 94.133,
+      "text": "Yason (Duscholux), Ron Wilson MS Elbe (Femalepressure),"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        273,
+        1234,
+        1798,
+        1290
+      ],
+      "left": 273,
+      "top": 1234,
+      "right": 1798,
+      "bottom": 1290,
+      "width": 1525,
+      "height": 56,
+      "confidence": 94.853,
+      "text": "+ a lot of fucking special guests! Katovl Menovsky (proud),"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1255,
+        1302,
+        1776,
+        1348
+      ],
+      "left": 1255,
+      "top": 1302,
+      "right": 1776,
+      "bottom": 1348,
+      "width": 521,
+      "height": 46,
+      "confidence": 91.791,
+      "text": "CanDJane (Pentagonik),"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2234,
+        1413,
+        2592,
+        1472
+      ],
+      "left": 2234,
+      "top": 1413,
+      "right": 2592,
+      "bottom": 1472,
+      "width": 358,
+      "height": 59,
+      "confidence": 95.867,
+      "text": "showroom"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1257,
+        1493,
+        2043,
+        1529
+      ],
+      "left": 1257,
+      "top": 1493,
+      "right": 2043,
+      "bottom": 1529,
+      "width": 786,
+      "height": 36,
+      "confidence": 95.723,
+      "text": "Farbreiz. Blau. Der Name wird dabei"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1254,
+        1545,
+        2716,
+        1602
+      ],
+      "left": 1254,
+      "top": 1545,
+      "right": 2716,
+      "bottom": 1602,
+      "width": 1462,
+      "height": 57,
+      "confidence": 94.075,
+      "text": "zum Programm: von den Gasten, Uber SAMSTAG 24. Januar"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1254,
+        1608,
+        2672,
+        1666
+      ],
+      "left": 1254,
+      "top": 1608,
+      "right": 2672,
+      "bottom": 1666,
+      "width": 1418,
+      "height": 58,
+      "confidence": 95.143,
+      "text": "die Beleuchtung bis hin zu Showroom Opening"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        741,
+        1650,
+        2534,
+        1730
+      ],
+      "left": 741,
+      "top": 1650,
+      "right": 2534,
+      "bottom": 1730,
+      "width": 1793,
+      "height": 80,
+      "confidence": 85.215,
+      "text": "~ | der Deko wird alles blau... [TorstraBe 3]"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        651,
+        1721,
+        733,
+        1800
+      ],
+      "left": 651,
+      "top": 1721,
+      "right": 733,
+      "bottom": 1800,
+      "width": 82,
+      "height": 79,
+      "confidence": 45.402,
+      "text": "‘ne"
+    }
+  ]
+}

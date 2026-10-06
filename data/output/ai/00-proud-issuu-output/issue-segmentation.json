@@ -1,0 +1,864 @@
+{
+  "articles": [
+    {
+      "title": "Editorial",
+      "startPage": 4,
+      "endPage": 4,
+      "entryIds": [
+        "p004v01"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "MEET THE TEAM: EMIN “EINSTEIN” MAHRT",
+      "startPage": 4,
+      "endPage": 4,
+      "entryIds": [
+        "p004v05"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "ANNE HAHNER",
+      "startPage": 5,
+      "endPage": 5,
+      "entryIds": [
+        "p005v09"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "MACK MCKELTON",
+      "startPage": 5,
+      "endPage": 5,
+      "entryIds": [
+        "p005v08"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "MORITZ STELLMACHER",
+      "startPage": 5,
+      "endPage": 5,
+      "entryIds": [
+        "p005v10"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "SARAH-JANE BENNETT",
+      "startPage": 5,
+      "endPage": 5,
+      "entryIds": [
+        "p005v07"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Die schönste Äußerung",
+      "startPage": 6,
+      "endPage": 6,
+      "entryIds": [
+        "p006v02"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Flap..flap ...flap",
+      "startPage": 6,
+      "endPage": 6,
+      "entryIds": [
+        "p006v04"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Gut erkannt",
+      "startPage": 6,
+      "endPage": 6,
+      "entryIds": [
+        "p006v07"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Hypnose...",
+      "startPage": 6,
+      "endPage": 6,
+      "entryIds": [
+        "p006v06"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Kinder weggucken!",
+      "startPage": 6,
+      "endPage": 6,
+      "entryIds": [
+        "p006v05"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Kitlers",
+      "startPage": 6,
+      "endPage": 6,
+      "entryIds": [
+        "p006v01"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "200 calories...",
+      "startPage": 7,
+      "endPage": 7,
+      "entryIds": [
+        "p007s07"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "five minutes with ... dj katovl menovsky",
+      "startPage": 7,
+      "endPage": 7,
+      "entryIds": [
+        "p007s01"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "mr. blentwell",
+      "startPage": 7,
+      "endPage": 7,
+      "entryIds": [
+        "p007s05"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "nuts for jericho!!",
+      "startPage": 7,
+      "endPage": 7,
+      "entryIds": [
+        "p007s08"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "photo?shop!",
+      "startPage": 7,
+      "endPage": 7,
+      "entryIds": [
+        "p007s04"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "so gewohnt zu gehen und",
+      "startPage": 7,
+      "endPage": 7,
+      "entryIds": [
+        "p007s02"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "tamagotchi 2.0",
+      "startPage": 7,
+      "endPage": 7,
+      "entryIds": [
+        "p007s06"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "animation vs. animator",
+      "startPage": 8,
+      "endPage": 8,
+      "entryIds": [
+        "p008s05"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "capital sin",
+      "startPage": 8,
+      "endPage": 8,
+      "entryIds": [
+        "p008s07"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "epie",
+      "startPage": 8,
+      "endPage": 8,
+      "entryIds": [
+        "p008s03"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "how to use 1700 €",
+      "startPage": 8,
+      "endPage": 8,
+      "entryIds": [
+        "p008s01"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Jwii vs iphone",
+      "startPage": 8,
+      "endPage": 8,
+      "entryIds": [
+        "p008s06"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "kellerparty berlin",
+      "startPage": 8,
+      "endPage": 8,
+      "entryIds": [
+        "p008s02"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "...UNTER SCHUTZATMOSPHÄRE VERPACKT. TROCKEN LAGERN, VOR SONNE SCHÜTZEN.\"",
+      "startPage": 9,
+      "endPage": 9,
+      "entryIds": [
+        "p009s07"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "16.phud beatbox battle convention",
+      "startPage": 9,
+      "endPage": 9,
+      "entryIds": [
+        "p009s01"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "dancing thursday",
+      "startPage": 9,
+      "endPage": 9,
+      "entryIds": [
+        "p009s04"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "house of holland",
+      "startPage": 9,
+      "endPage": 9,
+      "entryIds": [
+        "p009s05"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "radioskateboards",
+      "startPage": 9,
+      "endPage": 9,
+      "entryIds": [
+        "p009s03"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "the helder hype",
+      "startPage": 9,
+      "endPage": 9,
+      "entryIds": [
+        "p009s02"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "duyalog theaterfest & ballhaus",
+      "startPage": 10,
+      "endPage": 10,
+      "entryIds": [
+        "p010s01"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "kellerparty @ x-berg!",
+      "startPage": 11,
+      "endPage": 11,
+      "entryIds": [
+        "p011v01"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "kreativmesse @ lido",
+      "startPage": 11,
+      "endPage": 11,
+      "entryIds": [
+        "p011v02"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "adidas skate clash IV @ cassiopaia",
+      "startPage": 12,
+      "endPage": 12,
+      "entryIds": [
+        "p012v01"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "tanzmichmal @ lido",
+      "startPage": 12,
+      "endPage": 12,
+      "entryIds": [
+        "p012v02"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "urban archaeology",
+      "startPage": 13,
+      "endPage": 13,
+      "entryIds": [
+        "p013s01"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Moza Jarfist",
+      "startPage": 14,
+      "endPage": 14,
+      "entryIds": [
+        "p014s01"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "dj craft vs. proud magazine",
+      "startPage": 15,
+      "endPage": 15,
+      "entryIds": [
+        "p015v01"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "X-1,9,4,5",
+      "startPage": 16,
+      "endPage": 16,
+      "entryIds": [
+        "p016s01"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "1977 kam Nina Hagen mit diesem Album zum ersten Mal in der BRD heraus",
+      "startPage": 17,
+      "endPage": 17,
+      "entryIds": [
+        "p017v05"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Arids neues Album All Things come In Waves",
+      "startPage": 17,
+      "endPage": 17,
+      "entryIds": [
+        "p017v01"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Auch das neue Album von Van Morrison",
+      "startPage": 17,
+      "endPage": 17,
+      "entryIds": [
+        "p017v04"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Das neue Album von der Grammy-Gewinner Rockband Weezer",
+      "startPage": 17,
+      "endPage": 17,
+      "entryIds": [
+        "p017v06"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Das Schwestern-Quartett Cherish",
+      "startPage": 17,
+      "endPage": 17,
+      "entryIds": [
+        "p017v08"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "katovl menovsky’s sounds",
+      "startPage": 17,
+      "endPage": 17,
+      "entryIds": [
+        "p017v10"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Last Night.",
+      "startPage": 17,
+      "endPage": 17,
+      "entryIds": [
+        "p017v02"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "R.E.M. verdffentlichen",
+      "startPage": 17,
+      "endPage": 17,
+      "entryIds": [
+        "p017v03"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Rising Down wird das zehnte Album der aus Philadelphia stammenden Band The Roots sein.",
+      "startPage": 17,
+      "endPage": 17,
+      "entryIds": [
+        "p017v09"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "“nicht gesehn habt. Besucht die Band unter",
+      "startPage": 17,
+      "endPage": 17,
+      "entryIds": [
+        "p017v07"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "feature",
+      "startPage": 18,
+      "endPage": 18,
+      "entryIds": [
+        "p018v01"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Jonas studiert an der UdK Berlin. Vor ein paar anren hat er Vektorgrafiken",
+      "startPage": 18,
+      "endPage": 18,
+      "entryIds": [
+        "p018v04"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "felipe guerrero",
+      "startPage": 19,
+      "endPage": 19,
+      "entryIds": [
+        "p019v02"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "moritz stellmacher",
+      "startPage": 19,
+      "endPage": 19,
+      "entryIds": [
+        "p019v01"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "benjamin heps",
+      "startPage": 20,
+      "endPage": 20,
+      "entryIds": [
+        "p020s01"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "BITTE!!",
+      "startPage": 21,
+      "endPage": 21,
+      "entryIds": [
+        "p021s05"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Ist das Punk oder Rock?",
+      "startPage": 21,
+      "endPage": 21,
+      "entryIds": [
+        "p021s01"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "rocking the streets",
+      "startPage": 21,
+      "endPage": 21,
+      "entryIds": [
+        "p021s02"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "7 days",
+      "startPage": 22,
+      "endPage": 22,
+      "entryIds": [
+        "p022v01"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Unser proud Fotograf hat von deinem Flirtblick geschwärmt",
+      "startPage": 22,
+      "endPage": 22,
+      "entryIds": [
+        "p022v02"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Wer ist dein Fashion Hero?",
+      "startPage": 22,
+      "endPage": 22,
+      "entryIds": [
+        "p022v03"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Blaurot gemusterte Jacke, 350 Euro, Zucca",
+      "startPage": 23,
+      "endPage": 23,
+      "entryIds": [
+        "p023v02"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Braune Lederschuhe von 4Men, gekauft bei Deichmann, 45 Euro",
+      "startPage": 23,
+      "endPage": 23,
+      "entryIds": [
+        "p023v14"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Bunte Adidas Sneaker 30 Euro",
+      "startPage": 23,
+      "endPage": 23,
+      "entryIds": [
+        "p023v17"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Dunkelblaue Wollmütze, 15 Euro von H&M",
+      "startPage": 23,
+      "endPage": 23,
+      "entryIds": [
+        "p023v03"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Eskimo Winterjacke, 750 Euro, Tsumori Chrisato",
+      "startPage": 23,
+      "endPage": 23,
+      "entryIds": [
+        "p023v06"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Jaguar Ohrclips, 7 Euro vom Flohmarkt",
+      "startPage": 23,
+      "endPage": 23,
+      "entryIds": [
+        "p023v07"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Jeans von PJ, 40 Euro, irgendwo am Ernst-Reuter-Platz",
+      "startPage": 23,
+      "endPage": 23,
+      "entryIds": [
+        "p023v15"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Lachspinke Schuhe, 85 Euro, Vero Cuoio",
+      "startPage": 23,
+      "endPage": 23,
+      "entryIds": [
+        "p023v16"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Orangenfarbiges Muskelshirt, 11 Euro vom Flohmarkt",
+      "startPage": 23,
+      "endPage": 23,
+      "entryIds": [
+        "p023v05"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Orangenfarbiges Stirnband vom Flohmarkt, 5 Euro",
+      "startPage": 23,
+      "endPage": 23,
+      "entryIds": [
+        "p023v11"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Pinkes Seiden-Nachtdress von Peach John, 25 Euro",
+      "startPage": 23,
+      "endPage": 23,
+      "entryIds": [
+        "p023v09"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Pinkgelbe retro Samtjacke, 280 Euro, Miu Miu",
+      "startPage": 23,
+      "endPage": 23,
+      "entryIds": [
+        "p023v04"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Schwarz-lachs gestreiftes Top, 350 Euro, Tsumori Chrisato",
+      "startPage": 23,
+      "endPage": 23,
+      "entryIds": [
+        "p023v08"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Schwarzes Kleid mit roten Trägern, 790 Euro, Emma Cook",
+      "startPage": 23,
+      "endPage": 23,
+      "entryIds": [
+        "p023v12"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Sonnenbrille, 280 Euro, Chanel",
+      "startPage": 23,
+      "endPage": 23,
+      "entryIds": [
+        "p023v01"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Zerrissenes weißes Hemd von Hugo Boss, 80 Euro",
+      "startPage": 23,
+      "endPage": 23,
+      "entryIds": [
+        "p023v13"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Style icon",
+      "startPage": 24,
+      "endPage": 24,
+      "entryIds": [
+        "p024v01"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "the global nylon style",
+      "startPage": 26,
+      "endPage": 26,
+      "entryIds": [
+        "p026s01"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "win!",
+      "startPage": 26,
+      "endPage": 26,
+      "entryIds": [
+        "p026s02"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "shoot",
+      "startPage": 28,
+      "endPage": 28,
+      "entryIds": [
+        "p028v01"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "dear sparkasse",
+      "startPage": 29,
+      "endPage": 29,
+      "entryIds": [
+        "p029s05"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "Nagi Noda",
+      "startPage": 29,
+      "endPage": 29,
+      "entryIds": [
+        "p029s01"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "richard ruiz",
+      "startPage": 29,
+      "endPage": 29,
+      "entryIds": [
+        "p029s03"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "tsumori chisato",
+      "startPage": 29,
+      "endPage": 29,
+      "entryIds": [
+        "p029s06"
+      ],
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "velvet hour",
+      "startPage": 29,
+      "endPage": 29,
+      "entryIds": [
+        "p029s04"
+      ],
+      "authors": [],
+      "tags": []
+    }
+  ]
+}

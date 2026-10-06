@@ -1,0 +1,47 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        973,
+        0,
+        3338,
+        490
+      ],
+      "left": 973,
+      "top": 0,
+      "right": 3338,
+      "bottom": 490,
+      "width": 2365,
+      "height": 490,
+      "confidence": 76.729,
+      "text": "days \\ / |"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1251,
+        533,
+        3353,
+        642
+      ],
+      "left": 1251,
+      "top": 533,
+      "right": 3353,
+      "bottom": 642,
+      "width": 2102,
+      "height": 109,
+      "confidence": 94.948,
+      "text": "tuesday wednesday thur"
+    }
+  ]
+}

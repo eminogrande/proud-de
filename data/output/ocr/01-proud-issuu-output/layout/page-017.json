@@ -1,0 +1,627 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1175,
+        3052,
+        1948,
+        3150
+      ],
+      "left": 1175,
+      "top": 3052,
+      "right": 1948,
+      "bottom": 3150,
+      "width": 773,
+      "height": 98,
+      "confidence": 91.482,
+      "text": "Endlich — das neue Video-Magazin"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1032,
+        3062,
+        1106,
+        3082
+      ],
+      "left": 1032,
+      "top": 3062,
+      "right": 1106,
+      "bottom": 3082,
+      "width": 74,
+      "height": 20,
+      "confidence": 40.059,
+      "text": "-t"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1177,
+        3131,
+        1777,
+        3213
+      ],
+      "left": 1177,
+      "top": 3131,
+      "right": 1777,
+      "bottom": 3213,
+      "width": 600,
+      "height": 82,
+      "confidence": 88.011,
+      "text": "fur die Generation Exzess."
+    },
+    {
+      "id": "l004",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1362,
+        3240,
+        1992,
+        3327
+      ],
+      "left": 1362,
+      "top": 3240,
+      "right": 1992,
+      "bottom": 3327,
+      "width": 630,
+      "height": 87,
+      "confidence": 93.209,
+      "text": "auf Anstand, Hochglanz und"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1194,
+        3308,
+        1973,
+        3413
+      ],
+      "left": 1194,
+      "top": 3308,
+      "right": 1973,
+      "bottom": 3413,
+      "width": 779,
+      "height": 105,
+      "confidence": 90.904,
+      "text": "Apfelschorle! Berlin hat endlich ein"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1200,
+        3368,
+        2031,
+        3470
+      ],
+      "left": 1200,
+      "top": 3368,
+      "right": 2031,
+      "bottom": 3470,
+      "width": 831,
+      "height": 102,
+      "confidence": 93.077,
+      "text": "Magazin, das o sich die"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1205,
+        3442,
+        1915,
+        3529
+      ],
+      "left": 1205,
+      "top": 3442,
+      "right": 1915,
+      "bottom": 3529,
+      "width": 710,
+      "height": 87,
+      "confidence": 94.282,
+      "text": "anderen Kinder nicht hintrauen:"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1210,
+        3495,
+        2025,
+        3592
+      ],
+      "left": 1210,
+      "top": 3495,
+      "right": 2025,
+      "bottom": 3592,
+      "width": 815,
+      "height": 97,
+      "confidence": 90.498,
+      "text": "in die dreckig-schillernden Abgrunde"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2207,
+        3548,
+        3031,
+        3640
+      ],
+      "left": 2207,
+      "top": 3548,
+      "right": 3031,
+      "bottom": 3640,
+      "width": 824,
+      "height": 92,
+      "confidence": 92.301,
+      "text": "Denn Berlin ist vieles — aber eines"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1648,
+        3566,
+        1910,
+        3630
+      ],
+      "left": 1648,
+      "top": 3566,
+      "right": 1910,
+      "bottom": 3630,
+      "width": 262,
+      "height": 64,
+      "confidence": 93.756,
+      "text": "gessen hat,"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1125,
+        3595,
+        1644,
+        3672
+      ],
+      "left": 1125,
+      "top": 3595,
+      "right": 1644,
+      "bottom": 3672,
+      "width": 519,
+      "height": 77,
+      "confidence": 88.14,
+      "text": "me einer Stadt, die ver"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1132,
+        3630,
+        2163,
+        3730
+      ],
+      "left": 1132,
+      "top": 3630,
+      "right": 2163,
+      "bottom": 3730,
+      "width": 1031,
+      "height": 100,
+      "confidence": 61.294,
+      "text": "ie schiafen Zu gehen. ="
+    },
+    {
+      "id": "l013",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2096,
+        3632,
+        2794,
+        3714
+      ],
+      "left": 2096,
+      "top": 3632,
+      "right": 2794,
+      "bottom": 3714,
+      "width": 698,
+      "height": 82,
+      "confidence": 72.874,
+      "text": "ie ganz bestimmt: Schnaps."
+    },
+    {
+      "id": "l014",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1152,
+        3740,
+        1175,
+        3770
+      ],
+      "left": 1152,
+      "top": 3740,
+      "right": 1175,
+      "bottom": 3770,
+      "width": 23,
+      "height": 30,
+      "confidence": 41.746,
+      "text": "‘"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1168,
+        3753,
+        1974,
+        3845
+      ],
+      "left": 1168,
+      "top": 3753,
+      "right": 1974,
+      "bottom": 3845,
+      "width": 806,
+      "height": 92,
+      "confidence": 74.838,
+      "text": "BM Ob Pyjama-Parties mit Killgoth-"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1138,
+        3774,
+        1164,
+        3792
+      ],
+      "left": 1138,
+      "top": 3774,
+      "right": 1164,
+      "bottom": 3792,
+      "width": 26,
+      "height": 18,
+      "confidence": 48.185,
+      "text": "="
+    },
+    {
+      "id": "l017",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1168,
+        3817,
+        1978,
+        3919
+      ],
+      "left": 1168,
+      "top": 3817,
+      "right": 1978,
+      "bottom": 3919,
+      "width": 810,
+      "height": 102,
+      "confidence": 78.517,
+      "text": "mi Bands, Toiletten-Interviews mit"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1435,
+        3829,
+        2541,
+        3958
+      ],
+      "left": 1435,
+      "top": 3829,
+      "right": 2541,
+      "bottom": 3958,
+      "width": 1106,
+      "height": 129,
+      "confidence": 78.987,
+      "text": "rs; Gedankenschmusen » Danke, Jungs!"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1473,
+        3854,
+        1478,
+        3858
+      ],
+      "left": 1473,
+      "top": 3854,
+      "right": 1478,
+      "bottom": 3858,
+      "width": 5,
+      "height": 4,
+      "confidence": 24.795,
+      "text": "."
+    },
+    {
+      "id": "l020",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1249,
+        3924,
+        2860,
+        4098
+      ],
+      "left": 1249,
+      "top": 3924,
+      "right": 2860,
+      "bottom": 4098,
+      "width": 1611,
+      "height": 174,
+      "confidence": 80.957,
+      "text": "im SM-Club des Vertrauens, Fashion” | www.schnapsmagazine.com"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1239,
+        3927,
+        1428,
+        3972
+      ],
+      "left": 1239,
+      "top": 3927,
+      "right": 1428,
+      "bottom": 3972,
+      "width": 189,
+      "height": 45,
+      "confidence": 90.883,
+      "text": "Rocksta"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1244,
+        3941,
+        2025,
+        4046
+      ],
+      "left": 1244,
+      "top": 3941,
+      "right": 2025,
+      "bottom": 4046,
+      "width": 781,
+      "height": 105,
+      "confidence": 86.349,
+      "text": "mit Rummelsnuff, Selbstversuche"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        2231,
+        3990,
+        3103,
+        4099
+      ],
+      "left": 2231,
+      "top": 3990,
+      "right": 3103,
+      "bottom": 4099,
+      "width": 872,
+      "height": 109,
+      "confidence": 90.467,
+      "text": "www.myspace.com/ schnapsmagazine"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1255,
+        4092,
+        1805,
+        4164
+      ],
+      "left": 1255,
+      "top": 4092,
+      "right": 1805,
+      "bottom": 4164,
+      "width": 550,
+      "height": 72,
+      "confidence": 90.835,
+      "text": "Shootings mit Toten, unz"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        3027,
+        4115,
+        3048,
+        4133
+      ],
+      "left": 3027,
+      "top": 4115,
+      "right": 3048,
+      "bottom": 4133,
+      "width": 21,
+      "height": 18,
+      "confidence": 78.899,
+      "text": "&"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1259,
+        4138,
+        2316,
+        4224
+      ],
+      "left": 1259,
+      "top": 4138,
+      "right": 2316,
+      "bottom": 4224,
+      "width": 1057,
+      "height": 86,
+      "confidence": 83.932,
+      "text": "Fotostrecken von der Pa ee"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1484,
+        4288,
+        1570,
+        4312
+      ],
+      "left": 1484,
+      "top": 4288,
+      "right": 1570,
+      "bottom": 4312,
+      "width": 86,
+      "height": 24,
+      "confidence": 24.467,
+      "text": "FF"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1529,
+        4332,
+        1567,
+        4368
+      ],
+      "left": 1529,
+      "top": 4332,
+      "right": 1567,
+      "bottom": 4368,
+      "width": 38,
+      "height": 36,
+      "confidence": 53.61,
+      "text": "i."
+    },
+    {
+      "id": "l029",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2249,
+        4354,
+        2607,
+        4446
+      ],
+      "left": 2249,
+      "top": 4354,
+      "right": 2607,
+      "bottom": 4446,
+      "width": 358,
+      "height": 92,
+      "confidence": 51.238,
+      "text": "y ws"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 16,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1702,
+        4364,
+        1727,
+        4375
+      ],
+      "left": 1702,
+      "top": 4364,
+      "right": 1727,
+      "bottom": 4375,
+      "width": 25,
+      "height": 11,
+      "confidence": 46.96,
+      "text": "-"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2496,
+        4416,
+        2687,
+        4494
+      ],
+      "left": 2496,
+      "top": 4416,
+      "right": 2687,
+      "bottom": 4494,
+      "width": 191,
+      "height": 78,
+      "confidence": 47.4,
+      "text": "7 4"
+    }
+  ]
+}

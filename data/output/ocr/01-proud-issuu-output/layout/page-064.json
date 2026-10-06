@@ -1,0 +1,47 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        85,
+        83,
+        264,
+        120
+      ],
+      "left": 85,
+      "top": 83,
+      "right": 264,
+      "bottom": 120,
+      "width": 179,
+      "height": 37,
+      "confidence": 96.122,
+      "text": "last look"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        87,
+        4371,
+        135,
+        4409
+      ],
+      "left": 87,
+      "top": 4371,
+      "right": 135,
+      "bottom": 4409,
+      "width": 48,
+      "height": 38,
+      "confidence": 96.965,
+      "text": "64"
+    }
+  ]
+}

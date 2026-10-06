@@ -1,0 +1,467 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        82,
+        83,
+        293,
+        120
+      ],
+      "left": 82,
+      "top": 83,
+      "right": 293,
+      "bottom": 120,
+      "width": 211,
+      "height": 37,
+      "confidence": 96.613,
+      "text": "subscribe"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        264,
+        260,
+        1097,
+        306
+      ],
+      "left": 264,
+      "top": 260,
+      "right": 1097,
+      "bottom": 306,
+      "width": 833,
+      "height": 46,
+      "confidence": 95.268,
+      "text": "Alle wollen sie, aber nicht alle kriegen"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        266,
+        318,
+        984,
+        374
+      ],
+      "left": 266,
+      "top": 318,
+      "right": 984,
+      "bottom": 374,
+      "width": 718,
+      "height": 56,
+      "confidence": 95.954,
+      "text": "sie. Die proud ist einfach schnell"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        265,
+        386,
+        1042,
+        433
+      ],
+      "left": 265,
+      "top": 386,
+      "right": 1042,
+      "bottom": 433,
+      "width": 777,
+      "height": 47,
+      "confidence": 96.273,
+      "text": "weg. So ist das eben! Fur die unter"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        268,
+        450,
+        1082,
+        496
+      ],
+      "left": 268,
+      "top": 450,
+      "right": 1082,
+      "bottom": 496,
+      "width": 814,
+      "height": 46,
+      "confidence": 96.041,
+      "text": "Euch, die es mit dem Timing nicht so"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        264,
+        513,
+        1111,
+        559
+      ],
+      "left": 264,
+      "top": 513,
+      "right": 1111,
+      "bottom": 559,
+      "width": 847,
+      "height": 46,
+      "confidence": 94.862,
+      "text": "genau nehmen und trotzdem nicht auf"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        265,
+        576,
+        1080,
+        620
+      ],
+      "left": 265,
+      "top": 576,
+      "right": 1080,
+      "bottom": 620,
+      "width": 815,
+      "height": 44,
+      "confidence": 82.381,
+      "text": "warme Brotchen verzichten mochten,"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        267,
+        640,
+        1004,
+        687
+      ],
+      "left": 267,
+      "top": 640,
+      "right": 1004,
+      "bottom": 687,
+      "width": 737,
+      "height": 47,
+      "confidence": 94.904,
+      "text": "haben wir uns etwas ausgedacht:"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        265,
+        768,
+        1032,
+        805
+      ],
+      "left": 265,
+      "top": 768,
+      "right": 1032,
+      "bottom": 805,
+      "width": 767,
+      "height": 37,
+      "confidence": 95.051,
+      "text": "Wir schicken Euch einfach ein Jahr"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        268,
+        831,
+        962,
+        877
+      ],
+      "left": 268,
+      "top": 831,
+      "right": 962,
+      "bottom": 877,
+      "width": 694,
+      "height": 46,
+      "confidence": 94.615,
+      "text": "lang jede Ausgabe nach Hause."
+    },
+    {
+      "id": "l011",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        268,
+        894,
+        766,
+        931
+      ],
+      "left": 268,
+      "top": 894,
+      "right": 766,
+      "bottom": 931,
+      "width": 498,
+      "height": 37,
+      "confidence": 77.933,
+      "text": "Ihr zahit nur das Porto."
+    },
+    {
+      "id": "l012",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        268,
+        956,
+        971,
+        994
+      ],
+      "left": 268,
+      "top": 956,
+      "right": 971,
+      "bottom": 994,
+      "width": 703,
+      "height": 38,
+      "confidence": 92.654,
+      "text": "16 Tacken 20 und Ihr konnt den"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        418,
+        1022,
+        998,
+        1068
+      ],
+      "left": 418,
+      "top": 1022,
+      "right": 998,
+      "bottom": 1068,
+      "width": 580,
+      "height": 46,
+      "confidence": 94.939,
+      "text": "Teenies beim Fight um die"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        267,
+        1080,
+        956,
+        1135
+      ],
+      "left": 267,
+      "top": 1080,
+      "right": 956,
+      "bottom": 1135,
+      "width": 689,
+      "height": 55,
+      "confidence": 93.915,
+      "text": "neueste proud zusehen und sie"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        264,
+        1146,
+        860,
+        1194
+      ],
+      "left": 264,
+      "top": 1146,
+      "right": 860,
+      "bottom": 1194,
+      "width": 596,
+      "height": 48,
+      "confidence": 93.026,
+      "text": "genusslich anfeuern. Yeah!"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2242,
+        3556,
+        2932,
+        3601
+      ],
+      "left": 2242,
+      "top": 3556,
+      "right": 2932,
+      "bottom": 3601,
+      "width": 690,
+      "height": 45,
+      "confidence": 95.147,
+      "text": "Einfach 16,20€ auf das Konto:"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2239,
+        3615,
+        2360,
+        3671
+      ],
+      "left": 2239,
+      "top": 3615,
+      "right": 2360,
+      "bottom": 3671,
+      "width": 121,
+      "height": 56,
+      "confidence": 96.623,
+      "text": "proud"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2243,
+        3684,
+        3353,
+        3728
+      ],
+      "left": 2243,
+      "top": 3684,
+      "right": 3353,
+      "bottom": 3728,
+      "width": 1110,
+      "height": 44,
+      "confidence": 71.835,
+      "text": "Konto: 6603112955 —"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2243,
+        3747,
+        2598,
+        3784
+      ],
+      "left": 2243,
+      "top": 3747,
+      "right": 2598,
+      "bottom": 3784,
+      "width": 355,
+      "height": 37,
+      "confidence": 94.419,
+      "text": "BLZ: 10050000"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2240,
+        3874,
+        2461,
+        3912
+      ],
+      "left": 2240,
+      "top": 3874,
+      "right": 2461,
+      "bottom": 3912,
+      "width": 221,
+      "height": 38,
+      "confidence": 96.064,
+      "text": "Alternativ"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2242,
+        4128,
+        2487,
+        4165
+      ],
+      "left": 2242,
+      "top": 4128,
+      "right": 2487,
+      "bottom": 4165,
+      "width": 245,
+      "height": 37,
+      "confidence": 96.235,
+      "text": "Newsletter"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2240,
+        4186,
+        2752,
+        4242
+      ],
+      "left": 2240,
+      "top": 4186,
+      "right": 2752,
+      "bottom": 4242,
+      "width": 512,
+      "height": 56,
+      "confidence": 59.196,
+      "text": "www.prosdmagazine.de"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        87,
+        4366,
+        269,
+        4422
+      ],
+      "left": 87,
+      "top": 4366,
+      "right": 269,
+      "bottom": 4422,
+      "width": 182,
+      "height": 56,
+      "confidence": 96.386,
+      "text": "04 proud"
+    }
+  ]
+}

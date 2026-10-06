@@ -1,0 +1,1247 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1257,
+        488,
+        1972,
+        530
+      ],
+      "left": 1257,
+      "top": 488,
+      "right": 1972,
+      "bottom": 530,
+      "width": 715,
+      "height": 42,
+      "confidence": 95.238,
+      "text": "Es sieht wirklich aus, wonach es"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1255,
+        552,
+        2053,
+        594
+      ],
+      "left": 1255,
+      "top": 552,
+      "right": 2053,
+      "bottom": 594,
+      "width": 798,
+      "height": 42,
+      "confidence": 93.729,
+      "text": "aussieht. Und nein, wir verschenken"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1257,
+        615,
+        1988,
+        652
+      ],
+      "left": 1257,
+      "top": 615,
+      "right": 1988,
+      "bottom": 652,
+      "width": 731,
+      "height": 37,
+      "confidence": 93.282,
+      "text": "nicht eine MP3-CD mit Timecode-"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1256,
+        677,
+        1988,
+        724
+      ],
+      "left": 1256,
+      "top": 677,
+      "right": 1988,
+      "bottom": 724,
+      "width": 732,
+      "height": 47,
+      "confidence": 92.053,
+      "text": "Piep-Tonen. Wahr und wahrhaftig."
+    },
+    {
+      "id": "l005",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        1257,
+        742,
+        1878,
+        779
+      ],
+      "left": 1257,
+      "top": 742,
+      "right": 1878,
+      "bottom": 779,
+      "width": 621,
+      "height": 37,
+      "confidence": 94.692,
+      "text": "Ein echter TRAKTOR mit vier"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        1256,
+        805,
+        1938,
+        842
+      ],
+      "left": 1256,
+      "top": 805,
+      "right": 1938,
+      "bottom": 842,
+      "width": 682,
+      "height": 37,
+      "confidence": 94.41,
+      "text": "Scheiben. Mafiakontakte in die"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        1254,
+        868,
+        2063,
+        905
+      ],
+      "left": 1254,
+      "top": 868,
+      "right": 2063,
+      "bottom": 905,
+      "width": 809,
+      "height": 37,
+      "confidence": 94.009,
+      "text": "Tiefen der Musikindustrie haben uns"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        1255,
+        930,
+        2001,
+        978
+      ],
+      "left": 1255,
+      "top": 930,
+      "right": 2001,
+      "bottom": 978,
+      "width": 746,
+      "height": 48,
+      "confidence": 89.531,
+      "text": "das ermoglicht und wir geben das"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        1254,
+        996,
+        1989,
+        1042
+      ],
+      "left": 1254,
+      "top": 996,
+      "right": 1989,
+      "bottom": 1042,
+      "width": 735,
+      "height": 46,
+      "confidence": 96.556,
+      "text": "Teil auch nur unter folgenden vier"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 10,
+      "bbox": [
+        1257,
+        1058,
+        1608,
+        1096
+      ],
+      "left": 1257,
+      "top": 1058,
+      "right": 1608,
+      "bottom": 1096,
+      "width": 351,
+      "height": 38,
+      "confidence": 94.129,
+      "text": "Umstanden her:"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1257,
+        1122,
+        2033,
+        1167
+      ],
+      "left": 1257,
+      "top": 1122,
+      "right": 2033,
+      "bottom": 1167,
+      "width": 776,
+      "height": 45,
+      "confidence": 93.318,
+      "text": "1) Du schickst uns ein 20-min-Tape"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        1255,
+        1185,
+        1961,
+        1231
+      ],
+      "left": 1255,
+      "top": 1185,
+      "right": 1961,
+      "bottom": 1231,
+      "width": 706,
+      "height": 46,
+      "confidence": 95.121,
+      "text": "auf Vinyl gemixt + Video von Dir,"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        1254,
+        1248,
+        2030,
+        1296
+      ],
+      "left": 1254,
+      "top": 1248,
+      "right": 2030,
+      "bottom": 1296,
+      "width": 776,
+      "height": 48,
+      "confidence": 92.049,
+      "text": "wahrend Du das Ganze getan hast,"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        1255,
+        1313,
+        1503,
+        1349
+      ],
+      "left": 1255,
+      "top": 1313,
+      "right": 1503,
+      "bottom": 1349,
+      "width": 248,
+      "height": 36,
+      "confidence": 93.034,
+      "text": "als Beweis."
+    },
+    {
+      "id": "l015",
+      "blockNumber": 2,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        1256,
+        1375,
+        2056,
+        1422
+      ],
+      "left": 1256,
+      "top": 1375,
+      "right": 2056,
+      "bottom": 1422,
+      "width": 800,
+      "height": 47,
+      "confidence": 93.203,
+      "text": "2) Du unterschreibst eine Erklarung,"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 2,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        1255,
+        1439,
+        2023,
+        1481
+      ],
+      "left": 1255,
+      "top": 1439,
+      "right": 2023,
+      "bottom": 1481,
+      "width": 768,
+      "height": 42,
+      "confidence": 93.564,
+      "text": "dass Du niemals in deinem Leben,"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2734,
+        1495,
+        2784,
+        1525
+      ],
+      "left": 2734,
+      "top": 1495,
+      "right": 2784,
+      "bottom": 1525,
+      "width": 50,
+      "height": 30,
+      "confidence": 71.001,
+      "text": "~"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 2,
+      "paragraphNumber": 3,
+      "lineNumber": 3,
+      "bbox": [
+        1257,
+        1503,
+        2972,
+        1549
+      ],
+      "left": 1257,
+      "top": 1503,
+      "right": 2972,
+      "bottom": 1549,
+      "width": 1715,
+      "height": 46,
+      "confidence": 93.695,
+      "text": "und so lange dir TRAKTOR SCRATCH ="
+    },
+    {
+      "id": "l019",
+      "blockNumber": 2,
+      "paragraphNumber": 3,
+      "lineNumber": 4,
+      "bbox": [
+        1256,
+        1557,
+        3080,
+        1612
+      ],
+      "left": 1256,
+      "top": 1557,
+      "right": 3080,
+      "bottom": 1612,
+      "width": 1824,
+      "height": 55,
+      "confidence": 94.637,
+      "text": "PRO nicht geklaut wurde, nur gekaufte Absolut richtig erkannt. Die Marke, die"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 2,
+      "paragraphNumber": 3,
+      "lineNumber": 5,
+      "bbox": [
+        1257,
+        1620,
+        3007,
+        1675
+      ],
+      "left": 1257,
+      "top": 1620,
+      "right": 3007,
+      "bottom": 1675,
+      "width": 1750,
+      "height": 55,
+      "confidence": 94.547,
+      "text": "MP3s auflegst. seit einiger Zeit die Busse in Berlin"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1255,
+        1684,
+        3034,
+        1738
+      ],
+      "left": 1255,
+      "top": 1684,
+      "right": 3034,
+      "bottom": 1738,
+      "width": 1779,
+      "height": 54,
+      "confidence": 93.9,
+      "text": "3) Stand zu Redaktionsschluss noch schmuckt. In Berlin als Headquarter"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1257,
+        1748,
+        2944,
+        1794
+      ],
+      "left": 1257,
+      "top": 1748,
+      "right": 2944,
+      "bottom": 1794,
+      "width": 1687,
+      "height": 46,
+      "confidence": 94.664,
+      "text": "nicht fest. wurden auch gleich einmal neun"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1255,
+        1811,
+        2993,
+        1864
+      ],
+      "left": 1255,
+      "top": 1811,
+      "right": 2993,
+      "bottom": 1864,
+      "width": 1738,
+      "height": 53,
+      "confidence": 94.696,
+      "text": "4) Du schaffst es, uns in einer E-Mail Stores aus dem Boden gestampft."
+    },
+    {
+      "id": "l024",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1255,
+        1875,
+        3036,
+        1934
+      ],
+      "left": 1255,
+      "top": 1875,
+      "right": 3036,
+      "bottom": 1934,
+      "width": 1781,
+      "height": 59,
+      "confidence": 94.032,
+      "text": "an win@proudmagazine.de davon zu Checkt die frische Kollektion auf der"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        1257,
+        1938,
+        3036,
+        1993
+      ],
+      "left": 1257,
+      "top": 1938,
+      "right": 3036,
+      "bottom": 1993,
+      "width": 1779,
+      "height": 55,
+      "confidence": 94.597,
+      "text": "Uberzeugen, dass wir von Punkt 1, 2 Webseite. Weil wir so sind, gibt’s ein"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        1257,
+        2001,
+        3020,
+        2056
+      ],
+      "left": 1257,
+      "top": 2001,
+      "right": 3020,
+      "bottom": 2056,
+      "width": 1763,
+      "height": 55,
+      "confidence": 95.466,
+      "text": "und 3 absehen und Dir das Ding so paar Jeans und Sweater aufs Haus."
+    },
+    {
+      "id": "l027",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1256,
+        2069,
+        3081,
+        2142
+      ],
+      "left": 1256,
+      "top": 2069,
+      "right": 3081,
+      "bottom": 2142,
+      "width": 1825,
+      "height": 73,
+      "confidence": 82.448,
+      "text": "schenken. www.e-rags.de"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1443,
+        2168,
+        2102,
+        2204
+      ],
+      "left": 1443,
+      "top": 2168,
+      "right": 2102,
+      "bottom": 2204,
+      "width": 659,
+      "height": 36,
+      "confidence": 90.353,
+      "text": "www.native-instruments.com"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        268,
+        2481,
+        2307,
+        2538
+      ],
+      "left": 268,
+      "top": 2481,
+      "right": 2307,
+      "bottom": 2538,
+      "width": 2039,
+      "height": 57,
+      "confidence": 93.948,
+      "text": "Rouge Bunny Rouge, Baby! Die edle Make-Up Kollektion versorgt uns mit dem ("
+    },
+    {
+      "id": "l030",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        267,
+        2539,
+        2142,
+        2595
+      ],
+      "left": 267,
+      "top": 2539,
+      "right": 2142,
+      "bottom": 2595,
+      "width": 1875,
+      "height": 56,
+      "confidence": 93.872,
+      "text": "Besten vom Besten. Die proud Models, Stylisten und alle Besucherrinnen der"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2309,
+        2586,
+        2364,
+        2625
+      ],
+      "left": 2309,
+      "top": 2586,
+      "right": 2364,
+      "bottom": 2625,
+      "width": 55,
+      "height": 39,
+      "confidence": 61.998,
+      "text": "~*~"
+    },
+    {
+      "id": "l032",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        264,
+        2603,
+        2015,
+        2658
+      ],
+      "left": 264,
+      "top": 2603,
+      "right": 2015,
+      "bottom": 2658,
+      "width": 1751,
+      "height": 55,
+      "confidence": 93.827,
+      "text": "proud Redaktion wissen, wovon ich rede. Du willst mitreden, gewinn es einfach."
+    },
+    {
+      "id": "l033",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        263,
+        2810,
+        1232,
+        2984
+      ],
+      "left": 263,
+      "top": 2810,
+      "right": 1232,
+      "bottom": 2984,
+      "width": 969,
+      "height": 174,
+      "confidence": 96.353,
+      "text": "tres bonjour"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1945,
+        3009,
+        1990,
+        3147
+      ],
+      "left": 1945,
+      "top": 3009,
+      "right": 1990,
+      "bottom": 3147,
+      "width": 45,
+      "height": 138,
+      "confidence": 31.539,
+      "text": "eseUy]"
+    },
+    {
+      "id": "l035",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        3018,
+        913,
+        3064
+      ],
+      "left": 273,
+      "top": 3018,
+      "right": 913,
+      "bottom": 3064,
+      "width": 640,
+      "height": 46,
+      "confidence": 86.148,
+      "text": "lnr habt es gesehen, Ihr wollt"
+    },
+    {
+      "id": "l036",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2247,
+        3063,
+        3059,
+        3109
+      ],
+      "left": 2247,
+      "top": 3063,
+      "right": 3059,
+      "bottom": 3109,
+      "width": 812,
+      "height": 46,
+      "confidence": 94.657,
+      "text": "Blondie hat es uns ziemlich angetan."
+    },
+    {
+      "id": "l037",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        270,
+        3081,
+        1626,
+        3118
+      ],
+      "left": 270,
+      "top": 3081,
+      "right": 1626,
+      "bottom": 3118,
+      "width": 1356,
+      "height": 37,
+      "confidence": 93.634,
+      "text": "es haben. Wir verstehen das. ~"
+    },
+    {
+      "id": "l038",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2247,
+        3126,
+        2888,
+        3172
+      ],
+      "left": 2247,
+      "top": 3126,
+      "right": 2888,
+      "bottom": 3172,
+      "width": 641,
+      "height": 46,
+      "confidence": 92.507,
+      "text": "Die durchweg stark bequeme"
+    },
+    {
+      "id": "l039",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        273,
+        3146,
+        1112,
+        3182
+      ],
+      "left": 273,
+      "top": 3146,
+      "right": 1112,
+      "bottom": 3182,
+      "width": 839,
+      "height": 36,
+      "confidence": 95.077,
+      "text": "Interessentinnen lassen uns bitte ihre"
+    },
+    {
+      "id": "l040",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2247,
+        3189,
+        3091,
+        3226
+      ],
+      "left": 2247,
+      "top": 3189,
+      "right": 3091,
+      "bottom": 3226,
+      "width": 844,
+      "height": 37,
+      "confidence": 94.523,
+      "text": "Kollektion wird nicht umsonst mit dem"
+    },
+    {
+      "id": "l041",
+      "blockNumber": 12,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        272,
+        3208,
+        861,
+        3255
+      ],
+      "left": 272,
+      "top": 3208,
+      "right": 861,
+      "bottom": 3255,
+      "width": 589,
+      "height": 47,
+      "confidence": 92.415,
+      "text": "Konfektionsgrosse wissen."
+    },
+    {
+      "id": "l042",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        2246,
+        3254,
+        2988,
+        3300
+      ],
+      "left": 2246,
+      "top": 3254,
+      "right": 2988,
+      "bottom": 3300,
+      "width": 742,
+      "height": 46,
+      "confidence": 90.86,
+      "text": "Slogan ,,Lieblingsteile“ beworben."
+    },
+    {
+      "id": "l043",
+      "blockNumber": 18,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        272,
+        3272,
+        430,
+        3318
+      ],
+      "left": 272,
+      "top": 3272,
+      "right": 430,
+      "bottom": 3318,
+      "width": 158,
+      "height": 46,
+      "confidence": 96.595,
+      "text": "Es gibt:"
+    },
+    {
+      "id": "l044",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        2247,
+        3316,
+        2978,
+        3361
+      ],
+      "left": 2247,
+      "top": 3316,
+      "right": 2978,
+      "bottom": 3361,
+      "width": 731,
+      "height": 45,
+      "confidence": 85.916,
+      "text": "Madels, viel Spa damit. Manner"
+    },
+    {
+      "id": "l045",
+      "blockNumber": 18,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        3335,
+        950,
+        3379
+      ],
+      "left": 270,
+      "top": 3335,
+      "right": 950,
+      "bottom": 3379,
+      "width": 680,
+      "height": 44,
+      "confidence": 95.04,
+      "text": "a) Latex Couture Bikini-Set aus"
+    },
+    {
+      "id": "l046",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        2244,
+        3380,
+        2462,
+        3416
+      ],
+      "left": 2244,
+      "top": 3380,
+      "right": 2462,
+      "bottom": 3416,
+      "width": 218,
+      "height": 36,
+      "confidence": 96.166,
+      "text": "TRAKTOR!"
+    },
+    {
+      "id": "l047",
+      "blockNumber": 18,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        3399,
+        1029,
+        3445
+      ],
+      "left": 270,
+      "top": 3399,
+      "right": 1029,
+      "bottom": 3445,
+      "width": 759,
+      "height": 46,
+      "confidence": 91.53,
+      "text": "der UV-Lingerie Kollektion von Trés"
+    },
+    {
+      "id": "l048",
+      "blockNumber": 18,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        272,
+        3462,
+        1004,
+        3507
+      ],
+      "left": 272,
+      "top": 3462,
+      "right": 1004,
+      "bottom": 3507,
+      "width": 732,
+      "height": 45,
+      "confidence": 94.134,
+      "text": "Bonjour in wahlweise transparent"
+    },
+    {
+      "id": "l049",
+      "blockNumber": 22,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1728,
+        3519,
+        2025,
+        3812
+      ],
+      "left": 1728,
+      "top": 3519,
+      "right": 2025,
+      "bottom": 3812,
+      "width": 297,
+      "height": 293,
+      "confidence": 86.253,
+      "text": "&"
+    },
+    {
+      "id": "l050",
+      "blockNumber": 18,
+      "paragraphNumber": 3,
+      "lineNumber": 3,
+      "bbox": [
+        272,
+        3525,
+        1043,
+        3570
+      ],
+      "left": 272,
+      "top": 3525,
+      "right": 1043,
+      "bottom": 3570,
+      "width": 771,
+      "height": 45,
+      "confidence": 93.912,
+      "text": "rosé oder deckend pastell rosé mit"
+    },
+    {
+      "id": "l051",
+      "blockNumber": 18,
+      "paragraphNumber": 3,
+      "lineNumber": 4,
+      "bbox": [
+        273,
+        3590,
+        1042,
+        3636
+      ],
+      "left": 273,
+      "top": 3590,
+      "right": 1042,
+      "bottom": 3636,
+      "width": 769,
+      "height": 46,
+      "confidence": 91.839,
+      "text": "Kontrastpaspeln in neon limegreen"
+    },
+    {
+      "id": "l052",
+      "blockNumber": 18,
+      "paragraphNumber": 3,
+      "lineNumber": 5,
+      "bbox": [
+        271,
+        3653,
+        1055,
+        3699
+      ],
+      "left": 271,
+      "top": 3653,
+      "right": 1055,
+      "bottom": 3699,
+      "width": 784,
+      "height": 46,
+      "confidence": 91.83,
+      "text": "(schwarzlichtaktiv), winzigen Strass-"
+    },
+    {
+      "id": "l053",
+      "blockNumber": 18,
+      "paragraphNumber": 3,
+      "lineNumber": 6,
+      "bbox": [
+        272,
+        3716,
+        968,
+        3752
+      ],
+      "left": 272,
+      "top": 3716,
+      "right": 968,
+      "bottom": 3752,
+      "width": 696,
+      "height": 36,
+      "confidence": 92.61,
+      "text": "Elementen und nachtschwarzen"
+    },
+    {
+      "id": "l054",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2435,
+        3731,
+        2841,
+        3767
+      ],
+      "left": 2435,
+      "top": 3731,
+      "right": 2841,
+      "bottom": 3767,
+      "width": 406,
+      "height": 36,
+      "confidence": 92.402,
+      "text": "www.naketano.de"
+    },
+    {
+      "id": "l055",
+      "blockNumber": 18,
+      "paragraphNumber": 3,
+      "lineNumber": 7,
+      "bbox": [
+        271,
+        3778,
+        562,
+        3815
+      ],
+      "left": 271,
+      "top": 3778,
+      "right": 562,
+      "bottom": 3815,
+      "width": 291,
+      "height": 37,
+      "confidence": 90.945,
+      "text": "Satinbandern"
+    },
+    {
+      "id": "l056",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1533,
+        3808,
+        1570,
+        3830
+      ],
+      "left": 1533,
+      "top": 3808,
+      "right": 1570,
+      "bottom": 3830,
+      "width": 37,
+      "height": 22,
+      "confidence": 53.164,
+      "text": "8"
+    },
+    {
+      "id": "l057",
+      "blockNumber": 18,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        271,
+        3843,
+        1085,
+        3888
+      ],
+      "left": 271,
+      "top": 3843,
+      "right": 1085,
+      "bottom": 3888,
+      "width": 814,
+      "height": 45,
+      "confidence": 92.487,
+      "text": "b) Set bestehend aus Neckholder-BH"
+    },
+    {
+      "id": "l058",
+      "blockNumber": 18,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        274,
+        3906,
+        1064,
+        3952
+      ],
+      "left": 274,
+      "top": 3906,
+      "right": 1064,
+      "bottom": 3952,
+      "width": 790,
+      "height": 46,
+      "confidence": 86.626,
+      "text": ",oinner or Saint“ sowie Bikini-String"
+    },
+    {
+      "id": "l059",
+      "blockNumber": 18,
+      "paragraphNumber": 4,
+      "lineNumber": 3,
+      "bbox": [
+        274,
+        3969,
+        1558,
+        4024
+      ],
+      "left": 274,
+      "top": 3969,
+      "right": 1558,
+      "bottom": 4024,
+      "width": 1284,
+      "height": 55,
+      "confidence": 53.997,
+      "text": "»Nightflight* i"
+    },
+    {
+      "id": "l060",
+      "blockNumber": 18,
+      "paragraphNumber": 4,
+      "lineNumber": 4,
+      "bbox": [
+        270,
+        4032,
+        1106,
+        4078
+      ],
+      "left": 270,
+      "top": 4032,
+      "right": 1106,
+      "bottom": 4078,
+      "width": 836,
+      "height": 46,
+      "confidence": 90.331,
+      "text": "c) Geschenkbox mit pflegendem 30ml"
+    },
+    {
+      "id": "l061",
+      "blockNumber": 18,
+      "paragraphNumber": 5,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        4097,
+        508,
+        4142
+      ],
+      "left": 270,
+      "top": 4097,
+      "right": 508,
+      "bottom": 4142,
+      "width": 238,
+      "height": 45,
+      "confidence": 91.604,
+      "text": "Glanzspray"
+    },
+    {
+      "id": "l062",
+      "blockNumber": 26,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        671,
+        4181,
+        1119,
+        4226
+      ],
+      "left": 671,
+      "top": 4181,
+      "right": 1119,
+      "bottom": 4226,
+      "width": 448,
+      "height": 45,
+      "confidence": 88.545,
+      "text": "www.tresbonjour.de"
+    }
+  ]
+}

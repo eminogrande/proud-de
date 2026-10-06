@@ -1,0 +1,147 @@
+{
+  "scale": 2.0,
+  "imageWidth": 4478,
+  "imageHeight": 3002,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3978,
+        60,
+        4397,
+        112
+      ],
+      "left": 3978,
+      "top": 60,
+      "right": 4397,
+      "bottom": 112,
+      "width": 419,
+      "height": 52,
+      "confidence": 96.451,
+      "text": "advertising option"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1647,
+        2723,
+        1652,
+        2727
+      ],
+      "left": 1647,
+      "top": 2723,
+      "right": 1652,
+      "bottom": 2727,
+      "width": 5,
+      "height": 4,
+      "confidence": 29.924,
+      "text": "_"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1651,
+        2726,
+        1941,
+        2771
+      ],
+      "left": 1651,
+      "top": 2726,
+      "right": 1941,
+      "bottom": 2771,
+      "width": 290,
+      "height": 45,
+      "confidence": 65.573,
+      "text": "in Bankog, thailand"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1610,
+        2744,
+        1709,
+        2765
+      ],
+      "left": 1610,
+      "top": 2744,
+      "right": 1709,
+      "bottom": 2765,
+      "width": 99,
+      "height": 21,
+      "confidence": 80.558,
+      "text": "op inB"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1593,
+        2824,
+        1712,
+        2848
+      ],
+      "left": 1593,
+      "top": 2824,
+      "right": 1712,
+      "bottom": 2848,
+      "width": 119,
+      "height": 24,
+      "confidence": 91.504,
+      "text": "er-Testbl"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1716,
+        2826,
+        1754,
+        2848
+      ],
+      "left": 1716,
+      "top": 2826,
+      "right": 1754,
+      "bottom": 2848,
+      "width": 38,
+      "height": 22,
+      "confidence": 96.66,
+      "text": "att"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1584,
+        2851,
+        1639,
+        2873
+      ],
+      "left": 1584,
+      "top": 2851,
+      "right": 1639,
+      "bottom": 2873,
+      "width": 55,
+      "height": 22,
+      "confidence": 20.712,
+      "text": "ae"
+    }
+  ]
+}

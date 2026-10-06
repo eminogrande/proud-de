@@ -1,0 +1,74 @@
+{
+  "id": "gen-1778171826-SN2WTGqxLfnSvK5wyIhT",
+  "object": "chat.completion",
+  "created": 1778171826,
+  "model": "google/gemini-2.5-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "OK.",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "file",
+            "file": {
+              "hash": "da098a01670c1c80e107677fb308ca0b22ec369415cea8986ebe843751b4bc24",
+              "name": "01 proud issuu_output-page-031.pdf",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "<file name=\"01 proud issuu_output-page-031.pdf\">"
+                },
+                {
+                  "type": "text",
+                  "text": "knowlege\n\nEs soll ja tatsächlich Menschen geben, die ihre Jacke noch immer nicht an der Garderobe im Watergate abgeholt haben und sich weiterhin von einem Klicker hier und einem Klacker da mini-mal ans Limit pushen lassen. Doch die Zeiten, in denen sich lediglich der hip-frisierte Mitte-Scheitel bei bodenständigem Tanzgewippe richtig gehen lassen konnte, sind vorbei: MAXIMAL heißt die unfreiwillige Anti-Bewegung, die mit wabernden Basslines und viel Shake-your-ass über die Tanzflächen peitscht und dabei „in your face“ schreit wie Ron Jeremy.\n\nDie Verbindung von Elektro-Bounce-Beats und Rap-Vocals erinnert oft an DJ Funks 90er-Jahre-Miami-Bass-Sound. Aber MAXIMAL geht weiter. Die sich ständig steigernde Dramaturgie der Tracks stellt schnell klar, dass MAXIMAL eine Techno-Retorte und der Hip Hop oft nur die Kirsche oben drauf ist. Der liebliche Gesang moderner Synthesizer flirtet mit den essentiellen und tragenden Tiefen der Basslinien und sagt direkt „hallo und zieh Dich aus“. Auf 110 bis 140 bpm werden gepitchte Hip-Hop-Beats gelegt und Cuts geglitcht. Erlaubt ist alles, was eindringlich und euphorisierend ist.\n\nEgal, woher der Einfluss kommt – ob mehr Techno-Bumm oder Hip-Hop-Ohh – MAXIMAL holt das Maximum aus exzessiv-elektronischer Tanzmusik. Und immer mehr Jacken aus der Watergate-Garderobe.\n\nDie Jungs von der Bugati Force waren noch nicht im Watergate. Wahrscheinlich haben sie auch noch nie von dem Laden gehört. Denn wenn sie mal nicht in den Neon-Clubs dieses Landes eines ihrer gnadenlosen Live-Sets runterbrettern, sitzen sie im Studio und produzieren Tracks für namhafte Musiker. Aber von vorne: Angefangen hat alles imagegerecht auf irgendwelchen Jugendclubbühnen, irgendwo in der Weltstadt Marburg, wo Droopy, Spank und Cashmaster Diamond Mitte der 50er gemeinsame Hip-Hop-Projekte starten und erste Schlüpfer junger Groupie-Girls fangen. Anfang des neuen Jahrtausends suchen alle drei neue Herausforderungen und ziehen zunächst in verschiedene Städte, ehe sie sich 2004 in Berlin wieder formieren. Hier konzentrieren sie sich auf ihre Arbeit im Studio und produzieren prollig-elektronische Beats für Deine Lieblingsrapper, Culcha\n\nCandela, Lady Bitch Ray und remixen Ludacris, Lumidee, Tarkan und Jam &amp; Spoon.\n\nBald merken die in der Blütezeit ihres Lebens stehenden, jungen Männer, dass sie für den alleinigen Zeitvertreib im Mischpultkeller zu schön sind und beschließen, unter dem Namen Bugati Force und mit einem Sound zwischen Electrobooty und Hip-Hop die Herzen verschwitzter Clubs zu erobern. Seitdem touren sie im Lovetrain durch Deutschland, klatschen ihren betörenden Rap-Poplectro-Bastard-Mix aufs Tanzparkett und fangen wieder Schlüpfer. Aber diesmal eine Nummer größer. EP-Release im Frühjahr 2009. Kaufen.\n\nwww.myspace.com/bugatiforce\n\n![img-0.jpeg](img-0.jpeg)\nGASTAUTOR\nJohnny Macchiato, Schnaps Magazine"
+                },
+                {
+                  "type": "image_url",
+                  "image_url": {
+                    "url": "data:image/jpeg;base64,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"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "</file>"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1020,
+    "completion_tokens": 2,
+    "total_tokens": 1022,
+    "cost": 0.00230789,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000311,
+      "upstream_inference_prompt_cost": 0.000306,
+      "upstream_inference_completions_cost": 5e-06
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

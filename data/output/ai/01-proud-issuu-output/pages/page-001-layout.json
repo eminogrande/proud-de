@@ -1,0 +1,64 @@
+{
+  "sections": [
+    {
+      "title": "berlin bedtime",
+      "kind": "article",
+      "titleLineIds": [
+        "l014",
+        "l017"
+      ],
+      "lineIds": [
+        "l014",
+        "l017"
+      ]
+    },
+    {
+      "title": "pentagonik",
+      "kind": "article",
+      "titleLineIds": [
+        "l035",
+        "l036",
+        "l037"
+      ],
+      "lineIds": [
+        "l035",
+        "l036",
+        "l037",
+        "l041"
+      ]
+    },
+    {
+      "title": "WIN!",
+      "kind": "promo",
+      "titleLineIds": [
+        "l058"
+      ],
+      "lineIds": [
+        "l058",
+        "l060",
+        "l061",
+        "l063",
+        "l064",
+        "l065",
+        "l066",
+        "l067"
+      ]
+    },
+    {
+      "title": "+plus",
+      "kind": "listing",
+      "titleLineIds": [
+        "l068"
+      ],
+      "lineIds": [
+        "l068",
+        "l071",
+        "l073",
+        "l075",
+        "l077",
+        "l078",
+        "l079"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1227 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        82,
+        489,
+        2845,
+        580
+      ],
+      "left": 82,
+      "top": 489,
+      "right": 2845,
+      "bottom": 580,
+      "width": 2763,
+      "height": 91,
+      "confidence": 87.732,
+      "text": "| Mariendorf. Eine alte, graue"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        16,
+        547,
+        3042,
+        678
+      ],
+      "left": 16,
+      "top": 547,
+      "right": 3042,
+      "bottom": 678,
+      "width": 3026,
+      "height": 131,
+      "confidence": 88.582,
+      "text": "} \\ al rt Fabrikhalle. Totenstille herrscht nach"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        0,
+        662,
+        2931,
+        713
+      ],
+      "left": 0,
+      "top": 662,
+      "right": 2931,
+      "bottom": 713,
+      "width": 2931,
+      "height": 51,
+      "confidence": 81.103,
+      "text": "——» dem Passieren des Portiers. Ab"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        2236,
+        725,
+        2978,
+        761
+      ],
+      "left": 2236,
+      "top": 725,
+      "right": 2978,
+      "bottom": 761,
+      "width": 742,
+      "height": 36,
+      "confidence": 86.732,
+      "text": "in den Fahrstuhl nach unten. Dort"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2234,
+        788,
+        2994,
+        834
+      ],
+      "left": 2234,
+      "top": 788,
+      "right": 2994,
+      "bottom": 834,
+      "width": 760,
+      "height": 46,
+      "confidence": 93.132,
+      "text": "angekommen, das gleiche Setting:"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        283,
+        851,
+        3042,
+        898
+      ],
+      "left": 283,
+      "top": 851,
+      "right": 3042,
+      "bottom": 898,
+      "width": 2759,
+      "height": 47,
+      "confidence": 84.657,
+      "text": "7 leere Gange, morbide Ruhe; bis Dich"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        275,
+        902,
+        3058,
+        961
+      ],
+      "left": 275,
+      "top": 902,
+      "right": 3058,
+      "bottom": 961,
+      "width": 2783,
+      "height": 59,
+      "confidence": 92.192,
+      "text": "Okosein ist Jutestyle? Am Arsch, ein lautes Singen zu Tode erschreckt."
+    },
+    {
+      "id": "l008",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        965,
+        2998,
+        1024
+      ],
+      "left": 273,
+      "top": 965,
+      "right": 2998,
+      "bottom": 1024,
+      "width": 2725,
+      "height": 59,
+      "confidence": 88.496,
+      "text": "Alter. Das sehen 14 Studis anders. f Der Richtung des Gesangs folgend"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        276,
+        1028,
+        3012,
+        1087
+      ],
+      "left": 276,
+      "top": 1028,
+      "right": 3012,
+      "bottom": 1087,
+      "width": 2736,
+      "height": 59,
+      "confidence": 87.938,
+      "text": "Der Scheif, den die vertreiben, triffst Du irgendwann auf einen Kerl"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1314,
+        1073,
+        1741,
+        1109
+      ],
+      "left": 1314,
+      "top": 1073,
+      "right": 1741,
+      "bottom": 1109,
+      "width": 427,
+      "height": 36,
+      "confidence": 90.847,
+      "text": "www.ohmibod.com"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        276,
+        1154,
+        3070,
+        1215
+      ],
+      "left": 276,
+      "top": 1154,
+      "right": 3070,
+      "bottom": 1215,
+      "width": 2794,
+      "height": 61,
+      "confidence": 87.822,
+      "text": "und aus Okologischer Herstellung. Kleidungsstiicken vor sich herschiebt."
+    },
+    {
+      "id": "l012",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        276,
+        1218,
+        2764,
+        1278
+      ],
+      "left": 276,
+      "top": 1218,
+      "right": 2764,
+      "bottom": 1278,
+      "width": 2488,
+      "height": 60,
+      "confidence": 89.636,
+      "text": "Hell, yeah! Wirklich cool ist die offene Die Marke heift E-Rags."
+    },
+    {
+      "id": "l013",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        276,
+        1280,
+        1066,
+        1327
+      ],
+      "left": 276,
+      "top": 1280,
+      "right": 1066,
+      "bottom": 1327,
+      "width": 790,
+      "height": 47,
+      "confidence": 92.034,
+      "text": "Einladung, eigene Designvorschlage"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1256,
+        1311,
+        1964,
+        1348
+      ],
+      "left": 1256,
+      "top": 1311,
+      "right": 1964,
+      "bottom": 1348,
+      "width": 708,
+      "height": 37,
+      "confidence": 95.801,
+      "text": "Er ist hart. Er ist aus Plastik. 20"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        274,
+        1344,
+        976,
+        1380
+      ],
+      "left": 274,
+      "top": 1344,
+      "right": 976,
+      "bottom": 1380,
+      "width": 702,
+      "height": 36,
+      "confidence": 94.921,
+      "text": "einzusenden und mit dem Team"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1253,
+        1374,
+        1944,
+        1420
+      ],
+      "left": 1253,
+      "top": 1374,
+      "right": 1944,
+      "bottom": 1420,
+      "width": 691,
+      "height": 46,
+      "confidence": 93.923,
+      "text": "Zentimeter pures Gluck. Dieser"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        274,
+        1408,
+        961,
+        1445
+      ],
+      "left": 274,
+      "top": 1408,
+      "right": 961,
+      "bottom": 1445,
+      "width": 687,
+      "height": 37,
+      "confidence": 94.987,
+      "text": "die Ideen auf Shirts drucken zu"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1252,
+        1439,
+        1924,
+        1475
+      ],
+      "left": 1252,
+      "top": 1439,
+      "right": 1924,
+      "bottom": 1475,
+      "width": 672,
+      "height": 36,
+      "confidence": 96.268,
+      "text": "Vibrator macht es dir nicht mit"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        276,
+        1472,
+        1050,
+        1516
+      ],
+      "left": 276,
+      "top": 1472,
+      "right": 1050,
+      "bottom": 1516,
+      "width": 774,
+      "height": 44,
+      "confidence": 95.217,
+      "text": "lassen. Das klappt auch, wir haben"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1254,
+        1501,
+        2072,
+        1544
+      ],
+      "left": 1254,
+      "top": 1501,
+      "right": 2072,
+      "bottom": 1544,
+      "width": 818,
+      "height": 43,
+      "confidence": 92.851,
+      "text": "monotonem Brummen in drei Stufen,"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        274,
+        1535,
+        927,
+        1571
+      ],
+      "left": 274,
+      "top": 1535,
+      "right": 927,
+      "bottom": 1571,
+      "width": 653,
+      "height": 36,
+      "confidence": 92.428,
+      "text": "es versucht und sind seitdem"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        273,
+        1561,
+        1989,
+        1649
+      ],
+      "left": 273,
+      "top": 1561,
+      "right": 1989,
+      "bottom": 1649,
+      "width": 1716,
+      "height": 88,
+      "confidence": 64.495,
+      "text": "glucklichere, bessere Menschen. songem pang! len Zi Maconnas"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1252,
+        1629,
+        2077,
+        1675
+      ],
+      "left": 1252,
+      "top": 1629,
+      "right": 2077,
+      "bottom": 1675,
+      "width": 825,
+      "height": 46,
+      "confidence": 93.767,
+      "text": "Vogue richtig in Fahrt. Angeschlossen"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        1253,
+        1692,
+        2076,
+        1738
+      ],
+      "left": 1253,
+      "top": 1692,
+      "right": 2076,
+      "bottom": 1738,
+      "width": 823,
+      "height": 46,
+      "confidence": 93.996,
+      "text": "an deinen iPod vibriert er im Einklang"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        1252,
+        1755,
+        2045,
+        1801
+      ],
+      "left": 1252,
+      "top": 1755,
+      "right": 2045,
+      "bottom": 1801,
+      "width": 793,
+      "height": 46,
+      "confidence": 96.574,
+      "text": "zur Musik und zeigt Dir nicht nur die"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        1412,
+        1810,
+        2037,
+        1866
+      ],
+      "left": 1412,
+      "top": 1810,
+      "right": 2037,
+      "bottom": 1866,
+      "width": 625,
+      "height": 56,
+      "confidence": 78.1,
+      "text": "des Gesangs auf.Im Ubrigen"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        1255,
+        1881,
+        2007,
+        1929
+      ],
+      "left": 1255,
+      "top": 1881,
+      "right": 2007,
+      "bottom": 1929,
+      "width": 752,
+      "height": 48,
+      "confidence": 94.347,
+      "text": "lasst seine Performance sogar bei"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        1253,
+        1945,
+        2051,
+        1992
+      ],
+      "left": 1253,
+      "top": 1945,
+      "right": 2051,
+      "bottom": 1992,
+      "width": 798,
+      "height": 47,
+      "confidence": 88.777,
+      "text": "deinem Lieblings-Drum’n’Bass-Song"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 7,
+      "bbox": [
+        1254,
+        2007,
+        2004,
+        2051
+      ],
+      "left": 1254,
+      "top": 2007,
+      "right": 2004,
+      "bottom": 2051,
+      "width": 750,
+      "height": 44,
+      "confidence": 85.972,
+      "text": "nicht nach. Seid nicht schtchtern,"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 8,
+      "bbox": [
+        1255,
+        2073,
+        2066,
+        2116
+      ],
+      "left": 1255,
+      "top": 2073,
+      "right": 2066,
+      "bottom": 2116,
+      "width": 811,
+      "height": 43,
+      "confidence": 96.506,
+      "text": "Ladies, wir von sind total down"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2582,
+        2546,
+        2597,
+        2566
+      ],
+      "left": 2582,
+      "top": 2546,
+      "right": 2597,
+      "bottom": 2566,
+      "width": 15,
+      "height": 20,
+      "confidence": 64.284,
+      "text": "="
+    },
+    {
+      "id": "l032",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2237,
+        2595,
+        3047,
+        2632
+      ],
+      "left": 2237,
+      "top": 2595,
+      "right": 3047,
+      "bottom": 2632,
+      "width": 810,
+      "height": 37,
+      "confidence": 92.794,
+      "text": "Immer wieder und wieder und wieder"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 17,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        121,
+        2611,
+        979,
+        2729
+      ],
+      "left": 121,
+      "top": 2611,
+      "right": 979,
+      "bottom": 2729,
+      "width": 858,
+      "height": 118,
+      "confidence": 94.396,
+      "text": "| Hey Fetties, hab ihr euch schon"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        245,
+        2627,
+        348,
+        2655
+      ],
+      "left": 245,
+      "top": 2627,
+      "right": 348,
+      "bottom": 2655,
+      "width": 103,
+      "height": 28,
+      "confidence": 39.055,
+      "text": "mo"
+    },
+    {
+      "id": "l035",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        2236,
+        2658,
+        2963,
+        2695
+      ],
+      "left": 2236,
+      "top": 2658,
+      "right": 2963,
+      "bottom": 2695,
+      "width": 727,
+      "height": 37,
+      "confidence": 96.153,
+      "text": "und wieder. Creative Director Kali"
+    },
+    {
+      "id": "l036",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        2233,
+        2721,
+        3007,
+        2767
+      ],
+      "left": 2233,
+      "top": 2721,
+      "right": 3007,
+      "bottom": 2767,
+      "width": 774,
+      "height": 46,
+      "confidence": 94.014,
+      "text": "Arulpragasam beeindruckt uns seit"
+    },
+    {
+      "id": "l037",
+      "blockNumber": 17,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        121,
+        2747,
+        991,
+        2817
+      ],
+      "left": 121,
+      "top": 2747,
+      "right": 991,
+      "bottom": 2817,
+      "width": 870,
+      "height": 70,
+      "confidence": 92.37,
+      "text": "| einmal gefragt wie 200 Kalorien"
+    },
+    {
+      "id": "l038",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        2235,
+        2786,
+        2996,
+        2832
+      ],
+      "left": 2235,
+      "top": 2786,
+      "right": 2996,
+      "bottom": 2832,
+      "width": 761,
+      "height": 46,
+      "confidence": 94.453,
+      "text": "2006. Schmuckdesign mit Thema."
+    },
+    {
+      "id": "l039",
+      "blockNumber": 17,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        271,
+        2810,
+        940,
+        2856
+      ],
+      "left": 271,
+      "top": 2810,
+      "right": 940,
+      "bottom": 2856,
+      "width": 669,
+      "height": 46,
+      "confidence": 92.298,
+      "text": "eigentlich aussehen? Hier ein"
+    },
+    {
+      "id": "l040",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        2235,
+        2847,
+        3003,
+        2895
+      ],
+      "left": 2235,
+      "top": 2847,
+      "right": 3003,
+      "bottom": 2895,
+      "width": 768,
+      "height": 48,
+      "confidence": 91.54,
+      "text": "Schlagringe fur gefahrdete Spezies"
+    },
+    {
+      "id": "l041",
+      "blockNumber": 17,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        121,
+        2869,
+        493,
+        2955
+      ],
+      "left": 121,
+      "top": 2869,
+      "right": 493,
+      "bottom": 2955,
+      "width": 372,
+      "height": 86,
+      "confidence": 86.093,
+      "text": "| Beispiel..."
+    },
+    {
+      "id": "l042",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        2234,
+        2911,
+        3014,
+        2958
+      ],
+      "left": 2234,
+      "top": 2911,
+      "right": 3014,
+      "bottom": 2958,
+      "width": 780,
+      "height": 47,
+      "confidence": 94.757,
+      "text": "oder Brustumhanger fur Lander, die"
+    },
+    {
+      "id": "l043",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        2233,
+        2975,
+        3033,
+        3011
+      ],
+      "left": 2233,
+      "top": 2975,
+      "right": 3033,
+      "bottom": 3011,
+      "width": 800,
+      "height": 36,
+      "confidence": 93.206,
+      "text": "von Terroristennestern bedroht sind."
+    },
+    {
+      "id": "l044",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 10,
+      "bbox": [
+        2236,
+        3038,
+        3024,
+        3085
+      ],
+      "left": 2236,
+      "top": 3038,
+      "right": 3024,
+      "bottom": 3085,
+      "width": 788,
+      "height": 47,
+      "confidence": 85.486,
+      "text": "Fur den sprie8enden Fruhling 2009:"
+    },
+    {
+      "id": "l045",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 11,
+      "bbox": [
+        2237,
+        3102,
+        3063,
+        3148
+      ],
+      "left": 2237,
+      "top": 3102,
+      "right": 3063,
+      "bottom": 3148,
+      "width": 826,
+      "height": 46,
+      "confidence": 91.555,
+      "text": "Hunger. Silberne Halsketten inspiriert"
+    },
+    {
+      "id": "l046",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 12,
+      "bbox": [
+        2233,
+        3165,
+        2910,
+        3208
+      ],
+      "left": 2233,
+      "top": 3165,
+      "right": 2910,
+      "bottom": 3208,
+      "width": 677,
+      "height": 43,
+      "confidence": 94.42,
+      "text": "von Bohnen, Reis und anderen"
+    },
+    {
+      "id": "l047",
+      "blockNumber": 18,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        274,
+        3201,
+        986,
+        3247
+      ],
+      "left": 274,
+      "top": 3201,
+      "right": 986,
+      "bottom": 3247,
+      "width": 712,
+      "height": 46,
+      "confidence": 95.213,
+      "text": "Hong Kong. Hippe Party, wir sind"
+    },
+    {
+      "id": "l048",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 13,
+      "bbox": [
+        2235,
+        3228,
+        3011,
+        3274
+      ],
+      "left": 2235,
+      "top": 3228,
+      "right": 3011,
+      "bottom": 3274,
+      "width": 776,
+      "height": 46,
+      "confidence": 94.71,
+      "text": "Grundnahrungsmitteln. Leider noch"
+    },
+    {
+      "id": "l049",
+      "blockNumber": 18,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        272,
+        3266,
+        999,
+        3312
+      ],
+      "left": 272,
+      "top": 3266,
+      "right": 999,
+      "bottom": 3312,
+      "width": 727,
+      "height": 46,
+      "confidence": 94.567,
+      "text": "eingeladen — auf der Liste. Prima"
+    },
+    {
+      "id": "l050",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 14,
+      "bbox": [
+        2236,
+        3293,
+        3064,
+        3339
+      ],
+      "left": 2236,
+      "top": 3293,
+      "right": 3064,
+      "bottom": 3339,
+      "width": 828,
+      "height": 46,
+      "confidence": 95.056,
+      "text": "nicht in Berlin angekommen, aber der"
+    },
+    {
+      "id": "l051",
+      "blockNumber": 18,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        272,
+        3329,
+        950,
+        3371
+      ],
+      "left": 272,
+      "top": 3329,
+      "right": 950,
+      "bottom": 3371,
+      "width": 678,
+      "height": 42,
+      "confidence": 96.453,
+      "text": "Sache, doch wir werden an der"
+    },
+    {
+      "id": "l052",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 15,
+      "bbox": [
+        2237,
+        3352,
+        3025,
+        3406
+      ],
+      "left": 2237,
+      "top": 3352,
+      "right": 3025,
+      "bottom": 3406,
+      "width": 788,
+      "height": 54,
+      "confidence": 86.744,
+      "text": "Flug nach London kostet ja nur ‘nen"
+    },
+    {
+      "id": "l053",
+      "blockNumber": 18,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        3391,
+        1015,
+        3438
+      ],
+      "left": 270,
+      "top": 3391,
+      "right": 1015,
+      "bottom": 3438,
+      "width": 745,
+      "height": 47,
+      "confidence": 92.347,
+      "text": "Tur ausgelacht und weggeschickt."
+    },
+    {
+      "id": "l054",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 16,
+      "bbox": [
+        2236,
+        3419,
+        2343,
+        3455
+      ],
+      "left": 2236,
+      "top": 3419,
+      "right": 2343,
+      "bottom": 3455,
+      "width": 107,
+      "height": 36,
+      "confidence": 90.709,
+      "text": "10er."
+    },
+    {
+      "id": "l055",
+      "blockNumber": 18,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        273,
+        3455,
+        973,
+        3501
+      ],
+      "left": 273,
+      "top": 3455,
+      "right": 973,
+      "bottom": 3501,
+      "width": 700,
+      "height": 46,
+      "confidence": 78.879,
+      "text": "Scheie, denn unsere Wohnung"
+    },
+    {
+      "id": "l056",
+      "blockNumber": 18,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        273,
+        3519,
+        822,
+        3565
+      ],
+      "left": 273,
+      "top": 3519,
+      "right": 822,
+      "bottom": 3565,
+      "width": 549,
+      "height": 46,
+      "confidence": 96.207,
+      "text": "ist auf Peng Chau Island."
+    },
+    {
+      "id": "l057",
+      "blockNumber": 18,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        272,
+        3581,
+        973,
+        3619
+      ],
+      "left": 272,
+      "top": 3581,
+      "right": 973,
+      "bottom": 3619,
+      "width": 701,
+      "height": 38,
+      "confidence": 93.29,
+      "text": "Glucklicherweise hilft uns unser"
+    },
+    {
+      "id": "l058",
+      "blockNumber": 18,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        273,
+        3644,
+        1042,
+        3682
+      ],
+      "left": 273,
+      "top": 3644,
+      "right": 1042,
+      "bottom": 3682,
+      "width": 769,
+      "height": 38,
+      "confidence": 94.557,
+      "text": "hubscher Modelfreund. Ab in seine"
+    },
+    {
+      "id": "l059",
+      "blockNumber": 18,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        270,
+        3710,
+        1009,
+        3756
+      ],
+      "left": 270,
+      "top": 3710,
+      "right": 1009,
+      "bottom": 3756,
+      "width": 739,
+      "height": 46,
+      "confidence": 94.175,
+      "text": "Wohnung, in seine Mavijeans und"
+    },
+    {
+      "id": "l060",
+      "blockNumber": 18,
+      "paragraphNumber": 2,
+      "lineNumber": 7,
+      "bbox": [
+        271,
+        3772,
+        908,
+        3818
+      ],
+      "left": 271,
+      "top": 3772,
+      "right": 908,
+      "bottom": 3818,
+      "width": 637,
+      "height": 46,
+      "confidence": 95.383,
+      "text": "zuruck zum Club. Happy End."
+    },
+    {
+      "id": "l061",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        274,
+        3894,
+        573,
+        3931
+      ],
+      "left": 274,
+      "top": 3894,
+      "right": 573,
+      "bottom": 3931,
+      "width": 299,
+      "height": 37,
+      "confidence": 89.73,
+      "text": "www.mavi.de"
+    }
+  ]
+}

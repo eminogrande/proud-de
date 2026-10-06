@@ -1,0 +1,687 @@
+{
+  "scale": 2.0,
+  "imageWidth": 4478,
+  "imageHeight": 3002,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        4177,
+        60,
+        4398,
+        99
+      ],
+      "left": 4177,
+      "top": 60,
+      "right": 4398,
+      "bottom": 99,
+      "width": 221,
+      "height": 39,
+      "confidence": 96.554,
+      "text": "wardrobe"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        505,
+        167,
+        839,
+        207
+      ],
+      "left": 505,
+      "top": 167,
+      "right": 839,
+      "bottom": 207,
+      "width": 334,
+      "height": 40,
+      "confidence": 87.463,
+      "text": "onnenbrille, 280 Euro,"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1710,
+        173,
+        1815,
+        212
+      ],
+      "left": 1710,
+      "top": 173,
+      "right": 1815,
+      "bottom": 212,
+      "width": 105,
+      "height": 39,
+      "confidence": 92.548,
+      "text": "Blaurot"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        4067,
+        216,
+        4424,
+        271
+      ],
+      "left": 4067,
+      "top": 216,
+      "right": 4424,
+      "bottom": 271,
+      "width": 357,
+      "height": 55,
+      "confidence": 62.057,
+      "text": "Dunkelblaue Wollmiutze,"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        484,
+        219,
+        585,
+        243
+      ],
+      "left": 484,
+      "top": 219,
+      "right": 585,
+      "bottom": 243,
+      "width": 101,
+      "height": 24,
+      "confidence": 96.5,
+      "text": "Chanel"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1709,
+        219,
+        1954,
+        247
+      ],
+      "left": 1709,
+      "top": 219,
+      "right": 1954,
+      "bottom": 247,
+      "width": 245,
+      "height": 28,
+      "confidence": 84.444,
+      "text": "350 Euro, Zucca"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        4067,
+        277,
+        4331,
+        302
+      ],
+      "left": 4067,
+      "top": 277,
+      "right": 4331,
+      "bottom": 302,
+      "width": 264,
+      "height": 25,
+      "confidence": 90.769,
+      "text": "1.5 Euro von H&M"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        914,
+        355,
+        1295,
+        398
+      ],
+      "left": 914,
+      "top": 355,
+      "right": 1295,
+      "bottom": 398,
+      "width": 381,
+      "height": 43,
+      "confidence": 92.557,
+      "text": "inkgelbe retro Samtjacke,"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        893,
+        409,
+        1171,
+        438
+      ],
+      "left": 893,
+      "top": 409,
+      "right": 1171,
+      "bottom": 438,
+      "width": 278,
+      "height": 29,
+      "confidence": 95.454,
+      "text": "280 Euro, Miu Miu"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2581,
+        509,
+        3023,
+        539
+      ],
+      "left": 2581,
+      "top": 509,
+      "right": 3023,
+      "bottom": 539,
+      "width": 442,
+      "height": 30,
+      "confidence": 91.379,
+      "text": "Orangenfarbiges Muskelshirt,"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2582,
+        551,
+        2932,
+        575
+      ],
+      "left": 2582,
+      "top": 551,
+      "right": 2932,
+      "bottom": 575,
+      "width": 350,
+      "height": 24,
+      "confidence": 92.82,
+      "text": "11 Euro vom Flohmarkt"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        141,
+        886,
+        601,
+        942
+      ],
+      "left": 141,
+      "top": 886,
+      "right": 601,
+      "bottom": 942,
+      "width": 460,
+      "height": 56,
+      "confidence": 95.41,
+      "text": "Eskimo Winterjacke, 750 Euro,"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        139,
+        946,
+        1465,
+        1019
+      ],
+      "left": 139,
+      "top": 946,
+      "right": 1465,
+      "bottom": 1019,
+      "width": 1326,
+      "height": 73,
+      "confidence": 51.853,
+      "text": "Tsumori ee ; KY ~ Ohrehip"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        209,
+        978,
+        1422,
+        1043
+      ],
+      "left": 209,
+      "top": 978,
+      "right": 1422,
+      "bottom": 1043,
+      "width": 1213,
+      "height": 65,
+      "confidence": 88.499,
+      "text": "/ . 7 Euro vom"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        659,
+        1107,
+        736,
+        1157
+      ],
+      "left": 659,
+      "top": 1107,
+      "right": 736,
+      "bottom": 1157,
+      "width": 77,
+      "height": 50,
+      "confidence": 32.765,
+      "text": "*. Ai"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        617,
+        1142,
+        1880,
+        1193
+      ],
+      "left": 617,
+      "top": 1142,
+      "right": 1880,
+      "bottom": 1193,
+      "width": 1263,
+      "height": 51,
+      "confidence": 75.561,
+      "text": "Sen ok chwarzlachs gestreiftes Top, 350 Euro,"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        587,
+        1180,
+        1523,
+        1214
+      ],
+      "left": 587,
+      "top": 1180,
+      "right": 1523,
+      "bottom": 1214,
+      "width": 936,
+      "height": 34,
+      "confidence": 75.509,
+      "text": "a Tsumori Chrisato"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        614,
+        1599,
+        1260,
+        1628
+      ],
+      "left": 614,
+      "top": 1599,
+      "right": 1260,
+      "bottom": 1628,
+      "width": 646,
+      "height": 29,
+      "confidence": 95.632,
+      "text": "Pinkes von Peach John,"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        613,
+        1641,
+        1783,
+        1676
+      ],
+      "left": 613,
+      "top": 1641,
+      "right": 1783,
+      "bottom": 1676,
+      "width": 1170,
+      "height": 35,
+      "confidence": 91.961,
+      "text": "25 Euro ="
+    },
+    {
+      "id": "l020",
+      "blockNumber": 21,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1240,
+        1710,
+        1652,
+        1738
+      ],
+      "left": 1240,
+      "top": 1710,
+      "right": 1652,
+      "bottom": 1738,
+      "width": 412,
+      "height": 28,
+      "confidence": 95.304,
+      "text": "Kleid von Chloé, 2000 Euro"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 23,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3056,
+        1776,
+        3932,
+        1933
+      ],
+      "left": 3056,
+      "top": 1776,
+      "right": 3932,
+      "bottom": 1933,
+      "width": 876,
+      "height": 157,
+      "confidence": 74.04,
+      "text": "En ‘om 1 Flohmarkt, 5 Euro"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2966,
+        1890,
+        2977,
+        1910
+      ],
+      "left": 2966,
+      "top": 1890,
+      "right": 2977,
+      "bottom": 1910,
+      "width": 11,
+      "height": 20,
+      "confidence": 86.635,
+      "text": "4"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 25,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        140,
+        1950,
+        3375,
+        2101
+      ],
+      "left": 140,
+      "top": 1950,
+      "right": 3375,
+      "bottom": 2101,
+      "width": 3235,
+      "height": 151,
+      "confidence": 75.754,
+      "text": "Schwarzes Kleid mit roten Iragern, 790 Euro, 80 EU eg"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2961,
+        1953,
+        3057,
+        2013
+      ],
+      "left": 2961,
+      "top": 1953,
+      "right": 3057,
+      "bottom": 2013,
+      "width": 96,
+      "height": 60,
+      "confidence": 76.057,
+      "text": "\\ ain"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 25,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2597,
+        1979,
+        3236,
+        2029
+      ],
+      "left": 2597,
+      "top": 1979,
+      "right": 3236,
+      "bottom": 2029,
+      "width": 639,
+      "height": 50,
+      "confidence": 74.422,
+      "text": "Zerrissenes weifes Hemd von 7 Boss,"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 26,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        141,
+        2067,
+        3139,
+        2158
+      ],
+      "left": 141,
+      "top": 2067,
+      "right": 3139,
+      "bottom": 2158,
+      "width": 2998,
+      "height": 91,
+      "confidence": 62.06,
+      "text": "Emma a"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 27,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2957,
+        2227,
+        3484,
+        2265
+      ],
+      "left": 2957,
+      "top": 2227,
+      "right": 3484,
+      "bottom": 2265,
+      "width": 527,
+      "height": 38,
+      "confidence": 80.432,
+      "text": "Braune Lederschuhe von 4Men, |"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 27,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2959,
+        2274,
+        3363,
+        2303
+      ],
+      "left": 2959,
+      "top": 2274,
+      "right": 3363,
+      "bottom": 2303,
+      "width": 404,
+      "height": 29,
+      "confidence": 92.211,
+      "text": "gekauft bei Deichmann, 45"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 30,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3517,
+        2582,
+        4003,
+        2613
+      ],
+      "left": 3517,
+      "top": 2582,
+      "right": 4003,
+      "bottom": 2613,
+      "width": 486,
+      "height": 31,
+      "confidence": 88.184,
+      "text": "Jeans von PJ, uro, Irgendwo"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 30,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3518,
+        2623,
+        3840,
+        2647
+      ],
+      "left": 3518,
+      "top": 2623,
+      "right": 3840,
+      "bottom": 2647,
+      "width": 322,
+      "height": 24,
+      "confidence": 92.22,
+      "text": "am Ernst-Reuter-Platz"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 31,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        175,
+        2754,
+        770,
+        2790
+      ],
+      "left": 175,
+      "top": 2754,
+      "right": 770,
+      "bottom": 2790,
+      "width": 595,
+      "height": 36,
+      "confidence": 94.554,
+      "text": "achspinke Schuhe, 85 Euro, Vero Cuoio"
+    },
+    {
+      "id": "l032",
+      "blockNumber": 33,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        152,
+        2804,
+        174,
+        2814
+      ],
+      "left": 152,
+      "top": 2804,
+      "right": 174,
+      "bottom": 2814,
+      "width": 22,
+      "height": 10,
+      "confidence": 46.411,
+      "text": "Lt"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 34,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2380,
+        2834,
+        3626,
+        2859
+      ],
+      "left": 2380,
+      "top": 2834,
+      "right": 3626,
+      "bottom": 2859,
+      "width": 1246,
+      "height": 25,
+      "confidence": 94.82,
+      "text": "Bunte Adidas Sneaker 30 Euro chwarze Adidas Sneaker 40 Euro"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 36,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        4367,
+        2925,
+        4399,
+        2950
+      ],
+      "left": 4367,
+      "top": 2925,
+      "right": 4399,
+      "bottom": 2950,
+      "width": 32,
+      "height": 25,
+      "confidence": 96.977,
+      "text": "45"
+    }
+  ]
+}

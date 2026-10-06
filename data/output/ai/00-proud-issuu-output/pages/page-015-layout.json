@@ -1,0 +1,37 @@
+{
+  "sections": [
+    {
+      "title": "dj craft vs. proud magazine",
+      "kind": "article",
+      "titleLineIds": [],
+      "lineIds": [
+        "l009",
+        "l010",
+        "l012",
+        "l013",
+        "l014",
+        "l011"
+      ]
+    },
+    {
+      "title": "Unsere schönste Kindheitserinnerung",
+      "kind": "article",
+      "titleLineIds": [
+        "l019"
+      ],
+      "lineIds": [
+        "l019"
+      ]
+    },
+    {
+      "title": "Alptraum",
+      "kind": "article",
+      "titleLineIds": [
+        "l020"
+      ],
+      "lineIds": [
+        "l020"
+      ]
+    }
+  ]
+}

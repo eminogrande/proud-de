@@ -1,0 +1,807 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1204,
+        1043,
+        3038,
+        1195
+      ],
+      "left": 1204,
+      "top": 1043,
+      "right": 3038,
+      "bottom": 1195,
+      "width": 1834,
+      "height": 152,
+      "confidence": 95.752,
+      "text": "ur fashion show 2008"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1256,
+        1301,
+        2009,
+        1337
+      ],
+      "left": 1256,
+      "top": 1301,
+      "right": 2009,
+      "bottom": 1337,
+      "width": 753,
+      "height": 36,
+      "confidence": 93.781,
+      "text": "Eine abendliche Exkursion ist eine"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2233,
+        1301,
+        2959,
+        1347
+      ],
+      "left": 2233,
+      "top": 1301,
+      "right": 2959,
+      "bottom": 1347,
+      "width": 726,
+      "height": 46,
+      "confidence": 93.582,
+      "text": "verschaffte das unglaublich geile"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2237,
+        1363,
+        3067,
+        1410
+      ],
+      "left": 2237,
+      "top": 1363,
+      "right": 3067,
+      "bottom": 1410,
+      "width": 830,
+      "height": 47,
+      "confidence": 93.865,
+      "text": "Lichtdesign (von Mark Beversdorf und"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1252,
+        1364,
+        1801,
+        1400
+      ],
+      "left": 1252,
+      "top": 1364,
+      "right": 1801,
+      "bottom": 1400,
+      "width": 549,
+      "height": 36,
+      "confidence": 94.287,
+      "text": "feine Sache. Wenn dabei"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1255,
+        1426,
+        2093,
+        1473
+      ],
+      "left": 1255,
+      "top": 1426,
+      "right": 2093,
+      "bottom": 1473,
+      "width": 838,
+      "height": 47,
+      "confidence": 93.549,
+      "text": "Frauen in abgefahrener Latex-Couture-"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2234,
+        1427,
+        3010,
+        1472
+      ],
+      "left": 2234,
+      "top": 1427,
+      "right": 3010,
+      "bottom": 1472,
+      "width": 776,
+      "height": 45,
+      "confidence": 92.294,
+      "text": "die Projektionen des renommierten"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        2235,
+        1488,
+        2988,
+        1534
+      ],
+      "left": 2235,
+      "top": 1488,
+      "right": 2988,
+      "bottom": 1534,
+      "width": 753,
+      "height": 46,
+      "confidence": 92.047,
+      "text": "3D-Artists Till Nowak!). Alle Gaste,"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1255,
+        1490,
+        2041,
+        1536
+      ],
+      "left": 1255,
+      "top": 1490,
+      "right": 2041,
+      "bottom": 1536,
+      "width": 786,
+      "height": 46,
+      "confidence": 93.3,
+      "text": "Lingerie und Swimwear-Kollektionen"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        1253,
+        1554,
+        2000,
+        1599
+      ],
+      "left": 1253,
+      "top": 1554,
+      "right": 2000,
+      "bottom": 1599,
+      "width": 747,
+      "height": 45,
+      "confidence": 94.004,
+      "text": "eine entscheidende Rolle spielen,"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        2234,
+        1554,
+        2897,
+        1596
+      ],
+      "left": 2234,
+      "top": 1554,
+      "right": 2897,
+      "bottom": 1596,
+      "width": 663,
+      "height": 42,
+      "confidence": 95.506,
+      "text": "darunter Peaches und Estelle,"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        1255,
+        1616,
+        1841,
+        1655
+      ],
+      "left": 1255,
+      "top": 1616,
+      "right": 1841,
+      "bottom": 1655,
+      "width": 586,
+      "height": 39,
+      "confidence": 86.173,
+      "text": "reicht es das suf§e Sein zu"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        2237,
+        1617,
+        2893,
+        1655
+      ],
+      "left": 2237,
+      "top": 1617,
+      "right": 2893,
+      "bottom": 1655,
+      "width": 656,
+      "height": 38,
+      "confidence": 91.817,
+      "text": "lieSen sich dann auch auf der"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        1252,
+        1680,
+        1958,
+        1717
+      ],
+      "left": 1252,
+      "top": 1680,
+      "right": 1958,
+      "bottom": 1717,
+      "width": 706,
+      "height": 37,
+      "confidence": 92.983,
+      "text": "Jauchzend am Feiern findet sich"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        2233,
+        1680,
+        3037,
+        1725
+      ],
+      "left": 2233,
+      "top": 1680,
+      "right": 3037,
+      "bottom": 1725,
+      "width": 804,
+      "height": 45,
+      "confidence": 91.975,
+      "text": "Aftershowparty von Disko44 blicken."
+    },
+    {
+      "id": "l016",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3142,
+        1711,
+        3353,
+        1819
+      ],
+      "left": 3142,
+      "top": 1711,
+      "right": 3353,
+      "bottom": 1819,
+      "width": 211,
+      "height": 108,
+      "confidence": 28.323,
+      "text": "ay?"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        2233,
+        1743,
+        2768,
+        1791
+      ],
+      "left": 2233,
+      "top": 1743,
+      "right": 2768,
+      "bottom": 1791,
+      "width": 535,
+      "height": 48,
+      "confidence": 57.634,
+      "text": "Vom au8ergewohnlichen"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1253,
+        1745,
+        1982,
+        1781
+      ],
+      "left": 1253,
+      "top": 1745,
+      "right": 1982,
+      "bottom": 1781,
+      "width": 729,
+      "height": 36,
+      "confidence": 95.417,
+      "text": "die Redaktion in einem mit"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 4,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        2236,
+        1807,
+        3039,
+        1853
+      ],
+      "left": 2236,
+      "top": 1807,
+      "right": 3039,
+      "bottom": 1853,
+      "width": 803,
+      "height": 46,
+      "confidence": 93.126,
+      "text": "Modelabel Trés Bonjour erwarten wir"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 2,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        1252,
+        1808,
+        2026,
+        1854
+      ],
+      "left": 1252,
+      "top": 1808,
+      "right": 2026,
+      "bottom": 1854,
+      "width": 774,
+      "height": 46,
+      "confidence": 93.304,
+      "text": "viel Liebe designten S-Bahn-Bogen,"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 2,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        1252,
+        1871,
+        1955,
+        1907
+      ],
+      "left": 1252,
+      "top": 1871,
+      "right": 1955,
+      "bottom": 1907,
+      "width": 703,
+      "height": 36,
+      "confidence": 92.549,
+      "text": "zwischen endlosen Bikinireihen."
+    },
+    {
+      "id": "l022",
+      "blockNumber": 4,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        2236,
+        1871,
+        3067,
+        1907
+      ],
+      "left": 2236,
+      "top": 1871,
+      "right": 3067,
+      "bottom": 1907,
+      "width": 831,
+      "height": 36,
+      "confidence": 95.517,
+      "text": "in Zukunft und freuen uns auf"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 2,
+      "paragraphNumber": 3,
+      "lineNumber": 3,
+      "bbox": [
+        1252,
+        1932,
+        1969,
+        1980
+      ],
+      "left": 1252,
+      "top": 1932,
+      "right": 1969,
+      "bottom": 1980,
+      "width": 717,
+      "height": 48,
+      "confidence": 93.425,
+      "text": "Augen und Munder weit geoffnet"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 4,
+      "paragraphNumber": 3,
+      "lineNumber": 3,
+      "bbox": [
+        2235,
+        1934,
+        3063,
+        1978
+      ],
+      "left": 2235,
+      "top": 1934,
+      "right": 3063,
+      "bottom": 1978,
+      "width": 828,
+      "height": 44,
+      "confidence": 89.963,
+      "text": "spannende Kollaborationen sowie die"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 4,
+      "paragraphNumber": 3,
+      "lineNumber": 4,
+      "bbox": [
+        2235,
+        1997,
+        3026,
+        2044
+      ],
+      "left": 2235,
+      "top": 1997,
+      "right": 3026,
+      "bottom": 2044,
+      "width": 791,
+      "height": 47,
+      "confidence": 90.133,
+      "text": "Showroom-Eroffnung am 24. Januar"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 2,
+      "paragraphNumber": 3,
+      "lineNumber": 4,
+      "bbox": [
+        1254,
+        1998,
+        2079,
+        2035
+      ],
+      "left": 1254,
+      "top": 1998,
+      "right": 2079,
+      "bottom": 2035,
+      "width": 825,
+      "height": 37,
+      "confidence": 94.453,
+      "text": "starren wir die aktuelle Kollektion der"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 2,
+      "paragraphNumber": 3,
+      "lineNumber": 5,
+      "bbox": [
+        1247,
+        2061,
+        2013,
+        2107
+      ],
+      "left": 1247,
+      "top": 2061,
+      "right": 2013,
+      "bottom": 2107,
+      "width": 766,
+      "height": 46,
+      "confidence": 94.756,
+      "text": "jungen Designerin Viola Jaeger an."
+    },
+    {
+      "id": "l028",
+      "blockNumber": 4,
+      "paragraphNumber": 3,
+      "lineNumber": 5,
+      "bbox": [
+        2236,
+        2061,
+        2426,
+        2097
+      ],
+      "left": 2236,
+      "top": 2061,
+      "right": 2426,
+      "bottom": 2097,
+      "width": 190,
+      "height": 36,
+      "confidence": 96.001,
+      "text": "in Berlin."
+    },
+    {
+      "id": "l029",
+      "blockNumber": 2,
+      "paragraphNumber": 3,
+      "lineNumber": 6,
+      "bbox": [
+        1252,
+        2123,
+        1856,
+        2170
+      ],
+      "left": 1252,
+      "top": 2123,
+      "right": 1856,
+      "bottom": 2170,
+      "width": 604,
+      "height": 47,
+      "confidence": 93.535,
+      "text": "Als Sahnehaubchen gibt es"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 4,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        2237,
+        2124,
+        3071,
+        2161
+      ],
+      "left": 2237,
+      "top": 2124,
+      "right": 3071,
+      "bottom": 2161,
+      "width": 834,
+      "height": 37,
+      "confidence": 89.402,
+      "text": "Ihr braucht noch mehr Beweise neben"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 4,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        2236,
+        2186,
+        2962,
+        2233
+      ],
+      "left": 2236,
+      "top": 2186,
+      "right": 2962,
+      "bottom": 2233,
+      "width": 726,
+      "height": 47,
+      "confidence": 90.158,
+      "text": "unseren uberzeugenden Bildern?"
+    },
+    {
+      "id": "l032",
+      "blockNumber": 2,
+      "paragraphNumber": 3,
+      "lineNumber": 7,
+      "bbox": [
+        1253,
+        2189,
+        2059,
+        2235
+      ],
+      "left": 1253,
+      "top": 2189,
+      "right": 2059,
+      "bottom": 2235,
+      "width": 806,
+      "height": 46,
+      "confidence": 92.978,
+      "text": "die extravaganten Hutkreationen von"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 2,
+      "paragraphNumber": 3,
+      "lineNumber": 8,
+      "bbox": [
+        1256,
+        2251,
+        2074,
+        2294
+      ],
+      "left": 1256,
+      "top": 2251,
+      "right": 2074,
+      "bottom": 2294,
+      "width": 818,
+      "height": 43,
+      "confidence": 93.856,
+      "text": "Hat-Affairs aus Munchen, exklusiv fur"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 4,
+      "paragraphNumber": 4,
+      "lineNumber": 3,
+      "bbox": [
+        2235,
+        2251,
+        3065,
+        2298
+      ],
+      "left": 2235,
+      "top": 2251,
+      "right": 3065,
+      "bottom": 2298,
+      "width": 830,
+      "height": 47,
+      "confidence": 91.949,
+      "text": "Sucht nach den Schlagwortern ,,Deep"
+    },
+    {
+      "id": "l035",
+      "blockNumber": 2,
+      "paragraphNumber": 3,
+      "lineNumber": 9,
+      "bbox": [
+        1253,
+        2315,
+        2038,
+        2359
+      ],
+      "left": 1253,
+      "top": 2315,
+      "right": 2038,
+      "bottom": 2359,
+      "width": 785,
+      "height": 44,
+      "confidence": 93.889,
+      "text": "dieses Event entworfen. ,Deep Sea"
+    },
+    {
+      "id": "l036",
+      "blockNumber": 4,
+      "paragraphNumber": 4,
+      "lineNumber": 4,
+      "bbox": [
+        2235,
+        2315,
+        2891,
+        2351
+      ],
+      "left": 2235,
+      "top": 2315,
+      "right": 2891,
+      "bottom": 2351,
+      "width": 656,
+      "height": 36,
+      "confidence": 91.272,
+      "text": "Sea Geishas“ auf vimeo.com."
+    },
+    {
+      "id": "l037",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3112,
+        2366,
+        3244,
+        2431
+      ],
+      "left": 3112,
+      "top": 2366,
+      "right": 3244,
+      "bottom": 2431,
+      "width": 132,
+      "height": 65,
+      "confidence": 50.427,
+      "text": "- «"
+    },
+    {
+      "id": "l038",
+      "blockNumber": 2,
+      "paragraphNumber": 3,
+      "lineNumber": 10,
+      "bbox": [
+        1254,
+        2376,
+        2007,
+        2422
+      ],
+      "left": 1254,
+      "top": 2376,
+      "right": 2007,
+      "bottom": 2422,
+      "width": 753,
+      "height": 46,
+      "confidence": 58.461,
+      "text": "Geishas“-Unterwasseratmosphare"
+    },
+    {
+      "id": "l039",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2622,
+        2483,
+        3069,
+        2528
+      ],
+      "left": 2622,
+      "top": 2483,
+      "right": 3069,
+      "bottom": 2528,
+      "width": 447,
+      "height": 45,
+      "confidence": 91.205,
+      "text": "www.tresbonjour.de"
+    },
+    {
+      "id": "l040",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1270,
+        4185,
+        1306,
+        4386
+      ],
+      "left": 1270,
+      "top": 4185,
+      "right": 1306,
+      "bottom": 4386,
+      "width": 36,
+      "height": 201,
+      "confidence": 69.217,
+      "text": "Jo|py uer"
+    }
+  ]
+}

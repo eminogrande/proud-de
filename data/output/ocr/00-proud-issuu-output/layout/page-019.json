@@ -1,0 +1,287 @@
+{
+  "scale": 2.0,
+  "imageWidth": 4478,
+  "imageHeight": 3002,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        78,
+        60,
+        244,
+        99
+      ],
+      "left": 78,
+      "top": 60,
+      "right": 244,
+      "bottom": 99,
+      "width": 166,
+      "height": 39,
+      "confidence": 96.226,
+      "text": "feature"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        4233,
+        60,
+        4398,
+        99
+      ],
+      "left": 4233,
+      "top": 60,
+      "right": 4398,
+      "bottom": 99,
+      "width": 165,
+      "height": 39,
+      "confidence": 96.334,
+      "text": "feature"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2340,
+        161,
+        4162,
+        421
+      ],
+      "left": 2340,
+      "top": 161,
+      "right": 4162,
+      "bottom": 421,
+      "width": 1822,
+      "height": 260,
+      "confidence": 88.433,
+      "text": "moritz stellmacher]"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2350,
+        341,
+        3931,
+        395
+      ],
+      "left": 2350,
+      "top": 341,
+      "right": 3931,
+      "bottom": 395,
+      "width": 1581,
+      "height": 54,
+      "confidence": 95.662,
+      "text": "Wer wollte nicht schon einmal ein T-Shirt Motiv entwerfen. Man entwirft es und am Ende wird es dann doch"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2351,
+        384,
+        3931,
+        439
+      ],
+      "left": 2351,
+      "top": 384,
+      "right": 3931,
+      "bottom": 439,
+      "width": 1580,
+      "height": 55,
+      "confidence": 94.128,
+      "text": "nicht gedruckt. Nach einer Weile zieht man in die erste eigene Wohnung. Weil die Wande zu leer sind, setzt"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2350,
+        428,
+        3627,
+        473
+      ],
+      "left": 2350,
+      "top": 428,
+      "right": 3627,
+      "bottom": 473,
+      "width": 1277,
+      "height": 45,
+      "confidence": 90.703,
+      "text": "man sich noch einmal an den Entwurf. Er wird kopiert, vergré8ert und weiterentwickelt."
+    },
+    {
+      "id": "l007",
+      "blockNumber": 10,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        2350,
+        468,
+        3907,
+        531
+      ],
+      "left": 2350,
+      "top": 468,
+      "right": 3907,
+      "bottom": 531,
+      "width": 1557,
+      "height": 63,
+      "confidence": 93.441,
+      "text": "Dann wird er auf mehreren DIN-A4 Seiten ausgedruckt, zusammengeklebt und bunt bemalt."
+    },
+    {
+      "id": "l008",
+      "blockNumber": 10,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        2349,
+        510,
+        3796,
+        571
+      ],
+      "left": 2349,
+      "top": 510,
+      "right": 3796,
+      "bottom": 571,
+      "width": 1447,
+      "height": 61,
+      "confidence": 92.645,
+      "text": "Es entsteht ein Kunstwerk, vor dem jeder Besucher fiir eine Weile stehenbleibt und es bewundert."
+    },
+    {
+      "id": "l009",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1967,
+        2227,
+        1978,
+        2318
+      ],
+      "left": 1967,
+      "top": 2227,
+      "right": 1978,
+      "bottom": 2318,
+      "width": 11,
+      "height": 91,
+      "confidence": 40.898,
+      "text": "oe"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        552,
+        2429,
+        2051,
+        2490
+      ],
+      "left": 552,
+      "top": 2429,
+      "right": 2051,
+      "bottom": 2490,
+      "width": 1499,
+      "height": 61,
+      "confidence": 88.172,
+      "text": "Guerrero, der Mann mit den zwe! Gesichtern. Wenn die Sonne scheint: Ein angesehener, respektabler"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        456,
+        2470,
+        1877,
+        2531
+      ],
+      "left": 456,
+      "top": 2470,
+      "right": 1877,
+      "bottom": 2531,
+      "width": 1421,
+      "height": 61,
+      "confidence": 93.404,
+      "text": "Kunstler der provokante Themen aufgreift und daraus Collagen fabriziert. Zu Nachtlicher Stunde:"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        455,
+        2513,
+        1613,
+        2567
+      ],
+      "left": 455,
+      "top": 2513,
+      "right": 1613,
+      "bottom": 2567,
+      "width": 1158,
+      "height": 54,
+      "confidence": 91.635,
+      "text": "Ein Bulldoggen ziichtender, Menschen fressender, Superheld auf Heroin. Naja.."
+    },
+    {
+      "id": "l013",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1619,
+        2534,
+        2089,
+        2573
+      ],
+      "left": 1619,
+      "top": 2534,
+      "right": 2089,
+      "bottom": 2573,
+      "width": 470,
+      "height": 39,
+      "confidence": 94.296,
+      "text": ". die Arbeiten sind trotzdem gut."
+    },
+    {
+      "id": "l014",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        77,
+        2925,
+        110,
+        2950
+      ],
+      "left": 77,
+      "top": 2925,
+      "right": 110,
+      "bottom": 2950,
+      "width": 33,
+      "height": 25,
+      "confidence": 96.278,
+      "text": "36"
+    }
+  ]
+}

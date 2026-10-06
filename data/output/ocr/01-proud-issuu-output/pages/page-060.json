@@ -1,0 +1,69 @@
+{
+  "id": "gen-1778172023-N7Cnu1JqEgr7aqbDKJ00",
+  "object": "chat.completion",
+  "created": 1778172023,
+  "model": "google/gemini-2.5-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "standard",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "OK",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "file",
+            "file": {
+              "hash": "4dae7f8363fea3ffbbccb1e01d1052cf915dd0aee49433d7be54a06cf31196a9",
+              "name": "01 proud issuu_output-page-060.pdf",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "<file name=\"01 proud issuu_output-page-060.pdf\">"
+                },
+                {
+                  "type": "text",
+                  "text": "60 proud\n\n# tatsch\n\n## Nov techno gossip\n\nWie und wo sollen wir denn anfangen? Vielleicht mit der Geschichte von der Oma vorm Berghain? Oder die mit den streikenden Discokugeln, der Sicht der Ratten, dem Dschungel im U-Bahnhof, diesen Tieren namens Atzen, oder doch über den geheimen vom Staat geplanten Technotanzpflichtunterricht ab der vierten Klasse zur Verbesserung der Lebensenergie?\n\nAlles in allem plaudern hier zwei Damen der schreibenden Zunft über Kuriositäten im Kontext des Rave und greifen für die werten Leser die Geschichten und Gerüchte aus der Luft der Berliner Partyküchen. Zum Beispiel diese kleine Anekdote über das Schuhwerk:\n\n## Schuld und Schuhe\n\nMan feierte den Weihnachtstraum bei den Nachtbanditen und mal wieder waren unter den Besucherinnen auch jene, die sich schuld fehlender Voraussicht Stöckelschuhe für den Tanzabend angezogen hatten. Trotz zahlreicher Scherben der Christbaumkugeln auf dem Tanzflur konnte eine ebensolche Jungfer nicht umhin, sich ob ihrer musikbedingten Bewegtheit ihrer Pfennigabsätze zu entledigen, die sie sogleich vor dem DJ-Pult platzierte. Ein druffes Schuhfetischist witterte seine ultimative Chance und griff sich die Dinger, sobald besagte Jungfer sich der tanzenden Meute zuwandte und mit dem schicken Typen in weiß flirtete, schlich sich aus dem Laden und ward nie wieder gesehen. Vermutlich wandert in diesem Moment seine Zunge über den Schaft ihres Pfennigabsatzes und seiner Brust entfährt ein leiser Seufzer.\n\nLetztlich stellt sich die Frage: Wo ist eigentlich Iris?\n\n# 2007\n\n# 2007\n\n# 2007\n\n# 2007"
+                },
+                {
+                  "type": "text",
+                  "text": "</file>"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 436,
+    "completion_tokens": 1,
+    "total_tokens": 437,
+    "cost": 0.002131967,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001333,
+      "upstream_inference_prompt_cost": 0.0001308,
+      "upstream_inference_completions_cost": 2.5e-06
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

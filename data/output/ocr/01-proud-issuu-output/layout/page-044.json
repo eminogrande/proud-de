@@ -1,0 +1,567 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        82,
+        83,
+        288,
+        120
+      ],
+      "left": 82,
+      "top": 83,
+      "right": 288,
+      "bottom": 120,
+      "width": 206,
+      "height": 37,
+      "confidence": 96.165,
+      "text": "wardrobe"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        185,
+        642,
+        230,
+        780
+      ],
+      "left": 185,
+      "top": 642,
+      "right": 230,
+      "bottom": 780,
+      "width": 45,
+      "height": 138,
+      "confidence": 38.209,
+      "text": "aseuwy"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2824,
+        663,
+        3071,
+        3197
+      ],
+      "left": 2824,
+      "top": 663,
+      "right": 3071,
+      "bottom": 3197,
+      "width": 247,
+      "height": 2534,
+      "confidence": 56.987,
+      "text": "SYDIUD OJ"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        253,
+        1142,
+        536,
+        1188
+      ],
+      "left": 253,
+      "top": 1142,
+      "right": 536,
+      "bottom": 1188,
+      "width": 283,
+      "height": 46,
+      "confidence": 93.526,
+      "text": "Trés Bonjour"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        257,
+        1206,
+        958,
+        1242
+      ],
+      "left": 257,
+      "top": 1206,
+      "right": 958,
+      "bottom": 1242,
+      "width": 701,
+      "height": 36,
+      "confidence": 95.034,
+      "text": "Latex Couture Swimsuit & Bikini"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        791,
+        1422,
+        1019,
+        1467
+      ],
+      "left": 791,
+      "top": 1422,
+      "right": 1019,
+      "bottom": 1467,
+      "width": 228,
+      "height": 45,
+      "confidence": 96.346,
+      "text": "Fred Perry"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        788,
+        1485,
+        1030,
+        1521
+      ],
+      "left": 788,
+      "top": 1485,
+      "right": 1030,
+      "bottom": 1521,
+      "width": 242,
+      "height": 36,
+      "confidence": 92.492,
+      "text": "Tenniskleid"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        925,
+        1560,
+        959,
+        1639
+      ],
+      "left": 925,
+      "top": 1560,
+      "right": 959,
+      "bottom": 1639,
+      "width": 34,
+      "height": 79,
+      "confidence": 33.645,
+      "text": "J"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1566,
+        2026,
+        1849,
+        2072
+      ],
+      "left": 1566,
+      "top": 2026,
+      "right": 1849,
+      "bottom": 2072,
+      "width": 283,
+      "height": 46,
+      "confidence": 93.727,
+      "text": "Trés Bonjour"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1568,
+        2091,
+        2306,
+        2136
+      ],
+      "left": 1568,
+      "top": 2091,
+      "right": 2306,
+      "bottom": 2136,
+      "width": 738,
+      "height": 45,
+      "confidence": 88.653,
+      "text": "Satin Kimono ,Deep Sea Geisha“"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1995,
+        2660,
+        2358,
+        2696
+      ],
+      "left": 1995,
+      "top": 2660,
+      "right": 2358,
+      "bottom": 2696,
+      "width": 363,
+      "height": 36,
+      "confidence": 96.194,
+      "text": "Urban Outfitters"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1997,
+        2723,
+        2619,
+        2769
+      ],
+      "left": 1997,
+      "top": 2723,
+      "right": 2619,
+      "bottom": 2769,
+      "width": 622,
+      "height": 46,
+      "confidence": 91.802,
+      "text": "Minirock, schwarz gepunktet"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        834,
+        3047,
+        1255,
+        3100
+      ],
+      "left": 834,
+      "top": 3047,
+      "right": 1255,
+      "bottom": 3100,
+      "width": 421,
+      "height": 53,
+      "confidence": 84.098,
+      "text": ",, Urban Outfitters"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        894,
+        3110,
+        1423,
+        3146
+      ],
+      "left": 894,
+      "top": 3110,
+      "right": 1423,
+      "bottom": 3146,
+      "width": 529,
+      "height": 36,
+      "confidence": 92.143,
+      "text": "Kleid mit Blumenmuster"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1771,
+        3801,
+        2101,
+        3870
+      ],
+      "left": 1771,
+      "top": 3801,
+      "right": 2101,
+      "bottom": 3870,
+      "width": 330,
+      "height": 69,
+      "confidence": 96.672,
+      "text": "Onitsuka Tiger"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1772,
+        3888,
+        1952,
+        3924
+      ],
+      "left": 1772,
+      "top": 3888,
+      "right": 1952,
+      "bottom": 3924,
+      "width": 180,
+      "height": 36,
+      "confidence": 96.453,
+      "text": "Sneaker"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2179,
+        3997,
+        2920,
+        4043
+      ],
+      "left": 2179,
+      "top": 3997,
+      "right": 2920,
+      "bottom": 4043,
+      "width": 741,
+      "height": 46,
+      "confidence": 94.544,
+      "text": "Trés Bonjour Titus Berlin"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        857,
+        3998,
+        1085,
+        4043
+      ],
+      "left": 857,
+      "top": 3998,
+      "right": 1085,
+      "bottom": 4043,
+      "width": 228,
+      "height": 45,
+      "confidence": 96.671,
+      "text": "Fred Perry"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1499,
+        3998,
+        1830,
+        4043
+      ],
+      "left": 1499,
+      "top": 3998,
+      "right": 1830,
+      "bottom": 4043,
+      "width": 331,
+      "height": 45,
+      "confidence": 96.6,
+      "text": "Onitsuka Tiger"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        857,
+        4061,
+        1440,
+        4099
+      ],
+      "left": 857,
+      "top": 4061,
+      "right": 1440,
+      "bottom": 4099,
+      "width": 583,
+      "height": 38,
+      "confidence": 94.129,
+      "text": "Neue Schonhauser Str. 10"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 17,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1498,
+        4061,
+        2122,
+        4099
+      ],
+      "left": 1498,
+      "top": 4061,
+      "right": 2122,
+      "bottom": 4099,
+      "width": 624,
+      "height": 38,
+      "confidence": 94.542,
+      "text": "Alte Schonhauser Str. 20-22"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 21,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2179,
+        4062,
+        3032,
+        4107
+      ],
+      "left": 2179,
+      "top": 4062,
+      "right": 3032,
+      "bottom": 4107,
+      "width": 853,
+      "height": 45,
+      "confidence": 94.802,
+      "text": "Torstrasse 3 Spandauer Str. 2"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        857,
+        4125,
+        1146,
+        4162
+      ],
+      "left": 857,
+      "top": 4125,
+      "right": 1146,
+      "bottom": 4162,
+      "width": 289,
+      "height": 37,
+      "confidence": 95.686,
+      "text": "10178 Berlin"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 17,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        1501,
+        4125,
+        1790,
+        4162
+      ],
+      "left": 1501,
+      "top": 4125,
+      "right": 1790,
+      "bottom": 4162,
+      "width": 289,
+      "height": 37,
+      "confidence": 96.301,
+      "text": "10119 Berlin"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 21,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2182,
+        4125,
+        2953,
+        4162
+      ],
+      "left": 2182,
+      "top": 4125,
+      "right": 2953,
+      "bottom": 4162,
+      "width": 771,
+      "height": 37,
+      "confidence": 96.191,
+      "text": "10119 Berlin 10178 Berlin"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        854,
+        4188,
+        1229,
+        4234
+      ],
+      "left": 854,
+      "top": 4188,
+      "right": 1229,
+      "bottom": 4234,
+      "width": 375,
+      "height": 46,
+      "confidence": 91.64,
+      "text": "www.fredperry.de"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 17,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        1498,
+        4188,
+        1961,
+        4234
+      ],
+      "left": 1498,
+      "top": 4188,
+      "right": 1961,
+      "bottom": 4234,
+      "width": 463,
+      "height": 46,
+      "confidence": 90.274,
+      "text": "www.onitsukatiger.de"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 22,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2179,
+        4188,
+        3074,
+        4233
+      ],
+      "left": 2179,
+      "top": 4188,
+      "right": 3074,
+      "bottom": 4233,
+      "width": 895,
+      "height": 45,
+      "confidence": 89.253,
+      "text": "www.tresbonjour.de www.titus-berlin.de"
+    }
+  ]
+}

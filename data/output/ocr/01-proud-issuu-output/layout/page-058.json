@@ -1,0 +1,787 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        82,
+        82,
+        322,
+        121
+      ],
+      "left": 82,
+      "top": 82,
+      "right": 322,
+      "bottom": 121,
+      "width": 240,
+      "height": 39,
+      "confidence": 96.604,
+      "text": "focus artist"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        671,
+        642,
+        1243,
+        745
+      ],
+      "left": 671,
+      "top": 642,
+      "right": 1243,
+      "bottom": 745,
+      "width": 572,
+      "height": 103,
+      "confidence": 91.473,
+      "text": "Esmod Fashion trifft"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        671,
+        769,
+        1175,
+        834
+      ],
+      "left": 671,
+      "top": 769,
+      "right": 1175,
+      "bottom": 834,
+      "width": 504,
+      "height": 65,
+      "confidence": 94.502,
+      "text": "Profifotografin bei"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        671,
+        854,
+        1347,
+        905
+      ],
+      "left": 671,
+      "top": 854,
+      "right": 1347,
+      "bottom": 905,
+      "width": 676,
+      "height": 51,
+      "confidence": 84.421,
+      "text": "Blumen-Suthr im Keller."
+    },
+    {
+      "id": "l005",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        980,
+        930,
+        1166,
+        964
+      ],
+      "left": 980,
+      "top": 930,
+      "right": 1166,
+      "bottom": 964,
+      "width": 186,
+      "height": 34,
+      "confidence": 56.574,
+      "text": "iad I 7"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        688,
+        938,
+        1311,
+        995
+      ],
+      "left": 688,
+      "top": 938,
+      "right": 1311,
+      "bottom": 995,
+      "width": 623,
+      "height": 57,
+      "confidence": 27.765,
+      "text": "a fi"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1176,
+        990,
+        1204,
+        1003
+      ],
+      "left": 1176,
+      "top": 990,
+      "right": 1204,
+      "bottom": 1003,
+      "width": 28,
+      "height": 13,
+      "confidence": 34.018,
+      "text": "me"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1104,
+        1008,
+        1105,
+        1012
+      ],
+      "left": 1104,
+      "top": 1008,
+      "right": 1105,
+      "bottom": 1012,
+      "width": 1,
+      "height": 4,
+      "confidence": 64.666,
+      "text": "9"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1213,
+        1041,
+        1219,
+        1051
+      ],
+      "left": 1213,
+      "top": 1041,
+      "right": 1219,
+      "bottom": 1051,
+      "width": 6,
+      "height": 10,
+      "confidence": 92.381,
+      "text": "‘"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1253,
+        2694,
+        2998,
+        2742
+      ],
+      "left": 1253,
+      "top": 2694,
+      "right": 2998,
+      "bottom": 2742,
+      "width": 1745,
+      "height": 48,
+      "confidence": 84.461,
+      "text": "Geplant war ein richtig geiles Foltermethoden zum regelmafigen"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1251,
+        2758,
+        2977,
+        2805
+      ],
+      "left": 1251,
+      "top": 2758,
+      "right": 2977,
+      "bottom": 2805,
+      "width": 1726,
+      "height": 47,
+      "confidence": 86.242,
+      "text": "Advertorial. Bezahliter, redaktioneller Beisteuern von Bilder gezwungen."
+    },
+    {
+      "id": "l012",
+      "blockNumber": 9,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1255,
+        2821,
+        3248,
+        2859
+      ],
+      "left": 1255,
+      "top": 2821,
+      "right": 3248,
+      "bottom": 2859,
+      "width": 1993,
+      "height": 38,
+      "confidence": 79.105,
+      "text": "Inhalt. Gekaufter Checkbuch- —"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 9,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        1202,
+        2869,
+        3026,
+        2930
+      ],
+      "left": 1202,
+      "top": 2869,
+      "right": 3026,
+      "bottom": 2930,
+      "width": 1824,
+      "height": 61,
+      "confidence": 87.978,
+      "text": "7 journalismus, so wie wir es von Pola Kardum, Studentin der Esmod,"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 9,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        1253,
+        2945,
+        2996,
+        2999
+      ],
+      "left": 1253,
+      "top": 2945,
+      "right": 2996,
+      "bottom": 2999,
+      "width": 1743,
+      "height": 54,
+      "confidence": 94.884,
+      "text": "der proud am Liebsten haben. Die kreative Designerin, stellt sich und"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1255,
+        3011,
+        2936,
+        3059
+      ],
+      "left": 1255,
+      "top": 3011,
+      "right": 2936,
+      "bottom": 3059,
+      "width": 1681,
+      "height": 48,
+      "confidence": 93.593,
+      "text": "Magazine wollen ja auch irgendwie inre Kleider zur Verfugung. Ab in"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 10,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1254,
+        3074,
+        2962,
+        3118
+      ],
+      "left": 1254,
+      "top": 3074,
+      "right": 2962,
+      "bottom": 3118,
+      "width": 1708,
+      "height": 44,
+      "confidence": 91.623,
+      "text": "bezahit werden. den Keller von Blumen-Suhr, dem"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 10,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        1255,
+        3138,
+        2984,
+        3182
+      ],
+      "left": 1255,
+      "top": 3138,
+      "right": 2984,
+      "bottom": 3182,
+      "width": 1729,
+      "height": 44,
+      "confidence": 92.547,
+      "text": "Das Schonste ist es immer noch, Blumenladen unseres Vertrauens."
+    },
+    {
+      "id": "l018",
+      "blockNumber": 10,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        1253,
+        3202,
+        2957,
+        3248
+      ],
+      "left": 1253,
+      "top": 3202,
+      "right": 2957,
+      "bottom": 3248,
+      "width": 1704,
+      "height": 46,
+      "confidence": 93.647,
+      "text": "sich zu prostituieren und trotzdem Polas WG-Mitbewohnerin, Emin‘s"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 10,
+      "paragraphNumber": 5,
+      "lineNumber": 1,
+      "bbox": [
+        1251,
+        3265,
+        3072,
+        3309
+      ],
+      "left": 1251,
+      "top": 3265,
+      "right": 3072,
+      "bottom": 3309,
+      "width": 1821,
+      "height": 44,
+      "confidence": 94.686,
+      "text": "tun, was man vorhatte. Wir wollen Vater, sowie eine unserer Freundinnen"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 10,
+      "paragraphNumber": 6,
+      "lineNumber": 1,
+      "bbox": [
+        1253,
+        3328,
+        2932,
+        3375
+      ],
+      "left": 1253,
+      "top": 3328,
+      "right": 2932,
+      "bottom": 3375,
+      "width": 1679,
+      "height": 47,
+      "confidence": 94.603,
+      "text": "eine Kombo aus der Fotografin ergaben mit der Assistentin der"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 10,
+      "paragraphNumber": 7,
+      "lineNumber": 1,
+      "bbox": [
+        1254,
+        3393,
+        2899,
+        3440
+      ],
+      "left": 1254,
+      "top": 3393,
+      "right": 2899,
+      "bottom": 3440,
+      "width": 1645,
+      "height": 47,
+      "confidence": 94.35,
+      "text": "und der Designerin. Der Artikel soll Fotografin ein perfektes Team."
+    },
+    {
+      "id": "l022",
+      "blockNumber": 10,
+      "paragraphNumber": 8,
+      "lineNumber": 1,
+      "bbox": [
+        1253,
+        3456,
+        2936,
+        3503
+      ],
+      "left": 1253,
+      "top": 3456,
+      "right": 2936,
+      "bottom": 3503,
+      "width": 1683,
+      "height": 47,
+      "confidence": 94.565,
+      "text": "die Fotografin vorstellen und die Wir sind sehr zufrieden mit dem"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 10,
+      "paragraphNumber": 8,
+      "lineNumber": 2,
+      "bbox": [
+        1255,
+        3518,
+        2975,
+        3566
+      ],
+      "left": 1255,
+      "top": 3518,
+      "right": 2975,
+      "bottom": 3566,
+      "width": 1720,
+      "height": 48,
+      "confidence": 93.899,
+      "text": "Designerin prasentieren. Ergebnis, nur passte dieses nicht"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 10,
+      "paragraphNumber": 9,
+      "lineNumber": 1,
+      "bbox": [
+        1251,
+        3582,
+        2921,
+        3629
+      ],
+      "left": 1251,
+      "top": 3582,
+      "right": 2921,
+      "bottom": 3629,
+      "width": 1670,
+      "height": 47,
+      "confidence": 91.213,
+      "text": "Alles Berliner Gesteine, hier gro8 zu der Ausrichtung der anderen"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1251,
+        3643,
+        2918,
+        3697
+      ],
+      "left": 1251,
+      "top": 3643,
+      "right": 2918,
+      "bottom": 3697,
+      "width": 1667,
+      "height": 54,
+      "confidence": 93.591,
+      "text": "gezogen. Marketingabteilung. Auch ohne"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2236,
+        3710,
+        2953,
+        3755
+      ],
+      "left": 2236,
+      "top": 3710,
+      "right": 2953,
+      "bottom": 3755,
+      "width": 717,
+      "height": 45,
+      "confidence": 94.166,
+      "text": "Finanzspritze ist es einmal mehr"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1254,
+        3771,
+        3020,
+        3819
+      ],
+      "left": 1254,
+      "top": 3771,
+      "right": 3020,
+      "bottom": 3819,
+      "width": 1766,
+      "height": 48,
+      "confidence": 93.513,
+      "text": "Maren Bottcher, eine unendlich wertvoll zu zeigen, was fur Potenzial"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1254,
+        3834,
+        3028,
+        3882
+      ],
+      "left": 1254,
+      "top": 3834,
+      "right": 3028,
+      "bottom": 3882,
+      "width": 1774,
+      "height": 48,
+      "confidence": 79.566,
+      "text": "begabte Fotografin mit einer hei8Sen in uns steckt. Polas Designerstucke"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2236,
+        3899,
+        2676,
+        3937
+      ],
+      "left": 2236,
+      "top": 3899,
+      "right": 2676,
+      "bottom": 3937,
+      "width": 440,
+      "height": 38,
+      "confidence": 92.501,
+      "text": "konnt ihr zudem auf"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1255,
+        3900,
+        1978,
+        3947
+      ],
+      "left": 1255,
+      "top": 3900,
+      "right": 1978,
+      "bottom": 3947,
+      "width": 723,
+      "height": 47,
+      "confidence": 94.591,
+      "text": "Freundin in New York. Quirlig und"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2233,
+        3959,
+        2903,
+        4014
+      ],
+      "left": 2233,
+      "top": 3959,
+      "right": 2903,
+      "bottom": 4014,
+      "width": 670,
+      "height": 55,
+      "confidence": 91.488,
+      "text": "proudmagazine.de bewundern."
+    },
+    {
+      "id": "l032",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1252,
+        3963,
+        1920,
+        4000
+      ],
+      "left": 1252,
+      "top": 3963,
+      "right": 1920,
+      "bottom": 4000,
+      "width": 668,
+      "height": 37,
+      "confidence": 93.438,
+      "text": "zeitweise zum Couchsurfen im"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1251,
+        4022,
+        1964,
+        4077
+      ],
+      "left": 1251,
+      "top": 4022,
+      "right": 1964,
+      "bottom": 4077,
+      "width": 713,
+      "height": 55,
+      "confidence": 93.579,
+      "text": "proud Buro. Sie wird durch harte"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2407,
+        4071,
+        3079,
+        4107
+      ],
+      "left": 2407,
+      "top": 4071,
+      "right": 3079,
+      "bottom": 4107,
+      "width": 672,
+      "height": 36,
+      "confidence": 93.846,
+      "text": "Fashion & Model Pola Kardum"
+    },
+    {
+      "id": "l035",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1317,
+        4119,
+        2576,
+        4161
+      ],
+      "left": 1317,
+      "top": 4119,
+      "right": 2576,
+      "bottom": 4161,
+      "width": 1259,
+      "height": 42,
+      "confidence": 63.295,
+      "text": "a — 4 P ’"
+    },
+    {
+      "id": "l036",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1376,
+        4130,
+        3080,
+        4255
+      ],
+      "left": 1376,
+      "top": 4130,
+      "right": 3080,
+      "bottom": 4255,
+      "width": 1704,
+      "height": 125,
+      "confidence": 78.763,
+      "text": "Image www.MarenBoettcher.com be ae Make-Up Rouge Bunny Rouge"
+    },
+    {
+      "id": "l037",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1392,
+        4270,
+        2571,
+        4322
+      ],
+      "left": 1392,
+      "top": 4270,
+      "right": 2571,
+      "bottom": 4322,
+      "width": 1179,
+      "height": 52,
+      "confidence": 61.938,
+      "text": "> Assistant Katarzyna Konopka a Ete."
+    },
+    {
+      "id": "l038",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1416,
+        4328,
+        2525,
+        4368
+      ],
+      "left": 1416,
+      "top": 4328,
+      "right": 2525,
+      "bottom": 4368,
+      "width": 1109,
+      "height": 40,
+      "confidence": 47.902,
+      "text": "na he »"
+    },
+    {
+      "id": "l039",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1752,
+        4376,
+        2109,
+        4437
+      ],
+      "left": 1752,
+      "top": 4376,
+      "right": 2109,
+      "bottom": 4437,
+      "width": 357,
+      "height": 61,
+      "confidence": 45.761,
+      "text": "~ a"
+    }
+  ]
+}

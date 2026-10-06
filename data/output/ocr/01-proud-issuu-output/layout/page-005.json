@@ -1,0 +1,47 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        366,
+        77,
+        3095,
+        401
+      ],
+      "left": 366,
+      "top": 77,
+      "right": 3095,
+      "bottom": 401,
+      "width": 2729,
+      "height": 324,
+      "confidence": 94.583,
+      "text": "ROUGE BUNNY ROUGE"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1549,
+        323,
+        2328,
+        401
+      ],
+      "left": 1549,
+      "top": 323,
+      "right": 2328,
+      "bottom": 401,
+      "width": 779,
+      "height": 78,
+      "confidence": 95.991,
+      "text": "MakeUp Collec"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "gen-1778171823-oBZCzTIpjqTg6H8ZsBFx",
+  "object": "chat.completion",
+  "created": 1778171823,
+  "model": "google/gemini-2.5-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "OK",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "file",
+            "file": {
+              "hash": "86de523d8151a9ae739831e84056577c36cd5deb37aeaeeedb78a229b4764b25",
+              "name": "01 proud issuu_output-page-030.pdf",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "<file name=\"01 proud issuu_output-page-030.pdf\">"
+                },
+                {
+                  "type": "text",
+                  "text": "knowlege\n\n# maximal my ass\n\na gang bang with bucati force\n\nMAXIMAL auf dem Tanzflur ist wie eine Weihnachtsfeier im Swinger-Club – hier eine Einladungskarte von seinen aktivsten Mitgliedern: Bugati Force.\n\n10"
+                },
+                {
+                  "type": "text",
+                  "text": "</file>"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 81,
+    "completion_tokens": 1,
+    "total_tokens": 82,
+    "cost": 0.002026532,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 2.68e-05,
+      "upstream_inference_prompt_cost": 2.43e-05,
+      "upstream_inference_completions_cost": 2.5e-06
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

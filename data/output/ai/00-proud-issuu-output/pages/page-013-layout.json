@@ -1,0 +1,224 @@
+{
+  "sections": [
+    {
+      "title": "the knowledge",
+      "kind": "promo",
+      "titleLineIds": [
+        "l001"
+      ],
+      "lineIds": [
+        "l001",
+        "l002",
+        "l003",
+        "l004",
+        "l005",
+        "l006",
+        "l007",
+        "l008",
+        "l009",
+        "l010",
+        "l011"
+      ]
+    },
+    {
+      "title": "urban archaeology",
+      "kind": "article",
+      "titleLineIds": [
+        "l028"
+      ],
+      "lineIds": [
+        "l028",
+        "l041",
+        "l048",
+        "l049"
+      ]
+    },
+    {
+      "title": "proud knowledge Balkan",
+      "kind": "article",
+      "titleLineIds": [
+        "l019",
+        "l052"
+      ],
+      "lineIds": [
+        "l015",
+        "l017",
+        "l018",
+        "l019",
+        "l020",
+        "l021",
+        "l022",
+        "l023",
+        "l024",
+        "l025",
+        "l026",
+        "l027",
+        "l029",
+        "l030",
+        "l031",
+        "l032",
+        "l033",
+        "l034",
+        "l035",
+        "l036",
+        "l037",
+        "l038",
+        "l039",
+        "l040",
+        "l042",
+        "l043",
+        "l044",
+        "l045",
+        "l046",
+        "l047",
+        "l050",
+        "l051",
+        "l052",
+        "l053",
+        "l054",
+        "l058",
+        "l059",
+        "l060",
+        "l061",
+        "l062",
+        "l063",
+        "l065",
+        "l066",
+        "l067",
+        "l069",
+        "l070",
+        "l074",
+        "l075",
+        "l078",
+        "l080",
+        "l088",
+        "l091",
+        "l093",
+        "l094",
+        "l097",
+        "l098",
+        "l100",
+        "l103",
+        "l106",
+        "l107",
+        "l110",
+        "l111",
+        "l114",
+        "l115",
+        "l118",
+        "l119",
+        "l122",
+        "l124",
+        "l127",
+        "l128",
+        "l132",
+        "l133",
+        "l136",
+        "l137",
+        "l139",
+        "l143",
+        "l145"
+      ]
+    },
+    {
+      "title": "ohmibod Die richtige Stimmung zu jeder Musik",
+      "kind": "article",
+      "titleLineIds": [
+        "l056",
+        "l064"
+      ],
+      "lineIds": [
+        "l056",
+        "l064",
+        "l073",
+        "l077",
+        "l079",
+        "l087",
+        "l092",
+        "l096",
+        "l099",
+        "l102",
+        "l105",
+        "l109",
+        "l113",
+        "l117",
+        "l121"
+      ]
+    },
+    {
+      "title": "balkan math",
+      "kind": "utility",
+      "titleLineIds": [],
+      "lineIds": [
+        "l068",
+        "l071",
+        "l076",
+        "l083",
+        "l084",
+        "l085",
+        "l130",
+        "l131",
+        "l151",
+        "l162",
+        "l163"
+      ]
+    },
+    {
+      "title": "techno privacy scarf Fur private Spielchen",
+      "kind": "article",
+      "titleLineIds": [
+        "l089",
+        "l095"
+      ],
+      "lineIds": [
+        "l089",
+        "l095",
+        "l101",
+        "l104",
+        "l108",
+        "l112",
+        "l116",
+        "l120"
+      ]
+    },
+    {
+      "title": "pixel, pixel, pixel 160 Megapixel Protz",
+      "kind": "article",
+      "titleLineIds": [
+        "l126",
+        "l134"
+      ],
+      "lineIds": [
+        "l126",
+        "l134",
+        "l140",
+        "l144",
+        "l147",
+        "l149",
+        "l154",
+        "l158",
+        "l161"
+      ]
+    },
+    {
+      "title": "wenger giant swiss army knife™ v1.0 iWenn Gott ein Werkzeug ware",
+      "kind": "article",
+      "titleLineIds": [
+        "l129",
+        "l135"
+      ],
+      "lineIds": [
+        "l129",
+        "l135",
+        "l142",
+        "l146",
+        "l148",
+        "l150",
+        "l153",
+        "l156",
+        "l157",
+        "l164"
+      ]
+    }
+  ]
+}

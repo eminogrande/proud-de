@@ -1,0 +1,2567 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 33,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3114,
+        83,
+        3269,
+        120
+      ],
+      "left": 3114,
+      "top": 83,
+      "right": 3269,
+      "bottom": 120,
+      "width": 155,
+      "height": 37,
+      "confidence": 96.937,
+      "text": "sounds"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2238,
+        281,
+        3080,
+        353
+      ],
+      "left": 2238,
+      "top": 281,
+      "right": 3080,
+      "bottom": 353,
+      "width": 842,
+      "height": 72,
+      "confidence": 88.914,
+      "text": "Elektronischer Horgenuss"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2237,
+        352,
+        2439,
+        409
+      ],
+      "left": 2237,
+      "top": 352,
+      "right": 2439,
+      "bottom": 409,
+      "width": 202,
+      "height": 57,
+      "confidence": 94.625,
+      "text": "On Air"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        286,
+        452,
+        1592,
+        519
+      ],
+      "left": 286,
+      "top": 452,
+      "right": 1592,
+      "bottom": 519,
+      "width": 1306,
+      "height": 67,
+      "confidence": 90.427,
+      "text": "»Musik, die mich verprugelt und auspeitscht"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2237,
+        468,
+        2979,
+        514
+      ],
+      "left": 2237,
+      "top": 468,
+      "right": 2979,
+      "bottom": 514,
+      "width": 742,
+      "height": 46,
+      "confidence": 92.93,
+      "text": "Im Gegensatz zur Clubkultur sieht"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2234,
+        531,
+        3028,
+        574
+      ],
+      "left": 2234,
+      "top": 531,
+      "right": 3028,
+      "bottom": 574,
+      "width": 794,
+      "height": 43,
+      "confidence": 94.501,
+      "text": "es auf der Berliner Radiolandschaft,"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        288,
+        542,
+        1255,
+        594
+      ],
+      "left": 288,
+      "top": 542,
+      "right": 1255,
+      "bottom": 594,
+      "width": 967,
+      "height": 52,
+      "confidence": 92.148,
+      "text": "und trotzdem zartlich zu mir ist.”"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2234,
+        594,
+        2935,
+        640
+      ],
+      "left": 2234,
+      "top": 594,
+      "right": 2935,
+      "bottom": 640,
+      "width": 701,
+      "height": 46,
+      "confidence": 92.98,
+      "text": "dem am hartesten umkampften"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        490,
+        630,
+        900,
+        683
+      ],
+      "left": 490,
+      "top": 630,
+      "right": 900,
+      "bottom": 683,
+      "width": 410,
+      "height": 53,
+      "confidence": 90.59,
+      "text": "DJ-Kolumnen"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        2236,
+        657,
+        3004,
+        703
+      ],
+      "left": 2236,
+      "top": 657,
+      "right": 3004,
+      "bottom": 703,
+      "width": 768,
+      "height": 46,
+      "confidence": 90.354,
+      "text": "Radiomarkt Europas, fur Liebhaber"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        2234,
+        720,
+        3076,
+        758
+      ],
+      "left": 2234,
+      "top": 720,
+      "right": 3076,
+      "bottom": 758,
+      "width": 842,
+      "height": 38,
+      "confidence": 93.944,
+      "text": "der elektronischen Musik recht duster"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        761,
+        882,
+        819
+      ],
+      "left": 270,
+      "top": 761,
+      "right": 882,
+      "bottom": 819,
+      "width": 612,
+      "height": 58,
+      "confidence": 94.081,
+      "text": "Verwohntes Berlin"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        2234,
+        786,
+        2958,
+        823
+      ],
+      "left": 2234,
+      "top": 786,
+      "right": 2958,
+      "bottom": 823,
+      "width": 724,
+      "height": 37,
+      "confidence": 92.941,
+      "text": "aus. Zwar bietet die Bar25 einen"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        2237,
+        849,
+        3005,
+        895
+      ],
+      "left": 2237,
+      "top": 849,
+      "right": 3005,
+      "bottom": 895,
+      "width": 768,
+      "height": 46,
+      "confidence": 90.615,
+      "text": "Internetstream mit Aufzeichnungen"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        275,
+        878,
+        887,
+        924
+      ],
+      "left": 275,
+      "top": 878,
+      "right": 887,
+      "bottom": 924,
+      "width": 612,
+      "height": 46,
+      "confidence": 94.301,
+      "text": ",Jungs, heute will ich richtig"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        2236,
+        911,
+        2923,
+        958
+      ],
+      "left": 2236,
+      "top": 911,
+      "right": 2923,
+      "bottom": 958,
+      "width": 687,
+      "height": 47,
+      "confidence": 90.218,
+      "text": "und Liveubertragungen aus der"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        942,
+        998,
+        988
+      ],
+      "left": 270,
+      "top": 942,
+      "right": 998,
+      "bottom": 988,
+      "width": 728,
+      "height": 46,
+      "confidence": 92.199,
+      "text": "feiern gehen!“, posaunten meine"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        2236,
+        975,
+        3039,
+        1018
+      ],
+      "left": 2236,
+      "top": 975,
+      "right": 3039,
+      "bottom": 1018,
+      "width": 803,
+      "height": 43,
+      "confidence": 96.394,
+      "text": "Ranch an, doch wurde die Institution"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        271,
+        1004,
+        1048,
+        1051
+      ],
+      "left": 271,
+      "top": 1004,
+      "right": 1048,
+      "bottom": 1051,
+      "width": 777,
+      "height": 47,
+      "confidence": 93.327,
+      "text": "angetrunkenen Stimmbander. Nach"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1248,
+        1023,
+        1685,
+        1097
+      ],
+      "left": 1248,
+      "top": 1023,
+      "right": 1685,
+      "bottom": 1097,
+      "width": 437,
+      "height": 74,
+      "confidence": 96.392,
+      "text": "93 Till Infinity"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 10,
+      "bbox": [
+        2233,
+        1038,
+        3008,
+        1076
+      ],
+      "left": 2233,
+      "top": 1038,
+      "right": 3008,
+      "bottom": 1076,
+      "width": 775,
+      "height": 38,
+      "confidence": 94.495,
+      "text": "fur elektronische Musik im Berliner"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        270,
+        1068,
+        1097,
+        1113
+      ],
+      "left": 270,
+      "top": 1068,
+      "right": 1097,
+      "bottom": 1113,
+      "width": 827,
+      "height": 45,
+      "confidence": 92.071,
+      "text": "viel Alkohol und Kartenspielen rafften"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 11,
+      "bbox": [
+        2236,
+        1102,
+        2940,
+        1145
+      ],
+      "left": 2236,
+      "top": 1102,
+      "right": 2940,
+      "bottom": 1145,
+      "width": 704,
+      "height": 43,
+      "confidence": 94.281,
+      "text": "Radio, Marushas Rave Satellite,"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        270,
+        1132,
+        1107,
+        1179
+      ],
+      "left": 270,
+      "top": 1132,
+      "right": 1107,
+      "bottom": 1179,
+      "width": 837,
+      "height": 47,
+      "confidence": 95.62,
+      "text": "wir uns aus dem Haus auf und gingen"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 18,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1249,
+        1140,
+        1952,
+        1185
+      ],
+      "left": 1249,
+      "top": 1140,
+      "right": 1952,
+      "bottom": 1185,
+      "width": 703,
+      "height": 45,
+      "confidence": 93.823,
+      "text": "Hip Hop ist sowas von tot. Zehn"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 12,
+      "bbox": [
+        2235,
+        1165,
+        2981,
+        1212
+      ],
+      "left": 2235,
+      "top": 1165,
+      "right": 2981,
+      "bottom": 1212,
+      "width": 746,
+      "height": 47,
+      "confidence": 93.859,
+      "text": "schon im August 2007 abgesetzt."
+    },
+    {
+      "id": "l027",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        271,
+        1195,
+        1104,
+        1238
+      ],
+      "left": 271,
+      "top": 1195,
+      "right": 1104,
+      "bottom": 1238,
+      "width": 833,
+      "height": 43,
+      "confidence": 89.869,
+      "text": "auf die StraBe. Es ist still, da es nach"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 18,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1246,
+        1205,
+        2039,
+        1241
+      ],
+      "left": 1246,
+      "top": 1205,
+      "right": 2039,
+      "bottom": 1241,
+      "width": 793,
+      "height": 36,
+      "confidence": 94.591,
+      "text": "Zeilen um die Veterane der Nineties"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        273,
+        1258,
+        1037,
+        1301
+      ],
+      "left": 273,
+      "top": 1258,
+      "right": 1037,
+      "bottom": 1301,
+      "width": 764,
+      "height": 43,
+      "confidence": 88.0,
+      "text": "Mitternacht ist. ,Und wohin nun?“,"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1310,
+        1268,
+        3064,
+        1330
+      ],
+      "left": 1310,
+      "top": 1268,
+      "right": 3064,
+      "bottom": 1330,
+      "width": 1754,
+      "height": 62,
+      "confidence": 86.274,
+      "text": "LINEA. Da hat Russland mehr zu bieten. Seit"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 7,
+      "bbox": [
+        270,
+        1321,
+        1003,
+        1368
+      ],
+      "left": 270,
+      "top": 1321,
+      "right": 1003,
+      "bottom": 1368,
+      "width": 733,
+      "height": 47,
+      "confidence": 92.881,
+      "text": "fragt der schwankende Australier."
+    },
+    {
+      "id": "l032",
+      "blockNumber": 19,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1249,
+        1339,
+        3047,
+        1518
+      ],
+      "left": 1249,
+      "top": 1339,
+      "right": 3047,
+      "bottom": 1518,
+      "width": 1798,
+      "height": 179,
+      "confidence": 92.469,
+      "text": "1. Souls of Mischief - 93 Till Infinity ( Internetstream mit ausgewahlten DJ-"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1550,
+        1356,
+        3057,
+        1401
+      ],
+      "left": 1550,
+      "top": 1356,
+      "right": 3057,
+      "bottom": 1401,
+      "width": 1507,
+      "height": 45,
+      "confidence": 80.273,
+      "text": "oo. 2002 bietet Moskaus Deepmix einen"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 8,
+      "bbox": [
+        273,
+        1385,
+        1082,
+        1432
+      ],
+      "left": 273,
+      "top": 1385,
+      "right": 1082,
+      "bottom": 1432,
+      "width": 809,
+      "height": 47,
+      "confidence": 94.283,
+      "text": "habe Hunger!“, hustet der Englander"
+    },
+    {
+      "id": "l035",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 9,
+      "bbox": [
+        271,
+        1449,
+        1114,
+        1492
+      ],
+      "left": 271,
+      "top": 1449,
+      "right": 1114,
+      "bottom": 1492,
+      "width": 843,
+      "height": 43,
+      "confidence": 94.44,
+      "text": "dazwischen, der am meisten von allen"
+    },
+    {
+      "id": "l036",
+      "blockNumber": 19,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        1248,
+        1458,
+        3040,
+        1530
+      ],
+      "left": 1248,
+      "top": 1458,
+      "right": 3040,
+      "bottom": 1530,
+      "width": 1792,
+      "height": 72,
+      "confidence": 64.815,
+      "text": "2. lod noni E~ Players und Livesets gro8tenteils russischer"
+    },
+    {
+      "id": "l037",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 10,
+      "bbox": [
+        272,
+        1511,
+        1012,
+        1558
+      ],
+      "left": 272,
+      "top": 1511,
+      "right": 1012,
+      "bottom": 1558,
+      "width": 740,
+      "height": 47,
+      "confidence": 94.373,
+      "text": "sauft. ,Das kann man vergessen."
+    },
+    {
+      "id": "l038",
+      "blockNumber": 19,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        1247,
+        1521,
+        3038,
+        1593
+      ],
+      "left": 1247,
+      "top": 1521,
+      "right": 3038,
+      "bottom": 1593,
+      "width": 1791,
+      "height": 72,
+      "confidence": 73.331,
+      "text": "3. Wu rte oh ; Kunstler an. 24/7 gab es Deep- und"
+    },
+    {
+      "id": "l039",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 11,
+      "bbox": [
+        272,
+        1575,
+        941,
+        1612
+      ],
+      "left": 272,
+      "top": 1575,
+      "right": 941,
+      "bottom": 1612,
+      "width": 669,
+      "height": 37,
+      "confidence": 93.103,
+      "text": "Genauso wie eine musikalisch"
+    },
+    {
+      "id": "l040",
+      "blockNumber": 19,
+      "paragraphNumber": 5,
+      "lineNumber": 1,
+      "bbox": [
+        1247,
+        1584,
+        2932,
+        1652
+      ],
+      "left": 1247,
+      "top": 1584,
+      "right": 2932,
+      "bottom": 1652,
+      "width": 1685,
+      "height": 68,
+      "confidence": 90.439,
+      "text": "4. A Tribe Called Quest - Ince Again Techhouse, Minimal-Techno und"
+    },
+    {
+      "id": "l041",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 12,
+      "bbox": [
+        271,
+        1640,
+        1056,
+        1684
+      ],
+      "left": 271,
+      "top": 1640,
+      "right": 1056,
+      "bottom": 1684,
+      "width": 785,
+      "height": 44,
+      "confidence": 94.29,
+      "text": "anspruchsvolle Feiernacht mitten in"
+    },
+    {
+      "id": "l042",
+      "blockNumber": 19,
+      "paragraphNumber": 6,
+      "lineNumber": 1,
+      "bbox": [
+        1248,
+        1649,
+        3054,
+        1717
+      ],
+      "left": 1248,
+      "top": 1649,
+      "right": 3054,
+      "bottom": 1717,
+      "width": 1806,
+      "height": 68,
+      "confidence": 76.119,
+      "text": "2: Notorious B.1.G: - Juicy ; Electronica auf die Ohren. Kostenlos,"
+    },
+    {
+      "id": "l043",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 13,
+      "bbox": [
+        271,
+        1701,
+        1005,
+        1745
+      ],
+      "left": 271,
+      "top": 1701,
+      "right": 1005,
+      "bottom": 1745,
+      "width": 734,
+      "height": 44,
+      "confidence": 93.965,
+      "text": "der Woche! Hochstens eine Bar“,"
+    },
+    {
+      "id": "l044",
+      "blockNumber": 19,
+      "paragraphNumber": 7,
+      "lineNumber": 1,
+      "bbox": [
+        1247,
+        1708,
+        2939,
+        1789
+      ],
+      "left": 1247,
+      "top": 1708,
+      "right": 2939,
+      "bottom": 1789,
+      "width": 1692,
+      "height": 81,
+      "confidence": 78.313,
+      "text": "6. Snoop Doggy Dog fin and Juice weltweit. Leider beschrankt sich"
+    },
+    {
+      "id": "l045",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 14,
+      "bbox": [
+        272,
+        1765,
+        1052,
+        1812
+      ],
+      "left": 272,
+      "top": 1765,
+      "right": 1052,
+      "bottom": 1812,
+      "width": 780,
+      "height": 47,
+      "confidence": 94.912,
+      "text": "sage ich verzweifelt, denn ich stelle"
+    },
+    {
+      "id": "l046",
+      "blockNumber": 19,
+      "paragraphNumber": 8,
+      "lineNumber": 1,
+      "bbox": [
+        1249,
+        1774,
+        2667,
+        1845
+      ],
+      "left": 1249,
+      "top": 1774,
+      "right": 2667,
+      "bottom": 1845,
+      "width": 1418,
+      "height": 71,
+      "confidence": 56.685,
+      "text": "inn 10 WIE bs Deepmix heute fast"
+    },
+    {
+      "id": "l047",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 15,
+      "bbox": [
+        271,
+        1830,
+        998,
+        1867
+      ],
+      "left": 271,
+      "top": 1830,
+      "right": 998,
+      "bottom": 1867,
+      "width": 727,
+      "height": 37,
+      "confidence": 96.372,
+      "text": "eines fest: ich bin nicht in Berlin."
+    },
+    {
+      "id": "l048",
+      "blockNumber": 19,
+      "paragraphNumber": 9,
+      "lineNumber": 1,
+      "bbox": [
+        1247,
+        1837,
+        2582,
+        1908
+      ],
+      "left": 1247,
+      "top": 1837,
+      "right": 2582,
+      "bottom": 1908,
+      "width": 1335,
+      "height": 71,
+      "confidence": 92.809,
+      "text": "8. Wu-Tang Clan - C.R.E.A.M. auf Deephouse."
+    },
+    {
+      "id": "l049",
+      "blockNumber": 4,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        1893,
+        1058,
+        1939
+      ],
+      "left": 270,
+      "top": 1893,
+      "right": 1058,
+      "bottom": 1939,
+      "width": 788,
+      "height": 46,
+      "confidence": 96.4,
+      "text": "Also geht die Nacht in einer Bar mit"
+    },
+    {
+      "id": "l050",
+      "blockNumber": 19,
+      "paragraphNumber": 10,
+      "lineNumber": 1,
+      "bbox": [
+        1248,
+        1902,
+        1663,
+        1947
+      ],
+      "left": 1248,
+      "top": 1902,
+      "right": 1663,
+      "bottom": 1947,
+      "width": 415,
+      "height": 45,
+      "confidence": 87.722,
+      "text": "9. Jay Z - Sunshine"
+    },
+    {
+      "id": "l051",
+      "blockNumber": 4,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        272,
+        1956,
+        1119,
+        2001
+      ],
+      "left": 272,
+      "top": 1956,
+      "right": 1119,
+      "bottom": 2001,
+      "width": 847,
+      "height": 45,
+      "confidence": 94.362,
+      "text": "schlechter Pop-Musik zu Ende. Prompt"
+    },
+    {
+      "id": "l052",
+      "blockNumber": 19,
+      "paragraphNumber": 11,
+      "lineNumber": 1,
+      "bbox": [
+        1249,
+        1965,
+        1759,
+        2010
+      ],
+      "left": 1249,
+      "top": 1965,
+      "right": 1759,
+      "bottom": 2010,
+      "width": 510,
+      "height": 45,
+      "confidence": 94.568,
+      "text": "10. Onyx - Slam Harder"
+    },
+    {
+      "id": "l053",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2237,
+        1991,
+        2713,
+        2027
+      ],
+      "left": 2237,
+      "top": 1991,
+      "right": 2713,
+      "bottom": 2027,
+      "width": 476,
+      "height": 36,
+      "confidence": 94.693,
+      "text": "Der aus Radio Tochka"
+    },
+    {
+      "id": "l054",
+      "blockNumber": 4,
+      "paragraphNumber": 3,
+      "lineNumber": 3,
+      "bbox": [
+        273,
+        2019,
+        963,
+        2056
+      ],
+      "left": 273,
+      "top": 2019,
+      "right": 963,
+      "bottom": 2056,
+      "width": 690,
+      "height": 37,
+      "confidence": 94.754,
+      "text": "habe ich Heimweh in Asien und"
+    },
+    {
+      "id": "l055",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2236,
+        2054,
+        2893,
+        2100
+      ],
+      "left": 2236,
+      "top": 2054,
+      "right": 2893,
+      "bottom": 2100,
+      "width": 657,
+      "height": 46,
+      "confidence": 91.462,
+      "text": "hervorgegangene Web-Sender"
+    },
+    {
+      "id": "l056",
+      "blockNumber": 4,
+      "paragraphNumber": 3,
+      "lineNumber": 4,
+      "bbox": [
+        273,
+        2082,
+        895,
+        2126
+      ],
+      "left": 273,
+      "top": 2082,
+      "right": 895,
+      "bottom": 2126,
+      "width": 622,
+      "height": 44,
+      "confidence": 94.228,
+      "text": "merke, wie verwohnt ich bin."
+    },
+    {
+      "id": "l057",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2236,
+        2116,
+        2951,
+        2153
+      ],
+      "left": 2236,
+      "top": 2116,
+      "right": 2951,
+      "bottom": 2153,
+      "width": 715,
+      "height": 37,
+      "confidence": 94.69,
+      "text": "RTS.FM konzentriert sich auf die"
+    },
+    {
+      "id": "l058",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        2235,
+        2180,
+        2957,
+        2225
+      ],
+      "left": 2235,
+      "top": 2180,
+      "right": 2957,
+      "bottom": 2225,
+      "width": 722,
+      "height": 45,
+      "confidence": 92.555,
+      "text": "Genres, die Deepmix so bekannt"
+    },
+    {
+      "id": "l059",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        2210,
+        1042,
+        2256
+      ],
+      "left": 273,
+      "top": 2210,
+      "right": 1042,
+      "bottom": 2256,
+      "width": 769,
+      "height": 46,
+      "confidence": 94.619,
+      "text": "Berlin... welch einzigartiges Terrain"
+    },
+    {
+      "id": "l060",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        2236,
+        2244,
+        2947,
+        2290
+      ],
+      "left": 2236,
+      "top": 2244,
+      "right": 2947,
+      "bottom": 2290,
+      "width": 711,
+      "height": 46,
+      "confidence": 93.776,
+      "text": "und beliebt gemacht haben. Der"
+    },
+    {
+      "id": "l061",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        274,
+        2271,
+        1025,
+        2315
+      ],
+      "left": 274,
+      "top": 2271,
+      "right": 1025,
+      "bottom": 2315,
+      "width": 751,
+      "height": 44,
+      "confidence": 96.324,
+      "text": "Du doch bist! Fur alle, die es noch"
+    },
+    {
+      "id": "l062",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        2236,
+        2307,
+        2879,
+        2344
+      ],
+      "left": 2236,
+      "top": 2307,
+      "right": 2879,
+      "bottom": 2344,
+      "width": 643,
+      "height": 37,
+      "confidence": 92.594,
+      "text": "Newcomer bietet aber keinen"
+    },
+    {
+      "id": "l063",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        273,
+        2337,
+        1004,
+        2383
+      ],
+      "left": 273,
+      "top": 2337,
+      "right": 1004,
+      "bottom": 2383,
+      "width": 731,
+      "height": 46,
+      "confidence": 94.853,
+      "text": "nicht gemerkt haben, wir leben in"
+    },
+    {
+      "id": "l064",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        2236,
+        2370,
+        3077,
+        2413
+      ],
+      "left": 2236,
+      "top": 2370,
+      "right": 3077,
+      "bottom": 2413,
+      "width": 841,
+      "height": 43,
+      "confidence": 93.353,
+      "text": "konventionellen Audiostream, sondern"
+    },
+    {
+      "id": "l065",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        271,
+        2400,
+        954,
+        2437
+      ],
+      "left": 271,
+      "top": 2400,
+      "right": 954,
+      "bottom": 2437,
+      "width": 683,
+      "height": 37,
+      "confidence": 93.937,
+      "text": "einer tollen Stadt! Ist Euch mal"
+    },
+    {
+      "id": "l066",
+      "blockNumber": 22,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1291,
+        2405,
+        1328,
+        2458
+      ],
+      "left": 1291,
+      "top": 2405,
+      "right": 1328,
+      "bottom": 2458,
+      "width": 37,
+      "height": 53,
+      "confidence": 52.322,
+      "text": "\\"
+    },
+    {
+      "id": "l067",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        2233,
+        2433,
+        3013,
+        2481
+      ],
+      "left": 2233,
+      "top": 2433,
+      "right": 3013,
+      "bottom": 2481,
+      "width": 780,
+      "height": 48,
+      "confidence": 93.386,
+      "text": "zeigt fast taglich Live-Videostreams"
+    },
+    {
+      "id": "l068",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        271,
+        2463,
+        964,
+        2509
+      ],
+      "left": 271,
+      "top": 2463,
+      "right": 964,
+      "bottom": 2509,
+      "width": 693,
+      "height": 46,
+      "confidence": 95.951,
+      "text": "aufgefallen, wie billig es hier im"
+    },
+    {
+      "id": "l069",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        2234,
+        2498,
+        3027,
+        2534
+      ],
+      "left": 2234,
+      "top": 2498,
+      "right": 3027,
+      "bottom": 2534,
+      "width": 793,
+      "height": 36,
+      "confidence": 95.208,
+      "text": "aus dem Moskauer Studio oder aus"
+    },
+    {
+      "id": "l070",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        270,
+        2525,
+        1039,
+        2572
+      ],
+      "left": 270,
+      "top": 2525,
+      "right": 1039,
+      "bottom": 2572,
+      "width": 769,
+      "height": 47,
+      "confidence": 93.886,
+      "text": "Vergleich zu anderen europaischen"
+    },
+    {
+      "id": "l071",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 10,
+      "bbox": [
+        2235,
+        2560,
+        2936,
+        2597
+      ],
+      "left": 2235,
+      "top": 2560,
+      "right": 2936,
+      "bottom": 2597,
+      "width": 701,
+      "height": 37,
+      "confidence": 93.326,
+      "text": "befreundeten Clubs. Neben den"
+    },
+    {
+      "id": "l072",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        274,
+        2590,
+        1026,
+        2635
+      ],
+      "left": 274,
+      "top": 2590,
+      "right": 1026,
+      "bottom": 2635,
+      "width": 752,
+      "height": 45,
+      "confidence": 86.891,
+      "text": "Hauptstadten ist? Wir kKOnnen uns"
+    },
+    {
+      "id": "l073",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 11,
+      "bbox": [
+        2233,
+        2624,
+        3009,
+        2660
+      ],
+      "left": 2233,
+      "top": 2624,
+      "right": 3009,
+      "bottom": 2660,
+      "width": 776,
+      "height": 36,
+      "confidence": 93.051,
+      "text": "vielen russischen Resident-DJs wie"
+    },
+    {
+      "id": "l074",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        273,
+        2652,
+        1056,
+        2696
+      ],
+      "left": 273,
+      "top": 2652,
+      "right": 1056,
+      "bottom": 2696,
+      "width": 783,
+      "height": 44,
+      "confidence": 76.972,
+      "text": "blodd konsumieren, kreativ ausleben"
+    },
+    {
+      "id": "l075",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 12,
+      "bbox": [
+        2233,
+        2688,
+        3020,
+        2731
+      ],
+      "left": 2233,
+      "top": 2688,
+      "right": 3020,
+      "bottom": 2731,
+      "width": 787,
+      "height": 43,
+      "confidence": 93.241,
+      "text": "Amesh, bvoice oder Anrilov, die sich"
+    },
+    {
+      "id": "l076",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        273,
+        2717,
+        1028,
+        2762
+      ],
+      "left": 273,
+      "top": 2717,
+      "right": 1028,
+      "bottom": 2762,
+      "width": 755,
+      "height": 45,
+      "confidence": 91.49,
+      "text": "und krass austoben! Zum Beispiel"
+    },
+    {
+      "id": "l077",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 13,
+      "bbox": [
+        2234,
+        2751,
+        3006,
+        2796
+      ],
+      "left": 2234,
+      "top": 2751,
+      "right": 3006,
+      "bottom": 2796,
+      "width": 772,
+      "height": 45,
+      "confidence": 93.15,
+      "text": "auch hierzulande durch Deepmix in"
+    },
+    {
+      "id": "l078",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 10,
+      "bbox": [
+        273,
+        2780,
+        1114,
+        2824
+      ],
+      "left": 273,
+      "top": 2780,
+      "right": 1114,
+      "bottom": 2824,
+      "width": 841,
+      "height": 44,
+      "confidence": 93.545,
+      "text": "habe ich es vermisst, bunte Wande zu"
+    },
+    {
+      "id": "l079",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 14,
+      "bbox": [
+        2234,
+        2814,
+        2954,
+        2851
+      ],
+      "left": 2234,
+      "top": 2814,
+      "right": 2954,
+      "bottom": 2851,
+      "width": 720,
+      "height": 37,
+      "confidence": 94.99,
+      "text": "der Szene einen Namen machen"
+    },
+    {
+      "id": "l080",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 11,
+      "bbox": [
+        273,
+        2844,
+        1087,
+        2881
+      ],
+      "left": 273,
+      "top": 2844,
+      "right": 1087,
+      "bottom": 2881,
+      "width": 814,
+      "height": 37,
+      "confidence": 96.096,
+      "text": "lesen und mit Freunden zu Techno zu"
+    },
+    {
+      "id": "l081",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 15,
+      "bbox": [
+        2236,
+        2877,
+        2990,
+        2923
+      ],
+      "left": 2236,
+      "top": 2877,
+      "right": 2990,
+      "bottom": 2923,
+      "width": 754,
+      "height": 46,
+      "confidence": 94.66,
+      "text": "konnten, zeigen auch international"
+    },
+    {
+      "id": "l082",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 12,
+      "bbox": [
+        270,
+        2907,
+        1089,
+        2944
+      ],
+      "left": 270,
+      "top": 2907,
+      "right": 1089,
+      "bottom": 2944,
+      "width": 819,
+      "height": 37,
+      "confidence": 93.999,
+      "text": "tanzen... andere vielleicht die Mauer."
+    },
+    {
+      "id": "l083",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 16,
+      "bbox": [
+        2235,
+        2940,
+        2944,
+        2988
+      ],
+      "left": 2235,
+      "top": 2940,
+      "right": 2944,
+      "bottom": 2988,
+      "width": 709,
+      "height": 48,
+      "confidence": 83.24,
+      "text": "bekannte Gro8en wie Minilogue,"
+    },
+    {
+      "id": "l084",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 13,
+      "bbox": [
+        274,
+        2970,
+        1056,
+        3013
+      ],
+      "left": 274,
+      "top": 2970,
+      "right": 1056,
+      "bottom": 3013,
+      "width": 782,
+      "height": 43,
+      "confidence": 95.195,
+      "text": "Ich will einfach nur loswerden, dass"
+    },
+    {
+      "id": "l085",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 17,
+      "bbox": [
+        1739,
+        3005,
+        2932,
+        3060
+      ],
+      "left": 1739,
+      "top": 3005,
+      "right": 2932,
+      "bottom": 3060,
+      "width": 1193,
+      "height": 55,
+      "confidence": 85.488,
+      "text": "‘ / John Tejada oder Radioslave ihr"
+    },
+    {
+      "id": "l086",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 14,
+      "bbox": [
+        271,
+        3034,
+        1038,
+        3071
+      ],
+      "left": 271,
+      "top": 3034,
+      "right": 1038,
+      "bottom": 3071,
+      "width": 767,
+      "height": 37,
+      "confidence": 95.096,
+      "text": "es mir wahrend meiner Reise noch"
+    },
+    {
+      "id": "l087",
+      "blockNumber": 20,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1944,
+        3056,
+        2985,
+        3104
+      ],
+      "left": 1944,
+      "top": 3056,
+      "right": 2985,
+      "bottom": 3104,
+      "width": 1041,
+      "height": 48,
+      "confidence": 88.358,
+      "text": "y Konnen. Dass sich die Kunstler in"
+    },
+    {
+      "id": "l088",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 15,
+      "bbox": [
+        273,
+        3098,
+        1091,
+        3144
+      ],
+      "left": 273,
+      "top": 3098,
+      "right": 1091,
+      "bottom": 3144,
+      "width": 818,
+      "height": 46,
+      "confidence": 95.236,
+      "text": "bewusster geworden ist, wie frei man"
+    },
+    {
+      "id": "l089",
+      "blockNumber": 20,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        2234,
+        3132,
+        3036,
+        3169
+      ],
+      "left": 2234,
+      "top": 3132,
+      "right": 3036,
+      "bottom": 3169,
+      "width": 802,
+      "height": 37,
+      "confidence": 94.095,
+      "text": "einer kurzen Videobotschaft und auf"
+    },
+    {
+      "id": "l090",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 16,
+      "bbox": [
+        273,
+        3161,
+        986,
+        3207
+      ],
+      "left": 273,
+      "top": 3161,
+      "right": 986,
+      "bottom": 3207,
+      "width": 713,
+      "height": 46,
+      "confidence": 94.606,
+      "text": "hier sein kann. Fast grenzenlose"
+    },
+    {
+      "id": "l091",
+      "blockNumber": 20,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        2234,
+        3195,
+        2961,
+        3241
+      ],
+      "left": 2234,
+      "top": 3195,
+      "right": 2961,
+      "bottom": 3241,
+      "width": 727,
+      "height": 46,
+      "confidence": 92.065,
+      "text": "eigenen Profilseiten mit Biografie"
+    },
+    {
+      "id": "l092",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 17,
+      "bbox": [
+        273,
+        3223,
+        1021,
+        3270
+      ],
+      "left": 273,
+      "top": 3223,
+      "right": 1021,
+      "bottom": 3270,
+      "width": 748,
+      "height": 47,
+      "confidence": 93.648,
+      "text": "Moglichkeiten und wir sollten dies"
+    },
+    {
+      "id": "l093",
+      "blockNumber": 20,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        2236,
+        3257,
+        2920,
+        3301
+      ],
+      "left": 2236,
+      "top": 3257,
+      "right": 2920,
+      "bottom": 3301,
+      "width": 684,
+      "height": 44,
+      "confidence": 93.925,
+      "text": "und Fotos vorstellen durfen, ist"
+    },
+    {
+      "id": "l094",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 18,
+      "bbox": [
+        272,
+        3287,
+        936,
+        3331
+      ],
+      "left": 272,
+      "top": 3287,
+      "right": 936,
+      "bottom": 3331,
+      "width": 664,
+      "height": 44,
+      "confidence": 95.581,
+      "text": "schatzen, denn wenn wir nicht"
+    },
+    {
+      "id": "l095",
+      "blockNumber": 20,
+      "paragraphNumber": 4,
+      "lineNumber": 3,
+      "bbox": [
+        2234,
+        3321,
+        2990,
+        3358
+      ],
+      "left": 2234,
+      "top": 3321,
+      "right": 2990,
+      "bottom": 3358,
+      "width": 756,
+      "height": 37,
+      "confidence": 94.049,
+      "text": "ein echt nettes Sahnebonbon. Die"
+    },
+    {
+      "id": "l096",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 19,
+      "bbox": [
+        271,
+        3351,
+        1052,
+        3397
+      ],
+      "left": 271,
+      "top": 3351,
+      "right": 1052,
+      "bottom": 3397,
+      "width": 781,
+      "height": 46,
+      "confidence": 93.55,
+      "text": "aufpassen, geht in unserem Sumpf"
+    },
+    {
+      "id": "l097",
+      "blockNumber": 20,
+      "paragraphNumber": 4,
+      "lineNumber": 4,
+      "bbox": [
+        2233,
+        3384,
+        3003,
+        3432
+      ],
+      "left": 2233,
+      "top": 3384,
+      "right": 3003,
+      "bottom": 3432,
+      "width": 770,
+      "height": 48,
+      "confidence": 84.949,
+      "text": "Aufzeichnungen der Shows konnen"
+    },
+    {
+      "id": "l098",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 20,
+      "bbox": [
+        271,
+        3413,
+        1040,
+        3460
+      ],
+      "left": 271,
+      "top": 3413,
+      "right": 1040,
+      "bottom": 3460,
+      "width": 769,
+      "height": 47,
+      "confidence": 92.716,
+      "text": "einiges schief. Die Stadt verandert"
+    },
+    {
+      "id": "l099",
+      "blockNumber": 20,
+      "paragraphNumber": 4,
+      "lineNumber": 5,
+      "bbox": [
+        2235,
+        3447,
+        3058,
+        3495
+      ],
+      "left": 2235,
+      "top": 3447,
+      "right": 3058,
+      "bottom": 3495,
+      "width": 823,
+      "height": 48,
+      "confidence": 93.352,
+      "text": "sich registrierte User auf der ganzlich"
+    },
+    {
+      "id": "l100",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 21,
+      "bbox": [
+        272,
+        3479,
+        1099,
+        3521
+      ],
+      "left": 272,
+      "top": 3479,
+      "right": 1099,
+      "bottom": 3521,
+      "width": 827,
+      "height": 42,
+      "confidence": 96.241,
+      "text": "sich immer mehr durch ihren Verkauf,"
+    },
+    {
+      "id": "l101",
+      "blockNumber": 20,
+      "paragraphNumber": 4,
+      "lineNumber": 6,
+      "bbox": [
+        2236,
+        3512,
+        2888,
+        3558
+      ],
+      "left": 2236,
+      "top": 3512,
+      "right": 2888,
+      "bottom": 3558,
+      "width": 652,
+      "height": 46,
+      "confidence": 94.594,
+      "text": "in Flash gestalteten Webseite"
+    },
+    {
+      "id": "l102",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 22,
+      "bbox": [
+        270,
+        3542,
+        1027,
+        3588
+      ],
+      "left": 270,
+      "top": 3542,
+      "right": 1027,
+      "bottom": 3588,
+      "width": 757,
+      "height": 46,
+      "confidence": 96.465,
+      "text": "weil die auch merken, wie geil und"
+    },
+    {
+      "id": "l103",
+      "blockNumber": 20,
+      "paragraphNumber": 4,
+      "lineNumber": 7,
+      "bbox": [
+        2228,
+        3575,
+        3013,
+        3620
+      ],
+      "left": 2228,
+      "top": 3575,
+      "right": 3013,
+      "bottom": 3620,
+      "width": 785,
+      "height": 45,
+      "confidence": 93.195,
+      "text": "jederzeit anschauen. Jedoch ist zur"
+    },
+    {
+      "id": "l104",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 23,
+      "bbox": [
+        273,
+        3605,
+        970,
+        3650
+      ],
+      "left": 273,
+      "top": 3605,
+      "right": 970,
+      "bottom": 3650,
+      "width": 697,
+      "height": 45,
+      "confidence": 95.568,
+      "text": "profitabel Berlin ist! Ich bin kein"
+    },
+    {
+      "id": "l105",
+      "blockNumber": 20,
+      "paragraphNumber": 4,
+      "lineNumber": 8,
+      "bbox": [
+        2236,
+        3638,
+        3001,
+        3685
+      ],
+      "left": 2236,
+      "top": 3638,
+      "right": 3001,
+      "bottom": 3685,
+      "width": 765,
+      "height": 47,
+      "confidence": 92.081,
+      "text": "Registrierung eine Einladung notig,"
+    },
+    {
+      "id": "l106",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 24,
+      "bbox": [
+        272,
+        3667,
+        1101,
+        3714
+      ],
+      "left": 272,
+      "top": 3667,
+      "right": 1101,
+      "bottom": 3714,
+      "width": 829,
+      "height": 47,
+      "confidence": 90.95,
+      "text": "schwarzer Maskentrager mit geballter"
+    },
+    {
+      "id": "l107",
+      "blockNumber": 20,
+      "paragraphNumber": 4,
+      "lineNumber": 9,
+      "bbox": [
+        2234,
+        3702,
+        3025,
+        3739
+      ],
+      "left": 2234,
+      "top": 3702,
+      "right": 3025,
+      "bottom": 3739,
+      "width": 791,
+      "height": 37,
+      "confidence": 93.568,
+      "text": "die wiederum mit einer freundlichen"
+    },
+    {
+      "id": "l108",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 25,
+      "bbox": [
+        274,
+        3732,
+        930,
+        3774
+      ],
+      "left": 274,
+      "top": 3732,
+      "right": 930,
+      "bottom": 3774,
+      "width": 656,
+      "height": 42,
+      "confidence": 94.429,
+      "text": "Faust, aber wir sollten einfach"
+    },
+    {
+      "id": "l109",
+      "blockNumber": 20,
+      "paragraphNumber": 4,
+      "lineNumber": 10,
+      "bbox": [
+        2237,
+        3765,
+        2760,
+        3802
+      ],
+      "left": 2237,
+      "top": 3765,
+      "right": 2760,
+      "bottom": 3802,
+      "width": 523,
+      "height": 37,
+      "confidence": 94.162,
+      "text": "Email zu bekommen ist."
+    },
+    {
+      "id": "l110",
+      "blockNumber": 5,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        271,
+        3795,
+        959,
+        3832
+      ],
+      "left": 271,
+      "top": 3795,
+      "right": 959,
+      "bottom": 3832,
+      "width": 688,
+      "height": 37,
+      "confidence": 95.304,
+      "text": "ab und zu aus unserem Exzess"
+    },
+    {
+      "id": "l111",
+      "blockNumber": 5,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        3849,
+        978,
+        3895
+      ],
+      "left": 273,
+      "top": 3849,
+      "right": 978,
+      "bottom": 3895,
+      "width": 705,
+      "height": 46,
+      "confidence": 92.615,
+      "text": "und Uberschuss aufwachen und"
+    },
+    {
+      "id": "l112",
+      "blockNumber": 5,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        270,
+        3921,
+        1078,
+        3966
+      ],
+      "left": 270,
+      "top": 3921,
+      "right": 1078,
+      "bottom": 3966,
+      "width": 808,
+      "height": 45,
+      "confidence": 94.605,
+      "text": "verhindern, dass wir wie jede andere"
+    },
+    {
+      "id": "l113",
+      "blockNumber": 5,
+      "paragraphNumber": 3,
+      "lineNumber": 3,
+      "bbox": [
+        272,
+        3985,
+        1077,
+        4022
+      ],
+      "left": 272,
+      "top": 3985,
+      "right": 1077,
+      "bottom": 4022,
+      "width": 805,
+      "height": 37,
+      "confidence": 94.657,
+      "text": "Stadt werden. Wir sind verwohnt. Ich"
+    },
+    {
+      "id": "l114",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2797,
+        3989,
+        3081,
+        4025
+      ],
+      "left": 2797,
+      "top": 3989,
+      "right": 3081,
+      "bottom": 4025,
+      "width": 284,
+      "height": 36,
+      "confidence": 92.83,
+      "text": "Text Cotumo"
+    },
+    {
+      "id": "l115",
+      "blockNumber": 25,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2238,
+        3996,
+        2688,
+        4041
+      ],
+      "left": 2238,
+      "top": 3996,
+      "right": 2688,
+      "bottom": 4041,
+      "width": 450,
+      "height": 45,
+      "confidence": 91.666,
+      "text": "www.bar25.de/radio"
+    },
+    {
+      "id": "l116",
+      "blockNumber": 5,
+      "paragraphNumber": 3,
+      "lineNumber": 4,
+      "bbox": [
+        273,
+        4049,
+        456,
+        4085
+      ],
+      "left": 273,
+      "top": 4049,
+      "right": 456,
+      "bottom": 4085,
+      "width": 183,
+      "height": 36,
+      "confidence": 95.363,
+      "text": "liebe es!"
+    },
+    {
+      "id": "l117",
+      "blockNumber": 25,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2209,
+        4050,
+        3007,
+        4071
+      ],
+      "left": 2209,
+      "top": 4050,
+      "right": 3007,
+      "bottom": 4071,
+      "width": 798,
+      "height": 21,
+      "confidence": 54.658,
+      "text": "| . A"
+    },
+    {
+      "id": "l118",
+      "blockNumber": 26,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2176,
+        4078,
+        2604,
+        4156
+      ],
+      "left": 2176,
+      "top": 4078,
+      "right": 2604,
+      "bottom": 4156,
+      "width": 428,
+      "height": 78,
+      "confidence": 77.808,
+      "text": "i | www.deepmix.eu"
+    },
+    {
+      "id": "l119",
+      "blockNumber": 30,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2173,
+        4173,
+        2480,
+        4252
+      ],
+      "left": 2173,
+      "top": 4173,
+      "right": 2480,
+      "bottom": 4252,
+      "width": 307,
+      "height": 79,
+      "confidence": 56.276,
+      "text": "x www.rts.fm"
+    },
+    {
+      "id": "l120",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        756,
+        4181,
+        1116,
+        4217
+      ],
+      "left": 756,
+      "top": 4181,
+      "right": 1116,
+      "bottom": 4217,
+      "width": 360,
+      "height": 36,
+      "confidence": 95.878,
+      "text": "Text Ron Wilson"
+    },
+    {
+      "id": "l121",
+      "blockNumber": 29,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2510,
+        4239,
+        2533,
+        4246
+      ],
+      "left": 2510,
+      "top": 4239,
+      "right": 2533,
+      "bottom": 4246,
+      "width": 23,
+      "height": 7,
+      "confidence": 94.296,
+      "text": "="
+    },
+    {
+      "id": "l122",
+      "blockNumber": 27,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2719,
+        4282,
+        2757,
+        4355
+      ],
+      "left": 2719,
+      "top": 4282,
+      "right": 2757,
+      "bottom": 4355,
+      "width": 38,
+      "height": 73,
+      "confidence": 40.201,
+      "text": "rs"
+    },
+    {
+      "id": "l123",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        605,
+        4294,
+        716,
+        4410
+      ],
+      "left": 605,
+      "top": 4294,
+      "right": 716,
+      "bottom": 4410,
+      "width": 111,
+      "height": 116,
+      "confidence": 61.168,
+      "text": "&"
+    },
+    {
+      "id": "l124",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        827,
+        4302,
+        997,
+        4494
+      ],
+      "left": 827,
+      "top": 4302,
+      "right": 997,
+      "bottom": 4494,
+      "width": 170,
+      "height": 192,
+      "confidence": 34.179,
+      "text": "Ri"
+    },
+    {
+      "id": "l125",
+      "blockNumber": 28,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2534,
+        4344,
+        2548,
+        4356
+      ],
+      "left": 2534,
+      "top": 4344,
+      "right": 2548,
+      "bottom": 4356,
+      "width": 14,
+      "height": 12,
+      "confidence": 37.237,
+      "text": "Fal"
+    },
+    {
+      "id": "l126",
+      "blockNumber": 31,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2355,
+        4359,
+        2388,
+        4372
+      ],
+      "left": 2355,
+      "top": 4359,
+      "right": 2388,
+      "bottom": 4372,
+      "width": 33,
+      "height": 13,
+      "confidence": 34.426,
+      "text": "a"
+    },
+    {
+      "id": "l127",
+      "blockNumber": 32,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2671,
+        4372,
+        2709,
+        4407
+      ],
+      "left": 2671,
+      "top": 4372,
+      "right": 2709,
+      "bottom": 4407,
+      "width": 38,
+      "height": 35,
+      "confidence": 57.003,
+      "text": "My,"
+    },
+    {
+      "id": "l128",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        523,
+        4416,
+        783,
+        4494
+      ],
+      "left": 523,
+      "top": 4416,
+      "right": 783,
+      "bottom": 4494,
+      "width": 260,
+      "height": 78,
+      "confidence": 53.982,
+      "text": "a a"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Online Newsletter",
+  "summary": "This article is about the proudmagazine.de newsletter to keep up to date on parties.",
+  "blocks": [
+    {
+      "pageNumber": 31,
+      "spreadPages": [
+        30,
+        31
+      ],
+      "sectionIds": [
+        "p031s15"
+      ],
+      "titles": [
+        "online newsletter:"
+      ],
+      "markdown": "## online newsletter:\n\nNach wie vor keine Party die euch zusagt?\n\nBleibt up to date mit unserem regulären Newsletter auf www.proudmagazine.de",
+      "text": "online newsletter:\nNach wie vor keine Party die euch zusagt?\nBleibt up to date mit unserem regulären Newsletter auf www.proudmagazine.de",
+      "pageImage": null
+    }
+  ]
+}

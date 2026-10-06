@@ -1,0 +1,467 @@
+{
+  "scale": 2.0,
+  "imageWidth": 4478,
+  "imageHeight": 3002,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        78,
+        60,
+        206,
+        100
+      ],
+      "left": 78,
+      "top": 60,
+      "right": 206,
+      "bottom": 100,
+      "width": 128,
+      "height": 40,
+      "confidence": 96.86,
+      "text": "shoot"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        4271,
+        60,
+        4399,
+        100
+      ],
+      "left": 4271,
+      "top": 60,
+      "right": 4399,
+      "bottom": 100,
+      "width": 128,
+      "height": 40,
+      "confidence": 96.892,
+      "text": "shoot"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        653,
+        301,
+        755,
+        326
+      ],
+      "left": 653,
+      "top": 301,
+      "right": 755,
+      "bottom": 326,
+      "width": 102,
+      "height": 25,
+      "confidence": 95.452,
+      "text": "Model:"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        532,
+        343,
+        754,
+        368
+      ],
+      "left": 532,
+      "top": 343,
+      "right": 754,
+      "bottom": 368,
+      "width": 222,
+      "height": 25,
+      "confidence": 95.398,
+      "text": "Susanna Maria"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        652,
+        387,
+        754,
+        412
+      ],
+      "left": 652,
+      "top": 387,
+      "right": 754,
+      "bottom": 412,
+      "width": 102,
+      "height": 25,
+      "confidence": 96.609,
+      "text": "Gabriel"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        641,
+        471,
+        754,
+        502
+      ],
+      "left": 641,
+      "top": 471,
+      "right": 754,
+      "bottom": 502,
+      "width": 113,
+      "height": 31,
+      "confidence": 96.22,
+      "text": "Styling:"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        618,
+        513,
+        754,
+        538
+      ],
+      "left": 618,
+      "top": 513,
+      "right": 754,
+      "bottom": 538,
+      "width": 136,
+      "height": 25,
+      "confidence": 96.195,
+      "text": "Ava Chau"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        487,
+        598,
+        754,
+        629
+      ],
+      "left": 487,
+      "top": 598,
+      "right": 754,
+      "bottom": 629,
+      "width": 267,
+      "height": 31,
+      "confidence": 92.443,
+      "text": "Styling Assistent:"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        578,
+        640,
+        756,
+        672
+      ],
+      "left": 578,
+      "top": 640,
+      "right": 756,
+      "bottom": 672,
+      "width": 178,
+      "height": 32,
+      "confidence": 96.191,
+      "text": "Emilie Wong"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        640,
+        894,
+        754,
+        919
+      ],
+      "left": 640,
+      "top": 894,
+      "right": 754,
+      "bottom": 919,
+      "width": 114,
+      "height": 25,
+      "confidence": 96.612,
+      "text": "Gabriel:"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        522,
+        937,
+        756,
+        968
+      ],
+      "left": 522,
+      "top": 937,
+      "right": 756,
+      "bottom": 968,
+      "width": 234,
+      "height": 31,
+      "confidence": 96.41,
+      "text": "T-Shirt, Bad Boy"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        528,
+        979,
+        755,
+        1008
+      ],
+      "left": 528,
+      "top": 979,
+      "right": 755,
+      "bottom": 1008,
+      "width": 227,
+      "height": 29,
+      "confidence": 96.916,
+      "text": "Schuhe, Adidas"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        626,
+        1063,
+        755,
+        1088
+      ],
+      "left": 626,
+      "top": 1063,
+      "right": 755,
+      "bottom": 1088,
+      "width": 129,
+      "height": 25,
+      "confidence": 96.787,
+      "text": "Susanna"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 7,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        329,
+        1107,
+        754,
+        1136
+      ],
+      "left": 329,
+      "top": 1107,
+      "right": 754,
+      "bottom": 1136,
+      "width": 425,
+      "height": 29,
+      "confidence": 85.955,
+      "text": "Weifses T-Shirt, malibu Korea"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 7,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        319,
+        1149,
+        756,
+        1180
+      ],
+      "left": 319,
+      "top": 1149,
+      "right": 756,
+      "bottom": 1180,
+      "width": 437,
+      "height": 31,
+      "confidence": 93.017,
+      "text": "Blauer Minirock, development"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 7,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        436,
+        1191,
+        754,
+        1216
+      ],
+      "left": 436,
+      "top": 1191,
+      "right": 754,
+      "bottom": 1216,
+      "width": 318,
+      "height": 25,
+      "confidence": 96.505,
+      "text": "Accessories von Oma"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 7,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        478,
+        1233,
+        755,
+        1262
+      ],
+      "left": 478,
+      "top": 1233,
+      "right": 755,
+      "bottom": 1262,
+      "width": 277,
+      "height": 29,
+      "confidence": 88.682,
+      "text": "Haarreif, OAKLAND"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 7,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        322,
+        1276,
+        754,
+        1308
+      ],
+      "left": 322,
+      "top": 1276,
+      "right": 754,
+      "bottom": 1308,
+      "width": 432,
+      "height": 32,
+      "confidence": 92.572,
+      "text": "Pinkes & gelbes T-Shirt, ec4u"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 7,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        327,
+        1318,
+        754,
+        1350
+      ],
+      "left": 327,
+      "top": 1318,
+      "right": 754,
+      "bottom": 1350,
+      "width": 427,
+      "height": 32,
+      "confidence": 95.102,
+      "text": "Neongelbe Leggings, Hudson"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 7,
+      "paragraphNumber": 4,
+      "lineNumber": 3,
+      "bbox": [
+        396,
+        1360,
+        754,
+        1392
+      ],
+      "left": 396,
+      "top": 1360,
+      "right": 754,
+      "bottom": 1392,
+      "width": 358,
+      "height": 32,
+      "confidence": 92.416,
+      "text": "Blaue Leggings, Esquirol"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 7,
+      "paragraphNumber": 5,
+      "lineNumber": 1,
+      "bbox": [
+        298,
+        1402,
+        754,
+        1431
+      ],
+      "left": 298,
+      "top": 1402,
+      "right": 754,
+      "bottom": 1431,
+      "width": 456,
+      "height": 29,
+      "confidence": 94.632,
+      "text": "Rock & Schaal, Roberto Cavalli"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        4277,
+        2918,
+        4405,
+        2963
+      ],
+      "left": 4277,
+      "top": 2918,
+      "right": 4405,
+      "bottom": 2963,
+      "width": 128,
+      "height": 45,
+      "confidence": 93.147,
+      "text": "proud 55"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        78,
+        2922,
+        202,
+        2959
+      ],
+      "left": 78,
+      "top": 2922,
+      "right": 202,
+      "bottom": 2959,
+      "width": 124,
+      "height": 37,
+      "confidence": 96.67,
+      "text": "54 proud"
+    }
+  ]
+}

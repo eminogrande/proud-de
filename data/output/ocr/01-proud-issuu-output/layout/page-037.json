@@ -1,0 +1,1547 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2234,
+        259,
+        3068,
+        304
+      ],
+      "left": 2234,
+      "top": 259,
+      "right": 3068,
+      "bottom": 304,
+      "width": 834,
+      "height": 45,
+      "confidence": 95.389,
+      "text": "Gab es ein besonderes Event, an das"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2235,
+        324,
+        2784,
+        369
+      ],
+      "left": 2235,
+      "top": 324,
+      "right": 2784,
+      "bottom": 369,
+      "width": 549,
+      "height": 45,
+      "confidence": 89.315,
+      "text": "Ihr Euch gerne erinnert?"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2237,
+        387,
+        3009,
+        433
+      ],
+      "left": 2237,
+      "top": 387,
+      "right": 3009,
+      "bottom": 433,
+      "width": 772,
+      "height": 46,
+      "confidence": 95.291,
+      "text": "Da gibt es einige, besonders unser"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2233,
+        450,
+        3110,
+        504
+      ],
+      "left": 2233,
+      "top": 450,
+      "right": 3110,
+      "bottom": 504,
+      "width": 877,
+      "height": 54,
+      "confidence": 89.532,
+      "text": "Auftakt am 30. April im Ritter Butzke. |"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2237,
+        506,
+        3125,
+        550
+      ],
+      "left": 2237,
+      "top": 506,
+      "right": 3125,
+      "bottom": 550,
+      "width": 888,
+      "height": 44,
+      "confidence": 81.888,
+      "text": "Es kamen Uber 1000 Gaste zu 4"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        2236,
+        578,
+        3048,
+        614
+      ],
+      "left": 2236,
+      "top": 578,
+      "right": 3048,
+      "bottom": 614,
+      "width": 812,
+      "height": 36,
+      "confidence": 95.86,
+      "text": "unserem ersten Event. Und am Ende"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        2233,
+        639,
+        2953,
+        677
+      ],
+      "left": 2233,
+      "top": 639,
+      "right": 2953,
+      "bottom": 677,
+      "width": 720,
+      "height": 38,
+      "confidence": 95.09,
+      "text": "waren vom Clubbesitzer Uber die"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        2237,
+        702,
+        3034,
+        750
+      ],
+      "left": 2237,
+      "top": 702,
+      "right": 3034,
+      "bottom": 750,
+      "width": 797,
+      "height": 48,
+      "confidence": 94.245,
+      "text": "Kunstler bis zum Gast alle glucklich."
+    },
+    {
+      "id": "l009",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1609,
+        784,
+        1896,
+        817
+      ],
+      "left": 1609,
+      "top": 784,
+      "right": 1896,
+      "bottom": 817,
+      "width": 287,
+      "height": 33,
+      "confidence": 55.844,
+      "text": "rey ss =."
+    },
+    {
+      "id": "l010",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1598,
+        825,
+        3020,
+        884
+      ],
+      "left": 1598,
+      "top": 825,
+      "right": 3020,
+      "bottom": 884,
+      "width": 1422,
+      "height": 59,
+      "confidence": 84.253,
+      "text": "mitreiBend 7% Was sind Eure Ambitionen bei dem"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1593,
+        888,
+        2851,
+        945
+      ],
+      "left": 1593,
+      "top": 888,
+      "right": 2851,
+      "bottom": 945,
+      "width": 1258,
+      "height": 57,
+      "confidence": 69.239,
+      "text": "J =e Veranstalten eines Events?"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 6,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        2237,
+        956,
+        2903,
+        1003
+      ],
+      "left": 2237,
+      "top": 956,
+      "right": 2903,
+      "bottom": 1003,
+      "width": 666,
+      "height": 47,
+      "confidence": 89.791,
+      "text": "Unsere Events sind wichtig fir"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 6,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        2234,
+        1022,
+        2840,
+        1058
+      ],
+      "left": 2234,
+      "top": 1022,
+      "right": 2840,
+      "bottom": 1058,
+      "width": 606,
+      "height": 36,
+      "confidence": 96.368,
+      "text": "die Kommunikation mit den"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 6,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        2236,
+        1085,
+        2901,
+        1121
+      ],
+      "left": 2236,
+      "top": 1085,
+      "right": 2901,
+      "bottom": 1121,
+      "width": 665,
+      "height": 36,
+      "confidence": 92.478,
+      "text": "musikinteressierten Berlinern."
+    },
+    {
+      "id": "l015",
+      "blockNumber": 6,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        2235,
+        1146,
+        2853,
+        1190
+      ],
+      "left": 2235,
+      "top": 1146,
+      "right": 2853,
+      "bottom": 1190,
+      "width": 618,
+      "height": 44,
+      "confidence": 95.182,
+      "text": "Ganz zentral ist fur uns, den"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 6,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        2233,
+        1211,
+        3043,
+        1257
+      ],
+      "left": 2233,
+      "top": 1211,
+      "right": 3043,
+      "bottom": 1257,
+      "width": 810,
+      "height": 46,
+      "confidence": 95.163,
+      "text": "Veranstaltungsort durch Licht, Musik"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 6,
+      "paragraphNumber": 4,
+      "lineNumber": 3,
+      "bbox": [
+        2236,
+        1274,
+        3060,
+        1312
+      ],
+      "left": 2236,
+      "top": 1274,
+      "right": 3060,
+      "bottom": 1312,
+      "width": 824,
+      "height": 38,
+      "confidence": 93.53,
+      "text": "und Dekoration fur eine Nacht in eine"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2235,
+        1338,
+        2975,
+        1384
+      ],
+      "left": 2235,
+      "top": 1338,
+      "right": 2975,
+      "bottom": 1384,
+      "width": 740,
+      "height": 46,
+      "confidence": 91.671,
+      "text": "besondere Stimmung zu tauchen."
+    },
+    {
+      "id": "l019",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2233,
+        1464,
+        2921,
+        1509
+      ],
+      "left": 2233,
+      "top": 1464,
+      "right": 2921,
+      "bottom": 1509,
+      "width": 688,
+      "height": 45,
+      "confidence": 94.963,
+      "text": "Wer ist denn Eure Zielgruppe?"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        2233,
+        1529,
+        2915,
+        1575
+      ],
+      "left": 2233,
+      "top": 1529,
+      "right": 2915,
+      "bottom": 1575,
+      "width": 682,
+      "height": 46,
+      "confidence": 94.115,
+      "text": "Wir haben keine Zielgruppe als"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        2235,
+        1590,
+        3060,
+        1628
+      ],
+      "left": 2235,
+      "top": 1590,
+      "right": 3060,
+      "bottom": 1628,
+      "width": 825,
+      "height": 38,
+      "confidence": 94.972,
+      "text": "solche. Wir sind ein Verein fur urbane"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        2236,
+        1655,
+        3064,
+        1701
+      ],
+      "left": 2236,
+      "top": 1655,
+      "right": 3064,
+      "bottom": 1701,
+      "width": 828,
+      "height": 46,
+      "confidence": 93.99,
+      "text": "Musikkultur und wollen junge Berliner"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        2233,
+        1718,
+        2929,
+        1765
+      ],
+      "left": 2233,
+      "top": 1718,
+      "right": 2929,
+      "bottom": 1765,
+      "width": 696,
+      "height": 47,
+      "confidence": 93.911,
+      "text": "fur die digitale Musikproduktion"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        2235,
+        1781,
+        3004,
+        1828
+      ],
+      "left": 2235,
+      "top": 1781,
+      "right": 3004,
+      "bottom": 1828,
+      "width": 769,
+      "height": 47,
+      "confidence": 92.739,
+      "text": "begeistern. Daher ist grundsatzlich"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        2228,
+        1845,
+        2629,
+        1890
+      ],
+      "left": 2228,
+      "top": 1845,
+      "right": 2629,
+      "bottom": 1890,
+      "width": 401,
+      "height": 45,
+      "confidence": 96.252,
+      "text": "jeder willkommen."
+    },
+    {
+      "id": "l026",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2233,
+        1972,
+        3003,
+        2009
+      ],
+      "left": 2233,
+      "top": 1972,
+      "right": 3003,
+      "bottom": 2009,
+      "width": 770,
+      "height": 37,
+      "confidence": 93.369,
+      "text": "Was ist Euch bei der Prasentation"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2234,
+        2035,
+        2668,
+        2081
+      ],
+      "left": 2234,
+      "top": 2035,
+      "right": 2668,
+      "bottom": 2081,
+      "width": 434,
+      "height": 46,
+      "confidence": 94.0,
+      "text": "der Musik wichtig?"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 9,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        2233,
+        2099,
+        2975,
+        2145
+      ],
+      "left": 2233,
+      "top": 2099,
+      "right": 2975,
+      "bottom": 2145,
+      "width": 742,
+      "height": 46,
+      "confidence": 95.61,
+      "text": "Wichtig ist uns, dass es zwischen"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 9,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        2235,
+        2162,
+        3050,
+        2198
+      ],
+      "left": 2235,
+      "top": 2162,
+      "right": 3050,
+      "bottom": 2198,
+      "width": 815,
+      "height": 36,
+      "confidence": 93.22,
+      "text": "bekannteren und unbekannteren DJs"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 9,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        2236,
+        2225,
+        2850,
+        2272
+      ],
+      "left": 2236,
+      "top": 2225,
+      "right": 2850,
+      "bottom": 2272,
+      "width": 614,
+      "height": 47,
+      "confidence": 75.082,
+      "text": "und Liveacts eine mdglichst"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 9,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        2235,
+        2289,
+        2969,
+        2335
+      ],
+      "left": 2235,
+      "top": 2289,
+      "right": 2969,
+      "bottom": 2335,
+      "width": 734,
+      "height": 46,
+      "confidence": 93.861,
+      "text": "Schere gibt. Die Headliner ziehen"
+    },
+    {
+      "id": "l032",
+      "blockNumber": 9,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        2236,
+        2351,
+        3030,
+        2398
+      ],
+      "left": 2236,
+      "top": 2351,
+      "right": 3030,
+      "bottom": 2398,
+      "width": 794,
+      "height": 47,
+      "confidence": 92.451,
+      "text": "Musikbegeisterte an und so konnen"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 9,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        2233,
+        2414,
+        2947,
+        2452
+      ],
+      "left": 2233,
+      "top": 2414,
+      "right": 2947,
+      "bottom": 2452,
+      "width": 714,
+      "height": 38,
+      "confidence": 94.423,
+      "text": "wir den Nachwuchskunstlern die"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 9,
+      "paragraphNumber": 2,
+      "lineNumber": 7,
+      "bbox": [
+        2236,
+        2478,
+        3013,
+        2526
+      ],
+      "left": 2236,
+      "top": 2478,
+      "right": 3013,
+      "bottom": 2526,
+      "width": 777,
+      "height": 48,
+      "confidence": 92.87,
+      "text": "Moglichkeit bieten, Erfahrungen vor"
+    },
+    {
+      "id": "l035",
+      "blockNumber": 9,
+      "paragraphNumber": 2,
+      "lineNumber": 8,
+      "bbox": [
+        2234,
+        2543,
+        3051,
+        2579
+      ],
+      "left": 2234,
+      "top": 2543,
+      "right": 3051,
+      "bottom": 2579,
+      "width": 817,
+      "height": 36,
+      "confidence": 80.4,
+      "text": "einem Publikum zu sammeln."
+    },
+    {
+      "id": "l036",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2233,
+        2670,
+        2885,
+        2707
+      ],
+      "left": 2233,
+      "top": 2670,
+      "right": 2885,
+      "bottom": 2707,
+      "width": 652,
+      "height": 37,
+      "confidence": 93.914,
+      "text": "Was ist der Grundstein Eurer"
+    },
+    {
+      "id": "l037",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2233,
+        2733,
+        2629,
+        2778
+      ],
+      "left": 2233,
+      "top": 2733,
+      "right": 2629,
+      "bottom": 2778,
+      "width": 396,
+      "height": 45,
+      "confidence": 96.028,
+      "text": "Veranstaltungen?"
+    },
+    {
+      "id": "l038",
+      "blockNumber": 10,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        2237,
+        2795,
+        2995,
+        2841
+      ],
+      "left": 2237,
+      "top": 2795,
+      "right": 2995,
+      "bottom": 2841,
+      "width": 758,
+      "height": 46,
+      "confidence": 93.708,
+      "text": "Unsere Qualitat definiert sich Uber"
+    },
+    {
+      "id": "l039",
+      "blockNumber": 10,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        2234,
+        2859,
+        2934,
+        2905
+      ],
+      "left": 2234,
+      "top": 2859,
+      "right": 2934,
+      "bottom": 2905,
+      "width": 700,
+      "height": 46,
+      "confidence": 96.305,
+      "text": "drei Komponenten: Sound, gute"
+    },
+    {
+      "id": "l040",
+      "blockNumber": 10,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        2236,
+        2924,
+        3020,
+        2969
+      ],
+      "left": 2236,
+      "top": 2924,
+      "right": 3020,
+      "bottom": 2969,
+      "width": 784,
+      "height": 45,
+      "confidence": 95.276,
+      "text": "Musik und die Dekoration der Party."
+    },
+    {
+      "id": "l041",
+      "blockNumber": 10,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        2233,
+        2983,
+        2917,
+        3037
+      ],
+      "left": 2233,
+      "top": 2983,
+      "right": 2917,
+      "bottom": 3037,
+      "width": 684,
+      "height": 54,
+      "confidence": 95.216,
+      "text": "Wir sind proud darauf, dass bei"
+    },
+    {
+      "id": "l042",
+      "blockNumber": 10,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        2236,
+        3051,
+        2943,
+        3097
+      ],
+      "left": 2236,
+      "top": 3051,
+      "right": 2943,
+      "bottom": 3097,
+      "width": 707,
+      "height": 46,
+      "confidence": 93.683,
+      "text": "unserer Party Leute vollkommen"
+    },
+    {
+      "id": "l043",
+      "blockNumber": 10,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        2233,
+        3114,
+        3031,
+        3160
+      ],
+      "left": 2233,
+      "top": 3114,
+      "right": 3031,
+      "bottom": 3160,
+      "width": 798,
+      "height": 46,
+      "confidence": 94.437,
+      "text": "verzweifelt rumgerannt sind, weil sie"
+    },
+    {
+      "id": "l044",
+      "blockNumber": 10,
+      "paragraphNumber": 2,
+      "lineNumber": 7,
+      "bbox": [
+        2236,
+        3176,
+        3037,
+        3223
+      ],
+      "left": 2236,
+      "top": 3176,
+      "right": 3037,
+      "bottom": 3223,
+      "width": 801,
+      "height": 47,
+      "confidence": 95.191,
+      "text": "keine Drogen bekommen haben. Fur"
+    },
+    {
+      "id": "l045",
+      "blockNumber": 10,
+      "paragraphNumber": 2,
+      "lineNumber": 8,
+      "bbox": [
+        2236,
+        3239,
+        2993,
+        3277
+      ],
+      "left": 2236,
+      "top": 3239,
+      "right": 2993,
+      "bottom": 3277,
+      "width": 757,
+      "height": 38,
+      "confidence": 94.881,
+      "text": "uns ist die Musik der Treibstoff fur"
+    },
+    {
+      "id": "l046",
+      "blockNumber": 10,
+      "paragraphNumber": 2,
+      "lineNumber": 9,
+      "bbox": [
+        2233,
+        3305,
+        2610,
+        3351
+      ],
+      "left": 2233,
+      "top": 3305,
+      "right": 2610,
+      "bottom": 3351,
+      "width": 377,
+      "height": 46,
+      "confidence": 91.349,
+      "text": "Ausgelassenheit."
+    },
+    {
+      "id": "l047",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2234,
+        3431,
+        2992,
+        3475
+      ],
+      "left": 2234,
+      "top": 3431,
+      "right": 2992,
+      "bottom": 3475,
+      "width": 758,
+      "height": 44,
+      "confidence": 93.991,
+      "text": "Gab es etwas, das Euch in letzter"
+    },
+    {
+      "id": "l048",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2236,
+        3493,
+        2869,
+        3539
+      ],
+      "left": 2236,
+      "top": 3493,
+      "right": 2869,
+      "bottom": 3539,
+      "width": 633,
+      "height": 46,
+      "confidence": 93.161,
+      "text": "Zeit besonders gefreut hat?"
+    },
+    {
+      "id": "l049",
+      "blockNumber": 11,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        2233,
+        3558,
+        3023,
+        3601
+      ],
+      "left": 2233,
+      "top": 3558,
+      "right": 3023,
+      "bottom": 3601,
+      "width": 790,
+      "height": 43,
+      "confidence": 93.688,
+      "text": "Ja, nach unserem Weihnachtstraum"
+    },
+    {
+      "id": "l050",
+      "blockNumber": 11,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        2235,
+        3621,
+        2962,
+        3667
+      ],
+      "left": 2235,
+      "top": 3621,
+      "right": 2962,
+      "bottom": 3667,
+      "width": 727,
+      "height": 46,
+      "confidence": 94.878,
+      "text": "sprach uns ein Typ an und sagte,"
+    },
+    {
+      "id": "l051",
+      "blockNumber": 11,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        2234,
+        3683,
+        2965,
+        3730
+      ],
+      "left": 2234,
+      "top": 3683,
+      "right": 2965,
+      "bottom": 3730,
+      "width": 731,
+      "height": 47,
+      "confidence": 94.417,
+      "text": "dass unsere Weihnachtsparty fur"
+    },
+    {
+      "id": "l052",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1756,
+        3722,
+        1824,
+        3859
+      ],
+      "left": 1756,
+      "top": 3722,
+      "right": 1824,
+      "bottom": 3859,
+      "width": 68,
+      "height": 137,
+      "confidence": 45.117,
+      "text": "dif"
+    },
+    {
+      "id": "l053",
+      "blockNumber": 11,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        2236,
+        3747,
+        2948,
+        3793
+      ],
+      "left": 2236,
+      "top": 3747,
+      "right": 2948,
+      "bottom": 3793,
+      "width": 712,
+      "height": 46,
+      "confidence": 94.777,
+      "text": "inn seit langem das beste Event"
+    },
+    {
+      "id": "l054",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1810,
+        3774,
+        1883,
+        3939
+      ],
+      "left": 1810,
+      "top": 3774,
+      "right": 1883,
+      "bottom": 3939,
+      "width": 73,
+      "height": 165,
+      "confidence": 44.308,
+      "text": "as,"
+    },
+    {
+      "id": "l055",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2101,
+        3811,
+        2208,
+        3939
+      ],
+      "left": 2101,
+      "top": 3811,
+      "right": 2208,
+      "bottom": 3939,
+      "width": 107,
+      "height": 128,
+      "confidence": 63.141,
+      "text": "\\_\\"
+    },
+    {
+      "id": "l056",
+      "blockNumber": 11,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        2233,
+        3812,
+        2932,
+        3858
+      ],
+      "left": 2233,
+      "top": 3812,
+      "right": 2932,
+      "bottom": 3858,
+      "width": 699,
+      "height": 46,
+      "confidence": 92.966,
+      "text": "gewesen Sei und das obwohl er"
+    },
+    {
+      "id": "l057",
+      "blockNumber": 11,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        2236,
+        3875,
+        2922,
+        3921
+      ],
+      "left": 2236,
+      "top": 3875,
+      "right": 2922,
+      "bottom": 3921,
+      "width": 686,
+      "height": 46,
+      "confidence": 94.428,
+      "text": "keine Drogen genommen habe."
+    },
+    {
+      "id": "l058",
+      "blockNumber": 23,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1928,
+        3885,
+        2054,
+        4053
+      ],
+      "left": 1928,
+      "top": 3885,
+      "right": 2054,
+      "bottom": 4053,
+      "width": 126,
+      "height": 168,
+      "confidence": 47.739,
+      "text": "A Ha"
+    },
+    {
+      "id": "l059",
+      "blockNumber": 11,
+      "paragraphNumber": 2,
+      "lineNumber": 7,
+      "bbox": [
+        2236,
+        3938,
+        2984,
+        3974
+      ],
+      "left": 2236,
+      "top": 3938,
+      "right": 2984,
+      "bottom": 3974,
+      "width": 748,
+      "height": 36,
+      "confidence": 94.5,
+      "text": "Das war zum Jahresabschluss die"
+    },
+    {
+      "id": "l060",
+      "blockNumber": 21,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1927,
+        3975,
+        2002,
+        4101
+      ],
+      "left": 1927,
+      "top": 3975,
+      "right": 2002,
+      "bottom": 4101,
+      "width": 75,
+      "height": 126,
+      "confidence": 56.695,
+      "text": "Af"
+    },
+    {
+      "id": "l061",
+      "blockNumber": 11,
+      "paragraphNumber": 2,
+      "lineNumber": 8,
+      "bbox": [
+        2235,
+        4001,
+        3044,
+        4049
+      ],
+      "left": 2235,
+      "top": 4001,
+      "right": 3044,
+      "bottom": 4049,
+      "width": 809,
+      "height": 48,
+      "confidence": 95.015,
+      "text": "beste Bestatigung, dass wir auf dem"
+    },
+    {
+      "id": "l062",
+      "blockNumber": 11,
+      "paragraphNumber": 2,
+      "lineNumber": 9,
+      "bbox": [
+        2236,
+        4065,
+        2648,
+        4112
+      ],
+      "left": 2236,
+      "top": 4065,
+      "right": 2648,
+      "bottom": 4112,
+      "width": 412,
+      "height": 47,
+      "confidence": 95.082,
+      "text": "richtigen Weg sind."
+    },
+    {
+      "id": "l063",
+      "blockNumber": 23,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2150,
+        4123,
+        2210,
+        4494
+      ],
+      "left": 2150,
+      "top": 4123,
+      "right": 2210,
+      "bottom": 4494,
+      "width": 60,
+      "height": 371,
+      "confidence": 43.977,
+      "text": "ANVA\\\\"
+    },
+    {
+      "id": "l064",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2531,
+        4134,
+        2927,
+        4152
+      ],
+      "left": 2531,
+      "top": 4134,
+      "right": 2927,
+      "bottom": 4152,
+      "width": 396,
+      "height": 18,
+      "confidence": 40.831,
+      "text": "A a"
+    },
+    {
+      "id": "l065",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2321,
+        4163,
+        3057,
+        4217
+      ],
+      "left": 2321,
+      "top": 4163,
+      "right": 3057,
+      "bottom": 4217,
+      "width": 736,
+      "height": 54,
+      "confidence": 87.187,
+      "text": "www.berlinerhoervergnuegen.de"
+    },
+    {
+      "id": "l066",
+      "blockNumber": 23,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        2217,
+        4176,
+        2298,
+        4494
+      ],
+      "left": 2217,
+      "top": 4176,
+      "right": 2298,
+      "bottom": 4494,
+      "width": 81,
+      "height": 318,
+      "confidence": 50.874,
+      "text": "\\ \\ L\\"
+    },
+    {
+      "id": "l067",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2587,
+        4225,
+        3040,
+        4292
+      ],
+      "left": 2587,
+      "top": 4225,
+      "right": 3040,
+      "bottom": 4292,
+      "width": 453,
+      "height": 67,
+      "confidence": 75.719,
+      "text": "| a | 1 | a"
+    },
+    {
+      "id": "l068",
+      "blockNumber": 23,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        2370,
+        4229,
+        2433,
+        4494
+      ],
+      "left": 2370,
+      "top": 4229,
+      "right": 2433,
+      "bottom": 4494,
+      "width": 63,
+      "height": 265,
+      "confidence": 32.055,
+      "text": "AVY"
+    },
+    {
+      "id": "l069",
+      "blockNumber": 23,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        2440,
+        4229,
+        2515,
+        4477
+      ],
+      "left": 2440,
+      "top": 4229,
+      "right": 2515,
+      "bottom": 4477,
+      "width": 75,
+      "height": 248,
+      "confidence": 24.049,
+      "text": "AVY VV"
+    },
+    {
+      "id": "l070",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2516,
+        4229,
+        3292,
+        4385
+      ],
+      "left": 2516,
+      "top": 4229,
+      "right": 3292,
+      "bottom": 4385,
+      "width": 776,
+      "height": 156,
+      "confidence": 41.917,
+      "text": "hte ‘"
+    },
+    {
+      "id": "l071",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1705,
+        4231,
+        1753,
+        4335
+      ],
+      "left": 1705,
+      "top": 4231,
+      "right": 1753,
+      "bottom": 4335,
+      "width": 48,
+      "height": 104,
+      "confidence": 55.015,
+      "text": "yd"
+    },
+    {
+      "id": "l072",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1762,
+        4287,
+        1807,
+        4386
+      ],
+      "left": 1762,
+      "top": 4287,
+      "right": 1807,
+      "bottom": 4386,
+      "width": 45,
+      "height": 99,
+      "confidence": 28.839,
+      "text": "Yd"
+    },
+    {
+      "id": "l073",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1569,
+        4320,
+        1863,
+        4494
+      ],
+      "left": 1569,
+      "top": 4320,
+      "right": 1863,
+      "bottom": 4494,
+      "width": 294,
+      "height": 174,
+      "confidence": 66.769,
+      "text": "Z"
+    },
+    {
+      "id": "l074",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2966,
+        4343,
+        3324,
+        4422
+      ],
+      "left": 2966,
+      "top": 4343,
+      "right": 3324,
+      "bottom": 4422,
+      "width": 358,
+      "height": 79,
+      "confidence": 27.977,
+      "text": "@ prod37™"
+    },
+    {
+      "id": "l075",
+      "blockNumber": 25,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2815,
+        4421,
+        2828,
+        4428
+      ],
+      "left": 2815,
+      "top": 4421,
+      "right": 2828,
+      "bottom": 4428,
+      "width": 13,
+      "height": 7,
+      "confidence": 78.084,
+      "text": "-"
+    },
+    {
+      "id": "l076",
+      "blockNumber": 13,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        3138,
+        4445,
+        3168,
+        4475
+      ],
+      "left": 3138,
+      "top": 4445,
+      "right": 3168,
+      "bottom": 4475,
+      "width": 30,
+      "height": 30,
+      "confidence": 46.741,
+      "text": "rd"
+    },
+    {
+      "id": "l077",
+      "blockNumber": 25,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2758,
+        4446,
+        2769,
+        4456
+      ],
+      "left": 2758,
+      "top": 4446,
+      "right": 2769,
+      "bottom": 4456,
+      "width": 11,
+      "height": 10,
+      "confidence": 61.217,
+      "text": "a"
+    }
+  ]
+}

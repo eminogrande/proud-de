@@ -1,0 +1,71 @@
+{
+  "sections": [
+    {
+      "title": "7days",
+      "kind": "promo",
+      "titleLineIds": [
+        "l001"
+      ],
+      "lineIds": [
+        "l001",
+        "l003",
+        "l004",
+        "l005"
+      ]
+    },
+    {
+      "title": "Unser Fotograf hat-von deinem Flirtblick geschwarmt, machst du das immer?",
+      "kind": "article",
+      "titleLineIds": [
+        "l010",
+        "l011",
+        "l013"
+      ],
+      "lineIds": [
+        "l010",
+        "l011",
+        "l013",
+        "l014",
+        "l015",
+        "l016",
+        "l017",
+        "l018",
+        "l019",
+        "l020",
+        "l021",
+        "l022",
+        "l023",
+        "l026",
+        "l027",
+        "l028",
+        "l029",
+        "l030",
+        "l031",
+        "l032",
+        "l033",
+        "l034",
+        "l035",
+        "l036",
+        "l037",
+        "l038",
+        "l039"
+      ]
+    },
+    {
+      "title": "Wer ist dein Fashion Hero?",
+      "kind": "article",
+      "titleLineIds": [
+        "l046"
+      ],
+      "lineIds": [
+        "l046",
+        "l047",
+        "l048",
+        "l049",
+        "l050",
+        "l051",
+        "l052"
+      ]
+    }
+  ]
+}

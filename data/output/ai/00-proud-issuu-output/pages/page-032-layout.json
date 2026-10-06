@@ -1,0 +1,511 @@
+{
+  "sections": [
+    {
+      "title": "k.i.z.",
+      "kind": "event",
+      "titleLineIds": [
+        "l003"
+      ],
+      "lineIds": [
+        "l003",
+        "l011",
+        "l017",
+        "l024",
+        "l031",
+        "l038",
+        "l044",
+        "l052",
+        "l058",
+        "l065",
+        "l072",
+        "l078",
+        "l082",
+        "l087",
+        "l091",
+        "l094",
+        "l097",
+        "l099",
+        "l103",
+        "l107",
+        "l109",
+        "l117"
+      ]
+    },
+    {
+      "title": "klangsucht ahoi!",
+      "kind": "event",
+      "titleLineIds": [
+        "l123"
+      ],
+      "lineIds": [
+        "l123",
+        "l129",
+        "l135",
+        "l142",
+        "l147",
+        "l153",
+        "l161",
+        "l167",
+        "l173",
+        "l200"
+      ]
+    },
+    {
+      "title": "milch vs stilvortalent",
+      "kind": "event",
+      "titleLineIds": [
+        "l215",
+        "l223"
+      ],
+      "lineIds": [
+        "l215",
+        "l223",
+        "l230",
+        "l237",
+        "l242",
+        "l246",
+        "l251",
+        "l256",
+        "l261",
+        "l266",
+        "l268",
+        "l274",
+        "l279",
+        "l283",
+        "l287",
+        "l293",
+        "l297",
+        "l301"
+      ]
+    },
+    {
+      "title": "berlin meets amsterdam - quagmire label night",
+      "kind": "event",
+      "titleLineIds": [
+        "l004",
+        "l012",
+        "l021",
+        "l030"
+      ],
+      "lineIds": [
+        "l004",
+        "l012",
+        "l021",
+        "l030",
+        "l037",
+        "l047",
+        "l054",
+        "l061",
+        "l068",
+        "l075",
+        "l080",
+        "l084",
+        "l088",
+        "l092",
+        "l095",
+        "l100"
+      ]
+    },
+    {
+      "title": "goodlife",
+      "kind": "event",
+      "titleLineIds": [
+        "l131"
+      ],
+      "lineIds": [
+        "l131",
+        "l138",
+        "l145",
+        "l151",
+        "l157",
+        "l164",
+        "l171",
+        "l177",
+        "l183",
+        "l188",
+        "l193",
+        "l198",
+        "l206",
+        "l212",
+        "l218",
+        "l222",
+        "l228",
+        "l232",
+        "l235",
+        "l238",
+        "l243",
+        "l247",
+        "l252",
+        "l257",
+        "l262",
+        "l271"
+      ]
+    },
+    {
+      "title": "abschiedsparty",
+      "kind": "event",
+      "titleLineIds": [
+        "l280"
+      ],
+      "lineIds": [
+        "l280",
+        "l285",
+        "l290",
+        "l295",
+        "l298",
+        "l300",
+        "l303",
+        "l305",
+        "l307",
+        "l310"
+      ]
+    },
+    {
+      "title": "moonraker",
+      "kind": "event",
+      "titleLineIds": [
+        "l005"
+      ],
+      "lineIds": [
+        "l005",
+        "l010",
+        "l018",
+        "l025",
+        "l032",
+        "l039",
+        "l045",
+        "l051",
+        "l059",
+        "l073"
+      ]
+    },
+    {
+      "title": "jahrmarkt im himmel",
+      "kind": "event",
+      "titleLineIds": [
+        "l106",
+        "l111"
+      ],
+      "lineIds": [
+        "l106",
+        "l111",
+        "l115",
+        "l119",
+        "l124",
+        "l127",
+        "l133",
+        "l139",
+        "l144",
+        "l150",
+        "l156",
+        "l163",
+        "l170",
+        "l176",
+        "l181",
+        "l185",
+        "l191",
+        "l195",
+        "l204",
+        "l210",
+        "l216",
+        "l225"
+      ]
+    },
+    {
+      "title": "im frühtau - so long, and thanks for all the fish!",
+      "kind": "event",
+      "titleLineIds": [
+        "l233",
+        "l240",
+        "l248"
+      ],
+      "lineIds": [
+        "l233",
+        "l240",
+        "l248",
+        "l254",
+        "l259",
+        "l265",
+        "l269",
+        "l275",
+        "l278",
+        "l284",
+        "l288",
+        "l292",
+        "l296",
+        "l299",
+        "l302",
+        "l304",
+        "l306",
+        "l308",
+        "l309",
+        "l311"
+      ]
+    },
+    {
+      "title": "kuchenschlacht an der bar",
+      "kind": "event",
+      "titleLineIds": [
+        "l006",
+        "l013"
+      ],
+      "lineIds": [
+        "l006",
+        "l013",
+        "l020",
+        "l027",
+        "l034",
+        "l041",
+        "l048",
+        "l055",
+        "l062",
+        "l069",
+        "l101"
+      ]
+    },
+    {
+      "title": "entzückend",
+      "kind": "event",
+      "titleLineIds": [
+        "l104"
+      ],
+      "lineIds": [
+        "l104",
+        "l110",
+        "l114",
+        "l118",
+        "l120",
+        "l126",
+        "l132",
+        "l136",
+        "l141",
+        "l148",
+        "l154",
+        "l160",
+        "l166",
+        "l179",
+        "l199",
+        "l202"
+      ]
+    },
+    {
+      "title": "beat it!",
+      "kind": "event",
+      "titleLineIds": [
+        "l086"
+      ],
+      "lineIds": [
+        "l086",
+        "l093",
+        "l096",
+        "l098",
+        "l102",
+        "l105",
+        "l108",
+        "l112",
+        "l116",
+        "l122"
+      ]
+    },
+    {
+      "title": "warm up",
+      "kind": "event",
+      "titleLineIds": [
+        "l187"
+      ],
+      "lineIds": [
+        "l187",
+        "l194",
+        "l201",
+        "l208",
+        "l213",
+        "l219",
+        "l224",
+        "l229",
+        "l234",
+        "l239",
+        "l244",
+        "l249",
+        "l253",
+        "l258",
+        "l263",
+        "l267",
+        "l272",
+        "l277",
+        "l281",
+        "l289"
+      ]
+    },
+    {
+      "title": "100tagewach-dieafterhour!",
+      "kind": "event",
+      "titleLineIds": [
+        "l007",
+        "l015"
+      ],
+      "lineIds": [
+        "l007",
+        "l015",
+        "l022",
+        "l028",
+        "l035",
+        "l042",
+        "l049",
+        "l056",
+        "l064",
+        "l071",
+        "l076",
+        "l085",
+        "l089"
+      ]
+    },
+    {
+      "title": "swashplate tilt*",
+      "kind": "event",
+      "titleLineIds": [
+        "l125"
+      ],
+      "lineIds": [
+        "l125",
+        "l130",
+        "l137",
+        "l143",
+        "l149",
+        "l155",
+        "l162",
+        "l169",
+        "l174",
+        "l180",
+        "l184",
+        "l190",
+        "l203",
+        "l209",
+        "l220"
+      ]
+    },
+    {
+      "title": "meet: efdemin",
+      "kind": "event",
+      "titleLineIds": [
+        "l270"
+      ],
+      "lineIds": [
+        "l270",
+        "l276",
+        "l282",
+        "l286",
+        "l291",
+        "l294"
+      ]
+    },
+    {
+      "title": "techno in der supamolly",
+      "kind": "event",
+      "titleLineIds": [
+        "l008",
+        "l016"
+      ],
+      "lineIds": [
+        "l008",
+        "l016",
+        "l023",
+        "l029",
+        "l036",
+        "l043",
+        "l050",
+        "l057",
+        "l063",
+        "l070",
+        "l077",
+        "l081",
+        "l090"
+      ]
+    },
+    {
+      "title": "sos u.ground",
+      "kind": "event",
+      "titleLineIds": [
+        "l158"
+      ],
+      "lineIds": [
+        "l158",
+        "l168",
+        "l175",
+        "l182",
+        "l186",
+        "l192",
+        "l196",
+        "l205",
+        "l211",
+        "l217",
+        "l227"
+      ]
+    },
+    {
+      "title": "art & noise",
+      "kind": "event",
+      "titleLineIds": [
+        "l009"
+      ],
+      "lineIds": [
+        "l009",
+        "l014",
+        "l019",
+        "l026",
+        "l033",
+        "l040",
+        "l046",
+        "l053",
+        "l060",
+        "l066",
+        "l074",
+        "l079",
+        "l083",
+        "l113"
+      ]
+    },
+    {
+      "title": "fett fett!!!",
+      "kind": "event",
+      "titleLineIds": [
+        "l121"
+      ],
+      "lineIds": [
+        "l121",
+        "l128",
+        "l134",
+        "l140",
+        "l146",
+        "l152",
+        "l159",
+        "l165",
+        "l172",
+        "l178",
+        "l189"
+      ]
+    },
+    {
+      "title": "kassette & friends",
+      "kind": "event",
+      "titleLineIds": [
+        "l197"
+      ],
+      "lineIds": [
+        "l197",
+        "l207",
+        "l214",
+        "l221",
+        "l226",
+        "l231",
+        "l236",
+        "l241",
+        "l245",
+        "l250",
+        "l255",
+        "l260",
+        "l264",
+        "l273"
+      ]
+    }
+  ]
+}

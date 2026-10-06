@@ -1,0 +1,1327 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1421,
+        0,
+        3064,
+        372
+      ],
+      "left": 1421,
+      "top": 0,
+      "right": 3064,
+      "bottom": 372,
+      "width": 1643,
+      "height": 372,
+      "confidence": 33.985,
+      "text": "SY KD"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1636,
+        0,
+        2912,
+        323
+      ],
+      "left": 1636,
+      "top": 0,
+      "right": 2912,
+      "bottom": 323,
+      "width": 1276,
+      "height": 323,
+      "confidence": 45.682,
+      "text": "Whe SR"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1918,
+        177,
+        3352,
+        662
+      ],
+      "left": 1918,
+      "top": 177,
+      "right": 3352,
+      "bottom": 662,
+      "width": 1434,
+      "height": 485,
+      "confidence": 39.771,
+      "text": "vellwanger WY"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        259,
+        1079,
+        296
+      ],
+      "left": 273,
+      "top": 259,
+      "right": 1079,
+      "bottom": 296,
+      "width": 806,
+      "height": 37,
+      "confidence": 92.246,
+      "text": "Deinen Name sieht man uberall. Ein"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        273,
+        324,
+        780,
+        369
+      ],
+      "left": 273,
+      "top": 324,
+      "right": 780,
+      "bottom": 369,
+      "width": 507,
+      "height": 45,
+      "confidence": 92.278,
+      "text": "paar Worte zur Szene?"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        274,
+        387,
+        846,
+        433
+      ],
+      "left": 274,
+      "top": 387,
+      "right": 846,
+      "bottom": 433,
+      "width": 572,
+      "height": 46,
+      "confidence": 91.58,
+      "text": "Die junge nachwachsende"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        274,
+        450,
+        860,
+        496
+      ],
+      "left": 274,
+      "top": 450,
+      "right": 860,
+      "bottom": 496,
+      "width": 586,
+      "height": 46,
+      "confidence": 94.947,
+      "text": "Feiergemeinde in Berlin ist"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        273,
+        513,
+        991,
+        556
+      ],
+      "left": 273,
+      "top": 513,
+      "right": 991,
+      "bottom": 556,
+      "width": 718,
+      "height": 43,
+      "confidence": 96.219,
+      "text": "interessant, auch wenn die Alten"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        273,
+        577,
+        1087,
+        624
+      ],
+      "left": 273,
+      "top": 577,
+      "right": 1087,
+      "bottom": 624,
+      "width": 814,
+      "height": 47,
+      "confidence": 94.488,
+      "text": "immer auf die Jungen schimpfen und"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        273,
+        641,
+        1029,
+        687
+      ],
+      "left": 273,
+      "top": 641,
+      "right": 1029,
+      "bottom": 687,
+      "width": 756,
+      "height": 46,
+      "confidence": 94.933,
+      "text": "borniert reagieren. Es ist aber nun"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1339,
+        675,
+        3004,
+        715
+      ],
+      "left": 1339,
+      "top": 675,
+      "right": 3004,
+      "bottom": 715,
+      "width": 1665,
+      "height": 40,
+      "confidence": 92.983,
+      "text": "Futuristischer Industrial hat natiirlich seine Faszination, aber da bin im Grunde"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        273,
+        704,
+        1031,
+        750
+      ],
+      "left": 273,
+      "top": 704,
+      "right": 1031,
+      "bottom": 750,
+      "width": 758,
+      "height": 46,
+      "confidence": 95.031,
+      "text": "mal das Berliner Urgestein, das zu"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3146,
+        733,
+        3353,
+        832
+      ],
+      "left": 3146,
+      "top": 733,
+      "right": 3353,
+      "bottom": 832,
+      "width": 207,
+      "height": 99,
+      "confidence": 37.771,
+      "text": "woul"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1339,
+        738,
+        3017,
+        786
+      ],
+      "left": 1339,
+      "top": 738,
+      "right": 3017,
+      "bottom": 786,
+      "width": 1678,
+      "height": 48,
+      "confidence": 89.039,
+      "text": "meines Herzens ein Blumenkind. Jakob Ellwanger Uber Berliner Urgestein und"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 7,
+      "bbox": [
+        271,
+        767,
+        1004,
+        813
+      ],
+      "left": 271,
+      "top": 767,
+      "right": 1004,
+      "bottom": 813,
+      "width": 733,
+      "height": 46,
+      "confidence": 95.125,
+      "text": "den geht oder ganz junge"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1338,
+        801,
+        3029,
+        849
+      ],
+      "left": 1338,
+      "top": 801,
+      "right": 3029,
+      "bottom": 849,
+      "width": 1691,
+      "height": 48,
+      "confidence": 85.558,
+      "text": "die zarten Blumchen, Das Wohlgefuhl, Luft&Liebe, Pentagonik & Nachtbanditen."
+    },
+    {
+      "id": "l017",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 8,
+      "bbox": [
+        273,
+        831,
+        1086,
+        877
+      ],
+      "left": 273,
+      "top": 831,
+      "right": 1086,
+      "bottom": 877,
+      "width": 813,
+      "height": 46,
+      "confidence": 94.901,
+      "text": "Menschen, die grade zugezogen sind"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 9,
+      "bbox": [
+        273,
+        894,
+        1051,
+        940
+      ],
+      "left": 273,
+      "top": 894,
+      "right": 1051,
+      "bottom": 940,
+      "width": 778,
+      "height": 46,
+      "confidence": 84.313,
+      "text": "und nur die groSen Namen kennen."
+    },
+    {
+      "id": "l019",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 10,
+      "bbox": [
+        270,
+        956,
+        1058,
+        1003
+      ],
+      "left": 270,
+      "top": 956,
+      "right": 1058,
+      "bottom": 1003,
+      "width": 788,
+      "height": 47,
+      "confidence": 95.339,
+      "text": "Auch wenn sich viele Uber die junge"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 11,
+      "bbox": [
+        272,
+        1022,
+        1047,
+        1068
+      ],
+      "left": 272,
+      "top": 1022,
+      "right": 1047,
+      "bottom": 1068,
+      "width": 775,
+      "height": 46,
+      "confidence": 95.357,
+      "text": "Szene in Berlin lustig machen, sind"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 12,
+      "bbox": [
+        271,
+        1085,
+        1008,
+        1131
+      ],
+      "left": 271,
+      "top": 1085,
+      "right": 1008,
+      "bottom": 1131,
+      "width": 737,
+      "height": 46,
+      "confidence": 94.845,
+      "text": "das eigentlich die Leute, die eher"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 13,
+      "bbox": [
+        272,
+        1147,
+        1063,
+        1194
+      ],
+      "left": 272,
+      "top": 1147,
+      "right": 1063,
+      "bottom": 1194,
+      "width": 791,
+      "height": 47,
+      "confidence": 95.582,
+      "text": "auf die Namen und wegen"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 14,
+      "bbox": [
+        271,
+        1210,
+        994,
+        1257
+      ],
+      "left": 271,
+      "top": 1210,
+      "right": 994,
+      "bottom": 1257,
+      "width": 723,
+      "height": 47,
+      "confidence": 93.201,
+      "text": "der guten Party kommen: Schafe"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 2,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        272,
+        1275,
+        1074,
+        1321
+      ],
+      "left": 272,
+      "top": 1275,
+      "right": 1074,
+      "bottom": 1321,
+      "width": 802,
+      "height": 46,
+      "confidence": 92.623,
+      "text": "auf der Wiese — egal, wer da auflegt."
+    },
+    {
+      "id": "l025",
+      "blockNumber": 2,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        274,
+        1338,
+        984,
+        1375
+      ],
+      "left": 274,
+      "top": 1338,
+      "right": 984,
+      "bottom": 1375,
+      "width": 710,
+      "height": 37,
+      "confidence": 90.315,
+      "text": "Im Bunker — einfach alle rein da!"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 2,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        1401,
+        1043,
+        1446
+      ],
+      "left": 270,
+      "top": 1401,
+      "right": 1043,
+      "bottom": 1446,
+      "width": 773,
+      "height": 45,
+      "confidence": 94.274,
+      "text": "Auf der Kellerparty fand ich es zum"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 2,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        274,
+        1464,
+        1042,
+        1509
+      ],
+      "left": 274,
+      "top": 1464,
+      "right": 1042,
+      "bottom": 1509,
+      "width": 768,
+      "height": 45,
+      "confidence": 93.193,
+      "text": "Beispiel wesentlich innovativer und"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 2,
+      "paragraphNumber": 4,
+      "lineNumber": 3,
+      "bbox": [
+        274,
+        1527,
+        992,
+        1571
+      ],
+      "left": 274,
+      "top": 1527,
+      "right": 992,
+      "bottom": 1571,
+      "width": 718,
+      "height": 44,
+      "confidence": 92.049,
+      "text": "liebevoller; mit Schminkstanden,"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 2,
+      "paragraphNumber": 4,
+      "lineNumber": 4,
+      "bbox": [
+        274,
+        1592,
+        945,
+        1628
+      ],
+      "left": 274,
+      "top": 1592,
+      "right": 945,
+      "bottom": 1628,
+      "width": 671,
+      "height": 36,
+      "confidence": 91.918,
+      "text": "Lichtinstallationen und zeitauf-"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 2,
+      "paragraphNumber": 4,
+      "lineNumber": 5,
+      "bbox": [
+        270,
+        1653,
+        999,
+        1701
+      ],
+      "left": 270,
+      "top": 1653,
+      "right": 999,
+      "bottom": 1701,
+      "width": 729,
+      "height": 48,
+      "confidence": 93.203,
+      "text": "wandiger Deko. Das empfand ich"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 2,
+      "paragraphNumber": 5,
+      "lineNumber": 1,
+      "bbox": [
+        272,
+        1719,
+        990,
+        1756
+      ],
+      "left": 272,
+      "top": 1719,
+      "right": 990,
+      "bottom": 1756,
+      "width": 718,
+      "height": 37,
+      "confidence": 95.397,
+      "text": "als erfrischend und neu. Klar bin"
+    },
+    {
+      "id": "l032",
+      "blockNumber": 2,
+      "paragraphNumber": 6,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        1781,
+        992,
+        1824
+      ],
+      "left": 273,
+      "top": 1781,
+      "right": 992,
+      "bottom": 1824,
+      "width": 719,
+      "height": 43,
+      "confidence": 95.452,
+      "text": "ich dafur zu alt, und das ist auch"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 2,
+      "paragraphNumber": 6,
+      "lineNumber": 2,
+      "bbox": [
+        273,
+        1845,
+        1098,
+        1891
+      ],
+      "left": 273,
+      "top": 1845,
+      "right": 1098,
+      "bottom": 1891,
+      "width": 825,
+      "height": 46,
+      "confidence": 93.367,
+      "text": "musikbezogen nicht immer unbedingt"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 2,
+      "paragraphNumber": 6,
+      "lineNumber": 3,
+      "bbox": [
+        273,
+        1908,
+        1116,
+        1954
+      ],
+      "left": 273,
+      "top": 1908,
+      "right": 1116,
+      "bottom": 1954,
+      "width": 843,
+      "height": 46,
+      "confidence": 95.239,
+      "text": "mein Fall, aber im Gegensatz zu vielen"
+    },
+    {
+      "id": "l035",
+      "blockNumber": 2,
+      "paragraphNumber": 6,
+      "lineNumber": 4,
+      "bbox": [
+        272,
+        1973,
+        1088,
+        2019
+      ],
+      "left": 272,
+      "top": 1973,
+      "right": 1088,
+      "bottom": 2019,
+      "width": 816,
+      "height": 46,
+      "confidence": 88.165,
+      "text": "Gro8veranstaltungen von Altberlinern"
+    },
+    {
+      "id": "l036",
+      "blockNumber": 2,
+      "paragraphNumber": 6,
+      "lineNumber": 5,
+      "bbox": [
+        272,
+        2036,
+        1050,
+        2078
+      ],
+      "left": 272,
+      "top": 2036,
+      "right": 1050,
+      "bottom": 2078,
+      "width": 778,
+      "height": 42,
+      "confidence": 93.873,
+      "text": "sind diese echt idealistisch, kreativ"
+    },
+    {
+      "id": "l037",
+      "blockNumber": 2,
+      "paragraphNumber": 6,
+      "lineNumber": 6,
+      "bbox": [
+        273,
+        2099,
+        642,
+        2135
+      ],
+      "left": 273,
+      "top": 2099,
+      "right": 642,
+      "bottom": 2135,
+      "width": 369,
+      "height": 36,
+      "confidence": 95.854,
+      "text": "und einfach nett."
+    },
+    {
+      "id": "l038",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        2226,
+        1003,
+        2263
+      ],
+      "left": 270,
+      "top": 2226,
+      "right": 1003,
+      "bottom": 2263,
+      "width": 733,
+      "height": 37,
+      "confidence": 94.714,
+      "text": "Was brauchen wir also wirklich?"
+    },
+    {
+      "id": "l039",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        274,
+        2288,
+        1001,
+        2332
+      ],
+      "left": 274,
+      "top": 2288,
+      "right": 1001,
+      "bottom": 2332,
+      "width": 727,
+      "height": 44,
+      "confidence": 95.339,
+      "text": "Unkonventionell, schon und nicht"
+    },
+    {
+      "id": "l040",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        273,
+        2351,
+        1034,
+        2398
+      ],
+      "left": 273,
+      "top": 2351,
+      "right": 1034,
+      "bottom": 2398,
+      "width": 761,
+      "height": 47,
+      "confidence": 90.247,
+      "text": "unbedingt minimal konnte es sein."
+    },
+    {
+      "id": "l041",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        273,
+        2415,
+        916,
+        2452
+      ],
+      "left": 273,
+      "top": 2415,
+      "right": 916,
+      "bottom": 2452,
+      "width": 643,
+      "height": 37,
+      "confidence": 94.423,
+      "text": "Minimal funktioniert in einem"
+    },
+    {
+      "id": "l042",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        273,
+        2480,
+        918,
+        2526
+      ],
+      "left": 273,
+      "top": 2480,
+      "right": 918,
+      "bottom": 2526,
+      "width": 645,
+      "height": 46,
+      "confidence": 93.647,
+      "text": "maximalen Rahmen total gut."
+    },
+    {
+      "id": "l043",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        272,
+        2543,
+        957,
+        2579
+      ],
+      "left": 272,
+      "top": 2543,
+      "right": 957,
+      "bottom": 2579,
+      "width": 685,
+      "height": 36,
+      "confidence": 93.164,
+      "text": "Genauso wie Maximalismus im"
+    },
+    {
+      "id": "l044",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        274,
+        2606,
+        1063,
+        2652
+      ],
+      "left": 274,
+      "top": 2606,
+      "right": 1063,
+      "bottom": 2652,
+      "width": 789,
+      "height": 46,
+      "confidence": 92.593,
+      "text": "Kleinen immer begeistert. Ich stehe"
+    },
+    {
+      "id": "l045",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        270,
+        2669,
+        936,
+        2715
+      ],
+      "left": 270,
+      "top": 2669,
+      "right": 936,
+      "bottom": 2715,
+      "width": 666,
+      "height": 46,
+      "confidence": 92.664,
+      "text": "trotzdem Uberhaupt nicht aufs"
+    },
+    {
+      "id": "l046",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3250,
+        2669,
+        3289,
+        2700
+      ],
+      "left": 3250,
+      "top": 2669,
+      "right": 3289,
+      "bottom": 2700,
+      "width": 39,
+      "height": 31,
+      "confidence": 69.509,
+      "text": "JV"
+    },
+    {
+      "id": "l047",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        274,
+        2733,
+        966,
+        2779
+      ],
+      "left": 274,
+      "top": 2733,
+      "right": 966,
+      "bottom": 2779,
+      "width": 692,
+      "height": 46,
+      "confidence": 95.006,
+      "text": "Berghain. Ohne Innovation, was"
+    },
+    {
+      "id": "l048",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        271,
+        2796,
+        989,
+        2842
+      ],
+      "left": 271,
+      "top": 2796,
+      "right": 989,
+      "bottom": 2842,
+      "width": 718,
+      "height": 46,
+      "confidence": 88.597,
+      "text": "den Rahmen des Events angeht."
+    },
+    {
+      "id": "l049",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        270,
+        2858,
+        1034,
+        2904
+      ],
+      "left": 270,
+      "top": 2858,
+      "right": 1034,
+      "bottom": 2904,
+      "width": 764,
+      "height": 46,
+      "confidence": 92.561,
+      "text": "Anonyme Schlichtheit hat naturlich"
+    },
+    {
+      "id": "l050",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        272,
+        2924,
+        1097,
+        2966
+      ],
+      "left": 272,
+      "top": 2924,
+      "right": 1097,
+      "bottom": 2966,
+      "width": 825,
+      "height": 42,
+      "confidence": 95.343,
+      "text": "seine Faszination, aber da bin ich wie"
+    },
+    {
+      "id": "l051",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        270,
+        2987,
+        1102,
+        3033
+      ],
+      "left": 270,
+      "top": 2987,
+      "right": 1102,
+      "bottom": 3033,
+      "width": 832,
+      "height": 46,
+      "confidence": 94.466,
+      "text": "gesagt ein Freund von Detailliebe und"
+    },
+    {
+      "id": "l052",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        274,
+        3050,
+        462,
+        3096
+      ],
+      "left": 274,
+      "top": 3050,
+      "right": 462,
+      "bottom": 3096,
+      "width": 188,
+      "height": 46,
+      "confidence": 91.839,
+      "text": "Hingabe."
+    },
+    {
+      "id": "l053",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        3177,
+        1033,
+        3222
+      ],
+      "left": 273,
+      "top": 3177,
+      "right": 1033,
+      "bottom": 3222,
+      "width": 760,
+      "height": 45,
+      "confidence": 95.454,
+      "text": "Machst Du eigentlich auch etwas"
+    },
+    {
+      "id": "l054",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        3302,
+        1041,
+        3349
+      ],
+      "left": 270,
+      "top": 3302,
+      "right": 1041,
+      "bottom": 3349,
+      "width": 771,
+      "height": 47,
+      "confidence": 93.365,
+      "text": "Ja, ich brauche ein zuverlassigeres"
+    },
+    {
+      "id": "l055",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        272,
+        3368,
+        1040,
+        3404
+      ],
+      "left": 272,
+      "top": 3368,
+      "right": 1040,
+      "bottom": 3404,
+      "width": 768,
+      "height": 36,
+      "confidence": 92.161,
+      "text": "Standbein. Jeden Mittwoch im VCF"
+    },
+    {
+      "id": "l056",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        270,
+        3430,
+        1101,
+        3477
+      ],
+      "left": 270,
+      "top": 3430,
+      "right": 1101,
+      "bottom": 3477,
+      "width": 831,
+      "height": 47,
+      "confidence": 93.644,
+      "text": "gibt es seit 9 Monaten eine familiare,"
+    },
+    {
+      "id": "l057",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        273,
+        3494,
+        1023,
+        3540
+      ],
+      "left": 273,
+      "top": 3494,
+      "right": 1023,
+      "bottom": 3540,
+      "width": 750,
+      "height": 46,
+      "confidence": 93.572,
+      "text": "Minimal und Technoveranstaltung,"
+    },
+    {
+      "id": "l058",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        273,
+        3556,
+        1084,
+        3603
+      ],
+      "left": 273,
+      "top": 3556,
+      "right": 1084,
+      "bottom": 3603,
+      "width": 811,
+      "height": 47,
+      "confidence": 94.618,
+      "text": "bei der zuvor gemutlich mit Freunden"
+    },
+    {
+      "id": "l059",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        270,
+        3621,
+        962,
+        3667
+      ],
+      "left": 270,
+      "top": 3621,
+      "right": 962,
+      "bottom": 3667,
+      "width": 692,
+      "height": 46,
+      "confidence": 93.104,
+      "text": "gegrillt und gegammelt wird. Es"
+    },
+    {
+      "id": "l060",
+      "blockNumber": 4,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        3684,
+        1065,
+        3730
+      ],
+      "left": 270,
+      "top": 3684,
+      "right": 1065,
+      "bottom": 3730,
+      "width": 795,
+      "height": 46,
+      "confidence": 94.733,
+      "text": "geht einfach nicht nur mit monatlich"
+    },
+    {
+      "id": "l061",
+      "blockNumber": 4,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        270,
+        3747,
+        1112,
+        3790
+      ],
+      "left": 270,
+      "top": 3747,
+      "right": 1112,
+      "bottom": 3790,
+      "width": 842,
+      "height": 43,
+      "confidence": 96.54,
+      "text": "verschiedenen Events, wo man immer"
+    },
+    {
+      "id": "l062",
+      "blockNumber": 4,
+      "paragraphNumber": 3,
+      "lineNumber": 3,
+      "bbox": [
+        271,
+        3813,
+        833,
+        3847
+      ],
+      "left": 271,
+      "top": 3813,
+      "right": 833,
+      "bottom": 3847,
+      "width": 562,
+      "height": 34,
+      "confidence": 94.286,
+      "text": "etwas muss."
+    },
+    {
+      "id": "l063",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        3938,
+        817,
+        3974
+      ],
+      "left": 273,
+      "top": 3938,
+      "right": 817,
+      "bottom": 3974,
+      "width": 544,
+      "height": 36,
+      "confidence": 93.255,
+      "text": "Noch was Geistreiches?"
+    },
+    {
+      "id": "l064",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        272,
+        4000,
+        993,
+        4047
+      ],
+      "left": 272,
+      "top": 4000,
+      "right": 993,
+      "bottom": 4047,
+      "width": 721,
+      "height": 47,
+      "confidence": 94.008,
+      "text": "Genuss ist eine Frage, spharisch"
+    },
+    {
+      "id": "l065",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        270,
+        4064,
+        1096,
+        4100
+      ],
+      "left": 270,
+      "top": 4064,
+      "right": 1096,
+      "bottom": 4100,
+      "width": 826,
+      "height": 36,
+      "confidence": 94.266,
+      "text": "treibender Minimalismus die Antwort!"
+    },
+    {
+      "id": "l066",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        4166,
+        1044,
+        4211
+      ],
+      "left": 270,
+      "top": 4166,
+      "right": 1044,
+      "bottom": 4211,
+      "width": 774,
+      "height": 45,
+      "confidence": 86.167,
+      "text": "www.myspace.com/funkenkoenig"
+    }
+  ]
+}

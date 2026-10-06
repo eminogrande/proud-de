@@ -1,0 +1,2687 @@
+{
+  "scale": 2.0,
+  "imageWidth": 4478,
+  "imageHeight": 3002,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        79,
+        60,
+        246,
+        99
+      ],
+      "left": 79,
+      "top": 60,
+      "right": 246,
+      "bottom": 99,
+      "width": 167,
+      "height": 39,
+      "confidence": 96.282,
+      "text": "sounds"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 30,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        4232,
+        60,
+        4399,
+        100
+      ],
+      "left": 4232,
+      "top": 60,
+      "right": 4399,
+      "bottom": 100,
+      "width": 167,
+      "height": 40,
+      "confidence": 95.954,
+      "text": "sounds"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 31,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3548,
+        67,
+        3988,
+        193
+      ],
+      "left": 3548,
+      "top": 67,
+      "right": 3988,
+      "bottom": 193,
+      "width": 440,
+      "height": 126,
+      "confidence": 90.124,
+      "text": "katovl"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        625,
+        163,
+        951,
+        188
+      ],
+      "left": 625,
+      "top": 163,
+      "right": 951,
+      "bottom": 188,
+      "width": 326,
+      "height": 25,
+      "confidence": 72.716,
+      "text": "R.E.M. verdffentlichen"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 10,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        625,
+        206,
+        997,
+        230
+      ],
+      "left": 625,
+      "top": 206,
+      "right": 997,
+      "bottom": 230,
+      "width": 372,
+      "height": 24,
+      "confidence": 94.979,
+      "text": "ihr seit vier Jahren erstes"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 31,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3548,
+        214,
+        4388,
+        370
+      ],
+      "left": 3548,
+      "top": 214,
+      "right": 4388,
+      "bottom": 370,
+      "width": 840,
+      "height": 156,
+      "confidence": 58.336,
+      "text": "menovsky’s"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 10,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        624,
+        247,
+        1010,
+        272
+      ],
+      "left": 624,
+      "top": 247,
+      "right": 1010,
+      "bottom": 272,
+      "width": 386,
+      "height": 25,
+      "confidence": 95.7,
+      "text": "Studioalbum mit dem Titel"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 10,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        623,
+        291,
+        795,
+        315
+      ],
+      "left": 623,
+      "top": 291,
+      "right": 795,
+      "bottom": 315,
+      "width": 172,
+      "height": 24,
+      "confidence": 96.73,
+      "text": "Accelerate."
+    },
+    {
+      "id": "l009",
+      "blockNumber": 10,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        625,
+        332,
+        1050,
+        357
+      ],
+      "left": 625,
+      "top": 332,
+      "right": 1050,
+      "bottom": 357,
+      "width": 425,
+      "height": 25,
+      "confidence": 87.719,
+      "text": "Das Album ist eine Rickkehr"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 31,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        3540,
+        360,
+        4060,
+        486
+      ],
+      "left": 3540,
+      "top": 360,
+      "right": 4060,
+      "bottom": 486,
+      "width": 520,
+      "height": 126,
+      "confidence": 96.28,
+      "text": "sounds"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 10,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        623,
+        375,
+        1061,
+        406
+      ],
+      "left": 623,
+      "top": 375,
+      "right": 1061,
+      "bottom": 406,
+      "width": 438,
+      "height": 31,
+      "confidence": 95.012,
+      "text": "zu dem von Fans so geliebten"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 10,
+      "paragraphNumber": 3,
+      "lineNumber": 3,
+      "bbox": [
+        623,
+        417,
+        1035,
+        448
+      ],
+      "left": 623,
+      "top": 417,
+      "right": 1035,
+      "bottom": 448,
+      "width": 412,
+      "height": 31,
+      "confidence": 94.211,
+      "text": "gitarrengesteuerten Modern"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 10,
+      "paragraphNumber": 3,
+      "lineNumber": 4,
+      "bbox": [
+        625,
+        461,
+        703,
+        485
+      ],
+      "left": 625,
+      "top": 461,
+      "right": 703,
+      "bottom": 485,
+      "width": 78,
+      "height": 24,
+      "confidence": 96.885,
+      "text": "Rock."
+    },
+    {
+      "id": "l014",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2380,
+        516,
+        2749,
+        546
+      ],
+      "left": 2380,
+      "top": 516,
+      "right": 2749,
+      "bottom": 546,
+      "width": 369,
+      "height": 30,
+      "confidence": 92.53,
+      "text": "Das Schwestern-Quartett"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2378,
+        559,
+        2831,
+        588
+      ],
+      "left": 2378,
+      "top": 559,
+      "right": 2831,
+      "bottom": 588,
+      "width": 453,
+      "height": 29,
+      "confidence": 94.721,
+      "text": "Cherish, bestehend aus Farah,"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 32,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3538,
+        586,
+        4390,
+        612
+      ],
+      "left": 3538,
+      "top": 586,
+      "right": 4390,
+      "bottom": 612,
+      "width": 852,
+      "height": 26,
+      "confidence": 96.391,
+      "text": "Wer sich diesen Sommer ein Auto kaufen sollte oder eine"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2380,
+        602,
+        2775,
+        632
+      ],
+      "left": 2380,
+      "top": 602,
+      "right": 2775,
+      "bottom": 632,
+      "width": 395,
+      "height": 30,
+      "confidence": 91.663,
+      "text": "Neosha und den Zwillingen"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 32,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3540,
+        629,
+        4362,
+        662
+      ],
+      "left": 3540,
+      "top": 629,
+      "right": 4362,
+      "bottom": 662,
+      "width": 822,
+      "height": 33,
+      "confidence": 93.677,
+      "text": "Europa-Tour mit Freund oder Freundin in Erwagung zieht,"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        2380,
+        644,
+        2751,
+        672
+      ],
+      "left": 2380,
+      "top": 644,
+      "right": 2751,
+      "bottom": 672,
+      "width": 371,
+      "height": 28,
+      "confidence": 95.895,
+      "text": "Felisha und Fallon, ist bei"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 32,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        3538,
+        668,
+        4329,
+        707
+      ],
+      "left": 3538,
+      "top": 668,
+      "right": 4329,
+      "bottom": 707,
+      "width": 791,
+      "height": 39,
+      "confidence": 94.82,
+      "text": "der sollte sich auf jeden Fall das soeben erschienene"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        2379,
+        686,
+        2810,
+        716
+      ],
+      "left": 2379,
+      "top": 686,
+      "right": 2810,
+      "bottom": 716,
+      "width": 431,
+      "height": 30,
+      "confidence": 91.414,
+      "text": "Capitol und Sho’nuff Records"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 32,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        3537,
+        714,
+        4347,
+        744
+      ],
+      "left": 3537,
+      "top": 714,
+      "right": 4347,
+      "bottom": 744,
+      "width": 810,
+      "height": 30,
+      "confidence": 95.653,
+      "text": "Album The Good, the Bad and the Deep des Detroiters"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        2379,
+        728,
+        2821,
+        758
+      ],
+      "left": 2379,
+      "top": 728,
+      "right": 2821,
+      "bottom": 758,
+      "width": 442,
+      "height": 30,
+      "confidence": 94.974,
+      "text": "unter Vertrag. Sie sind bereits"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 32,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        3540,
+        756,
+        4362,
+        788
+      ],
+      "left": 3540,
+      "top": 756,
+      "right": 4362,
+      "bottom": 788,
+      "width": 822,
+      "height": 32,
+      "confidence": 93.39,
+      "text": "Rick Wade zulegen. Rick produziert Tracks, die konstant"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        2379,
+        771,
+        2834,
+        802
+      ],
+      "left": 2379,
+      "top": 771,
+      "right": 2834,
+      "bottom": 802,
+      "width": 455,
+      "height": 31,
+      "confidence": 94.231,
+      "text": "seit 2003 als Band unterwegs,"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 32,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        3539,
+        799,
+        4319,
+        831
+      ],
+      "left": 3539,
+      "top": 799,
+      "right": 4319,
+      "bottom": 831,
+      "width": 780,
+      "height": 32,
+      "confidence": 93.939,
+      "text": "so entspannt und befriedigend sind, dass uns selbst"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        2379,
+        813,
+        2816,
+        844
+      ],
+      "left": 2379,
+      "top": 813,
+      "right": 2816,
+      "bottom": 844,
+      "width": 437,
+      "height": 31,
+      "confidence": 95.767,
+      "text": "allerdings wurden sie erst mit"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        139,
+        830,
+        417,
+        854
+      ],
+      "left": 139,
+      "top": 830,
+      "right": 417,
+      "bottom": 854,
+      "width": 278,
+      "height": 24,
+      "confidence": 94.977,
+      "text": "Arids neues Album"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 32,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        3538,
+        841,
+        4316,
+        873
+      ],
+      "left": 3538,
+      "top": 841,
+      "right": 4316,
+      "bottom": 873,
+      "width": 778,
+      "height": 32,
+      "confidence": 93.032,
+      "text": "ein Taubenschlag wie ein Luxuspenthouse erscheint,"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        2378,
+        855,
+        2763,
+        886
+      ],
+      "left": 2378,
+      "top": 855,
+      "right": 2763,
+      "bottom": 886,
+      "width": 385,
+      "height": 31,
+      "confidence": 96.643,
+      "text": "der Single Do It To It feat."
+    },
+    {
+      "id": "l031",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        139,
+        872,
+        527,
+        902
+      ],
+      "left": 139,
+      "top": 872,
+      "right": 527,
+      "bottom": 902,
+      "width": 388,
+      "height": 30,
+      "confidence": 96.285,
+      "text": "All Things come In Waves"
+    },
+    {
+      "id": "l032",
+      "blockNumber": 32,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        3539,
+        883,
+        4336,
+        915
+      ],
+      "left": 3539,
+      "top": 883,
+      "right": 4336,
+      "bottom": 915,
+      "width": 797,
+      "height": 32,
+      "confidence": 95.251,
+      "text": "solange wir nur diese Musik mit einem guten Ausblick"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 10,
+      "bbox": [
+        2379,
+        897,
+        2664,
+        922
+      ],
+      "left": 2379,
+      "top": 897,
+      "right": 2664,
+      "bottom": 922,
+      "width": 285,
+      "height": 25,
+      "confidence": 94.043,
+      "text": "Sean Paul bekannt."
+    },
+    {
+      "id": "l034",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        628,
+        907,
+        890,
+        952
+      ],
+      "left": 628,
+      "top": 907,
+      "right": 890,
+      "bottom": 952,
+      "width": 262,
+      "height": 45,
+      "confidence": 65.816,
+      "text": "5 ‘ACCELERATE"
+    },
+    {
+      "id": "l035",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        140,
+        915,
+        469,
+        946
+      ],
+      "left": 140,
+      "top": 915,
+      "right": 469,
+      "bottom": 946,
+      "width": 329,
+      "height": 31,
+      "confidence": 95.112,
+      "text": "erscheint Anfang April."
+    },
+    {
+      "id": "l036",
+      "blockNumber": 32,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        3539,
+        924,
+        4320,
+        952
+      ],
+      "left": 3539,
+      "top": 924,
+      "right": 4320,
+      "bottom": 952,
+      "width": 781,
+      "height": 28,
+      "confidence": 85.219,
+      "text": "kombinieren diirfen. Scheinbar fiir einen unendlichen"
+    },
+    {
+      "id": "l037",
+      "blockNumber": 24,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        2380,
+        941,
+        2725,
+        965
+      ],
+      "left": 2380,
+      "top": 941,
+      "right": 2725,
+      "bottom": 965,
+      "width": 345,
+      "height": 24,
+      "confidence": 96.071,
+      "text": "Nun soll es am 13. Mai"
+    },
+    {
+      "id": "l038",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        139,
+        957,
+        552,
+        988
+      ],
+      "left": 139,
+      "top": 957,
+      "right": 552,
+      "bottom": 988,
+      "width": 413,
+      "height": 31,
+      "confidence": 93.3,
+      "text": "Arids Sound ist vergleichbar"
+    },
+    {
+      "id": "l039",
+      "blockNumber": 32,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        3540,
+        967,
+        4356,
+        999
+      ],
+      "left": 3540,
+      "top": 967,
+      "right": 4356,
+      "bottom": 999,
+      "width": 816,
+      "height": 32,
+      "confidence": 92.198,
+      "text": "Raum produziert schwingen die Frequenzen schwerelos"
+    },
+    {
+      "id": "l040",
+      "blockNumber": 24,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        2378,
+        983,
+        2770,
+        1007
+      ],
+      "left": 2378,
+      "top": 983,
+      "right": 2770,
+      "bottom": 1007,
+      "width": 392,
+      "height": 24,
+      "confidence": 92.682,
+      "text": "zum Release ihres zweiten"
+    },
+    {
+      "id": "l041",
+      "blockNumber": 11,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        623,
+        993,
+        1005,
+        1018
+      ],
+      "left": 623,
+      "top": 993,
+      "right": 1005,
+      "bottom": 1018,
+      "width": 382,
+      "height": 25,
+      "confidence": 96.256,
+      "text": "Auch das neue Album von"
+    },
+    {
+      "id": "l042",
+      "blockNumber": 18,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1123,
+        998,
+        2037,
+        1028
+      ],
+      "left": 1123,
+      "top": 998,
+      "right": 2037,
+      "bottom": 1028,
+      "width": 914,
+      "height": 30,
+      "confidence": 95.377,
+      "text": "Das neue Album von der Grammy-Gewinner Rockband Weezer"
+    },
+    {
+      "id": "l043",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        141,
+        999,
+        466,
+        1029
+      ],
+      "left": 141,
+      "top": 999,
+      "right": 466,
+      "bottom": 1029,
+      "width": 325,
+      "height": 30,
+      "confidence": 94.648,
+      "text": "mit dem von Absynthe"
+    },
+    {
+      "id": "l044",
+      "blockNumber": 32,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        3538,
+        1005,
+        4339,
+        1040
+      ],
+      "left": 3538,
+      "top": 1005,
+      "right": 4339,
+      "bottom": 1040,
+      "width": 801,
+      "height": 35,
+      "confidence": 94.035,
+      "text": "aus den Boxen, das unsereins sich schon des Ofteren"
+    },
+    {
+      "id": "l045",
+      "blockNumber": 24,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        2379,
+        1025,
+        2734,
+        1049
+      ],
+      "left": 2379,
+      "top": 1025,
+      "right": 2734,
+      "bottom": 1049,
+      "width": 355,
+      "height": 24,
+      "confidence": 94.223,
+      "text": "Studioalbums The Truth"
+    },
+    {
+      "id": "l046",
+      "blockNumber": 11,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        623,
+        1035,
+        830,
+        1063
+      ],
+      "left": 623,
+      "top": 1035,
+      "right": 830,
+      "bottom": 1063,
+      "width": 207,
+      "height": 28,
+      "confidence": 96.22,
+      "text": "Van Morrison,"
+    },
+    {
+      "id": "l047",
+      "blockNumber": 18,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1123,
+        1040,
+        1976,
+        1068
+      ],
+      "left": 1123,
+      "top": 1040,
+      "right": 1976,
+      "bottom": 1068,
+      "width": 853,
+      "height": 28,
+      "confidence": 93.283,
+      "text": "nimmt Form an. Die Band hat entschieden, dem sechsten"
+    },
+    {
+      "id": "l048",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        141,
+        1041,
+        451,
+        1072
+      ],
+      "left": 141,
+      "top": 1041,
+      "right": 451,
+      "bottom": 1072,
+      "width": 310,
+      "height": 31,
+      "confidence": 96.41,
+      "text": "Minded, Ozark Henry,"
+    },
+    {
+      "id": "l049",
+      "blockNumber": 32,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        3538,
+        1047,
+        4358,
+        1085
+      ],
+      "left": 3538,
+      "top": 1047,
+      "right": 4358,
+      "bottom": 1085,
+      "width": 820,
+      "height": 38,
+      "confidence": 93.483,
+      "text": "dabei ertappte lieber den Ubergang ausfallen zu lassen"
+    },
+    {
+      "id": "l050",
+      "blockNumber": 24,
+      "paragraphNumber": 3,
+      "lineNumber": 3,
+      "bbox": [
+        2380,
+        1067,
+        2513,
+        1091
+      ],
+      "left": 2380,
+      "top": 1067,
+      "right": 2513,
+      "bottom": 1091,
+      "width": 133,
+      "height": 24,
+      "confidence": 96.19,
+      "text": "kommen."
+    },
+    {
+      "id": "l051",
+      "blockNumber": 11,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        625,
+        1079,
+        977,
+        1109
+      ],
+      "left": 625,
+      "top": 1079,
+      "right": 977,
+      "bottom": 1109,
+      "width": 352,
+      "height": 30,
+      "confidence": 96.413,
+      "text": "Keep It Simple, wird am"
+    },
+    {
+      "id": "l052",
+      "blockNumber": 18,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1123,
+        1082,
+        1871,
+        1113
+      ],
+      "left": 1123,
+      "top": 1082,
+      "right": 1871,
+      "bottom": 1113,
+      "width": 748,
+      "height": 31,
+      "confidence": 94.176,
+      "text": "Studioaloum den Namen Tout Ensemble zu geben."
+    },
+    {
+      "id": "l053",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        139,
+        1085,
+        562,
+        1109
+      ],
+      "left": 139,
+      "top": 1085,
+      "right": 562,
+      "bottom": 1109,
+      "width": 423,
+      "height": 24,
+      "confidence": 92.348,
+      "text": "Admiral Freebee oder Zornik."
+    },
+    {
+      "id": "l054",
+      "blockNumber": 32,
+      "paragraphNumber": 2,
+      "lineNumber": 7,
+      "bbox": [
+        3538,
+        1094,
+        4376,
+        1127
+      ],
+      "left": 3538,
+      "top": 1094,
+      "right": 4376,
+      "bottom": 1127,
+      "width": 838,
+      "height": 33,
+      "confidence": 87.467,
+      "text": "als die Idylle dieses absoluten Freiheitsgefthls fruhzeitig"
+    },
+    {
+      "id": "l055",
+      "blockNumber": 24,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        2378,
+        1110,
+        2800,
+        1135
+      ],
+      "left": 2378,
+      "top": 1110,
+      "right": 2800,
+      "bottom": 1135,
+      "width": 422,
+      "height": 25,
+      "confidence": 94.805,
+      "text": "Auf dem Album befindet sich"
+    },
+    {
+      "id": "l056",
+      "blockNumber": 11,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        625,
+        1120,
+        936,
+        1151
+      ],
+      "left": 625,
+      "top": 1120,
+      "right": 936,
+      "bottom": 1151,
+      "width": 311,
+      "height": 31,
+      "confidence": 83.503,
+      "text": "1. April verdffentlicht."
+    },
+    {
+      "id": "l057",
+      "blockNumber": 18,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1123,
+        1123,
+        1748,
+        1154
+      ],
+      "left": 1123,
+      "top": 1123,
+      "right": 1748,
+      "bottom": 1154,
+      "width": 625,
+      "height": 31,
+      "confidence": 95.354,
+      "text": "Es wird am 22. April Uber Geffen released."
+    },
+    {
+      "id": "l058",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        141,
+        1127,
+        473,
+        1151
+      ],
+      "left": 141,
+      "top": 1127,
+      "right": 473,
+      "bottom": 1151,
+      "width": 332,
+      "height": 24,
+      "confidence": 94.299,
+      "text": "Hervorstechend ist die"
+    },
+    {
+      "id": "l059",
+      "blockNumber": 32,
+      "paragraphNumber": 2,
+      "lineNumber": 8,
+      "bbox": [
+        3537,
+        1135,
+        4397,
+        1169
+      ],
+      "left": 3537,
+      "top": 1135,
+      "right": 4397,
+      "bottom": 1169,
+      "width": 860,
+      "height": 34,
+      "confidence": 93.694,
+      "text": "Zu storen. Das ist Deep-House den selbst Mutti gut finden"
+    },
+    {
+      "id": "l060",
+      "blockNumber": 24,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        2379,
+        1152,
+        2750,
+        1183
+      ],
+      "left": 2379,
+      "top": 1152,
+      "right": 2750,
+      "bottom": 1183,
+      "width": 371,
+      "height": 31,
+      "confidence": 94.811,
+      "text": "unter anderem die Single"
+    },
+    {
+      "id": "l061",
+      "blockNumber": 11,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        623,
+        1163,
+        985,
+        1194
+      ],
+      "left": 623,
+      "top": 1163,
+      "right": 985,
+      "bottom": 1194,
+      "width": 362,
+      "height": 31,
+      "confidence": 95.215,
+      "text": "Aufgewachsen in Belfast"
+    },
+    {
+      "id": "l062",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        140,
+        1168,
+        517,
+        1200
+      ],
+      "left": 140,
+      "top": 1168,
+      "right": 517,
+      "bottom": 1200,
+      "width": 377,
+      "height": 32,
+      "confidence": 90.713,
+      "text": "Stimme des Leadsangers"
+    },
+    {
+      "id": "l063",
+      "blockNumber": 32,
+      "paragraphNumber": 2,
+      "lineNumber": 9,
+      "bbox": [
+        3538,
+        1180,
+        4108,
+        1209
+      ],
+      "left": 3538,
+      "top": 1180,
+      "right": 4108,
+      "bottom": 1209,
+      "width": 570,
+      "height": 29,
+      "confidence": 86.207,
+      "text": "darf, ohne dass es sich bieder anfinhlt."
+    },
+    {
+      "id": "l064",
+      "blockNumber": 24,
+      "paragraphNumber": 4,
+      "lineNumber": 3,
+      "bbox": [
+        2379,
+        1194,
+        2741,
+        1222
+      ],
+      "left": 2379,
+      "top": 1194,
+      "right": 2741,
+      "bottom": 1222,
+      "width": 362,
+      "height": 28,
+      "confidence": 96.417,
+      "text": "Killa, die vielen aus dem"
+    },
+    {
+      "id": "l065",
+      "blockNumber": 11,
+      "paragraphNumber": 4,
+      "lineNumber": 3,
+      "bbox": [
+        625,
+        1205,
+        996,
+        1229
+      ],
+      "left": 625,
+      "top": 1205,
+      "right": 996,
+      "bottom": 1229,
+      "width": 371,
+      "height": 24,
+      "confidence": 96.588,
+      "text": "lassen sich viele der dort"
+    },
+    {
+      "id": "l066",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1123,
+        1209,
+        2060,
+        1240
+      ],
+      "left": 1123,
+      "top": 1209,
+      "right": 2060,
+      "bottom": 1240,
+      "width": 937,
+      "height": 31,
+      "confidence": 95.935,
+      "text": "In einem Interview sagte der Bassist Scott Shrine, dass er sehr"
+    },
+    {
+      "id": "l067",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 10,
+      "bbox": [
+        139,
+        1211,
+        520,
+        1240
+      ],
+      "left": 139,
+      "top": 1211,
+      "right": 520,
+      "bottom": 1240,
+      "width": 381,
+      "height": 29,
+      "confidence": 94.578,
+      "text": "Jasper Steverlinck, die oft"
+    },
+    {
+      "id": "l068",
+      "blockNumber": 24,
+      "paragraphNumber": 4,
+      "lineNumber": 4,
+      "bbox": [
+        2380,
+        1236,
+        2747,
+        1267
+      ],
+      "left": 2380,
+      "top": 1236,
+      "right": 2747,
+      "bottom": 1267,
+      "width": 367,
+      "height": 31,
+      "confidence": 95.216,
+      "text": "Hollywoodfilm Step up to"
+    },
+    {
+      "id": "l069",
+      "blockNumber": 11,
+      "paragraphNumber": 4,
+      "lineNumber": 4,
+      "bbox": [
+        624,
+        1248,
+        953,
+        1279
+      ],
+      "left": 624,
+      "top": 1248,
+      "right": 953,
+      "bottom": 1279,
+      "width": 329,
+      "height": 31,
+      "confidence": 91.58,
+      "text": "ansassigen Musikstile"
+    },
+    {
+      "id": "l070",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1122,
+        1251,
+        2024,
+        1281
+      ],
+      "left": 1122,
+      "top": 1251,
+      "right": 2024,
+      "bottom": 1281,
+      "width": 902,
+      "height": 30,
+      "confidence": 95.072,
+      "text": "excited Uber dieses neue Projekt ist und dass die Fans ,,have"
+    },
+    {
+      "id": "l071",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 11,
+      "bbox": [
+        141,
+        1254,
+        562,
+        1285
+      ],
+      "left": 141,
+      "top": 1254,
+      "right": 562,
+      "bottom": 1285,
+      "width": 421,
+      "height": 31,
+      "confidence": 96.434,
+      "text": "mit Jeff Buckley oder Freddie"
+    },
+    {
+      "id": "l072",
+      "blockNumber": 24,
+      "paragraphNumber": 5,
+      "lineNumber": 1,
+      "bbox": [
+        2377,
+        1278,
+        2776,
+        1303
+      ],
+      "left": 2377,
+      "top": 1278,
+      "right": 2776,
+      "bottom": 1303,
+      "width": 399,
+      "height": 25,
+      "confidence": 95.117,
+      "text": "the streets 2 bekannt sein"
+    },
+    {
+      "id": "l073",
+      "blockNumber": 11,
+      "paragraphNumber": 5,
+      "lineNumber": 1,
+      "bbox": [
+        625,
+        1290,
+        970,
+        1315
+      ],
+      "left": 625,
+      "top": 1290,
+      "right": 970,
+      "bottom": 1315,
+      "width": 345,
+      "height": 25,
+      "confidence": 94.915,
+      "text": "in seinem neuen Album"
+    },
+    {
+      "id": "l074",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1121,
+        1293,
+        2087,
+        1324
+      ],
+      "left": 1121,
+      "top": 1293,
+      "right": 2087,
+      "bottom": 1324,
+      "width": 966,
+      "height": 31,
+      "confidence": 94.969,
+      "text": "something to look forward to“. Er sagte auch ,,The entire band has"
+    },
+    {
+      "id": "l075",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 12,
+      "bbox": [
+        141,
+        1296,
+        492,
+        1327
+      ],
+      "left": 141,
+      "top": 1296,
+      "right": 492,
+      "bottom": 1327,
+      "width": 351,
+      "height": 31,
+      "confidence": 94.058,
+      "text": "Mercury verglichen wird."
+    },
+    {
+      "id": "l076",
+      "blockNumber": 24,
+      "paragraphNumber": 5,
+      "lineNumber": 2,
+      "bbox": [
+        2379,
+        1321,
+        2736,
+        1353
+      ],
+      "left": 2379,
+      "top": 1321,
+      "right": 2736,
+      "bottom": 1353,
+      "width": 357,
+      "height": 32,
+      "confidence": 85.52,
+      "text": "dirfte. Bei diesem Song"
+    },
+    {
+      "id": "l077",
+      "blockNumber": 11,
+      "paragraphNumber": 5,
+      "lineNumber": 2,
+      "bbox": [
+        623,
+        1332,
+        864,
+        1357
+      ],
+      "left": 623,
+      "top": 1332,
+      "right": 864,
+      "bottom": 1357,
+      "width": 241,
+      "height": 25,
+      "confidence": 92.092,
+      "text": "wiedererkennen."
+    },
+    {
+      "id": "l078",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1121,
+        1337,
+        2060,
+        1368
+      ],
+      "left": 1121,
+      "top": 1337,
+      "right": 2060,
+      "bottom": 1368,
+      "width": 939,
+      "height": 31,
+      "confidence": 96.48,
+      "text": "accomplished some of its most challenging goals as a group and"
+    },
+    {
+      "id": "l079",
+      "blockNumber": 24,
+      "paragraphNumber": 5,
+      "lineNumber": 3,
+      "bbox": [
+        2379,
+        1363,
+        2786,
+        1388
+      ],
+      "left": 2379,
+      "top": 1363,
+      "right": 2786,
+      "bottom": 1388,
+      "width": 407,
+      "height": 25,
+      "confidence": 85.286,
+      "text": "haben die hibschen Frauen"
+    },
+    {
+      "id": "l080",
+      "blockNumber": 11,
+      "paragraphNumber": 6,
+      "lineNumber": 1,
+      "bbox": [
+        625,
+        1374,
+        1033,
+        1402
+      ],
+      "left": 625,
+      "top": 1374,
+      "right": 1033,
+      "bottom": 1402,
+      "width": 408,
+      "height": 28,
+      "confidence": 94.723,
+      "text": "Der Einfluss reicht von Jazz,"
+    },
+    {
+      "id": "l081",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        1121,
+        1379,
+        2060,
+        1409
+      ],
+      "left": 1121,
+      "top": 1379,
+      "right": 2060,
+      "bottom": 1409,
+      "width": 939,
+      "height": 30,
+      "confidence": 95.294,
+      "text": "as individuals. It’s all coming together on this album“. Was in der"
+    },
+    {
+      "id": "l082",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 14,
+      "bbox": [
+        274,
+        1388,
+        407,
+        1514
+      ],
+      "left": 274,
+      "top": 1388,
+      "right": 407,
+      "bottom": 1514,
+      "width": 133,
+      "height": 126,
+      "confidence": 53.999,
+      "text": "Aa."
+    },
+    {
+      "id": "l083",
+      "blockNumber": 24,
+      "paragraphNumber": 5,
+      "lineNumber": 4,
+      "bbox": [
+        2380,
+        1405,
+        2784,
+        1437
+      ],
+      "left": 2380,
+      "top": 1405,
+      "right": 2784,
+      "bottom": 1437,
+      "width": 404,
+      "height": 32,
+      "confidence": 84.262,
+      "text": "Unterstitzung von Yung Joc"
+    },
+    {
+      "id": "l084",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        1123,
+        1415,
+        1978,
+        1452
+      ],
+      "left": 1123,
+      "top": 1415,
+      "right": 1978,
+      "bottom": 1452,
+      "width": 855,
+      "height": 37,
+      "confidence": 93.069,
+      "text": "Ubersetzung sowas heift wie: Das Album ist der Hammer."
+    },
+    {
+      "id": "l085",
+      "blockNumber": 11,
+      "paragraphNumber": 6,
+      "lineNumber": 2,
+      "bbox": [
+        625,
+        1416,
+        1016,
+        1447
+      ],
+      "left": 625,
+      "top": 1416,
+      "right": 1016,
+      "bottom": 1447,
+      "width": 391,
+      "height": 31,
+      "confidence": 96.715,
+      "text": "Folk, Blues, Celtic, Country"
+    },
+    {
+      "id": "l086",
+      "blockNumber": 24,
+      "paragraphNumber": 5,
+      "lineNumber": 5,
+      "bbox": [
+        2378,
+        1448,
+        2506,
+        1472
+      ],
+      "left": 2378,
+      "top": 1448,
+      "right": 2506,
+      "bottom": 1472,
+      "width": 128,
+      "height": 24,
+      "confidence": 96.616,
+      "text": "erhalten."
+    },
+    {
+      "id": "l087",
+      "blockNumber": 11,
+      "paragraphNumber": 6,
+      "lineNumber": 3,
+      "bbox": [
+        625,
+        1460,
+        971,
+        1490
+      ],
+      "left": 625,
+      "top": 1460,
+      "right": 971,
+      "bottom": 1490,
+      "width": 346,
+      "height": 30,
+      "confidence": 96.483,
+      "text": "und Soul bis zu Gospel."
+    },
+    {
+      "id": "l088",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        303,
+        1484,
+        470,
+        1609
+      ],
+      "left": 303,
+      "top": 1484,
+      "right": 470,
+      "bottom": 1609,
+      "width": 167,
+      "height": 125,
+      "confidence": 24.686,
+      "text": "ey"
+    },
+    {
+      "id": "l089",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1122,
+        1504,
+        2066,
+        1536
+      ],
+      "left": 1122,
+      "top": 1504,
+      "right": 2066,
+      "bottom": 1536,
+      "width": 944,
+      "height": 32,
+      "confidence": 94.167,
+      "text": "Gleichzeitig ist der Gitarrist und Frontsanger River Cuomo dabei,"
+    },
+    {
+      "id": "l090",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1122,
+        1548,
+        2096,
+        1579
+      ],
+      "left": 1122,
+      "top": 1548,
+      "right": 2096,
+      "bottom": 1579,
+      "width": 974,
+      "height": 31,
+      "confidence": 95.304,
+      "text": "sein Soloalbum Alone: The Home Recordings of Rivers Cuomo zu"
+    },
+    {
+      "id": "l091",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1121,
+        1590,
+        1345,
+        1615
+      ],
+      "left": 1121,
+      "top": 1590,
+      "right": 1345,
+      "bottom": 1615,
+      "width": 224,
+      "height": 25,
+      "confidence": 80.145,
+      "text": "verOffentlichen."
+    },
+    {
+      "id": "l092",
+      "blockNumber": 21,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1121,
+        1674,
+        1535,
+        1705
+      ],
+      "left": 1121,
+      "top": 1674,
+      "right": 1535,
+      "bottom": 1705,
+      "width": 414,
+      "height": 31,
+      "confidence": 93.611,
+      "text": "Auf jeden Fall durfen wir alle"
+    },
+    {
+      "id": "l093",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        139,
+        1794,
+        530,
+        1819
+      ],
+      "left": 139,
+      "top": 1794,
+      "right": 530,
+      "bottom": 1819,
+      "width": 391,
+      "height": 25,
+      "confidence": 85.43,
+      "text": "Am 28. Marz veroffentlicht"
+    },
+    {
+      "id": "l094",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        684,
+        1808,
+        984,
+        1841
+      ],
+      "left": 684,
+      "top": 1808,
+      "right": 984,
+      "bottom": 1841,
+      "width": 300,
+      "height": 33,
+      "confidence": 95.664,
+      "text": "KEEP IT SIMPLE"
+    },
+    {
+      "id": "l095",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        140,
+        1837,
+        519,
+        1867
+      ],
+      "left": 140,
+      "top": 1837,
+      "right": 519,
+      "bottom": 1867,
+      "width": 379,
+      "height": 30,
+      "confidence": 92.707,
+      "text": "der musikalische Veganer"
+    },
+    {
+      "id": "l096",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        652,
+        1858,
+        1010,
+        1895
+      ],
+      "left": 652,
+      "top": 1858,
+      "right": 1010,
+      "bottom": 1895,
+      "width": 358,
+      "height": 37,
+      "confidence": 96.511,
+      "text": "VAN MORRISON"
+    },
+    {
+      "id": "l097",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        140,
+        1880,
+        519,
+        1910
+      ],
+      "left": 140,
+      "top": 1880,
+      "right": 519,
+      "bottom": 1910,
+      "width": 379,
+      "height": 30,
+      "confidence": 96.639,
+      "text": "aus New York, Moby, sein"
+    },
+    {
+      "id": "l098",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        141,
+        1921,
+        530,
+        1953
+      ],
+      "left": 141,
+      "top": 1921,
+      "right": 530,
+      "bottom": 1953,
+      "width": 389,
+      "height": 32,
+      "confidence": 94.667,
+      "text": "neues Album. Es tragt den"
+    },
+    {
+      "id": "l099",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        625,
+        1925,
+        1017,
+        1956
+      ],
+      "left": 625,
+      "top": 1925,
+      "right": 1017,
+      "bottom": 1956,
+      "width": 392,
+      "height": 31,
+      "confidence": 96.306,
+      "text": "1977 kam Nina Hagen mit"
+    },
+    {
+      "id": "l100",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        139,
+        1964,
+        494,
+        1994
+      ],
+      "left": 139,
+      "top": 1964,
+      "right": 494,
+      "bottom": 1994,
+      "width": 355,
+      "height": 30,
+      "confidence": 94.392,
+      "text": "vielversprechenden Titel"
+    },
+    {
+      "id": "l101",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        624,
+        1969,
+        1007,
+        1993
+      ],
+      "left": 624,
+      "top": 1969,
+      "right": 1007,
+      "bottom": 1993,
+      "width": 383,
+      "height": 24,
+      "confidence": 96.597,
+      "text": "diesem Album zum ersten"
+    },
+    {
+      "id": "l102",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        140,
+        2006,
+        302,
+        2036
+      ],
+      "left": 140,
+      "top": 2006,
+      "right": 302,
+      "bottom": 2036,
+      "width": 162,
+      "height": 30,
+      "confidence": 96.24,
+      "text": "Last Night."
+    },
+    {
+      "id": "l103",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        625,
+        2010,
+        1059,
+        2039
+      ],
+      "left": 625,
+      "top": 2010,
+      "right": 1059,
+      "bottom": 2039,
+      "width": 434,
+      "height": 29,
+      "confidence": 95.31,
+      "text": "Mal in der BRD heraus, direkt"
+    },
+    {
+      "id": "l104",
+      "blockNumber": 7,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        141,
+        2047,
+        457,
+        2072
+      ],
+      "left": 141,
+      "top": 2047,
+      "right": 457,
+      "bottom": 2072,
+      "width": 316,
+      "height": 25,
+      "confidence": 89.781,
+      "text": "15 brandneue Stticke"
+    },
+    {
+      "id": "l105",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        625,
+        2052,
+        1060,
+        2077
+      ],
+      "left": 625,
+      "top": 2052,
+      "right": 1060,
+      "bottom": 2077,
+      "width": 435,
+      "height": 25,
+      "confidence": 94.928,
+      "text": "nach Verlassen der DDR. Und"
+    },
+    {
+      "id": "l106",
+      "blockNumber": 7,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        139,
+        2091,
+        474,
+        2116
+      ],
+      "left": 139,
+      "top": 2091,
+      "right": 474,
+      "bottom": 2116,
+      "width": 335,
+      "height": 25,
+      "confidence": 94.637,
+      "text": "wird er der Welt darauf"
+    },
+    {
+      "id": "l107",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        624,
+        2094,
+        1051,
+        2125
+      ],
+      "left": 624,
+      "top": 2094,
+      "right": 1051,
+      "bottom": 2125,
+      "width": 427,
+      "height": 31,
+      "confidence": 94.918,
+      "text": "es war wie eine Offenbarung."
+    },
+    {
+      "id": "l108",
+      "blockNumber": 7,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        141,
+        2133,
+        498,
+        2163
+      ],
+      "left": 141,
+      "top": 2133,
+      "right": 498,
+      "bottom": 2163,
+      "width": 357,
+      "height": 30,
+      "confidence": 94.891,
+      "text": "prasentieren und seinen"
+    },
+    {
+      "id": "l109",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        624,
+        2136,
+        1051,
+        2167
+      ],
+      "left": 624,
+      "top": 2136,
+      "right": 1051,
+      "bottom": 2167,
+      "width": 427,
+      "height": 31,
+      "confidence": 92.951,
+      "text": "So gereimt und frech gerockt"
+    },
+    {
+      "id": "l110",
+      "blockNumber": 7,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        141,
+        2175,
+        529,
+        2200
+      ],
+      "left": 141,
+      "top": 2175,
+      "right": 529,
+      "bottom": 2200,
+      "width": 388,
+      "height": 25,
+      "confidence": 84.859,
+      "text": "Ruf als Ausnahmekunstler"
+    },
+    {
+      "id": "l111",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        625,
+        2180,
+        1012,
+        2204
+      ],
+      "left": 625,
+      "top": 2180,
+      "right": 1012,
+      "bottom": 2204,
+      "width": 387,
+      "height": 24,
+      "confidence": 96.213,
+      "text": "hatte noch keine Frau weit"
+    },
+    {
+      "id": "l112",
+      "blockNumber": 7,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        139,
+        2218,
+        545,
+        2242
+      ],
+      "left": 139,
+      "top": 2218,
+      "right": 545,
+      "bottom": 2242,
+      "width": 406,
+      "height": 24,
+      "confidence": 91.35,
+      "text": "wieder einmal eindrucksvoll"
+    },
+    {
+      "id": "l113",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        625,
+        2222,
+        1060,
+        2246
+      ],
+      "left": 625,
+      "top": 2222,
+      "right": 1060,
+      "bottom": 2246,
+      "width": 435,
+      "height": 24,
+      "confidence": 92.605,
+      "text": "und breit. Selbst die Fachwelt"
+    },
+    {
+      "id": "l114",
+      "blockNumber": 7,
+      "paragraphNumber": 4,
+      "lineNumber": 3,
+      "bbox": [
+        140,
+        2261,
+        560,
+        2289
+      ],
+      "left": 140,
+      "top": 2261,
+      "right": 560,
+      "bottom": 2289,
+      "width": 420,
+      "height": 28,
+      "confidence": 94.033,
+      "text": "abzeichnen, soviel sei schon"
+    },
+    {
+      "id": "l115",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        623,
+        2264,
+        1034,
+        2288
+      ],
+      "left": 623,
+      "top": 2264,
+      "right": 1034,
+      "bottom": 2288,
+      "width": 411,
+      "height": 24,
+      "confidence": 93.64,
+      "text": "war schwer beeindruckt und"
+    },
+    {
+      "id": "l116",
+      "blockNumber": 26,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2379,
+        2285,
+        3221,
+        2315
+      ],
+      "left": 2379,
+      "top": 2285,
+      "right": 3221,
+      "bottom": 2315,
+      "width": 842,
+      "height": 30,
+      "confidence": 94.115,
+      "text": "Rising Down wird das zehnte Album der aus Philadelphia"
+    },
+    {
+      "id": "l117",
+      "blockNumber": 7,
+      "paragraphNumber": 4,
+      "lineNumber": 4,
+      "bbox": [
+        141,
+        2302,
+        574,
+        2327
+      ],
+      "left": 141,
+      "top": 2302,
+      "right": 574,
+      "bottom": 2327,
+      "width": 433,
+      "height": 25,
+      "confidence": 93.166,
+      "text": "mal verraten. In der nachsten"
+    },
+    {
+      "id": "l118",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 10,
+      "bbox": [
+        623,
+        2305,
+        982,
+        2330
+      ],
+      "left": 623,
+      "top": 2305,
+      "right": 982,
+      "bottom": 2330,
+      "width": 359,
+      "height": 25,
+      "confidence": 90.943,
+      "text": "fiir die nachsten 2 Jahre"
+    },
+    {
+      "id": "l119",
+      "blockNumber": 26,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2379,
+        2327,
+        3193,
+        2351
+      ],
+      "left": 2379,
+      "top": 2327,
+      "right": 3193,
+      "bottom": 2351,
+      "width": 814,
+      "height": 24,
+      "confidence": 95.885,
+      "text": "stammenden Band The Roots sein. Das Album soll am"
+    },
+    {
+      "id": "l120",
+      "blockNumber": 7,
+      "paragraphNumber": 4,
+      "lineNumber": 5,
+      "bbox": [
+        139,
+        2342,
+        558,
+        2379
+      ],
+      "left": 139,
+      "top": 2342,
+      "right": 558,
+      "bottom": 2379,
+      "width": 419,
+      "height": 37,
+      "confidence": 90.208,
+      "text": "Ausgabe von proud kénnt ihr"
+    },
+    {
+      "id": "l121",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 11,
+      "bbox": [
+        624,
+        2350,
+        1031,
+        2380
+      ],
+      "left": 624,
+      "top": 2350,
+      "right": 1031,
+      "bottom": 2380,
+      "width": 407,
+      "height": 30,
+      "confidence": 95.265,
+      "text": "schien Frau Hagen die Nr. 1"
+    },
+    {
+      "id": "l122",
+      "blockNumber": 26,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        2379,
+        2368,
+        3170,
+        2399
+      ],
+      "left": 2379,
+      "top": 2368,
+      "right": 3170,
+      "bottom": 2399,
+      "width": 791,
+      "height": 31,
+      "confidence": 89.163,
+      "text": "28. April auf dem Label Def Jam veroffentlich werden."
+    },
+    {
+      "id": "l123",
+      "blockNumber": 7,
+      "paragraphNumber": 4,
+      "lineNumber": 6,
+      "bbox": [
+        140,
+        2387,
+        535,
+        2418
+      ],
+      "left": 140,
+      "top": 2387,
+      "right": 535,
+      "bottom": 2418,
+      "width": 395,
+      "height": 31,
+      "confidence": 92.545,
+      "text": "das Album dann gewinnen."
+    },
+    {
+      "id": "l124",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 12,
+      "bbox": [
+        624,
+        2391,
+        1062,
+        2416
+      ],
+      "left": 624,
+      "top": 2391,
+      "right": 1062,
+      "bottom": 2416,
+      "width": 438,
+      "height": 25,
+      "confidence": 94.582,
+      "text": "der deutschen Charts fur sich"
+    },
+    {
+      "id": "l125",
+      "blockNumber": 26,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        2378,
+        2413,
+        3304,
+        2444
+      ],
+      "left": 2378,
+      "top": 2413,
+      "right": 3304,
+      "bottom": 2444,
+      "width": 926,
+      "height": 31,
+      "confidence": 95.749,
+      "text": "The Roots sind mit einem ganz eigenen Hip Hop Style bekannt"
+    },
+    {
+      "id": "l126",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 13,
+      "bbox": [
+        623,
+        2434,
+        921,
+        2464
+      ],
+      "left": 623,
+      "top": 2434,
+      "right": 921,
+      "bottom": 2464,
+      "width": 298,
+      "height": 30,
+      "confidence": 94.948,
+      "text": "gepachtet zu haben."
+    },
+    {
+      "id": "l127",
+      "blockNumber": 22,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1200,
+        2446,
+        1843,
+        2481
+      ],
+      "left": 1200,
+      "top": 2446,
+      "right": 1843,
+      "bottom": 2481,
+      "width": 643,
+      "height": 35,
+      "confidence": 88.602,
+      "text": "“nicht gesehn habt. Besucht die Band unter"
+    },
+    {
+      "id": "l128",
+      "blockNumber": 26,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        2378,
+        2455,
+        3029,
+        2485
+      ],
+      "left": 2378,
+      "top": 2455,
+      "right": 3029,
+      "bottom": 2485,
+      "width": 651,
+      "height": 30,
+      "confidence": 94.66,
+      "text": "geworden der organic Hip Hop genannt wird."
+    },
+    {
+      "id": "l129",
+      "blockNumber": 22,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1178,
+        2484,
+        1677,
+        2530
+      ],
+      "left": 1178,
+      "top": 2484,
+      "right": 1677,
+      "bottom": 2530,
+      "width": 499,
+      "height": 46,
+      "confidence": 40.204,
+      "text": "2 -myspace.com/theelektricrobots"
+    },
+    {
+      "id": "l130",
+      "blockNumber": 26,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        2380,
+        2497,
+        2955,
+        2527
+      ],
+      "left": 2380,
+      "top": 2497,
+      "right": 2955,
+      "bottom": 2527,
+      "width": 575,
+      "height": 30,
+      "confidence": 95.058,
+      "text": "Er ist eine Mischung aus Jazz und Rap."
+    },
+    {
+      "id": "l131",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        125,
+        2771,
+        135,
+        2791
+      ],
+      "left": 125,
+      "top": 2771,
+      "right": 135,
+      "bottom": 2791,
+      "width": 10,
+      "height": 20,
+      "confidence": 36.078,
+      "text": "Zz"
+    },
+    {
+      "id": "l132",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        127,
+        2792,
+        135,
+        2807
+      ],
+      "left": 127,
+      "top": 2792,
+      "right": 135,
+      "bottom": 2807,
+      "width": 8,
+      "height": 15,
+      "confidence": 44.964,
+      "text": "3"
+    },
+    {
+      "id": "l133",
+      "blockNumber": 27,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3219,
+        2792,
+        3330,
+        2808
+      ],
+      "left": 3219,
+      "top": 2792,
+      "right": 3330,
+      "bottom": 2808,
+      "width": 111,
+      "height": 16,
+      "confidence": 95.948,
+      "text": "PROGRAM"
+    },
+    {
+      "id": "l134",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        124,
+        2809,
+        135,
+        2824
+      ],
+      "left": 124,
+      "top": 2809,
+      "right": 135,
+      "bottom": 2824,
+      "width": 11,
+      "height": 15,
+      "confidence": 60.167,
+      "text": "2"
+    }
+  ]
+}

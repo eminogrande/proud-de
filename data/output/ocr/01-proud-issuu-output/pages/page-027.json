@@ -1,0 +1,75 @@
+{
+  "id": "gen-1778171795-IeA7FAltSyriOE11IytG",
+  "object": "chat.completion",
+  "created": 1778171795,
+  "model": "google/gemini-2.5-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "standard",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "OK.",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "file",
+            "file": {
+              "hash": "5be71ae34ca0ce53034f8400eeff7771e70533d666172178b0d82122a37c3637",
+              "name": "01 proud issuu_output-page-027.pdf",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "<file name=\"01 proud issuu_output-page-027.pdf\">"
+                },
+                {
+                  "type": "text",
+                  "text": "chat\n\n# demir\n\nSkalitzerstraße, Bar25 muss überleben. dunkle Keller, bunt beleuchtete Ruinen - was macht Demir in Berlin?\n\n# Berlin\n\n![img-0.jpeg](img-0.jpeg)\n\nFür welche Frau würdest Du mitten im Technoset im Berghain Hip-Hop auflegen?\nFür meine Freundin würde ich selbst Schlager spielen, wenn sie das glücklich machen sollte... Aber zum Glück ist das ja nicht der Fall.\n\nWas müsste man Dir bieten, damit Du aus Berlin wegziehst?\nBerlin plus Meer.\n\nUnter welchen Umständen würdest Du im Felix auflegen?\nIch bin Student, ich brauche das Geld.\n\nWarum ist Dein Berliner Lieblingsclub Dein Lieblingsclub geworden?\nDie Stadt ist mein Lieblingsclub. Es gibt einfach zu viele gute Partys, als dass ich einen Lieblingsclub haben könnte.\n\nWo und für wieviel hast Du Dein erstes DJ-Set gespielt?\nDas war auf der Pentagonik-Gründungsparty 2005. Die HiFi-Kopfhörer von zu Hause waren natürlich viel zu leise und die Anlage, die wir gemietet hatten, wie immer viel zu laut. Somit habe ich so gut wie nichts gehört. Geil war es trotzdem. Entlohnt?! Don, Kai wo ist mein Geld?\n\nWas machst Du im Ausland, was Du hier niemals bringen würdest?\nIch ziehe mich nackt aus und schatche mit den Arschbacken... Nein im Grunde mache ich all das, was ich auch in Berlin machen würde.\n\nPAGE 27"
+                },
+                {
+                  "type": "image_url",
+                  "image_url": {
+                    "url": "data:image/jpeg;base64,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"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "</file>"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1911,
+    "completion_tokens": 2,
+    "total_tokens": 1913,
+    "cost": 0.002572517,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0005783,
+      "upstream_inference_prompt_cost": 0.0005733,
+      "upstream_inference_completions_cost": 5e-06
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

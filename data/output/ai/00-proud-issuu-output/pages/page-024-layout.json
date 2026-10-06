@@ -1,0 +1,20 @@
+{
+  "sections": [
+    {
+      "title": "Style icon",
+      "kind": "promo",
+      "titleLineIds": [
+        "l001"
+      ],
+      "lineIds": [
+        "l001",
+        "l002",
+        "l005",
+        "l006",
+        "l007",
+        "l008",
+        "l009"
+      ]
+    }
+  ]
+}

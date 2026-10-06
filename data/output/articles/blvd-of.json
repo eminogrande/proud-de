@@ -1,0 +1,70 @@
+{
+  "slug": "blvd-of",
+  "title": "BLVD OF",
+  "magazineSlug": "01-proud-issuu-output",
+  "magazineTitle": "01 proud issuu_output",
+  "publicationDate": null,
+  "sourcePdf": "01 proud issuu_output.pdf",
+  "authors": [],
+  "tags": [],
+  "pages": {
+    "start": 53,
+    "end": 53
+  },
+  "summary": "BLVD OF One of a Kind Scott & Robert S. A.",
+  "excerpt": "BLVD OF One of a Kind Scott & Robert S. A. More Than You I Perguined For",
+  "wordCount": 16,
+  "bodyText": "BLVD OF\nOne of a Kind\nScott & Robert\nS. A.\nMore Than You I Perguined For",
+  "markdown": "# BLVD OF\n\n> Quelle: 01 proud issuu_output, Seiten 53-53\n\n## Seite 53\n\nBLVD OF\n\nOne of a Kind\n\nScott & Robert\n\nS. A.\n\nMore Than You I Perguined For\n",
+  "previewImage": "previews/blvd-of.png",
+  "pageImages": [
+    {
+      "pageNumber": 53,
+      "image": "page-images/blvd-of/page-053.jpg",
+      "width": 1677,
+      "height": 2247
+    }
+  ],
+  "pageDetails": [
+    {
+      "pageNumber": 53,
+      "text": "BLVD OF\nOne of a Kind\nScott & Robert\nS. A.\nMore Than You I Perguined For",
+      "nativeText": "",
+      "ocrMarkdown": "<file name=\"01 proud issuu_output-page-053.pdf\">\nBLVD OF\n\nOne of a Kind\n\nScott &amp; Robert\n\nS. A.\n\n![img-0.jpeg](img-0.jpeg)\n\nMore Than You I Perguined For\n</file>",
+      "ocrSource": "openrouter:mistral-ocr",
+      "ocrImageCount": 1,
+      "ocrRawFile": "/Users/eminmahrt/Developer/proud-de/data/output/ocr/01-proud-issuu-output/pages/page-053.json",
+      "displayMarkdown": "BLVD OF\n\nOne of a Kind\n\nScott & Robert\n\nS. A.\n\nMore Than You I Perguined For",
+      "sectionIds": [
+        "p053s01"
+      ],
+      "titles": [
+        "BLVD OF"
+      ]
+    }
+  ],
+  "contentBlocks": [
+    {
+      "pageNumber": 53,
+      "spreadPages": [
+        52,
+        53
+      ],
+      "sectionIds": [
+        "p053s01"
+      ],
+      "titles": [
+        "BLVD OF"
+      ],
+      "markdown": "BLVD OF\n\nOne of a Kind\n\nScott & Robert\n\nS. A.\n\nMore Than You I Perguined For",
+      "text": "BLVD OF\nOne of a Kind\nScott & Robert\nS. A.\nMore Than You I Perguined For",
+      "pageImage": {
+        "pageNumber": 53,
+        "image": "page-images/blvd-of/page-053.jpg",
+        "width": 1677,
+        "height": 2247
+      }
+    }
+  ],
+  "contentHash": "74454911de0c4daf5926ab2ad08b39e1b8176cf1d51226ac8d77fde1c4d5a2b4"
+}

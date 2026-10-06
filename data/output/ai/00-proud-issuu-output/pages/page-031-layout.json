@@ -1,0 +1,243 @@
+{
+  "sections": [
+    {
+      "title": "dirty kicks ...forget friday!",
+      "kind": "event",
+      "titleLineIds": [
+        "l002",
+        "l005"
+      ],
+      "lineIds": [
+        "l002",
+        "l005",
+        "l008",
+        "l010",
+        "l013",
+        "l015",
+        "l017",
+        "l019",
+        "l021",
+        "l023",
+        "l024",
+        "l028"
+      ]
+    },
+    {
+      "title": "easter eggs",
+      "kind": "event",
+      "titleLineIds": [
+        "l003"
+      ],
+      "lineIds": [
+        "l003",
+        "l004",
+        "l007",
+        "l009",
+        "l011",
+        "l014",
+        "l016",
+        "l018",
+        "l020",
+        "l022",
+        "l048"
+      ]
+    },
+    {
+      "title": "& gomorra ...clash of the titans!",
+      "kind": "event",
+      "titleLineIds": [
+        "l026",
+        "l030"
+      ],
+      "lineIds": [
+        "l026",
+        "l030",
+        "l034",
+        "l038",
+        "l041",
+        "l043",
+        "l047",
+        "l052",
+        "l056",
+        "l061",
+        "l065",
+        "l069",
+        "l073",
+        "l080",
+        "l084",
+        "l090",
+        "l092",
+        "l094",
+        "l096",
+        "l099",
+        "l100",
+        "l103"
+      ]
+    },
+    {
+      "title": "eggstase",
+      "kind": "event",
+      "titleLineIds": [
+        "l033"
+      ],
+      "lineIds": [
+        "l033",
+        "l036",
+        "l039",
+        "l042",
+        "l046",
+        "l051",
+        "l055",
+        "l060",
+        "l064",
+        "l068",
+        "l072",
+        "l076",
+        "l079",
+        "l086"
+      ]
+    },
+    {
+      "title": "robinson und der lustige freitag",
+      "kind": "event",
+      "titleLineIds": [
+        "l032",
+        "l037"
+      ],
+      "lineIds": [
+        "l032",
+        "l037",
+        "l040",
+        "l045",
+        "l050",
+        "l054",
+        "l059",
+        "l062",
+        "l066",
+        "l070",
+        "l074",
+        "l077",
+        "l081",
+        "l083",
+        "l087",
+        "l089",
+        "l093",
+        "l097",
+        "l102"
+      ]
+    },
+    {
+      "title": "atari disco",
+      "kind": "event",
+      "titleLineIds": [
+        "l057"
+      ],
+      "lineIds": [
+        "l057",
+        "l063",
+        "l067",
+        "l071",
+        "l075",
+        "l078",
+        "l082",
+        "l085",
+        "l088",
+        "l091",
+        "l095",
+        "l098",
+        "l101",
+        "l104",
+        "l105",
+        "l107",
+        "l111"
+      ]
+    },
+    {
+      "title": "any given tuesday",
+      "kind": "event",
+      "titleLineIds": [
+        "l106"
+      ],
+      "lineIds": [
+        "l106",
+        "l110",
+        "l114",
+        "l119",
+        "l122",
+        "l125",
+        "l128",
+        "l130",
+        "l133",
+        "l135",
+        "l137",
+        "l140",
+        "l142",
+        "l144",
+        "l147",
+        "l151",
+        "l153",
+        "l156"
+      ]
+    },
+    {
+      "title": "nix zu tun und trotzdem keine zeit",
+      "kind": "event",
+      "titleLineIds": [
+        "l113",
+        "l116"
+      ],
+      "lineIds": [
+        "l113",
+        "l116",
+        "l123",
+        "l178",
+        "l129",
+        "l132",
+        "l134",
+        "l136",
+        "l139",
+        "l141",
+        "l143",
+        "l145",
+        "l148",
+        "l149",
+        "l152",
+        "l157"
+      ]
+    },
+    {
+      "title": "calling all promoters:",
+      "kind": "promo",
+      "titleLineIds": [
+        "l154",
+        "l159"
+      ],
+      "lineIds": [
+        "l154",
+        "l159",
+        "l162",
+        "l165",
+        "l168",
+        "l172",
+        "l174",
+        "l176"
+      ]
+    },
+    {
+      "title": "online newsletter:",
+      "kind": "promo",
+      "titleLineIds": [
+        "l158"
+      ],
+      "lineIds": [
+        "l158",
+        "l163",
+        "l166",
+        "l169",
+        "l171",
+        "l175",
+        "l177"
+      ]
+    }
+  ]
+}

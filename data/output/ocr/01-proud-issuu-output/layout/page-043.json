@@ -1,0 +1,87 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        272,
+        258,
+        2972,
+        307
+      ],
+      "left": 272,
+      "top": 258,
+      "right": 2972,
+      "bottom": 307,
+      "width": 2700,
+      "height": 49,
+      "confidence": 89.4,
+      "text": "7days in sieben Outfits. Sarai und Mack diirfen sich zeigen. Personliche Garderobe und geliehene Lieblingsteile. Mack Mckelton,"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        270,
+        323,
+        2956,
+        371
+      ],
+      "left": 270,
+      "top": 323,
+      "right": 2956,
+      "bottom": 371,
+      "width": 2686,
+      "height": 48,
+      "confidence": 91.708,
+      "text": "versorgt durch seine zahlreichen Sponsoren. K6nigin Sarai, versorgt durch ihre zahlreichen Verehrer. Wir zeigen Dir die Woche"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        271,
+        385,
+        2759,
+        434
+      ],
+      "left": 271,
+      "top": 385,
+      "right": 2759,
+      "bottom": 434,
+      "width": 2488,
+      "height": 49,
+      "confidence": 92.525,
+      "text": "zweier Fashion-Gurus, die wissen wie man sich darstellt. Fiihle Dich frei sie zu kopieren, anzubeten und zu verfolgen."
+    },
+    {
+      "id": "l004",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1719,
+        533,
+        2147,
+        642
+      ],
+      "left": 1719,
+      "top": 533,
+      "right": 2147,
+      "bottom": 642,
+      "width": 428,
+      "height": 109,
+      "confidence": 95.718,
+      "text": "saturday"
+    }
+  ]
+}

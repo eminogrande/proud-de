@@ -1,0 +1,1907 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1258,
+        273,
+        2073,
+        319
+      ],
+      "left": 1258,
+      "top": 273,
+      "right": 2073,
+      "bottom": 319,
+      "width": 815,
+      "height": 46,
+      "confidence": 95.065,
+      "text": "Nach der Entscheidung auf TRAKTOR"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2234,
+        276,
+        2990,
+        322
+      ],
+      "left": 2234,
+      "top": 276,
+      "right": 2990,
+      "bottom": 322,
+      "width": 756,
+      "height": 46,
+      "confidence": 95.398,
+      "text": "zehn oder 15. So ist das Handling"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1257,
+        336,
+        2048,
+        382
+      ],
+      "left": 1257,
+      "top": 336,
+      "right": 2048,
+      "bottom": 382,
+      "width": 791,
+      "height": 46,
+      "confidence": 91.643,
+      "text": "SCRATCH umzusteigen, ist Schlafen"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2233,
+        339,
+        2983,
+        385
+      ],
+      "left": 2233,
+      "top": 339,
+      "right": 2983,
+      "bottom": 385,
+      "width": 750,
+      "height": 46,
+      "confidence": 94.99,
+      "text": "ganz cool. Quasi kein Unterschied"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1254,
+        399,
+        2039,
+        442
+      ],
+      "left": 1254,
+      "top": 399,
+      "right": 2039,
+      "bottom": 442,
+      "width": 785,
+      "height": 43,
+      "confidence": 91.968,
+      "text": "vorbei. Zwischen Gewissensbissen,"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        2234,
+        401,
+        2978,
+        448
+      ],
+      "left": 2234,
+      "top": 401,
+      "right": 2978,
+      "bottom": 448,
+      "width": 744,
+      "height": 47,
+      "confidence": 91.857,
+      "text": "zu richtigem Vinyl. Die ersten funf"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1255,
+        464,
+        1829,
+        500
+      ],
+      "left": 1255,
+      "top": 464,
+      "right": 1829,
+      "bottom": 500,
+      "width": 574,
+      "height": 36,
+      "confidence": 96.376,
+      "text": "was wohl die anderen DJs"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        2236,
+        466,
+        2959,
+        503
+      ],
+      "left": 2236,
+      "top": 466,
+      "right": 2959,
+      "bottom": 503,
+      "width": 723,
+      "height": 37,
+      "confidence": 94.389,
+      "text": "Minuten kannst Du fasziniert mit"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 5,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1256,
+        527,
+        2029,
+        569
+      ],
+      "left": 1256,
+      "top": 527,
+      "right": 2029,
+      "bottom": 569,
+      "width": 773,
+      "height": 42,
+      "confidence": 94.114,
+      "text": "denken, und ob ich noch in den DJ-"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        2237,
+        530,
+        2979,
+        576
+      ],
+      "left": 2237,
+      "top": 530,
+      "right": 2979,
+      "bottom": 576,
+      "width": 742,
+      "height": 46,
+      "confidence": 94.409,
+      "text": "Babyscratches verbringen, das ist"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 5,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        1258,
+        590,
+        2045,
+        632
+      ],
+      "left": 1258,
+      "top": 590,
+      "right": 2045,
+      "bottom": 632,
+      "width": 787,
+      "height": 42,
+      "confidence": 93.124,
+      "text": "Himmel kommen werde, und totaler"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        2235,
+        593,
+        2963,
+        638
+      ],
+      "left": 2235,
+      "top": 593,
+      "right": 2963,
+      "bottom": 638,
+      "width": 728,
+      "height": 45,
+      "confidence": 95.17,
+      "text": "schon okay. Aber beim Mixen mit"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 5,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        1258,
+        651,
+        2008,
+        689
+      ],
+      "left": 1258,
+      "top": 651,
+      "right": 2008,
+      "bottom": 689,
+      "width": 750,
+      "height": 38,
+      "confidence": 92.587,
+      "text": "Faszination ziehen die nachtlichen"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        2233,
+        656,
+        3052,
+        698
+      ],
+      "left": 2233,
+      "top": 656,
+      "right": 3052,
+      "bottom": 698,
+      "width": 819,
+      "height": 42,
+      "confidence": 93.108,
+      "text": "Traktor Scratch musst Du umdenken,"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 5,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        1257,
+        717,
+        2054,
+        763
+      ],
+      "left": 1257,
+      "top": 717,
+      "right": 2054,
+      "bottom": 763,
+      "width": 797,
+      "height": 46,
+      "confidence": 94.833,
+      "text": "Stunden an mir vorbei. Weg sind die"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        2233,
+        719,
+        2956,
+        756
+      ],
+      "left": 2233,
+      "top": 719,
+      "right": 2956,
+      "bottom": 756,
+      "width": 723,
+      "height": 37,
+      "confidence": 95.268,
+      "text": "weil sich die Flachen und Breaks"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 5,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        1255,
+        779,
+        2047,
+        826
+      ],
+      "left": 1255,
+      "top": 779,
+      "right": 2047,
+      "bottom": 826,
+      "width": 792,
+      "height": 47,
+      "confidence": 93.418,
+      "text": "Zweifel — die kOnnen sich gerne mal"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 7,
+      "bbox": [
+        2236,
+        782,
+        2964,
+        819
+      ],
+      "left": 2236,
+      "top": 782,
+      "right": 2964,
+      "bottom": 819,
+      "width": 728,
+      "height": 37,
+      "confidence": 94.961,
+      "text": "nicht mehr an der Oberflache der"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 5,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        1257,
+        843,
+        2073,
+        889
+      ],
+      "left": 1257,
+      "top": 843,
+      "right": 2073,
+      "bottom": 889,
+      "width": 816,
+      "height": 46,
+      "confidence": 92.506,
+      "text": "kreuzweise — die Entscheidung steht:"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 8,
+      "bbox": [
+        2236,
+        846,
+        3011,
+        882
+      ],
+      "left": 2236,
+      "top": 846,
+      "right": 3011,
+      "bottom": 882,
+      "width": 775,
+      "height": 36,
+      "confidence": 92.295,
+      "text": "Platte ablesen lassen. Stattdessen"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 5,
+      "paragraphNumber": 2,
+      "lineNumber": 7,
+      "bbox": [
+        1255,
+        905,
+        1961,
+        952
+      ],
+      "left": 1255,
+      "top": 905,
+      "right": 1961,
+      "bottom": 952,
+      "width": 706,
+      "height": 47,
+      "confidence": 93.795,
+      "text": "Zukunftig wird es wohl vermehrt"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 9,
+      "bbox": [
+        2236,
+        911,
+        2988,
+        947
+      ],
+      "left": 2236,
+      "top": 911,
+      "right": 2988,
+      "bottom": 947,
+      "width": 752,
+      "height": 36,
+      "confidence": 94.369,
+      "text": "musst Du Dich auf den Bildschirm"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 5,
+      "paragraphNumber": 2,
+      "lineNumber": 8,
+      "bbox": [
+        1256,
+        971,
+        1682,
+        1017
+      ],
+      "left": 1256,
+      "top": 971,
+      "right": 1682,
+      "bottom": 1017,
+      "width": 426,
+      "height": 46,
+      "confidence": 96.336,
+      "text": "digitale Musik sein."
+    },
+    {
+      "id": "l024",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 10,
+      "bbox": [
+        2233,
+        973,
+        3012,
+        1020
+      ],
+      "left": 2233,
+      "top": 973,
+      "right": 3012,
+      "bottom": 1020,
+      "width": 779,
+      "height": 47,
+      "confidence": 95.662,
+      "text": "verlassen. Am Anfang mag es noch"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 11,
+      "bbox": [
+        2235,
+        1037,
+        3047,
+        1083
+      ],
+      "left": 2235,
+      "top": 1037,
+      "right": 3047,
+      "bottom": 1083,
+      "width": 812,
+      "height": 46,
+      "confidence": 95.332,
+      "text": "sehr befremdlich sein, aber das geht"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1254,
+        1097,
+        1838,
+        1133
+      ],
+      "left": 1254,
+      "top": 1097,
+      "right": 1838,
+      "bottom": 1133,
+      "width": 584,
+      "height": 36,
+      "confidence": 93.155,
+      "text": "Was erwartet Euch? In der"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 12,
+      "bbox": [
+        2235,
+        1100,
+        3027,
+        1136
+      ],
+      "left": 2235,
+      "top": 1100,
+      "right": 3027,
+      "bottom": 1136,
+      "width": 792,
+      "height": 36,
+      "confidence": 92.554,
+      "text": "schnell vorbei und wird stinknormal."
+    },
+    {
+      "id": "l028",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1256,
+        1160,
+        2025,
+        1204
+      ],
+      "left": 1256,
+      "top": 1160,
+      "right": 2025,
+      "bottom": 1204,
+      "width": 769,
+      "height": 44,
+      "confidence": 91.382,
+      "text": "quadratischen Schachtel bekommt"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 13,
+      "bbox": [
+        2237,
+        1164,
+        2906,
+        1200
+      ],
+      "left": 2237,
+      "top": 1164,
+      "right": 2906,
+      "bottom": 1200,
+      "width": 669,
+      "height": 36,
+      "confidence": 92.67,
+      "text": "Dem effektverliebten DJ bietet"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1258,
+        1224,
+        1893,
+        1267
+      ],
+      "left": 1258,
+      "top": 1224,
+      "right": 1893,
+      "bottom": 1267,
+      "width": 635,
+      "height": 43,
+      "confidence": 89.432,
+      "text": "Ihr das Audio 8 Interface, die"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 14,
+      "bbox": [
+        2233,
+        1227,
+        2967,
+        1263
+      ],
+      "left": 2233,
+      "top": 1227,
+      "right": 2967,
+      "bottom": 1263,
+      "width": 734,
+      "height": 36,
+      "confidence": 93.579,
+      "text": "TRATKTOR SCRATCH PRO Tonnen"
+    },
+    {
+      "id": "l032",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1254,
+        1286,
+        2027,
+        1324
+      ],
+      "left": 1254,
+      "top": 1286,
+      "right": 2027,
+      "bottom": 1324,
+      "width": 773,
+      "height": 38,
+      "confidence": 86.86,
+      "text": "Timecode-Platten und den ublichen"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 15,
+      "bbox": [
+        2233,
+        1289,
+        2971,
+        1336
+      ],
+      "left": 2233,
+      "top": 1289,
+      "right": 2971,
+      "bottom": 1336,
+      "width": 738,
+      "height": 47,
+      "confidence": 90.697,
+      "text": "von Moglichkeiten. Delay, Flanger,"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        1254,
+        1350,
+        2057,
+        1395
+      ],
+      "left": 1254,
+      "top": 1350,
+      "right": 2057,
+      "bottom": 1395,
+      "width": 803,
+      "height": 45,
+      "confidence": 94.87,
+      "text": "Techniknippes. Die erste Installation"
+    },
+    {
+      "id": "l035",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 16,
+      "bbox": [
+        2237,
+        1353,
+        2914,
+        1398
+      ],
+      "left": 2237,
+      "top": 1353,
+      "right": 2914,
+      "bottom": 1398,
+      "width": 677,
+      "height": 45,
+      "confidence": 95.373,
+      "text": "Bandpass-Filter, Gate und viele"
+    },
+    {
+      "id": "l036",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        1254,
+        1414,
+        1991,
+        1451
+      ],
+      "left": 1254,
+      "top": 1414,
+      "right": 1991,
+      "bottom": 1451,
+      "width": 737,
+      "height": 37,
+      "confidence": 94.914,
+      "text": "verlauft ohne Probleme. Interface"
+    },
+    {
+      "id": "l037",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 17,
+      "bbox": [
+        2234,
+        1418,
+        3080,
+        1454
+      ],
+      "left": 2234,
+      "top": 1418,
+      "right": 3080,
+      "bottom": 1454,
+      "width": 846,
+      "height": 36,
+      "confidence": 94.616,
+      "text": "andere Gimmicks lassen sich in Reihe"
+    },
+    {
+      "id": "l038",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        1257,
+        1478,
+        2089,
+        1524
+      ],
+      "left": 1257,
+      "top": 1478,
+      "right": 2089,
+      "bottom": 1524,
+      "width": 832,
+      "height": 46,
+      "confidence": 94.625,
+      "text": "rein und ran an die Bouletten. Vergiss"
+    },
+    {
+      "id": "l039",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 18,
+      "bbox": [
+        2235,
+        1481,
+        3044,
+        1525
+      ],
+      "left": 2235,
+      "top": 1481,
+      "right": 3044,
+      "bottom": 1525,
+      "width": 809,
+      "height": 44,
+      "confidence": 94.511,
+      "text": "schalten. Sehr praktisch ist auch die"
+    },
+    {
+      "id": "l040",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        1258,
+        1540,
+        2039,
+        1577
+      ],
+      "left": 1258,
+      "top": 1540,
+      "right": 2039,
+      "bottom": 1577,
+      "width": 781,
+      "height": 37,
+      "confidence": 93.88,
+      "text": "Deine schuchternen Blicke Uber die"
+    },
+    {
+      "id": "l041",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 19,
+      "bbox": [
+        2237,
+        1544,
+        3027,
+        1588
+      ],
+      "left": 2237,
+      "top": 1544,
+      "right": 3027,
+      "bottom": 1588,
+      "width": 790,
+      "height": 44,
+      "confidence": 93.942,
+      "text": "Loop-Funktion, mit der man spontan"
+    },
+    {
+      "id": "l042",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        1256,
+        1604,
+        1981,
+        1650
+      ],
+      "left": 1256,
+      "top": 1604,
+      "right": 1981,
+      "bottom": 1650,
+      "width": 725,
+      "height": 46,
+      "confidence": 93.358,
+      "text": "Schultern diverser Kollegen, jetzt"
+    },
+    {
+      "id": "l043",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 20,
+      "bbox": [
+        2235,
+        1608,
+        2988,
+        1654
+      ],
+      "left": 2235,
+      "top": 1608,
+      "right": 2988,
+      "bottom": 1654,
+      "width": 753,
+      "height": 46,
+      "confidence": 93.985,
+      "text": "saubere Loops erzeugen kann. So"
+    },
+    {
+      "id": "l044",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 10,
+      "bbox": [
+        1256,
+        1668,
+        2022,
+        1710
+      ],
+      "left": 1256,
+      "top": 1668,
+      "right": 2022,
+      "bottom": 1710,
+      "width": 766,
+      "height": 42,
+      "confidence": 95.901,
+      "text": "stehst Du am Set; oder besser am"
+    },
+    {
+      "id": "l045",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 21,
+      "bbox": [
+        2237,
+        1671,
+        2958,
+        1713
+      ],
+      "left": 2237,
+      "top": 1671,
+      "right": 2958,
+      "bottom": 1713,
+      "width": 721,
+      "height": 42,
+      "confidence": 93.833,
+      "text": "lassen sich live Remixe kreieren,"
+    },
+    {
+      "id": "l046",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 11,
+      "bbox": [
+        1256,
+        1731,
+        2012,
+        1776
+      ],
+      "left": 1256,
+      "top": 1731,
+      "right": 2012,
+      "bottom": 1776,
+      "width": 756,
+      "height": 45,
+      "confidence": 95.231,
+      "text": "Computer. Ziehe die erste Datei in"
+    },
+    {
+      "id": "l047",
+      "blockNumber": 8,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        2234,
+        1733,
+        2990,
+        1780
+      ],
+      "left": 2234,
+      "top": 1733,
+      "right": 2990,
+      "bottom": 1780,
+      "width": 756,
+      "height": 47,
+      "confidence": 93.927,
+      "text": "die niemand zuvor gehort hat. Wie"
+    },
+    {
+      "id": "l048",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 12,
+      "bbox": [
+        1256,
+        1794,
+        2075,
+        1831
+      ],
+      "left": 1256,
+      "top": 1794,
+      "right": 2075,
+      "bottom": 1831,
+      "width": 819,
+      "height": 37,
+      "confidence": 93.241,
+      "text": "das Deck. Die Timecode-Platte bietet"
+    },
+    {
+      "id": "l049",
+      "blockNumber": 8,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        2233,
+        1796,
+        3008,
+        1843
+      ],
+      "left": 2233,
+      "top": 1796,
+      "right": 3008,
+      "bottom": 1843,
+      "width": 775,
+      "height": 47,
+      "confidence": 93.925,
+      "text": "viele DJs diese Moglichkeit wirklich"
+    },
+    {
+      "id": "l050",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 13,
+      "bbox": [
+        1258,
+        1856,
+        2063,
+        1903
+      ],
+      "left": 1258,
+      "top": 1856,
+      "right": 2063,
+      "bottom": 1903,
+      "width": 805,
+      "height": 47,
+      "confidence": 93.122,
+      "text": "Dir drei unterschiedliche Spiellangen"
+    },
+    {
+      "id": "l051",
+      "blockNumber": 8,
+      "paragraphNumber": 3,
+      "lineNumber": 3,
+      "bbox": [
+        2234,
+        1862,
+        3075,
+        1904
+      ],
+      "left": 2234,
+      "top": 1862,
+      "right": 3075,
+      "bottom": 1904,
+      "width": 841,
+      "height": 42,
+      "confidence": 95.633,
+      "text": "ausreizen, wissen wir auch nicht, aber"
+    },
+    {
+      "id": "l052",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 14,
+      "bbox": [
+        1254,
+        1920,
+        2013,
+        1964
+      ],
+      "left": 1254,
+      "top": 1920,
+      "right": 2013,
+      "bottom": 1964,
+      "width": 759,
+      "height": 44,
+      "confidence": 93.61,
+      "text": "von funf, zehn und 15 Minuten an,"
+    },
+    {
+      "id": "l053",
+      "blockNumber": 8,
+      "paragraphNumber": 3,
+      "lineNumber": 4,
+      "bbox": [
+        2233,
+        1924,
+        2981,
+        1971
+      ],
+      "left": 2233,
+      "top": 1924,
+      "right": 2981,
+      "bottom": 1971,
+      "width": 748,
+      "height": 47,
+      "confidence": 95.14,
+      "text": "wir werden mal die nachsten Tage"
+    },
+    {
+      "id": "l054",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 15,
+      "bbox": [
+        1255,
+        1983,
+        2031,
+        2029
+      ],
+      "left": 1255,
+      "top": 1983,
+      "right": 2031,
+      "bottom": 2029,
+      "width": 776,
+      "height": 46,
+      "confidence": 92.843,
+      "text": "wobei der personliche Nutzen nicht"
+    },
+    {
+      "id": "l055",
+      "blockNumber": 8,
+      "paragraphNumber": 3,
+      "lineNumber": 5,
+      "bbox": [
+        2234,
+        1988,
+        2970,
+        2034
+      ],
+      "left": 2234,
+      "top": 1988,
+      "right": 2970,
+      "bottom": 2034,
+      "width": 736,
+      "height": 46,
+      "confidence": 94.725,
+      "text": "den Triggerfinger mit dem System"
+    },
+    {
+      "id": "l056",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 16,
+      "bbox": [
+        1254,
+        2048,
+        2076,
+        2084
+      ],
+      "left": 1254,
+      "top": 2048,
+      "right": 2076,
+      "bottom": 2084,
+      "width": 822,
+      "height": 36,
+      "confidence": 94.709,
+      "text": "wirklich klar ist. Nimm einfach immer"
+    },
+    {
+      "id": "l057",
+      "blockNumber": 8,
+      "paragraphNumber": 3,
+      "lineNumber": 6,
+      "bbox": [
+        2233,
+        2051,
+        2431,
+        2087
+      ],
+      "left": 2233,
+      "top": 2051,
+      "right": 2431,
+      "bottom": 2087,
+      "width": 198,
+      "height": 36,
+      "confidence": 92.665,
+      "text": "vereinen."
+    },
+    {
+      "id": "l058",
+      "blockNumber": 8,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        2237,
+        2115,
+        3013,
+        2152
+      ],
+      "left": 2237,
+      "top": 2115,
+      "right": 3013,
+      "bottom": 2152,
+      "width": 776,
+      "height": 37,
+      "confidence": 95.021,
+      "text": "Ein anderes Feature der Pro Edition"
+    },
+    {
+      "id": "l059",
+      "blockNumber": 8,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        2236,
+        2178,
+        2933,
+        2224
+      ],
+      "left": 2236,
+      "top": 2178,
+      "right": 2933,
+      "bottom": 2224,
+      "width": 697,
+      "height": 46,
+      "confidence": 96.351,
+      "text": "ist die Anzeige des Covers. Den"
+    },
+    {
+      "id": "l060",
+      "blockNumber": 8,
+      "paragraphNumber": 4,
+      "lineNumber": 3,
+      "bbox": [
+        2233,
+        2241,
+        2964,
+        2286
+      ],
+      "left": 2233,
+      "top": 2241,
+      "right": 2964,
+      "bottom": 2286,
+      "width": 731,
+      "height": 45,
+      "confidence": 94.11,
+      "text": "Weicheiern bietet dies die Option"
+    },
+    {
+      "id": "l061",
+      "blockNumber": 8,
+      "paragraphNumber": 4,
+      "lineNumber": 4,
+      "bbox": [
+        2234,
+        2304,
+        3030,
+        2350
+      ],
+      "left": 2234,
+      "top": 2304,
+      "right": 3030,
+      "bottom": 2350,
+      "width": 796,
+      "height": 46,
+      "confidence": 90.915,
+      "text": "einer gewissen, Sagen wir, Sauberen"
+    },
+    {
+      "id": "l062",
+      "blockNumber": 8,
+      "paragraphNumber": 4,
+      "lineNumber": 5,
+      "bbox": [
+        2235,
+        2369,
+        3050,
+        2415
+      ],
+      "left": 2235,
+      "top": 2369,
+      "right": 3050,
+      "bottom": 2415,
+      "width": 815,
+      "height": 46,
+      "confidence": 91.626,
+      "text": "Ordnung ihrer Sammlung. Damit sind"
+    },
+    {
+      "id": "l063",
+      "blockNumber": 8,
+      "paragraphNumber": 4,
+      "lineNumber": 6,
+      "bbox": [
+        2234,
+        2431,
+        2979,
+        2478
+      ],
+      "left": 2234,
+      "top": 2431,
+      "right": 2979,
+      "bottom": 2478,
+      "width": 745,
+      "height": 47,
+      "confidence": 94.759,
+      "text": "die gewunschten Tracks auf jeden"
+    },
+    {
+      "id": "l064",
+      "blockNumber": 8,
+      "paragraphNumber": 4,
+      "lineNumber": 7,
+      "bbox": [
+        2237,
+        2495,
+        3015,
+        2537
+      ],
+      "left": 2237,
+      "top": 2495,
+      "right": 3015,
+      "bottom": 2537,
+      "width": 778,
+      "height": 42,
+      "confidence": 93.358,
+      "text": "Fall leichter abrufbar, was im wilden"
+    },
+    {
+      "id": "l065",
+      "blockNumber": 8,
+      "paragraphNumber": 4,
+      "lineNumber": 8,
+      "bbox": [
+        2235,
+        2559,
+        2947,
+        2596
+      ],
+      "left": 2235,
+      "top": 2559,
+      "right": 2947,
+      "bottom": 2596,
+      "width": 712,
+      "height": 37,
+      "confidence": 93.639,
+      "text": "Geschehen sehr von Vorteil sein"
+    },
+    {
+      "id": "l066",
+      "blockNumber": 8,
+      "paragraphNumber": 4,
+      "lineNumber": 9,
+      "bbox": [
+        2236,
+        2622,
+        2351,
+        2659
+      ],
+      "left": 2236,
+      "top": 2622,
+      "right": 2351,
+      "bottom": 2659,
+      "width": 115,
+      "height": 37,
+      "confidence": 96.447,
+      "text": "kann."
+    },
+    {
+      "id": "l067",
+      "blockNumber": 8,
+      "paragraphNumber": 5,
+      "lineNumber": 1,
+      "bbox": [
+        2233,
+        2685,
+        2928,
+        2722
+      ],
+      "left": 2233,
+      "top": 2685,
+      "right": 2928,
+      "bottom": 2722,
+      "width": 695,
+      "height": 37,
+      "confidence": 95.618,
+      "text": "TRAKTOR SCRATCH PRO macht"
+    },
+    {
+      "id": "l068",
+      "blockNumber": 8,
+      "paragraphNumber": 5,
+      "lineNumber": 2,
+      "bbox": [
+        2377,
+        2748,
+        2938,
+        2785
+      ],
+      "left": 2377,
+      "top": 2748,
+      "right": 2938,
+      "bottom": 2785,
+      "width": 561,
+      "height": 37,
+      "confidence": 96.347,
+      "text": "weil es einfach und leicht"
+    },
+    {
+      "id": "l069",
+      "blockNumber": 8,
+      "paragraphNumber": 5,
+      "lineNumber": 3,
+      "bbox": [
+        2235,
+        2813,
+        2891,
+        2849
+      ],
+      "left": 2235,
+      "top": 2813,
+      "right": 2891,
+      "bottom": 2849,
+      "width": 656,
+      "height": 36,
+      "confidence": 94.123,
+      "text": "bedienbar ist und es dennoch"
+    },
+    {
+      "id": "l070",
+      "blockNumber": 8,
+      "paragraphNumber": 6,
+      "lineNumber": 1,
+      "bbox": [
+        2233,
+        2875,
+        2906,
+        2922
+      ],
+      "left": 2233,
+      "top": 2875,
+      "right": 2906,
+      "bottom": 2922,
+      "width": 673,
+      "height": 47,
+      "confidence": 90.767,
+      "text": "viele Moglichkeiten bietet dem"
+    },
+    {
+      "id": "l071",
+      "blockNumber": 8,
+      "paragraphNumber": 7,
+      "lineNumber": 1,
+      "bbox": [
+        2236,
+        2939,
+        2967,
+        2975
+      ],
+      "left": 2236,
+      "top": 2939,
+      "right": 2967,
+      "bottom": 2975,
+      "width": 731,
+      "height": 36,
+      "confidence": 92.71,
+      "text": "Mix einen individuellen Charakter"
+    },
+    {
+      "id": "l072",
+      "blockNumber": 8,
+      "paragraphNumber": 8,
+      "lineNumber": 1,
+      "bbox": [
+        2234,
+        3002,
+        2939,
+        3048
+      ],
+      "left": 2234,
+      "top": 3002,
+      "right": 2939,
+      "bottom": 3048,
+      "width": 705,
+      "height": 46,
+      "confidence": 93.939,
+      "text": "zu verleihen. Einige neue Tracks"
+    },
+    {
+      "id": "l073",
+      "blockNumber": 8,
+      "paragraphNumber": 8,
+      "lineNumber": 2,
+      "bbox": [
+        2233,
+        3066,
+        2944,
+        3112
+      ],
+      "left": 2233,
+      "top": 3066,
+      "right": 2944,
+      "bottom": 3112,
+      "width": 711,
+      "height": 46,
+      "confidence": 93.112,
+      "text": "werden mittlerweile einzig digital"
+    },
+    {
+      "id": "l074",
+      "blockNumber": 8,
+      "paragraphNumber": 8,
+      "lineNumber": 3,
+      "bbox": [
+        2233,
+        3128,
+        3008,
+        3175
+      ],
+      "left": 2233,
+      "top": 3128,
+      "right": 3008,
+      "bottom": 3175,
+      "width": 775,
+      "height": 47,
+      "confidence": 92.621,
+      "text": "vertrieben. Dennoch, der Weg fuhrt"
+    },
+    {
+      "id": "l075",
+      "blockNumber": 8,
+      "paragraphNumber": 8,
+      "lineNumber": 4,
+      "bbox": [
+        2234,
+        3192,
+        2968,
+        3229
+      ],
+      "left": 2234,
+      "top": 3192,
+      "right": 2968,
+      "bottom": 3229,
+      "width": 734,
+      "height": 37,
+      "confidence": 94.217,
+      "text": "zuerst in den Plattenladen. Es ist"
+    },
+    {
+      "id": "l076",
+      "blockNumber": 8,
+      "paragraphNumber": 8,
+      "lineNumber": 5,
+      "bbox": [
+        2234,
+        3256,
+        2939,
+        3293
+      ],
+      "left": 2234,
+      "top": 3256,
+      "right": 2939,
+      "bottom": 3293,
+      "width": 705,
+      "height": 37,
+      "confidence": 94.126,
+      "text": "einfach ein schones Ritual nach"
+    },
+    {
+      "id": "l077",
+      "blockNumber": 8,
+      "paragraphNumber": 8,
+      "lineNumber": 6,
+      "bbox": [
+        2236,
+        3320,
+        3075,
+        3366
+      ],
+      "left": 2236,
+      "top": 3320,
+      "right": 3075,
+      "bottom": 3366,
+      "width": 839,
+      "height": 46,
+      "confidence": 94.006,
+      "text": "Neuerscheinungen zu kramen und mit"
+    },
+    {
+      "id": "l078",
+      "blockNumber": 8,
+      "paragraphNumber": 8,
+      "lineNumber": 7,
+      "bbox": [
+        2234,
+        3383,
+        3055,
+        3429
+      ],
+      "left": 2234,
+      "top": 3383,
+      "right": 3055,
+      "bottom": 3429,
+      "width": 821,
+      "height": 46,
+      "confidence": 79.592,
+      "text": "anderen DJs zu plaudern. Aogesehen"
+    },
+    {
+      "id": "l079",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        272,
+        3434,
+        1066,
+        3470
+      ],
+      "left": 272,
+      "top": 3434,
+      "right": 1066,
+      "bottom": 3470,
+      "width": 794,
+      "height": 36,
+      "confidence": 95.324,
+      "text": "sonst. Fritz Helder & The Phantoms."
+    },
+    {
+      "id": "l080",
+      "blockNumber": 8,
+      "paragraphNumber": 8,
+      "lineNumber": 8,
+      "bbox": [
+        2234,
+        3446,
+        2960,
+        3492
+      ],
+      "left": 2234,
+      "top": 3446,
+      "right": 2960,
+      "bottom": 3492,
+      "width": 726,
+      "height": 46,
+      "confidence": 94.949,
+      "text": "davon sind die Tipps eines guten"
+    },
+    {
+      "id": "l081",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        270,
+        3497,
+        1021,
+        3543
+      ],
+      "left": 270,
+      "top": 3497,
+      "right": 1021,
+      "bottom": 3543,
+      "width": 751,
+      "height": 46,
+      "confidence": 93.145,
+      "text": "Angeteased durch ein supergeiles"
+    },
+    {
+      "id": "l082",
+      "blockNumber": 8,
+      "paragraphNumber": 8,
+      "lineNumber": 9,
+      "bbox": [
+        2236,
+        3509,
+        3046,
+        3555
+      ],
+      "left": 2236,
+      "top": 3509,
+      "right": 3046,
+      "bottom": 3555,
+      "width": 810,
+      "height": 46,
+      "confidence": 93.628,
+      "text": "Plattenverkaufers mehr wert als jede"
+    },
+    {
+      "id": "l083",
+      "blockNumber": 1,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        3560,
+        1052,
+        3607
+      ],
+      "left": 270,
+      "top": 3560,
+      "right": 1052,
+      "bottom": 3607,
+      "width": 782,
+      "height": 47,
+      "confidence": 89.344,
+      "text": "Video zu ,Making A Scene“ konnen"
+    },
+    {
+      "id": "l084",
+      "blockNumber": 8,
+      "paragraphNumber": 8,
+      "lineNumber": 10,
+      "bbox": [
+        2234,
+        3573,
+        3068,
+        3619
+      ],
+      "left": 2234,
+      "top": 3573,
+      "right": 3068,
+      "bottom": 3619,
+      "width": 834,
+      "height": 46,
+      "confidence": 93.795,
+      "text": "automatisierte Kaufempfehlung eines"
+    },
+    {
+      "id": "l085",
+      "blockNumber": 1,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        270,
+        3624,
+        1006,
+        3667
+      ],
+      "left": 270,
+      "top": 3624,
+      "right": 1006,
+      "bottom": 3667,
+      "width": 736,
+      "height": 43,
+      "confidence": 95.052,
+      "text": "wir nicht davon ablassen, uns ein"
+    },
+    {
+      "id": "l086",
+      "blockNumber": 8,
+      "paragraphNumber": 8,
+      "lineNumber": 11,
+      "bbox": [
+        2235,
+        3636,
+        3044,
+        3682
+      ],
+      "left": 2235,
+      "top": 3636,
+      "right": 3044,
+      "bottom": 3682,
+      "width": 809,
+      "height": 46,
+      "confidence": 76.954,
+      "text": "Onlineshops. Die Mischung macht'‘s!"
+    },
+    {
+      "id": "l087",
+      "blockNumber": 1,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        273,
+        3687,
+        949,
+        3733
+      ],
+      "left": 273,
+      "top": 3687,
+      "right": 949,
+      "bottom": 3733,
+      "width": 676,
+      "height": 46,
+      "confidence": 93.327,
+      "text": "paar Live-Gigs anzusehen. Wer"
+    },
+    {
+      "id": "l088",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2430,
+        3735,
+        3089,
+        3772
+      ],
+      "left": 2430,
+      "top": 3735,
+      "right": 3089,
+      "bottom": 3772,
+      "width": 659,
+      "height": 37,
+      "confidence": 89.842,
+      "text": "www.native-instruments.com"
+    },
+    {
+      "id": "l089",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        197,
+        3752,
+        1105,
+        3802
+      ],
+      "left": 197,
+      "top": 3752,
+      "right": 1105,
+      "bottom": 3802,
+      "width": 908,
+      "height": 50,
+      "confidence": 87.205,
+      "text": "a Namosh kennt und liebt, wird auf Fritz"
+    },
+    {
+      "id": "l090",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        274,
+        3815,
+        1003,
+        3861
+      ],
+      "left": 274,
+      "top": 3815,
+      "right": 1003,
+      "bottom": 3861,
+      "width": 729,
+      "height": 46,
+      "confidence": 95.088,
+      "text": "Helder abgehen. Der Song ist ein"
+    },
+    {
+      "id": "l091",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        272,
+        3878,
+        1057,
+        3920
+      ],
+      "left": 272,
+      "top": 3878,
+      "right": 1057,
+      "bottom": 3920,
+      "width": 785,
+      "height": 42,
+      "confidence": 95.504,
+      "text": "Ohrwurm! Ganz klar, die Show steht"
+    },
+    {
+      "id": "l092",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        271,
+        3941,
+        1020,
+        3987
+      ],
+      "left": 271,
+      "top": 3941,
+      "right": 1020,
+      "bottom": 3987,
+      "width": 749,
+      "height": 46,
+      "confidence": 95.042,
+      "text": "absolut im Vordergrund. Also geht"
+    },
+    {
+      "id": "l093",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        4005,
+        1107,
+        4051
+      ],
+      "left": 270,
+      "top": 4005,
+      "right": 1107,
+      "bottom": 4051,
+      "width": 837,
+      "height": 46,
+      "confidence": 93.613,
+      "text": "feiern und rockt mal richtig die Kacke,"
+    },
+    {
+      "id": "l094",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        270,
+        4067,
+        683,
+        4114
+      ],
+      "left": 270,
+      "top": 4067,
+      "right": 683,
+      "bottom": 4114,
+      "width": 413,
+      "height": 47,
+      "confidence": 93.541,
+      "text": "Jungs und Madels!"
+    },
+    {
+      "id": "l095",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        308,
+        4108,
+        1252,
+        4237
+      ],
+      "left": 308,
+      "top": 4108,
+      "right": 1252,
+      "bottom": 4237,
+      "width": 944,
+      "height": 129,
+      "confidence": 67.761,
+      "text": "& 4 SS"
+    }
+  ]
+}

@@ -1,0 +1,887 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        83,
+        85,
+        240,
+        120
+      ],
+      "left": 83,
+      "top": 85,
+      "right": 240,
+      "bottom": 120,
+      "width": 157,
+      "height": 35,
+      "confidence": 96.57,
+      "text": "content"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        829,
+        534,
+        1094,
+        571
+      ],
+      "left": 829,
+      "top": 534,
+      "right": 1094,
+      "bottom": 571,
+      "width": 265,
+      "height": 37,
+      "confidence": 95.699,
+      "text": "start 06"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        765,
+        623,
+        1095,
+        678
+      ],
+      "left": 765,
+      "top": 623,
+      "right": 1095,
+      "bottom": 678,
+      "width": 330,
+      "height": 55,
+      "confidence": 89.433,
+      "text": "content 08s"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        819,
+        718,
+        1094,
+        755
+      ],
+      "left": 819,
+      "top": 718,
+      "right": 1094,
+      "bottom": 755,
+      "width": 275,
+      "height": 37,
+      "confidence": 96.439,
+      "text": "inbox 10"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        631,
+        890,
+        1082,
+        972
+      ],
+      "left": 631,
+      "top": 890,
+      "right": 1082,
+      "bottom": 972,
+      "width": 451,
+      "height": 82,
+      "confidence": 96.47,
+      "text": "local stuff"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        831,
+        1069,
+        1094,
+        1106
+      ],
+      "left": 831,
+      "top": 1069,
+      "right": 1094,
+      "bottom": 1106,
+      "width": 263,
+      "height": 37,
+      "confidence": 96.423,
+      "text": "flash 12"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        562,
+        1161,
+        1094,
+        1206
+      ],
+      "left": 562,
+      "top": 1161,
+      "right": 1094,
+      "bottom": 1206,
+      "width": 532,
+      "height": 45,
+      "confidence": 94.706,
+      "text": "yaka paka report 16"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        601,
+        1254,
+        1094,
+        1299
+      ],
+      "left": 601,
+      "top": 1254,
+      "right": 1094,
+      "bottom": 1299,
+      "width": 493,
+      "height": 45,
+      "confidence": 95.039,
+      "text": "schnaps report 17"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        671,
+        1345,
+        1095,
+        1391
+      ],
+      "left": 671,
+      "top": 1345,
+      "right": 1095,
+      "bottom": 1391,
+      "width": 424,
+      "height": 46,
+      "confidence": 94.274,
+      "text": "ceza report 18"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 5,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        520,
+        1436,
+        1096,
+        1482
+      ],
+      "left": 520,
+      "top": 1436,
+      "right": 1096,
+      "bottom": 1482,
+      "width": 576,
+      "height": 46,
+      "confidence": 95.422,
+      "text": "trés bonjour report 21"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        446,
+        1528,
+        1094,
+        1565
+      ],
+      "left": 446,
+      "top": 1528,
+      "right": 1094,
+      "bottom": 1565,
+      "width": 648,
+      "height": 37,
+      "confidence": 83.293,
+      "text": "deerbIin streets ahead 22"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        582,
+        1879,
+        1095,
+        1926
+      ],
+      "left": 582,
+      "top": 1879,
+      "right": 1095,
+      "bottom": 1926,
+      "width": 513,
+      "height": 47,
+      "confidence": 94.761,
+      "text": "pentagonik chat 24"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 7,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        646,
+        1971,
+        1094,
+        2016
+      ],
+      "left": 646,
+      "top": 1971,
+      "right": 1094,
+      "bottom": 2016,
+      "width": 448,
+      "height": 45,
+      "confidence": 96.525,
+      "text": "dj demir chat 26"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 7,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        672,
+        2062,
+        1095,
+        2108
+      ],
+      "left": 672,
+      "top": 2062,
+      "right": 1095,
+      "bottom": 2108,
+      "width": 423,
+      "height": 46,
+      "confidence": 96.526,
+      "text": "dj craft chat 28"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 7,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        447,
+        2154,
+        1094,
+        2201
+      ],
+      "left": 447,
+      "top": 2154,
+      "right": 1094,
+      "bottom": 2201,
+      "width": 647,
+      "height": 47,
+      "confidence": 95.036,
+      "text": "bugati force knowlege 30"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        780,
+        2245,
+        1094,
+        2282
+      ],
+      "left": 780,
+      "top": 2245,
+      "right": 1094,
+      "bottom": 2282,
+      "width": 314,
+      "height": 37,
+      "confidence": 96.581,
+      "text": "sounds 32"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1226,
+        2392,
+        1346,
+        2577
+      ],
+      "left": 1226,
+      "top": 2392,
+      "right": 1346,
+      "bottom": 2577,
+      "width": 120,
+      "height": 185,
+      "confidence": 62.814,
+      "text": "Py"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        447,
+        2544,
+        1377,
+        2694
+      ],
+      "left": 447,
+      "top": 2544,
+      "right": 1377,
+      "bottom": 2694,
+      "width": 930,
+      "height": 150,
+      "confidence": 85.84,
+      "text": "berlin bedtime feature 34 d }"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        2612,
+        2618,
+        2626,
+        2655
+      ],
+      "left": 2612,
+      "top": 2618,
+      "right": 2626,
+      "bottom": 2655,
+      "width": 14,
+      "height": 37,
+      "confidence": 33.797,
+      "text": "aE"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 13,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        2630,
+        2633,
+        2658,
+        2785
+      ],
+      "left": 2630,
+      "top": 2633,
+      "right": 2658,
+      "bottom": 2785,
+      "width": 28,
+      "height": 152,
+      "confidence": 31.491,
+      "text": "ALES"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 13,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        2644,
+        2662,
+        2671,
+        2838
+      ],
+      "left": 2644,
+      "top": 2662,
+      "right": 2671,
+      "bottom": 2838,
+      "width": 27,
+      "height": 176,
+      "confidence": 26.078,
+      "text": "SSESSSSSS"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1304,
+        2670,
+        1311,
+        2718
+      ],
+      "left": 1304,
+      "top": 2670,
+      "right": 1311,
+      "bottom": 2718,
+      "width": 7,
+      "height": 48,
+      "confidence": 87.792,
+      "text": "|"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2732,
+        2696,
+        2736,
+        2716
+      ],
+      "left": 2732,
+      "top": 2696,
+      "right": 2736,
+      "bottom": 2716,
+      "width": 4,
+      "height": 20,
+      "confidence": 39.692,
+      "text": "a."
+    },
+    {
+      "id": "l024",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2707,
+        2862,
+        2721,
+        2884
+      ],
+      "left": 2707,
+      "top": 2862,
+      "right": 2721,
+      "bottom": 2884,
+      "width": 14,
+      "height": 22,
+      "confidence": 25.177,
+      "text": "od"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        499,
+        2947,
+        1094,
+        2993
+      ],
+      "left": 499,
+      "top": 2947,
+      "right": 1094,
+      "bottom": 2993,
+      "width": 595,
+      "height": 46,
+      "confidence": 96.226,
+      "text": "ruby kam geared up 40"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        451,
+        3039,
+        1094,
+        3084
+      ],
+      "left": 451,
+      "top": 3039,
+      "right": 1094,
+      "bottom": 3084,
+      "width": 643,
+      "height": 45,
+      "confidence": 93.562,
+      "text": "sarai and mack 7days 42"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        732,
+        3132,
+        1095,
+        3169
+      ],
+      "left": 732,
+      "top": 3132,
+      "right": 1095,
+      "bottom": 3169,
+      "width": 363,
+      "height": 37,
+      "confidence": 86.755,
+      "text": "wardrobe 44"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 17,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        315,
+        3223,
+        1094,
+        3269
+      ],
+      "left": 315,
+      "top": 3223,
+      "right": 1094,
+      "bottom": 3269,
+      "width": 779,
+      "height": 46,
+      "confidence": 95.171,
+      "text": "alexander moloko style icon 46"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 17,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        814,
+        3315,
+        1095,
+        3361
+      ],
+      "left": 814,
+      "top": 3315,
+      "right": 1095,
+      "bottom": 3361,
+      "width": 281,
+      "height": 46,
+      "confidence": 96.648,
+      "text": "grabs 48"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 17,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        528,
+        3407,
+        1094,
+        3452
+      ],
+      "left": 528,
+      "top": 3407,
+      "right": 1094,
+      "bottom": 3452,
+      "width": 566,
+      "height": 45,
+      "confidence": 95.05,
+      "text": "lyndon wade shoot 50"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 17,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        333,
+        3498,
+        1094,
+        3543
+      ],
+      "left": 333,
+      "top": 3498,
+      "right": 1094,
+      "bottom": 3543,
+      "width": 761,
+      "height": 45,
+      "confidence": 96.319,
+      "text": "radio skateboards style file 56"
+    },
+    {
+      "id": "l032",
+      "blockNumber": 18,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        378,
+        3589,
+        1095,
+        3635
+      ],
+      "left": 378,
+      "top": 3589,
+      "right": 1095,
+      "bottom": 3635,
+      "width": 717,
+      "height": 46,
+      "confidence": 95.47,
+      "text": "maren x pola focus artist 58"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        817,
+        3765,
+        1094,
+        3802
+      ],
+      "left": 817,
+      "top": 3765,
+      "right": 1094,
+      "bottom": 3802,
+      "width": 277,
+      "height": 37,
+      "confidence": 96.656,
+      "text": "wired 60"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2189,
+        3808,
+        3037,
+        3845
+      ],
+      "left": 2189,
+      "top": 3808,
+      "right": 3037,
+      "bottom": 3845,
+      "width": 848,
+      "height": 37,
+      "confidence": 92.545,
+      "text": ". Moritz Stellmacher kommt aus dem"
+    },
+    {
+      "id": "l035",
+      "blockNumber": 21,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        731,
+        3857,
+        1094,
+        3902
+      ],
+      "left": 731,
+      "top": 3857,
+      "right": 1094,
+      "bottom": 3902,
+      "width": 363,
+      "height": 45,
+      "confidence": 96.753,
+      "text": "navigator 62"
+    },
+    {
+      "id": "l036",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2236,
+        3872,
+        2937,
+        3908
+      ],
+      "left": 2236,
+      "top": 3872,
+      "right": 2937,
+      "bottom": 3908,
+      "width": 701,
+      "height": 36,
+      "confidence": 93.707,
+      "text": "Nimmer-Nimmer-Land. Dort wird"
+    },
+    {
+      "id": "l037",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2236,
+        3935,
+        3022,
+        3981
+      ],
+      "left": 2236,
+      "top": 3935,
+      "right": 3022,
+      "bottom": 3981,
+      "width": 786,
+      "height": 46,
+      "confidence": 91.776,
+      "text": "unendlich viel getanzt. Deshalb lebt"
+    },
+    {
+      "id": "l038",
+      "blockNumber": 21,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        322,
+        3948,
+        1095,
+        3985
+      ],
+      "left": 322,
+      "top": 3948,
+      "right": 1095,
+      "bottom": 3985,
+      "width": 773,
+      "height": 37,
+      "confidence": 94.143,
+      "text": "moritz stellmacher last look 64"
+    },
+    {
+      "id": "l039",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2234,
+        3998,
+        2987,
+        4044
+      ],
+      "left": 2234,
+      "top": 3998,
+      "right": 2987,
+      "bottom": 4044,
+      "width": 753,
+      "height": 46,
+      "confidence": 94.097,
+      "text": "er, wo Bewegung zu Bumm-Bumm-"
+    },
+    {
+      "id": "l040",
+      "blockNumber": 22,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        308,
+        4041,
+        1094,
+        4078
+      ],
+      "left": 308,
+      "top": 4041,
+      "right": 1094,
+      "bottom": 4078,
+      "width": 786,
+      "height": 37,
+      "confidence": 94.549,
+      "text": "moritz stellmacher last word 66"
+    },
+    {
+      "id": "l041",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        2236,
+        4062,
+        2984,
+        4099
+      ],
+      "left": 2236,
+      "top": 4062,
+      "right": 2984,
+      "bottom": 4099,
+      "width": 748,
+      "height": 37,
+      "confidence": 93.537,
+      "text": "Musik am weitesten verbreitet ist."
+    },
+    {
+      "id": "l042",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        2233,
+        4120,
+        3027,
+        4176
+      ],
+      "left": 2233,
+      "top": 4120,
+      "right": 3027,
+      "bottom": 4176,
+      "width": 794,
+      "height": 56,
+      "confidence": 96.484,
+      "text": "Als fester Teil von proud ist er in der"
+    },
+    {
+      "id": "l043",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        2236,
+        4188,
+        2769,
+        4225
+      ],
+      "left": 2236,
+      "top": 4188,
+      "right": 2769,
+      "bottom": 4225,
+      "width": 533,
+      "height": 37,
+      "confidence": 91.815,
+      "text": "Redaktion unverzichtbar."
+    },
+    {
+      "id": "l044",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        87,
+        4367,
+        269,
+        4422
+      ],
+      "left": 87,
+      "top": 4367,
+      "right": 269,
+      "bottom": 4422,
+      "width": 182,
+      "height": 55,
+      "confidence": 96.611,
+      "text": "08 proud"
+    }
+  ]
+}

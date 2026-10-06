@@ -1,0 +1,30 @@
+{
+  "sections": [
+    {
+      "title": "moritz stellmacher",
+      "kind": "article",
+      "titleLineIds": [
+        "l003"
+      ],
+      "lineIds": [
+        "l003",
+        "l004",
+        "l005",
+        "l006",
+        "l007",
+        "l008"
+      ]
+    },
+    {
+      "title": "felipe guerrero",
+      "kind": "article",
+      "titleLineIds": [],
+      "lineIds": [
+        "l010",
+        "l011",
+        "l012",
+        "l013"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2647 @@
+{
+  "scale": 2.0,
+  "imageWidth": 4478,
+  "imageHeight": 3002,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        74,
+        55,
+        194,
+        95
+      ],
+      "left": 74,
+      "top": 55,
+      "right": 194,
+      "bottom": 95,
+      "width": 120,
+      "height": 40,
+      "confidence": 96.572,
+      "text": "inbox"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 39,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3978,
+        60,
+        4397,
+        112
+      ],
+      "left": 3978,
+      "top": 60,
+      "right": 4397,
+      "bottom": 112,
+      "width": 419,
+      "height": 52,
+      "confidence": 96.514,
+      "text": "advertising option"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        137,
+        140,
+        285,
+        179
+      ],
+      "left": 137,
+      "top": 140,
+      "right": 285,
+      "bottom": 179,
+      "width": 148,
+      "height": 39,
+      "confidence": 92.593,
+      "text": "Kitlers"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 25,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1644,
+        140,
+        1878,
+        191
+      ],
+      "left": 1644,
+      "top": 140,
+      "right": 1878,
+      "bottom": 191,
+      "width": 234,
+      "height": 51,
+      "confidence": 91.148,
+      "text": "Hypnose..."
+    },
+    {
+      "id": "l005",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        133,
+        195,
+        1195,
+        229
+      ],
+      "left": 133,
+      "top": 195,
+      "right": 1195,
+      "bottom": 229,
+      "width": 1062,
+      "height": 34,
+      "confidence": 90.342,
+      "text": "Wir vom proud magazine glauben, dass politische und soziale Freiheiten"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 25,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1641,
+        195,
+        1829,
+        229
+      ],
+      "left": 1641,
+      "top": 195,
+      "right": 1829,
+      "bottom": 229,
+      "width": 188,
+      "height": 34,
+      "confidence": 91.638,
+      "text": "Liebes proud,"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 25,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        1639,
+        238,
+        2030,
+        263
+      ],
+      "left": 1639,
+      "top": 238,
+      "right": 2030,
+      "bottom": 263,
+      "width": 391,
+      "height": 25,
+      "confidence": 82.807,
+      "text": "du wirst sehr mide... sehr"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        129,
+        239,
+        937,
+        269
+      ],
+      "left": 129,
+      "top": 239,
+      "right": 937,
+      "bottom": 269,
+      "width": 808,
+      "height": 30,
+      "confidence": 94.97,
+      "text": "ja wichtig sind und so. Wir tolerieren auch diese ganze"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        135,
+        282,
+        1166,
+        312
+      ],
+      "left": 135,
+      "top": 282,
+      "right": 1166,
+      "bottom": 312,
+      "width": 1031,
+      "height": 30,
+      "confidence": 93.37,
+      "text": "New Wave Punk-Todes-Zick-Zack-Kultur und die politisch interessierten"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 25,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        1640,
+        282,
+        2018,
+        313
+      ],
+      "left": 1640,
+      "top": 282,
+      "right": 2018,
+      "bottom": 313,
+      "width": 378,
+      "height": 31,
+      "confidence": 95.193,
+      "text": "sehr deine Augen"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        132,
+        324,
+        1206,
+        355
+      ],
+      "left": 132,
+      "top": 324,
+      "right": 1206,
+      "bottom": 355,
+      "width": 1074,
+      "height": 31,
+      "confidence": 94.1,
+      "text": "Juppis, die Tag ein Tag aus jedem ihre Meinung aufzuzwingen versuchen."
+    },
+    {
+      "id": "l012",
+      "blockNumber": 25,
+      "paragraphNumber": 3,
+      "lineNumber": 3,
+      "bbox": [
+        1639,
+        324,
+        2042,
+        348
+      ],
+      "left": 1639,
+      "top": 324,
+      "right": 2042,
+      "bottom": 348,
+      "width": 403,
+      "height": 24,
+      "confidence": 93.215,
+      "text": "werden schwer... du kannst"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        132,
+        366,
+        1112,
+        396
+      ],
+      "left": 132,
+      "top": 366,
+      "right": 1112,
+      "bottom": 396,
+      "width": 980,
+      "height": 30,
+      "confidence": 93.724,
+      "text": "Wenn Hauskaizen sich aber wie Hitler stylen, um Eindruck auf ihre"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 25,
+      "paragraphNumber": 3,
+      "lineNumber": 4,
+      "bbox": [
+        1640,
+        366,
+        2027,
+        390
+      ],
+      "left": 1640,
+      "top": 366,
+      "right": 2027,
+      "bottom": 390,
+      "width": 387,
+      "height": 24,
+      "confidence": 95.083,
+      "text": "sie nicht offen halten... du"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        135,
+        408,
+        786,
+        436
+      ],
+      "left": 135,
+      "top": 408,
+      "right": 786,
+      "bottom": 436,
+      "width": 651,
+      "height": 28,
+      "confidence": 93.679,
+      "text": "Freunde zu schinden, sehen wir das kritisch."
+    },
+    {
+      "id": "l016",
+      "blockNumber": 25,
+      "paragraphNumber": 3,
+      "lineNumber": 5,
+      "bbox": [
+        1640,
+        408,
+        2031,
+        438
+      ],
+      "left": 1640,
+      "top": 408,
+      "right": 2031,
+      "bottom": 438,
+      "width": 391,
+      "height": 30,
+      "confidence": 93.073,
+      "text": "sinkst in die Tiefe... jaaa..."
+    },
+    {
+      "id": "l017",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        133,
+        451,
+        614,
+        476
+      ],
+      "left": 133,
+      "top": 451,
+      "right": 614,
+      "bottom": 476,
+      "width": 481,
+      "height": 25,
+      "confidence": 91.731,
+      "text": "www.catsthatlooklikehitler.com"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 25,
+      "paragraphNumber": 3,
+      "lineNumber": 6,
+      "bbox": [
+        1640,
+        451,
+        2012,
+        482
+      ],
+      "left": 1640,
+      "top": 451,
+      "right": 2012,
+      "bottom": 482,
+      "width": 372,
+      "height": 31,
+      "confidence": 92.959,
+      "text": "hor auf zu kampfen... Gib"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 25,
+      "paragraphNumber": 3,
+      "lineNumber": 7,
+      "bbox": [
+        1639,
+        493,
+        1996,
+        522
+      ],
+      "left": 1639,
+      "top": 493,
+      "right": 1996,
+      "bottom": 522,
+      "width": 357,
+      "height": 29,
+      "confidence": 96.172,
+      "text": "einfach auf... Nun, wenn"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 25,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        1641,
+        535,
+        1998,
+        566
+      ],
+      "left": 1641,
+      "top": 535,
+      "right": 1998,
+      "bottom": 566,
+      "width": 357,
+      "height": 31,
+      "confidence": 90.299,
+      "text": "ich bis drei gezahit habe"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 25,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        1639,
+        577,
+        2062,
+        602
+      ],
+      "left": 1639,
+      "top": 577,
+      "right": 2062,
+      "bottom": 602,
+      "width": 423,
+      "height": 25,
+      "confidence": 95.871,
+      "text": "wachst du auf und bist unter"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 25,
+      "paragraphNumber": 4,
+      "lineNumber": 3,
+      "bbox": [
+        1640,
+        620,
+        2049,
+        644
+      ],
+      "left": 1640,
+      "top": 620,
+      "right": 2049,
+      "bottom": 644,
+      "width": 409,
+      "height": 24,
+      "confidence": 94.105,
+      "text": "meiner Kontrolle... wenn ich"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 25,
+      "paragraphNumber": 4,
+      "lineNumber": 4,
+      "bbox": [
+        1640,
+        663,
+        2091,
+        693
+      ],
+      "left": 1640,
+      "top": 663,
+      "right": 2091,
+      "bottom": 693,
+      "width": 451,
+      "height": 30,
+      "confidence": 95.7,
+      "text": "schnipse, bist du unter meiner"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        142,
+        669,
+        463,
+        750
+      ],
+      "left": 142,
+      "top": 669,
+      "right": 463,
+      "bottom": 750,
+      "width": 321,
+      "height": 81,
+      "confidence": 96.026,
+      "text": "mail of"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 23,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1142,
+        702,
+        1496,
+        753
+      ],
+      "left": 1142,
+      "top": 702,
+      "right": 1496,
+      "bottom": 753,
+      "width": 354,
+      "height": 51,
+      "confidence": 90.59,
+      "text": "Flap..flap ...flap"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 25,
+      "paragraphNumber": 4,
+      "lineNumber": 5,
+      "bbox": [
+        1641,
+        705,
+        2002,
+        730
+      ],
+      "left": 1641,
+      "top": 705,
+      "right": 2002,
+      "bottom": 730,
+      "width": 361,
+      "height": 25,
+      "confidence": 94.155,
+      "text": "Kontrolle... eins... Zwei..."
+    },
+    {
+      "id": "l027",
+      "blockNumber": 25,
+      "paragraphNumber": 4,
+      "lineNumber": 6,
+      "bbox": [
+        1639,
+        747,
+        1886,
+        777
+      ],
+      "left": 1639,
+      "top": 747,
+      "right": 1886,
+      "bottom": 777,
+      "width": 247,
+      "height": 30,
+      "confidence": 92.441,
+      "text": "drei... *schnips*"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 23,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1139,
+        757,
+        1259,
+        792
+      ],
+      "left": 1139,
+      "top": 757,
+      "right": 1259,
+      "bottom": 792,
+      "width": 120,
+      "height": 35,
+      "confidence": 95.796,
+      "text": "Hi proud,"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 25,
+      "paragraphNumber": 5,
+      "lineNumber": 1,
+      "bbox": [
+        1639,
+        789,
+        1985,
+        820
+      ],
+      "left": 1639,
+      "top": 789,
+      "right": 1985,
+      "bottom": 820,
+      "width": 346,
+      "height": 31,
+      "confidence": 93.563,
+      "text": "Jetzt gebt mir eine freie"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 23,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        1137,
+        803,
+        1479,
+        834
+      ],
+      "left": 1137,
+      "top": 803,
+      "right": 1479,
+      "bottom": 834,
+      "width": 342,
+      "height": 31,
+      "confidence": 96.364,
+      "text": "gestern Nacht habe ich"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        137,
+        804,
+        621,
+        884
+      ],
+      "left": 137,
+      "top": 804,
+      "right": 621,
+      "bottom": 884,
+      "width": 484,
+      "height": 80,
+      "confidence": 95.573,
+      "text": "the month"
+    },
+    {
+      "id": "l032",
+      "blockNumber": 25,
+      "paragraphNumber": 5,
+      "lineNumber": 2,
+      "bbox": [
+        1639,
+        832,
+        2048,
+        857
+      ],
+      "left": 1639,
+      "top": 832,
+      "right": 2048,
+      "bottom": 857,
+      "width": 409,
+      "height": 25,
+      "confidence": 90.244,
+      "text": "Werbeseite fur meine Band."
+    },
+    {
+      "id": "l033",
+      "blockNumber": 23,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        1138,
+        845,
+        1581,
+        869
+      ],
+      "left": 1138,
+      "top": 845,
+      "right": 1581,
+      "bottom": 869,
+      "width": 443,
+      "height": 24,
+      "confidence": 94.238,
+      "text": "meinen Sohn beim Masturbie-"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 25,
+      "paragraphNumber": 5,
+      "lineNumber": 3,
+      "bbox": [
+        1641,
+        875,
+        1756,
+        899
+      ],
+      "left": 1641,
+      "top": 875,
+      "right": 1756,
+      "bottom": 899,
+      "width": 115,
+      "height": 24,
+      "confidence": 91.653,
+      "text": "Mario L."
+    },
+    {
+      "id": "l035",
+      "blockNumber": 23,
+      "paragraphNumber": 3,
+      "lineNumber": 3,
+      "bbox": [
+        1138,
+        887,
+        1583,
+        917
+      ],
+      "left": 1138,
+      "top": 887,
+      "right": 1583,
+      "bottom": 917,
+      "width": 445,
+      "height": 30,
+      "confidence": 84.701,
+      "text": "ren erwischt. Ich weif§ ja, dass"
+    },
+    {
+      "id": "l036",
+      "blockNumber": 25,
+      "paragraphNumber": 6,
+      "lineNumber": 1,
+      "bbox": [
+        1640,
+        916,
+        1687,
+        941
+      ],
+      "left": 1640,
+      "top": 916,
+      "right": 1687,
+      "bottom": 941,
+      "width": 47,
+      "height": 25,
+      "confidence": 92.839,
+      "text": "No."
+    },
+    {
+      "id": "l037",
+      "blockNumber": 23,
+      "paragraphNumber": 3,
+      "lineNumber": 4,
+      "bbox": [
+        1138,
+        929,
+        1508,
+        953
+      ],
+      "left": 1138,
+      "top": 929,
+      "right": 1508,
+      "bottom": 953,
+      "width": 370,
+      "height": 24,
+      "confidence": 95.654,
+      "text": "sowas normal ist und so."
+    },
+    {
+      "id": "l038",
+      "blockNumber": 23,
+      "paragraphNumber": 3,
+      "lineNumber": 5,
+      "bbox": [
+        1137,
+        971,
+        1568,
+        1002
+      ],
+      "left": 1137,
+      "top": 971,
+      "right": 1568,
+      "bottom": 1002,
+      "width": 431,
+      "height": 31,
+      "confidence": 95.708,
+      "text": "Trotzdem ist die ganze Sache"
+    },
+    {
+      "id": "l039",
+      "blockNumber": 23,
+      "paragraphNumber": 3,
+      "lineNumber": 6,
+      "bbox": [
+        1138,
+        1014,
+        1542,
+        1039
+      ],
+      "left": 1138,
+      "top": 1014,
+      "right": 1542,
+      "bottom": 1039,
+      "width": 404,
+      "height": 25,
+      "confidence": 96.617,
+      "text": "nicht so einfach. Als ich ihn"
+    },
+    {
+      "id": "l040",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        135,
+        1023,
+        669,
+        1074
+      ],
+      "left": 135,
+      "top": 1023,
+      "right": 669,
+      "bottom": 1074,
+      "width": 534,
+      "height": 51,
+      "confidence": 86.774,
+      "text": "Die schonste AuBerung"
+    },
+    {
+      "id": "l041",
+      "blockNumber": 23,
+      "paragraphNumber": 3,
+      "lineNumber": 7,
+      "bbox": [
+        1138,
+        1056,
+        1543,
+        1081
+      ],
+      "left": 1138,
+      "top": 1056,
+      "right": 1543,
+      "bottom": 1081,
+      "width": 405,
+      "height": 25,
+      "confidence": 94.546,
+      "text": "mit der Geschichte konfron-"
+    },
+    {
+      "id": "l042",
+      "blockNumber": 35,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1642,
+        1068,
+        1914,
+        1108
+      ],
+      "left": 1642,
+      "top": 1068,
+      "right": 1914,
+      "bottom": 1108,
+      "width": 272,
+      "height": 40,
+      "confidence": 92.959,
+      "text": "Gut erkannt"
+    },
+    {
+      "id": "l043",
+      "blockNumber": 11,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        133,
+        1078,
+        320,
+        1113
+      ],
+      "left": 133,
+      "top": 1078,
+      "right": 320,
+      "bottom": 1113,
+      "width": 187,
+      "height": 35,
+      "confidence": 93.998,
+      "text": "Liebes proud,"
+    },
+    {
+      "id": "l044",
+      "blockNumber": 23,
+      "paragraphNumber": 3,
+      "lineNumber": 8,
+      "bbox": [
+        1136,
+        1098,
+        1559,
+        1129
+      ],
+      "left": 1136,
+      "top": 1098,
+      "right": 1559,
+      "bottom": 1129,
+      "width": 423,
+      "height": 31,
+      "confidence": 95.613,
+      "text": "tiert habe, hat er mir gesagt,"
+    },
+    {
+      "id": "l045",
+      "blockNumber": 11,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        133,
+        1122,
+        936,
+        1153
+      ],
+      "left": 133,
+      "top": 1122,
+      "right": 936,
+      "bottom": 1153,
+      "width": 803,
+      "height": 31,
+      "confidence": 95.25,
+      "text": "Ich lebe nun seit einigen Jahren in Berlin und ich hatte"
+    },
+    {
+      "id": "l046",
+      "blockNumber": 35,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1641,
+        1123,
+        1763,
+        1158
+      ],
+      "left": 1641,
+      "top": 1123,
+      "right": 1763,
+      "bottom": 1158,
+      "width": 122,
+      "height": 35,
+      "confidence": 96.578,
+      "text": "Ey proud!"
+    },
+    {
+      "id": "l047",
+      "blockNumber": 23,
+      "paragraphNumber": 3,
+      "lineNumber": 9,
+      "bbox": [
+        1138,
+        1140,
+        1586,
+        1165
+      ],
+      "left": 1138,
+      "top": 1140,
+      "right": 1586,
+      "bottom": 1165,
+      "width": 448,
+      "height": 25,
+      "confidence": 93.507,
+      "text": "seine Mama - meine Frau - hat"
+    },
+    {
+      "id": "l048",
+      "blockNumber": 11,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        132,
+        1164,
+        728,
+        1189
+      ],
+      "left": 132,
+      "top": 1164,
+      "right": 728,
+      "bottom": 1189,
+      "width": 596,
+      "height": 25,
+      "confidence": 95.28,
+      "text": "mittlerweile Dates mit Uber 200 Models."
+    },
+    {
+      "id": "l049",
+      "blockNumber": 35,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        1639,
+        1167,
+        1957,
+        1198
+      ],
+      "left": 1639,
+      "top": 1167,
+      "right": 1957,
+      "bottom": 1198,
+      "width": 318,
+      "height": 31,
+      "confidence": 95.889,
+      "text": "euer Magazin ist total"
+    },
+    {
+      "id": "l050",
+      "blockNumber": 23,
+      "paragraphNumber": 3,
+      "lineNumber": 10,
+      "bbox": [
+        1139,
+        1183,
+        1502,
+        1212
+      ],
+      "left": 1139,
+      "top": 1183,
+      "right": 1502,
+      "bottom": 1212,
+      "width": 363,
+      "height": 29,
+      "confidence": 94.782,
+      "text": "ihm erklart, wie man das"
+    },
+    {
+      "id": "l051",
+      "blockNumber": 11,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        130,
+        1208,
+        1009,
+        1239
+      ],
+      "left": 130,
+      "top": 1208,
+      "right": 1009,
+      "bottom": 1239,
+      "width": 879,
+      "height": 31,
+      "confidence": 95.728,
+      "text": "Verdammt, jetzt hab ich vergessen was ich eigentlich sagen"
+    },
+    {
+      "id": "l052",
+      "blockNumber": 35,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        1640,
+        1211,
+        1937,
+        1239
+      ],
+      "left": 1640,
+      "top": 1211,
+      "right": 1937,
+      "bottom": 1239,
+      "width": 297,
+      "height": 28,
+      "confidence": 94.198,
+      "text": "schlecht, albern und"
+    },
+    {
+      "id": "l053",
+      "blockNumber": 23,
+      "paragraphNumber": 3,
+      "lineNumber": 11,
+      "bbox": [
+        1138,
+        1226,
+        1256,
+        1250
+      ],
+      "left": 1138,
+      "top": 1226,
+      "right": 1256,
+      "bottom": 1250,
+      "width": 118,
+      "height": 24,
+      "confidence": 92.265,
+      "text": "macht!?"
+    },
+    {
+      "id": "l054",
+      "blockNumber": 11,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        131,
+        1250,
+        224,
+        1274
+      ],
+      "left": 131,
+      "top": 1250,
+      "right": 224,
+      "bottom": 1274,
+      "width": 93,
+      "height": 24,
+      "confidence": 96.805,
+      "text": "wollte."
+    },
+    {
+      "id": "l055",
+      "blockNumber": 35,
+      "paragraphNumber": 3,
+      "lineNumber": 3,
+      "bbox": [
+        1640,
+        1252,
+        1992,
+        1277
+      ],
+      "left": 1640,
+      "top": 1252,
+      "right": 1992,
+      "bottom": 1277,
+      "width": 352,
+      "height": 25,
+      "confidence": 81.782,
+      "text": "uninteressant. Ihr konnt"
+    },
+    {
+      "id": "l056",
+      "blockNumber": 23,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        1137,
+        1268,
+        1580,
+        1293
+      ],
+      "left": 1137,
+      "top": 1268,
+      "right": 1580,
+      "bottom": 1293,
+      "width": 443,
+      "height": 25,
+      "confidence": 91.435,
+      "text": "Was soll ich da blo& machen?"
+    },
+    {
+      "id": "l057",
+      "blockNumber": 11,
+      "paragraphNumber": 5,
+      "lineNumber": 1,
+      "bbox": [
+        131,
+        1291,
+        926,
+        1316
+      ],
+      "left": 131,
+      "top": 1291,
+      "right": 926,
+      "bottom": 1316,
+      "width": 795,
+      "height": 25,
+      "confidence": 95.669,
+      "text": "Woohoo! Ich hatte schon mit Uber 200 Models Dates!"
+    },
+    {
+      "id": "l058",
+      "blockNumber": 35,
+      "paragraphNumber": 3,
+      "lineNumber": 4,
+      "bbox": [
+        1639,
+        1295,
+        2026,
+        1326
+      ],
+      "left": 1639,
+      "top": 1295,
+      "right": 2026,
+      "bottom": 1326,
+      "width": 387,
+      "height": 31,
+      "confidence": 94.429,
+      "text": "erstmal garnichts und seit"
+    },
+    {
+      "id": "l059",
+      "blockNumber": 23,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        1137,
+        1309,
+        1271,
+        1341
+      ],
+      "left": 1137,
+      "top": 1309,
+      "right": 1271,
+      "bottom": 1341,
+      "width": 134,
+      "height": 32,
+      "confidence": 82.18,
+      "text": "Jurgen K."
+    },
+    {
+      "id": "l060",
+      "blockNumber": 35,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        1640,
+        1336,
+        2024,
+        1365
+      ],
+      "left": 1640,
+      "top": 1336,
+      "right": 2024,
+      "bottom": 1365,
+      "width": 384,
+      "height": 29,
+      "confidence": 94.853,
+      "text": "so hasslich, dass ihr auch"
+    },
+    {
+      "id": "l061",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        133,
+        1377,
+        209,
+        1402
+      ],
+      "left": 133,
+      "top": 1377,
+      "right": 209,
+      "bottom": 1402,
+      "width": 76,
+      "height": 25,
+      "confidence": 93.3,
+      "text": "Liebe"
+    },
+    {
+      "id": "l062",
+      "blockNumber": 35,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        1640,
+        1379,
+        2087,
+        1403
+      ],
+      "left": 1640,
+      "top": 1379,
+      "right": 2087,
+      "bottom": 1403,
+      "width": 447,
+      "height": 24,
+      "confidence": 91.285,
+      "text": "niemals was erreichen werdet."
+    },
+    {
+      "id": "l063",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1138,
+        1395,
+        1542,
+        1425
+      ],
+      "left": 1138,
+      "top": 1395,
+      "right": 1542,
+      "bottom": 1425,
+      "width": 404,
+      "height": 30,
+      "confidence": 95.246,
+      "text": "Ey, das is doch kein echter"
+    },
+    {
+      "id": "l064",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        132,
+        1419,
+        234,
+        1444
+      ],
+      "left": 132,
+      "top": 1419,
+      "right": 234,
+      "bottom": 1444,
+      "width": 102,
+      "height": 25,
+      "confidence": 92.423,
+      "text": "Felix K."
+    },
+    {
+      "id": "l065",
+      "blockNumber": 35,
+      "paragraphNumber": 4,
+      "lineNumber": 3,
+      "bbox": [
+        1641,
+        1422,
+        2086,
+        1453
+      ],
+      "left": 1641,
+      "top": 1422,
+      "right": 2086,
+      "bottom": 1453,
+      "width": 445,
+      "height": 31,
+      "confidence": 96.319,
+      "text": "Und was soll eigentlich dieses"
+    },
+    {
+      "id": "l066",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1138,
+        1435,
+        1496,
+        1470
+      ],
+      "left": 1138,
+      "top": 1435,
+      "right": 1496,
+      "bottom": 1470,
+      "width": 358,
+      "height": 35,
+      "confidence": 96.255,
+      "text": "Brief. Papas lesen proud"
+    },
+    {
+      "id": "l067",
+      "blockNumber": 35,
+      "paragraphNumber": 4,
+      "lineNumber": 4,
+      "bbox": [
+        1640,
+        1464,
+        2044,
+        1489
+      ],
+      "left": 1640,
+      "top": 1464,
+      "right": 2044,
+      "bottom": 1489,
+      "width": 404,
+      "height": 25,
+      "confidence": 92.22,
+      "text": "hassliche schwule Rosa fur"
+    },
+    {
+      "id": "l068",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1138,
+        1479,
+        1560,
+        1509
+      ],
+      "left": 1138,
+      "top": 1479,
+      "right": 1560,
+      "bottom": 1509,
+      "width": 422,
+      "height": 30,
+      "confidence": 95.798,
+      "text": "nicht. Nur mein Papa macht"
+    },
+    {
+      "id": "l069",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        130,
+        1503,
+        1101,
+        1533
+      ],
+      "left": 130,
+      "top": 1503,
+      "right": 1101,
+      "bottom": 1533,
+      "width": 971,
+      "height": 30,
+      "confidence": 93.788,
+      "text": "Soziale Osmose... Schade, statt dich besser aussehen zu lassen"
+    },
+    {
+      "id": "l070",
+      "blockNumber": 35,
+      "paragraphNumber": 4,
+      "lineNumber": 5,
+      "bbox": [
+        1639,
+        1506,
+        2046,
+        1537
+      ],
+      "left": 1639,
+      "top": 1506,
+      "right": 2046,
+      "bottom": 1537,
+      "width": 407,
+      "height": 31,
+      "confidence": 94.665,
+      "text": "euer Logo. Habt ihr das von"
+    },
+    {
+      "id": "l071",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1137,
+        1523,
+        1550,
+        1553
+      ],
+      "left": 1137,
+      "top": 1523,
+      "right": 1550,
+      "bottom": 1553,
+      "width": 413,
+      "height": 30,
+      "confidence": 94.427,
+      "text": "das. Moment! Papa? Warst"
+    },
+    {
+      "id": "l072",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        131,
+        1545,
+        1097,
+        1570
+      ],
+      "left": 131,
+      "top": 1545,
+      "right": 1097,
+      "bottom": 1570,
+      "width": 966,
+      "height": 25,
+      "confidence": 93.312,
+      "text": "scheint dieses Phanomen dein Gehirn aufzuweichen. Nimm dein"
+    },
+    {
+      "id": "l073",
+      "blockNumber": 35,
+      "paragraphNumber": 4,
+      "lineNumber": 6,
+      "bbox": [
+        1639,
+        1548,
+        2049,
+        1579
+      ],
+      "left": 1639,
+      "top": 1548,
+      "right": 2049,
+      "bottom": 1579,
+      "width": 410,
+      "height": 31,
+      "confidence": 94.819,
+      "text": "der Telekom geklaut weil ihr"
+    },
+    {
+      "id": "l074",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        1137,
+        1565,
+        1254,
+        1589
+      ],
+      "left": 1137,
+      "top": 1565,
+      "right": 1254,
+      "bottom": 1589,
+      "width": 117,
+      "height": 24,
+      "confidence": 95.439,
+      "text": "du das?"
+    },
+    {
+      "id": "l075",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        130,
+        1589,
+        1049,
+        1613
+      ],
+      "left": 130,
+      "top": 1589,
+      "right": 1049,
+      "bottom": 1613,
+      "width": 919,
+      "height": 24,
+      "confidence": 94.744,
+      "text": "total schickes Ecko Shirt und verlass bitte das Land. Danke."
+    },
+    {
+      "id": "l076",
+      "blockNumber": 35,
+      "paragraphNumber": 4,
+      "lineNumber": 7,
+      "bbox": [
+        1641,
+        1592,
+        2015,
+        1623
+      ],
+      "left": 1641,
+      "top": 1592,
+      "right": 2015,
+      "bottom": 1623,
+      "width": 374,
+      "height": 31,
+      "confidence": 91.705,
+      "text": "keine eigene Idee hattet?"
+    },
+    {
+      "id": "l077",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        132,
+        1631,
+        744,
+        1661
+      ],
+      "left": 132,
+      "top": 1631,
+      "right": 744,
+      "bottom": 1661,
+      "width": 612,
+      "height": 30,
+      "confidence": 93.379,
+      "text": "Und hier spricht nicht nur die Eifersucht!"
+    },
+    {
+      "id": "l078",
+      "blockNumber": 35,
+      "paragraphNumber": 5,
+      "lineNumber": 1,
+      "bbox": [
+        1641,
+        1633,
+        2088,
+        1665
+      ],
+      "left": 1641,
+      "top": 1633,
+      "right": 2088,
+      "bottom": 1665,
+      "width": 447,
+      "height": 32,
+      "confidence": 83.913,
+      "text": "Ihr solltet euch mal Uberlegen,"
+    },
+    {
+      "id": "l079",
+      "blockNumber": 35,
+      "paragraphNumber": 5,
+      "lineNumber": 2,
+      "bbox": [
+        1640,
+        1676,
+        2080,
+        1707
+      ],
+      "left": 1640,
+      "top": 1676,
+      "right": 2080,
+      "bottom": 1707,
+      "width": 440,
+      "height": 31,
+      "confidence": 96.13,
+      "text": "ob ihr in dem Business richtig"
+    },
+    {
+      "id": "l080",
+      "blockNumber": 35,
+      "paragraphNumber": 5,
+      "lineNumber": 3,
+      "bbox": [
+        1640,
+        1718,
+        1720,
+        1742
+      ],
+      "left": 1640,
+      "top": 1718,
+      "right": 1720,
+      "bottom": 1742,
+      "width": 80,
+      "height": 24,
+      "confidence": 90.388,
+      "text": "seit..."
+    },
+    {
+      "id": "l081",
+      "blockNumber": 35,
+      "paragraphNumber": 6,
+      "lineNumber": 1,
+      "bbox": [
+        1639,
+        1761,
+        1875,
+        1786
+      ],
+      "left": 1639,
+      "top": 1761,
+      "right": 1875,
+      "bottom": 1786,
+      "width": 236,
+      "height": 25,
+      "confidence": 94.203,
+      "text": "Zero Kool Zavas"
+    },
+    {
+      "id": "l082",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        607,
+        1819,
+        1057,
+        1892
+      ],
+      "left": 607,
+      "top": 1819,
+      "right": 1057,
+      "bottom": 1892,
+      "width": 450,
+      "height": 73,
+      "confidence": 95.736,
+      "text": "write to us"
+    },
+    {
+      "id": "l083",
+      "blockNumber": 36,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1639,
+        1845,
+        2063,
+        1870
+      ],
+      "left": 1639,
+      "top": 1845,
+      "right": 2063,
+      "bottom": 1870,
+      "width": 424,
+      "height": 25,
+      "confidence": 93.082,
+      "text": "Ahh... lieber Zero Kool Zavas"
+    },
+    {
+      "id": "l084",
+      "blockNumber": 36,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1639,
+        1887,
+        1976,
+        1912
+      ],
+      "left": 1639,
+      "top": 1887,
+      "right": 1976,
+      "bottom": 1912,
+      "width": 337,
+      "height": 25,
+      "confidence": 78.224,
+      "text": "erst einmal mochte ich"
+    },
+    {
+      "id": "l085",
+      "blockNumber": 36,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1639,
+        1929,
+        2036,
+        1960
+      ],
+      "left": 1639,
+      "top": 1929,
+      "right": 2036,
+      "bottom": 1960,
+      "width": 397,
+      "height": 31,
+      "confidence": 95.672,
+      "text": "gestehen, dass dein Name"
+    },
+    {
+      "id": "l086",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        610,
+        1939,
+        1011,
+        2012
+      ],
+      "left": 610,
+      "top": 1939,
+      "right": 1011,
+      "bottom": 2012,
+      "width": 401,
+      "height": 73,
+      "confidence": 96.28,
+      "text": "and win..."
+    },
+    {
+      "id": "l087",
+      "blockNumber": 36,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1639,
+        1973,
+        2079,
+        1997
+      ],
+      "left": 1639,
+      "top": 1973,
+      "right": 2079,
+      "bottom": 1997,
+      "width": 440,
+      "height": 24,
+      "confidence": 93.052,
+      "text": "ziemlich starkkk ist. Dein Hirn"
+    },
+    {
+      "id": "l088",
+      "blockNumber": 36,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        1640,
+        2010,
+        2054,
+        2049
+      ],
+      "left": 1640,
+      "top": 2010,
+      "right": 2054,
+      "bottom": 2049,
+      "width": 414,
+      "height": 39,
+      "confidence": 95.345,
+      "text": "scheint ja vor Kreativitat nur"
+    },
+    {
+      "id": "l089",
+      "blockNumber": 36,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        1640,
+        2056,
+        2050,
+        2081
+      ],
+      "left": 1640,
+      "top": 2056,
+      "right": 2050,
+      "bottom": 2081,
+      "width": 410,
+      "height": 25,
+      "confidence": 91.579,
+      "text": "so Uberzuschaumen. Komm"
+    },
+    {
+      "id": "l090",
+      "blockNumber": 36,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        1639,
+        2099,
+        1990,
+        2123
+      ],
+      "left": 1639,
+      "top": 2099,
+      "right": 1990,
+      "bottom": 2123,
+      "width": 351,
+      "height": 24,
+      "confidence": 95.059,
+      "text": "doch mal bei uns vorbei"
+    },
+    {
+      "id": "l091",
+      "blockNumber": 36,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1640,
+        2138,
+        2039,
+        2177
+      ],
+      "left": 1640,
+      "top": 2138,
+      "right": 2039,
+      "bottom": 2177,
+      "width": 399,
+      "height": 39,
+      "confidence": 95.401,
+      "text": "und gib uns ein paar Tipps."
+    },
+    {
+      "id": "l092",
+      "blockNumber": 36,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        1639,
+        2185,
+        2016,
+        2209
+      ],
+      "left": 1639,
+      "top": 2185,
+      "right": 2016,
+      "bottom": 2209,
+      "width": 377,
+      "height": 24,
+      "confidence": 95.037,
+      "text": "Vielleicht wir dann"
+    },
+    {
+      "id": "l093",
+      "blockNumber": 16,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        135,
+        2199,
+        423,
+        2224
+      ],
+      "left": 135,
+      "top": 2199,
+      "right": 423,
+      "bottom": 2224,
+      "width": 288,
+      "height": 25,
+      "confidence": 93.579,
+      "text": "Die nachste mail of"
+    },
+    {
+      "id": "l094",
+      "blockNumber": 36,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        1640,
+        2226,
+        2027,
+        2251
+      ],
+      "left": 1640,
+      "top": 2226,
+      "right": 2027,
+      "bottom": 2251,
+      "width": 387,
+      "height": 25,
+      "confidence": 94.874,
+      "text": "nachsten Monat Zero Kool"
+    },
+    {
+      "id": "l095",
+      "blockNumber": 16,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        132,
+        2243,
+        411,
+        2274
+      ],
+      "left": 132,
+      "top": 2243,
+      "right": 411,
+      "bottom": 2274,
+      "width": 279,
+      "height": 31,
+      "confidence": 94.458,
+      "text": "the month gewinnt"
+    },
+    {
+      "id": "l096",
+      "blockNumber": 36,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        1641,
+        2269,
+        1890,
+        2299
+      ],
+      "left": 1641,
+      "top": 2269,
+      "right": 1890,
+      "bottom": 2299,
+      "width": 249,
+      "height": 30,
+      "confidence": 96.335,
+      "text": "Magazin oder so."
+    },
+    {
+      "id": "l097",
+      "blockNumber": 16,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        133,
+        2284,
+        448,
+        2309
+      ],
+      "left": 133,
+      "top": 2284,
+      "right": 448,
+      "bottom": 2309,
+      "width": 315,
+      "height": 25,
+      "confidence": 94.58,
+      "text": "alles was man fir die"
+    },
+    {
+      "id": "l098",
+      "blockNumber": 36,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        1641,
+        2311,
+        2021,
+        2336
+      ],
+      "left": 1641,
+      "top": 2311,
+      "right": 2021,
+      "bottom": 2336,
+      "width": 380,
+      "height": 25,
+      "confidence": 93.97,
+      "text": "Eine Sache wurden wir dir"
+    },
+    {
+      "id": "l099",
+      "blockNumber": 16,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        342,
+        2327,
+        415,
+        2351
+      ],
+      "left": 342,
+      "top": 2327,
+      "right": 415,
+      "bottom": 2351,
+      "width": 73,
+      "height": 24,
+      "confidence": 96.898,
+      "text": "einer"
+    },
+    {
+      "id": "l100",
+      "blockNumber": 28,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1141,
+        2354,
+        1292,
+        2393
+      ],
+      "left": 1141,
+      "top": 2354,
+      "right": 1292,
+      "bottom": 2393,
+      "width": 151,
+      "height": 39,
+      "confidence": 96.293,
+      "text": "Kinder"
+    },
+    {
+      "id": "l101",
+      "blockNumber": 36,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        1639,
+        2354,
+        1998,
+        2385
+      ],
+      "left": 1639,
+      "top": 2354,
+      "right": 1998,
+      "bottom": 2385,
+      "width": 359,
+      "height": 31,
+      "confidence": 95.404,
+      "text": "dennoch gerne ans Herz"
+    },
+    {
+      "id": "l102",
+      "blockNumber": 16,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        134,
+        2369,
+        480,
+        2399
+      ],
+      "left": 134,
+      "top": 2369,
+      "right": 480,
+      "bottom": 2399,
+      "width": 346,
+      "height": 30,
+      "confidence": 92.175,
+      "text": "klassischen Homeparty"
+    },
+    {
+      "id": "l103",
+      "blockNumber": 36,
+      "paragraphNumber": 3,
+      "lineNumber": 3,
+      "bbox": [
+        1641,
+        2396,
+        2057,
+        2427
+      ],
+      "left": 1641,
+      "top": 2396,
+      "right": 2057,
+      "bottom": 2427,
+      "width": 416,
+      "height": 31,
+      "confidence": 95.3,
+      "text": "legen. Seit ist nur mit einem"
+    },
+    {
+      "id": "l104",
+      "blockNumber": 28,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1137,
+        2398,
+        1413,
+        2449
+      ],
+      "left": 1137,
+      "top": 2398,
+      "right": 1413,
+      "bottom": 2449,
+      "width": 276,
+      "height": 51,
+      "confidence": 92.414,
+      "text": "weggucken!"
+    },
+    {
+      "id": "l105",
+      "blockNumber": 16,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        134,
+        2411,
+        311,
+        2436
+      ],
+      "left": 134,
+      "top": 2411,
+      "right": 311,
+      "bottom": 2436,
+      "width": 177,
+      "height": 25,
+      "confidence": 94.694,
+      "text": "braucht. Die"
+    },
+    {
+      "id": "l106",
+      "blockNumber": 36,
+      "paragraphNumber": 3,
+      "lineNumber": 4,
+      "bbox": [
+        1639,
+        2438,
+        2014,
+        2462
+      ],
+      "left": 1639,
+      "top": 2438,
+      "right": 2014,
+      "bottom": 2462,
+      "width": 375,
+      "height": 24,
+      "confidence": 94.975,
+      "text": "t zu schreiben wenn es in"
+    },
+    {
+      "id": "l107",
+      "blockNumber": 16,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        132,
+        2452,
+        415,
+        2487
+      ],
+      "left": 132,
+      "top": 2452,
+      "right": 415,
+      "bottom": 2487,
+      "width": 283,
+      "height": 35,
+      "confidence": 73.712,
+      "text": "proud-party-in-a-box."
+    },
+    {
+      "id": "l108",
+      "blockNumber": 29,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1139,
+        2452,
+        1326,
+        2487
+      ],
+      "left": 1139,
+      "top": 2452,
+      "right": 1326,
+      "bottom": 2487,
+      "width": 187,
+      "height": 35,
+      "confidence": 94.038,
+      "text": "Liebes proud,"
+    },
+    {
+      "id": "l109",
+      "blockNumber": 36,
+      "paragraphNumber": 3,
+      "lineNumber": 5,
+      "bbox": [
+        1639,
+        2482,
+        2000,
+        2506
+      ],
+      "left": 1639,
+      "top": 2482,
+      "right": 2000,
+      "bottom": 2506,
+      "width": 361,
+      "height": 24,
+      "confidence": 89.742,
+      "text": "einem zeitlichen Kontext"
+    },
+    {
+      "id": "l110",
+      "blockNumber": 30,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1138,
+        2496,
+        1580,
+        2526
+      ],
+      "left": 1138,
+      "top": 2496,
+      "right": 1580,
+      "bottom": 2526,
+      "width": 442,
+      "height": 30,
+      "confidence": 86.678,
+      "text": "Snape tdtet bald Dumbledore!"
+    },
+    {
+      "id": "l111",
+      "blockNumber": 16,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        132,
+        2497,
+        414,
+        2528
+      ],
+      "left": 132,
+      "top": 2497,
+      "right": 414,
+      "bottom": 2528,
+      "width": 282,
+      "height": 31,
+      "confidence": 93.766,
+      "text": "Wir versorgen euch"
+    },
+    {
+      "id": "l112",
+      "blockNumber": 36,
+      "paragraphNumber": 3,
+      "lineNumber": 6,
+      "bbox": [
+        1639,
+        2523,
+        2075,
+        2554
+      ],
+      "left": 1639,
+      "top": 2523,
+      "right": 2075,
+      "bottom": 2554,
+      "width": 436,
+      "height": 31,
+      "confidence": 94.14,
+      "text": "gebraucht wird. Zum Beispiel:"
+    },
+    {
+      "id": "l113",
+      "blockNumber": 16,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        134,
+        2539,
+        458,
+        2569
+      ],
+      "left": 134,
+      "top": 2539,
+      "right": 458,
+      "bottom": 2569,
+      "width": 324,
+      "height": 30,
+      "confidence": 94.664,
+      "text": "mit massig Bier, Wein,"
+    },
+    {
+      "id": "l114",
+      "blockNumber": 30,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1139,
+        2539,
+        1331,
+        2563
+      ],
+      "left": 1139,
+      "top": 2539,
+      "right": 1331,
+      "bottom": 2563,
+      "width": 192,
+      "height": 24,
+      "confidence": 96.679,
+      "text": "Hahahahaha!"
+    },
+    {
+      "id": "l115",
+      "blockNumber": 36,
+      "paragraphNumber": 3,
+      "lineNumber": 7,
+      "bbox": [
+        1642,
+        2566,
+        2053,
+        2596
+      ],
+      "left": 1642,
+      "top": 2566,
+      "right": 2053,
+      "bottom": 2596,
+      "width": 411,
+      "height": 30,
+      "confidence": 81.346,
+      "text": ",seit ich deine Mail gelesen"
+    },
+    {
+      "id": "l116",
+      "blockNumber": 30,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1139,
+        2580,
+        1314,
+        2605
+      ],
+      "left": 1139,
+      "top": 2580,
+      "right": 1314,
+      "bottom": 2605,
+      "width": 175,
+      "height": 25,
+      "confidence": 92.81,
+      "text": "Der Verrater"
+    },
+    {
+      "id": "l117",
+      "blockNumber": 16,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        132,
+        2581,
+        471,
+        2609
+      ],
+      "left": 132,
+      "top": 2581,
+      "right": 471,
+      "bottom": 2609,
+      "width": 339,
+      "height": 28,
+      "confidence": 95.155,
+      "text": "Wodka, Rum und allem"
+    },
+    {
+      "id": "l118",
+      "blockNumber": 36,
+      "paragraphNumber": 3,
+      "lineNumber": 8,
+      "bbox": [
+        1640,
+        2608,
+        2056,
+        2636
+      ],
+      "left": 1640,
+      "top": 2608,
+      "right": 2056,
+      "bottom": 2636,
+      "width": 416,
+      "height": 28,
+      "confidence": 94.798,
+      "text": "habe, konnte ich nicht mehr"
+    },
+    {
+      "id": "l119",
+      "blockNumber": 16,
+      "paragraphNumber": 3,
+      "lineNumber": 3,
+      "bbox": [
+        132,
+        2624,
+        492,
+        2649
+      ],
+      "left": 132,
+      "top": 2624,
+      "right": 492,
+      "bottom": 2649,
+      "width": 360,
+      "height": 25,
+      "confidence": 94.436,
+      "text": "was man damit Mischen"
+    },
+    {
+      "id": "l120",
+      "blockNumber": 36,
+      "paragraphNumber": 3,
+      "lineNumber": 9,
+      "bbox": [
+        1639,
+        2649,
+        2058,
+        2674
+      ],
+      "left": 1639,
+      "top": 2649,
+      "right": 2058,
+      "bottom": 2674,
+      "width": 419,
+      "height": 25,
+      "confidence": 75.129,
+      "text": "aufhoéren zu lachen.“ Danke."
+    },
+    {
+      "id": "l121",
+      "blockNumber": 16,
+      "paragraphNumber": 3,
+      "lineNumber": 4,
+      "bbox": [
+        134,
+        2666,
+        212,
+        2690
+      ],
+      "left": 134,
+      "top": 2666,
+      "right": 212,
+      "bottom": 2690,
+      "width": 78,
+      "height": 24,
+      "confidence": 96.717,
+      "text": "kann."
+    },
+    {
+      "id": "l122",
+      "blockNumber": 31,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1138,
+        2666,
+        1442,
+        2690
+      ],
+      "left": 1138,
+      "top": 2666,
+      "right": 1442,
+      "bottom": 2690,
+      "width": 304,
+      "height": 24,
+      "confidence": 93.552,
+      "text": "Du hast Niemandem"
+    },
+    {
+      "id": "l123",
+      "blockNumber": 37,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1659,
+        2701,
+        1972,
+        2852
+      ],
+      "left": 1659,
+      "top": 2701,
+      "right": 1972,
+      "bottom": 2852,
+      "width": 313,
+      "height": 151,
+      "confidence": 77.421,
+      "text": "Serd"
+    },
+    {
+      "id": "l124",
+      "blockNumber": 31,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1138,
+        2708,
+        1575,
+        2738
+      ],
+      "left": 1138,
+      "top": 2708,
+      "right": 1575,
+      "bottom": 2738,
+      "width": 437,
+      "height": 30,
+      "confidence": 93.949,
+      "text": "irgendwas verraten. Potter is"
+    },
+    {
+      "id": "l125",
+      "blockNumber": 18,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        132,
+        2750,
+        988,
+        2776
+      ],
+      "left": 132,
+      "top": 2750,
+      "right": 988,
+      "bottom": 2776,
+      "width": 856,
+      "height": 26,
+      "confidence": 89.101,
+      "text": "Auf8erdem stellen wir euch einen feschen local DJ und ein"
+    },
+    {
+      "id": "l126",
+      "blockNumber": 31,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1137,
+        2750,
+        1499,
+        2775
+      ],
+      "left": 1137,
+      "top": 2750,
+      "right": 1499,
+      "bottom": 2775,
+      "width": 362,
+      "height": 25,
+      "confidence": 93.56,
+      "text": "eh nur was fiir Lutscher."
+    },
+    {
+      "id": "l127",
+      "blockNumber": 31,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1138,
+        2793,
+        1504,
+        2818
+      ],
+      "left": 1138,
+      "top": 2793,
+      "right": 1504,
+      "bottom": 2818,
+      "width": 366,
+      "height": 25,
+      "confidence": 95.148,
+      "text": "Echte Manner lesen den"
+    },
+    {
+      "id": "l128",
+      "blockNumber": 18,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        134,
+        2794,
+        1037,
+        2824
+      ],
+      "left": 134,
+      "top": 2794,
+      "right": 1037,
+      "bottom": 2824,
+      "width": 903,
+      "height": 30,
+      "confidence": 96.217,
+      "text": "Soundsystem mit dem ihr euch bestimmt viele Freunde unter"
+    },
+    {
+      "id": "l129",
+      "blockNumber": 32,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1138,
+        2833,
+        1441,
+        2868
+      ],
+      "left": 1138,
+      "top": 2833,
+      "right": 1441,
+      "bottom": 2868,
+      "width": 303,
+      "height": 35,
+      "confidence": 94.705,
+      "text": "Playboy... Und proud."
+    },
+    {
+      "id": "l130",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        133,
+        2836,
+        762,
+        2866
+      ],
+      "left": 133,
+      "top": 2836,
+      "right": 762,
+      "bottom": 2866,
+      "width": 629,
+      "height": 30,
+      "confidence": 90.939,
+      "text": "euren Nachbarn machen werdet. Parteyyy!!"
+    },
+    {
+      "id": "l131",
+      "blockNumber": 21,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        965,
+        2860,
+        1089,
+        2873
+      ],
+      "left": 965,
+      "top": 2860,
+      "right": 1089,
+      "bottom": 2873,
+      "width": 124,
+      "height": 13,
+      "confidence": 56.492,
+      "text": "Image studio25.r0"
+    },
+    {
+      "id": "l132",
+      "blockNumber": 22,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        75,
+        2918,
+        195,
+        2955
+      ],
+      "left": 75,
+      "top": 2918,
+      "right": 195,
+      "bottom": 2955,
+      "width": 120,
+      "height": 37,
+      "confidence": 93.821,
+      "text": "10 proud"
+    }
+  ]
+}

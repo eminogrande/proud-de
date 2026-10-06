@@ -1,0 +1,162 @@
+{
+  "sections": [
+    {
+      "title": "content",
+      "kind": "utility",
+      "titleLineIds": [
+        "l002"
+      ],
+      "lineIds": [
+        "l002"
+      ]
+    },
+    {
+      "title": "TANZMICHMAL",
+      "kind": "listing",
+      "titleLineIds": [
+        "l003"
+      ],
+      "lineIds": [
+        "l003",
+        "l004",
+        "l005"
+      ]
+    },
+    {
+      "title": "DJ CRAFT",
+      "kind": "listing",
+      "titleLineIds": [
+        "l007"
+      ],
+      "lineIds": [
+        "l006",
+        "l007"
+      ]
+    },
+    {
+      "title": "7DAYS",
+      "kind": "listing",
+      "titleLineIds": [
+        "l009"
+      ],
+      "lineIds": [
+        "l008",
+        "l009",
+        "l010"
+      ]
+    },
+    {
+      "title": "FRITZ HELDER",
+      "kind": "listing",
+      "titleLineIds": [
+        "l012"
+      ],
+      "lineIds": [
+        "l011",
+        "l012",
+        "l013"
+      ]
+    },
+    {
+      "title": "HIDDEN ARTISTS",
+      "kind": "listing",
+      "titleLineIds": [
+        "l014"
+      ],
+      "lineIds": [
+        "l014",
+        "l016"
+      ]
+    },
+    {
+      "title": "REGULARS",
+      "kind": "utility",
+      "titleLineIds": [
+        "l015"
+      ],
+      "lineIds": [
+        "l015",
+        "l017",
+        "l018",
+        "l019",
+        "l020",
+        "l021",
+        "l022",
+        "l023"
+      ]
+    },
+    {
+      "title": "SARAH-JANE BENNETT",
+      "kind": "article",
+      "titleLineIds": [
+        "l024"
+      ],
+      "lineIds": [
+        "l024",
+        "l028",
+        "l033",
+        "l036",
+        "l040",
+        "l046",
+        "l048"
+      ]
+    },
+    {
+      "title": "MACK MCKELTON",
+      "kind": "article",
+      "titleLineIds": [
+        "l025"
+      ],
+      "lineIds": [
+        "l025",
+        "l029",
+        "l032",
+        "l037",
+        "l041",
+        "l047",
+        "l049"
+      ]
+    },
+    {
+      "title": "ANNE HAHNER",
+      "kind": "article",
+      "titleLineIds": [
+        "l026"
+      ],
+      "lineIds": [
+        "l026",
+        "l030",
+        "l034",
+        "l038",
+        "l042",
+        "l044",
+        "l050"
+      ]
+    },
+    {
+      "title": "MORITZ STELLMACHER",
+      "kind": "article",
+      "titleLineIds": [
+        "l027"
+      ],
+      "lineIds": [
+        "l027",
+        "l031",
+        "l035",
+        "l039",
+        "l043",
+        "l045"
+      ]
+    },
+    {
+      "title": "advertising option",
+      "kind": "promo",
+      "titleLineIds": [
+        "l001"
+      ],
+      "lineIds": [
+        "l001"
+      ]
+    }
+  ]
+}

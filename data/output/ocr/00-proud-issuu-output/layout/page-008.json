@@ -1,0 +1,1487 @@
+{
+  "scale": 2.0,
+  "imageWidth": 4478,
+  "imageHeight": 3002,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        78,
+        60,
+        990,
+        99
+      ],
+      "left": 78,
+      "top": 60,
+      "right": 990,
+      "bottom": 99,
+      "width": 912,
+      "height": 39,
+      "confidence": 63.975,
+      "text": "flash Fe"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 30,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3978,
+        60,
+        4397,
+        111
+      ],
+      "left": 3978,
+      "top": 60,
+      "right": 4397,
+      "bottom": 111,
+      "width": 419,
+      "height": 51,
+      "confidence": 96.301,
+      "text": "advertising option"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        127,
+        154,
+        805,
+        226
+      ],
+      "left": 127,
+      "top": 154,
+      "right": 805,
+      "bottom": 226,
+      "width": 678,
+      "height": 72,
+      "confidence": 89.092,
+      "text": "h Ow to Falls du 1700 Euro tiber"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        448,
+        206,
+        727,
+        230
+      ],
+      "left": 448,
+      "top": 206,
+      "right": 727,
+      "bottom": 230,
+      "width": 279,
+      "height": 24,
+      "confidence": 96.288,
+      "text": "hast und dich nach"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        126,
+        243,
+        776,
+        307
+      ],
+      "left": 126,
+      "top": 243,
+      "right": 776,
+      "bottom": 307,
+      "width": 650,
+      "height": 64,
+      "confidence": 57.138,
+      "text": "u ce AusgabemOglichkeiten"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        448,
+        287,
+        746,
+        325
+      ],
+      "left": 448,
+      "top": 287,
+      "right": 746,
+      "bottom": 325,
+      "width": 298,
+      "height": 38,
+      "confidence": 93.849,
+      "text": "umschaust - hier ein"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        130,
+        311,
+        596,
+        430
+      ],
+      "left": 130,
+      "top": 311,
+      "right": 596,
+      "bottom": 430,
+      "width": 466,
+      "height": 119,
+      "confidence": 95.25,
+      "text": "1 700 Vorschlag:"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1554,
+        327,
+        2059,
+        358
+      ],
+      "left": 1554,
+      "top": 327,
+      "right": 2059,
+      "bottom": 358,
+      "width": 505,
+      "height": 31,
+      "confidence": 94.125,
+      "text": "Wenn es zu Hause keinen eigenen"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1544,
+        369,
+        1976,
+        400
+      ],
+      "left": 1544,
+      "top": 369,
+      "right": 1976,
+      "bottom": 400,
+      "width": 432,
+      "height": 31,
+      "confidence": 84.731,
+      "text": "*Partykeller gibt, die Wohnung"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        448,
+        375,
+        833,
+        405
+      ],
+      "left": 448,
+      "top": 375,
+      "right": 833,
+      "bottom": 405,
+      "width": 385,
+      "height": 30,
+      "confidence": 94.442,
+      "text": "Super-Marke Louis Vuitton"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1614,
+        413,
+        1928,
+        443
+      ],
+      "left": 1614,
+      "top": 413,
+      "right": 1928,
+      "bottom": 443,
+      "width": 314,
+      "height": 30,
+      "confidence": 95.88,
+      "text": "bleiben soll, Clubbing"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        449,
+        417,
+        857,
+        447
+      ],
+      "left": 449,
+      "top": 417,
+      "right": 857,
+      "bottom": 447,
+      "width": 408,
+      "height": 30,
+      "confidence": 80.969,
+      "text": "prasentierte ihre artistic |"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        965,
+        418,
+        970,
+        428
+      ],
+      "left": 965,
+      "top": 418,
+      "right": 970,
+      "bottom": 428,
+      "width": 5,
+      "height": 10,
+      "confidence": 64.551,
+      "text": "i"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1552,
+        455,
+        1995,
+        482
+      ],
+      "left": 1552,
+      "top": 455,
+      "right": 1995,
+      "bottom": 482,
+      "width": 443,
+      "height": 27,
+      "confidence": 96.599,
+      "text": "keine Alternative ist, die einen"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        449,
+        461,
+        673,
+        485
+      ],
+      "left": 449,
+      "top": 461,
+      "right": 673,
+      "bottom": 485,
+      "width": 224,
+      "height": 24,
+      "confidence": 94.46,
+      "text": "limited edition -"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        448,
+        494,
+        2048,
+        542
+      ],
+      "left": 448,
+      "top": 494,
+      "right": 2048,
+      "bottom": 542,
+      "width": 1600,
+      "height": 48,
+      "confidence": 71.6,
+      "text": "Gold Mest - ; a ae Flair zur Verfugung"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        449,
+        520,
+        1986,
+        579
+      ],
+      "left": 449,
+      "top": 520,
+      "right": 1986,
+      "bottom": 579,
+      "width": 1537,
+      "height": 59,
+      "confidence": 78.659,
+      "text": "Fruhjahr / Sommer 08. ha = @: f NG Dann solltest du deine"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 31,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        4087,
+        543,
+        4153,
+        557
+      ],
+      "left": 4087,
+      "top": 543,
+      "right": 4153,
+      "bottom": 557,
+      "width": 66,
+      "height": 14,
+      "confidence": 33.224,
+      "text": "AP"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        315,
+        571,
+        2121,
+        667
+      ],
+      "left": 315,
+      "top": 571,
+      "right": 2121,
+      "bottom": 667,
+      "width": 1806,
+      "height": 96,
+      "confidence": 69.992,
+      "text": "=“ \\ Nein! q Kellerpartygruppe offen halten! \\"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        447,
+        580,
+        1944,
+        613
+      ],
+      "left": 447,
+      "top": 580,
+      "right": 1944,
+      "bottom": 613,
+      "width": 1497,
+      "height": 33,
+      "confidence": 74.62,
+      "text": "Was es ist? Keine a a. | { mAugen und Ohren nach der"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        333,
+        662,
+        1999,
+        715
+      ],
+      "left": 333,
+      "top": 662,
+      "right": 1999,
+      "bottom": 715,
+      "width": 1666,
+      "height": 53,
+      "confidence": 87.948,
+      "text": "—2__Es ist ein Top aus Hausfriedensbruch in Hausern"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        447,
+        714,
+        840,
+        745
+      ],
+      "left": 447,
+      "top": 714,
+      "right": 840,
+      "bottom": 745,
+      "width": 393,
+      "height": 31,
+      "confidence": 77.424,
+      "text": "Weifgold, Gold und Mohar."
+    },
+    {
+      "id": "l023",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1551,
+        750,
+        2088,
+        774
+      ],
+      "left": 1551,
+      "top": 750,
+      "right": 2088,
+      "bottom": 774,
+      "width": 537,
+      "height": 24,
+      "confidence": 93.05,
+      "text": "erschaffen elektronische Nachte der"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        449,
+        756,
+        801,
+        787
+      ],
+      "left": 449,
+      "top": 756,
+      "right": 801,
+      "bottom": 787,
+      "width": 352,
+      "height": 31,
+      "confidence": 91.591,
+      "text": "Handgemacht von Louis"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1553,
+        794,
+        2066,
+        818
+      ],
+      "left": 1553,
+      "top": 794,
+      "right": 2066,
+      "bottom": 818,
+      "width": 513,
+      "height": 24,
+      "confidence": 95.578,
+      "text": "Extraklasse. Der Freund und Helfer"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        448,
+        798,
+        767,
+        822
+      ],
+      "left": 448,
+      "top": 798,
+      "right": 767,
+      "bottom": 822,
+      "width": 319,
+      "height": 24,
+      "confidence": 92.565,
+      "text": "Pariser Schneiderlein."
+    },
+    {
+      "id": "l027",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1552,
+        833,
+        2097,
+        869
+      ],
+      "left": 1552,
+      "top": 833,
+      "right": 2097,
+      "bottom": 869,
+      "width": 545,
+      "height": 36,
+      "confidence": 89.088,
+      "text": "nennt es eine illegale Party, fur proud"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        449,
+        842,
+        810,
+        872
+      ],
+      "left": 449,
+      "top": 842,
+      "right": 810,
+      "bottom": 872,
+      "width": 361,
+      "height": 30,
+      "confidence": 96.331,
+      "text": "Und nicht vergessen, die"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1552,
+        878,
+        1956,
+        908
+      ],
+      "left": 1552,
+      "top": 878,
+      "right": 1956,
+      "bottom": 908,
+      "width": 404,
+      "height": 30,
+      "confidence": 95.097,
+      "text": "ist es Partykultur Berlin pur."
+    },
+    {
+      "id": "l030",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        447,
+        884,
+        815,
+        914
+      ],
+      "left": 447,
+      "top": 884,
+      "right": 815,
+      "bottom": 914,
+      "width": 368,
+      "height": 30,
+      "confidence": 92.846,
+      "text": "Weste wiegt ca. 5kg also"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        449,
+        926,
+        823,
+        956
+      ],
+      "left": 449,
+      "top": 926,
+      "right": 823,
+      "bottom": 956,
+      "width": 374,
+      "height": 30,
+      "confidence": 93.671,
+      "text": "lasst die super Highheels"
+    },
+    {
+      "id": "l032",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        449,
+        939,
+        2220,
+        1004
+      ],
+      "left": 449,
+      "top": 939,
+      "right": 2220,
+      "bottom": 1004,
+      "width": 1771,
+      "height": 65,
+      "confidence": 79.021,
+      "text": "im Schrank. SS 7"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1203,
+        1319,
+        1761,
+        1399
+      ],
+      "left": 1203,
+      "top": 1319,
+      "right": 1761,
+      "bottom": 1399,
+      "width": 558,
+      "height": 80,
+      "confidence": 93.312,
+      "text": "anjmation vs"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        501,
+        1467,
+        652,
+        1491
+      ],
+      "left": 501,
+      "top": 1467,
+      "right": 652,
+      "bottom": 1491,
+      "width": 151,
+      "height": 24,
+      "confidence": 89.997,
+      "text": "parkassen"
+    },
+    {
+      "id": "l035",
+      "blockNumber": 16,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1211,
+        1477,
+        1769,
+        1502
+      ],
+      "left": 1211,
+      "top": 1477,
+      "right": 1769,
+      "bottom": 1502,
+      "width": 558,
+      "height": 25,
+      "confidence": 91.77,
+      "text": "Ein kleines Strichmannchen lauft Amo"
+    },
+    {
+      "id": "l036",
+      "blockNumber": 22,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2069,
+        1487,
+        2569,
+        1521
+      ],
+      "left": 2069,
+      "top": 1487,
+      "right": 2569,
+      "bottom": 1521,
+      "width": 500,
+      "height": 34,
+      "confidence": 66.358,
+      "text": "Moviec ff - a"
+    },
+    {
+      "id": "l037",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        141,
+        1503,
+        665,
+        1533
+      ],
+      "left": 141,
+      "top": 1503,
+      "right": 665,
+      "bottom": 1533,
+      "width": 524,
+      "height": 30,
+      "confidence": 91.935,
+      "text": "Nachtschalterfilialen partytechnisch"
+    },
+    {
+      "id": "l038",
+      "blockNumber": 16,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1209,
+        1514,
+        1936,
+        1550
+      ],
+      "left": 1209,
+      "top": 1514,
+      "right": 1936,
+      "bottom": 1550,
+      "width": 727,
+      "height": 36,
+      "confidence": 82.852,
+      "text": "auf’m Desktop. Ein definitiver Youtube Tipp! =i?"
+    },
+    {
+      "id": "l039",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        141,
+        1546,
+        652,
+        1570
+      ],
+      "left": 141,
+      "top": 1546,
+      "right": 652,
+      "bottom": 1570,
+      "width": 511,
+      "height": 24,
+      "confidence": 94.583,
+      "text": "unsicher machten und damit einen"
+    },
+    {
+      "id": "l040",
+      "blockNumber": 16,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1210,
+        1562,
+        1800,
+        1589
+      ],
+      "left": 1210,
+      "top": 1562,
+      "right": 1800,
+      "bottom": 1589,
+      "width": 590,
+      "height": 27,
+      "confidence": 91.696,
+      "text": "Such nach ,,animation vs. animator“ um"
+    },
+    {
+      "id": "l041",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        141,
+        1589,
+        579,
+        1619
+      ],
+      "left": 141,
+      "top": 1589,
+      "right": 579,
+      "bottom": 1619,
+      "width": 438,
+      "height": 30,
+      "confidence": 92.211,
+      "text": "beachtlichen Ruhm erlangten,"
+    },
+    {
+      "id": "l042",
+      "blockNumber": 16,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        1208,
+        1605,
+        2056,
+        1670
+      ],
+      "left": 1208,
+      "top": 1605,
+      "right": 2056,
+      "bottom": 1670,
+      "width": 848,
+      "height": 65,
+      "confidence": 80.935,
+      "text": "zu sehen wie ein kleines Strichmannchen 4 a"
+    },
+    {
+      "id": "l043",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        139,
+        1631,
+        598,
+        1655
+      ],
+      "left": 139,
+      "top": 1631,
+      "right": 598,
+      "bottom": 1655,
+      "width": 459,
+      "height": 24,
+      "confidence": 84.748,
+      "text": "veranstalten auch nach wie vor"
+    },
+    {
+      "id": "l044",
+      "blockNumber": 16,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        1210,
+        1647,
+        1803,
+        1672
+      ],
+      "left": 1210,
+      "top": 1647,
+      "right": 1803,
+      "bottom": 1672,
+      "width": 593,
+      "height": 25,
+      "confidence": 94.23,
+      "text": "in Adobes Flash zum Leben erwacht und"
+    },
+    {
+      "id": "l045",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        141,
+        1672,
+        659,
+        1703
+      ],
+      "left": 141,
+      "top": 1672,
+      "right": 659,
+      "bottom": 1703,
+      "width": 518,
+      "height": 31,
+      "confidence": 81.03,
+      "text": "Partys. Die beliebten Bankuberfalle"
+    },
+    {
+      "id": "l046",
+      "blockNumber": 16,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        1210,
+        1689,
+        1793,
+        1719
+      ],
+      "left": 1210,
+      "top": 1689,
+      "right": 1793,
+      "bottom": 1719,
+      "width": 583,
+      "height": 30,
+      "confidence": 91.536,
+      "text": "seinem Schopfer den Desktop unsicher"
+    },
+    {
+      "id": "l047",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        141,
+        1715,
+        546,
+        1745
+      ],
+      "left": 141,
+      "top": 1715,
+      "right": 546,
+      "bottom": 1745,
+      "width": 405,
+      "height": 30,
+      "confidence": 87.192,
+      "text": "scheinen zwar aufgrund der"
+    },
+    {
+      "id": "l048",
+      "blockNumber": 16,
+      "paragraphNumber": 5,
+      "lineNumber": 1,
+      "bbox": [
+        1210,
+        1731,
+        1694,
+        1756
+      ],
+      "left": 1210,
+      "top": 1731,
+      "right": 1694,
+      "bottom": 1756,
+      "width": 484,
+      "height": 25,
+      "confidence": 94.469,
+      "text": "macht. Auch zum Selbermachen:"
+    },
+    {
+      "id": "l049",
+      "blockNumber": 16,
+      "paragraphNumber": 5,
+      "lineNumber": 2,
+      "bbox": [
+        1208,
+        1755,
+        2066,
+        1814
+      ],
+      "left": 1208,
+      "top": 1755,
+      "right": 2066,
+      "bottom": 1814,
+      "width": 858,
+      "height": 59,
+      "confidence": 87.705,
+      "text": "google: stick animator \\"
+    },
+    {
+      "id": "l050",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        140,
+        1758,
+        569,
+        1783
+      ],
+      "left": 140,
+      "top": 1758,
+      "right": 569,
+      "bottom": 1783,
+      "width": 429,
+      "height": 25,
+      "confidence": 87.221,
+      "text": "doch zu hohen Strafen etwas"
+    },
+    {
+      "id": "l051",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        139,
+        1800,
+        690,
+        1831
+      ],
+      "left": 139,
+      "top": 1800,
+      "right": 690,
+      "bottom": 1831,
+      "width": 551,
+      "height": 31,
+      "confidence": 93.458,
+      "text": "zuruckgegangen, doch ganz vorbei ist"
+    },
+    {
+      "id": "l052",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1190,
+        1827,
+        1478,
+        1844
+      ],
+      "left": 1190,
+      "top": 1827,
+      "right": 1478,
+      "bottom": 1844,
+      "width": 288,
+      "height": 17,
+      "confidence": 50.933,
+      "text": "as ="
+    },
+    {
+      "id": "l053",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        128,
+        1843,
+        264,
+        1879
+      ],
+      "left": 128,
+      "top": 1843,
+      "right": 264,
+      "bottom": 1879,
+      "width": 136,
+      "height": 36,
+      "confidence": 79.415,
+      "text": "jes nicht!"
+    },
+    {
+      "id": "l054",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        224,
+        1846,
+        2734,
+        1947
+      ],
+      "left": 224,
+      "top": 1846,
+      "right": 2734,
+      "bottom": 1947,
+      "width": 2510,
+      "height": 101,
+      "confidence": 69.69,
+      "text": "wurde der 20.6. geflustert. i i VS i p 0 n eG x"
+    },
+    {
+      "id": "l055",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1074,
+        1935,
+        2663,
+        2014
+      ],
+      "left": 1074,
+      "top": 1935,
+      "right": 2663,
+      "bottom": 2014,
+      "width": 1589,
+      "height": 79,
+      "confidence": 77.216,
+      "text": "as der Wii Controler von Nintendo ve >!"
+    },
+    {
+      "id": "l056",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        1049,
+        2006,
+        2626,
+        2042
+      ],
+      "left": 1049,
+      "top": 2006,
+      "right": 2626,
+      "bottom": 2042,
+      "width": 1577,
+      "height": 36,
+      "confidence": 76.956,
+      "text": "kann (bewegungssensitive Steuerung) so"
+    },
+    {
+      "id": "l057",
+      "blockNumber": 25,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1049,
+        2048,
+        1608,
+        2078
+      ],
+      "left": 1049,
+      "top": 2048,
+      "right": 1608,
+      "bottom": 2078,
+      "width": 559,
+      "height": 30,
+      "confidence": 96.208,
+      "text": "kann das iPhone von Apple jetzt auch."
+    },
+    {
+      "id": "l058",
+      "blockNumber": 25,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1049,
+        2090,
+        1540,
+        2120
+      ],
+      "left": 1049,
+      "top": 2090,
+      "right": 1540,
+      "bottom": 2120,
+      "width": 491,
+      "height": 30,
+      "confidence": 94.78,
+      "text": "Steve Jobs und Co. prasentierten"
+    },
+    {
+      "id": "l059",
+      "blockNumber": 25,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1048,
+        2130,
+        1583,
+        2155
+      ],
+      "left": 1048,
+      "top": 2130,
+      "right": 1583,
+      "bottom": 2155,
+      "width": 535,
+      "height": 25,
+      "confidence": 95.073,
+      "text": "auf ihrer Pressekonferenz die ersten"
+    },
+    {
+      "id": "l060",
+      "blockNumber": 25,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        1049,
+        2171,
+        1516,
+        2205
+      ],
+      "left": 1049,
+      "top": 2171,
+      "right": 1516,
+      "bottom": 2205,
+      "width": 467,
+      "height": 34,
+      "confidence": 87.879,
+      "text": "Spiele firs iPhone. proud wittert"
+    },
+    {
+      "id": "l061",
+      "blockNumber": 25,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        1049,
+        2214,
+        1609,
+        2244
+      ],
+      "left": 1049,
+      "top": 2214,
+      "right": 1609,
+      "bottom": 2244,
+      "width": 560,
+      "height": 30,
+      "confidence": 90.222,
+      "text": "schweren Suchtfaktor und spurt Liebe"
+    },
+    {
+      "id": "l062",
+      "blockNumber": 25,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        1048,
+        2256,
+        1352,
+        2281
+      ],
+      "left": 1048,
+      "top": 2256,
+      "right": 1352,
+      "bottom": 2281,
+      "width": 304,
+      "height": 25,
+      "confidence": 95.98,
+      "text": "auf den ersten Blick."
+    },
+    {
+      "id": "l063",
+      "blockNumber": 26,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        954,
+        2320,
+        1458,
+        2428
+      ],
+      "left": 954,
+      "top": 2320,
+      "right": 1458,
+      "bottom": 2428,
+      "width": 504,
+      "height": 108,
+      "confidence": 66.339,
+      "text": "icapital sin"
+    },
+    {
+      "id": "l064",
+      "blockNumber": 27,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        977,
+        2407,
+        2078,
+        2460
+      ],
+      "left": 977,
+      "top": 2407,
+      "right": 2078,
+      "bottom": 2460,
+      "width": 1101,
+      "height": 53,
+      "confidence": 92.146,
+      "text": "| Das mit dem Sexverbot vor der Ehe hat ja noch nie so wirklich geklappt."
+    },
+    {
+      "id": "l065",
+      "blockNumber": 27,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        983,
+        2461,
+        2047,
+        2503
+      ],
+      "left": 983,
+      "top": 2461,
+      "right": 2047,
+      "bottom": 2503,
+      "width": 1064,
+      "height": 42,
+      "confidence": 92.001,
+      "text": "| Was Bischof Gianfranco jetzt von uns will... Die modernen Todstinden:"
+    },
+    {
+      "id": "l066",
+      "blockNumber": 27,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        984,
+        2501,
+        1547,
+        2538
+      ],
+      "left": 984,
+      "top": 2501,
+      "right": 1547,
+      "bottom": 2538,
+      "width": 563,
+      "height": 37,
+      "confidence": 80.614,
+      "text": "| + Drogenhandel und Drogenkonsum"
+    },
+    {
+      "id": "l067",
+      "blockNumber": 27,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        1022,
+        2539,
+        1668,
+        2579
+      ],
+      "left": 1022,
+      "top": 2539,
+      "right": 1668,
+      "bottom": 2579,
+      "width": 646,
+      "height": 40,
+      "confidence": 88.251,
+      "text": "- Missbrauch von Kindern und Jugendlichen"
+    },
+    {
+      "id": "l068",
+      "blockNumber": 28,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        204,
+        2579,
+        1376,
+        2630
+      ],
+      "left": 204,
+      "top": 2579,
+      "right": 1376,
+      "bottom": 2630,
+      "width": 1172,
+      "height": 51,
+      "confidence": 86.16,
+      "text": "aus der Popkultur. Ein Mix aus Vintage, Pin- } * Umweltverschmutzung"
+    },
+    {
+      "id": "l069",
+      "blockNumber": 28,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        204,
+        2627,
+        1213,
+        2676
+      ],
+      "left": 204,
+      "top": 2627,
+      "right": 1213,
+      "bottom": 2676,
+      "width": 1009,
+      "height": 49,
+      "confidence": 84.962,
+      "text": "up Girl, Glamour und Mut zum Punk Rock | * Prostitution"
+    },
+    {
+      "id": "l070",
+      "blockNumber": 28,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        156,
+        2671,
+        1513,
+        2737
+      ],
+      "left": 156,
+      "top": 2671,
+      "right": 1513,
+      "bottom": 2737,
+      "width": 1357,
+      "height": 66,
+      "confidence": 82.425,
+      "text": "¥ die erfahrensten Models erréten. | * Gen — bei Menschen"
+    },
+    {
+      "id": "l071",
+      "blockNumber": 28,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        205,
+        2713,
+        1653,
+        2748
+      ],
+      "left": 205,
+      "top": 2713,
+      "right": 1653,
+      "bottom": 2748,
+      "width": 1448,
+      "height": 35,
+      "confidence": 94.564,
+      "text": "Fur euch Died-Hard Fans, nicht nur ihr Aus Profitgier andere in die Armut treiben"
+    },
+    {
+      "id": "l072",
+      "blockNumber": 28,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        204,
+        2715,
+        1650,
+        2804
+      ],
+      "left": 204,
+      "top": 2715,
+      "right": 1650,
+      "bottom": 2804,
+      "width": 1446,
+      "height": 89,
+      "confidence": 76.353,
+      "text": "misst schlank bleiben fir diese heiSe Verschwehdung von Geld fur Luxusartikel"
+    },
+    {
+      "id": "l073",
+      "blockNumber": 28,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        203,
+        2782,
+        2013,
+        2839
+      ],
+      "left": 203,
+      "top": 2782,
+      "right": 2013,
+      "bottom": 2839,
+      "width": 1810,
+      "height": 57,
+      "confidence": 84.509,
+      "text": "Wasche, euer Portemonnaie bleibt’s auch. Die PunkteA\\3 4\\3,4) 5,(7Xdann auch 6) bereiten der proud Redaktion"
+    },
+    {
+      "id": "l074",
+      "blockNumber": 28,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        1016,
+        2819,
+        1545,
+        2874
+      ],
+      "left": 1016,
+      "top": 2819,
+      "right": 1545,
+      "bottom": 2874,
+      "width": 529,
+      "height": 55,
+      "confidence": 79.03,
+      "text": "schlaflose, sthuld usste Nachte."
+    }
+  ]
+}

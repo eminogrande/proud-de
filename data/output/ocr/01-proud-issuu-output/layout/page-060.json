@@ -1,0 +1,1067 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1583,
+        628,
+        2122,
+        642
+      ],
+      "left": 1583,
+      "top": 628,
+      "right": 2122,
+      "bottom": 642,
+      "width": 539,
+      "height": 14,
+      "confidence": 78.011,
+      "text": "\\ a"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1252,
+        657,
+        2099,
+        703
+      ],
+      "left": 1252,
+      "top": 657,
+      "right": 2099,
+      "bottom": 703,
+      "width": 847,
+      "height": 46,
+      "confidence": 94.015,
+      "text": "Wie und wo sollen wir denn anfangen?"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        950,
+        722,
+        1119,
+        1115
+      ],
+      "left": 950,
+      "top": 722,
+      "right": 1119,
+      "bottom": 1115,
+      "width": 169,
+      "height": 393,
+      "confidence": 64.287,
+      "text": "Te)"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1252,
+        722,
+        2064,
+        758
+      ],
+      "left": 1252,
+      "top": 722,
+      "right": 2064,
+      "bottom": 758,
+      "width": 812,
+      "height": 36,
+      "confidence": 95.661,
+      "text": "Vielleicht mit der Geschichte von der"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1254,
+        784,
+        2004,
+        831
+      ],
+      "left": 1254,
+      "top": 784,
+      "right": 2004,
+      "bottom": 831,
+      "width": 750,
+      "height": 47,
+      "confidence": 94.244,
+      "text": "Oma vorm Berghain? Oder die mit"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        1253,
+        848,
+        1993,
+        894
+      ],
+      "left": 1253,
+      "top": 848,
+      "right": 1993,
+      "bottom": 894,
+      "width": 740,
+      "height": 46,
+      "confidence": 93.604,
+      "text": "den streikenden Discokugeln, der"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        1254,
+        912,
+        1979,
+        958
+      ],
+      "left": 1254,
+      "top": 912,
+      "right": 1979,
+      "bottom": 958,
+      "width": 725,
+      "height": 46,
+      "confidence": 92.548,
+      "text": "Sicht der Ratten, dem Dschungel"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        1255,
+        954,
+        2222,
+        1046
+      ],
+      "left": 1255,
+      "top": 954,
+      "right": 2222,
+      "bottom": 1046,
+      "width": 967,
+      "height": 92,
+      "confidence": 89.702,
+      "text": "im U-Bahnhof, diesen Tieren $"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        1255,
+        1037,
+        2022,
+        1080
+      ],
+      "left": 1255,
+      "top": 1037,
+      "right": 2022,
+      "bottom": 1080,
+      "width": 767,
+      "height": 43,
+      "confidence": 95.128,
+      "text": "namens Atzen, oder doch uber den"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        1252,
+        1101,
+        1940,
+        1147
+      ],
+      "left": 1252,
+      "top": 1101,
+      "right": 1940,
+      "bottom": 1147,
+      "width": 688,
+      "height": 46,
+      "confidence": 92.293,
+      "text": "geheimen vom Staat geplanten"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        902,
+        1146,
+        1072,
+        2265
+      ],
+      "left": 902,
+      "top": 1146,
+      "right": 1072,
+      "bottom": 2265,
+      "width": 170,
+      "height": 1119,
+      "confidence": 78.262,
+      "text": "dissob ou 7"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1221,
+        1165,
+        2000,
+        1217
+      ],
+      "left": 1221,
+      "top": 1165,
+      "right": 2000,
+      "bottom": 1217,
+      "width": 779,
+      "height": 52,
+      "confidence": 88.155,
+      "text": "| Technotanzpflichtunterricht ab der"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1252,
+        1229,
+        2054,
+        1275
+      ],
+      "left": 1252,
+      "top": 1229,
+      "right": 2054,
+      "bottom": 1275,
+      "width": 802,
+      "height": 46,
+      "confidence": 93.55,
+      "text": "vierten Klasse zur Verbesserung der"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1256,
+        1292,
+        1603,
+        1338
+      ],
+      "left": 1256,
+      "top": 1292,
+      "right": 1603,
+      "bottom": 1338,
+      "width": 347,
+      "height": 46,
+      "confidence": 91.62,
+      "text": "Lebensenergie?"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 9,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1252,
+        1355,
+        1960,
+        1399
+      ],
+      "left": 1252,
+      "top": 1355,
+      "right": 1960,
+      "bottom": 1399,
+      "width": 708,
+      "height": 44,
+      "confidence": 95.251,
+      "text": "Alles in allem plaudern hier zwei"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 9,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        1256,
+        1418,
+        2053,
+        1455
+      ],
+      "left": 1256,
+      "top": 1418,
+      "right": 2053,
+      "bottom": 1455,
+      "width": 797,
+      "height": 37,
+      "confidence": 93.848,
+      "text": "Damen der schreibenden Zunft Uber"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 9,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        1256,
+        1481,
+        1987,
+        1519
+      ],
+      "left": 1256,
+      "top": 1481,
+      "right": 1987,
+      "bottom": 1519,
+      "width": 731,
+      "height": 38,
+      "confidence": 94.006,
+      "text": "Kuriositaten im Kontext des Rave"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1224,
+        1544,
+        2039,
+        1591
+      ],
+      "left": 1224,
+      "top": 1544,
+      "right": 2039,
+      "bottom": 1591,
+      "width": 815,
+      "height": 47,
+      "confidence": 92.343,
+      "text": "| und greifen fur die werten Leser die"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1254,
+        1607,
+        2022,
+        1644
+      ],
+      "left": 1254,
+      "top": 1607,
+      "right": 2022,
+      "bottom": 1644,
+      "width": 768,
+      "height": 37,
+      "confidence": 93.921,
+      "text": "Geschichten und Geruchte aus der"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1256,
+        1672,
+        2018,
+        1718
+      ],
+      "left": 1256,
+      "top": 1672,
+      "right": 2018,
+      "bottom": 1718,
+      "width": 762,
+      "height": 46,
+      "confidence": 83.282,
+      "text": "Luft der Berliner Partykuchen. Zum"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1255,
+        1735,
+        2048,
+        1780
+      ],
+      "left": 1255,
+      "top": 1735,
+      "right": 2048,
+      "bottom": 1780,
+      "width": 793,
+      "height": 45,
+      "confidence": 90.611,
+      "text": "Beispiel diese kleine Anekdote uber"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1253,
+        1799,
+        1600,
+        1835
+      ],
+      "left": 1253,
+      "top": 1799,
+      "right": 1600,
+      "bottom": 1835,
+      "width": 347,
+      "height": 36,
+      "confidence": 92.237,
+      "text": "das Schuhwerk:"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1252,
+        1926,
+        1685,
+        1963
+      ],
+      "left": 1252,
+      "top": 1926,
+      "right": 1685,
+      "bottom": 1963,
+      "width": 433,
+      "height": 37,
+      "confidence": 94.973,
+      "text": "Schuld und Schuhe"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 12,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1255,
+        1989,
+        2085,
+        2026
+      ],
+      "left": 1255,
+      "top": 1989,
+      "right": 2085,
+      "bottom": 2026,
+      "width": 830,
+      "height": 37,
+      "confidence": 92.974,
+      "text": "Man feierte den Weihnachtstraum bei"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 12,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        1253,
+        2052,
+        2026,
+        2089
+      ],
+      "left": 1253,
+      "top": 2052,
+      "right": 2026,
+      "bottom": 2089,
+      "width": 773,
+      "height": 37,
+      "confidence": 95.15,
+      "text": "den Nachtbanditen und mal wieder"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 12,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        1252,
+        2117,
+        1953,
+        2153
+      ],
+      "left": 1252,
+      "top": 2117,
+      "right": 1953,
+      "bottom": 2153,
+      "width": 701,
+      "height": 36,
+      "confidence": 94.4,
+      "text": "waren unter den Besucherinnen"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1075,
+        2154,
+        1137,
+        2227
+      ],
+      "left": 1075,
+      "top": 2154,
+      "right": 1137,
+      "bottom": 2227,
+      "width": 62,
+      "height": 73,
+      "confidence": 36.208,
+      "text": ">"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 12,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        1253,
+        2180,
+        2051,
+        2225
+      ],
+      "left": 1253,
+      "top": 2180,
+      "right": 2051,
+      "bottom": 2225,
+      "width": 798,
+      "height": 45,
+      "confidence": 92.852,
+      "text": "auch jene, die sich schuld fehlender"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 12,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        1252,
+        2242,
+        1922,
+        2279
+      ],
+      "left": 1252,
+      "top": 2242,
+      "right": 1922,
+      "bottom": 2279,
+      "width": 670,
+      "height": 37,
+      "confidence": 93.174,
+      "text": "Voraussicht Stockelschuhe fur"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1194,
+        2260,
+        1217,
+        2297
+      ],
+      "left": 1194,
+      "top": 2260,
+      "right": 1217,
+      "bottom": 2297,
+      "width": 23,
+      "height": 37,
+      "confidence": 32.707,
+      "text": "Vv"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 12,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        1253,
+        2306,
+        2004,
+        2352
+      ],
+      "left": 1253,
+      "top": 2306,
+      "right": 2004,
+      "bottom": 2352,
+      "width": 751,
+      "height": 46,
+      "confidence": 92.433,
+      "text": "den Tanzabend angezogen hatten."
+    },
+    {
+      "id": "l032",
+      "blockNumber": 12,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        1252,
+        2370,
+        1919,
+        2407
+      ],
+      "left": 1252,
+      "top": 2370,
+      "right": 1919,
+      "bottom": 2407,
+      "width": 667,
+      "height": 37,
+      "confidence": 92.981,
+      "text": "Trotz zahlreicher Scherben der"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 12,
+      "paragraphNumber": 4,
+      "lineNumber": 3,
+      "bbox": [
+        1253,
+        2433,
+        2030,
+        2479
+      ],
+      "left": 1253,
+      "top": 2433,
+      "right": 2030,
+      "bottom": 2479,
+      "width": 777,
+      "height": 46,
+      "confidence": 86.633,
+      "text": "Christoaumkugeln auf dem Tanzflur"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 12,
+      "paragraphNumber": 4,
+      "lineNumber": 4,
+      "bbox": [
+        1255,
+        2496,
+        2079,
+        2542
+      ],
+      "left": 1255,
+      "top": 2496,
+      "right": 2079,
+      "bottom": 2542,
+      "width": 824,
+      "height": 46,
+      "confidence": 93.16,
+      "text": "konnte eine ebensolche Jungfer nicht"
+    },
+    {
+      "id": "l035",
+      "blockNumber": 12,
+      "paragraphNumber": 4,
+      "lineNumber": 5,
+      "bbox": [
+        1255,
+        2561,
+        2054,
+        2607
+      ],
+      "left": 1255,
+      "top": 2561,
+      "right": 2054,
+      "bottom": 2607,
+      "width": 799,
+      "height": 46,
+      "confidence": 93.358,
+      "text": "umhin, sich ob ihrer musikbedingten"
+    },
+    {
+      "id": "l036",
+      "blockNumber": 12,
+      "paragraphNumber": 4,
+      "lineNumber": 6,
+      "bbox": [
+        1255,
+        2623,
+        1959,
+        2670
+      ],
+      "left": 1255,
+      "top": 2623,
+      "right": 1959,
+      "bottom": 2670,
+      "width": 704,
+      "height": 47,
+      "confidence": 92.087,
+      "text": "Bewegtheit ihrer Pfennigabsatze"
+    },
+    {
+      "id": "l037",
+      "blockNumber": 12,
+      "paragraphNumber": 5,
+      "lineNumber": 1,
+      "bbox": [
+        1252,
+        2687,
+        2001,
+        2733
+      ],
+      "left": 1252,
+      "top": 2687,
+      "right": 2001,
+      "bottom": 2733,
+      "width": 749,
+      "height": 46,
+      "confidence": 93.974,
+      "text": "zu entledigen, die sie sogleich vor"
+    },
+    {
+      "id": "l038",
+      "blockNumber": 12,
+      "paragraphNumber": 5,
+      "lineNumber": 2,
+      "bbox": [
+        1253,
+        2750,
+        1993,
+        2794
+      ],
+      "left": 1253,
+      "top": 2750,
+      "right": 1993,
+      "bottom": 2794,
+      "width": 740,
+      "height": 44,
+      "confidence": 90.778,
+      "text": "dem DJ-Pult platzierte. Ein druffer"
+    },
+    {
+      "id": "l039",
+      "blockNumber": 12,
+      "paragraphNumber": 5,
+      "lineNumber": 3,
+      "bbox": [
+        1254,
+        2814,
+        1910,
+        2851
+      ],
+      "left": 1254,
+      "top": 2814,
+      "right": 1910,
+      "bottom": 2851,
+      "width": 656,
+      "height": 37,
+      "confidence": 93.5,
+      "text": "Schuhfetischist witterte seine"
+    },
+    {
+      "id": "l040",
+      "blockNumber": 12,
+      "paragraphNumber": 5,
+      "lineNumber": 4,
+      "bbox": [
+        1255,
+        2877,
+        2029,
+        2923
+      ],
+      "left": 1255,
+      "top": 2877,
+      "right": 2029,
+      "bottom": 2923,
+      "width": 774,
+      "height": 46,
+      "confidence": 94.359,
+      "text": "ultimative Chance und griff sich die"
+    },
+    {
+      "id": "l041",
+      "blockNumber": 12,
+      "paragraphNumber": 5,
+      "lineNumber": 5,
+      "bbox": [
+        1256,
+        2940,
+        2034,
+        2986
+      ],
+      "left": 1256,
+      "top": 2940,
+      "right": 2034,
+      "bottom": 2986,
+      "width": 778,
+      "height": 46,
+      "confidence": 92.312,
+      "text": "Dinger, sobald besagte Jungfer sich"
+    },
+    {
+      "id": "l042",
+      "blockNumber": 12,
+      "paragraphNumber": 5,
+      "lineNumber": 6,
+      "bbox": [
+        1253,
+        3003,
+        1944,
+        3040
+      ],
+      "left": 1253,
+      "top": 3003,
+      "right": 1944,
+      "bottom": 3040,
+      "width": 691,
+      "height": 37,
+      "confidence": 92.273,
+      "text": "der tanzenden Meute zuwandte"
+    },
+    {
+      "id": "l043",
+      "blockNumber": 12,
+      "paragraphNumber": 6,
+      "lineNumber": 1,
+      "bbox": [
+        1255,
+        3068,
+        1931,
+        3113
+      ],
+      "left": 1255,
+      "top": 3068,
+      "right": 1931,
+      "bottom": 3113,
+      "width": 676,
+      "height": 45,
+      "confidence": 94.929,
+      "text": "und mit dem schicken Typen in"
+    },
+    {
+      "id": "l044",
+      "blockNumber": 12,
+      "paragraphNumber": 7,
+      "lineNumber": 1,
+      "bbox": [
+        1252,
+        3131,
+        2004,
+        3173
+      ],
+      "left": 1252,
+      "top": 3131,
+      "right": 2004,
+      "bottom": 3173,
+      "width": 752,
+      "height": 42,
+      "confidence": 90.591,
+      "text": "weifs flirtete, schlich sich aus dem"
+    },
+    {
+      "id": "l045",
+      "blockNumber": 12,
+      "paragraphNumber": 7,
+      "lineNumber": 2,
+      "bbox": [
+        1256,
+        3194,
+        2060,
+        3240
+      ],
+      "left": 1256,
+      "top": 3194,
+      "right": 2060,
+      "bottom": 3240,
+      "width": 804,
+      "height": 46,
+      "confidence": 94.988,
+      "text": "Laden und ward nie wieder gesehen."
+    },
+    {
+      "id": "l046",
+      "blockNumber": 12,
+      "paragraphNumber": 7,
+      "lineNumber": 3,
+      "bbox": [
+        1252,
+        3257,
+        1905,
+        3293
+      ],
+      "left": 1252,
+      "top": 3257,
+      "right": 1905,
+      "bottom": 3293,
+      "width": 653,
+      "height": 36,
+      "confidence": 94.221,
+      "text": "Vermutlich wandert in diesem"
+    },
+    {
+      "id": "l047",
+      "blockNumber": 12,
+      "paragraphNumber": 7,
+      "lineNumber": 4,
+      "bbox": [
+        1255,
+        3320,
+        2089,
+        3367
+      ],
+      "left": 1255,
+      "top": 3320,
+      "right": 2089,
+      "bottom": 3367,
+      "width": 834,
+      "height": 47,
+      "confidence": 93.68,
+      "text": "Moment seine Zunge Uber den Schaft"
+    },
+    {
+      "id": "l048",
+      "blockNumber": 12,
+      "paragraphNumber": 7,
+      "lineNumber": 5,
+      "bbox": [
+        1255,
+        3384,
+        1990,
+        3430
+      ],
+      "left": 1255,
+      "top": 3384,
+      "right": 1990,
+      "bottom": 3430,
+      "width": 735,
+      "height": 46,
+      "confidence": 94.199,
+      "text": "inres Pfennigabsatzes und seiner"
+    },
+    {
+      "id": "l049",
+      "blockNumber": 12,
+      "paragraphNumber": 7,
+      "lineNumber": 6,
+      "bbox": [
+        1255,
+        3446,
+        1967,
+        3484
+      ],
+      "left": 1255,
+      "top": 3446,
+      "right": 1967,
+      "bottom": 3484,
+      "width": 712,
+      "height": 38,
+      "confidence": 92.555,
+      "text": "Brust entfahrt ein leiser Seufzer."
+    },
+    {
+      "id": "l050",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1255,
+        3575,
+        2048,
+        3621
+      ],
+      "left": 1255,
+      "top": 3575,
+      "right": 2048,
+      "bottom": 3621,
+      "width": 793,
+      "height": 46,
+      "confidence": 95.953,
+      "text": "Letztlich stellt sich die Frage: Wo ist"
+    },
+    {
+      "id": "l051",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1253,
+        3638,
+        1572,
+        3684
+      ],
+      "left": 1253,
+      "top": 3638,
+      "right": 1572,
+      "bottom": 3684,
+      "width": 319,
+      "height": 46,
+      "confidence": 88.562,
+      "text": "eigentlich Iris?"
+    },
+    {
+      "id": "l052",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1504,
+        3719,
+        1516,
+        3726
+      ],
+      "left": 1504,
+      "top": 3719,
+      "right": 1516,
+      "bottom": 3726,
+      "width": 12,
+      "height": 7,
+      "confidence": 82.065,
+      "text": "~"
+    },
+    {
+      "id": "l053",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1526,
+        3737,
+        1579,
+        3755
+      ],
+      "left": 1526,
+      "top": 3737,
+      "right": 1579,
+      "bottom": 3755,
+      "width": 53,
+      "height": 18,
+      "confidence": 23.871,
+      "text": "te"
+    }
+  ]
+}

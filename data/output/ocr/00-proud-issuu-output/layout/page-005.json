@@ -1,0 +1,1027 @@
+{
+  "scale": 2.0,
+  "imageWidth": 4478,
+  "imageHeight": 3002,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 27,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3978,
+        60,
+        4397,
+        111
+      ],
+      "left": 3978,
+      "top": 60,
+      "right": 4397,
+      "bottom": 111,
+      "width": 419,
+      "height": 51,
+      "confidence": 96.299,
+      "text": "advertising option"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        79,
+        64,
+        252,
+        99
+      ],
+      "left": 79,
+      "top": 64,
+      "right": 252,
+      "bottom": 99,
+      "width": 173,
+      "height": 35,
+      "confidence": 96.761,
+      "text": "content"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1587,
+        479,
+        2882,
+        558
+      ],
+      "left": 1587,
+      "top": 479,
+      "right": 2882,
+      "bottom": 558,
+      "width": 1295,
+      "height": 79,
+      "confidence": 69.997,
+      "text": "TANZMICHMAL i"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1478,
+        492,
+        1517,
+        566
+      ],
+      "left": 1478,
+      "top": 492,
+      "right": 1517,
+      "bottom": 566,
+      "width": 39,
+      "height": 74,
+      "confidence": 55.532,
+      "text": "Z"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1589,
+        546,
+        1876,
+        576
+      ],
+      "left": 1589,
+      "top": 546,
+      "right": 1876,
+      "bottom": 576,
+      "width": 287,
+      "height": 30,
+      "confidence": 96.471,
+      "text": "Party in den Wolken"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1472,
+        789,
+        1511,
+        863
+      ],
+      "left": 1472,
+      "top": 789,
+      "right": 1511,
+      "bottom": 863,
+      "width": 39,
+      "height": 74,
+      "confidence": 95.443,
+      "text": "2"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1584,
+        790,
+        1797,
+        826
+      ],
+      "left": 1584,
+      "top": 790,
+      "right": 1797,
+      "bottom": 826,
+      "width": 213,
+      "height": 36,
+      "confidence": 95.786,
+      "text": "DJ CRAFT"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1474,
+        1122,
+        1519,
+        1196
+      ],
+      "left": 1474,
+      "top": 1122,
+      "right": 1519,
+      "bottom": 1196,
+      "width": 45,
+      "height": 74,
+      "confidence": 75.971,
+      "text": "4"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1590,
+        1124,
+        1735,
+        1159
+      ],
+      "left": 1590,
+      "top": 1124,
+      "right": 1735,
+      "bottom": 1159,
+      "width": 145,
+      "height": 35,
+      "confidence": 86.819,
+      "text": "7DAYS"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1589,
+        1176,
+        2027,
+        1207
+      ],
+      "left": 1589,
+      "top": 1176,
+      "right": 2027,
+      "bottom": 1207,
+      "width": 438,
+      "height": 31,
+      "confidence": 92.355,
+      "text": "Fashiongurus zum Bewundern"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1469,
+        1438,
+        1514,
+        1513
+      ],
+      "left": 1469,
+      "top": 1438,
+      "right": 1514,
+      "bottom": 1513,
+      "width": 45,
+      "height": 75,
+      "confidence": 65.868,
+      "text": "4,"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1581,
+        1440,
+        1903,
+        1475
+      ],
+      "left": 1581,
+      "top": 1440,
+      "right": 1903,
+      "bottom": 1475,
+      "width": 322,
+      "height": 35,
+      "confidence": 90.892,
+      "text": "FRITZ HELDER"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 16,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1580,
+        1488,
+        2400,
+        1526
+      ],
+      "left": 1580,
+      "top": 1488,
+      "right": 2400,
+      "bottom": 1526,
+      "width": 820,
+      "height": 38,
+      "confidence": 79.71,
+      "text": "Partykollektion zum Auffallen —"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        620,
+        1860,
+        1131,
+        1935
+      ],
+      "left": 620,
+      "top": 1860,
+      "right": 1131,
+      "bottom": 1935,
+      "width": 511,
+      "height": 75,
+      "confidence": 96.209,
+      "text": "3 HIDDEN ARTISTS"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1581,
+        1863,
+        1822,
+        1898
+      ],
+      "left": 1581,
+      "top": 1863,
+      "right": 1822,
+      "bottom": 1898,
+      "width": 241,
+      "height": 35,
+      "confidence": 96.45,
+      "text": "REGULARS"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        756,
+        1913,
+        1104,
+        1941
+      ],
+      "left": 756,
+      "top": 1913,
+      "right": 1104,
+      "bottom": 1941,
+      "width": 348,
+      "height": 28,
+      "confidence": 96.291,
+      "text": "Nicht Unter, nicht Grund"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 17,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1580,
+        1917,
+        1960,
+        1947
+      ],
+      "left": 1580,
+      "top": 1917,
+      "right": 1960,
+      "bottom": 1947,
+      "width": 380,
+      "height": 30,
+      "confidence": 89.635,
+      "text": "LOinbox 12flash 18report"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 17,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        1580,
+        1938,
+        2626,
+        1990
+      ],
+      "left": 1580,
+      "top": 1938,
+      "right": 2626,
+      "bottom": 1990,
+      "width": 1046,
+      "height": 52,
+      "confidence": 71.463,
+      "text": "25the knowledge 26focus artist 7m @"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 17,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        1580,
+        1994,
+        2368,
+        2066
+      ],
+      "left": 1580,
+      "top": 1994,
+      "right": 2368,
+      "bottom": 2066,
+      "width": 788,
+      "height": 72,
+      "confidence": 77.837,
+      "text": "27chat 32sounds 34feature |"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 17,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        1579,
+        2036,
+        2593,
+        2082
+      ],
+      "left": 1579,
+      "top": 2036,
+      "right": 2593,
+      "bottom": 2082,
+      "width": 1014,
+      "height": 46,
+      "confidence": 60.545,
+      "text": "40geared up 427days 44wardrobe | hae —_"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 17,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        1579,
+        2076,
+        2363,
+        2115
+      ],
+      "left": 1579,
+      "top": 2076,
+      "right": 2363,
+      "bottom": 2115,
+      "width": 784,
+      "height": 39,
+      "confidence": 73.551,
+      "text": "46style icon 5igrabs 52shoot ad"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 17,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        1580,
+        2126,
+        1949,
+        2150
+      ],
+      "left": 1580,
+      "top": 2126,
+      "right": 1949,
+      "bottom": 2150,
+      "width": 369,
+      "height": 24,
+      "confidence": 90.876,
+      "text": "56fashion flash 58scene"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 17,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        1579,
+        2138,
+        2766,
+        2206
+      ],
+      "left": 1579,
+      "top": 2138,
+      "right": 2766,
+      "bottom": 2206,
+      "width": 1187,
+      "height": 68,
+      "confidence": 83.226,
+      "text": "60navigator 64last look \\"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        139,
+        2581,
+        487,
+        2605
+      ],
+      "left": 139,
+      "top": 2581,
+      "right": 487,
+      "bottom": 2605,
+      "width": 348,
+      "height": 24,
+      "confidence": 94.148,
+      "text": "SARAH-JANE BENNETT"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 22,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        646,
+        2581,
+        920,
+        2605
+      ],
+      "left": 646,
+      "top": 2581,
+      "right": 920,
+      "bottom": 2605,
+      "width": 274,
+      "height": 24,
+      "confidence": 92.344,
+      "text": "MACK MCKELTON"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 23,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1150,
+        2581,
+        1377,
+        2605
+      ],
+      "left": 1150,
+      "top": 2581,
+      "right": 1377,
+      "bottom": 2605,
+      "width": 227,
+      "height": 24,
+      "confidence": 90.597,
+      "text": "ANNE HAHNER"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 25,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1657,
+        2581,
+        2377,
+        2607
+      ],
+      "left": 1657,
+      "top": 2581,
+      "right": 2377,
+      "bottom": 2607,
+      "width": 720,
+      "height": 26,
+      "confidence": 90.498,
+      "text": "MORITZ STELLMACHER j"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        141,
+        2623,
+        579,
+        2653
+      ],
+      "left": 141,
+      "top": 2623,
+      "right": 579,
+      "bottom": 2653,
+      "width": 438,
+      "height": 30,
+      "confidence": 95.782,
+      "text": "Supermans Girl hat gegen die"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 22,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        647,
+        2623,
+        1025,
+        2647
+      ],
+      "left": 647,
+      "top": 2623,
+      "right": 1025,
+      "bottom": 2647,
+      "width": 378,
+      "height": 24,
+      "confidence": 94.201,
+      "text": "Mr. Mecki Messer aka Mr."
+    },
+    {
+      "id": "l030",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1152,
+        2623,
+        1438,
+        2652
+      ],
+      "left": 1152,
+      "top": 2623,
+      "right": 1438,
+      "bottom": 2652,
+      "width": 286,
+      "height": 29,
+      "confidence": 92.468,
+      "text": "Deutsche Apfelsaft-"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 25,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1657,
+        2623,
+        1948,
+        2647
+      ],
+      "left": 1657,
+      "top": 2623,
+      "right": 1948,
+      "bottom": 2647,
+      "width": 291,
+      "height": 24,
+      "confidence": 96.366,
+      "text": "Sieben Jahre war er"
+    },
+    {
+      "id": "l032",
+      "blockNumber": 22,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        647,
+        2662,
+        985,
+        2699
+      ],
+      "left": 647,
+      "top": 2662,
+      "right": 985,
+      "bottom": 2699,
+      "width": 338,
+      "height": 37,
+      "confidence": 96.761,
+      "text": "Unbreakable aka proud"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        139,
+        2666,
+        555,
+        2696
+      ],
+      "left": 139,
+      "top": 2666,
+      "right": 555,
+      "bottom": 2696,
+      "width": 416,
+      "height": 30,
+      "confidence": 94.045,
+      "text": "wahre Jane in jeder Hinsicht"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1152,
+        2666,
+        1505,
+        2690
+      ],
+      "left": 1152,
+      "top": 2666,
+      "right": 1505,
+      "bottom": 2690,
+      "width": 353,
+      "height": 24,
+      "confidence": 91.101,
+      "text": "Schnelltrinker-Meisterin."
+    },
+    {
+      "id": "l035",
+      "blockNumber": 25,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1656,
+        2666,
+        2009,
+        2697
+      ],
+      "left": 1656,
+      "top": 2666,
+      "right": 2009,
+      "bottom": 2697,
+      "width": 353,
+      "height": 31,
+      "confidence": 95.115,
+      "text": "Zauberlehrling bei Harry"
+    },
+    {
+      "id": "l036",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        140,
+        2708,
+        377,
+        2733
+      ],
+      "left": 140,
+      "top": 2708,
+      "right": 377,
+      "bottom": 2733,
+      "width": 237,
+      "height": 25,
+      "confidence": 92.944,
+      "text": "das Nachsehen."
+    },
+    {
+      "id": "l037",
+      "blockNumber": 22,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        646,
+        2708,
+        1007,
+        2738
+      ],
+      "left": 646,
+      "top": 2708,
+      "right": 1007,
+      "bottom": 2738,
+      "width": 361,
+      "height": 30,
+      "confidence": 94.445,
+      "text": "Supporter M.M. mit dem"
+    },
+    {
+      "id": "l038",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1152,
+        2708,
+        1553,
+        2732
+      ],
+      "left": 1152,
+      "top": 2708,
+      "right": 1553,
+      "bottom": 2732,
+      "width": 401,
+      "height": 24,
+      "confidence": 84.884,
+      "text": "Nebenberuflich hubscheste"
+    },
+    {
+      "id": "l039",
+      "blockNumber": 25,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        1657,
+        2708,
+        2058,
+        2733
+      ],
+      "left": 1657,
+      "top": 2708,
+      "right": 2058,
+      "bottom": 2733,
+      "width": 401,
+      "height": 25,
+      "confidence": 95.661,
+      "text": "Potter. Nun steht ihm seine"
+    },
+    {
+      "id": "l040",
+      "blockNumber": 20,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        140,
+        2750,
+        497,
+        2774
+      ],
+      "left": 140,
+      "top": 2750,
+      "right": 497,
+      "bottom": 2774,
+      "width": 357,
+      "height": 24,
+      "confidence": 94.461,
+      "text": "Ohne dich brauchten wir"
+    },
+    {
+      "id": "l041",
+      "blockNumber": 22,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        645,
+        2750,
+        1078,
+        2774
+      ],
+      "left": 645,
+      "top": 2750,
+      "right": 1078,
+      "bottom": 2774,
+      "width": 433,
+      "height": 24,
+      "confidence": 95.783,
+      "text": "wohl besten Namen der Welt."
+    },
+    {
+      "id": "l042",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1152,
+        2750,
+        1551,
+        2774
+      ],
+      "left": 1152,
+      "top": 2750,
+      "right": 1551,
+      "bottom": 2774,
+      "width": 399,
+      "height": 24,
+      "confidence": 91.318,
+      "text": "Udk-Stundentin mit viel Stil"
+    },
+    {
+      "id": "l043",
+      "blockNumber": 26,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1656,
+        2750,
+        2013,
+        2781
+      ],
+      "left": 1656,
+      "top": 2750,
+      "right": 2013,
+      "bottom": 2781,
+      "width": 357,
+      "height": 31,
+      "confidence": 74.878,
+      "text": "Abschlussprufung bevor."
+    },
+    {
+      "id": "l044",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        1152,
+        2789,
+        1577,
+        2826
+      ],
+      "left": 1152,
+      "top": 2789,
+      "right": 1577,
+      "bottom": 2826,
+      "width": 425,
+      "height": 37,
+      "confidence": 94.156,
+      "text": "und Talent. Anne, proud setzt"
+    },
+    {
+      "id": "l045",
+      "blockNumber": 26,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1655,
+        2789,
+        2027,
+        2826
+      ],
+      "left": 1655,
+      "top": 2789,
+      "right": 2027,
+      "bottom": 2826,
+      "width": 372,
+      "height": 37,
+      "confidence": 81.984,
+      "text": "proud wiinscht viel Glick."
+    },
+    {
+      "id": "l046",
+      "blockNumber": 20,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        141,
+        2792,
+        559,
+        2822
+      ],
+      "left": 141,
+      "top": 2792,
+      "right": 559,
+      "bottom": 2822,
+      "width": 418,
+      "height": 30,
+      "confidence": 94.887,
+      "text": "Superman - Danke fur all die"
+    },
+    {
+      "id": "l047",
+      "blockNumber": 22,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        647,
+        2792,
+        839,
+        2816
+      ],
+      "left": 647,
+      "top": 2792,
+      "right": 839,
+      "bottom": 2816,
+      "width": 192,
+      "height": 24,
+      "confidence": 96.781,
+      "text": "Mehr? Check"
+    },
+    {
+      "id": "l048",
+      "blockNumber": 20,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        141,
+        2834,
+        403,
+        2858
+      ],
+      "left": 141,
+      "top": 2834,
+      "right": 403,
+      "bottom": 2858,
+      "width": 262,
+      "height": 24,
+      "confidence": 94.242,
+      "text": "konstruktive Hilfe."
+    },
+    {
+      "id": "l049",
+      "blockNumber": 22,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        645,
+        2834,
+        1005,
+        2858
+      ],
+      "left": 645,
+      "top": 2834,
+      "right": 1005,
+      "bottom": 2858,
+      "width": 360,
+      "height": 24,
+      "confidence": 89.927,
+      "text": "www.mackmckelton.com"
+    },
+    {
+      "id": "l050",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        1152,
+        2834,
+        1507,
+        2865
+      ],
+      "left": 1152,
+      "top": 2834,
+      "right": 1507,
+      "bottom": 2865,
+      "width": 355,
+      "height": 31,
+      "confidence": 96.077,
+      "text": "Hoffnung in dich. Peace."
+    },
+    {
+      "id": "l051",
+      "blockNumber": 21,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        78,
+        2922,
+        184,
+        2959
+      ],
+      "left": 78,
+      "top": 2922,
+      "right": 184,
+      "bottom": 2959,
+      "width": 106,
+      "height": 37,
+      "confidence": 96.577,
+      "text": "8 proud"
+    }
+  ]
+}

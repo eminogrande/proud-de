@@ -1,0 +1,107 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        578,
+        1641,
+        1371,
+        1720
+      ],
+      "left": 578,
+      "top": 1641,
+      "right": 1371,
+      "bottom": 1720,
+      "width": 793,
+      "height": 79,
+      "confidence": 95.373,
+      "text": "Women’s Freestyle"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        296,
+        3891,
+        950,
+        3922
+      ],
+      "left": 296,
+      "top": 3891,
+      "right": 950,
+      "bottom": 3922,
+      "width": 654,
+      "height": 31,
+      "confidence": 93.497,
+      "text": "Besuchen Sie unsere Geschafte:"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        296,
+        3947,
+        1760,
+        3988
+      ],
+      "left": 296,
+      "top": 3947,
+      "right": 1760,
+      "bottom": 3988,
+      "width": 1464,
+      "height": 41,
+      "confidence": 89.743,
+      "text": "Kopenicker StraBe 195 A / 10997 Berlin Kreuzberg / 030 61 076 633"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        295,
+        4005,
+        1387,
+        4045
+      ],
+      "left": 295,
+      "top": 4005,
+      "right": 1387,
+      "bottom": 4045,
+      "width": 1092,
+      "height": 40,
+      "confidence": 88.977,
+      "text": "Schonhauser Allee 8 / 10119 Berlin Prenzlauer Berg"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        291,
+        4144,
+        1474,
+        4182
+      ],
+      "left": 291,
+      "top": 4144,
+      "right": 1474,
+      "bottom": 4182,
+      "width": 1183,
+      "height": 38,
+      "confidence": 93.909,
+      "text": "www.overkillshop.com / Bestell-Hotline: O30 69 506 126"
+    }
+  ]
+}

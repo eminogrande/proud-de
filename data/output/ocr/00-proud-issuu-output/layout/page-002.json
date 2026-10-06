@@ -1,0 +1,107 @@
+{
+  "scale": 2.0,
+  "imageWidth": 4478,
+  "imageHeight": 3002,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        284,
+        1028,
+        3868,
+        1236
+      ],
+      "left": 284,
+      "top": 1028,
+      "right": 3868,
+      "bottom": 1236,
+      "width": 3584,
+      "height": 208,
+      "confidence": 73.528,
+      "text": "» | HE BEVERAGE »FUR KINDER"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        274,
+        1310,
+        4211,
+        1456
+      ],
+      "left": 274,
+      "top": 1310,
+      "right": 4211,
+      "bottom": 1456,
+      "width": 3937,
+      "height": 146,
+      "confidence": 94.943,
+      "text": "YOU ARE ABOUT UNTER 3 JAHREN"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        279,
+        1509,
+        4087,
+        1696
+      ],
+      "left": 279,
+      "top": 1509,
+      "right": 4087,
+      "bottom": 1696,
+      "width": 3808,
+      "height": 187,
+      "confidence": 94.962,
+      "text": "TO ENJOY MAY BE UNZUGANGLICH"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        287,
+        1765,
+        4464,
+        1972
+      ],
+      "left": 287,
+      "top": 1765,
+      "right": 4464,
+      "bottom": 1972,
+      "width": 4177,
+      "height": 207,
+      "confidence": 69.729,
+      "text": "EXTREMELY HOT™ ."
+    },
+    {
+      "id": "l005",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        4019,
+        2469,
+        4024,
+        2476
+      ],
+      "left": 4019,
+      "top": 2469,
+      "right": 4024,
+      "bottom": 2476,
+      "width": 5,
+      "height": 7,
+      "confidence": 35.786,
+      "text": "|"
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "scale": 2.0,
+  "imageWidth": 4478,
+  "imageHeight": 3002,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        4298,
+        16,
+        4308,
+        28
+      ],
+      "left": 4298,
+      "top": 16,
+      "right": 4308,
+      "bottom": 28,
+      "width": 10,
+      "height": 12,
+      "confidence": 57.196,
+      "text": "2"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        79,
+        37,
+        4402,
+        125
+      ],
+      "left": 79,
+      "top": 37,
+      "right": 4402,
+      "bottom": 125,
+      "width": 4323,
+      "height": 88,
+      "confidence": 91.077,
+      "text": "style file advertgriat"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1005,
+        86,
+        2057,
+        163
+      ],
+      "left": 1005,
+      "top": 86,
+      "right": 2057,
+      "bottom": 163,
+      "width": 1052,
+      "height": 77,
+      "confidence": 51.159,
+      "text": "i, -'----- — es,"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 6,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1529,
+        133,
+        1618,
+        254
+      ],
+      "left": 1529,
+      "top": 133,
+      "right": 1618,
+      "bottom": 254,
+      "width": 89,
+      "height": 121,
+      "confidence": 26.259,
+      "text": "(A"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 6,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        1210,
+        250,
+        4326,
+        310
+      ],
+      "left": 1210,
+      "top": 250,
+      "right": 4326,
+      "bottom": 310,
+      "width": 3116,
+      "height": 60,
+      "confidence": 82.01,
+      "text": "q }"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 6,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        458,
+        399,
+        4317,
+        491
+      ],
+      "left": 458,
+      "top": 399,
+      "right": 4317,
+      "bottom": 491,
+      "width": 3859,
+      "height": 92,
+      "confidence": 46.613,
+      "text": "7 RAS eae ‘"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 6,
+      "paragraphNumber": 5,
+      "lineNumber": 1,
+      "bbox": [
+        81,
+        515,
+        2100,
+        660
+      ],
+      "left": 81,
+      "top": 515,
+      "right": 2100,
+      "bottom": 660,
+      "width": 2019,
+      "height": 145,
+      "confidence": 92.125,
+      "text": "radie skatebeards berlin"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 6,
+      "paragraphNumber": 6,
+      "lineNumber": 1,
+      "bbox": [
+        92,
+        707,
+        1335,
+        828
+      ],
+      "left": 92,
+      "top": 707,
+      "right": 1335,
+      "bottom": 828,
+      "width": 1243,
+      "height": 121,
+      "confidence": 30.023,
+      "text": "PAO) re"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 6,
+      "paragraphNumber": 6,
+      "lineNumber": 2,
+      "bbox": [
+        4367,
+        2894,
+        4422,
+        2950
+      ],
+      "left": 4367,
+      "top": 2894,
+      "right": 4422,
+      "bottom": 2950,
+      "width": 55,
+      "height": 56,
+      "confidence": 49.271,
+      "text": ">"
+    }
+  ]
+}

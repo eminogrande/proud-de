@@ -1,0 +1,1967 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        82,
+        82,
+        260,
+        131
+      ],
+      "left": 82,
+      "top": 82,
+      "right": 260,
+      "bottom": 131,
+      "width": 178,
+      "height": 49,
+      "confidence": 96.917,
+      "text": "style file"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        274,
+        2188,
+        853,
+        2225
+      ],
+      "left": 274,
+      "top": 2188,
+      "right": 853,
+      "bottom": 2225,
+      "width": 579,
+      "height": 37,
+      "confidence": 95.28,
+      "text": "Flirrende Luft am Horizont."
+    },
+    {
+      "id": "l003",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1254,
+        2189,
+        1911,
+        2235
+      ],
+      "left": 1254,
+      "top": 2189,
+      "right": 1911,
+      "bottom": 2235,
+      "width": 657,
+      "height": 46,
+      "confidence": 94.788,
+      "text": "mal um Rat zu bitten. Geringe"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2235,
+        2189,
+        3012,
+        2235
+      ],
+      "left": 2235,
+      "top": 2189,
+      "right": 3012,
+      "bottom": 2235,
+      "width": 777,
+      "height": 46,
+      "confidence": 95.154,
+      "text": "bitte? Fuck it, sie sagt’s, ich mache"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        272,
+        2250,
+        984,
+        2288
+      ],
+      "left": 272,
+      "top": 2250,
+      "right": 984,
+      "bottom": 2288,
+      "width": 712,
+      "height": 38,
+      "confidence": 92.666,
+      "text": "Sommersonne. Kuhlender Wind."
+    },
+    {
+      "id": "l006",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2234,
+        2250,
+        2939,
+        2294
+      ],
+      "left": 2234,
+      "top": 2250,
+      "right": 2939,
+      "bottom": 2294,
+      "width": 705,
+      "height": 44,
+      "confidence": 95.487,
+      "text": "es einfach. Munchen, nee! Jetzt"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1224,
+        2252,
+        2032,
+        2298
+      ],
+      "left": 1224,
+      "top": 2252,
+      "right": 2032,
+      "bottom": 2298,
+      "width": 808,
+      "height": 46,
+      "confidence": 82.212,
+      "text": "' Erfolgsaussichten einkalkuliert. Mit"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        273,
+        2314,
+        966,
+        2357
+      ],
+      "left": 273,
+      "top": 2314,
+      "right": 966,
+      "bottom": 2357,
+      "width": 693,
+      "height": 43,
+      "confidence": 95.112,
+      "text": "Mit dem alten, weinroten Golf 2"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1255,
+        2315,
+        2055,
+        2361
+      ],
+      "left": 1255,
+      "top": 2315,
+      "right": 2055,
+      "bottom": 2361,
+      "width": 800,
+      "height": 46,
+      "confidence": 90.856,
+      "text": "leichten Artikulationsschwierigkeiten"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2234,
+        2315,
+        2992,
+        2357
+      ],
+      "left": 2234,
+      "top": 2315,
+      "right": 2992,
+      "bottom": 2357,
+      "width": 758,
+      "height": 42,
+      "confidence": 96.169,
+      "text": "einfach los, die 800 Meter werden"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        270,
+        2379,
+        978,
+        2416
+      ],
+      "left": 270,
+      "top": 2379,
+      "right": 978,
+      "bottom": 2416,
+      "width": 708,
+      "height": 37,
+      "confidence": 95.776,
+      "text": "fahre ich auf der Autobahn nach"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1254,
+        2379,
+        1883,
+        2416
+      ],
+      "left": 1254,
+      "top": 2379,
+      "right": 1883,
+      "bottom": 2416,
+      "width": 629,
+      "height": 37,
+      "confidence": 95.047,
+      "text": "um die Auskunft nach einem"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2228,
+        2379,
+        2939,
+        2424
+      ],
+      "left": 2228,
+      "top": 2379,
+      "right": 2939,
+      "bottom": 2424,
+      "width": 711,
+      "height": 45,
+      "confidence": 96.032,
+      "text": "ja nicht das Problem sein. Dann"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        273,
+        2441,
+        1068,
+        2479
+      ],
+      "left": 273,
+      "top": 2441,
+      "right": 1068,
+      "bottom": 2479,
+      "width": 795,
+      "height": 38,
+      "confidence": 93.472,
+      "text": "Munchen. Einer meiner Mitfahrer ist"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1254,
+        2441,
+        1943,
+        2487
+      ],
+      "left": 1254,
+      "top": 2441,
+      "right": 1943,
+      "bottom": 2487,
+      "width": 689,
+      "height": 46,
+      "confidence": 91.574,
+      "text": "nachtlichen Schlafplatz bittend,"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2236,
+        2442,
+        2958,
+        2487
+      ],
+      "left": 2236,
+      "top": 2442,
+      "right": 2958,
+      "bottom": 2487,
+      "width": 722,
+      "height": 45,
+      "confidence": 94.296,
+      "text": "ist der Spuk vorbei. Nach bereits"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1252,
+        2504,
+        1992,
+        2551
+      ],
+      "left": 1252,
+      "top": 2504,
+      "right": 1992,
+      "bottom": 2551,
+      "width": 740,
+      "height": 47,
+      "confidence": 83.856,
+      "text": "versuchen wir moglichst zivilisiert"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        271,
+        2505,
+        1083,
+        2542
+      ],
+      "left": 271,
+      "top": 2505,
+      "right": 1083,
+      "bottom": 2542,
+      "width": 812,
+      "height": 37,
+      "confidence": 95.046,
+      "text": "ein Radioskater. Er wird heute Abend"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2234,
+        2505,
+        3009,
+        2551
+      ],
+      "left": 2234,
+      "top": 2505,
+      "right": 3009,
+      "bottom": 2551,
+      "width": 775,
+      "height": 46,
+      "confidence": 80.661,
+      "text": "400 Metern die gro8e Wende. Eine"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        272,
+        2569,
+        1058,
+        2606
+      ],
+      "left": 272,
+      "top": 2569,
+      "right": 1058,
+      "bottom": 2606,
+      "width": 786,
+      "height": 37,
+      "confidence": 94.678,
+      "text": "auf einem Skatecontest fahren. Wir"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1252,
+        2569,
+        2028,
+        2616
+      ],
+      "left": 1252,
+      "top": 2569,
+      "right": 2028,
+      "bottom": 2616,
+      "width": 776,
+      "height": 47,
+      "confidence": 92.28,
+      "text": "zu wirken. Anscheinend erfolgreich,"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2234,
+        2570,
+        3010,
+        2612
+      ],
+      "left": 2234,
+      "top": 2570,
+      "right": 3010,
+      "bottom": 2612,
+      "width": 776,
+      "height": 42,
+      "confidence": 94.955,
+      "text": "andere Polizeistreife, die nichts mit"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        2234,
+        2631,
+        2991,
+        2675
+      ],
+      "left": 2234,
+      "top": 2631,
+      "right": 2991,
+      "bottom": 2675,
+      "width": 757,
+      "height": 44,
+      "confidence": 85.254,
+      "text": "der Mausefalle zu tun hat, mochte"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        271,
+        2633,
+        1099,
+        2679
+      ],
+      "left": 271,
+      "top": 2633,
+      "right": 1099,
+      "bottom": 2679,
+      "width": 828,
+      "height": 46,
+      "confidence": 94.687,
+      "text": "anderen begleiten ihn und wollen uns"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        1253,
+        2633,
+        1918,
+        2679
+      ],
+      "left": 1253,
+      "top": 2633,
+      "right": 1918,
+      "bottom": 2679,
+      "width": 665,
+      "height": 46,
+      "confidence": 82.939,
+      "text": "denn die heif$e Polizistin fragt,"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        273,
+        2694,
+        1110,
+        2741
+      ],
+      "left": 273,
+      "top": 2694,
+      "right": 1110,
+      "bottom": 2741,
+      "width": 837,
+      "height": 47,
+      "confidence": 93.794,
+      "text": "betrinken. Munchen kann ja nichts fur"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 8,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        1253,
+        2694,
+        1956,
+        2742
+      ],
+      "left": 1253,
+      "top": 2694,
+      "right": 1956,
+      "bottom": 2742,
+      "width": 703,
+      "height": 48,
+      "confidence": 84.273,
+      "text": "ob wir uns fur fahrtuchtig halten"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        2236,
+        2696,
+        2925,
+        2742
+      ],
+      "left": 2236,
+      "top": 2696,
+      "right": 2925,
+      "bottom": 2742,
+      "width": 689,
+      "height": 46,
+      "confidence": 93.926,
+      "text": "uns gerne mal sprechen. ,,Bitte"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 8,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        1252,
+        2757,
+        1970,
+        2795
+      ],
+      "left": 1252,
+      "top": 2757,
+      "right": 1970,
+      "bottom": 2795,
+      "width": 718,
+      "height": 38,
+      "confidence": 93.98,
+      "text": "wurden. Es fallt mir schwer mein"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 10,
+      "bbox": [
+        271,
+        2758,
+        1120,
+        2805
+      ],
+      "left": 271,
+      "top": 2758,
+      "right": 1120,
+      "bottom": 2805,
+      "width": 849,
+      "height": 47,
+      "confidence": 95.482,
+      "text": "einen Berliner sein. So viel steht vollig"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        2233,
+        2759,
+        3016,
+        2805
+      ],
+      "left": 2233,
+      "top": 2759,
+      "right": 3016,
+      "bottom": 2805,
+      "width": 783,
+      "height": 46,
+      "confidence": 91.695,
+      "text": "folgen“. Ich drehe durch. Bekomme"
+    },
+    {
+      "id": "l032",
+      "blockNumber": 8,
+      "paragraphNumber": 3,
+      "lineNumber": 3,
+      "bbox": [
+        1255,
+        2822,
+        1993,
+        2869
+      ],
+      "left": 1255,
+      "top": 2822,
+      "right": 1993,
+      "bottom": 2869,
+      "width": 738,
+      "height": 47,
+      "confidence": 93.574,
+      "text": "Lachen zu unterdrucken. Die gute"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 11,
+      "bbox": [
+        273,
+        2823,
+        663,
+        2869
+      ],
+      "left": 273,
+      "top": 2823,
+      "right": 663,
+      "bottom": 2869,
+      "width": 390,
+      "height": 46,
+      "confidence": 94.301,
+      "text": "unhinterfragt fest."
+    },
+    {
+      "id": "l034",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        2233,
+        2823,
+        3064,
+        2860
+      ],
+      "left": 2233,
+      "top": 2823,
+      "right": 3064,
+      "bottom": 2860,
+      "width": 831,
+      "height": 37,
+      "confidence": 95.587,
+      "text": "vor Schreck die Musik aus den Boxen"
+    },
+    {
+      "id": "l035",
+      "blockNumber": 8,
+      "paragraphNumber": 3,
+      "lineNumber": 4,
+      "bbox": [
+        1255,
+        2885,
+        2041,
+        2932
+      ],
+      "left": 1255,
+      "top": 2885,
+      "right": 2041,
+      "bottom": 2932,
+      "width": 786,
+      "height": 47,
+      "confidence": 85.196,
+      "text": "Frau weif§ naturlich sofort, was geht"
+    },
+    {
+      "id": "l036",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        2236,
+        2886,
+        3023,
+        2929
+      ],
+      "left": 2236,
+      "top": 2886,
+      "right": 3023,
+      "bottom": 2929,
+      "width": 787,
+      "height": 43,
+      "confidence": 94.136,
+      "text": "nicht mehr leiser und hinter mir, auf"
+    },
+    {
+      "id": "l037",
+      "blockNumber": 8,
+      "paragraphNumber": 3,
+      "lineNumber": 5,
+      "bbox": [
+        1254,
+        2948,
+        1992,
+        2995
+      ],
+      "left": 1254,
+      "top": 2948,
+      "right": 1992,
+      "bottom": 2995,
+      "width": 738,
+      "height": 47,
+      "confidence": 95.254,
+      "text": "und schlagt mir vor, einfach einen"
+    },
+    {
+      "id": "l038",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        2234,
+        2948,
+        2995,
+        2992
+      ],
+      "left": 2234,
+      "top": 2948,
+      "right": 2995,
+      "bottom": 2992,
+      "width": 761,
+      "height": 44,
+      "confidence": 90.023,
+      "text": "dem Rucksitz, sind die ersten zwei"
+    },
+    {
+      "id": "l039",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        274,
+        2949,
+        967,
+        2986
+      ],
+      "left": 274,
+      "top": 2949,
+      "right": 967,
+      "bottom": 2986,
+      "width": 693,
+      "height": 37,
+      "confidence": 89.17,
+      "text": "Der Wettbewerb ist interessant."
+    },
+    {
+      "id": "l040",
+      "blockNumber": 5,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        3012,
+        916,
+        3058
+      ],
+      "left": 273,
+      "top": 3012,
+      "right": 916,
+      "bottom": 3058,
+      "width": 643,
+      "height": 46,
+      "confidence": 95.24,
+      "text": "Mehr muss man nicht sagen."
+    },
+    {
+      "id": "l041",
+      "blockNumber": 8,
+      "paragraphNumber": 3,
+      "lineNumber": 6,
+      "bbox": [
+        1252,
+        3012,
+        1965,
+        3057
+      ],
+      "left": 1252,
+      "top": 3012,
+      "right": 1965,
+      "bottom": 3057,
+      "width": 713,
+      "height": 45,
+      "confidence": 92.986,
+      "text": "Alkoholpustetest zu machen. So"
+    },
+    {
+      "id": "l042",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 10,
+      "bbox": [
+        2233,
+        3012,
+        3009,
+        3058
+      ],
+      "left": 2233,
+      "top": 3012,
+      "right": 3009,
+      "bottom": 3058,
+      "width": 776,
+      "height": 46,
+      "confidence": 92.17,
+      "text": "vor Suff schon eingeschlafen. Egal,"
+    },
+    {
+      "id": "l043",
+      "blockNumber": 8,
+      "paragraphNumber": 3,
+      "lineNumber": 7,
+      "bbox": [
+        1252,
+        3075,
+        2040,
+        3123
+      ],
+      "left": 1252,
+      "top": 3075,
+      "right": 2040,
+      "bottom": 3123,
+      "width": 788,
+      "height": 48,
+      "confidence": 95.479,
+      "text": "waren wir uns sicher. Ich frage mich"
+    },
+    {
+      "id": "l044",
+      "blockNumber": 5,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        3077,
+        998,
+        3113
+      ],
+      "left": 270,
+      "top": 3077,
+      "right": 998,
+      "bottom": 3113,
+      "width": 728,
+      "height": 36,
+      "confidence": 94.691,
+      "text": "Wir sind betrunken. Schnell noch"
+    },
+    {
+      "id": "l045",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 11,
+      "bbox": [
+        2235,
+        3077,
+        3078,
+        3113
+      ],
+      "left": 2235,
+      "top": 3077,
+      "right": 3078,
+      "bottom": 3113,
+      "width": 843,
+      "height": 36,
+      "confidence": 96.275,
+      "text": "Schicksal ist eben Schicksal. Und das"
+    },
+    {
+      "id": "l046",
+      "blockNumber": 5,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        271,
+        3138,
+        950,
+        3185
+      ],
+      "left": 271,
+      "top": 3138,
+      "right": 950,
+      "bottom": 3185,
+      "width": 679,
+      "height": 47,
+      "confidence": 94.618,
+      "text": "einen Schlafplatz fur die Nacht"
+    },
+    {
+      "id": "l047",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 12,
+      "bbox": [
+        2236,
+        3139,
+        3013,
+        3186
+      ],
+      "left": 2236,
+      "top": 3139,
+      "right": 3013,
+      "bottom": 3186,
+      "width": 777,
+      "height": 47,
+      "confidence": 94.986,
+      "text": "ist eben doch Munchen. Ich ergebe"
+    },
+    {
+      "id": "l048",
+      "blockNumber": 8,
+      "paragraphNumber": 3,
+      "lineNumber": 8,
+      "bbox": [
+        1254,
+        3140,
+        2060,
+        3182
+      ],
+      "left": 1254,
+      "top": 3140,
+      "right": 2060,
+      "bottom": 3182,
+      "width": 806,
+      "height": 42,
+      "confidence": 94.807,
+      "text": "nur, wie viel Promille man nach einer"
+    },
+    {
+      "id": "l049",
+      "blockNumber": 5,
+      "paragraphNumber": 3,
+      "lineNumber": 3,
+      "bbox": [
+        270,
+        3203,
+        969,
+        3249
+      ],
+      "left": 270,
+      "top": 3203,
+      "right": 969,
+      "bottom": 3249,
+      "width": 699,
+      "height": 46,
+      "confidence": 96.384,
+      "text": "finden, was gar nicht so einfach"
+    },
+    {
+      "id": "l050",
+      "blockNumber": 8,
+      "paragraphNumber": 3,
+      "lineNumber": 9,
+      "bbox": [
+        1255,
+        3203,
+        2026,
+        3249
+      ],
+      "left": 1255,
+      "top": 3203,
+      "right": 2026,
+      "bottom": 3249,
+      "width": 771,
+      "height": 46,
+      "confidence": 92.713,
+      "text": "halben Flasche guten Wodkas wohl"
+    },
+    {
+      "id": "l051",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 13,
+      "bbox": [
+        2236,
+        3203,
+        2921,
+        3249
+      ],
+      "left": 2236,
+      "top": 3203,
+      "right": 2921,
+      "bottom": 3249,
+      "width": 685,
+      "height": 46,
+      "confidence": 95.19,
+      "text": "mich und steige aus dem Auto."
+    },
+    {
+      "id": "l052",
+      "blockNumber": 5,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        3266,
+        983,
+        3308
+      ],
+      "left": 273,
+      "top": 3266,
+      "right": 983,
+      "bottom": 3308,
+      "width": 710,
+      "height": 42,
+      "confidence": 94.643,
+      "text": "ist, wie sich herausstellt, da alle"
+    },
+    {
+      "id": "l053",
+      "blockNumber": 8,
+      "paragraphNumber": 3,
+      "lineNumber": 10,
+      "bbox": [
+        1255,
+        3266,
+        2003,
+        3311
+      ],
+      "left": 1255,
+      "top": 3266,
+      "right": 2003,
+      "bottom": 3311,
+      "width": 748,
+      "height": 45,
+      "confidence": 93.646,
+      "text": "hat. Ich puste in das beschissene"
+    },
+    {
+      "id": "l054",
+      "blockNumber": 12,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        2236,
+        3266,
+        3050,
+        3312
+      ],
+      "left": 2236,
+      "top": 3266,
+      "right": 3050,
+      "bottom": 3312,
+      "width": 814,
+      "height": 46,
+      "confidence": 93.907,
+      "text": "Finde die ganze Geschichte komplett"
+    },
+    {
+      "id": "l055",
+      "blockNumber": 5,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        274,
+        3321,
+        1077,
+        3376
+      ],
+      "left": 274,
+      "top": 3321,
+      "right": 1077,
+      "bottom": 3376,
+      "width": 803,
+      "height": 55,
+      "confidence": 87.673,
+      "text": "Ubernachtungsméglichkeiten bereits"
+    },
+    {
+      "id": "l056",
+      "blockNumber": 8,
+      "paragraphNumber": 3,
+      "lineNumber": 11,
+      "bbox": [
+        1255,
+        3330,
+        2023,
+        3376
+      ],
+      "left": 1255,
+      "top": 3330,
+      "right": 2023,
+      "bottom": 3376,
+      "width": 768,
+      "height": 46,
+      "confidence": 94.231,
+      "text": "Ding, bis es endlich piept. Sie liest"
+    },
+    {
+      "id": "l057",
+      "blockNumber": 12,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        2235,
+        3330,
+        3064,
+        3367
+      ],
+      "left": 2235,
+      "top": 3330,
+      "right": 3064,
+      "bottom": 3367,
+      "width": 829,
+      "height": 37,
+      "confidence": 94.403,
+      "text": "bescheuert und bereite mich auf eine"
+    },
+    {
+      "id": "l058",
+      "blockNumber": 5,
+      "paragraphNumber": 4,
+      "lineNumber": 3,
+      "bbox": [
+        270,
+        3393,
+        1027,
+        3439
+      ],
+      "left": 270,
+      "top": 3393,
+      "right": 1027,
+      "bottom": 3439,
+      "width": 757,
+      "height": 46,
+      "confidence": 93.394,
+      "text": "geschlossen sind. Im Auto sitzend"
+    },
+    {
+      "id": "l059",
+      "blockNumber": 8,
+      "paragraphNumber": 3,
+      "lineNumber": 12,
+      "bbox": [
+        1253,
+        3393,
+        2039,
+        3439
+      ],
+      "left": 1253,
+      "top": 3393,
+      "right": 2039,
+      "bottom": 3439,
+      "width": 786,
+      "height": 46,
+      "confidence": 93.764,
+      "text": "das elektrische Anzeige-LED ab und"
+    },
+    {
+      "id": "l060",
+      "blockNumber": 12,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        2236,
+        3393,
+        3044,
+        3439
+      ],
+      "left": 2236,
+      "top": 3393,
+      "right": 3044,
+      "bottom": 3439,
+      "width": 808,
+      "height": 46,
+      "confidence": 93.244,
+      "text": "Nacht der Formulare und bayrischen,"
+    },
+    {
+      "id": "l061",
+      "blockNumber": 5,
+      "paragraphNumber": 4,
+      "lineNumber": 4,
+      "bbox": [
+        273,
+        3455,
+        1112,
+        3502
+      ],
+      "left": 273,
+      "top": 3455,
+      "right": 1112,
+      "bottom": 3502,
+      "width": 839,
+      "height": 47,
+      "confidence": 90.053,
+      "text": "uberlegen wir uns einen Schlachtplan."
+    },
+    {
+      "id": "l062",
+      "blockNumber": 12,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        2236,
+        3455,
+        3007,
+        3501
+      ],
+      "left": 2236,
+      "top": 3455,
+      "right": 3007,
+      "bottom": 3501,
+      "width": 771,
+      "height": 46,
+      "confidence": 93.829,
+      "text": "kopfschuttelnden Polizisten vor. Ich"
+    },
+    {
+      "id": "l063",
+      "blockNumber": 8,
+      "paragraphNumber": 3,
+      "lineNumber": 13,
+      "bbox": [
+        1254,
+        3456,
+        2080,
+        3502
+      ],
+      "left": 1254,
+      "top": 3456,
+      "right": 2080,
+      "bottom": 3502,
+      "width": 826,
+      "height": 46,
+      "confidence": 85.937,
+      "text": "sagt etwas wie: ,,Kannst noch fahren,"
+    },
+    {
+      "id": "l064",
+      "blockNumber": 12,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        2236,
+        3519,
+        3054,
+        3567
+      ],
+      "left": 2236,
+      "top": 3519,
+      "right": 3054,
+      "bottom": 3567,
+      "width": 818,
+      "height": 48,
+      "confidence": 92.773,
+      "text": "kann es nicht glauben. Plotzlich fahrt"
+    },
+    {
+      "id": "l065",
+      "blockNumber": 5,
+      "paragraphNumber": 4,
+      "lineNumber": 5,
+      "bbox": [
+        274,
+        3520,
+        1115,
+        3557
+      ],
+      "left": 274,
+      "top": 3520,
+      "right": 1115,
+      "bottom": 3557,
+      "width": 841,
+      "height": 37,
+      "confidence": 92.73,
+      "text": "Fahren konnen wir definitiv nicht mehr."
+    },
+    {
+      "id": "l066",
+      "blockNumber": 8,
+      "paragraphNumber": 3,
+      "lineNumber": 14,
+      "bbox": [
+        1252,
+        3521,
+        1533,
+        3567
+      ],
+      "left": 1252,
+      "top": 3521,
+      "right": 1533,
+      "bottom": 3567,
+      "width": 281,
+      "height": 46,
+      "confidence": 91.169,
+      "text": "gerade mal!“"
+    },
+    {
+      "id": "l067",
+      "blockNumber": 5,
+      "paragraphNumber": 4,
+      "lineNumber": 6,
+      "bbox": [
+        273,
+        3583,
+        1073,
+        3620
+      ],
+      "left": 273,
+      "top": 3583,
+      "right": 1073,
+      "bottom": 3620,
+      "width": 800,
+      "height": 37,
+      "confidence": 91.798,
+      "text": "Plotzlich druckt sich ein betrunkener"
+    },
+    {
+      "id": "l068",
+      "blockNumber": 8,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        1253,
+        3584,
+        2098,
+        3630
+      ],
+      "left": 1253,
+      "top": 3584,
+      "right": 2098,
+      "bottom": 3630,
+      "width": 845,
+      "height": 46,
+      "confidence": 85.299,
+      "text": "0,2 Promille. ScheiSe. Das Ding muss"
+    },
+    {
+      "id": "l069",
+      "blockNumber": 12,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        2234,
+        3584,
+        3036,
+        3626
+      ],
+      "left": 2234,
+      "top": 3584,
+      "right": 3036,
+      "bottom": 3626,
+      "width": 802,
+      "height": 42,
+      "confidence": 91.924,
+      "text": "die Polizistin vorbei, ruft inrem"
+    },
+    {
+      "id": "l070",
+      "blockNumber": 5,
+      "paragraphNumber": 4,
+      "lineNumber": 7,
+      "bbox": [
+        273,
+        3646,
+        1043,
+        3683
+      ],
+      "left": 273,
+      "top": 3646,
+      "right": 1043,
+      "bottom": 3683,
+      "width": 770,
+      "height": 37,
+      "confidence": 93.405,
+      "text": "Munchener an unsere Scheibe und"
+    },
+    {
+      "id": "l071",
+      "blockNumber": 8,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        1255,
+        3647,
+        2046,
+        3692
+      ],
+      "left": 1255,
+      "top": 3647,
+      "right": 2046,
+      "bottom": 3692,
+      "width": 791,
+      "height": 45,
+      "confidence": 94.114,
+      "text": "kaputt sein. Ich hackenbreit und die"
+    },
+    {
+      "id": "l072",
+      "blockNumber": 12,
+      "paragraphNumber": 2,
+      "lineNumber": 7,
+      "bbox": [
+        2237,
+        3647,
+        2945,
+        3693
+      ],
+      "left": 2237,
+      "top": 3647,
+      "right": 2945,
+      "bottom": 3693,
+      "width": 708,
+      "height": 46,
+      "confidence": 95.878,
+      "text": "Kollegen zu, dass sie uns schon"
+    },
+    {
+      "id": "l073",
+      "blockNumber": 12,
+      "paragraphNumber": 2,
+      "lineNumber": 8,
+      "bbox": [
+        2236,
+        3709,
+        3059,
+        3755
+      ],
+      "left": 2236,
+      "top": 3709,
+      "right": 3059,
+      "bottom": 3755,
+      "width": 823,
+      "height": 46,
+      "confidence": 95.351,
+      "text": "kontrolliert habe und alles okay ware."
+    },
+    {
+      "id": "l074",
+      "blockNumber": 5,
+      "paragraphNumber": 4,
+      "lineNumber": 8,
+      "bbox": [
+        270,
+        3710,
+        1100,
+        3746
+      ],
+      "left": 270,
+      "top": 3710,
+      "right": 1100,
+      "bottom": 3746,
+      "width": 830,
+      "height": 36,
+      "confidence": 94.256,
+      "text": "faselt etwas von einer Mausefalle am"
+    },
+    {
+      "id": "l075",
+      "blockNumber": 8,
+      "paragraphNumber": 4,
+      "lineNumber": 3,
+      "bbox": [
+        1254,
+        3710,
+        2013,
+        3756
+      ],
+      "left": 1254,
+      "top": 3710,
+      "right": 2013,
+      "bottom": 3756,
+      "width": 759,
+      "height": 46,
+      "confidence": 95.524,
+      "text": "Polizei sagt mir, ich solle jetzt Auto"
+    },
+    {
+      "id": "l076",
+      "blockNumber": 5,
+      "paragraphNumber": 4,
+      "lineNumber": 9,
+      "bbox": [
+        274,
+        3774,
+        1096,
+        3817
+      ],
+      "left": 274,
+      "top": 3774,
+      "right": 1096,
+      "bottom": 3817,
+      "width": 822,
+      "height": 43,
+      "confidence": 94.621,
+      "text": "Ende der Danke, betrunkener"
+    },
+    {
+      "id": "l077",
+      "blockNumber": 8,
+      "paragraphNumber": 4,
+      "lineNumber": 4,
+      "bbox": [
+        1251,
+        3774,
+        2035,
+        3820
+      ],
+      "left": 1251,
+      "top": 3774,
+      "right": 2035,
+      "bottom": 3820,
+      "width": 784,
+      "height": 46,
+      "confidence": 95.18,
+      "text": "fahren. Ich kann doch kaum gerade"
+    },
+    {
+      "id": "l078",
+      "blockNumber": 12,
+      "paragraphNumber": 2,
+      "lineNumber": 9,
+      "bbox": [
+        2237,
+        3774,
+        2991,
+        3820
+      ],
+      "left": 2237,
+      "top": 3774,
+      "right": 2991,
+      "bottom": 3820,
+      "width": 754,
+      "height": 46,
+      "confidence": 94.823,
+      "text": "Ich kann es nicht glauben. Schnell"
+    },
+    {
+      "id": "l079",
+      "blockNumber": 5,
+      "paragraphNumber": 4,
+      "lineNumber": 10,
+      "bbox": [
+        273,
+        3836,
+        523,
+        3874
+      ],
+      "left": 273,
+      "top": 3836,
+      "right": 523,
+      "bottom": 3874,
+      "width": 250,
+      "height": 38,
+      "confidence": 89.782,
+      "text": "Munchener."
+    },
+    {
+      "id": "l080",
+      "blockNumber": 8,
+      "paragraphNumber": 4,
+      "lineNumber": 5,
+      "bbox": [
+        1252,
+        3836,
+        2078,
+        3883
+      ],
+      "left": 1252,
+      "top": 3836,
+      "right": 2078,
+      "bottom": 3883,
+      "width": 826,
+      "height": 47,
+      "confidence": 93.153,
+      "text": "gucken. Mit einem gewissen Drangen"
+    },
+    {
+      "id": "l081",
+      "blockNumber": 12,
+      "paragraphNumber": 2,
+      "lineNumber": 10,
+      "bbox": [
+        2234,
+        3837,
+        2936,
+        3883
+      ],
+      "left": 2234,
+      "top": 3837,
+      "right": 2936,
+      "bottom": 3883,
+      "width": 702,
+      "height": 46,
+      "confidence": 94.039,
+      "text": "die Zelte aufgebaut und Rausch"
+    },
+    {
+      "id": "l082",
+      "blockNumber": 12,
+      "paragraphNumber": 2,
+      "lineNumber": 11,
+      "bbox": [
+        2234,
+        3899,
+        3001,
+        3946
+      ],
+      "left": 2234,
+      "top": 3899,
+      "right": 3001,
+      "bottom": 3946,
+      "width": 767,
+      "height": 47,
+      "confidence": 92.903,
+      "text": "ausschlafen. Am nachsten Morgen"
+    },
+    {
+      "id": "l083",
+      "blockNumber": 5,
+      "paragraphNumber": 5,
+      "lineNumber": 1,
+      "bbox": [
+        274,
+        3900,
+        1043,
+        3946
+      ],
+      "left": 274,
+      "top": 3900,
+      "right": 1043,
+      "bottom": 3946,
+      "width": 769,
+      "height": 46,
+      "confidence": 96.076,
+      "text": "Die Polizei soll ja unser Freund und"
+    },
+    {
+      "id": "l084",
+      "blockNumber": 8,
+      "paragraphNumber": 4,
+      "lineNumber": 6,
+      "bbox": [
+        1255,
+        3900,
+        2072,
+        3945
+      ],
+      "left": 1255,
+      "top": 3900,
+      "right": 2072,
+      "bottom": 3945,
+      "width": 817,
+      "height": 45,
+      "confidence": 92.666,
+      "text": "in der Stimme empfiehlt mir die Frau,"
+    },
+    {
+      "id": "l085",
+      "blockNumber": 8,
+      "paragraphNumber": 4,
+      "lineNumber": 7,
+      "bbox": [
+        1253,
+        3962,
+        2024,
+        4010
+      ],
+      "left": 1253,
+      "top": 3962,
+      "right": 2024,
+      "bottom": 4010,
+      "width": 771,
+      "height": 48,
+      "confidence": 94.014,
+      "text": "einfach in den gegenuberliegenden"
+    },
+    {
+      "id": "l086",
+      "blockNumber": 5,
+      "paragraphNumber": 5,
+      "lineNumber": 2,
+      "bbox": [
+        274,
+        3963,
+        1103,
+        4000
+      ],
+      "left": 274,
+      "top": 3963,
+      "right": 1103,
+      "bottom": 4000,
+      "width": 829,
+      "height": 37,
+      "confidence": 95.185,
+      "text": "Helfer sein und wir stecken in diesem"
+    },
+    {
+      "id": "l087",
+      "blockNumber": 12,
+      "paragraphNumber": 2,
+      "lineNumber": 12,
+      "bbox": [
+        2235,
+        3963,
+        3026,
+        4000
+      ],
+      "left": 2235,
+      "top": 3963,
+      "right": 3026,
+      "bottom": 4000,
+      "width": 791,
+      "height": 37,
+      "confidence": 94.402,
+      "text": "schnorrt uns eine Pennerin mit dem"
+    },
+    {
+      "id": "l088",
+      "blockNumber": 12,
+      "paragraphNumber": 2,
+      "lineNumber": 13,
+      "bbox": [
+        2237,
+        4027,
+        3081,
+        4070
+      ],
+      "left": 2237,
+      "top": 4027,
+      "right": 3081,
+      "bottom": 4070,
+      "width": 844,
+      "height": 43,
+      "confidence": 94.962,
+      "text": "Hinweis an, dass wir auf dem Gelande"
+    },
+    {
+      "id": "l089",
+      "blockNumber": 5,
+      "paragraphNumber": 5,
+      "lineNumber": 3,
+      "bbox": [
+        273,
+        4028,
+        1067,
+        4064
+      ],
+      "left": 273,
+      "top": 4028,
+      "right": 1067,
+      "bottom": 4064,
+      "width": 794,
+      "height": 36,
+      "confidence": 94.473,
+      "text": "Moment wirklich in einer Misere. Da"
+    },
+    {
+      "id": "l090",
+      "blockNumber": 8,
+      "paragraphNumber": 4,
+      "lineNumber": 8,
+      "bbox": [
+        1254,
+        4028,
+        2025,
+        4064
+      ],
+      "left": 1254,
+      "top": 4028,
+      "right": 2025,
+      "bottom": 4064,
+      "width": 771,
+      "height": 36,
+      "confidence": 96.503,
+      "text": "Park zu fahren und dort eine Nacht"
+    },
+    {
+      "id": "l091",
+      "blockNumber": 8,
+      "paragraphNumber": 4,
+      "lineNumber": 9,
+      "bbox": [
+        1252,
+        4090,
+        2009,
+        4127
+      ],
+      "left": 1252,
+      "top": 4090,
+      "right": 2009,
+      "bottom": 4127,
+      "width": 757,
+      "height": 37,
+      "confidence": 94.777,
+      "text": "zu zelten. Einfach so in Munchen?"
+    },
+    {
+      "id": "l092",
+      "blockNumber": 5,
+      "paragraphNumber": 5,
+      "lineNumber": 4,
+      "bbox": [
+        273,
+        4091,
+        1020,
+        4133
+      ],
+      "left": 273,
+      "top": 4091,
+      "right": 1020,
+      "bottom": 4133,
+      "width": 747,
+      "height": 42,
+      "confidence": 95.248,
+      "text": "kann es nicht schaden, so unsere"
+    },
+    {
+      "id": "l093",
+      "blockNumber": 12,
+      "paragraphNumber": 2,
+      "lineNumber": 14,
+      "bbox": [
+        2234,
+        4091,
+        3059,
+        4127
+      ],
+      "left": 2234,
+      "top": 4091,
+      "right": 3059,
+      "bottom": 4127,
+      "width": 825,
+      "height": 36,
+      "confidence": 93.319,
+      "text": "des BKA zelten. Damit wird doch kein"
+    },
+    {
+      "id": "l094",
+      "blockNumber": 5,
+      "paragraphNumber": 5,
+      "lineNumber": 5,
+      "bbox": [
+        270,
+        4145,
+        1044,
+        4200
+      ],
+      "left": 270,
+      "top": 4145,
+      "right": 1044,
+      "bottom": 4200,
+      "width": 774,
+      "height": 55,
+      "confidence": 92.861,
+      "text": "gemeinsame Uberzeugung, einfach"
+    },
+    {
+      "id": "l095",
+      "blockNumber": 8,
+      "paragraphNumber": 4,
+      "lineNumber": 10,
+      "bbox": [
+        1255,
+        4154,
+        1941,
+        4190
+      ],
+      "left": 1255,
+      "top": 4154,
+      "right": 1941,
+      "bottom": 4190,
+      "width": 686,
+      "height": 36,
+      "confidence": 95.268,
+      "text": "Eine Nacht im Park zelten? Wie"
+    },
+    {
+      "id": "l096",
+      "blockNumber": 12,
+      "paragraphNumber": 2,
+      "lineNumber": 15,
+      "bbox": [
+        2236,
+        4154,
+        2546,
+        4200
+      ],
+      "left": 2236,
+      "top": 4154,
+      "right": 2546,
+      "bottom": 4200,
+      "width": 310,
+      "height": 46,
+      "confidence": 92.41,
+      "text": "Berliner fertig."
+    },
+    {
+      "id": "l097",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2494,
+        4239,
+        3081,
+        4276
+      ],
+      "left": 2494,
+      "top": 4239,
+      "right": 3081,
+      "bottom": 4276,
+      "width": 587,
+      "height": 37,
+      "confidence": 91.198,
+      "text": "www.radioskateboards.de"
+    },
+    {
+      "id": "l098",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        88,
+        4371,
+        134,
+        4409
+      ],
+      "left": 88,
+      "top": 4371,
+      "right": 134,
+      "bottom": 4409,
+      "width": 46,
+      "height": 38,
+      "confidence": 96.737,
+      "text": "56"
+    }
+  ]
+}

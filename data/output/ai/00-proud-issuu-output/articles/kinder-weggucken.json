@@ -1,0 +1,22 @@
+{
+  "title": "Kinder weggucken!",
+  "summary": "A letter addressing a plot spoiler for Harry Potter and a playful remark about magazines.",
+  "blocks": [
+    {
+      "pageNumber": 6,
+      "spreadPages": [
+        6,
+        7
+      ],
+      "sectionIds": [
+        "p006s05"
+      ],
+      "titles": [
+        "Kinder weggucken!"
+      ],
+      "markdown": "## Kinder weggucken!\n\nLiebes proud,\n\nSnape tötet bald Dumbledore! Hahahahaha!\n\nDer Verräter\n\nDu hast Niemandem irgendwas verraten. Potter ist eh nur was für Lutscher. Echte Männer lesen den Playboy... Und proud.",
+      "text": "Kinder weggucken!\nLiebes proud,\nSnape tötet bald Dumbledore! Hahahahaha!\nDer Verräter\nDu hast Niemandem irgendwas verraten. Potter ist eh nur was für Lutscher. Echte Männer lesen den Playboy... Und proud.",
+      "pageImage": null
+    }
+  ]
+}

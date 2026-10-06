@@ -1,0 +1,1667 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2237,
+        324,
+        3002,
+        366
+      ],
+      "left": 2237,
+      "top": 324,
+      "right": 3002,
+      "bottom": 366,
+      "width": 765,
+      "height": 42,
+      "confidence": 94.628,
+      "text": "Farbreiz ist einfach. Alles ist Farbe;"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1048,
+        352,
+        1078,
+        898
+      ],
+      "left": 1048,
+      "top": 352,
+      "right": 1078,
+      "bottom": 898,
+      "width": 30,
+      "height": 546,
+      "confidence": 35.116,
+      "text": "DON eat ad"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2228,
+        387,
+        3013,
+        433
+      ],
+      "left": 2228,
+      "top": 387,
+      "right": 3013,
+      "bottom": 433,
+      "width": 785,
+      "height": 46,
+      "confidence": 94.578,
+      "text": "jede Veranstaltung eine neue. Alles"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2236,
+        450,
+        2975,
+        492
+      ],
+      "left": 2236,
+      "top": 450,
+      "right": 2975,
+      "bottom": 492,
+      "width": 739,
+      "height": 42,
+      "confidence": 96.274,
+      "text": "immer wieder neu: die Drinks, die"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        2233,
+        514,
+        2923,
+        557
+      ],
+      "left": 2233,
+      "top": 514,
+      "right": 2923,
+      "bottom": 557,
+      "width": 690,
+      "height": 43,
+      "confidence": 94.405,
+      "text": "Visuals, der Schminkstand, der"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        2233,
+        577,
+        3012,
+        624
+      ],
+      "left": 2233,
+      "top": 577,
+      "right": 3012,
+      "bottom": 624,
+      "width": 779,
+      "height": 47,
+      "confidence": 92.949,
+      "text": "farbige Shot am Eingang und sogar"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        2234,
+        639,
+        2750,
+        687
+      ],
+      "left": 2234,
+      "top": 639,
+      "right": 2750,
+      "bottom": 687,
+      "width": 516,
+      "height": 48,
+      "confidence": 92.376,
+      "text": "die Kleidung der Gaste."
+    },
+    {
+      "id": "l008",
+      "blockNumber": 1,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        2237,
+        704,
+        3007,
+        750
+      ],
+      "left": 2237,
+      "top": 704,
+      "right": 3007,
+      "bottom": 750,
+      "width": 770,
+      "height": 46,
+      "confidence": 95.694,
+      "text": "Die kommen eben vor allem wegen"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1084,
+        723,
+        1093,
+        729
+      ],
+      "left": 1084,
+      "top": 723,
+      "right": 1093,
+      "bottom": 729,
+      "width": 9,
+      "height": 6,
+      "confidence": 53.385,
+      "text": "4"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 1,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        2234,
+        768,
+        2999,
+        811
+      ],
+      "left": 2234,
+      "top": 768,
+      "right": 2999,
+      "bottom": 811,
+      "width": 765,
+      "height": 43,
+      "confidence": 93.46,
+      "text": "des Erlebnisses untereinander, die"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 1,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        2236,
+        831,
+        2979,
+        868
+      ],
+      "left": 2236,
+      "top": 831,
+      "right": 2979,
+      "bottom": 868,
+      "width": 743,
+      "height": 37,
+      "confidence": 96.318,
+      "text": "Musik ist hier nur einer von vielen"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 1,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        2233,
+        894,
+        3055,
+        940
+      ],
+      "left": 2233,
+      "top": 894,
+      "right": 3055,
+      "bottom": 940,
+      "width": 822,
+      "height": 46,
+      "confidence": 92.798,
+      "text": "Teilen des grandiosen Flows. Farbreiz"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 1,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        2236,
+        957,
+        3067,
+        1002
+      ],
+      "left": 2236,
+      "top": 957,
+      "right": 3067,
+      "bottom": 1002,
+      "width": 831,
+      "height": 45,
+      "confidence": 90.569,
+      "text": "ist zudem keine stumpfe Technoparty."
+    },
+    {
+      "id": "l014",
+      "blockNumber": 1,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        2235,
+        1021,
+        3042,
+        1058
+      ],
+      "left": 2235,
+      "top": 1021,
+      "right": 3042,
+      "bottom": 1058,
+      "width": 807,
+      "height": 37,
+      "confidence": 93.005,
+      "text": "Selbst die Musik besitzt Farblichkeit."
+    },
+    {
+      "id": "l015",
+      "blockNumber": 1,
+      "paragraphNumber": 2,
+      "lineNumber": 7,
+      "bbox": [
+        2233,
+        1083,
+        2967,
+        1121
+      ],
+      "left": 2233,
+      "top": 1083,
+      "right": 2967,
+      "bottom": 1121,
+      "width": 734,
+      "height": 38,
+      "confidence": 95.258,
+      "text": "Aber vor allem sind die Gaste die"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 1,
+      "paragraphNumber": 2,
+      "lineNumber": 8,
+      "bbox": [
+        2235,
+        1147,
+        3025,
+        1194
+      ],
+      "left": 2235,
+      "top": 1147,
+      "right": 3025,
+      "bottom": 1194,
+      "width": 790,
+      "height": 47,
+      "confidence": 93.364,
+      "text": "Party. Die Farbreiz-Reihe folgt einem"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 1,
+      "paragraphNumber": 2,
+      "lineNumber": 9,
+      "bbox": [
+        2235,
+        1212,
+        3027,
+        1257
+      ],
+      "left": 2235,
+      "top": 1212,
+      "right": 3027,
+      "bottom": 1257,
+      "width": 792,
+      "height": 45,
+      "confidence": 87.682,
+      "text": "simplen Konzept, das sich auszahit."
+    },
+    {
+      "id": "l018",
+      "blockNumber": 1,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        2194,
+        1275,
+        2912,
+        1320
+      ],
+      "left": 2194,
+      "top": 1275,
+      "right": 2912,
+      "bottom": 1320,
+      "width": 718,
+      "height": 45,
+      "confidence": 84.456,
+      "text": "# Jedes Mal erwartet Dich etwas"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 1,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        2236,
+        1338,
+        3032,
+        1375
+      ],
+      "left": 2236,
+      "top": 1338,
+      "right": 3032,
+      "bottom": 1375,
+      "width": 796,
+      "height": 37,
+      "confidence": 94.792,
+      "text": "Neues. Bei bekannten Clubs kannst"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 1,
+      "paragraphNumber": 3,
+      "lineNumber": 3,
+      "bbox": [
+        2237,
+        1401,
+        2959,
+        1444
+      ],
+      "left": 2237,
+      "top": 1401,
+      "right": 2959,
+      "bottom": 1444,
+      "width": 722,
+      "height": 43,
+      "confidence": 96.565,
+      "text": "Du Dir nicht mehr sicher sein, da"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 1,
+      "paragraphNumber": 3,
+      "lineNumber": 4,
+      "bbox": [
+        2234,
+        1466,
+        2997,
+        1511
+      ],
+      "left": 2234,
+      "top": 1466,
+      "right": 2997,
+      "bottom": 1511,
+      "width": 763,
+      "height": 45,
+      "confidence": 93.26,
+      "text": "diese jedes Mal anders aussehen."
+    },
+    {
+      "id": "l022",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        547,
+        1503,
+        618,
+        1530
+      ],
+      "left": 547,
+      "top": 1503,
+      "right": 618,
+      "bottom": 1530,
+      "width": 71,
+      "height": 27,
+      "confidence": 83.139,
+      "text": "\\"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        443,
+        1513,
+        3075,
+        1608
+      ],
+      "left": 443,
+      "top": 1513,
+      "right": 3075,
+      "bottom": 1608,
+      "width": 2632,
+      "height": 95,
+      "confidence": 86.446,
+      "text": "SSA Zumal die Veranstaltungsorte ohnehin"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2235,
+        1591,
+        2959,
+        1638
+      ],
+      "left": 2235,
+      "top": 1591,
+      "right": 2959,
+      "bottom": 1638,
+      "width": 724,
+      "height": 47,
+      "confidence": 93.419,
+      "text": "standig wechseln. Das goldgelbe"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 18,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        703,
+        1592,
+        748,
+        2449
+      ],
+      "left": 703,
+      "top": 1592,
+      "right": 748,
+      "bottom": 2449,
+      "width": 45,
+      "height": 857,
+      "confidence": 28.598,
+      "text": "MD MMe Wa ~~ F"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        602,
+        1614,
+        631,
+        1767
+      ],
+      "left": 602,
+      "top": 1614,
+      "right": 631,
+      "bottom": 1767,
+      "width": 29,
+      "height": 153,
+      "confidence": 45.31,
+      "text": "BEES"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        86,
+        1627,
+        3012,
+        1734
+      ],
+      "left": 86,
+      "top": 1627,
+      "right": 3012,
+      "bottom": 1734,
+      "width": 2926,
+      "height": 107,
+      "confidence": 86.5,
+      "text": "88 Sonnenbad der einen Party wird fur"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        502,
+        1652,
+        531,
+        1805
+      ],
+      "left": 502,
+      "top": 1652,
+      "right": 531,
+      "bottom": 1805,
+      "width": 29,
+      "height": 153,
+      "confidence": 58.836,
+      "text": "LLL"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        0,
+        1701,
+        2998,
+        1779
+      ],
+      "left": 0,
+      "top": 1701,
+      "right": 2998,
+      "bottom": 1779,
+      "width": 2998,
+      "height": 78,
+      "confidence": 74.349,
+      "text": "Serr ag af - die nachste in eine feuerrote Holle"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        0,
+        1749,
+        2961,
+        1818
+      ],
+      "left": 0,
+      "top": 1749,
+      "right": 2961,
+      "bottom": 1818,
+      "width": 2961,
+      "height": 69,
+      "confidence": 70.255,
+      "text": "St rr ht. Wirreden hier nich"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 16,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        159,
+        1769,
+        187,
+        1972
+      ],
+      "left": 159,
+      "top": 1769,
+      "right": 187,
+      "bottom": 1972,
+      "width": 28,
+      "height": 203,
+      "confidence": 42.566,
+      "text": "BIA 0B."
+    },
+    {
+      "id": "l032",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1058,
+        1769,
+        1074,
+        1827
+      ],
+      "left": 1058,
+      "top": 1769,
+      "right": 1074,
+      "bottom": 1827,
+      "width": 16,
+      "height": 58,
+      "confidence": 23.907,
+      "text": "atk"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        632,
+        1772,
+        663,
+        2367
+      ],
+      "left": 632,
+      "top": 1772,
+      "right": 663,
+      "bottom": 2367,
+      "width": 31,
+      "height": 595,
+      "confidence": 67.593,
+      "text": "AL Wuuuseue"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        159,
+        1785,
+        3070,
+        1849
+      ],
+      "left": 159,
+      "top": 1785,
+      "right": 3070,
+      "bottom": 1849,
+      "width": 2911,
+      "height": 64,
+      "confidence": 76.111,
+      "text": "WV ab LT eingetauscht. Wir reden hier nicht von"
+    },
+    {
+      "id": "l035",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        84,
+        1791,
+        113,
+        1961
+      ],
+      "left": 84,
+      "top": 1791,
+      "right": 113,
+      "bottom": 1961,
+      "width": 29,
+      "height": 170,
+      "confidence": 36.532,
+      "text": "iL BEET"
+    },
+    {
+      "id": "l036",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        737,
+        1799,
+        761,
+        1853
+      ],
+      "left": 737,
+      "top": 1799,
+      "right": 761,
+      "bottom": 1853,
+      "width": 24,
+      "height": 54,
+      "confidence": 27.327,
+      "text": "Td"
+    },
+    {
+      "id": "l037",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        794,
+        1811,
+        815,
+        1840
+      ],
+      "left": 794,
+      "top": 1811,
+      "right": 815,
+      "bottom": 1840,
+      "width": 21,
+      "height": 29,
+      "confidence": 57.561,
+      "text": "a"
+    },
+    {
+      "id": "l038",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2236,
+        1845,
+        3006,
+        1891
+      ],
+      "left": 2236,
+      "top": 1845,
+      "right": 3006,
+      "bottom": 1891,
+      "width": 770,
+      "height": 46,
+      "confidence": 92.368,
+      "text": "pissigen Lampen, die kontrastreich"
+    },
+    {
+      "id": "l039",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        18,
+        1854,
+        45,
+        1987
+      ],
+      "left": 18,
+      "top": 1854,
+      "right": 45,
+      "bottom": 1987,
+      "width": 27,
+      "height": 133,
+      "confidence": 29.729,
+      "text": "S257"
+    },
+    {
+      "id": "l040",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        47,
+        1856,
+        81,
+        2285
+      ],
+      "left": 47,
+      "top": 1856,
+      "right": 81,
+      "bottom": 2285,
+      "width": 34,
+      "height": 429,
+      "confidence": 42.393,
+      "text": "BUREREEE EEE"
+    },
+    {
+      "id": "l041",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        119,
+        1859,
+        141,
+        2427
+      ],
+      "left": 119,
+      "top": 1859,
+      "right": 141,
+      "bottom": 2427,
+      "width": 22,
+      "height": 568,
+      "confidence": 38.981,
+      "text": "AGERE wwe"
+    },
+    {
+      "id": "l042",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        816,
+        1883,
+        839,
+        2173
+      ],
+      "left": 816,
+      "top": 1883,
+      "right": 839,
+      "bottom": 2173,
+      "width": 23,
+      "height": 290,
+      "confidence": 26.706,
+      "text": "lid Add"
+    },
+    {
+      "id": "l043",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        840,
+        1903,
+        863,
+        2087
+      ],
+      "left": 840,
+      "top": 1903,
+      "right": 863,
+      "bottom": 2087,
+      "width": 23,
+      "height": 184,
+      "confidence": 37.66,
+      "text": "22224"
+    },
+    {
+      "id": "l044",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2234,
+        1908,
+        3041,
+        1954
+      ],
+      "left": 2234,
+      "top": 1908,
+      "right": 3041,
+      "bottom": 1954,
+      "width": 807,
+      "height": 46,
+      "confidence": 95.342,
+      "text": "angeordnet werden, sondern wirklich"
+    },
+    {
+      "id": "l045",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1028,
+        1927,
+        1065,
+        2060
+      ],
+      "left": 1028,
+      "top": 1927,
+      "right": 1065,
+      "bottom": 2060,
+      "width": 37,
+      "height": 133,
+      "confidence": 37.757,
+      "text": "ve Leet *"
+    },
+    {
+      "id": "l046",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2233,
+        1973,
+        3050,
+        2019
+      ],
+      "left": 2233,
+      "top": 1973,
+      "right": 3050,
+      "bottom": 2019,
+      "width": 817,
+      "height": 46,
+      "confidence": 94.74,
+      "text": "vom ganzen Setting. Hier macht man"
+    },
+    {
+      "id": "l047",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1066,
+        1994,
+        1083,
+        2005
+      ],
+      "left": 1066,
+      "top": 1994,
+      "right": 1083,
+      "bottom": 2005,
+      "width": 17,
+      "height": 11,
+      "confidence": 40.475,
+      "text": "LY"
+    },
+    {
+      "id": "l048",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        2235,
+        2036,
+        3061,
+        2081
+      ],
+      "left": 2235,
+      "top": 2036,
+      "right": 3061,
+      "bottom": 2081,
+      "width": 826,
+      "height": 45,
+      "confidence": 94.934,
+      "text": "sich wirklich Gedanken. Vom Flyer bis"
+    },
+    {
+      "id": "l049",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        668,
+        2069,
+        690,
+        2358
+      ],
+      "left": 668,
+      "top": 2069,
+      "right": 690,
+      "bottom": 2358,
+      "width": 22,
+      "height": 289,
+      "confidence": 40.442,
+      "text": "BEREEEEE"
+    },
+    {
+      "id": "l050",
+      "blockNumber": 18,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        467,
+        2092,
+        482,
+        2093
+      ],
+      "left": 467,
+      "top": 2092,
+      "right": 482,
+      "bottom": 2093,
+      "width": 15,
+      "height": 1,
+      "confidence": 35.791,
+      "text": "2"
+    },
+    {
+      "id": "l051",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        2236,
+        2098,
+        3058,
+        2145
+      ],
+      "left": 2236,
+      "top": 2098,
+      "right": 3058,
+      "bottom": 2145,
+      "width": 822,
+      "height": 47,
+      "confidence": 92.86,
+      "text": "hin zur Kleidung der Tursteherin — die"
+    },
+    {
+      "id": "l052",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1067,
+        2147,
+        1088,
+        2259
+      ],
+      "left": 1067,
+      "top": 2147,
+      "right": 1088,
+      "bottom": 2259,
+      "width": 21,
+      "height": 112,
+      "confidence": 33.439,
+      "text": "tt $2508"
+    },
+    {
+      "id": "l053",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        2236,
+        2162,
+        2769,
+        2200
+      ],
+      "left": 2236,
+      "top": 2162,
+      "right": 2769,
+      "bottom": 2200,
+      "width": 533,
+      "height": 38,
+      "confidence": 91.667,
+      "text": "Farbe taucht Uberall auf."
+    },
+    {
+      "id": "l054",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        2237,
+        2226,
+        3025,
+        2272
+      ],
+      "left": 2237,
+      "top": 2226,
+      "right": 3025,
+      "bottom": 2272,
+      "width": 788,
+      "height": 46,
+      "confidence": 93.448,
+      "text": "Diese konsequente Umsetzung wird"
+    },
+    {
+      "id": "l055",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        2234,
+        2289,
+        3023,
+        2334
+      ],
+      "left": 2234,
+      "top": 2289,
+      "right": 3023,
+      "bottom": 2334,
+      "width": 789,
+      "height": 45,
+      "confidence": 93.878,
+      "text": "entsprechend honoriert. Alle Events"
+    },
+    {
+      "id": "l056",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        2235,
+        2351,
+        3002,
+        2398
+      ],
+      "left": 2235,
+      "top": 2351,
+      "right": 3002,
+      "bottom": 2398,
+      "width": 767,
+      "height": 47,
+      "confidence": 93.751,
+      "text": "sind gut gefullt. Ob das tatsachlich"
+    },
+    {
+      "id": "l057",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 10,
+      "bbox": [
+        2236,
+        2413,
+        3041,
+        2467
+      ],
+      "left": 2236,
+      "top": 2413,
+      "right": 3041,
+      "bottom": 2467,
+      "width": 805,
+      "height": 54,
+      "confidence": 94.038,
+      "text": "nur an einer Farbe liegt, bleibt jedem"
+    },
+    {
+      "id": "l058",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        542,
+        2427,
+        585,
+        2480
+      ],
+      "left": 542,
+      "top": 2427,
+      "right": 585,
+      "bottom": 2480,
+      "width": 43,
+      "height": 53,
+      "confidence": 73.851,
+      "text": "|"
+    },
+    {
+      "id": "l059",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 11,
+      "bbox": [
+        2235,
+        2479,
+        2954,
+        2516
+      ],
+      "left": 2235,
+      "top": 2479,
+      "right": 2954,
+      "bottom": 2516,
+      "width": 719,
+      "height": 37,
+      "confidence": 87.943,
+      "text": "selbst Uberlassen. Denn abseits"
+    },
+    {
+      "id": "l060",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 12,
+      "bbox": [
+        2233,
+        2542,
+        2961,
+        2589
+      ],
+      "left": 2233,
+      "top": 2542,
+      "right": 2961,
+      "bottom": 2589,
+      "width": 728,
+      "height": 47,
+      "confidence": 92.971,
+      "text": "von Farbe gibt es auch genugend"
+    },
+    {
+      "id": "l061",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 13,
+      "bbox": [
+        2234,
+        2606,
+        3045,
+        2650
+      ],
+      "left": 2234,
+      "top": 2606,
+      "right": 3045,
+      "bottom": 2650,
+      "width": 811,
+      "height": 44,
+      "confidence": 94.344,
+      "text": "andere Reize, die den Abend speziell"
+    },
+    {
+      "id": "l062",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 14,
+      "bbox": [
+        2236,
+        2670,
+        2420,
+        2707
+      ],
+      "left": 2236,
+      "top": 2670,
+      "right": 2420,
+      "bottom": 2707,
+      "width": 184,
+      "height": 37,
+      "confidence": 96.318,
+      "text": "machen."
+    },
+    {
+      "id": "l063",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 15,
+      "bbox": [
+        2237,
+        2729,
+        2833,
+        2783
+      ],
+      "left": 2237,
+      "top": 2729,
+      "right": 2833,
+      "bottom": 2783,
+      "width": 596,
+      "height": 54,
+      "confidence": 96.028,
+      "text": "Der Trend der Clubs geht ja"
+    },
+    {
+      "id": "l064",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 16,
+      "bbox": [
+        2236,
+        2796,
+        2856,
+        2838
+      ],
+      "left": 2236,
+      "top": 2796,
+      "right": 2856,
+      "bottom": 2838,
+      "width": 620,
+      "height": 42,
+      "confidence": 92.837,
+      "text": "momentan eher dahin, nicht"
+    },
+    {
+      "id": "l065",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 17,
+      "bbox": [
+        2234,
+        2860,
+        2907,
+        2897
+      ],
+      "left": 2234,
+      "top": 2860,
+      "right": 2907,
+      "bottom": 2897,
+      "width": 673,
+      "height": 37,
+      "confidence": 94.502,
+      "text": "einmal mehr Geld in die fruher"
+    },
+    {
+      "id": "l066",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        2233,
+        2924,
+        2947,
+        2969
+      ],
+      "left": 2233,
+      "top": 2924,
+      "right": 2947,
+      "bottom": 2969,
+      "width": 714,
+      "height": 45,
+      "confidence": 91.466,
+      "text": "weit verbreiteten Dia-Projektoren"
+    },
+    {
+      "id": "l067",
+      "blockNumber": 8,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        2234,
+        2987,
+        2937,
+        3023
+      ],
+      "left": 2234,
+      "top": 2987,
+      "right": 2937,
+      "bottom": 3023,
+      "width": 703,
+      "height": 36,
+      "confidence": 92.951,
+      "text": "zu stecken. Meistens laufen ein"
+    },
+    {
+      "id": "l068",
+      "blockNumber": 8,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        2200,
+        3046,
+        2862,
+        3095
+      ],
+      "left": 2200,
+      "top": 3046,
+      "right": 2862,
+      "bottom": 3095,
+      "width": 662,
+      "height": 49,
+      "confidence": 81.013,
+      "text": "/ paar Beamer mit demselben"
+    },
+    {
+      "id": "l069",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        0,
+        3088,
+        20,
+        3110
+      ],
+      "left": 0,
+      "top": 3088,
+      "right": 20,
+      "bottom": 3110,
+      "width": 20,
+      "height": 22,
+      "confidence": 32.227,
+      "text": "ES"
+    },
+    {
+      "id": "l070",
+      "blockNumber": 8,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        2235,
+        3113,
+        3001,
+        3160
+      ],
+      "left": 2235,
+      "top": 3113,
+      "right": 3001,
+      "bottom": 3160,
+      "width": 766,
+      "height": 47,
+      "confidence": 94.033,
+      "text": "Programm in allen Raumen — wenn"
+    },
+    {
+      "id": "l071",
+      "blockNumber": 8,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        2236,
+        3176,
+        3010,
+        3222
+      ],
+      "left": 2236,
+      "top": 3176,
+      "right": 3010,
+      "bottom": 3222,
+      "width": 774,
+      "height": 46,
+      "confidence": 79.127,
+      "text": "uberhaupt. Grofe Clubs setzen nur"
+    },
+    {
+      "id": "l072",
+      "blockNumber": 8,
+      "paragraphNumber": 4,
+      "lineNumber": 3,
+      "bbox": [
+        2236,
+        3240,
+        2982,
+        3277
+      ],
+      "left": 2236,
+      "top": 3240,
+      "right": 2982,
+      "bottom": 3277,
+      "width": 746,
+      "height": 37,
+      "confidence": 95.375,
+      "text": "noch auf fetten Schall und Rauch."
+    },
+    {
+      "id": "l073",
+      "blockNumber": 8,
+      "paragraphNumber": 4,
+      "lineNumber": 4,
+      "bbox": [
+        2237,
+        3303,
+        2924,
+        3340
+      ],
+      "left": 2237,
+      "top": 3303,
+      "right": 2924,
+      "bottom": 3340,
+      "width": 687,
+      "height": 37,
+      "confidence": 96.539,
+      "text": "Liebe ins Detail ist schon mehr"
+    },
+    {
+      "id": "l074",
+      "blockNumber": 8,
+      "paragraphNumber": 4,
+      "lineNumber": 5,
+      "bbox": [
+        2234,
+        3368,
+        2965,
+        3404
+      ],
+      "left": 2234,
+      "top": 3368,
+      "right": 2965,
+      "bottom": 3404,
+      "width": 731,
+      "height": 36,
+      "confidence": 93.752,
+      "text": "als viele Veranstalter bieten. Das"
+    },
+    {
+      "id": "l075",
+      "blockNumber": 8,
+      "paragraphNumber": 4,
+      "lineNumber": 6,
+      "bbox": [
+        2235,
+        3431,
+        3060,
+        3476
+      ],
+      "left": 2235,
+      "top": 3431,
+      "right": 3060,
+      "bottom": 3476,
+      "width": 825,
+      "height": 45,
+      "confidence": 94.147,
+      "text": "Standardpersonal beinhaltet ein paar"
+    },
+    {
+      "id": "l076",
+      "blockNumber": 8,
+      "paragraphNumber": 4,
+      "lineNumber": 7,
+      "bbox": [
+        2233,
+        3492,
+        3081,
+        3536
+      ],
+      "left": 2233,
+      "top": 3492,
+      "right": 3081,
+      "bottom": 3536,
+      "width": 848,
+      "height": 44,
+      "confidence": 93.08,
+      "text": "Tursteher, ein oder zwei Kassenheinis,"
+    },
+    {
+      "id": "l077",
+      "blockNumber": 8,
+      "paragraphNumber": 4,
+      "lineNumber": 8,
+      "bbox": [
+        2235,
+        3557,
+        2871,
+        3593
+      ],
+      "left": 2235,
+      "top": 3557,
+      "right": 2871,
+      "bottom": 3593,
+      "width": 636,
+      "height": 36,
+      "confidence": 95.426,
+      "text": "Garderobe und Bar. Der Rest"
+    },
+    {
+      "id": "l078",
+      "blockNumber": 8,
+      "paragraphNumber": 4,
+      "lineNumber": 9,
+      "bbox": [
+        2235,
+        3621,
+        3001,
+        3667
+      ],
+      "left": 2235,
+      "top": 3621,
+      "right": 3001,
+      "bottom": 3667,
+      "width": 766,
+      "height": 46,
+      "confidence": 93.934,
+      "text": "bleibt sehr gerne dem Veranstalter"
+    },
+    {
+      "id": "l079",
+      "blockNumber": 8,
+      "paragraphNumber": 4,
+      "lineNumber": 10,
+      "bbox": [
+        2236,
+        3683,
+        2975,
+        3721
+      ],
+      "left": 2236,
+      "top": 3683,
+      "right": 2975,
+      "bottom": 3721,
+      "width": 739,
+      "height": 38,
+      "confidence": 94.394,
+      "text": "uberlassen. Doch auch sie sehen"
+    },
+    {
+      "id": "l080",
+      "blockNumber": 8,
+      "paragraphNumber": 4,
+      "lineNumber": 11,
+      "bbox": [
+        2234,
+        3747,
+        3004,
+        3784
+      ],
+      "left": 2234,
+      "top": 3747,
+      "right": 3004,
+      "bottom": 3784,
+      "width": 770,
+      "height": 37,
+      "confidence": 93.941,
+      "text": "oft keine Vorteile in einem liebevoll"
+    },
+    {
+      "id": "l081",
+      "blockNumber": 8,
+      "paragraphNumber": 4,
+      "lineNumber": 12,
+      "bbox": [
+        2235,
+        3812,
+        3031,
+        3857
+      ],
+      "left": 2235,
+      "top": 3812,
+      "right": 3031,
+      "bottom": 3857,
+      "width": 796,
+      "height": 45,
+      "confidence": 95.553,
+      "text": "betreuten Event und sparen Geld an"
+    },
+    {
+      "id": "l082",
+      "blockNumber": 8,
+      "paragraphNumber": 4,
+      "lineNumber": 13,
+      "bbox": [
+        2234,
+        3875,
+        2660,
+        3911
+      ],
+      "left": 2234,
+      "top": 3875,
+      "right": 2660,
+      "bottom": 3911,
+      "width": 426,
+      "height": 36,
+      "confidence": 93.985,
+      "text": "der falschen Stelle."
+    },
+    {
+      "id": "l083",
+      "blockNumber": 21,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2321,
+        3986,
+        3080,
+        4031
+      ],
+      "left": 2321,
+      "top": 3986,
+      "right": 3080,
+      "bottom": 4031,
+      "width": 759,
+      "height": 45,
+      "confidence": 86.895,
+      "text": "www.myspace.com/farbreizberlin"
+    }
+  ]
+}

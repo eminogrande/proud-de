@@ -1,0 +1,1167 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3153,
+        83,
+        3270,
+        120
+      ],
+      "left": 3153,
+      "top": 83,
+      "right": 3270,
+      "bottom": 120,
+      "width": 117,
+      "height": 37,
+      "confidence": 96.649,
+      "text": "shoot"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1255,
+        259,
+        1978,
+        306
+      ],
+      "left": 1255,
+      "top": 259,
+      "right": 1978,
+      "bottom": 306,
+      "width": 723,
+      "height": 47,
+      "confidence": 94.619,
+      "text": "Lyndon Wade fotografiert wirklich"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1252,
+        324,
+        2081,
+        370
+      ],
+      "left": 1252,
+      "top": 324,
+      "right": 2081,
+      "bottom": 370,
+      "width": 829,
+      "height": 46,
+      "confidence": 93.412,
+      "text": "gerne. Verdammt, er ist Fotograf. Das"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2282,
+        336,
+        2451,
+        456
+      ],
+      "left": 2282,
+      "top": 336,
+      "right": 2451,
+      "bottom": 456,
+      "width": 169,
+      "height": 120,
+      "confidence": 80.184,
+      "text": "O"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1255,
+        387,
+        2084,
+        424
+      ],
+      "left": 1255,
+      "top": 387,
+      "right": 2084,
+      "bottom": 424,
+      "width": 829,
+      "height": 37,
+      "confidence": 93.769,
+      "text": "ist sein Leben. Immerhin bekommt er"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1254,
+        449,
+        2028,
+        487
+      ],
+      "left": 1254,
+      "top": 449,
+      "right": 2028,
+      "bottom": 487,
+      "width": 774,
+      "height": 38,
+      "confidence": 94.413,
+      "text": "Geld und Ansehen dafur. Und da er"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        1253,
+        513,
+        2089,
+        559
+      ],
+      "left": 1253,
+      "top": 513,
+      "right": 2089,
+      "bottom": 559,
+      "width": 836,
+      "height": 46,
+      "confidence": 96.503,
+      "text": "eine Sache wirklich, wirklich gut kann,"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        1252,
+        577,
+        2059,
+        614
+      ],
+      "left": 1252,
+      "top": 577,
+      "right": 2059,
+      "bottom": 614,
+      "width": 807,
+      "height": 37,
+      "confidence": 95.956,
+      "text": "wollen alle so sein wie er. So ist das"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2282,
+        600,
+        2404,
+        697
+      ],
+      "left": 2282,
+      "top": 600,
+      "right": 2404,
+      "bottom": 697,
+      "width": 122,
+      "height": 97,
+      "confidence": 88.623,
+      "text": "="
+    },
+    {
+      "id": "l010",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        1254,
+        640,
+        1975,
+        686
+      ],
+      "left": 1254,
+      "top": 640,
+      "right": 1975,
+      "bottom": 686,
+      "width": 721,
+      "height": 46,
+      "confidence": 96.506,
+      "text": "bei Stars, eben auch bei Lyndon."
+    },
+    {
+      "id": "l011",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        2282,
+        727,
+        2450,
+        827
+      ],
+      "left": 2282,
+      "top": 727,
+      "right": 2450,
+      "bottom": 827,
+      "width": 168,
+      "height": 100,
+      "confidence": 20.05,
+      "text": "—-"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1255,
+        765,
+        2012,
+        813
+      ],
+      "left": 1255,
+      "top": 765,
+      "right": 2012,
+      "bottom": 813,
+      "width": 757,
+      "height": 48,
+      "confidence": 91.787,
+      "text": "Lyndon gehort zu unseren frischen"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1252,
+        831,
+        2037,
+        877
+      ],
+      "left": 1252,
+      "top": 831,
+      "right": 2037,
+      "bottom": 877,
+      "width": 785,
+      "height": 46,
+      "confidence": 93.993,
+      "text": "Verbindungen und wir sind ihm jetzt"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1254,
+        894,
+        2034,
+        940
+      ],
+      "left": 1254,
+      "top": 894,
+      "right": 2034,
+      "bottom": 940,
+      "width": 780,
+      "height": 46,
+      "confidence": 95.076,
+      "text": "schon etwas schuldig. Denn als wir"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        2232,
+        900,
+        2403,
+        997
+      ],
+      "left": 2232,
+      "top": 900,
+      "right": 2403,
+      "bottom": 997,
+      "width": 171,
+      "height": 97,
+      "confidence": 46.001,
+      "text": "To"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1253,
+        957,
+        2075,
+        994
+      ],
+      "left": 1253,
+      "top": 957,
+      "right": 2075,
+      "bottom": 994,
+      "width": 822,
+      "height": 37,
+      "confidence": 94.9,
+      "text": "eines Abends keine Lust mehr haben"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        1254,
+        1021,
+        2005,
+        1068
+      ],
+      "left": 1254,
+      "top": 1021,
+      "right": 2005,
+      "bottom": 1068,
+      "width": 751,
+      "height": 47,
+      "confidence": 93.215,
+      "text": "Sinnvolles zu erledigen, surfen wir"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        1253,
+        1085,
+        2066,
+        1131
+      ],
+      "left": 1253,
+      "top": 1085,
+      "right": 2066,
+      "bottom": 1131,
+      "width": 813,
+      "height": 46,
+      "confidence": 93.152,
+      "text": "durch verschiedene Designblogs und"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        1252,
+        1147,
+        2001,
+        1190
+      ],
+      "left": 1252,
+      "top": 1147,
+      "right": 2001,
+      "bottom": 1190,
+      "width": 749,
+      "height": 43,
+      "confidence": 95.321,
+      "text": "warten darauf, dass die Muse der"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        1255,
+        1209,
+        2032,
+        1247
+      ],
+      "left": 1255,
+      "top": 1209,
+      "right": 2032,
+      "bottom": 1247,
+      "width": 777,
+      "height": 38,
+      "confidence": 92.293,
+      "text": "Kreativitat und Arbeitslust uns aufs"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        1255,
+        1275,
+        1991,
+        1320
+      ],
+      "left": 1255,
+      "top": 1275,
+      "right": 1991,
+      "bottom": 1320,
+      "width": 736,
+      "height": 45,
+      "confidence": 87.809,
+      "text": "Neue inspiriere und in inren Bann"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 10,
+      "bbox": [
+        1252,
+        1338,
+        2016,
+        1381
+      ],
+      "left": 1252,
+      "top": 1338,
+      "right": 2016,
+      "bottom": 1381,
+      "width": 764,
+      "height": 43,
+      "confidence": 94.959,
+      "text": "zieht. Die Trance endet, als wir auf"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 11,
+      "bbox": [
+        1253,
+        1401,
+        2016,
+        1447
+      ],
+      "left": 1253,
+      "top": 1401,
+      "right": 2016,
+      "bottom": 1447,
+      "width": 763,
+      "height": 46,
+      "confidence": 91.625,
+      "text": "die Homepage von Lyndon stofen."
+    },
+    {
+      "id": "l024",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 12,
+      "bbox": [
+        1254,
+        1464,
+        2082,
+        1510
+      ],
+      "left": 1254,
+      "top": 1464,
+      "right": 2082,
+      "bottom": 1510,
+      "width": 828,
+      "height": 46,
+      "confidence": 95.451,
+      "text": "Schluss mit lustig. Die Bilder stechen"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        2280,
+        1506,
+        2451,
+        1660
+      ],
+      "left": 2280,
+      "top": 1506,
+      "right": 2451,
+      "bottom": 1660,
+      "width": 171,
+      "height": 154,
+      "confidence": 21.58,
+      "text": "OD"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 13,
+      "bbox": [
+        1251,
+        1527,
+        2097,
+        1575
+      ],
+      "left": 1251,
+      "top": 1527,
+      "right": 2097,
+      "bottom": 1575,
+      "width": 846,
+      "height": 48,
+      "confidence": 93.852,
+      "text": "formlich in unsere Augen. Wir arbeiten"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 14,
+      "bbox": [
+        1254,
+        1591,
+        2025,
+        1638
+      ],
+      "left": 1254,
+      "top": 1591,
+      "right": 2025,
+      "bottom": 1638,
+      "width": 771,
+      "height": 47,
+      "confidence": 94.12,
+      "text": "munter und aufgetankt weiter, aber"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 15,
+      "bbox": [
+        1254,
+        1655,
+        2003,
+        1701
+      ],
+      "left": 1254,
+      "top": 1655,
+      "right": 2003,
+      "bottom": 1701,
+      "width": 749,
+      "height": 46,
+      "confidence": 96.296,
+      "text": "seine Fotos lassen uns auch Tage"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 16,
+      "bbox": [
+        1254,
+        1718,
+        1957,
+        1764
+      ],
+      "left": 1254,
+      "top": 1718,
+      "right": 1957,
+      "bottom": 1764,
+      "width": 703,
+      "height": 46,
+      "confidence": 95.561,
+      "text": "spater nicht mehr los. So etwas"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 17,
+      "bbox": [
+        1255,
+        1782,
+        1965,
+        1828
+      ],
+      "left": 1255,
+      "top": 1782,
+      "right": 1965,
+      "bottom": 1828,
+      "width": 710,
+      "height": 46,
+      "confidence": 93.378,
+      "text": "Einzigartiges wie Lyndons Bilder,"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 18,
+      "bbox": [
+        1252,
+        1845,
+        2015,
+        1882
+      ],
+      "left": 1252,
+      "top": 1845,
+      "right": 2015,
+      "bottom": 1882,
+      "width": 763,
+      "height": 37,
+      "confidence": 93.626,
+      "text": "wollen wir Euch nicht vorenthalten."
+    },
+    {
+      "id": "l032",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 11,
+      "bbox": [
+        2280,
+        1863,
+        2451,
+        1959
+      ],
+      "left": 2280,
+      "top": 1863,
+      "right": 2451,
+      "bottom": 1959,
+      "width": 171,
+      "height": 96,
+      "confidence": 52.751,
+      "text": "o"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 12,
+      "bbox": [
+        2234,
+        1968,
+        2402,
+        2076
+      ],
+      "left": 2234,
+      "top": 1968,
+      "right": 2402,
+      "bottom": 2076,
+      "width": 168,
+      "height": 108,
+      "confidence": 92.816,
+      "text": "<"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1255,
+        1971,
+        1987,
+        2019
+      ],
+      "left": 1255,
+      "top": 1971,
+      "right": 1987,
+      "bottom": 2019,
+      "width": 732,
+      "height": 48,
+      "confidence": 94.593,
+      "text": "Lyndon gehort zu den vom Eisner"
+    },
+    {
+      "id": "l035",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1255,
+        2034,
+        2084,
+        2082
+      ],
+      "left": 1255,
+      "top": 2034,
+      "right": 2084,
+      "bottom": 2082,
+      "width": 829,
+      "height": 48,
+      "confidence": 92.429,
+      "text": "Museum gekronten Top-15-Fotografen"
+    },
+    {
+      "id": "l036",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1255,
+        2097,
+        2055,
+        2145
+      ],
+      "left": 1255,
+      "top": 2097,
+      "right": 2055,
+      "bottom": 2145,
+      "width": 800,
+      "height": 48,
+      "confidence": 95.181,
+      "text": "in Amerika und fotografiert gerne fur"
+    },
+    {
+      "id": "l037",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 13,
+      "bbox": [
+        2282,
+        2148,
+        2404,
+        2315
+      ],
+      "left": 2282,
+      "top": 2148,
+      "right": 2404,
+      "bottom": 2315,
+      "width": 122,
+      "height": 167,
+      "confidence": 83.976,
+      "text": "3"
+    },
+    {
+      "id": "l038",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1254,
+        2161,
+        2096,
+        2208
+      ],
+      "left": 1254,
+      "top": 2161,
+      "right": 2096,
+      "bottom": 2208,
+      "width": 842,
+      "height": 47,
+      "confidence": 86.967,
+      "text": "sehr gro8e Weltmarken zu einem sehr"
+    },
+    {
+      "id": "l039",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        1252,
+        2225,
+        2086,
+        2272
+      ],
+      "left": 1252,
+      "top": 2225,
+      "right": 2086,
+      "bottom": 2272,
+      "width": 834,
+      "height": 47,
+      "confidence": 89.981,
+      "text": "guten Preis. Zum Gluck ist Lyndon ein"
+    },
+    {
+      "id": "l040",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        1251,
+        2288,
+        2021,
+        2335
+      ],
+      "left": 1251,
+      "top": 2288,
+      "right": 2021,
+      "bottom": 2335,
+      "width": 770,
+      "height": 47,
+      "confidence": 95.193,
+      "text": "guter Kerl, denn er hatte sich ohne"
+    },
+    {
+      "id": "l041",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 14,
+      "bbox": [
+        2280,
+        2337,
+        2403,
+        2435
+      ],
+      "left": 2280,
+      "top": 2337,
+      "right": 2403,
+      "bottom": 2435,
+      "width": 123,
+      "height": 98,
+      "confidence": 39.687,
+      "text": "ry"
+    },
+    {
+      "id": "l042",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        1252,
+        2351,
+        2084,
+        2398
+      ],
+      "left": 1252,
+      "top": 2351,
+      "right": 2084,
+      "bottom": 2398,
+      "width": 832,
+      "height": 47,
+      "confidence": 95.108,
+      "text": "weiteres unser Budget, fur die Rechte"
+    },
+    {
+      "id": "l043",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        1253,
+        2415,
+        2049,
+        2458
+      ],
+      "left": 1253,
+      "top": 2415,
+      "right": 2049,
+      "bottom": 2458,
+      "width": 796,
+      "height": 43,
+      "confidence": 95.028,
+      "text": "am einfachen Druck seiner Bilder, in"
+    },
+    {
+      "id": "l044",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 15,
+      "bbox": [
+        2282,
+        2464,
+        2403,
+        2546
+      ],
+      "left": 2282,
+      "top": 2464,
+      "right": 2403,
+      "bottom": 2546,
+      "width": 121,
+      "height": 82,
+      "confidence": 31.199,
+      "text": "_"
+    },
+    {
+      "id": "l045",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        1253,
+        2478,
+        2084,
+        2516
+      ],
+      "left": 1253,
+      "top": 2478,
+      "right": 2084,
+      "bottom": 2516,
+      "width": 831,
+      "height": 38,
+      "confidence": 87.2,
+      "text": "den Arsch hauen kénnen. Hat er aber"
+    },
+    {
+      "id": "l046",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 10,
+      "bbox": [
+        1254,
+        2543,
+        2034,
+        2585
+      ],
+      "left": 1254,
+      "top": 2543,
+      "right": 2034,
+      "bottom": 2585,
+      "width": 780,
+      "height": 42,
+      "confidence": 95.309,
+      "text": "nicht. Er schrieb uns lieber, dass er"
+    },
+    {
+      "id": "l047",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 16,
+      "bbox": [
+        2282,
+        2556,
+        2451,
+        2661
+      ],
+      "left": 2282,
+      "top": 2556,
+      "right": 2451,
+      "bottom": 2661,
+      "width": 169,
+      "height": 105,
+      "confidence": 58.077,
+      "text": "al"
+    },
+    {
+      "id": "l048",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 11,
+      "bbox": [
+        1254,
+        2601,
+        2043,
+        2657
+      ],
+      "left": 1254,
+      "top": 2601,
+      "right": 2043,
+      "bottom": 2657,
+      "width": 789,
+      "height": 56,
+      "confidence": 96.736,
+      "text": "sehr gerne seine Bilder in der proud"
+    },
+    {
+      "id": "l049",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 12,
+      "bbox": [
+        1254,
+        2669,
+        2017,
+        2707
+      ],
+      "left": 1254,
+      "top": 2669,
+      "right": 2017,
+      "bottom": 2707,
+      "width": 763,
+      "height": 38,
+      "confidence": 95.181,
+      "text": "sehen wollen wurde. Wir sind stolz"
+    },
+    {
+      "id": "l050",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 13,
+      "bbox": [
+        1253,
+        2733,
+        2063,
+        2779
+      ],
+      "left": 1253,
+      "top": 2733,
+      "right": 2063,
+      "bottom": 2779,
+      "width": 810,
+      "height": 46,
+      "confidence": 92.363,
+      "text": "darauf, Euch Lyndon Wade vorstellen"
+    },
+    {
+      "id": "l051",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 18,
+      "bbox": [
+        2282,
+        2782,
+        2451,
+        2884
+      ],
+      "left": 2282,
+      "top": 2782,
+      "right": 2451,
+      "bottom": 2884,
+      "width": 169,
+      "height": 102,
+      "confidence": 82.965,
+      "text": "=."
+    },
+    {
+      "id": "l052",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 14,
+      "bbox": [
+        1252,
+        2795,
+        1467,
+        2833
+      ],
+      "left": 1252,
+      "top": 2795,
+      "right": 1467,
+      "bottom": 2833,
+      "width": 215,
+      "height": 38,
+      "confidence": 92.954,
+      "text": "zu durfen."
+    },
+    {
+      "id": "l053",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1252,
+        2899,
+        1754,
+        2943
+      ],
+      "left": 1252,
+      "top": 2899,
+      "right": 1754,
+      "bottom": 2943,
+      "width": 502,
+      "height": 44,
+      "confidence": 90.93,
+      "text": "www.lyndonwade.com"
+    },
+    {
+      "id": "l054",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 19,
+      "bbox": [
+        2282,
+        2915,
+        2403,
+        3011
+      ],
+      "left": 2282,
+      "top": 2915,
+      "right": 2403,
+      "bottom": 3011,
+      "width": 121,
+      "height": 96,
+      "confidence": 55.51,
+      "text": "=."
+    },
+    {
+      "id": "l055",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 22,
+      "bbox": [
+        2282,
+        3538,
+        2403,
+        3635
+      ],
+      "left": 2282,
+      "top": 3538,
+      "right": 2403,
+      "bottom": 3635,
+      "width": 121,
+      "height": 97,
+      "confidence": 77.741,
+      "text": "=;"
+    },
+    {
+      "id": "l056",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 23,
+      "bbox": [
+        2280,
+        3651,
+        2404,
+        3754
+      ],
+      "left": 2280,
+      "top": 3651,
+      "right": 2404,
+      "bottom": 3754,
+      "width": 124,
+      "height": 103,
+      "confidence": 48.352,
+      "text": "7"
+    },
+    {
+      "id": "l057",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 24,
+      "bbox": [
+        2280,
+        3837,
+        2404,
+        4042
+      ],
+      "left": 2280,
+      "top": 3837,
+      "right": 2404,
+      "bottom": 4042,
+      "width": 124,
+      "height": 205,
+      "confidence": 74.471,
+      "text": "©"
+    },
+    {
+      "id": "l058",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 25,
+      "bbox": [
+        2280,
+        4039,
+        2403,
+        4142
+      ],
+      "left": 2280,
+      "top": 4039,
+      "right": 2403,
+      "bottom": 4142,
+      "width": 123,
+      "height": 103,
+      "confidence": 32.407,
+      "text": "wn"
+    }
+  ]
+}

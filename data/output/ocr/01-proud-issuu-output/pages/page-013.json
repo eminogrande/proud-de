@@ -1,0 +1,69 @@
+{
+  "id": "gen-1778171674-F6x8SmLz7iUOrpRTKayO",
+  "object": "chat.completion",
+  "created": 1778171674,
+  "model": "google/gemini-2.5-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "standard",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "OK",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "file",
+            "file": {
+              "hash": "b25fc238b66b4a5f80e99d80259e63941f8cf262c01f00dc4f210febea4a1817",
+              "name": "01 proud issuu_output-page-013.pdf",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "<file name=\"01 proud issuu_output-page-013.pdf\">"
+                },
+                {
+                  "type": "text",
+                  "text": "flash\n\n# artgerechtes\n\nÖkosein ist Jutestyle? Am Arsch, Alter. Das sehen 14 Studis anders. Der heiße Scheiß, den die vertreiben, ist nämlich artgerecht, fair gehandelt und aus ökologischer Herstellung. Hell, yeah! Wirklich cool ist die offene Einladung, eigene Designvorschläge einzusenden und mit dem Team die Ideen auf Shirts drucken zu lassen. Das klappt auch, wir haben es versucht und sind seitdem glücklichere, bessere Menschen.\n\nwww.artgerechtes.de\n\n# 200 calories\n\nHey Fetties, hab ihr euch schon einmal gefragt wie 200 Kalorien eigentlich aussehen? Hier ein Beispiel...\n\n# mavi\n\nHong Kong. Hippe Party, wir sind eingeladen – auf der Liste. Prima Sache, doch wir werden an der Tür ausgelacht und weggeschickt. Scheiße, denn unsere Wohnung ist auf Peng Chau Island. Glücklicherweise hilft uns unser hübscher Modelfreund. Ab in seine Wohnung, in seine Mavijeans und zurück zum Club. Happy End.\n\nwww.mavi.de\n\n# oh!mi!bod\n\nwww.ohmibod.com\n\nEr ist hart. Er ist aus Plastik. 20 Zentimeter pures Glück. Dieser Vibrator macht es dir nicht mit monotonem Brummen in drei Stufen, sondern bringt dich zu Madonnas Vogue richtig in Fahrt. Angeschlossen an deinen iPod vibriert er im Einklang zur Musik und zeigt Dir nicht nur die Höhen des Gesangs auf. Im Übrigen lässt seine Performance sogar bei deinem Lieblings-Drum’n’Bass-Song nicht nach. Seid nicht schüchtern, Ladies, wir von proud sind total down damit.\n\n# e-rags\n\nMariendorf. Eine alte, graue Fabrikhalle. Totenstille herrscht nach dem Passieren des Portiers. Ab in den Fahrstuhl nach unten. Dort angekommen, das gleiche Setting: leere Gänge, morbide Ruhe; bis Dich ein lautes Singen zu Tode erschreckt. Der Richtung des Gesangs folgend trifft Du irgendwann auf einen Kerl der einen Wagen mit gestapelten Kleidungsstücken vor sich herschiebt. Die Marke heißt E-Rags.\n\nwww.e-rags.de\n\n# Superethe.com\n\nImmer wieder und wieder und wieder und wieder. Creative Director Kali Arulpragasam beeindruckt uns seit 2006. Schmuckdesign mit Thema. Schlagringe für gefährdete Spezies oder Brustumhänger für Länder, die von Terroristennestern bedroht sind. Für den sprießenden Frühling 2009: Hunger. Silberne Halsketten inspiriert von Bohnen, Reis und anderen Grundnahrungsmitteln. Leider noch nicht in Berlin angekommen, aber der Flug nach London kostet ja nur ’nen 10er.\n\nImage www.jannicahoney.com\n\nproud 11"
+                },
+                {
+                  "type": "text",
+                  "text": "</file>"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 665,
+    "completion_tokens": 1,
+    "total_tokens": 666,
+    "cost": 0.00219998,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000202,
+      "upstream_inference_prompt_cost": 0.0001995,
+      "upstream_inference_completions_cost": 2.5e-06
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,567 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3416,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 10,
+      "bbox": [
+        168,
+        46,
+        187,
+        83
+      ],
+      "left": 168,
+      "top": 46,
+      "right": 187,
+      "bottom": 83,
+      "width": 19,
+      "height": 37,
+      "confidence": 63.177,
+      "text": "5"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        347,
+        46,
+        367,
+        83
+      ],
+      "left": 347,
+      "top": 46,
+      "right": 367,
+      "bottom": 83,
+      "width": 20,
+      "height": 37,
+      "confidence": 79.483,
+      "text": "N"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        374,
+        46,
+        395,
+        83
+      ],
+      "left": 374,
+      "top": 46,
+      "right": 395,
+      "bottom": 83,
+      "width": 21,
+      "height": 37,
+      "confidence": 32.256,
+      "text": "oe"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        429,
+        46,
+        450,
+        83
+      ],
+      "left": 429,
+      "top": 46,
+      "right": 450,
+      "bottom": 83,
+      "width": 21,
+      "height": 37,
+      "confidence": 73.269,
+      "text": "o~"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        195,
+        57,
+        215,
+        83
+      ],
+      "left": 195,
+      "top": 57,
+      "right": 215,
+      "bottom": 83,
+      "width": 20,
+      "height": 26,
+      "confidence": 59.29,
+      "text": "©"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        225,
+        57,
+        245,
+        83
+      ],
+      "left": 225,
+      "top": 57,
+      "right": 245,
+      "bottom": 83,
+      "width": 20,
+      "height": 26,
+      "confidence": 51.906,
+      "text": "je"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        282,
+        57,
+        303,
+        83
+      ],
+      "left": 282,
+      "top": 57,
+      "right": 303,
+      "bottom": 83,
+      "width": 21,
+      "height": 26,
+      "confidence": 43.41,
+      "text": "Oo"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        312,
+        57,
+        328,
+        83
+      ],
+      "left": 312,
+      "top": 57,
+      "right": 328,
+      "bottom": 83,
+      "width": 16,
+      "height": 26,
+      "confidence": 29.056,
+      "text": "—"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        254,
+        58,
+        274,
+        83
+      ],
+      "left": 254,
+      "top": 58,
+      "right": 274,
+      "bottom": 83,
+      "width": 20,
+      "height": 25,
+      "confidence": 40.837,
+      "text": "="
+    },
+    {
+      "id": "l010",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        166,
+        108,
+        640,
+        146
+      ],
+      "left": 166,
+      "top": 108,
+      "right": 640,
+      "bottom": 146,
+      "width": 474,
+      "height": 38,
+      "confidence": 95.932,
+      "text": "FREE EVERY MONTH"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        170,
+        150,
+        390,
+        205
+      ],
+      "left": 170,
+      "top": 150,
+      "right": 390,
+      "bottom": 205,
+      "width": 220,
+      "height": 55,
+      "confidence": 74.305,
+      "text": "(...wie Willy]"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3142,
+        1134,
+        3216,
+        2046
+      ],
+      "left": 3142,
+      "top": 1134,
+      "right": 3216,
+      "bottom": 2046,
+      "width": 74,
+      "height": 912,
+      "confidence": 55.122,
+      "text": "Lu WV o5 Cv Ss"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3268,
+        1138,
+        3322,
+        4393
+      ],
+      "left": 3268,
+      "top": 1138,
+      "right": 3322,
+      "bottom": 4393,
+      "width": 54,
+      "height": 3255,
+      "confidence": 39.294,
+      "text": "<5 MZ OS Zz Dae"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        2689,
+        1314,
+        2788,
+        1975
+      ],
+      "left": 2689,
+      "top": 1314,
+      "right": 2788,
+      "bottom": 1975,
+      "width": 99,
+      "height": 661,
+      "confidence": 74.536,
+      "text": "as a= kL"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        2757,
+        1314,
+        2875,
+        1976
+      ],
+      "left": 2757,
+      "top": 1314,
+      "right": 2875,
+      "bottom": 1976,
+      "width": 118,
+      "height": 662,
+      "confidence": 70.009,
+      "text": "ai a2 &"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        3068,
+        1314,
+        3150,
+        4116
+      ],
+      "left": 3068,
+      "top": 1314,
+      "right": 3150,
+      "bottom": 4116,
+      "width": 82,
+      "height": 2802,
+      "confidence": 48.338,
+      "text": "Zz= be = wi"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        2616,
+        1608,
+        2680,
+        1754
+      ],
+      "left": 2616,
+      "top": 1608,
+      "right": 2680,
+      "bottom": 1754,
+      "width": 64,
+      "height": 146,
+      "confidence": 38.064,
+      "text": "m="
+    },
+    {
+      "id": "l018",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        2995,
+        1608,
+        3096,
+        4393
+      ],
+      "left": 2995,
+      "top": 1608,
+      "right": 3096,
+      "bottom": 4393,
+      "width": 101,
+      "height": 2785,
+      "confidence": 51.086,
+      "text": "a. Of Lu ozs YL"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        2906,
+        1717,
+        2984,
+        4109
+      ],
+      "left": 2906,
+      "top": 1717,
+      "right": 2984,
+      "bottom": 4109,
+      "width": 78,
+      "height": 2392,
+      "confidence": 75.096,
+      "text": "5 ON +"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3,
+        1728,
+        51,
+        4410
+      ],
+      "left": 3,
+      "top": 1728,
+      "right": 51,
+      "bottom": 4410,
+      "width": 48,
+      "height": 2682,
+      "confidence": 89.747,
+      "text": "* ISSUE HIDDEN ARTISTS ISSUE #1 THE LAUNCH Januar 2009"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        2948,
+        1902,
+        3043,
+        4397
+      ],
+      "left": 2948,
+      "top": 1902,
+      "right": 3043,
+      "bottom": 4397,
+      "width": 95,
+      "height": 2495,
+      "confidence": 55.57,
+      "text": "| DH Tao"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2465,
+        2536,
+        2498,
+        2630
+      ],
+      "left": 2465,
+      "top": 2536,
+      "right": 2498,
+      "bottom": 2630,
+      "width": 33,
+      "height": 94,
+      "confidence": 30.365,
+      "text": "T LP fod"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2459,
+        2552,
+        2469,
+        2565
+      ],
+      "left": 2459,
+      "top": 2552,
+      "right": 2469,
+      "bottom": 2565,
+      "width": 10,
+      "height": 13,
+      "confidence": 36.866,
+      "text": "PEN"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2392,
+        2641,
+        2402,
+        2650
+      ],
+      "left": 2392,
+      "top": 2641,
+      "right": 2402,
+      "bottom": 2650,
+      "width": 10,
+      "height": 9,
+      "confidence": 49.615,
+      "text": "4"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2377,
+        2662,
+        2396,
+        2734
+      ],
+      "left": 2377,
+      "top": 2662,
+      "right": 2396,
+      "bottom": 2734,
+      "width": 19,
+      "height": 72,
+      "confidence": 61.465,
+      "text": "4444"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1138,
+        3222,
+        1160,
+        3248
+      ],
+      "left": 1138,
+      "top": 3222,
+      "right": 1160,
+      "bottom": 3248,
+      "width": 22,
+      "height": 26,
+      "confidence": 38.025,
+      "text": "AW"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1586,
+        3337,
+        1608,
+        3628
+      ],
+      "left": 1586,
+      "top": 3337,
+      "right": 1608,
+      "bottom": 3628,
+      "width": 22,
+      "height": 291,
+      "confidence": 38.169,
+      "text": "+++4+4+4 t+"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1730,
+        3917,
+        2073,
+        3949
+      ],
+      "left": 1730,
+      "top": 3917,
+      "right": 2073,
+      "bottom": 3949,
+      "width": 343,
+      "height": 32,
+      "confidence": 62.296,
+      "text": "+ ++44+4+4+"
+    }
+  ]
+}

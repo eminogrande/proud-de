@@ -1,0 +1,107 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        85,
+        83,
+        290,
+        131
+      ],
+      "left": 85,
+      "top": 83,
+      "right": 290,
+      "bottom": 131,
+      "width": 205,
+      "height": 48,
+      "confidence": 96.443,
+      "text": "knowlege"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        0,
+        4019,
+        3068,
+        4122
+      ],
+      "left": 0,
+      "top": 4019,
+      "right": 3068,
+      "bottom": 4122,
+      "width": 3068,
+      "height": 103,
+      "confidence": 86.519,
+      "text": "— 4 A, MAXIMAL auf dem Tanzflur ist wie eine Weihnachtsfeier im Swinger-Club — hier eine Einladungskarte"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        132,
+        4102,
+        1555,
+        4199
+      ],
+      "left": 132,
+      "top": 4102,
+      "right": 1555,
+      "bottom": 4199,
+      "width": 1423,
+      "height": 97,
+      "confidence": 85.329,
+      "text": "A von seinen aktivsten Mitgliedern: Bugati Force."
+    },
+    {
+      "id": "l004",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        506,
+        4296,
+        580,
+        4323
+      ],
+      "left": 506,
+      "top": 4296,
+      "right": 580,
+      "bottom": 4323,
+      "width": 74,
+      "height": 27,
+      "confidence": 34.909,
+      "text": "—_"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        76,
+        4359,
+        127,
+        4403
+      ],
+      "left": 76,
+      "top": 4359,
+      "right": 127,
+      "bottom": 4403,
+      "width": 51,
+      "height": 44,
+      "confidence": 27.725,
+      "text": "34"
+    }
+  ]
+}

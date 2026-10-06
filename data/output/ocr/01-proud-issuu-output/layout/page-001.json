@@ -1,0 +1,1587 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 28,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        262,
+        83,
+        327,
+        2990
+      ],
+      "left": 262,
+      "top": 83,
+      "right": 327,
+      "bottom": 2990,
+      "width": 65,
+      "height": 2907,
+      "confidence": 45.926,
+      "text": "3 RU <5"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 28,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        414,
+        83,
+        519,
+        2450
+      ],
+      "left": 414,
+      "top": 83,
+      "right": 519,
+      "bottom": 2450,
+      "width": 105,
+      "height": 2367,
+      "confidence": 34.371,
+      "text": "NO 3"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        2644,
+        1329,
+        2687,
+        1405
+      ],
+      "left": 2644,
+      "top": 1329,
+      "right": 2687,
+      "bottom": 1405,
+      "width": 43,
+      "height": 76,
+      "confidence": 64.809,
+      "text": "2"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        2790,
+        1329,
+        2885,
+        1405
+      ],
+      "left": 2790,
+      "top": 1329,
+      "right": 2885,
+      "bottom": 1405,
+      "width": 95,
+      "height": 76,
+      "confidence": 32.612,
+      "text": "="
+    },
+    {
+      "id": "l005",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        2857,
+        1329,
+        2966,
+        1896
+      ],
+      "left": 2857,
+      "top": 1329,
+      "right": 2966,
+      "bottom": 1896,
+      "width": 109,
+      "height": 567,
+      "confidence": 51.507,
+      "text": "a ="
+    },
+    {
+      "id": "l006",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        3028,
+        1329,
+        3113,
+        1896
+      ],
+      "left": 3028,
+      "top": 1329,
+      "right": 3113,
+      "bottom": 1896,
+      "width": 85,
+      "height": 567,
+      "confidence": 40.988,
+      "text": "| ="
+    },
+    {
+      "id": "l007",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3111,
+        1329,
+        3212,
+        1896
+      ],
+      "left": 3111,
+      "top": 1329,
+      "right": 3212,
+      "bottom": 1896,
+      "width": 101,
+      "height": 567,
+      "confidence": 58.671,
+      "text": "£ if"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        2691,
+        1346,
+        2752,
+        1899
+      ],
+      "left": 2691,
+      "top": 1346,
+      "right": 2752,
+      "bottom": 1899,
+      "width": 61,
+      "height": 553,
+      "confidence": 40.638,
+      "text": "Ww =!"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        2946,
+        1346,
+        3022,
+        1896
+      ],
+      "left": 2946,
+      "top": 1346,
+      "right": 3022,
+      "bottom": 1896,
+      "width": 76,
+      "height": 550,
+      "confidence": 47.015,
+      "text": "ao Cc"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        2748,
+        1350,
+        2796,
+        1917
+      ],
+      "left": 2748,
+      "top": 1350,
+      "right": 2796,
+      "bottom": 1917,
+      "width": 48,
+      "height": 567,
+      "confidence": 81.164,
+      "text": "> ="
+    },
+    {
+      "id": "l011",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3170,
+        1350,
+        3266,
+        1896
+      ],
+      "left": 3170,
+      "top": 1350,
+      "right": 3266,
+      "bottom": 1896,
+      "width": 96,
+      "height": 546,
+      "confidence": 59.198,
+      "text": "2 2"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 23,
+      "bbox": [
+        2466,
+        1467,
+        2531,
+        1505
+      ],
+      "left": 2466,
+      "top": 1467,
+      "right": 2531,
+      "bottom": 1505,
+      "width": 65,
+      "height": 38,
+      "confidence": 69.421,
+      "text": "="
+    },
+    {
+      "id": "l013",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 20,
+      "bbox": [
+        2593,
+        1468,
+        2626,
+        1505
+      ],
+      "left": 2593,
+      "top": 1468,
+      "right": 2626,
+      "bottom": 1505,
+      "width": 33,
+      "height": 37,
+      "confidence": 81.58,
+      "text": "£"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 18,
+      "bbox": [
+        2674,
+        1468,
+        2711,
+        1505
+      ],
+      "left": 2674,
+      "top": 1468,
+      "right": 2711,
+      "bottom": 1505,
+      "width": 37,
+      "height": 37,
+      "confidence": 26.916,
+      "text": "To"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 17,
+      "bbox": [
+        2727,
+        1468,
+        2754,
+        1505
+      ],
+      "left": 2727,
+      "top": 1468,
+      "right": 2754,
+      "bottom": 1505,
+      "width": 27,
+      "height": 37,
+      "confidence": 81.547,
+      "text": "="
+    },
+    {
+      "id": "l016",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 14,
+      "bbox": [
+        2809,
+        1468,
+        2830,
+        1505
+      ],
+      "left": 2809,
+      "top": 1468,
+      "right": 2830,
+      "bottom": 1505,
+      "width": 21,
+      "height": 37,
+      "confidence": 93.863,
+      "text": "="
+    },
+    {
+      "id": "l017",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 11,
+      "bbox": [
+        2901,
+        1468,
+        2922,
+        1505
+      ],
+      "left": 2901,
+      "top": 1468,
+      "right": 2922,
+      "bottom": 1505,
+      "width": 21,
+      "height": 37,
+      "confidence": 27.304,
+      "text": "B="
+    },
+    {
+      "id": "l018",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        3127,
+        1468,
+        3148,
+        1505
+      ],
+      "left": 3127,
+      "top": 1468,
+      "right": 3148,
+      "bottom": 1505,
+      "width": 21,
+      "height": 37,
+      "confidence": 20.672,
+      "text": "x"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3236,
+        1468,
+        3257,
+        1505
+      ],
+      "left": 3236,
+      "top": 1468,
+      "right": 3257,
+      "bottom": 1505,
+      "width": 21,
+      "height": 37,
+      "confidence": 94.316,
+      "text": "="
+    },
+    {
+      "id": "l020",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 10,
+      "bbox": [
+        2925,
+        1470,
+        2947,
+        1507
+      ],
+      "left": 2925,
+      "top": 1470,
+      "right": 2947,
+      "bottom": 1507,
+      "width": 22,
+      "height": 37,
+      "confidence": 42.205,
+      "text": "et"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 22,
+      "bbox": [
+        2536,
+        1478,
+        2553,
+        1505
+      ],
+      "left": 2536,
+      "top": 1478,
+      "right": 2553,
+      "bottom": 1505,
+      "width": 17,
+      "height": 27,
+      "confidence": 65.766,
+      "text": "="
+    },
+    {
+      "id": "l022",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 21,
+      "bbox": [
+        2566,
+        1478,
+        2588,
+        1505
+      ],
+      "left": 2566,
+      "top": 1478,
+      "right": 2588,
+      "bottom": 1505,
+      "width": 22,
+      "height": 27,
+      "confidence": 24.51,
+      "text": "@"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 19,
+      "bbox": [
+        2633,
+        1478,
+        2669,
+        1505
+      ],
+      "left": 2633,
+      "top": 1478,
+      "right": 2669,
+      "bottom": 1505,
+      "width": 36,
+      "height": 27,
+      "confidence": 72.018,
+      "text": "£"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 16,
+      "bbox": [
+        2759,
+        1478,
+        2780,
+        1505
+      ],
+      "left": 2759,
+      "top": 1478,
+      "right": 2780,
+      "bottom": 1505,
+      "width": 21,
+      "height": 27,
+      "confidence": 82.042,
+      "text": "©"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 15,
+      "bbox": [
+        2785,
+        1478,
+        2805,
+        1505
+      ],
+      "left": 2785,
+      "top": 1478,
+      "right": 2805,
+      "bottom": 1505,
+      "width": 20,
+      "height": 27,
+      "confidence": 32.101,
+      "text": "Oo"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        2962,
+        1478,
+        2998,
+        1505
+      ],
+      "left": 2962,
+      "top": 1478,
+      "right": 2998,
+      "bottom": 1505,
+      "width": 36,
+      "height": 27,
+      "confidence": 80.596,
+      "text": "="
+    },
+    {
+      "id": "l027",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        3052,
+        1478,
+        3073,
+        1505
+      ],
+      "left": 3052,
+      "top": 1478,
+      "right": 3073,
+      "bottom": 1505,
+      "width": 21,
+      "height": 27,
+      "confidence": 25.893,
+      "text": "ra"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        3078,
+        1478,
+        3099,
+        1505
+      ],
+      "left": 3078,
+      "top": 1478,
+      "right": 3099,
+      "bottom": 1505,
+      "width": 21,
+      "height": 27,
+      "confidence": 63.598,
+      "text": "°"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        3102,
+        1478,
+        3123,
+        1505
+      ],
+      "left": 3102,
+      "top": 1478,
+      "right": 3123,
+      "bottom": 1505,
+      "width": 21,
+      "height": 27,
+      "confidence": 30.714,
+      "text": "o"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        3167,
+        1478,
+        3203,
+        1505
+      ],
+      "left": 3167,
+      "top": 1478,
+      "right": 3203,
+      "bottom": 1505,
+      "width": 36,
+      "height": 27,
+      "confidence": 45.566,
+      "text": "£"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3263,
+        1478,
+        3280,
+        1505
+      ],
+      "left": 3263,
+      "top": 1478,
+      "right": 3280,
+      "bottom": 1505,
+      "width": 17,
+      "height": 27,
+      "confidence": 73.575,
+      "text": "="
+    },
+    {
+      "id": "l032",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3198,
+        1575,
+        3270,
+        1650
+      ],
+      "left": 3198,
+      "top": 1575,
+      "right": 3270,
+      "bottom": 1650,
+      "width": 72,
+      "height": 75,
+      "confidence": 63.475,
+      "text": "—"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        2950,
+        1580,
+        2975,
+        1650
+      ],
+      "left": 2950,
+      "top": 1580,
+      "right": 2975,
+      "bottom": 1650,
+      "width": 25,
+      "height": 70,
+      "confidence": 65.263,
+      "text": "—"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        2793,
+        1596,
+        2837,
+        1671
+      ],
+      "left": 2793,
+      "top": 1596,
+      "right": 2837,
+      "bottom": 1671,
+      "width": 44,
+      "height": 75,
+      "confidence": 78.519,
+      "text": "©."
+    },
+    {
+      "id": "l035",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        2899,
+        1596,
+        2943,
+        1650
+      ],
+      "left": 2899,
+      "top": 1596,
+      "right": 2943,
+      "bottom": 1650,
+      "width": 44,
+      "height": 54,
+      "confidence": 42.706,
+      "text": "Cc"
+    },
+    {
+      "id": "l036",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        2980,
+        1596,
+        3023,
+        1651
+      ],
+      "left": 2980,
+      "top": 1596,
+      "right": 3023,
+      "bottom": 1651,
+      "width": 43,
+      "height": 55,
+      "confidence": 76.926,
+      "text": "©"
+    },
+    {
+      "id": "l037",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        3034,
+        1596,
+        3077,
+        1672
+      ],
+      "left": 3034,
+      "top": 1596,
+      "right": 3077,
+      "bottom": 1672,
+      "width": 43,
+      "height": 76,
+      "confidence": 73.889,
+      "text": "o)"
+    },
+    {
+      "id": "l038",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        3087,
+        1596,
+        3132,
+        1650
+      ],
+      "left": 3087,
+      "top": 1596,
+      "right": 3132,
+      "bottom": 1650,
+      "width": 45,
+      "height": 54,
+      "confidence": 30.893,
+      "text": "eo)"
+    },
+    {
+      "id": "l039",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3142,
+        1596,
+        3185,
+        1650
+      ],
+      "left": 3142,
+      "top": 1596,
+      "right": 3185,
+      "bottom": 1650,
+      "width": 43,
+      "height": 54,
+      "confidence": 25.172,
+      "text": "ca"
+    },
+    {
+      "id": "l040",
+      "blockNumber": 31,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        14,
+        1630,
+        51,
+        4395
+      ],
+      "left": 14,
+      "top": 1630,
+      "right": 51,
+      "bottom": 4395,
+      "width": 37,
+      "height": 2765,
+      "confidence": 89.439,
+      "text": "e e e ISSUE #01 THE LAUNCH ISSUE BERLIN BEDTIME PENTAGONIK LYNDON WADE JANUAR 2009"
+    },
+    {
+      "id": "l041",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2557,
+        1714,
+        3280,
+        1751
+      ],
+      "left": 2557,
+      "top": 1714,
+      "right": 3280,
+      "bottom": 1751,
+      "width": 723,
+      "height": 37,
+      "confidence": 94.425,
+      "text": "Berliner Netlabel und Veranstalter"
+    },
+    {
+      "id": "l042",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 11,
+      "bbox": [
+        2968,
+        1960,
+        2996,
+        1997
+      ],
+      "left": 2968,
+      "top": 1960,
+      "right": 2996,
+      "bottom": 1997,
+      "width": 28,
+      "height": 37,
+      "confidence": 53.145,
+      "text": "<"
+    },
+    {
+      "id": "l043",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        3133,
+        1960,
+        3166,
+        1997
+      ],
+      "left": 3133,
+      "top": 1960,
+      "right": 3166,
+      "bottom": 1997,
+      "width": 33,
+      "height": 37,
+      "confidence": 47.807,
+      "text": "&"
+    },
+    {
+      "id": "l044",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        3161,
+        1966,
+        3192,
+        1997
+      ],
+      "left": 3161,
+      "top": 1966,
+      "right": 3192,
+      "bottom": 1997,
+      "width": 31,
+      "height": 31,
+      "confidence": 37.858,
+      "text": "; a"
+    },
+    {
+      "id": "l045",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 10,
+      "bbox": [
+        2999,
+        1970,
+        3020,
+        1997
+      ],
+      "left": 2999,
+      "top": 1970,
+      "right": 3020,
+      "bottom": 1997,
+      "width": 21,
+      "height": 27,
+      "confidence": 20.407,
+      "text": "Co}"
+    },
+    {
+      "id": "l046",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        3025,
+        1970,
+        3047,
+        1997
+      ],
+      "left": 3025,
+      "top": 1970,
+      "right": 3047,
+      "bottom": 1997,
+      "width": 22,
+      "height": 27,
+      "confidence": 62.324,
+      "text": "=|"
+    },
+    {
+      "id": "l047",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        3052,
+        1970,
+        3074,
+        1997
+      ],
+      "left": 3052,
+      "top": 1970,
+      "right": 3074,
+      "bottom": 1997,
+      "width": 22,
+      "height": 27,
+      "confidence": 64.614,
+      "text": "="
+    },
+    {
+      "id": "l048",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        3079,
+        1970,
+        3101,
+        1997
+      ],
+      "left": 3079,
+      "top": 1970,
+      "right": 3101,
+      "bottom": 1997,
+      "width": 22,
+      "height": 27,
+      "confidence": 52.948,
+      "text": "o"
+    },
+    {
+      "id": "l049",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        3105,
+        1970,
+        3126,
+        1997
+      ],
+      "left": 3105,
+      "top": 1970,
+      "right": 3126,
+      "bottom": 1997,
+      "width": 21,
+      "height": 27,
+      "confidence": 51.749,
+      "text": "="
+    },
+    {
+      "id": "l050",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        3189,
+        1970,
+        3210,
+        1997
+      ],
+      "left": 3189,
+      "top": 1970,
+      "right": 3210,
+      "bottom": 1997,
+      "width": 21,
+      "height": 27,
+      "confidence": 67.126,
+      "text": "r="
+    },
+    {
+      "id": "l051",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3216,
+        1970,
+        3237,
+        1997
+      ],
+      "left": 3216,
+      "top": 1970,
+      "right": 3237,
+      "bottom": 1997,
+      "width": 21,
+      "height": 27,
+      "confidence": 37.041,
+      "text": "o"
+    },
+    {
+      "id": "l052",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3242,
+        1970,
+        3263,
+        1997
+      ],
+      "left": 3242,
+      "top": 1970,
+      "right": 3263,
+      "bottom": 1997,
+      "width": 21,
+      "height": 27,
+      "confidence": 60.981,
+      "text": "="
+    },
+    {
+      "id": "l053",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        509,
+        2408,
+        518,
+        2430
+      ],
+      "left": 509,
+      "top": 2408,
+      "right": 518,
+      "bottom": 2430,
+      "width": 9,
+      "height": 22,
+      "confidence": 28.011,
+      "text": "es"
+    },
+    {
+      "id": "l054",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        732,
+        2442,
+        880,
+        2901
+      ],
+      "left": 732,
+      "top": 2442,
+      "right": 880,
+      "bottom": 2901,
+      "width": 148,
+      "height": 459,
+      "confidence": 24.333,
+      "text": "SSS"
+    },
+    {
+      "id": "l055",
+      "blockNumber": 31,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        68,
+        2474,
+        115,
+        4290
+      ],
+      "left": 68,
+      "top": 2474,
+      "right": 115,
+      "bottom": 4290,
+      "width": 47,
+      "height": 1816,
+      "confidence": 57.336,
+      "text": "A nice 2"
+    },
+    {
+      "id": "l056",
+      "blockNumber": 21,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        532,
+        2587,
+        561,
+        2845
+      ],
+      "left": 532,
+      "top": 2587,
+      "right": 561,
+      "bottom": 2845,
+      "width": 29,
+      "height": 258,
+      "confidence": 34.818,
+      "text": "eee a8"
+    },
+    {
+      "id": "l057",
+      "blockNumber": 18,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        733,
+        2592,
+        756,
+        2748
+      ],
+      "left": 733,
+      "top": 2592,
+      "right": 756,
+      "bottom": 2748,
+      "width": 23,
+      "height": 156,
+      "confidence": 41.723,
+      "text": "aaa."
+    },
+    {
+      "id": "l058",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2768,
+        2639,
+        2778,
+        3140
+      ],
+      "left": 2768,
+      "top": 2639,
+      "right": 2778,
+      "bottom": 3140,
+      "width": 10,
+      "height": 501,
+      "confidence": 37.922,
+      "text": "ee ae"
+    },
+    {
+      "id": "l059",
+      "blockNumber": 29,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        91,
+        2717,
+        113,
+        2760
+      ],
+      "left": 91,
+      "top": 2717,
+      "right": 113,
+      "bottom": 2760,
+      "width": 22,
+      "height": 43,
+      "confidence": 26.941,
+      "text": "ZA"
+    },
+    {
+      "id": "l060",
+      "blockNumber": 6,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        2868,
+        2755,
+        2944,
+        3440
+      ],
+      "left": 2868,
+      "top": 2755,
+      "right": 2944,
+      "bottom": 3440,
+      "width": 76,
+      "height": 685,
+      "confidence": 43.825,
+      "text": "oe LL Ah 2"
+    },
+    {
+      "id": "l061",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        2963,
+        2852,
+        2983,
+        3428
+      ],
+      "left": 2963,
+      "top": 2852,
+      "right": 2983,
+      "bottom": 3428,
+      "width": 20,
+      "height": 576,
+      "confidence": 24.469,
+      "text": "Lh A"
+    },
+    {
+      "id": "l062",
+      "blockNumber": 29,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        190,
+        2870,
+        216,
+        2960
+      ],
+      "left": 190,
+      "top": 2870,
+      "right": 216,
+      "bottom": 2960,
+      "width": 26,
+      "height": 90,
+      "confidence": 54.803,
+      "text": "hist"
+    },
+    {
+      "id": "l063",
+      "blockNumber": 6,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        2858,
+        2892,
+        2907,
+        3203
+      ],
+      "left": 2858,
+      "top": 2892,
+      "right": 2907,
+      "bottom": 3203,
+      "width": 49,
+      "height": 311,
+      "confidence": 30.45,
+      "text": "LL ph La"
+    },
+    {
+      "id": "l064",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2998,
+        3071,
+        3015,
+        3279
+      ],
+      "left": 2998,
+      "top": 3071,
+      "right": 3015,
+      "bottom": 3279,
+      "width": 17,
+      "height": 208,
+      "confidence": 35.907,
+      "text": "SRESEEERE"
+    },
+    {
+      "id": "l065",
+      "blockNumber": 6,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        2822,
+        3119,
+        2857,
+        3138
+      ],
+      "left": 2822,
+      "top": 3119,
+      "right": 2857,
+      "bottom": 3138,
+      "width": 35,
+      "height": 19,
+      "confidence": 28.98,
+      "text": "Ee"
+    },
+    {
+      "id": "l066",
+      "blockNumber": 6,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        2925,
+        3130,
+        2962,
+        3443
+      ],
+      "left": 2925,
+      "top": 3130,
+      "right": 2962,
+      "bottom": 3443,
+      "width": 37,
+      "height": 313,
+      "confidence": 32.876,
+      "text": "> tt"
+    },
+    {
+      "id": "l067",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3018,
+        3289,
+        3036,
+        3412
+      ],
+      "left": 3018,
+      "top": 3289,
+      "right": 3036,
+      "bottom": 3412,
+      "width": 18,
+      "height": 123,
+      "confidence": 24.004,
+      "text": "BREE"
+    },
+    {
+      "id": "l068",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2915,
+        3977,
+        3276,
+        4014
+      ],
+      "left": 2915,
+      "top": 3977,
+      "right": 3276,
+      "bottom": 4014,
+      "width": 361,
+      "height": 37,
+      "confidence": 92.383,
+      "text": "Fred Eichelbaum"
+    },
+    {
+      "id": "l069",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2546,
+        3996,
+        2587,
+        4369
+      ],
+      "left": 2546,
+      "top": 3996,
+      "right": 2587,
+      "bottom": 4369,
+      "width": 41,
+      "height": 373,
+      "confidence": 40.011,
+      "text": "AN Lh"
+    },
+    {
+      "id": "l070",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        2572,
+        4008,
+        2617,
+        4409
+      ],
+      "left": 2572,
+      "top": 4008,
+      "right": 2617,
+      "bottom": 4409,
+      "width": 45,
+      "height": 401,
+      "confidence": 42.681,
+      "text": "lt A (LEM i”"
+    },
+    {
+      "id": "l071",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2918,
+        4040,
+        3279,
+        4088
+      ],
+      "left": 2918,
+      "top": 4040,
+      "right": 3279,
+      "bottom": 4088,
+      "width": 361,
+      "height": 48,
+      "confidence": 91.99,
+      "text": "Katovl Menovsky"
+    },
+    {
+      "id": "l072",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        2604,
+        4041,
+        2644,
+        4458
+      ],
+      "left": 2604,
+      "top": 4041,
+      "right": 2644,
+      "bottom": 4458,
+      "width": 40,
+      "height": 417,
+      "confidence": 41.86,
+      "text": "££ aes ££ LL he"
+    },
+    {
+      "id": "l073",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3003,
+        4101,
+        3280,
+        4139
+      ],
+      "left": 3003,
+      "top": 4101,
+      "right": 3280,
+      "bottom": 4139,
+      "width": 277,
+      "height": 38,
+      "confidence": 93.925,
+      "text": "Don & Demir"
+    },
+    {
+      "id": "l074",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2645,
+        4148,
+        2668,
+        4486
+      ],
+      "left": 2645,
+      "top": 4148,
+      "right": 2668,
+      "bottom": 4486,
+      "width": 23,
+      "height": 338,
+      "confidence": 28.724,
+      "text": "alee"
+    },
+    {
+      "id": "l075",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2893,
+        4165,
+        3277,
+        4212
+      ],
+      "left": 2893,
+      "top": 4165,
+      "right": 3277,
+      "bottom": 4212,
+      "width": 384,
+      "height": 47,
+      "confidence": 92.864,
+      "text": "Johnny Macchiato"
+    },
+    {
+      "id": "l076",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2661,
+        4174,
+        2702,
+        4471
+      ],
+      "left": 2661,
+      "top": 4174,
+      "right": 2702,
+      "bottom": 4471,
+      "width": 41,
+      "height": 297,
+      "confidence": 50.418,
+      "text": "a a a a MM"
+    },
+    {
+      "id": "l077",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2949,
+        4226,
+        3280,
+        4263
+      ],
+      "left": 2949,
+      "top": 4226,
+      "right": 3280,
+      "bottom": 4263,
+      "width": 331,
+      "height": 37,
+      "confidence": 87.598,
+      "text": "Maren Bottcher"
+    },
+    {
+      "id": "l078",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2999,
+        4289,
+        3276,
+        4326
+      ],
+      "left": 2999,
+      "top": 4289,
+      "right": 3276,
+      "bottom": 4326,
+      "width": 277,
+      "height": 37,
+      "confidence": 92.468,
+      "text": "Pola Kardum"
+    },
+    {
+      "id": "l079",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2994,
+        4350,
+        3278,
+        4388
+      ],
+      "left": 2994,
+      "top": 4350,
+      "right": 3278,
+      "bottom": 4388,
+      "width": 284,
+      "height": 38,
+      "confidence": 93.994,
+      "text": "Sarai & Mack"
+    }
+  ]
+}

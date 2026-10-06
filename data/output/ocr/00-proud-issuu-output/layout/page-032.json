@@ -1,0 +1,6247 @@
+{
+  "scale": 2.0,
+  "imageWidth": 4478,
+  "imageHeight": 3002,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        81,
+        60,
+        299,
+        111
+      ],
+      "left": 81,
+      "top": 60,
+      "right": 299,
+      "bottom": 111,
+      "width": 218,
+      "height": 51,
+      "confidence": 96.324,
+      "text": "navigator"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 104,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        4183,
+        60,
+        4401,
+        111
+      ],
+      "left": 4183,
+      "top": 60,
+      "right": 4401,
+      "bottom": 111,
+      "width": 218,
+      "height": 51,
+      "confidence": 96.133,
+      "text": "navigator"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        138,
+        141,
+        241,
+        177
+      ],
+      "left": 138,
+      "top": 141,
+      "right": 241,
+      "bottom": 177,
+      "width": 103,
+      "height": 36,
+      "confidence": 75.833,
+      "text": "k.i.z."
+    },
+    {
+      "id": "l004",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        650,
+        141,
+        936,
+        178
+      ],
+      "left": 650,
+      "top": 141,
+      "right": 936,
+      "bottom": 178,
+      "width": 286,
+      "height": 37,
+      "confidence": 96.37,
+      "text": "berlin meets"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 36,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1149,
+        141,
+        1398,
+        178
+      ],
+      "left": 1149,
+      "top": 141,
+      "right": 1398,
+      "bottom": 178,
+      "width": 249,
+      "height": 37,
+      "confidence": 92.753,
+      "text": "moonraker"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 55,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1653,
+        141,
+        2071,
+        177
+      ],
+      "left": 1653,
+      "top": 141,
+      "right": 2071,
+      "bottom": 177,
+      "width": 418,
+      "height": 36,
+      "confidence": 93.383,
+      "text": "kuchenschlacht an"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 83,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2892,
+        144,
+        3204,
+        190
+      ],
+      "left": 2892,
+      "top": 144,
+      "right": 3204,
+      "bottom": 190,
+      "width": 312,
+      "height": 46,
+      "confidence": 92.043,
+      "text": "100tagewach-"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 99,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3412,
+        144,
+        3707,
+        180
+      ],
+      "left": 3412,
+      "top": 144,
+      "right": 3707,
+      "bottom": 180,
+      "width": 295,
+      "height": 36,
+      "confidence": 96.054,
+      "text": "techno in der"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 105,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3930,
+        144,
+        4174,
+        180
+      ],
+      "left": 3930,
+      "top": 144,
+      "right": 4174,
+      "bottom": 180,
+      "width": 244,
+      "height": 36,
+      "confidence": 94.022,
+      "text": "art & noise"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 36,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1146,
+        197,
+        1495,
+        228
+      ],
+      "left": 1146,
+      "top": 197,
+      "right": 1495,
+      "bottom": 228,
+      "width": 349,
+      "height": 31,
+      "confidence": 96.777,
+      "text": "SONNTAG 30. JULI"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        138,
+        198,
+        464,
+        228
+      ],
+      "left": 138,
+      "top": 198,
+      "right": 464,
+      "bottom": 228,
+      "width": 326,
+      "height": 30,
+      "confidence": 96.355,
+      "text": "MONTAG 24. JULI"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        649,
+        201,
+        938,
+        238
+      ],
+      "left": 649,
+      "top": 201,
+      "right": 938,
+      "bottom": 238,
+      "width": 289,
+      "height": 37,
+      "confidence": 93.201,
+      "text": "amsterdam -"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 56,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1653,
+        201,
+        1817,
+        237
+      ],
+      "left": 1653,
+      "top": 201,
+      "right": 1817,
+      "bottom": 237,
+      "width": 164,
+      "height": 36,
+      "confidence": 96.88,
+      "text": "der bar"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 105,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3929,
+        203,
+        4241,
+        231
+      ],
+      "left": 3929,
+      "top": 203,
+      "right": 4241,
+      "bottom": 231,
+      "width": 312,
+      "height": 28,
+      "confidence": 95.852,
+      "text": "SAMSTAG 17. AUG"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 84,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2889,
+        204,
+        3189,
+        240
+      ],
+      "left": 2889,
+      "top": 204,
+      "right": 3189,
+      "bottom": 240,
+      "width": 300,
+      "height": 36,
+      "confidence": 89.854,
+      "text": "dieafterhour!"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 100,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3412,
+        204,
+        3645,
+        250
+      ],
+      "left": 3412,
+      "top": 204,
+      "right": 3645,
+      "bottom": 250,
+      "width": 233,
+      "height": 46,
+      "confidence": 91.682,
+      "text": "supamolly"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        136,
+        249,
+        242,
+        279
+      ],
+      "left": 136,
+      "top": 249,
+      "right": 242,
+      "bottom": 279,
+      "width": 106,
+      "height": 30,
+      "confidence": 94.309,
+      "text": "SO 36"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 37,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1148,
+        249,
+        1361,
+        279
+      ],
+      "left": 1148,
+      "top": 249,
+      "right": 1361,
+      "bottom": 279,
+      "width": 213,
+      "height": 30,
+      "confidence": 96.917,
+      "text": "Red Rocket"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 106,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3931,
+        252,
+        4253,
+        291
+      ],
+      "left": 3931,
+      "top": 252,
+      "right": 4253,
+      "bottom": 291,
+      "width": 322,
+      "height": 39,
+      "confidence": 91.595,
+      "text": "Donnerstagsclub"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 56,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1653,
+        257,
+        2055,
+        288
+      ],
+      "left": 1653,
+      "top": 257,
+      "right": 2055,
+      "bottom": 288,
+      "width": 402,
+      "height": 31,
+      "confidence": 93.629,
+      "text": "DONNERSTAG 4. AUG"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        649,
+        261,
+        990,
+        307
+      ],
+      "left": 649,
+      "top": 261,
+      "right": 990,
+      "bottom": 307,
+      "width": 341,
+      "height": 46,
+      "confidence": 95.386,
+      "text": "quagmire label"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 84,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2888,
+        261,
+        3210,
+        291
+      ],
+      "left": 2888,
+      "top": 261,
+      "right": 3210,
+      "bottom": 291,
+      "width": 322,
+      "height": 30,
+      "confidence": 96.394,
+      "text": "SONNTAG 7. AUG"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 100,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3414,
+        261,
+        3735,
+        291
+      ],
+      "left": 3414,
+      "top": 261,
+      "right": 3735,
+      "bottom": 291,
+      "width": 321,
+      "height": 30,
+      "confidence": 94.143,
+      "text": "FREITAG 16. AUG"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        138,
+        297,
+        542,
+        327
+      ],
+      "left": 138,
+      "top": 297,
+      "right": 542,
+      "bottom": 327,
+      "width": 404,
+      "height": 30,
+      "confidence": 89.857,
+      "text": "Der Assi-Rap mit Stil rockt"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 37,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1147,
+        297,
+        1556,
+        322
+      ],
+      "left": 1147,
+      "top": 297,
+      "right": 1556,
+      "bottom": 322,
+      "width": 409,
+      "height": 25,
+      "confidence": 93.795,
+      "text": "OLI DE LUXE on the wheels"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 106,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        3931,
+        300,
+        4340,
+        324
+      ],
+      "left": 3931,
+      "top": 300,
+      "right": 4340,
+      "bottom": 324,
+      "width": 409,
+      "height": 24,
+      "confidence": 94.531,
+      "text": "Um 20 Uhr ist erstmal eine"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 57,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1651,
+        309,
+        1929,
+        339
+      ],
+      "left": 1651,
+      "top": 309,
+      "right": 1929,
+      "bottom": 339,
+      "width": 278,
+      "height": 30,
+      "confidence": 96.428,
+      "text": "Sanatorium 23"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 85,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2890,
+        312,
+        3021,
+        342
+      ],
+      "left": 2890,
+      "top": 312,
+      "right": 3021,
+      "bottom": 342,
+      "width": 131,
+      "height": 30,
+      "confidence": 96.789,
+      "text": "Renate"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 100,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        3411,
+        312,
+        3613,
+        351
+      ],
+      "left": 3411,
+      "top": 312,
+      "right": 3613,
+      "bottom": 351,
+      "width": 202,
+      "height": 39,
+      "confidence": 92.57,
+      "text": "Supamolly"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        650,
+        321,
+        762,
+        367
+      ],
+      "left": 650,
+      "top": 321,
+      "right": 762,
+      "bottom": 367,
+      "width": 112,
+      "height": 46,
+      "confidence": 96.049,
+      "text": "night"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        136,
+        339,
+        572,
+        367
+      ],
+      "left": 136,
+      "top": 339,
+      "right": 572,
+      "bottom": 367,
+      "width": 436,
+      "height": 28,
+      "confidence": 92.586,
+      "text": "auf seiner ,,Einer Muss Es Ja"
+    },
+    {
+      "id": "l032",
+      "blockNumber": 37,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        1146,
+        339,
+        1466,
+        367
+      ],
+      "left": 1146,
+      "top": 339,
+      "right": 1466,
+      "bottom": 367,
+      "width": 320,
+      "height": 28,
+      "confidence": 96.334,
+      "text": "of steel mit: Minimal,"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 106,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        3929,
+        340,
+        4355,
+        371
+      ],
+      "left": 3929,
+      "top": 340,
+      "right": 4355,
+      "bottom": 371,
+      "width": 426,
+      "height": 31,
+      "confidence": 96.734,
+      "text": "Vernissage von Geraldine Py"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 57,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1651,
+        356,
+        2027,
+        381
+      ],
+      "left": 1651,
+      "top": 356,
+      "right": 2027,
+      "bottom": 381,
+      "width": 376,
+      "height": 25,
+      "confidence": 85.356,
+      "text": "Ab 21 Uhr konnt ihr euch"
+    },
+    {
+      "id": "l035",
+      "blockNumber": 85,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        2887,
+        359,
+        3275,
+        391
+      ],
+      "left": 2887,
+      "top": 359,
+      "right": 3275,
+      "bottom": 391,
+      "width": 388,
+      "height": 32,
+      "confidence": 88.132,
+      "text": "Ab 10 Uhr morgens konnt"
+    },
+    {
+      "id": "l036",
+      "blockNumber": 101,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3413,
+        360,
+        3827,
+        391
+      ],
+      "left": 3413,
+      "top": 360,
+      "right": 3827,
+      "bottom": 391,
+      "width": 414,
+      "height": 31,
+      "confidence": 92.238,
+      "text": "Das Kreuzberger Szenecafé"
+    },
+    {
+      "id": "l037",
+      "blockNumber": 19,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        648,
+        378,
+        996,
+        408
+      ],
+      "left": 648,
+      "top": 378,
+      "right": 996,
+      "bottom": 408,
+      "width": 348,
+      "height": 30,
+      "confidence": 96.404,
+      "text": "SAMSTAG 29. JULI"
+    },
+    {
+      "id": "l038",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        137,
+        379,
+        580,
+        404
+      ],
+      "left": 137,
+      "top": 379,
+      "right": 580,
+      "bottom": 404,
+      "width": 443,
+      "height": 25,
+      "confidence": 85.376,
+      "text": "Machen Tour 2008*% in Berlin."
+    },
+    {
+      "id": "l039",
+      "blockNumber": 37,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        1148,
+        379,
+        1529,
+        410
+      ],
+      "left": 1148,
+      "top": 379,
+      "right": 1529,
+      "bottom": 410,
+      "width": 381,
+      "height": 31,
+      "confidence": 92.078,
+      "text": "Elektronischem, Tech-Hip-"
+    },
+    {
+      "id": "l040",
+      "blockNumber": 106,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        3929,
+        382,
+        4361,
+        414
+      ],
+      "left": 3929,
+      "top": 382,
+      "right": 4361,
+      "bottom": 414,
+      "width": 432,
+      "height": 32,
+      "confidence": 95.979,
+      "text": "aus Marseille. Zu sehen gibt"
+    },
+    {
+      "id": "l041",
+      "blockNumber": 57,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        1652,
+        399,
+        2035,
+        423
+      ],
+      "left": 1652,
+      "top": 399,
+      "right": 2035,
+      "bottom": 423,
+      "width": 383,
+      "height": 24,
+      "confidence": 94.686,
+      "text": "mit den Veranstaltern der"
+    },
+    {
+      "id": "l042",
+      "blockNumber": 85,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        2889,
+        400,
+        3241,
+        425
+      ],
+      "left": 2889,
+      "top": 400,
+      "right": 3241,
+      "bottom": 425,
+      "width": 352,
+      "height": 25,
+      "confidence": 94.788,
+      "text": "ihr die Afterhour in dem"
+    },
+    {
+      "id": "l043",
+      "blockNumber": 101,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3412,
+        400,
+        3704,
+        431
+      ],
+      "left": 3412,
+      "top": 400,
+      "right": 3704,
+      "bottom": 431,
+      "width": 292,
+      "height": 31,
+      "confidence": 92.712,
+      "text": "Supamolly ladt zum"
+    },
+    {
+      "id": "l044",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        138,
+        421,
+        558,
+        446
+      ],
+      "left": 138,
+      "top": 421,
+      "right": 558,
+      "bottom": 446,
+      "width": 420,
+      "height": 25,
+      "confidence": 92.566,
+      "text": "Die Kannibalen in Zivil rufen"
+    },
+    {
+      "id": "l045",
+      "blockNumber": 37,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        1148,
+        421,
+        1567,
+        446
+      ],
+      "left": 1148,
+      "top": 421,
+      "right": 1567,
+      "bottom": 446,
+      "width": 419,
+      "height": 25,
+      "confidence": 96.209,
+      "text": "House and other weird stuff"
+    },
+    {
+      "id": "l046",
+      "blockNumber": 106,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        3929,
+        424,
+        4331,
+        455
+      ],
+      "left": 3929,
+      "top": 424,
+      "right": 4331,
+      "bottom": 455,
+      "width": 402,
+      "height": 31,
+      "confidence": 92.32,
+      "text": "es motorisierte Skulpturen"
+    },
+    {
+      "id": "l047",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        648,
+        429,
+        918,
+        459
+      ],
+      "left": 648,
+      "top": 429,
+      "right": 918,
+      "bottom": 459,
+      "width": 270,
+      "height": 30,
+      "confidence": 96.57,
+      "text": "Weekend Club"
+    },
+    {
+      "id": "l048",
+      "blockNumber": 57,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        1652,
+        439,
+        2093,
+        470
+      ],
+      "left": 1652,
+      "top": 439,
+      "right": 2093,
+      "bottom": 470,
+      "width": 441,
+      "height": 31,
+      "confidence": 91.458,
+      "text": "bekannten Sparkassenpartys"
+    },
+    {
+      "id": "l049",
+      "blockNumber": 85,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        2889,
+        442,
+        3262,
+        467
+      ],
+      "left": 2889,
+      "top": 442,
+      "right": 3262,
+      "bottom": 467,
+      "width": 373,
+      "height": 25,
+      "confidence": 93.878,
+      "text": "neuen Szeneclub Renate"
+    },
+    {
+      "id": "l050",
+      "blockNumber": 101,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        3411,
+        442,
+        3849,
+        474
+      ],
+      "left": 3411,
+      "top": 442,
+      "right": 3849,
+      "bottom": 474,
+      "width": 438,
+      "height": 32,
+      "confidence": 91.5,
+      "text": "gemeinsamen Feiern, Trinken"
+    },
+    {
+      "id": "l051",
+      "blockNumber": 38,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1145,
+        463,
+        1313,
+        494
+      ],
+      "left": 1145,
+      "top": 463,
+      "right": 1313,
+      "bottom": 494,
+      "width": 168,
+      "height": 31,
+      "confidence": 96.457,
+      "text": "for ya ears."
+    },
+    {
+      "id": "l052",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        137,
+        464,
+        553,
+        494
+      ],
+      "left": 137,
+      "top": 464,
+      "right": 553,
+      "bottom": 494,
+      "width": 416,
+      "height": 30,
+      "confidence": 93.184,
+      "text": "kontroverse Meinungen und"
+    },
+    {
+      "id": "l053",
+      "blockNumber": 106,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        3930,
+        466,
+        4321,
+        491
+      ],
+      "left": 3930,
+      "top": 466,
+      "right": 4321,
+      "bottom": 491,
+      "width": 391,
+      "height": 25,
+      "confidence": 95.978,
+      "text": "und industrielles Material."
+    },
+    {
+      "id": "l054",
+      "blockNumber": 20,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        649,
+        477,
+        967,
+        502
+      ],
+      "left": 649,
+      "top": 477,
+      "right": 967,
+      "bottom": 502,
+      "width": 318,
+      "height": 25,
+      "confidence": 93.412,
+      "text": "Mical Rhebess & Tim"
+    },
+    {
+      "id": "l055",
+      "blockNumber": 57,
+      "paragraphNumber": 3,
+      "lineNumber": 3,
+      "bbox": [
+        1652,
+        482,
+        2086,
+        506
+      ],
+      "left": 1652,
+      "top": 482,
+      "right": 2086,
+      "bottom": 506,
+      "width": 434,
+      "height": 24,
+      "confidence": 94.379,
+      "text": "und deren DJ Michael Placke"
+    },
+    {
+      "id": "l056",
+      "blockNumber": 85,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        2887,
+        484,
+        3323,
+        516
+      ],
+      "left": 2887,
+      "top": 484,
+      "right": 3323,
+      "bottom": 516,
+      "width": 436,
+      "height": 32,
+      "confidence": 92.465,
+      "text": "verbringen. Fur elektronische"
+    },
+    {
+      "id": "l057",
+      "blockNumber": 101,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        3413,
+        484,
+        3815,
+        514
+      ],
+      "left": 3413,
+      "top": 484,
+      "right": 3815,
+      "bottom": 514,
+      "width": 402,
+      "height": 30,
+      "confidence": 82.431,
+      "text": "und SpaShaben ein. Ab 23"
+    },
+    {
+      "id": "l058",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        138,
+        504,
+        512,
+        529
+      ],
+      "left": 138,
+      "top": 504,
+      "right": 512,
+      "bottom": 529,
+      "width": 374,
+      "height": 25,
+      "confidence": 93.239,
+      "text": "Diskussionen hervor. Auf"
+    },
+    {
+      "id": "l059",
+      "blockNumber": 38,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1146,
+        504,
+        1334,
+        529
+      ],
+      "left": 1146,
+      "top": 504,
+      "right": 1334,
+      "bottom": 529,
+      "width": 188,
+      "height": 25,
+      "confidence": 96.224,
+      "text": "Check it out."
+    },
+    {
+      "id": "l060",
+      "blockNumber": 106,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        3931,
+        507,
+        4348,
+        537
+      ],
+      "left": 3931,
+      "top": 507,
+      "right": 4348,
+      "bottom": 537,
+      "width": 417,
+      "height": 30,
+      "confidence": 93.623,
+      "text": "UND Kurzfilmsequenzen mit"
+    },
+    {
+      "id": "l061",
+      "blockNumber": 20,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        648,
+        519,
+        1065,
+        550
+      ],
+      "left": 648,
+      "top": 519,
+      "right": 1065,
+      "bottom": 550,
+      "width": 417,
+      "height": 31,
+      "confidence": 94.387,
+      "text": "Woestenk bringen euch den"
+    },
+    {
+      "id": "l062",
+      "blockNumber": 58,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1651,
+        524,
+        2043,
+        554
+      ],
+      "left": 1651,
+      "top": 524,
+      "right": 2043,
+      "bottom": 554,
+      "width": 392,
+      "height": 30,
+      "confidence": 93.494,
+      "text": "vom Label ecquisite-berlin"
+    },
+    {
+      "id": "l063",
+      "blockNumber": 101,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        3413,
+        526,
+        3847,
+        558
+      ],
+      "left": 3413,
+      "top": 526,
+      "right": 3847,
+      "bottom": 558,
+      "width": 434,
+      "height": 32,
+      "confidence": 96.309,
+      "text": "Uhr legen die DJs Gianni und"
+    },
+    {
+      "id": "l064",
+      "blockNumber": 85,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        2889,
+        527,
+        3326,
+        551
+      ],
+      "left": 2889,
+      "top": 527,
+      "right": 3326,
+      "bottom": 551,
+      "width": 437,
+      "height": 24,
+      "confidence": 94.391,
+      "text": "Musik verschiedener Art sind"
+    },
+    {
+      "id": "l065",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        132,
+        546,
+        276,
+        576
+      ],
+      "left": 132,
+      "top": 546,
+      "right": 276,
+      "bottom": 576,
+      "width": 144,
+      "height": 30,
+      "confidence": 94.882,
+      "text": "jeden Fall"
+    },
+    {
+      "id": "l066",
+      "blockNumber": 106,
+      "paragraphNumber": 2,
+      "lineNumber": 7,
+      "bbox": [
+        3931,
+        549,
+        4348,
+        574
+      ],
+      "left": 3931,
+      "top": 549,
+      "right": 4348,
+      "bottom": 574,
+      "width": 417,
+      "height": 25,
+      "confidence": 94.16,
+      "text": "Baustellenmaschinen deren"
+    },
+    {
+      "id": "l067",
+      "blockNumber": 69,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2364,
+        554,
+        2375,
+        660
+      ],
+      "left": 2364,
+      "top": 554,
+      "right": 2375,
+      "bottom": 660,
+      "width": 11,
+      "height": 106,
+      "confidence": 76.609,
+      "text": "MJ) Productions"
+    },
+    {
+      "id": "l068",
+      "blockNumber": 20,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        648,
+        559,
+        1001,
+        591
+      ],
+      "left": 648,
+      "top": 559,
+      "right": 1001,
+      "bottom": 591,
+      "width": 353,
+      "height": 32,
+      "confidence": 96.057,
+      "text": "original Quagmire Label"
+    },
+    {
+      "id": "l069",
+      "blockNumber": 58,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1651,
+        564,
+        1784,
+        588
+      ],
+      "left": 1651,
+      "top": 564,
+      "right": 1784,
+      "bottom": 588,
+      "width": 133,
+      "height": 24,
+      "confidence": 92.59,
+      "text": "erfreuen."
+    },
+    {
+      "id": "l070",
+      "blockNumber": 101,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        3411,
+        566,
+        3840,
+        592
+      ],
+      "left": 3411,
+      "top": 566,
+      "right": 3840,
+      "bottom": 592,
+      "width": 429,
+      "height": 26,
+      "confidence": 95.007,
+      "text": "VitielloErik fur euch auf. Live"
+    },
+    {
+      "id": "l071",
+      "blockNumber": 85,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        2888,
+        567,
+        3256,
+        595
+      ],
+      "left": 2888,
+      "top": 567,
+      "right": 3256,
+      "bottom": 595,
+      "width": 368,
+      "height": 28,
+      "confidence": 94.216,
+      "text": "die DJs Zander.VT, Khan,"
+    },
+    {
+      "id": "l072",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        137,
+        588,
+        309,
+        613
+      ],
+      "left": 137,
+      "top": 588,
+      "right": 309,
+      "bottom": 613,
+      "width": 172,
+      "height": 25,
+      "confidence": 96.644,
+      "text": "machen sie"
+    },
+    {
+      "id": "l073",
+      "blockNumber": 39,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1147,
+        588,
+        1558,
+        618
+      ],
+      "left": 1147,
+      "top": 588,
+      "right": 1558,
+      "bottom": 618,
+      "width": 411,
+      "height": 30,
+      "confidence": 79.913,
+      "text": "Falckensteinstrafe 47/48"
+    },
+    {
+      "id": "l074",
+      "blockNumber": 106,
+      "paragraphNumber": 2,
+      "lineNumber": 8,
+      "bbox": [
+        3930,
+        591,
+        4358,
+        622
+      ],
+      "left": 3930,
+      "top": 591,
+      "right": 4358,
+      "bottom": 622,
+      "width": 428,
+      "height": 31,
+      "confidence": 95.739,
+      "text": "Bewegungen die gar nicht zu"
+    },
+    {
+      "id": "l075",
+      "blockNumber": 20,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        649,
+        601,
+        1073,
+        632
+      ],
+      "left": 649,
+      "top": 601,
+      "right": 1073,
+      "bottom": 632,
+      "width": 424,
+      "height": 31,
+      "confidence": 94.483,
+      "text": "Sound. Deep, akustisch und"
+    },
+    {
+      "id": "l076",
+      "blockNumber": 85,
+      "paragraphNumber": 2,
+      "lineNumber": 7,
+      "bbox": [
+        2888,
+        609,
+        3209,
+        634
+      ],
+      "left": 2888,
+      "top": 609,
+      "right": 3209,
+      "bottom": 634,
+      "width": 321,
+      "height": 25,
+      "confidence": 95.259,
+      "text": "22Rockets und Swift."
+    },
+    {
+      "id": "l077",
+      "blockNumber": 101,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        3411,
+        609,
+        3820,
+        640
+      ],
+      "left": 3411,
+      "top": 609,
+      "right": 3820,
+      "bottom": 640,
+      "width": 409,
+      "height": 31,
+      "confidence": 86.849,
+      "text": "gibts auSerdem Eisbrenner"
+    },
+    {
+      "id": "l078",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        136,
+        630,
+        260,
+        661
+      ],
+      "left": 136,
+      "top": 630,
+      "right": 260,
+      "bottom": 661,
+      "width": 124,
+      "height": 31,
+      "confidence": 96.79,
+      "text": "aber gut"
+    },
+    {
+      "id": "l079",
+      "blockNumber": 106,
+      "paragraphNumber": 2,
+      "lineNumber": 9,
+      "bbox": [
+        3929,
+        632,
+        4155,
+        656
+      ],
+      "left": 3929,
+      "top": 632,
+      "right": 4155,
+      "bottom": 656,
+      "width": 226,
+      "height": 24,
+      "confidence": 92.403,
+      "text": "einer Baustelle"
+    },
+    {
+      "id": "l080",
+      "blockNumber": 21,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        648,
+        643,
+        1107,
+        668
+      ],
+      "left": 648,
+      "top": 643,
+      "right": 1107,
+      "bottom": 668,
+      "width": 459,
+      "height": 25,
+      "confidence": 95.229,
+      "text": "definierten House und Techno."
+    },
+    {
+      "id": "l081",
+      "blockNumber": 101,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        3413,
+        651,
+        3813,
+        682
+      ],
+      "left": 3413,
+      "top": 651,
+      "right": 3813,
+      "bottom": 682,
+      "width": 400,
+      "height": 31,
+      "confidence": 93.564,
+      "text": "und Mateng auf die Ohren."
+    },
+    {
+      "id": "l082",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 10,
+      "bbox": [
+        137,
+        671,
+        292,
+        701
+      ],
+      "left": 137,
+      "top": 671,
+      "right": 292,
+      "bottom": 701,
+      "width": 155,
+      "height": 30,
+      "confidence": 96.811,
+      "text": "Party. Also"
+    },
+    {
+      "id": "l083",
+      "blockNumber": 106,
+      "paragraphNumber": 2,
+      "lineNumber": 10,
+      "bbox": [
+        3930,
+        673,
+        3994,
+        698
+      ],
+      "left": 3930,
+      "top": 673,
+      "right": 3994,
+      "bottom": 698,
+      "width": 64,
+      "height": 25,
+      "confidence": 96.73,
+      "text": "Geil."
+    },
+    {
+      "id": "l084",
+      "blockNumber": 22,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        648,
+        685,
+        1088,
+        716
+      ],
+      "left": 648,
+      "top": 685,
+      "right": 1088,
+      "bottom": 716,
+      "width": 440,
+      "height": 31,
+      "confidence": 92.744,
+      "text": "William Kouam Djoko & Boris"
+    },
+    {
+      "id": "l085",
+      "blockNumber": 86,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2889,
+        691,
+        3280,
+        716
+      ],
+      "left": 2889,
+      "top": 691,
+      "right": 3280,
+      "bottom": 716,
+      "width": 391,
+      "height": 25,
+      "confidence": 82.868,
+      "text": "Location mist ihr selber"
+    },
+    {
+      "id": "l086",
+      "blockNumber": 72,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2381,
+        711,
+        2534,
+        748
+      ],
+      "left": 2381,
+      "top": 711,
+      "right": 2534,
+      "bottom": 748,
+      "width": 153,
+      "height": 37,
+      "confidence": 96.705,
+      "text": "beat it!"
+    },
+    {
+      "id": "l087",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 11,
+      "bbox": [
+        137,
+        713,
+        296,
+        737
+      ],
+      "left": 137,
+      "top": 713,
+      "right": 296,
+      "bottom": 737,
+      "width": 159,
+      "height": 24,
+      "confidence": 96.472,
+      "text": "kommt mit"
+    },
+    {
+      "id": "l088",
+      "blockNumber": 22,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        648,
+        726,
+        1088,
+        751
+      ],
+      "left": 648,
+      "top": 726,
+      "right": 1088,
+      "bottom": 751,
+      "width": 440,
+      "height": 25,
+      "confidence": 94.833,
+      "text": "Werner haben ihre Wurzeln in"
+    },
+    {
+      "id": "l089",
+      "blockNumber": 86,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2889,
+        733,
+        3056,
+        758
+      ],
+      "left": 2889,
+      "top": 733,
+      "right": 3056,
+      "bottom": 758,
+      "width": 167,
+      "height": 25,
+      "confidence": 90.991,
+      "text": "rausfinden."
+    },
+    {
+      "id": "l090",
+      "blockNumber": 102,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3411,
+        734,
+        3620,
+        758
+      ],
+      "left": 3411,
+      "top": 734,
+      "right": 3620,
+      "bottom": 758,
+      "width": 209,
+      "height": 24,
+      "confidence": 88.769,
+      "text": "Jessnerstr.41"
+    },
+    {
+      "id": "l091",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 12,
+      "bbox": [
+        136,
+        755,
+        302,
+        779
+      ],
+      "left": 136,
+      "top": 755,
+      "right": 302,
+      "bottom": 779,
+      "width": 166,
+      "height": 24,
+      "confidence": 92.208,
+      "text": "allen euren"
+    },
+    {
+      "id": "l092",
+      "blockNumber": 22,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        648,
+        768,
+        1073,
+        798
+      ],
+      "left": 648,
+      "top": 768,
+      "right": 1073,
+      "bottom": 798,
+      "width": 425,
+      "height": 30,
+      "confidence": 96.444,
+      "text": "Amsterdam und spielen ihre"
+    },
+    {
+      "id": "l093",
+      "blockNumber": 72,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2381,
+        768,
+        2680,
+        799
+      ],
+      "left": 2381,
+      "top": 768,
+      "right": 2680,
+      "bottom": 799,
+      "width": 299,
+      "height": 31,
+      "confidence": 94.627,
+      "text": "FREITAG 5. AUG"
+    },
+    {
+      "id": "l094",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 13,
+      "bbox": [
+        138,
+        795,
+        272,
+        820
+      ],
+      "left": 138,
+      "top": 795,
+      "right": 272,
+      "bottom": 820,
+      "width": 134,
+      "height": 25,
+      "confidence": 96.578,
+      "text": "Freunden"
+    },
+    {
+      "id": "l095",
+      "blockNumber": 22,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        649,
+        810,
+        1079,
+        840
+      ],
+      "left": 649,
+      "top": 810,
+      "right": 1079,
+      "bottom": 840,
+      "width": 430,
+      "height": 30,
+      "confidence": 92.666,
+      "text": "partyfokussierte Houseform."
+    },
+    {
+      "id": "l096",
+      "blockNumber": 73,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2378,
+        819,
+        2574,
+        858
+      ],
+      "left": 2378,
+      "top": 819,
+      "right": 2574,
+      "bottom": 858,
+      "width": 196,
+      "height": 39,
+      "confidence": 96.206,
+      "text": "Watergate"
+    },
+    {
+      "id": "l097",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 14,
+      "bbox": [
+        137,
+        836,
+        263,
+        862
+      ],
+      "left": 137,
+      "top": 836,
+      "right": 263,
+      "bottom": 862,
+      "width": 126,
+      "height": 26,
+      "confidence": 91.481,
+      "text": "und hort"
+    },
+    {
+      "id": "l098",
+      "blockNumber": 73,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        2380,
+        867,
+        2792,
+        897
+      ],
+      "left": 2380,
+      "top": 867,
+      "right": 2792,
+      "bottom": 897,
+      "width": 412,
+      "height": 30,
+      "confidence": 96.42,
+      "text": "Ralph Lawson, Kiki, Marcus"
+    },
+    {
+      "id": "l099",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 15,
+      "bbox": [
+        136,
+        879,
+        263,
+        904
+      ],
+      "left": 136,
+      "top": 879,
+      "right": 263,
+      "bottom": 904,
+      "width": 127,
+      "height": 25,
+      "confidence": 95.196,
+      "text": "euch die"
+    },
+    {
+      "id": "l100",
+      "blockNumber": 23,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        648,
+        893,
+        908,
+        923
+      ],
+      "left": 648,
+      "top": 893,
+      "right": 908,
+      "bottom": 923,
+      "width": 260,
+      "height": 30,
+      "confidence": 96.83,
+      "text": "Alexanderplatz 5"
+    },
+    {
+      "id": "l101",
+      "blockNumber": 60,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1651,
+        897,
+        1944,
+        923
+      ],
+      "left": 1651,
+      "top": 897,
+      "right": 1944,
+      "bottom": 923,
+      "width": 293,
+      "height": 26,
+      "confidence": 78.984,
+      "text": "OranienstraBe 190"
+    },
+    {
+      "id": "l102",
+      "blockNumber": 73,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        2380,
+        908,
+        2802,
+        939
+      ],
+      "left": 2380,
+      "top": 908,
+      "right": 2802,
+      "bottom": 939,
+      "width": 422,
+      "height": 31,
+      "confidence": 91.889,
+      "text": "Meinhardt und Turmspringer"
+    },
+    {
+      "id": "l103",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 16,
+      "bbox": [
+        137,
+        927,
+        209,
+        946
+      ],
+      "left": 137,
+      "top": 927,
+      "right": 209,
+      "bottom": 946,
+      "width": 72,
+      "height": 19,
+      "confidence": 96.721,
+      "text": "neue"
+    },
+    {
+      "id": "l104",
+      "blockNumber": 61,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1652,
+        950,
+        1910,
+        988
+      ],
+      "left": 1652,
+      "top": 950,
+      "right": 1910,
+      "bottom": 988,
+      "width": 258,
+      "height": 38,
+      "confidence": 90.712,
+      "text": "entziickend"
+    },
+    {
+      "id": "l105",
+      "blockNumber": 73,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        2379,
+        950,
+        2759,
+        974
+      ],
+      "left": 2379,
+      "top": 950,
+      "right": 2759,
+      "bottom": 974,
+      "width": 380,
+      "height": 24,
+      "confidence": 94.44,
+      "text": "sind die DJs des Abends."
+    },
+    {
+      "id": "l106",
+      "blockNumber": 41,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1144,
+        951,
+        1454,
+        997
+      ],
+      "left": 1144,
+      "top": 951,
+      "right": 1454,
+      "bottom": 997,
+      "width": 310,
+      "height": 46,
+      "confidence": 93.703,
+      "text": "jahrmarkt im"
+    },
+    {
+      "id": "l107",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 17,
+      "bbox": [
+        138,
+        962,
+        252,
+        986
+      ],
+      "left": 138,
+      "top": 962,
+      "right": 252,
+      "bottom": 986,
+      "width": 114,
+      "height": 24,
+      "confidence": 96.755,
+      "text": "Berliner"
+    },
+    {
+      "id": "l108",
+      "blockNumber": 73,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        2380,
+        991,
+        2777,
+        1016
+      ],
+      "left": 2380,
+      "top": 991,
+      "right": 2777,
+      "bottom": 1016,
+      "width": 397,
+      "height": 25,
+      "confidence": 95.278,
+      "text": "Nahere Informationen zum"
+    },
+    {
+      "id": "l109",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 18,
+      "bbox": [
+        137,
+        1004,
+        504,
+        1034
+      ],
+      "left": 137,
+      "top": 1004,
+      "right": 504,
+      "bottom": 1034,
+      "width": 367,
+      "height": 30,
+      "confidence": 95.339,
+      "text": "Stimme des Hip Hop an."
+    },
+    {
+      "id": "l110",
+      "blockNumber": 61,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1653,
+        1008,
+        1952,
+        1039
+      ],
+      "left": 1653,
+      "top": 1008,
+      "right": 1952,
+      "bottom": 1039,
+      "width": 299,
+      "height": 31,
+      "confidence": 94.516,
+      "text": "FREITAG 5. AUG"
+    },
+    {
+      "id": "l111",
+      "blockNumber": 42,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1149,
+        1011,
+        1318,
+        1048
+      ],
+      "left": 1149,
+      "top": 1011,
+      "right": 1318,
+      "bottom": 1048,
+      "width": 169,
+      "height": 37,
+      "confidence": 91.638,
+      "text": "himmel"
+    },
+    {
+      "id": "l112",
+      "blockNumber": 74,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2378,
+        1034,
+        2788,
+        1065
+      ],
+      "left": 2378,
+      "top": 1034,
+      "right": 2788,
+      "bottom": 1065,
+      "width": 410,
+      "height": 31,
+      "confidence": 96.288,
+      "text": "Watergate und alle Termine"
+    },
+    {
+      "id": "l113",
+      "blockNumber": 108,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3930,
+        1049,
+        4279,
+        1073
+      ],
+      "left": 3930,
+      "top": 1049,
+      "right": 4279,
+      "bottom": 1073,
+      "width": 349,
+      "height": 24,
+      "confidence": 94.289,
+      "text": "Kottbusser Damm 104"
+    },
+    {
+      "id": "l114",
+      "blockNumber": 62,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1650,
+        1059,
+        1763,
+        1090
+      ],
+      "left": 1650,
+      "top": 1059,
+      "right": 1763,
+      "bottom": 1090,
+      "width": 113,
+      "height": 31,
+      "confidence": 96.787,
+      "text": "Arena"
+    },
+    {
+      "id": "l115",
+      "blockNumber": 42,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1148,
+        1068,
+        1447,
+        1099
+      ],
+      "left": 1148,
+      "top": 1068,
+      "right": 1447,
+      "bottom": 1099,
+      "width": 299,
+      "height": 31,
+      "confidence": 96.605,
+      "text": "MONTAG 1. AUG"
+    },
+    {
+      "id": "l116",
+      "blockNumber": 74,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2378,
+        1074,
+        2781,
+        1105
+      ],
+      "left": 2378,
+      "top": 1074,
+      "right": 2781,
+      "bottom": 1105,
+      "width": 403,
+      "height": 31,
+      "confidence": 93.175,
+      "text": "findet ihr auf water-gate.de"
+    },
+    {
+      "id": "l117",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        136,
+        1088,
+        428,
+        1114
+      ],
+      "left": 136,
+      "top": 1088,
+      "right": 428,
+      "bottom": 1114,
+      "width": 292,
+      "height": 26,
+      "confidence": 63.338,
+      "text": "OranienstraBe 190"
+    },
+    {
+      "id": "l118",
+      "blockNumber": 62,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1651,
+        1107,
+        2078,
+        1137
+      ],
+      "left": 1651,
+      "top": 1107,
+      "right": 2078,
+      "bottom": 1137,
+      "width": 427,
+      "height": 30,
+      "confidence": 94.817,
+      "text": "Wenn du das alles verpasst,"
+    },
+    {
+      "id": "l119",
+      "blockNumber": 43,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1148,
+        1119,
+        1517,
+        1158
+      ],
+      "left": 1148,
+      "top": 1119,
+      "right": 1517,
+      "bottom": 1158,
+      "width": 369,
+      "height": 39,
+      "confidence": 94.724,
+      "text": "Festsaal Kreuzberg"
+    },
+    {
+      "id": "l120",
+      "blockNumber": 62,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        1651,
+        1147,
+        2033,
+        1176
+      ],
+      "left": 1651,
+      "top": 1147,
+      "right": 2033,
+      "bottom": 1176,
+      "width": 382,
+      "height": 29,
+      "confidence": 95.934,
+      "text": "wirst du alter sein, als du"
+    },
+    {
+      "id": "l121",
+      "blockNumber": 116,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3929,
+        1152,
+        4146,
+        1189
+      ],
+      "left": 3929,
+      "top": 1152,
+      "right": 4146,
+      "bottom": 1189,
+      "width": 217,
+      "height": 37,
+      "confidence": 88.744,
+      "text": "fett fett!!!"
+    },
+    {
+      "id": "l122",
+      "blockNumber": 75,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2379,
+        1158,
+        2728,
+        1184
+      ],
+      "left": 2379,
+      "top": 1158,
+      "right": 2728,
+      "bottom": 1184,
+      "width": 349,
+      "height": 26,
+      "confidence": 73.947,
+      "text": "Falckensteinstrafe 49"
+    },
+    {
+      "id": "l123",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        138,
+        1160,
+        508,
+        1206
+      ],
+      "left": 138,
+      "top": 1160,
+      "right": 508,
+      "bottom": 1206,
+      "width": 370,
+      "height": 46,
+      "confidence": 89.455,
+      "text": "klangsucht ahoi!"
+    },
+    {
+      "id": "l124",
+      "blockNumber": 43,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1148,
+        1165,
+        1497,
+        1197
+      ],
+      "left": 1148,
+      "top": 1165,
+      "right": 1497,
+      "bottom": 1197,
+      "width": 349,
+      "height": 32,
+      "confidence": 91.97,
+      "text": "Hier gibt’s Party fur den"
+    },
+    {
+      "id": "l125",
+      "blockNumber": 89,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2888,
+        1173,
+        3245,
+        1219
+      ],
+      "left": 2888,
+      "top": 1173,
+      "right": 3245,
+      "bottom": 1219,
+      "width": 357,
+      "height": 46,
+      "confidence": 91.111,
+      "text": "swashplate tilt*"
+    },
+    {
+      "id": "l126",
+      "blockNumber": 62,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        1651,
+        1190,
+        1790,
+        1214
+      ],
+      "left": 1651,
+      "top": 1190,
+      "right": 1790,
+      "bottom": 1214,
+      "width": 139,
+      "height": 24,
+      "confidence": 90.336,
+      "text": "dachtest."
+    },
+    {
+      "id": "l127",
+      "blockNumber": 43,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        1146,
+        1208,
+        1545,
+        1239
+      ],
+      "left": 1146,
+      "top": 1208,
+      "right": 1545,
+      "bottom": 1239,
+      "width": 399,
+      "height": 31,
+      "confidence": 92.515,
+      "text": "guten Zweck. Fantastische"
+    },
+    {
+      "id": "l128",
+      "blockNumber": 116,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3928,
+        1209,
+        4274,
+        1240
+      ],
+      "left": 3928,
+      "top": 1209,
+      "right": 4274,
+      "bottom": 1240,
+      "width": 346,
+      "height": 31,
+      "confidence": 96.531,
+      "text": "SONNTAG 18. AUG"
+    },
+    {
+      "id": "l129",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        138,
+        1216,
+        494,
+        1247
+      ],
+      "left": 138,
+      "top": 1216,
+      "right": 494,
+      "bottom": 1247,
+      "width": 356,
+      "height": 31,
+      "confidence": 95.017,
+      "text": "DIENSTAG 25. JULI"
+    },
+    {
+      "id": "l130",
+      "blockNumber": 89,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2890,
+        1230,
+        3242,
+        1261
+      ],
+      "left": 2890,
+      "top": 1230,
+      "right": 3242,
+      "bottom": 1261,
+      "width": 352,
+      "height": 31,
+      "confidence": 95.404,
+      "text": "DIENSTAG 13. AUG"
+    },
+    {
+      "id": "l131",
+      "blockNumber": 26,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        649,
+        1232,
+        830,
+        1278
+      ],
+      "left": 649,
+      "top": 1232,
+      "right": 830,
+      "bottom": 1278,
+      "width": 181,
+      "height": 46,
+      "confidence": 90.5,
+      "text": "goodlife"
+    },
+    {
+      "id": "l132",
+      "blockNumber": 62,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        1653,
+        1232,
+        2107,
+        1256
+      ],
+      "left": 1653,
+      "top": 1232,
+      "right": 2107,
+      "bottom": 1256,
+      "width": 454,
+      "height": 24,
+      "confidence": 95.658,
+      "text": "Nimm dir das Motto zu Herzen"
+    },
+    {
+      "id": "l133",
+      "blockNumber": 43,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        1148,
+        1250,
+        1559,
+        1281
+      ],
+      "left": 1148,
+      "top": 1250,
+      "right": 1559,
+      "bottom": 1281,
+      "width": 411,
+      "height": 31,
+      "confidence": 94.9,
+      "text": "Dekoration sowie VJing und"
+    },
+    {
+      "id": "l134",
+      "blockNumber": 117,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3931,
+        1260,
+        4128,
+        1291
+      ],
+      "left": 3931,
+      "top": 1260,
+      "right": 4128,
+      "bottom": 1291,
+      "width": 197,
+      "height": 31,
+      "confidence": 92.654,
+      "text": "Fette Ecke"
+    },
+    {
+      "id": "l135",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        138,
+        1267,
+        360,
+        1306
+      ],
+      "left": 138,
+      "top": 1267,
+      "right": 360,
+      "bottom": 1306,
+      "width": 222,
+      "height": 39,
+      "confidence": 91.172,
+      "text": "Hoppetosse"
+    },
+    {
+      "id": "l136",
+      "blockNumber": 62,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        1652,
+        1272,
+        2101,
+        1303
+      ],
+      "left": 1652,
+      "top": 1272,
+      "right": 2101,
+      "bottom": 1303,
+      "width": 449,
+      "height": 31,
+      "confidence": 96.373,
+      "text": "und ab zur Party. Die DJs sind"
+    },
+    {
+      "id": "l137",
+      "blockNumber": 90,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2889,
+        1281,
+        3097,
+        1312
+      ],
+      "left": 2889,
+      "top": 1281,
+      "right": 3097,
+      "bottom": 1312,
+      "width": 208,
+      "height": 31,
+      "confidence": 94.625,
+      "text": "Careca Bar"
+    },
+    {
+      "id": "l138",
+      "blockNumber": 26,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        648,
+        1288,
+        996,
+        1319
+      ],
+      "left": 648,
+      "top": 1288,
+      "right": 996,
+      "bottom": 1319,
+      "width": 348,
+      "height": 31,
+      "confidence": 95.252,
+      "text": "SAMSTAG 29. JULI"
+    },
+    {
+      "id": "l139",
+      "blockNumber": 43,
+      "paragraphNumber": 3,
+      "lineNumber": 3,
+      "bbox": [
+        1147,
+        1292,
+        1557,
+        1323
+      ],
+      "left": 1147,
+      "top": 1292,
+      "right": 1557,
+      "bottom": 1323,
+      "width": 410,
+      "height": 31,
+      "confidence": 91.837,
+      "text": "professionelles Lichtdesign"
+    },
+    {
+      "id": "l140",
+      "blockNumber": 117,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        3930,
+        1308,
+        4267,
+        1333
+      ],
+      "left": 3930,
+      "top": 1308,
+      "right": 4267,
+      "bottom": 1333,
+      "width": 337,
+      "height": 25,
+      "confidence": 94.556,
+      "text": "Die Fette Ecke ist eine"
+    },
+    {
+      "id": "l141",
+      "blockNumber": 62,
+      "paragraphNumber": 3,
+      "lineNumber": 3,
+      "bbox": [
+        1650,
+        1314,
+        2079,
+        1345
+      ],
+      "left": 1650,
+      "top": 1314,
+      "right": 2079,
+      "bottom": 1345,
+      "width": 429,
+      "height": 31,
+      "confidence": 93.464,
+      "text": "tigerskin aka dub taylor_live,"
+    },
+    {
+      "id": "l142",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        138,
+        1315,
+        585,
+        1347
+      ],
+      "left": 138,
+      "top": 1315,
+      "right": 585,
+      "bottom": 1347,
+      "width": 447,
+      "height": 32,
+      "confidence": 92.716,
+      "text": "Die Klangsucht verwohnt eure"
+    },
+    {
+      "id": "l143",
+      "blockNumber": 90,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        2889,
+        1329,
+        3178,
+        1354
+      ],
+      "left": 2889,
+      "top": 1329,
+      "right": 3178,
+      "bottom": 1354,
+      "width": 289,
+      "height": 25,
+      "confidence": 94.551,
+      "text": "Minimaler Sound in"
+    },
+    {
+      "id": "l144",
+      "blockNumber": 43,
+      "paragraphNumber": 3,
+      "lineNumber": 4,
+      "bbox": [
+        1147,
+        1332,
+        1553,
+        1363
+      ],
+      "left": 1147,
+      "top": 1332,
+      "right": 1553,
+      "bottom": 1363,
+      "width": 406,
+      "height": 31,
+      "confidence": 94.216,
+      "text": "bringen euch in die richtige"
+    },
+    {
+      "id": "l145",
+      "blockNumber": 27,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        648,
+        1339,
+        832,
+        1378
+      ],
+      "left": 648,
+      "top": 1339,
+      "right": 832,
+      "bottom": 1378,
+      "width": 184,
+      "height": 39,
+      "confidence": 96.622,
+      "text": "Tape Club"
+    },
+    {
+      "id": "l146",
+      "blockNumber": 117,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        3928,
+        1350,
+        4250,
+        1381
+      ],
+      "left": 3928,
+      "top": 1350,
+      "right": 4250,
+      "bottom": 1381,
+      "width": 322,
+      "height": 31,
+      "confidence": 74.16,
+      "text": "gemiutliche Bar direkt"
+    },
+    {
+      "id": "l147",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        136,
+        1356,
+        585,
+        1387
+      ],
+      "left": 136,
+      "top": 1356,
+      "right": 585,
+      "bottom": 1387,
+      "width": 449,
+      "height": 31,
+      "confidence": 93.543,
+      "text": "Ohren auf dem gleichnamigen"
+    },
+    {
+      "id": "l148",
+      "blockNumber": 62,
+      "paragraphNumber": 3,
+      "lineNumber": 4,
+      "bbox": [
+        1652,
+        1356,
+        2072,
+        1387
+      ],
+      "left": 1652,
+      "top": 1356,
+      "right": 2072,
+      "bottom": 1387,
+      "width": 420,
+      "height": 31,
+      "confidence": 92.482,
+      "text": "3 channels aka catz n dogz,"
+    },
+    {
+      "id": "l149",
+      "blockNumber": 90,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        2887,
+        1370,
+        3298,
+        1402
+      ],
+      "left": 2887,
+      "top": 1370,
+      "right": 3298,
+      "bottom": 1402,
+      "width": 411,
+      "height": 32,
+      "confidence": 90.823,
+      "text": "gemiutlichem Ambiente und"
+    },
+    {
+      "id": "l150",
+      "blockNumber": 43,
+      "paragraphNumber": 3,
+      "lineNumber": 5,
+      "bbox": [
+        1147,
+        1374,
+        1600,
+        1405
+      ],
+      "left": 1147,
+      "top": 1374,
+      "right": 1600,
+      "bottom": 1405,
+      "width": 453,
+      "height": 31,
+      "confidence": 94.823,
+      "text": "Partystimmung. Die DJs Adam"
+    },
+    {
+      "id": "l151",
+      "blockNumber": 27,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        648,
+        1388,
+        1069,
+        1418
+      ],
+      "left": 648,
+      "top": 1388,
+      "right": 1069,
+      "bottom": 1418,
+      "width": 421,
+      "height": 30,
+      "confidence": 94.877,
+      "text": "Good Life Partys sind schon"
+    },
+    {
+      "id": "l152",
+      "blockNumber": 117,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        3928,
+        1390,
+        4240,
+        1422
+      ],
+      "left": 3928,
+      "top": 1390,
+      "right": 4240,
+      "bottom": 1422,
+      "width": 312,
+      "height": 32,
+      "confidence": 90.192,
+      "text": "gegeniber vom Lido."
+    },
+    {
+      "id": "l153",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        137,
+        1398,
+        545,
+        1428
+      ],
+      "left": 137,
+      "top": 1398,
+      "right": 545,
+      "bottom": 1428,
+      "width": 408,
+      "height": 30,
+      "confidence": 96.529,
+      "text": "Schiff wie dem von Kapitan"
+    },
+    {
+      "id": "l154",
+      "blockNumber": 62,
+      "paragraphNumber": 3,
+      "lineNumber": 5,
+      "bbox": [
+        1653,
+        1398,
+        2078,
+        1428
+      ],
+      "left": 1653,
+      "top": 1398,
+      "right": 2078,
+      "bottom": 1428,
+      "width": 425,
+      "height": 30,
+      "confidence": 91.746,
+      "text": "p.toile und daniel.fx. Nahere"
+    },
+    {
+      "id": "l155",
+      "blockNumber": 90,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        2888,
+        1412,
+        3341,
+        1436
+      ],
+      "left": 2888,
+      "top": 1412,
+      "right": 3341,
+      "bottom": 1436,
+      "width": 453,
+      "height": 24,
+      "confidence": 93.05,
+      "text": "das ohne Eintritt. Eine lockere"
+    },
+    {
+      "id": "l156",
+      "blockNumber": 43,
+      "paragraphNumber": 3,
+      "lineNumber": 6,
+      "bbox": [
+        1148,
+        1416,
+        1283,
+        1445
+      ],
+      "left": 1148,
+      "top": 1416,
+      "right": 1283,
+      "bottom": 1445,
+      "width": 135,
+      "height": 29,
+      "confidence": 95.692,
+      "text": "Marshall,"
+    },
+    {
+      "id": "l157",
+      "blockNumber": 27,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        650,
+        1428,
+        1024,
+        1459
+      ],
+      "left": 650,
+      "top": 1428,
+      "right": 1024,
+      "bottom": 1459,
+      "width": 374,
+      "height": 31,
+      "confidence": 90.881,
+      "text": "lange fur ihre gute Musik"
+    },
+    {
+      "id": "l158",
+      "blockNumber": 111,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3412,
+        1430,
+        3701,
+        1476
+      ],
+      "left": 3412,
+      "top": 1430,
+      "right": 3701,
+      "bottom": 1476,
+      "width": 289,
+      "height": 46,
+      "confidence": 91.385,
+      "text": "sos u.ground"
+    },
+    {
+      "id": "l159",
+      "blockNumber": 117,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        3930,
+        1432,
+        4296,
+        1457
+      ],
+      "left": 3930,
+      "top": 1432,
+      "right": 4296,
+      "bottom": 1457,
+      "width": 366,
+      "height": 25,
+      "confidence": 89.116,
+      "text": "Bei Kerzenlicht konnt ihr"
+    },
+    {
+      "id": "l160",
+      "blockNumber": 62,
+      "paragraphNumber": 3,
+      "lineNumber": 6,
+      "bbox": [
+        1653,
+        1439,
+        2093,
+        1463
+      ],
+      "left": 1653,
+      "top": 1439,
+      "right": 2093,
+      "bottom": 1463,
+      "width": 440,
+      "height": 24,
+      "confidence": 92.447,
+      "text": "Informationen findet ihr unter"
+    },
+    {
+      "id": "l161",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        138,
+        1440,
+        585,
+        1471
+      ],
+      "left": 138,
+      "top": 1440,
+      "right": 585,
+      "bottom": 1471,
+      "width": 447,
+      "height": 31,
+      "confidence": 92.032,
+      "text": "Efraim Langstrumpf mit feinst"
+    },
+    {
+      "id": "l162",
+      "blockNumber": 90,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        2889,
+        1453,
+        3321,
+        1484
+      ],
+      "left": 2889,
+      "top": 1453,
+      "right": 3321,
+      "bottom": 1484,
+      "width": 432,
+      "height": 31,
+      "confidence": 88.369,
+      "text": "und freundliche Atmosphare,"
+    },
+    {
+      "id": "l163",
+      "blockNumber": 43,
+      "paragraphNumber": 3,
+      "lineNumber": 7,
+      "bbox": [
+        1148,
+        1457,
+        1240,
+        1481
+      ],
+      "left": 1148,
+      "top": 1457,
+      "right": 1240,
+      "bottom": 1481,
+      "width": 92,
+      "height": 24,
+      "confidence": 92.94,
+      "text": "Ruede"
+    },
+    {
+      "id": "l164",
+      "blockNumber": 27,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        649,
+        1470,
+        1054,
+        1501
+      ],
+      "left": 649,
+      "top": 1470,
+      "right": 1054,
+      "bottom": 1501,
+      "width": 405,
+      "height": 31,
+      "confidence": 92.071,
+      "text": "und angenehme Stimmung"
+    },
+    {
+      "id": "l165",
+      "blockNumber": 117,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        3929,
+        1475,
+        4345,
+        1506
+      ],
+      "left": 3929,
+      "top": 1475,
+      "right": 4345,
+      "bottom": 1506,
+      "width": 416,
+      "height": 31,
+      "confidence": 92.535,
+      "text": "stilvoll und bei angenehmer"
+    },
+    {
+      "id": "l166",
+      "blockNumber": 62,
+      "paragraphNumber": 3,
+      "lineNumber": 7,
+      "bbox": [
+        1651,
+        1481,
+        1948,
+        1512
+      ],
+      "left": 1651,
+      "top": 1481,
+      "right": 1948,
+      "bottom": 1512,
+      "width": 297,
+      "height": 31,
+      "confidence": 91.748,
+      "text": "cliquebookings.com"
+    },
+    {
+      "id": "l167",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        136,
+        1482,
+        588,
+        1513
+      ],
+      "left": 136,
+      "top": 1482,
+      "right": 588,
+      "bottom": 1513,
+      "width": 452,
+      "height": 31,
+      "confidence": 93.254,
+      "text": "ausgesuchter BumBum Musik"
+    },
+    {
+      "id": "l168",
+      "blockNumber": 112,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3412,
+        1486,
+        3756,
+        1517
+      ],
+      "left": 3412,
+      "top": 1486,
+      "right": 3756,
+      "bottom": 1517,
+      "width": 344,
+      "height": 31,
+      "confidence": 96.576,
+      "text": "SAMSTAG 17. AUG"
+    },
+    {
+      "id": "l169",
+      "blockNumber": 90,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        2889,
+        1496,
+        3255,
+        1527
+      ],
+      "left": 2889,
+      "top": 1496,
+      "right": 3255,
+      "bottom": 1527,
+      "width": 366,
+      "height": 31,
+      "confidence": 96.64,
+      "text": "humane Preise und gute"
+    },
+    {
+      "id": "l170",
+      "blockNumber": 43,
+      "paragraphNumber": 3,
+      "lineNumber": 8,
+      "bbox": [
+        1148,
+        1499,
+        1313,
+        1530
+      ],
+      "left": 1148,
+      "top": 1499,
+      "right": 1313,
+      "bottom": 1530,
+      "width": 165,
+      "height": 31,
+      "confidence": 90.719,
+      "text": "Hagelstein,"
+    },
+    {
+      "id": "l171",
+      "blockNumber": 27,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        649,
+        1512,
+        1103,
+        1537
+      ],
+      "left": 649,
+      "top": 1512,
+      "right": 1103,
+      "bottom": 1537,
+      "width": 454,
+      "height": 25,
+      "confidence": 95.392,
+      "text": "bekannt. Das wird sich dieses"
+    },
+    {
+      "id": "l172",
+      "blockNumber": 117,
+      "paragraphNumber": 3,
+      "lineNumber": 3,
+      "bbox": [
+        3930,
+        1516,
+        4248,
+        1541
+      ],
+      "left": 3930,
+      "top": 1516,
+      "right": 4248,
+      "bottom": 1541,
+      "width": 318,
+      "height": 25,
+      "confidence": 94.9,
+      "text": "Lautstarke der Musik"
+    },
+    {
+      "id": "l173",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        136,
+        1523,
+        555,
+        1554
+      ],
+      "left": 136,
+      "top": 1523,
+      "right": 555,
+      "bottom": 1554,
+      "width": 419,
+      "height": 31,
+      "confidence": 92.331,
+      "text": "aus Computererzeugnissen."
+    },
+    {
+      "id": "l174",
+      "blockNumber": 90,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        2889,
+        1536,
+        3242,
+        1561
+      ],
+      "left": 2889,
+      "top": 1536,
+      "right": 3242,
+      "bottom": 1561,
+      "width": 353,
+      "height": 25,
+      "confidence": 94.556,
+      "text": "Musik. Das Publikum in"
+    },
+    {
+      "id": "l175",
+      "blockNumber": 113,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3414,
+        1538,
+        3716,
+        1577
+      ],
+      "left": 3414,
+      "top": 1538,
+      "right": 3716,
+      "bottom": 1577,
+      "width": 302,
+      "height": 39,
+      "confidence": 94.944,
+      "text": "Datscha Hangar"
+    },
+    {
+      "id": "l176",
+      "blockNumber": 43,
+      "paragraphNumber": 3,
+      "lineNumber": 9,
+      "bbox": [
+        1148,
+        1541,
+        1320,
+        1565
+      ],
+      "left": 1148,
+      "top": 1541,
+      "right": 1320,
+      "bottom": 1565,
+      "width": 172,
+      "height": 24,
+      "confidence": 96.598,
+      "text": "Brian Cares"
+    },
+    {
+      "id": "l177",
+      "blockNumber": 27,
+      "paragraphNumber": 3,
+      "lineNumber": 3,
+      "bbox": [
+        649,
+        1554,
+        1024,
+        1579
+      ],
+      "left": 649,
+      "top": 1554,
+      "right": 1024,
+      "bottom": 1579,
+      "width": 375,
+      "height": 25,
+      "confidence": 94.49,
+      "text": "Mal sicherlich auch nicht"
+    },
+    {
+      "id": "l178",
+      "blockNumber": 117,
+      "paragraphNumber": 3,
+      "lineNumber": 4,
+      "bbox": [
+        3930,
+        1557,
+        4307,
+        1587
+      ],
+      "left": 3930,
+      "top": 1557,
+      "right": 4307,
+      "bottom": 1587,
+      "width": 377,
+      "height": 30,
+      "confidence": 92.019,
+      "text": "lauschen und quatschen."
+    },
+    {
+      "id": "l179",
+      "blockNumber": 64,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1652,
+        1563,
+        1836,
+        1588
+      ],
+      "left": 1652,
+      "top": 1563,
+      "right": 1836,
+      "bottom": 1588,
+      "width": 184,
+      "height": 25,
+      "confidence": 94.529,
+      "text": "Eichenstr. 4"
+    },
+    {
+      "id": "l180",
+      "blockNumber": 90,
+      "paragraphNumber": 2,
+      "lineNumber": 7,
+      "bbox": [
+        2888,
+        1578,
+        3314,
+        1603
+      ],
+      "left": 2888,
+      "top": 1578,
+      "right": 3314,
+      "bottom": 1603,
+      "width": 426,
+      "height": 25,
+      "confidence": 96.508,
+      "text": "diesem Cafe ist auch immer"
+    },
+    {
+      "id": "l181",
+      "blockNumber": 43,
+      "paragraphNumber": 3,
+      "lineNumber": 10,
+      "bbox": [
+        1147,
+        1583,
+        1263,
+        1607
+      ],
+      "left": 1147,
+      "top": 1583,
+      "right": 1263,
+      "bottom": 1607,
+      "width": 116,
+      "height": 24,
+      "confidence": 96.652,
+      "text": "sind die"
+    },
+    {
+      "id": "l182",
+      "blockNumber": 113,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        3411,
+        1584,
+        3809,
+        1609
+      ],
+      "left": 3411,
+      "top": 1584,
+      "right": 3809,
+      "bottom": 1609,
+      "width": 398,
+      "height": 25,
+      "confidence": 91.618,
+      "text": "Ab 22 Uhr stehen fir euch"
+    },
+    {
+      "id": "l183",
+      "blockNumber": 27,
+      "paragraphNumber": 3,
+      "lineNumber": 4,
+      "bbox": [
+        648,
+        1594,
+        760,
+        1619
+      ],
+      "left": 648,
+      "top": 1594,
+      "right": 760,
+      "bottom": 1619,
+      "width": 112,
+      "height": 25,
+      "confidence": 90.461,
+      "text": "andern."
+    },
+    {
+      "id": "l184",
+      "blockNumber": 90,
+      "paragraphNumber": 2,
+      "lineNumber": 8,
+      "bbox": [
+        2888,
+        1616,
+        3297,
+        1655
+      ],
+      "left": 2888,
+      "top": 1616,
+      "right": 3297,
+      "bottom": 1655,
+      "width": 409,
+      "height": 39,
+      "confidence": 95.464,
+      "text": "angenehm und fur jeden zu"
+    },
+    {
+      "id": "l185",
+      "blockNumber": 43,
+      "paragraphNumber": 3,
+      "lineNumber": 11,
+      "bbox": [
+        1147,
+        1623,
+        1243,
+        1648
+      ],
+      "left": 1147,
+      "top": 1623,
+      "right": 1243,
+      "bottom": 1648,
+      "width": 96,
+      "height": 25,
+      "confidence": 91.601,
+      "text": "Musik-"
+    },
+    {
+      "id": "l186",
+      "blockNumber": 113,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        3412,
+        1626,
+        3844,
+        1657
+      ],
+      "left": 3412,
+      "top": 1626,
+      "right": 3844,
+      "bottom": 1657,
+      "width": 432,
+      "height": 31,
+      "confidence": 94.775,
+      "text": "an den Turntables Wighnomy"
+    },
+    {
+      "id": "l187",
+      "blockNumber": 78,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2378,
+        1634,
+        2575,
+        1671
+      ],
+      "left": 2378,
+      "top": 1634,
+      "right": 2575,
+      "bottom": 1671,
+      "width": 197,
+      "height": 37,
+      "confidence": 96.488,
+      "text": "warm up"
+    },
+    {
+      "id": "l188",
+      "blockNumber": 27,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        650,
+        1637,
+        1025,
+        1661
+      ],
+      "left": 650,
+      "top": 1637,
+      "right": 1025,
+      "bottom": 1661,
+      "width": 375,
+      "height": 24,
+      "confidence": 95.584,
+      "text": "Einer der besten Berliner"
+    },
+    {
+      "id": "l189",
+      "blockNumber": 118,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3928,
+        1641,
+        4281,
+        1668
+      ],
+      "left": 3928,
+      "top": 1641,
+      "right": 4281,
+      "bottom": 1668,
+      "width": 353,
+      "height": 27,
+      "confidence": 81.551,
+      "text": "Schlesische Strafe 16"
+    },
+    {
+      "id": "l190",
+      "blockNumber": 90,
+      "paragraphNumber": 2,
+      "lineNumber": 9,
+      "bbox": [
+        2888,
+        1664,
+        3022,
+        1693
+      ],
+      "left": 2888,
+      "top": 1664,
+      "right": 3022,
+      "bottom": 1693,
+      "width": 134,
+      "height": 29,
+      "confidence": 92.869,
+      "text": "ertragen."
+    },
+    {
+      "id": "l191",
+      "blockNumber": 43,
+      "paragraphNumber": 3,
+      "lineNumber": 12,
+      "bbox": [
+        1148,
+        1665,
+        1324,
+        1694
+      ],
+      "left": 1148,
+      "top": 1665,
+      "right": 1324,
+      "bottom": 1694,
+      "width": 176,
+      "height": 29,
+      "confidence": 91.601,
+      "text": "Botschafter,"
+    },
+    {
+      "id": "l192",
+      "blockNumber": 113,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        3413,
+        1668,
+        3845,
+        1697
+      ],
+      "left": 3413,
+      "top": 1668,
+      "right": 3845,
+      "bottom": 1697,
+      "width": 432,
+      "height": 29,
+      "confidence": 94.299,
+      "text": "Brothers, Molle aka Mollono."
+    },
+    {
+      "id": "l193",
+      "blockNumber": 27,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        650,
+        1679,
+        1033,
+        1710
+      ],
+      "left": 650,
+      "top": 1679,
+      "right": 1033,
+      "bottom": 1710,
+      "width": 383,
+      "height": 31,
+      "confidence": 95.031,
+      "text": "House DJs ist ohne Frage"
+    },
+    {
+      "id": "l194",
+      "blockNumber": 78,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2379,
+        1681,
+        2699,
+        1712
+      ],
+      "left": 2379,
+      "top": 1681,
+      "right": 2699,
+      "bottom": 1712,
+      "width": 320,
+      "height": 31,
+      "confidence": 96.551,
+      "text": "SAMSTAG 6. AUG"
+    },
+    {
+      "id": "l195",
+      "blockNumber": 43,
+      "paragraphNumber": 3,
+      "lineNumber": 13,
+      "bbox": [
+        1146,
+        1707,
+        1332,
+        1732
+      ],
+      "left": 1146,
+      "top": 1707,
+      "right": 1332,
+      "bottom": 1732,
+      "width": 186,
+      "height": 25,
+      "confidence": 96.204,
+      "text": "die euch mit"
+    },
+    {
+      "id": "l196",
+      "blockNumber": 113,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        3413,
+        1709,
+        3637,
+        1733
+      ],
+      "left": 3413,
+      "top": 1709,
+      "right": 3637,
+      "bottom": 1733,
+      "width": 224,
+      "height": 24,
+      "confidence": 94.176,
+      "text": "Bass und Eule."
+    },
+    {
+      "id": "l197",
+      "blockNumber": 122,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3931,
+        1719,
+        4343,
+        1756
+      ],
+      "left": 3931,
+      "top": 1719,
+      "right": 4343,
+      "bottom": 1756,
+      "width": 412,
+      "height": 37,
+      "confidence": 93.206,
+      "text": "kassette & friends"
+    },
+    {
+      "id": "l198",
+      "blockNumber": 27,
+      "paragraphNumber": 4,
+      "lineNumber": 3,
+      "bbox": [
+        650,
+        1721,
+        1053,
+        1752
+      ],
+      "left": 650,
+      "top": 1721,
+      "right": 1053,
+      "bottom": 1752,
+      "width": 403,
+      "height": 31,
+      "confidence": 93.764,
+      "text": "Highfish. Angefangen hatte"
+    },
+    {
+      "id": "l199",
+      "blockNumber": 65,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1681,
+        1721,
+        1807,
+        1752
+      ],
+      "left": 1681,
+      "top": 1721,
+      "right": 1807,
+      "bottom": 1752,
+      "width": 126,
+      "height": 31,
+      "confidence": 91.212,
+      "text": "ARENACLUB"
+    },
+    {
+      "id": "l200",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        137,
+        1731,
+        590,
+        1758
+      ],
+      "left": 137,
+      "top": 1731,
+      "right": 590,
+      "bottom": 1758,
+      "width": 453,
+      "height": 27,
+      "confidence": 78.615,
+      "text": "EichenstrafSe am Wendekreis"
+    },
+    {
+      "id": "l201",
+      "blockNumber": 79,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2381,
+        1732,
+        2478,
+        1763
+      ],
+      "left": 2381,
+      "top": 1732,
+      "right": 2478,
+      "bottom": 1763,
+      "width": 97,
+      "height": 31,
+      "confidence": 92.204,
+      "text": "Luzia"
+    },
+    {
+      "id": "l202",
+      "blockNumber": 65,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1677,
+        1739,
+        1848,
+        1765
+      ],
+      "left": 1677,
+      "top": 1739,
+      "right": 1848,
+      "bottom": 1765,
+      "width": 171,
+      "height": 26,
+      "confidence": 49.586,
+      "text": "MART s"
+    },
+    {
+      "id": "l203",
+      "blockNumber": 91,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2889,
+        1745,
+        3282,
+        1769
+      ],
+      "left": 2889,
+      "top": 1745,
+      "right": 3282,
+      "bottom": 1769,
+      "width": 393,
+      "height": 24,
+      "confidence": 93.695,
+      "text": "Mehr Infos findet ihr unter"
+    },
+    {
+      "id": "l204",
+      "blockNumber": 44,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1146,
+        1749,
+        1350,
+        1781
+      ],
+      "left": 1146,
+      "top": 1749,
+      "right": 1350,
+      "bottom": 1781,
+      "width": 204,
+      "height": 32,
+      "confidence": 92.786,
+      "text": "ausgefallener"
+    },
+    {
+      "id": "l205",
+      "blockNumber": 113,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        3413,
+        1750,
+        3834,
+        1775
+      ],
+      "left": 3413,
+      "top": 1750,
+      "right": 3834,
+      "bottom": 1775,
+      "width": 421,
+      "height": 25,
+      "confidence": 92.541,
+      "text": "Nahere Informationen findet"
+    },
+    {
+      "id": "l206",
+      "blockNumber": 27,
+      "paragraphNumber": 5,
+      "lineNumber": 1,
+      "bbox": [
+        648,
+        1760,
+        1064,
+        1793
+      ],
+      "left": 648,
+      "top": 1760,
+      "right": 1064,
+      "bottom": 1793,
+      "width": 416,
+      "height": 33,
+      "confidence": 79.985,
+      "text": "es fur den gebirtigen Polen"
+    },
+    {
+      "id": "l207",
+      "blockNumber": 122,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3929,
+        1776,
+        4274,
+        1807
+      ],
+      "left": 3929,
+      "top": 1776,
+      "right": 4274,
+      "bottom": 1807,
+      "width": 345,
+      "height": 31,
+      "confidence": 96.351,
+      "text": "SONNTAG 19. AUG"
+    },
+    {
+      "id": "l208",
+      "blockNumber": 79,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        2380,
+        1780,
+        2738,
+        1805
+      ],
+      "left": 2380,
+      "top": 1780,
+      "right": 2738,
+      "bottom": 1805,
+      "width": 358,
+      "height": 25,
+      "confidence": 82.387,
+      "text": "Daniel Dreier dirfte uns"
+    },
+    {
+      "id": "l209",
+      "blockNumber": 91,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2888,
+        1787,
+        3203,
+        1811
+      ],
+      "left": 2888,
+      "top": 1787,
+      "right": 3203,
+      "bottom": 1811,
+      "width": 315,
+      "height": 24,
+      "confidence": 90.876,
+      "text": "www.careca-berlin.de"
+    },
+    {
+      "id": "l210",
+      "blockNumber": 44,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1146,
+        1790,
+        1358,
+        1814
+      ],
+      "left": 1146,
+      "top": 1790,
+      "right": 1358,
+      "bottom": 1814,
+      "width": 212,
+      "height": 24,
+      "confidence": 92.711,
+      "text": "elektro Mukke"
+    },
+    {
+      "id": "l211",
+      "blockNumber": 113,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        3413,
+        1793,
+        3713,
+        1817
+      ],
+      "left": 3413,
+      "top": 1793,
+      "right": 3713,
+      "bottom": 1817,
+      "width": 300,
+      "height": 24,
+      "confidence": 96.379,
+      "text": "ihr im Internet unter"
+    },
+    {
+      "id": "l212",
+      "blockNumber": 27,
+      "paragraphNumber": 5,
+      "lineNumber": 2,
+      "bbox": [
+        648,
+        1803,
+        804,
+        1828
+      ],
+      "left": 648,
+      "top": 1803,
+      "right": 804,
+      "bottom": 1828,
+      "width": 156,
+      "height": 25,
+      "confidence": 93.301,
+      "text": "damals im"
+    },
+    {
+      "id": "l213",
+      "blockNumber": 79,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        2380,
+        1821,
+        2803,
+        1846
+      ],
+      "left": 2380,
+      "top": 1821,
+      "right": 2803,
+      "bottom": 1846,
+      "width": 423,
+      "height": 25,
+      "confidence": 87.477,
+      "text": "Berlinern und naturlich auch"
+    },
+    {
+      "id": "l214",
+      "blockNumber": 123,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3930,
+        1827,
+        4158,
+        1858
+      ],
+      "left": 3930,
+      "top": 1827,
+      "right": 4158,
+      "bottom": 1858,
+      "width": 228,
+      "height": 31,
+      "confidence": 96.541,
+      "text": "Golden Gate"
+    },
+    {
+      "id": "l215",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        138,
+        1832,
+        320,
+        1868
+      ],
+      "left": 138,
+      "top": 1832,
+      "right": 320,
+      "bottom": 1868,
+      "width": 182,
+      "height": 36,
+      "confidence": 93.932,
+      "text": "milch vs"
+    },
+    {
+      "id": "l216",
+      "blockNumber": 45,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1145,
+        1835,
+        1301,
+        1863
+      ],
+      "left": 1145,
+      "top": 1835,
+      "right": 1301,
+      "bottom": 1863,
+      "width": 156,
+      "height": 28,
+      "confidence": 91.056,
+      "text": "versorgen."
+    },
+    {
+      "id": "l217",
+      "blockNumber": 113,
+      "paragraphNumber": 3,
+      "lineNumber": 3,
+      "bbox": [
+        3411,
+        1835,
+        3688,
+        1859
+      ],
+      "left": 3411,
+      "top": 1835,
+      "right": 3688,
+      "bottom": 1859,
+      "width": 277,
+      "height": 24,
+      "confidence": 91.65,
+      "text": "fortschritt3000.de"
+    },
+    {
+      "id": "l218",
+      "blockNumber": 27,
+      "paragraphNumber": 5,
+      "lineNumber": 3,
+      "bbox": [
+        650,
+        1845,
+        785,
+        1870
+      ],
+      "left": 650,
+      "top": 1845,
+      "right": 785,
+      "bottom": 1870,
+      "width": 135,
+      "height": 25,
+      "confidence": 95.704,
+      "text": "Delicious"
+    },
+    {
+      "id": "l219",
+      "blockNumber": 79,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        2379,
+        1863,
+        2747,
+        1888
+      ],
+      "left": 2379,
+      "top": 1863,
+      "right": 2747,
+      "bottom": 1888,
+      "width": 368,
+      "height": 25,
+      "confidence": 93.803,
+      "text": "schon bundesweit vielen"
+    },
+    {
+      "id": "l220",
+      "blockNumber": 92,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2889,
+        1869,
+        3186,
+        1894
+      ],
+      "left": 2889,
+      "top": 1869,
+      "right": 3186,
+      "bottom": 1894,
+      "width": 297,
+      "height": 25,
+      "confidence": 94.241,
+      "text": "Falckensteinstr. 42"
+    },
+    {
+      "id": "l221",
+      "blockNumber": 124,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3930,
+        1875,
+        4363,
+        1900
+      ],
+      "left": 3930,
+      "top": 1875,
+      "right": 4363,
+      "bottom": 1900,
+      "width": 433,
+      "height": 25,
+      "confidence": 94.857,
+      "text": "Es steht euch ein Liveauftritt"
+    },
+    {
+      "id": "l222",
+      "blockNumber": 27,
+      "paragraphNumber": 5,
+      "lineNumber": 4,
+      "bbox": [
+        650,
+        1886,
+        870,
+        1917
+      ],
+      "left": 650,
+      "top": 1886,
+      "right": 870,
+      "bottom": 1917,
+      "width": 220,
+      "height": 31,
+      "confidence": 96.605,
+      "text": "Doughnuts, wo"
+    },
+    {
+      "id": "l223",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        136,
+        1892,
+        411,
+        1928
+      ],
+      "left": 136,
+      "top": 1892,
+      "right": 411,
+      "bottom": 1928,
+      "width": 275,
+      "height": 36,
+      "confidence": 92.015,
+      "text": "stilvortalent"
+    },
+    {
+      "id": "l224",
+      "blockNumber": 79,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        2379,
+        1905,
+        2582,
+        1930
+      ],
+      "left": 2379,
+      "top": 1905,
+      "right": 2582,
+      "bottom": 1930,
+      "width": 203,
+      "height": 25,
+      "confidence": 94.397,
+      "text": "bekannt sein."
+    },
+    {
+      "id": "l225",
+      "blockNumber": 46,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1146,
+        1914,
+        1455,
+        1941
+      ],
+      "left": 1146,
+      "top": 1914,
+      "right": 1455,
+      "bottom": 1941,
+      "width": 309,
+      "height": 27,
+      "confidence": 93.648,
+      "text": "SkalitzerstraBe 130"
+    },
+    {
+      "id": "l226",
+      "blockNumber": 124,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3928,
+        1916,
+        4305,
+        1946
+      ],
+      "left": 3928,
+      "top": 1916,
+      "right": 4305,
+      "bottom": 1946,
+      "width": 377,
+      "height": 30,
+      "confidence": 92.214,
+      "text": "von Lunatik [KASSETTE /"
+    },
+    {
+      "id": "l227",
+      "blockNumber": 114,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3412,
+        1917,
+        3647,
+        1942
+      ],
+      "left": 3412,
+      "top": 1917,
+      "right": 3647,
+      "bottom": 1942,
+      "width": 235,
+      "height": 25,
+      "confidence": 92.622,
+      "text": "Fusion Gelande"
+    },
+    {
+      "id": "l228",
+      "blockNumber": 27,
+      "paragraphNumber": 5,
+      "lineNumber": 5,
+      "bbox": [
+        648,
+        1928,
+        857,
+        1952
+      ],
+      "left": 648,
+      "top": 1928,
+      "right": 857,
+      "bottom": 1952,
+      "width": 209,
+      "height": 24,
+      "confidence": 96.636,
+      "text": "er seine erste"
+    },
+    {
+      "id": "l229",
+      "blockNumber": 79,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        2380,
+        1946,
+        2711,
+        1970
+      ],
+      "left": 2380,
+      "top": 1946,
+      "right": 2711,
+      "bottom": 1970,
+      "width": 331,
+      "height": 24,
+      "confidence": 93.523,
+      "text": "Heute zum dritten Mal"
+    },
+    {
+      "id": "l230",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        138,
+        1948,
+        510,
+        1979
+      ],
+      "left": 138,
+      "top": 1948,
+      "right": 510,
+      "bottom": 1979,
+      "width": 372,
+      "height": 31,
+      "confidence": 93.958,
+      "text": "MITTWOCH 26. JULI"
+    },
+    {
+      "id": "l231",
+      "blockNumber": 124,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        3930,
+        1958,
+        4302,
+        1988
+      ],
+      "left": 3930,
+      "top": 1958,
+      "right": 4302,
+      "bottom": 1988,
+      "width": 372,
+      "height": 30,
+      "confidence": 92.18,
+      "text": "leftroom / omaha] bevor."
+    },
+    {
+      "id": "l232",
+      "blockNumber": 27,
+      "paragraphNumber": 5,
+      "lineNumber": 6,
+      "bbox": [
+        649,
+        1969,
+        831,
+        2001
+      ],
+      "left": 649,
+      "top": 1969,
+      "right": 831,
+      "bottom": 2001,
+      "width": 182,
+      "height": 32,
+      "confidence": 55.391,
+      "text": "regelmaBige"
+    },
+    {
+      "id": "l233",
+      "blockNumber": 47,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1149,
+        1978,
+        1479,
+        2016
+      ],
+      "left": 1149,
+      "top": 1978,
+      "right": 1479,
+      "bottom": 2016,
+      "width": 330,
+      "height": 38,
+      "confidence": 90.633,
+      "text": "im friihtau - so"
+    },
+    {
+      "id": "l234",
+      "blockNumber": 79,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        2379,
+        1988,
+        2751,
+        2018
+      ],
+      "left": 2379,
+      "top": 1988,
+      "right": 2751,
+      "bottom": 2018,
+      "width": 372,
+      "height": 30,
+      "confidence": 95.083,
+      "text": "(D.Dreier hahahaha) wird"
+    },
+    {
+      "id": "l235",
+      "blockNumber": 28,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        925,
+        1997,
+        1098,
+        2047
+      ],
+      "left": 925,
+      "top": 1997,
+      "right": 1098,
+      "bottom": 2047,
+      "width": 173,
+      "height": 50,
+      "confidence": 96.159,
+      "text": "good life"
+    },
+    {
+      "id": "l236",
+      "blockNumber": 124,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        3930,
+        1998,
+        4362,
+        2033
+      ],
+      "left": 3930,
+      "top": 1998,
+      "right": 4362,
+      "bottom": 2033,
+      "width": 432,
+      "height": 35,
+      "confidence": 93.857,
+      "text": "Dazu sind die DJs:.click|click"
+    },
+    {
+      "id": "l237",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        138,
+        1999,
+        239,
+        2030
+      ],
+      "left": 138,
+      "top": 1999,
+      "right": 239,
+      "bottom": 2030,
+      "width": 101,
+      "height": 31,
+      "confidence": 92.037,
+      "text": "Rosis"
+    },
+    {
+      "id": "l238",
+      "blockNumber": 27,
+      "paragraphNumber": 5,
+      "lineNumber": 7,
+      "bbox": [
+        648,
+        2012,
+        813,
+        2037
+      ],
+      "left": 648,
+      "top": 2012,
+      "right": 813,
+      "bottom": 2037,
+      "width": 165,
+      "height": 25,
+      "confidence": 96.111,
+      "text": "Club Nacht"
+    },
+    {
+      "id": "l239",
+      "blockNumber": 79,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        2378,
+        2030,
+        2767,
+        2054
+      ],
+      "left": 2378,
+      "top": 2030,
+      "right": 2767,
+      "bottom": 2054,
+      "width": 389,
+      "height": 24,
+      "confidence": 95.61,
+      "text": "er uns mit seinen Sounds"
+    },
+    {
+      "id": "l240",
+      "blockNumber": 48,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1148,
+        2040,
+        1597,
+        2087
+      ],
+      "left": 1148,
+      "top": 2040,
+      "right": 1597,
+      "bottom": 2087,
+      "width": 449,
+      "height": 47,
+      "confidence": 96.48,
+      "text": "long, and thanks for"
+    },
+    {
+      "id": "l241",
+      "blockNumber": 124,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        3928,
+        2042,
+        4292,
+        2072
+      ],
+      "left": 3928,
+      "top": 2042,
+      "right": 4292,
+      "bottom": 2072,
+      "width": 364,
+      "height": 30,
+      "confidence": 91.686,
+      "text": "vs. m_ferri [KASSETTE /"
+    },
+    {
+      "id": "l242",
+      "blockNumber": 14,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        135,
+        2048,
+        546,
+        2072
+      ],
+      "left": 135,
+      "top": 2048,
+      "right": 546,
+      "bottom": 2072,
+      "width": 411,
+      "height": 24,
+      "confidence": 95.045,
+      "text": "Wer hat uns um den Schlaf"
+    },
+    {
+      "id": "l243",
+      "blockNumber": 27,
+      "paragraphNumber": 5,
+      "lineNumber": 8,
+      "bbox": [
+        649,
+        2052,
+        794,
+        2082
+      ],
+      "left": 649,
+      "top": 2052,
+      "right": 794,
+      "bottom": 2082,
+      "width": 145,
+      "height": 30,
+      "confidence": 92.143,
+      "text": "bespielte."
+    },
+    {
+      "id": "l244",
+      "blockNumber": 79,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        2551,
+        2072,
+        2723,
+        2096
+      ],
+      "left": 2551,
+      "top": 2072,
+      "right": 2723,
+      "bottom": 2096,
+      "width": 172,
+      "height": 24,
+      "confidence": 92.977,
+      "text": "Viele Worte"
+    },
+    {
+      "id": "l245",
+      "blockNumber": 124,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        3929,
+        2082,
+        4320,
+        2113
+      ],
+      "left": 3929,
+      "top": 2082,
+      "right": 4320,
+      "bottom": 2113,
+      "width": 391,
+      "height": 31,
+      "confidence": 95.001,
+      "text": "autist / berlin], Karol Kasi"
+    },
+    {
+      "id": "l246",
+      "blockNumber": 14,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        135,
+        2090,
+        534,
+        2121
+      ],
+      "left": 135,
+      "top": 2090,
+      "right": 534,
+      "bottom": 2121,
+      "width": 399,
+      "height": 31,
+      "confidence": 93.847,
+      "text": "gebracht? Drei Tage Wach!"
+    },
+    {
+      "id": "l247",
+      "blockNumber": 27,
+      "paragraphNumber": 6,
+      "lineNumber": 1,
+      "bbox": [
+        649,
+        2094,
+        802,
+        2119
+      ],
+      "left": 649,
+      "top": 2094,
+      "right": 802,
+      "bottom": 2119,
+      "width": 153,
+      "height": 25,
+      "confidence": 68.881,
+      "text": "Nun konnt"
+    },
+    {
+      "id": "l248",
+      "blockNumber": 49,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1147,
+        2100,
+        1398,
+        2137
+      ],
+      "left": 1147,
+      "top": 2100,
+      "right": 1398,
+      "bottom": 2137,
+      "width": 251,
+      "height": 37,
+      "confidence": 96.371,
+      "text": "all the fish!"
+    },
+    {
+      "id": "l249",
+      "blockNumber": 79,
+      "paragraphNumber": 4,
+      "lineNumber": 3,
+      "bbox": [
+        2379,
+        2112,
+        2779,
+        2137
+      ],
+      "left": 2379,
+      "top": 2112,
+      "right": 2779,
+      "bottom": 2137,
+      "width": 400,
+      "height": 25,
+      "confidence": 93.371,
+      "text": "brauchen wir Uber unseren"
+    },
+    {
+      "id": "l250",
+      "blockNumber": 124,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        3929,
+        2124,
+        4384,
+        2155
+      ],
+      "left": 3929,
+      "top": 2124,
+      "right": 4384,
+      "bottom": 2155,
+      "width": 455,
+      "height": 31,
+      "confidence": 93.009,
+      "text": "{hertz music/ berlin], Lars von"
+    },
+    {
+      "id": "l251",
+      "blockNumber": 14,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        136,
+        2130,
+        501,
+        2155
+      ],
+      "left": 136,
+      "top": 2130,
+      "right": 501,
+      "bottom": 2155,
+      "width": 365,
+      "height": 25,
+      "confidence": 95.157,
+      "text": "Zur des"
+    },
+    {
+      "id": "l252",
+      "blockNumber": 27,
+      "paragraphNumber": 7,
+      "lineNumber": 1,
+      "bbox": [
+        649,
+        2136,
+        1029,
+        2161
+      ],
+      "left": 649,
+      "top": 2136,
+      "right": 1029,
+      "bottom": 2161,
+      "width": 380,
+      "height": 25,
+      "confidence": 92.117,
+      "text": "ihr zusammen mit ihm im"
+    },
+    {
+      "id": "l253",
+      "blockNumber": 79,
+      "paragraphNumber": 4,
+      "lineNumber": 4,
+      "bbox": [
+        2380,
+        2154,
+        2749,
+        2183
+      ],
+      "left": 2380,
+      "top": 2154,
+      "right": 2749,
+      "bottom": 2183,
+      "width": 369,
+      "height": 29,
+      "confidence": 94.453,
+      "text": "Daniel nicht zu verlieren,"
+    },
+    {
+      "id": "l254",
+      "blockNumber": 49,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1148,
+        2155,
+        1493,
+        2186
+      ],
+      "left": 1148,
+      "top": 2155,
+      "right": 1493,
+      "bottom": 2186,
+      "width": 345,
+      "height": 31,
+      "confidence": 95.013,
+      "text": "MITTWOCH 3. AUG"
+    },
+    {
+      "id": "l255",
+      "blockNumber": 124,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        3930,
+        2166,
+        4339,
+        2197
+      ],
+      "left": 3930,
+      "top": 2166,
+      "right": 4339,
+      "bottom": 2197,
+      "width": 409,
+      "height": 31,
+      "confidence": 93.763,
+      "text": "Licht [opsmini / berlin] und"
+    },
+    {
+      "id": "l256",
+      "blockNumber": 14,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        137,
+        2173,
+        554,
+        2197
+      ],
+      "left": 137,
+      "top": 2173,
+      "right": 554,
+      "bottom": 2197,
+      "width": 417,
+      "height": 24,
+      "confidence": 93.459,
+      "text": "kontrovers diskutierten Hits"
+    },
+    {
+      "id": "l257",
+      "blockNumber": 27,
+      "paragraphNumber": 7,
+      "lineNumber": 2,
+      "bbox": [
+        647,
+        2176,
+        1018,
+        2207
+      ],
+      "left": 647,
+      "top": 2176,
+      "right": 1018,
+      "bottom": 2207,
+      "width": 371,
+      "height": 31,
+      "confidence": 91.872,
+      "text": "Tapeclub die nachtlichen"
+    },
+    {
+      "id": "l258",
+      "blockNumber": 79,
+      "paragraphNumber": 4,
+      "lineNumber": 5,
+      "bbox": [
+        2378,
+        2197,
+        2801,
+        2221
+      ],
+      "left": 2378,
+      "top": 2197,
+      "right": 2801,
+      "bottom": 2221,
+      "width": 423,
+      "height": 24,
+      "confidence": 94.21,
+      "text": "denn musikalisch kann man"
+    },
+    {
+      "id": "l259",
+      "blockNumber": 50,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1148,
+        2207,
+        1282,
+        2237
+      ],
+      "left": 1148,
+      "top": 2207,
+      "right": 1282,
+      "bottom": 2237,
+      "width": 134,
+      "height": 30,
+      "confidence": 96.206,
+      "text": "Hmm..."
+    },
+    {
+      "id": "l260",
+      "blockNumber": 124,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        3930,
+        2208,
+        4383,
+        2239
+      ],
+      "left": 3930,
+      "top": 2208,
+      "right": 4383,
+      "bottom": 2239,
+      "width": 453,
+      "height": 31,
+      "confidence": 92.181,
+      "text": "Niko Schwind [autist / eisfach"
+    },
+    {
+      "id": "l261",
+      "blockNumber": 14,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        136,
+        2214,
+        497,
+        2244
+      ],
+      "left": 136,
+      "top": 2214,
+      "right": 497,
+      "bottom": 2244,
+      "width": 361,
+      "height": 30,
+      "confidence": 95.915,
+      "text": "spielt das Label Stil vor"
+    },
+    {
+      "id": "l262",
+      "blockNumber": 27,
+      "paragraphNumber": 7,
+      "lineNumber": 3,
+      "bbox": [
+        648,
+        2219,
+        1011,
+        2250
+      ],
+      "left": 648,
+      "top": 2219,
+      "right": 1011,
+      "bottom": 2250,
+      "width": 363,
+      "height": 31,
+      "confidence": 92.18,
+      "text": "Tanzstunden verbringen."
+    },
+    {
+      "id": "l263",
+      "blockNumber": 79,
+      "paragraphNumber": 4,
+      "lineNumber": 6,
+      "bbox": [
+        2380,
+        2238,
+        2735,
+        2263
+      ],
+      "left": 2380,
+      "top": 2238,
+      "right": 2735,
+      "bottom": 2263,
+      "width": 355,
+      "height": 25,
+      "confidence": 94.841,
+      "text": "ihn nur lieben. Damit er"
+    },
+    {
+      "id": "l264",
+      "blockNumber": 124,
+      "paragraphNumber": 1,
+      "lineNumber": 10,
+      "bbox": [
+        3927,
+        2249,
+        4202,
+        2279
+      ],
+      "left": 3927,
+      "top": 2249,
+      "right": 4202,
+      "bottom": 2279,
+      "width": 275,
+      "height": 30,
+      "confidence": 94.431,
+      "text": "/ berlin] am Start."
+    },
+    {
+      "id": "l265",
+      "blockNumber": 50,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1148,
+        2254,
+        1490,
+        2283
+      ],
+      "left": 1148,
+      "top": 2254,
+      "right": 1490,
+      "bottom": 2283,
+      "width": 342,
+      "height": 29,
+      "confidence": 90.112,
+      "text": "Fur alle Fischliebhaber,"
+    },
+    {
+      "id": "l266",
+      "blockNumber": 14,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        135,
+        2256,
+        552,
+        2281
+      ],
+      "left": 135,
+      "top": 2256,
+      "right": 552,
+      "bottom": 2281,
+      "width": 417,
+      "height": 25,
+      "confidence": 95.006,
+      "text": "Talent von Oliver Koletzki in"
+    },
+    {
+      "id": "l267",
+      "blockNumber": 79,
+      "paragraphNumber": 4,
+      "lineNumber": 7,
+      "bbox": [
+        2379,
+        2279,
+        2783,
+        2304
+      ],
+      "left": 2379,
+      "top": 2279,
+      "right": 2783,
+      "bottom": 2304,
+      "width": 404,
+      "height": 25,
+      "confidence": 94.324,
+      "text": "nicht alleine die Leute zum"
+    },
+    {
+      "id": "l268",
+      "blockNumber": 14,
+      "paragraphNumber": 2,
+      "lineNumber": 7,
+      "bbox": [
+        137,
+        2296,
+        557,
+        2321
+      ],
+      "left": 137,
+      "top": 2296,
+      "right": 557,
+      "bottom": 2321,
+      "width": 420,
+      "height": 25,
+      "confidence": 82.249,
+      "text": "Form von Litzenkirchen und"
+    },
+    {
+      "id": "l269",
+      "blockNumber": 50,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        1147,
+        2296,
+        1585,
+        2322
+      ],
+      "left": 1147,
+      "top": 2296,
+      "right": 1585,
+      "bottom": 2322,
+      "width": 438,
+      "height": 26,
+      "confidence": 79.077,
+      "text": "Sushiverrtckten und Freunde"
+    },
+    {
+      "id": "l270",
+      "blockNumber": 95,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2890,
+        2301,
+        3214,
+        2338
+      ],
+      "left": 2890,
+      "top": 2301,
+      "right": 3214,
+      "bottom": 2338,
+      "width": 324,
+      "height": 37,
+      "confidence": 92.151,
+      "text": "meet: efdemin"
+    },
+    {
+      "id": "l271",
+      "blockNumber": 29,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        649,
+        2303,
+        878,
+        2329
+      ],
+      "left": 649,
+      "top": 2303,
+      "right": 878,
+      "bottom": 2329,
+      "width": 229,
+      "height": 26,
+      "confidence": 65.212,
+      "text": "Heidestaffe 14"
+    },
+    {
+      "id": "l272",
+      "blockNumber": 79,
+      "paragraphNumber": 4,
+      "lineNumber": 8,
+      "bbox": [
+        2378,
+        2321,
+        2813,
+        2349
+      ],
+      "left": 2378,
+      "top": 2321,
+      "right": 2813,
+      "bottom": 2349,
+      "width": 435,
+      "height": 28,
+      "confidence": 93.51,
+      "text": "Tanzen animieren muss, wird"
+    },
+    {
+      "id": "l273",
+      "blockNumber": 125,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3929,
+        2333,
+        4180,
+        2359
+      ],
+      "left": 3929,
+      "top": 2333,
+      "right": 4180,
+      "bottom": 2359,
+      "width": 251,
+      "height": 26,
+      "confidence": 69.834,
+      "text": "Lauterstraffe 16"
+    },
+    {
+      "id": "l274",
+      "blockNumber": 14,
+      "paragraphNumber": 2,
+      "lineNumber": 8,
+      "bbox": [
+        136,
+        2339,
+        354,
+        2363
+      ],
+      "left": 136,
+      "top": 2339,
+      "right": 354,
+      "bottom": 2363,
+      "width": 218,
+      "height": 24,
+      "confidence": 94.267,
+      "text": "Channel X auf."
+    },
+    {
+      "id": "l275",
+      "blockNumber": 50,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        1146,
+        2339,
+        1507,
+        2370
+      ],
+      "left": 1146,
+      "top": 2339,
+      "right": 1507,
+      "bottom": 2370,
+      "width": 361,
+      "height": 31,
+      "confidence": 91.996,
+      "text": "der digitalen Tanzmusik."
+    },
+    {
+      "id": "l276",
+      "blockNumber": 95,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2890,
+        2358,
+        3258,
+        2389
+      ],
+      "left": 2890,
+      "top": 2358,
+      "right": 3258,
+      "bottom": 2389,
+      "width": 368,
+      "height": 31,
+      "confidence": 94.192,
+      "text": "MITTWOCH 14. AUG"
+    },
+    {
+      "id": "l277",
+      "blockNumber": 79,
+      "paragraphNumber": 4,
+      "lineNumber": 9,
+      "bbox": [
+        2380,
+        2362,
+        2782,
+        2394
+      ],
+      "left": 2380,
+      "top": 2362,
+      "right": 2782,
+      "bottom": 2394,
+      "width": 402,
+      "height": 32,
+      "confidence": 94.515,
+      "text": "Hendrik Boge ihn tatkraftig"
+    },
+    {
+      "id": "l278",
+      "blockNumber": 50,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        1146,
+        2379,
+        1497,
+        2410
+      ],
+      "left": 1146,
+      "top": 2379,
+      "right": 1497,
+      "bottom": 2410,
+      "width": 351,
+      "height": 31,
+      "confidence": 94.141,
+      "text": "Audio Werner [Hartchef"
+    },
+    {
+      "id": "l279",
+      "blockNumber": 14,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        138,
+        2381,
+        463,
+        2406
+      ],
+      "left": 138,
+      "top": 2381,
+      "right": 463,
+      "bottom": 2406,
+      "width": 325,
+      "height": 25,
+      "confidence": 74.899,
+      "text": "Die DJ-Ikonen Richard"
+    },
+    {
+      "id": "l280",
+      "blockNumber": 31,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        648,
+        2385,
+        993,
+        2431
+      ],
+      "left": 648,
+      "top": 2385,
+      "right": 993,
+      "bottom": 2431,
+      "width": 345,
+      "height": 46,
+      "confidence": 91.955,
+      "text": "abschiedsparty"
+    },
+    {
+      "id": "l281",
+      "blockNumber": 79,
+      "paragraphNumber": 4,
+      "lineNumber": 10,
+      "bbox": [
+        2379,
+        2403,
+        2797,
+        2428
+      ],
+      "left": 2379,
+      "top": 2403,
+      "right": 2797,
+      "bottom": 2428,
+      "width": 418,
+      "height": 25,
+      "confidence": 92.982,
+      "text": "unterstUtzen. Are You Luzia!"
+    },
+    {
+      "id": "l282",
+      "blockNumber": 96,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2887,
+        2409,
+        3084,
+        2448
+      ],
+      "left": 2887,
+      "top": 2409,
+      "right": 3084,
+      "bottom": 2448,
+      "width": 197,
+      "height": 39,
+      "confidence": 96.326,
+      "text": "Watergate"
+    },
+    {
+      "id": "l283",
+      "blockNumber": 14,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        135,
+        2421,
+        538,
+        2452
+      ],
+      "left": 135,
+      "top": 2421,
+      "right": 538,
+      "bottom": 2452,
+      "width": 403,
+      "height": 31,
+      "confidence": 92.523,
+      "text": "Zepenzauer, Andre Gardeja"
+    },
+    {
+      "id": "l284",
+      "blockNumber": 50,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        1148,
+        2421,
+        1590,
+        2452
+      ],
+      "left": 1148,
+      "top": 2421,
+      "right": 1590,
+      "bottom": 2452,
+      "width": 442,
+      "height": 31,
+      "confidence": 91.152,
+      "text": "Discos/Perlon] The Cheapers"
+    },
+    {
+      "id": "l285",
+      "blockNumber": 31,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        648,
+        2442,
+        997,
+        2473
+      ],
+      "left": 648,
+      "top": 2442,
+      "right": 997,
+      "bottom": 2473,
+      "width": 349,
+      "height": 31,
+      "confidence": 95.698,
+      "text": "SONNTAG 30. JULI"
+    },
+    {
+      "id": "l286",
+      "blockNumber": 96,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        2887,
+        2457,
+        3330,
+        2489
+      ],
+      "left": 2887,
+      "top": 2457,
+      "right": 3330,
+      "bottom": 2489,
+      "width": 443,
+      "height": 32,
+      "confidence": 95.333,
+      "text": "Ab 24 Uhr legen Efdemin und"
+    },
+    {
+      "id": "l287",
+      "blockNumber": 14,
+      "paragraphNumber": 3,
+      "lineNumber": 3,
+      "bbox": [
+        137,
+        2463,
+        528,
+        2488
+      ],
+      "left": 137,
+      "top": 2463,
+      "right": 528,
+      "bottom": 2488,
+      "width": 391,
+      "height": 25,
+      "confidence": 96.288,
+      "text": "und Cave Bear Cult haben"
+    },
+    {
+      "id": "l288",
+      "blockNumber": 50,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        1147,
+        2463,
+        1507,
+        2494
+      ],
+      "left": 1147,
+      "top": 2463,
+      "right": 1507,
+      "bottom": 2494,
+      "width": 360,
+      "height": 31,
+      "confidence": 92.083,
+      "text": "[R. Hagelstein&F. Texas,"
+    },
+    {
+      "id": "l289",
+      "blockNumber": 80,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2378,
+        2487,
+        2650,
+        2514
+      ],
+      "left": 2378,
+      "top": 2487,
+      "right": 2650,
+      "bottom": 2514,
+      "width": 272,
+      "height": 27,
+      "confidence": 88.202,
+      "text": "Oranienstrafe 34"
+    },
+    {
+      "id": "l290",
+      "blockNumber": 32,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        648,
+        2493,
+        835,
+        2532
+      ],
+      "left": 648,
+      "top": 2493,
+      "right": 835,
+      "bottom": 2532,
+      "width": 187,
+      "height": 39,
+      "confidence": 95.897,
+      "text": "Sage Club"
+    },
+    {
+      "id": "l291",
+      "blockNumber": 96,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        2888,
+        2498,
+        3334,
+        2529
+      ],
+      "left": 2888,
+      "top": 2498,
+      "right": 3334,
+      "bottom": 2529,
+      "width": 446,
+      "height": 31,
+      "confidence": 92.884,
+      "text": "der allseits geliebte Szene DJ"
+    },
+    {
+      "id": "l292",
+      "blockNumber": 50,
+      "paragraphNumber": 2,
+      "lineNumber": 7,
+      "bbox": [
+        1147,
+        2504,
+        1523,
+        2535
+      ],
+      "left": 1147,
+      "top": 2504,
+      "right": 1523,
+      "bottom": 2535,
+      "width": 376,
+      "height": 31,
+      "confidence": 82.508,
+      "text": "mtc/UponyYou] Agaric [we"
+    },
+    {
+      "id": "l293",
+      "blockNumber": 14,
+      "paragraphNumber": 3,
+      "lineNumber": 4,
+      "bbox": [
+        137,
+        2505,
+        435,
+        2536
+      ],
+      "left": 137,
+      "top": 2505,
+      "right": 435,
+      "bottom": 2536,
+      "width": 298,
+      "height": 31,
+      "confidence": 92.517,
+      "text": "sich zum Mitspielen"
+    },
+    {
+      "id": "l294",
+      "blockNumber": 96,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        2889,
+        2540,
+        3165,
+        2565
+      ],
+      "left": 2889,
+      "top": 2540,
+      "right": 3165,
+      "bottom": 2565,
+      "width": 276,
+      "height": 25,
+      "confidence": 95.293,
+      "text": "Sascha Funke auf."
+    },
+    {
+      "id": "l295",
+      "blockNumber": 32,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        650,
+        2542,
+        803,
+        2566
+      ],
+      "left": 650,
+      "top": 2542,
+      "right": 803,
+      "bottom": 2566,
+      "width": 153,
+      "height": 24,
+      "confidence": 92.802,
+      "text": "Ein letztes"
+    },
+    {
+      "id": "l296",
+      "blockNumber": 50,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        1146,
+        2546,
+        1464,
+        2576
+      ],
+      "left": 1146,
+      "top": 2546,
+      "right": 1464,
+      "bottom": 2576,
+      "width": 318,
+      "height": 30,
+      "confidence": 93.929,
+      "text": "are, sweden] [Empro]"
+    },
+    {
+      "id": "l297",
+      "blockNumber": 14,
+      "paragraphNumber": 3,
+      "lineNumber": 5,
+      "bbox": [
+        136,
+        2548,
+        314,
+        2579
+      ],
+      "left": 136,
+      "top": 2548,
+      "right": 314,
+      "bottom": 2579,
+      "width": 178,
+      "height": 31,
+      "confidence": 91.413,
+      "text": "dazugesellt."
+    },
+    {
+      "id": "l298",
+      "blockNumber": 32,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        649,
+        2583,
+        861,
+        2608
+      ],
+      "left": 649,
+      "top": 2583,
+      "right": 861,
+      "bottom": 2608,
+      "width": 212,
+      "height": 25,
+      "confidence": 89.462,
+      "text": "Mal Offnet der"
+    },
+    {
+      "id": "l299",
+      "blockNumber": 50,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        1147,
+        2588,
+        1545,
+        2618
+      ],
+      "left": 1147,
+      "top": 2588,
+      "right": 1545,
+      "bottom": 2618,
+      "width": 398,
+      "height": 30,
+      "confidence": 91.907,
+      "text": "[Mind The Crap, Upon You]"
+    },
+    {
+      "id": "l300",
+      "blockNumber": 32,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        649,
+        2623,
+        882,
+        2655
+      ],
+      "left": 649,
+      "top": 2623,
+      "right": 882,
+      "bottom": 2655,
+      "width": 233,
+      "height": 32,
+      "confidence": 93.895,
+      "text": "legendare Sage"
+    },
+    {
+      "id": "l301",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        137,
+        2630,
+        446,
+        2655
+      ],
+      "left": 137,
+      "top": 2630,
+      "right": 446,
+      "bottom": 2655,
+      "width": 309,
+      "height": 25,
+      "confidence": 95.841,
+      "text": "Frankfurter Allee 23"
+    },
+    {
+      "id": "l302",
+      "blockNumber": 50,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        1148,
+        2630,
+        1514,
+        2660
+      ],
+      "left": 1148,
+      "top": 2630,
+      "right": 1514,
+      "bottom": 2660,
+      "width": 366,
+      "height": 30,
+      "confidence": 91.279,
+      "text": "Klick [UnsereKleineWelt]"
+    },
+    {
+      "id": "l303",
+      "blockNumber": 32,
+      "paragraphNumber": 3,
+      "lineNumber": 3,
+      "bbox": [
+        648,
+        2666,
+        879,
+        2691
+      ],
+      "left": 648,
+      "top": 2666,
+      "right": 879,
+      "bottom": 2691,
+      "width": 231,
+      "height": 25,
+      "confidence": 95.706,
+      "text": "Club seine Tore"
+    },
+    {
+      "id": "l304",
+      "blockNumber": 50,
+      "paragraphNumber": 4,
+      "lineNumber": 3,
+      "bbox": [
+        1146,
+        2671,
+        1534,
+        2702
+      ],
+      "left": 1146,
+      "top": 2671,
+      "right": 1534,
+      "bottom": 2702,
+      "width": 388,
+      "height": 31,
+      "confidence": 91.727,
+      "text": "Jackhart (Bologne)Beaner"
+    },
+    {
+      "id": "l305",
+      "blockNumber": 32,
+      "paragraphNumber": 3,
+      "lineNumber": 4,
+      "bbox": [
+        649,
+        2708,
+        938,
+        2733
+      ],
+      "left": 649,
+      "top": 2708,
+      "right": 938,
+      "bottom": 2733,
+      "width": 289,
+      "height": 25,
+      "confidence": 92.394,
+      "text": "und ruft zum Feiern"
+    },
+    {
+      "id": "l306",
+      "blockNumber": 50,
+      "paragraphNumber": 4,
+      "lineNumber": 4,
+      "bbox": [
+        1147,
+        2712,
+        1488,
+        2743
+      ],
+      "left": 1147,
+      "top": 2712,
+      "right": 1488,
+      "bottom": 2743,
+      "width": 341,
+      "height": 31,
+      "confidence": 91.002,
+      "text": "(DoC/im fruehtau)Sam"
+    },
+    {
+      "id": "l307",
+      "blockNumber": 32,
+      "paragraphNumber": 3,
+      "lineNumber": 5,
+      "bbox": [
+        648,
+        2750,
+        703,
+        2775
+      ],
+      "left": 648,
+      "top": 2750,
+      "right": 703,
+      "bottom": 2775,
+      "width": 55,
+      "height": 25,
+      "confidence": 96.198,
+      "text": "auf."
+    },
+    {
+      "id": "l308",
+      "blockNumber": 50,
+      "paragraphNumber": 5,
+      "lineNumber": 1,
+      "bbox": [
+        1148,
+        2754,
+        1529,
+        2785
+      ],
+      "left": 1148,
+      "top": 2754,
+      "right": 1529,
+      "bottom": 2785,
+      "width": 381,
+      "height": 31,
+      "confidence": 94.559,
+      "text": "Ear [im fruehtau] sind die"
+    },
+    {
+      "id": "l309",
+      "blockNumber": 50,
+      "paragraphNumber": 5,
+      "lineNumber": 2,
+      "bbox": [
+        1146,
+        2795,
+        1589,
+        2826
+      ],
+      "left": 1146,
+      "top": 2795,
+      "right": 1589,
+      "bottom": 2826,
+      "width": 443,
+      "height": 31,
+      "confidence": 89.349,
+      "text": "anwesenden DJs. Sushi gibts"
+    },
+    {
+      "id": "l310",
+      "blockNumber": 33,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        649,
+        2832,
+        988,
+        2863
+      ],
+      "left": 649,
+      "top": 2832,
+      "right": 988,
+      "bottom": 2863,
+      "width": 339,
+      "height": 31,
+      "confidence": 69.693,
+      "text": "Kopenicker Strafe 76"
+    },
+    {
+      "id": "l311",
+      "blockNumber": 50,
+      "paragraphNumber": 5,
+      "lineNumber": 3,
+      "bbox": [
+        1146,
+        2837,
+        1411,
+        2868
+      ],
+      "left": 1146,
+      "top": 2837,
+      "right": 1411,
+      "bottom": 2868,
+      "width": 265,
+      "height": 31,
+      "confidence": 92.245,
+      "text": "von Sushiguerilla."
+    },
+    {
+      "id": "l312",
+      "blockNumber": 127,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        4276,
+        2918,
+        4404,
+        2963
+      ],
+      "left": 4276,
+      "top": 2918,
+      "right": 4404,
+      "bottom": 2963,
+      "width": 128,
+      "height": 45,
+      "confidence": 93.461,
+      "text": "proud 63"
+    }
+  ]
+}

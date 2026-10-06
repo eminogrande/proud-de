@@ -1,0 +1,1787 @@
+{
+  "scale": 2.0,
+  "imageWidth": 4478,
+  "imageHeight": 3002,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        79,
+        61,
+        397,
+        99
+      ],
+      "left": 79,
+      "top": 61,
+      "right": 397,
+      "bottom": 99,
+      "width": 318,
+      "height": 38,
+      "confidence": 96.547,
+      "text": "streets ahead"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        214,
+        232,
+        1854,
+        414
+      ],
+      "left": 214,
+      "top": 232,
+      "right": 1854,
+      "bottom": 414,
+      "width": 1640,
+      "height": 182,
+      "confidence": 95.634,
+      "text": "he global nylon style"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        213,
+        486,
+        373,
+        514
+      ],
+      "left": 213,
+      "top": 486,
+      "right": 373,
+      "bottom": 514,
+      "width": 160,
+      "height": 28,
+      "confidence": 94.318,
+      "text": "stimmt es,"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1405,
+        490,
+        1562,
+        509
+      ],
+      "left": 1405,
+      "top": 490,
+      "right": 1562,
+      "bottom": 509,
+      "width": 157,
+      "height": 19,
+      "confidence": 95.458,
+      "text": "immer noc"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 5,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        141,
+        528,
+        596,
+        558
+      ],
+      "left": 141,
+      "top": 528,
+      "right": 596,
+      "bottom": 558,
+      "width": 455,
+      "height": 30,
+      "confidence": 92.767,
+      "text": "Fashionbranche wirklich jedes"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1141,
+        528,
+        1500,
+        558
+      ],
+      "left": 1141,
+      "top": 528,
+      "right": 1500,
+      "bottom": 558,
+      "width": 359,
+      "height": 30,
+      "confidence": 96.026,
+      "text": "ein Hobby oder nur noch"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1649,
+        566,
+        2034,
+        605
+      ],
+      "left": 1649,
+      "top": 566,
+      "right": 2034,
+      "bottom": 605,
+      "width": 385,
+      "height": 39,
+      "confidence": 96.225,
+      "text": "es, it put me out of job for"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 5,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        141,
+        570,
+        648,
+        600
+      ],
+      "left": 141,
+      "top": 570,
+      "right": 648,
+      "bottom": 600,
+      "width": 507,
+      "height": 30,
+      "confidence": 92.235,
+      "text": "Model auf digitaler Ebene a"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1143,
+        570,
+        1244,
+        594
+      ],
+      "left": 1143,
+      "top": 570,
+      "right": 1244,
+      "bottom": 594,
+      "width": 101,
+      "height": 24,
+      "confidence": 96.266,
+      "text": "Arbeit?"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 5,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        140,
+        610,
+        938,
+        640
+      ],
+      "left": 140,
+      "top": 610,
+      "right": 938,
+      "bottom": 640,
+      "width": 798,
+      "height": 30,
+      "confidence": 92.833,
+      "text": "nachbearbeitet wird um den Min. HK$35,000.00"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1634,
+        612,
+        1778,
+        636
+      ],
+      "left": 1634,
+      "top": 612,
+      "right": 1778,
+      "bottom": 636,
+      "width": 144,
+      "height": 24,
+      "confidence": 85.753,
+      "text": "sometime"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 5,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        140,
+        654,
+        366,
+        684
+      ],
+      "left": 140,
+      "top": 654,
+      "right": 366,
+      "bottom": 684,
+      "width": 226,
+      "height": 30,
+      "confidence": 94.233,
+      "text": "perfekten Look"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 5,
+      "paragraphNumber": 4,
+      "lineNumber": 3,
+      "bbox": [
+        139,
+        696,
+        539,
+        720
+      ],
+      "left": 139,
+      "top": 696,
+      "right": 539,
+      "bottom": 720,
+      "width": 400,
+      "height": 24,
+      "confidence": 91.09,
+      "text": "lauszustrahlen? Gibt es die"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        657,
+        696,
+        1104,
+        726
+      ],
+      "left": 657,
+      "top": 696,
+      "right": 1104,
+      "bottom": 726,
+      "width": 447,
+      "height": 30,
+      "confidence": 90.055,
+      "text": "tylistin ist ein Traumjob vieler"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1136,
+        696,
+        1543,
+        726
+      ],
+      "left": 1136,
+      "top": 696,
+      "right": 1543,
+      "bottom": 726,
+      "width": 407,
+      "height": 30,
+      "confidence": 92.371,
+      "text": "Beschreibe deinen eigenen"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1641,
+        696,
+        2091,
+        720
+      ],
+      "left": 1641,
+      "top": 696,
+      "right": 2091,
+      "bottom": 720,
+      "width": 450,
+      "height": 24,
+      "confidence": 95.097,
+      "text": "Arbeitest du nochmal mit dem"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        638,
+        739,
+        1074,
+        769
+      ],
+      "left": 638,
+      "top": 739,
+      "right": 1074,
+      "bottom": 769,
+      "width": 436,
+      "height": 30,
+      "confidence": 92.666,
+      "text": "Madchen, wie kommt man in"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1136,
+        739,
+        1570,
+        770
+      ],
+      "left": 1136,
+      "top": 739,
+      "right": 1570,
+      "bottom": 770,
+      "width": 434,
+      "height": 31,
+      "confidence": 88.143,
+      "text": "Modestyle in sechs Wortern."
+    },
+    {
+      "id": "l019",
+      "blockNumber": 5,
+      "paragraphNumber": 4,
+      "lineNumber": 4,
+      "bbox": [
+        140,
+        740,
+        560,
+        770
+      ],
+      "left": 140,
+      "top": 740,
+      "right": 560,
+      "bottom": 770,
+      "width": 420,
+      "height": 30,
+      "confidence": 94.223,
+      "text": "perfekten Menschen, die so"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1722,
+        740,
+        1989,
+        764
+      ],
+      "left": 1722,
+      "top": 740,
+      "right": 1989,
+      "bottom": 764,
+      "width": 267,
+      "height": 24,
+      "confidence": 96.256,
+      "text": "team zusammen?"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 5,
+      "paragraphNumber": 4,
+      "lineNumber": 5,
+      "bbox": [
+        139,
+        781,
+        524,
+        812
+      ],
+      "left": 139,
+      "top": 781,
+      "right": 524,
+      "bottom": 812,
+      "width": 385,
+      "height": 31,
+      "confidence": 78.186,
+      "text": "etwas nicht notig haben?"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1140,
+        782,
+        1547,
+        812
+      ],
+      "left": 1140,
+      "top": 782,
+      "right": 1547,
+      "bottom": 812,
+      "width": 407,
+      "height": 30,
+      "confidence": 96.133,
+      "text": "As much as feel like myself."
+    },
+    {
+      "id": "l023",
+      "blockNumber": 25,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3546,
+        801,
+        3893,
+        828
+      ],
+      "left": 3546,
+      "top": 801,
+      "right": 3893,
+      "bottom": 828,
+      "width": 347,
+      "height": 27,
+      "confidence": 92.549,
+      "text": "CODE: PROUDPOKER"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 5,
+      "paragraphNumber": 4,
+      "lineNumber": 6,
+      "bbox": [
+        141,
+        824,
+        560,
+        852
+      ],
+      "left": 141,
+      "top": 824,
+      "right": 560,
+      "bottom": 852,
+      "width": 419,
+      "height": 28,
+      "confidence": 96.625,
+      "text": "No, there is no one NO need"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1143,
+        865,
+        1499,
+        895
+      ],
+      "left": 1143,
+      "top": 865,
+      "right": 1499,
+      "bottom": 895,
+      "width": 356,
+      "height": 30,
+      "confidence": 92.51,
+      "text": "Ava, wahle dein liebstes"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 5,
+      "paragraphNumber": 4,
+      "lineNumber": 7,
+      "bbox": [
+        141,
+        866,
+        394,
+        894
+      ],
+      "left": 141,
+      "top": 866,
+      "right": 394,
+      "bottom": 894,
+      "width": 253,
+      "height": 28,
+      "confidence": 96.408,
+      "text": "retouch, even the"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 26,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3545,
+        888,
+        4188,
+        913
+      ],
+      "left": 3545,
+      "top": 888,
+      "right": 4188,
+      "bottom": 913,
+      "width": 643,
+      "height": 25,
+      "confidence": 95.357,
+      "text": "Wir von basteln nicht nur an unserem"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 5,
+      "paragraphNumber": 5,
+      "lineNumber": 1,
+      "bbox": [
+        141,
+        909,
+        541,
+        939
+      ],
+      "left": 141,
+      "top": 909,
+      "right": 541,
+      "bottom": 939,
+      "width": 400,
+      "height": 30,
+      "confidence": 95.56,
+      "text": "perfet one, cause there are"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        636,
+        909,
+        1054,
+        937
+      ],
+      "left": 636,
+      "top": 909,
+      "right": 1054,
+      "bottom": 937,
+      "width": 418,
+      "height": 28,
+      "confidence": 79.916,
+      "text": "lvearsssssssssss with some"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1136,
+        909,
+        1423,
+        934
+      ],
+      "left": 1136,
+      "top": 909,
+      "right": 1423,
+      "bottom": 934,
+      "width": 287,
+      "height": 25,
+      "confidence": 91.623,
+      "text": "Fashionaccessoire."
+    },
+    {
+      "id": "l031",
+      "blockNumber": 18,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2384,
+        917,
+        2387,
+        929
+      ],
+      "left": 2384,
+      "top": 917,
+      "right": 2387,
+      "bottom": 929,
+      "width": 3,
+      "height": 12,
+      "confidence": 32.576,
+      "text": "'"
+    },
+    {
+      "id": "l032",
+      "blockNumber": 27,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3547,
+        930,
+        4015,
+        961
+      ],
+      "left": 3547,
+      "top": 930,
+      "right": 4015,
+      "bottom": 961,
+      "width": 468,
+      "height": 31,
+      "confidence": 89.49,
+      "text": "Magazin! Regelmafig finden die"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 5,
+      "paragraphNumber": 5,
+      "lineNumber": 2,
+      "bbox": [
+        140,
+        951,
+        448,
+        981
+      ],
+      "left": 140,
+      "top": 951,
+      "right": 448,
+      "bottom": 981,
+      "width": 308,
+      "height": 30,
+      "confidence": 86.861,
+      "text": "always can be better."
+    },
+    {
+      "id": "l034",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1150,
+        951,
+        1235,
+        975
+      ],
+      "left": 1150,
+      "top": 951,
+      "right": 1235,
+      "bottom": 975,
+      "width": 85,
+      "height": 24,
+      "confidence": 74.214,
+      "text": "-Shirt."
+    },
+    {
+      "id": "l035",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2421,
+        963,
+        2639,
+        990
+      ],
+      "left": 2421,
+      "top": 963,
+      "right": 2639,
+      "bottom": 990,
+      "width": 218,
+      "height": 27,
+      "confidence": 96.225,
+      "text": "CODE: RADIO"
+    },
+    {
+      "id": "l036",
+      "blockNumber": 27,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        3546,
+        972,
+        4116,
+        997
+      ],
+      "left": 3546,
+      "top": 972,
+      "right": 4116,
+      "bottom": 997,
+      "width": 570,
+      "height": 25,
+      "confidence": 93.216,
+      "text": "Poker Turniere statt. Zum Jubilaum der"
+    },
+    {
+      "id": "l037",
+      "blockNumber": 27,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        3546,
+        1014,
+        4190,
+        1045
+      ],
+      "left": 3546,
+      "top": 1014,
+      "right": 4190,
+      "bottom": 1045,
+      "width": 644,
+      "height": 31,
+      "confidence": 85.094,
+      "text": "ersten Ausgabe gibt‘s einen per Handarbeit"
+    },
+    {
+      "id": "l038",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        139,
+        1020,
+        810,
+        1046
+      ],
+      "left": 139,
+      "top": 1020,
+      "right": 810,
+      "bottom": 1046,
+      "width": 671,
+      "height": 26,
+      "confidence": 96.221,
+      "text": "Ava Chau, born in 1968 sieht aus wie 25 und"
+    },
+    {
+      "id": "l039",
+      "blockNumber": 18,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        2422,
+        1050,
+        3017,
+        1081
+      ],
+      "left": 2422,
+      "top": 1050,
+      "right": 3017,
+      "bottom": 1081,
+      "width": 595,
+      "height": 31,
+      "confidence": 94.031,
+      "text": "Radio T-Shirts sind mindestens genauso"
+    },
+    {
+      "id": "l040",
+      "blockNumber": 27,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        3545,
+        1058,
+        4074,
+        1089
+      ],
+      "left": 3545,
+      "top": 1058,
+      "right": 4074,
+      "bottom": 1089,
+      "width": 529,
+      "height": 31,
+      "confidence": 92.08,
+      "text": "gefertigten Pokertisch zu Gewinnen."
+    },
+    {
+      "id": "l041",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        139,
+        1062,
+        810,
+        1093
+      ],
+      "left": 139,
+      "top": 1062,
+      "right": 810,
+      "bottom": 1093,
+      "width": 671,
+      "height": 31,
+      "confidence": 93.769,
+      "text": "gehort zu den gefragtesten Stylisten in Asien."
+    },
+    {
+      "id": "l042",
+      "blockNumber": 18,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        2384,
+        1092,
+        2987,
+        1117
+      ],
+      "left": 2384,
+      "top": 1092,
+      "right": 2987,
+      "bottom": 1117,
+      "width": 603,
+      "height": 25,
+      "confidence": 79.158,
+      "text": "1 beruhmt wie ihre Skateboardkollektion"
+    },
+    {
+      "id": "l043",
+      "blockNumber": 27,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        3545,
+        1100,
+        3842,
+        1130
+      ],
+      "left": 3545,
+      "top": 1100,
+      "right": 3842,
+      "bottom": 1130,
+      "width": 297,
+      "height": 30,
+      "confidence": 91.657,
+      "text": "www.proudpoker.de"
+    },
+    {
+      "id": "l044",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        139,
+        1104,
+        843,
+        1134
+      ],
+      "left": 139,
+      "top": 1104,
+      "right": 843,
+      "bottom": 1134,
+      "width": 704,
+      "height": 30,
+      "confidence": 96.533,
+      "text": "Vom Popstar bis hin zur Miss China. Fashion ist"
+    },
+    {
+      "id": "l045",
+      "blockNumber": 18,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        2384,
+        1125,
+        2981,
+        1160
+      ],
+      "left": 2384,
+      "top": 1125,
+      "right": 2981,
+      "bottom": 1160,
+      "width": 597,
+      "height": 35,
+      "confidence": 67.484,
+      "text": "| und ihr Skateteam. Unverwechselbare"
+    },
+    {
+      "id": "l046",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        141,
+        1146,
+        883,
+        1177
+      ],
+      "left": 141,
+      "top": 1146,
+      "right": 883,
+      "bottom": 1177,
+      "width": 742,
+      "height": 31,
+      "confidence": 94.38,
+      "text": "Lebensaufgabe und ihr geschriebenes Englisch ist"
+    },
+    {
+      "id": "l047",
+      "blockNumber": 18,
+      "paragraphNumber": 5,
+      "lineNumber": 1,
+      "bbox": [
+        2384,
+        1171,
+        3013,
+        1208
+      ],
+      "left": 2384,
+      "top": 1171,
+      "right": 3013,
+      "bottom": 1208,
+      "width": 629,
+      "height": 37,
+      "confidence": 91.505,
+      "text": "| Designarbeiten aus der Berliner Heimat."
+    },
+    {
+      "id": "l048",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        140,
+        1189,
+        834,
+        1221
+      ],
+      "left": 140,
+      "top": 1189,
+      "right": 834,
+      "bottom": 1221,
+      "width": 694,
+      "height": 32,
+      "confidence": 93.031,
+      "text": "fur eine 40 Jahrige gar nicht soooooo schlecht."
+    },
+    {
+      "id": "l049",
+      "blockNumber": 18,
+      "paragraphNumber": 6,
+      "lineNumber": 1,
+      "bbox": [
+        2421,
+        1219,
+        3039,
+        1250
+      ],
+      "left": 2421,
+      "top": 1219,
+      "right": 3039,
+      "bottom": 1250,
+      "width": 618,
+      "height": 31,
+      "confidence": 88.937,
+      "text": "Gewinne dein Exemplar oder kauf's dir fur"
+    },
+    {
+      "id": "l050",
+      "blockNumber": 18,
+      "paragraphNumber": 7,
+      "lineNumber": 1,
+      "bbox": [
+        2384,
+        1262,
+        3076,
+        1298
+      ],
+      "left": 2384,
+      "top": 1262,
+      "right": 3076,
+      "bottom": 1298,
+      "width": 692,
+      "height": 36,
+      "confidence": 87.117,
+      "text": "| schlappe 25 Euro im Overkillshop Kreuzberg"
+    },
+    {
+      "id": "l051",
+      "blockNumber": 18,
+      "paragraphNumber": 7,
+      "lineNumber": 2,
+      "bbox": [
+        2384,
+        1305,
+        2840,
+        1344
+      ],
+      "left": 2384,
+      "top": 1305,
+      "right": 2840,
+      "bottom": 1344,
+      "width": 456,
+      "height": 39,
+      "confidence": 52.4,
+      "text": "| www.radioskateboards.com"
+    },
+    {
+      "id": "l052",
+      "blockNumber": 18,
+      "paragraphNumber": 7,
+      "lineNumber": 3,
+      "bbox": [
+        2384,
+        1356,
+        2388,
+        1368
+      ],
+      "left": 2384,
+      "top": 1356,
+      "right": 2388,
+      "bottom": 1368,
+      "width": 4,
+      "height": 12,
+      "confidence": 83.676,
+      "text": "'"
+    },
+    {
+      "id": "l053",
+      "blockNumber": 18,
+      "paragraphNumber": 8,
+      "lineNumber": 1,
+      "bbox": [
+        2384,
+        1379,
+        2387,
+        1391
+      ],
+      "left": 2384,
+      "top": 1379,
+      "right": 2387,
+      "bottom": 1391,
+      "width": 3,
+      "height": 12,
+      "confidence": 32.476,
+      "text": "!"
+    },
+    {
+      "id": "l054",
+      "blockNumber": 18,
+      "paragraphNumber": 9,
+      "lineNumber": 1,
+      "bbox": [
+        2384,
+        1402,
+        2388,
+        1414
+      ],
+      "left": 2384,
+      "top": 1402,
+      "right": 2388,
+      "bottom": 1414,
+      "width": 4,
+      "height": 12,
+      "confidence": 72.636,
+      "text": "'"
+    },
+    {
+      "id": "l055",
+      "blockNumber": 18,
+      "paragraphNumber": 10,
+      "lineNumber": 1,
+      "bbox": [
+        2384,
+        1425,
+        2387,
+        1437
+      ],
+      "left": 2384,
+      "top": 1425,
+      "right": 2387,
+      "bottom": 1437,
+      "width": 3,
+      "height": 12,
+      "confidence": 46.598,
+      "text": "'"
+    },
+    {
+      "id": "l056",
+      "blockNumber": 18,
+      "paragraphNumber": 11,
+      "lineNumber": 1,
+      "bbox": [
+        2384,
+        1448,
+        2388,
+        1460
+      ],
+      "left": 2384,
+      "top": 1448,
+      "right": 2388,
+      "bottom": 1460,
+      "width": 4,
+      "height": 12,
+      "confidence": 25.847,
+      "text": "'"
+    },
+    {
+      "id": "l057",
+      "blockNumber": 29,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3674,
+        1509,
+        4014,
+        1537
+      ],
+      "left": 3674,
+      "top": 1509,
+      "right": 4014,
+      "bottom": 1537,
+      "width": 340,
+      "height": 28,
+      "confidence": 85.518,
+      "text": "CODE: FRITZHELDER"
+    },
+    {
+      "id": "l058",
+      "blockNumber": 30,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3675,
+        1596,
+        4255,
+        1627
+      ],
+      "left": 3675,
+      "top": 1596,
+      "right": 4255,
+      "bottom": 1627,
+      "width": 580,
+      "height": 31,
+      "confidence": 96.283,
+      "text": "Style Icon Fritz Helder hat uns nicht nur"
+    },
+    {
+      "id": "l059",
+      "blockNumber": 30,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3652,
+        1638,
+        4237,
+        1671
+      ],
+      "left": 3652,
+      "top": 1638,
+      "right": 4237,
+      "bottom": 1671,
+      "width": 585,
+      "height": 33,
+      "confidence": 82.081,
+      "text": "Shochauflosende Bilder von sich selbst"
+    },
+    {
+      "id": "l060",
+      "blockNumber": 30,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        3727,
+        1681,
+        4210,
+        1713
+      ],
+      "left": 3727,
+      "top": 1681,
+      "right": 4210,
+      "bottom": 1713,
+      "width": 483,
+      "height": 32,
+      "confidence": 80.521,
+      "text": "Verflgung gestellt, sondern auch"
+    },
+    {
+      "id": "l061",
+      "blockNumber": 30,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        3643,
+        1724,
+        4251,
+        1755
+      ],
+      "left": 3643,
+      "top": 1724,
+      "right": 4251,
+      "bottom": 1755,
+      "width": 608,
+      "height": 31,
+      "confidence": 86.319,
+      "text": "macicich sein neues Release dagelassen."
+    },
+    {
+      "id": "l062",
+      "blockNumber": 30,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        3676,
+        1766,
+        4303,
+        1790
+      ],
+      "left": 3676,
+      "top": 1766,
+      "right": 4303,
+      "bottom": 1790,
+      "width": 627,
+      "height": 24,
+      "confidence": 95.373,
+      "text": "Discofunkelektrobeats vom ersten bis zum"
+    },
+    {
+      "id": "l063",
+      "blockNumber": 30,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        3676,
+        1808,
+        3865,
+        1832
+      ],
+      "left": 3676,
+      "top": 1808,
+      "right": 3865,
+      "bottom": 1832,
+      "width": 189,
+      "height": 24,
+      "confidence": 96.711,
+      "text": "letzten Track."
+    },
+    {
+      "id": "l064",
+      "blockNumber": 30,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        3670,
+        1846,
+        3980,
+        1885
+      ],
+      "left": 3670,
+      "top": 1846,
+      "right": 3980,
+      "bottom": 1885,
+      "width": 310,
+      "height": 39,
+      "confidence": 76.408,
+      "text": "www. fritzhelder.com"
+    },
+    {
+      "id": "l065",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2546,
+        1888,
+        2729,
+        1915
+      ],
+      "left": 2546,
+      "top": 1888,
+      "right": 2729,
+      "bottom": 1915,
+      "width": 183,
+      "height": 27,
+      "confidence": 95.848,
+      "text": "CODE: PVD"
+    },
+    {
+      "id": "l066",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2547,
+        1974,
+        3190,
+        2005
+      ],
+      "left": 2547,
+      "top": 1974,
+      "right": 3190,
+      "bottom": 2005,
+      "width": 643,
+      "height": 31,
+      "confidence": 93.937,
+      "text": "Du willst auf der nachsten Vonyc Session in"
+    },
+    {
+      "id": "l067",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2547,
+        2016,
+        3070,
+        2047
+      ],
+      "left": 2547,
+      "top": 2016,
+      "right": 3070,
+      "bottom": 2047,
+      "width": 523,
+      "height": 31,
+      "confidence": 93.496,
+      "text": "Berlin den richtigen Fan markieren?"
+    },
+    {
+      "id": "l068",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2548,
+        2058,
+        3083,
+        2089
+      ],
+      "left": 2548,
+      "top": 2058,
+      "right": 3083,
+      "bottom": 2089,
+      "width": 535,
+      "height": 31,
+      "confidence": 95.215,
+      "text": "Das van Dyk Special schickt dich +2"
+    },
+    {
+      "id": "l069",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        2547,
+        2100,
+        3206,
+        2130
+      ],
+      "left": 2547,
+      "top": 2100,
+      "right": 3206,
+      "bottom": 2130,
+      "width": 659,
+      "height": 30,
+      "confidence": 92.605,
+      "text": "Freunde/innen zum nachsten Konzert deiner"
+    },
+    {
+      "id": "l070",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        2546,
+        2144,
+        3202,
+        2168
+      ],
+      "left": 2546,
+      "top": 2144,
+      "right": 3202,
+      "bottom": 2168,
+      "width": 656,
+      "height": 24,
+      "confidence": 93.933,
+      "text": "Wahl! Plus: ein Shirt und das aktuelle Album"
+    },
+    {
+      "id": "l071",
+      "blockNumber": 21,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2548,
+        2171,
+        3466,
+        2232
+      ],
+      "left": 2548,
+      "top": 2171,
+      "right": 3466,
+      "bottom": 2232,
+      "width": 918,
+      "height": 61,
+      "confidence": 91.892,
+      "text": "InBetween. Grab it! ["
+    },
+    {
+      "id": "l072",
+      "blockNumber": 31,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3467,
+        2225,
+        3716,
+        2252
+      ],
+      "left": 3467,
+      "top": 2225,
+      "right": 3716,
+      "bottom": 2252,
+      "width": 249,
+      "height": 27,
+      "confidence": 92.145,
+      "text": "CODE: BLAUDE"
+    },
+    {
+      "id": "l073",
+      "blockNumber": 22,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2546,
+        2228,
+        2873,
+        2258
+      ],
+      "left": 2546,
+      "top": 2228,
+      "right": 2873,
+      "bottom": 2258,
+      "width": 327,
+      "height": 30,
+      "confidence": 91.254,
+      "text": "www.paulvandyk.com"
+    },
+    {
+      "id": "l074",
+      "blockNumber": 32,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3468,
+        2312,
+        4225,
+        2343
+      ],
+      "left": 3468,
+      "top": 2312,
+      "right": 4225,
+      "bottom": 2343,
+      "width": 757,
+      "height": 31,
+      "confidence": 93.965,
+      "text": "Blau.de hat uns eine ihrer begehrten Prepaidkarten"
+    },
+    {
+      "id": "l075",
+      "blockNumber": 32,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3466,
+        2355,
+        4277,
+        2386
+      ],
+      "left": 3466,
+      "top": 2355,
+      "right": 4277,
+      "bottom": 2386,
+      "width": 811,
+      "height": 31,
+      "confidence": 88.134,
+      "text": "zur Verflgung gestellt. 9Cent in alle Netze und 25 Euro"
+    },
+    {
+      "id": "l076",
+      "blockNumber": 32,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        3467,
+        2397,
+        4154,
+        2428
+      ],
+      "left": 3467,
+      "top": 2397,
+      "right": 4154,
+      "bottom": 2428,
+      "width": 687,
+      "height": 31,
+      "confidence": 91.678,
+      "text": "Startguthaben. Prepaid Kein Vertrag."
+    },
+    {
+      "id": "l077",
+      "blockNumber": 32,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        3466,
+        2440,
+        4071,
+        2470
+      ],
+      "left": 3466,
+      "top": 2440,
+      "right": 4071,
+      "bottom": 2470,
+      "width": 605,
+      "height": 30,
+      "confidence": 93.489,
+      "text": "Als Nummer gibts eine 01577-PROUD-XX"
+    },
+    {
+      "id": "l078",
+      "blockNumber": 32,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        3466,
+        2482,
+        3659,
+        2506
+      ],
+      "left": 3466,
+      "top": 2482,
+      "right": 3659,
+      "bottom": 2506,
+      "width": 193,
+      "height": 24,
+      "confidence": 83.737,
+      "text": "www.blau.de"
+    },
+    {
+      "id": "l079",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2786,
+        2489,
+        3041,
+        2523
+      ],
+      "left": 2786,
+      "top": 2489,
+      "right": 3041,
+      "bottom": 2523,
+      "width": 255,
+      "height": 34,
+      "confidence": 92.538,
+      "text": "CODE: proudvip"
+    },
+    {
+      "id": "l080",
+      "blockNumber": 33,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3573,
+        2572,
+        3986,
+        2606
+      ],
+      "left": 3573,
+      "top": 2572,
+      "right": 3986,
+      "bottom": 2606,
+      "width": 413,
+      "height": 34,
+      "confidence": 95.94,
+      "text": "Mail uns den CODE, an:"
+    },
+    {
+      "id": "l081",
+      "blockNumber": 23,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2787,
+        2576,
+        3442,
+        2600
+      ],
+      "left": 2787,
+      "top": 2576,
+      "right": 3442,
+      "bottom": 2600,
+      "width": 655,
+      "height": 24,
+      "confidence": 93.147,
+      "text": "Diese nummerierte Card verschafft dir"
+    },
+    {
+      "id": "l082",
+      "blockNumber": 35,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3623,
+        2616,
+        3906,
+        2782
+      ],
+      "left": 3623,
+      "top": 2616,
+      "right": 3906,
+      "bottom": 2782,
+      "width": 283,
+      "height": 166,
+      "confidence": 25.454,
+      "text": "a"
+    },
+    {
+      "id": "l083",
+      "blockNumber": 23,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2787,
+        2618,
+        3412,
+        2649
+      ],
+      "left": 2787,
+      "top": 2618,
+      "right": 3412,
+      "bottom": 2649,
+      "width": 625,
+      "height": 31,
+      "confidence": 93.89,
+      "text": "und zwei deiner Freundinnen lebenslangen"
+    },
+    {
+      "id": "l084",
+      "blockNumber": 23,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2787,
+        2660,
+        3407,
+        2690
+      ],
+      "left": 2787,
+      "top": 2660,
+      "right": 3407,
+      "bottom": 2690,
+      "width": 620,
+      "height": 30,
+      "confidence": 95.799,
+      "text": "Eintritt zu allen Events in Berlin City!"
+    },
+    {
+      "id": "l085",
+      "blockNumber": 34,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3955,
+        2690,
+        4278,
+        2717
+      ],
+      "left": 3955,
+      "top": 2690,
+      "right": 4278,
+      "bottom": 2717,
+      "width": 323,
+      "height": 27,
+      "confidence": 87.498,
+      "text": "winfaproudmagazine.de"
+    },
+    {
+      "id": "l086",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2384,
+        2695,
+        3143,
+        2739
+      ],
+      "left": 2384,
+      "top": 2695,
+      "right": 3143,
+      "bottom": 2739,
+      "width": 759,
+      "height": 44,
+      "confidence": 62.826,
+      "text": "; www.proudmagazine.de"
+    },
+    {
+      "id": "l087",
+      "blockNumber": 38,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2386,
+        2807,
+        4334,
+        2843
+      ],
+      "left": 2386,
+      "top": 2807,
+      "right": 4334,
+      "bottom": 2843,
+      "width": 1948,
+      "height": 36,
+      "confidence": 88.891,
+      "text": "Regelwerk: Dies ist eine reine E-Mail Verlosung. Wir schlieSen die Verlosung am 30.01. Die Gewinner werden selbstverstandlich per Zufallsprinzip ausgewahit. Die Entscheidung ist endgiltig und"
+    },
+    {
+      "id": "l088",
+      "blockNumber": 38,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2385,
+        2845,
+        4337,
+        2866
+      ],
+      "left": 2385,
+      "top": 2845,
+      "right": 4337,
+      "bottom": 2866,
+      "width": 1952,
+      "height": 21,
+      "confidence": 90.406,
+      "text": "kann von Nix und Niemandem angefochten werden. Der Gewinner erhalt eine Bestatigungsemail. Angestellte und deren Angehdrige und Verwandte von proud sind von der Verlosung ausgeschlossen."
+    },
+    {
+      "id": "l089",
+      "blockNumber": 39,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        4375,
+        2925,
+        4401,
+        2950
+      ],
+      "left": 4375,
+      "top": 2925,
+      "right": 4401,
+      "bottom": 2950,
+      "width": 26,
+      "height": 25,
+      "confidence": 85.026,
+      "text": "51"
+    }
+  ]
+}

@@ -1,0 +1,907 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        83,
+        83,
+        234,
+        120
+      ],
+      "left": 83,
+      "top": 83,
+      "right": 234,
+      "bottom": 120,
+      "width": 151,
+      "height": 37,
+      "confidence": 96.535,
+      "text": "feature"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        259,
+        955,
+        305
+      ],
+      "left": 270,
+      "top": 259,
+      "right": 955,
+      "bottom": 305,
+      "width": 685,
+      "height": 46,
+      "confidence": 80.215,
+      "text": "Warum Uuberhaupt diese ganze"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        273,
+        324,
+        1086,
+        369
+      ],
+      "left": 273,
+      "top": 324,
+      "right": 1086,
+      "bottom": 369,
+      "width": 813,
+      "height": 45,
+      "confidence": 92.925,
+      "text": "Partyschiene und nicht irgendetwas"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        270,
+        387,
+        525,
+        423
+      ],
+      "left": 270,
+      "top": 387,
+      "right": 525,
+      "bottom": 423,
+      "width": 255,
+      "height": 36,
+      "confidence": 92.065,
+      "text": "Sinnvolles?"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        450,
+        1078,
+        496
+      ],
+      "left": 270,
+      "top": 450,
+      "right": 1078,
+      "bottom": 496,
+      "width": 808,
+      "height": 46,
+      "confidence": 93.717,
+      "text": "Angeblich sinnvolle Sachen hatte ich"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        272,
+        513,
+        1117,
+        559
+      ],
+      "left": 272,
+      "top": 513,
+      "right": 1117,
+      "bottom": 559,
+      "width": 845,
+      "height": 46,
+      "confidence": 95.258,
+      "text": "schon im Angestellten-Dasein, war mir"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        578,
+        638,
+        624
+      ],
+      "left": 273,
+      "top": 578,
+      "right": 638,
+      "bottom": 624,
+      "width": 365,
+      "height": 46,
+      "confidence": 93.349,
+      "text": "irgendwie nichts."
+    },
+    {
+      "id": "l008",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        703,
+        907,
+        740
+      ],
+      "left": 270,
+      "top": 703,
+      "right": 907,
+      "bottom": 740,
+      "width": 637,
+      "height": 37,
+      "confidence": 94.676,
+      "text": "Was war Dein erstes Event?"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        274,
+        767,
+        975,
+        813
+      ],
+      "left": 274,
+      "top": 767,
+      "right": 975,
+      "bottom": 813,
+      "width": 701,
+      "height": 46,
+      "confidence": 91.851,
+      "text": "Das ,,MalZwei“ in Kreuzberg. Es"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 4,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        831,
+        941,
+        877
+      ],
+      "left": 270,
+      "top": 831,
+      "right": 941,
+      "bottom": 877,
+      "width": 671,
+      "height": 46,
+      "confidence": 94.803,
+      "text": "war eigentlich eine eher kleine"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 4,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        893,
+        1038,
+        936
+      ],
+      "left": 273,
+      "top": 893,
+      "right": 1038,
+      "bottom": 936,
+      "width": 765,
+      "height": 43,
+      "confidence": 93.927,
+      "text": "Sache, funf bis sechs Leute haben"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 4,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        273,
+        956,
+        1107,
+        1003
+      ],
+      "left": 273,
+      "top": 956,
+      "right": 1107,
+      "bottom": 1003,
+      "width": 834,
+      "height": 47,
+      "confidence": 91.808,
+      "text": "mitgeholfen, die Veranstaltungsraume"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 6,
+      "paragraphNumber": 7,
+      "lineNumber": 1,
+      "bbox": [
+        271,
+        2543,
+        966,
+        2587
+      ],
+      "left": 271,
+      "top": 2543,
+      "right": 966,
+      "bottom": 2587,
+      "width": 695,
+      "height": 44,
+      "confidence": 94.996,
+      "text": "dass du ein Konzept einreichst,"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 6,
+      "paragraphNumber": 8,
+      "lineNumber": 1,
+      "bbox": [
+        271,
+        2605,
+        1043,
+        2642
+      ],
+      "left": 271,
+      "top": 2605,
+      "right": 1043,
+      "bottom": 2642,
+      "width": 772,
+      "height": 37,
+      "confidence": 94.212,
+      "text": "das sie selbst verstehen. Naturlich"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 6,
+      "paragraphNumber": 8,
+      "lineNumber": 2,
+      "bbox": [
+        270,
+        2670,
+        1001,
+        2712
+      ],
+      "left": 270,
+      "top": 2670,
+      "right": 1001,
+      "bottom": 2712,
+      "width": 731,
+      "height": 42,
+      "confidence": 94.22,
+      "text": "verstehen die meisten nicht, was"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 6,
+      "paragraphNumber": 8,
+      "lineNumber": 3,
+      "bbox": [
+        266,
+        2733,
+        1056,
+        2778
+      ],
+      "left": 266,
+      "top": 2733,
+      "right": 1056,
+      "bottom": 2778,
+      "width": 790,
+      "height": 45,
+      "confidence": 94.714,
+      "text": "jemand aus der Berliner Partyszene"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 6,
+      "paragraphNumber": 8,
+      "lineNumber": 4,
+      "bbox": [
+        273,
+        2795,
+        1117,
+        2842
+      ],
+      "left": 273,
+      "top": 2795,
+      "right": 1117,
+      "bottom": 2842,
+      "width": 844,
+      "height": 47,
+      "confidence": 92.085,
+      "text": "machen mochte, wenn sie den ganzen"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 6,
+      "paragraphNumber": 8,
+      "lineNumber": 5,
+      "bbox": [
+        270,
+        2858,
+        1028,
+        2905
+      ],
+      "left": 270,
+      "top": 2858,
+      "right": 1028,
+      "bottom": 2905,
+      "width": 758,
+      "height": 47,
+      "confidence": 93.933,
+      "text": "Tag nur in ihren verrauchten Buros"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 6,
+      "paragraphNumber": 8,
+      "lineNumber": 6,
+      "bbox": [
+        272,
+        2924,
+        1039,
+        2970
+      ],
+      "left": 272,
+      "top": 2924,
+      "right": 1039,
+      "bottom": 2970,
+      "width": 767,
+      "height": 46,
+      "confidence": 92.087,
+      "text": "sitzen und irgendwo Stempel drauf"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 6,
+      "paragraphNumber": 8,
+      "lineNumber": 7,
+      "bbox": [
+        273,
+        2987,
+        1107,
+        3023
+      ],
+      "left": 273,
+      "top": 2987,
+      "right": 1107,
+      "bottom": 3023,
+      "width": 834,
+      "height": 36,
+      "confidence": 94.476,
+      "text": "machen und letztendlich musst Du es"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 6,
+      "paragraphNumber": 8,
+      "lineNumber": 8,
+      "bbox": [
+        271,
+        3050,
+        1111,
+        3096
+      ],
+      "left": 271,
+      "top": 3050,
+      "right": 1111,
+      "bottom": 3096,
+      "width": 840,
+      "height": 46,
+      "confidence": 95.854,
+      "text": "dann so machen, wie Du es eigentlich"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 6,
+      "paragraphNumber": 8,
+      "lineNumber": 9,
+      "bbox": [
+        273,
+        3113,
+        1026,
+        3149
+      ],
+      "left": 273,
+      "top": 3113,
+      "right": 1026,
+      "bottom": 3149,
+      "width": 753,
+      "height": 36,
+      "confidence": 92.544,
+      "text": "machen wolltest. Veranstalten hat"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 6,
+      "paragraphNumber": 8,
+      "lineNumber": 10,
+      "bbox": [
+        271,
+        3176,
+        1011,
+        3222
+      ],
+      "left": 271,
+      "top": 3176,
+      "right": 1011,
+      "bottom": 3222,
+      "width": 740,
+      "height": 46,
+      "confidence": 95.043,
+      "text": "auch viel mit Spontaneitat zu tun."
+    },
+    {
+      "id": "l024",
+      "blockNumber": 6,
+      "paragraphNumber": 8,
+      "lineNumber": 11,
+      "bbox": [
+        273,
+        3239,
+        1062,
+        3285
+      ],
+      "left": 273,
+      "top": 3239,
+      "right": 1062,
+      "bottom": 3285,
+      "width": 789,
+      "height": 46,
+      "confidence": 91.488,
+      "text": "Meistens eine temporare Partyreihe"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 6,
+      "paragraphNumber": 8,
+      "lineNumber": 12,
+      "bbox": [
+        271,
+        3303,
+        1012,
+        3340
+      ],
+      "left": 271,
+      "top": 3303,
+      "right": 1012,
+      "bottom": 3340,
+      "width": 741,
+      "height": 37,
+      "confidence": 94.635,
+      "text": "an verschiedenen Orten. Da kann"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 6,
+      "paragraphNumber": 8,
+      "lineNumber": 13,
+      "bbox": [
+        273,
+        3367,
+        1121,
+        3404
+      ],
+      "left": 273,
+      "top": 3367,
+      "right": 1121,
+      "bottom": 3404,
+      "width": 848,
+      "height": 37,
+      "confidence": 96.343,
+      "text": "man dann einfach nicht so viel Zeit fur"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 6,
+      "paragraphNumber": 8,
+      "lineNumber": 14,
+      "bbox": [
+        272,
+        3427,
+        1094,
+        3481
+      ],
+      "left": 272,
+      "top": 3427,
+      "right": 1094,
+      "bottom": 3481,
+      "width": 822,
+      "height": 54,
+      "confidence": 94.014,
+      "text": "aufbringen. Es ist ja kein klassisches"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 6,
+      "paragraphNumber": 8,
+      "lineNumber": 15,
+      "bbox": [
+        274,
+        3494,
+        1088,
+        3540
+      ],
+      "left": 274,
+      "top": 3494,
+      "right": 1088,
+      "bottom": 3540,
+      "width": 814,
+      "height": 46,
+      "confidence": 94.503,
+      "text": "Event, wo drei, vier vollgepackte LKW"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 6,
+      "paragraphNumber": 8,
+      "lineNumber": 16,
+      "bbox": [
+        271,
+        3557,
+        1104,
+        3603
+      ],
+      "left": 271,
+      "top": 3557,
+      "right": 1104,
+      "bottom": 3603,
+      "width": 833,
+      "height": 46,
+      "confidence": 91.145,
+      "text": "ankommen und ’ne Riesenlichtanlage"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 6,
+      "paragraphNumber": 8,
+      "lineNumber": 17,
+      "bbox": [
+        271,
+        3620,
+        1027,
+        3667
+      ],
+      "left": 271,
+      "top": 3620,
+      "right": 1027,
+      "bottom": 3667,
+      "width": 756,
+      "height": 47,
+      "confidence": 88.377,
+      "text": "aufbauen. Es geschieht alles uber"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 6,
+      "paragraphNumber": 8,
+      "lineNumber": 18,
+      "bbox": [
+        275,
+        3684,
+        999,
+        3729
+      ],
+      "left": 275,
+      "top": 3684,
+      "right": 999,
+      "bottom": 3729,
+      "width": 724,
+      "height": 45,
+      "confidence": 93.544,
+      "text": "»Manpower“ und Freunde und da"
+    },
+    {
+      "id": "l032",
+      "blockNumber": 6,
+      "paragraphNumber": 8,
+      "lineNumber": 19,
+      "bbox": [
+        270,
+        3747,
+        949,
+        3784
+      ],
+      "left": 270,
+      "top": 3747,
+      "right": 949,
+      "bottom": 3784,
+      "width": 679,
+      "height": 37,
+      "confidence": 95.979,
+      "text": "verstehe ich leider einfach den"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 6,
+      "paragraphNumber": 8,
+      "lineNumber": 20,
+      "bbox": [
+        274,
+        3810,
+        1113,
+        3853
+      ],
+      "left": 274,
+      "top": 3810,
+      "right": 1113,
+      "bottom": 3853,
+      "width": 839,
+      "height": 43,
+      "confidence": 94.915,
+      "text": "Deutschen Staat nicht, dass so etwas"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 6,
+      "paragraphNumber": 8,
+      "lineNumber": 21,
+      "bbox": [
+        273,
+        3874,
+        1034,
+        3921
+      ],
+      "left": 273,
+      "top": 3874,
+      "right": 1034,
+      "bottom": 3921,
+      "width": 761,
+      "height": 47,
+      "confidence": 93.087,
+      "text": "nicht unterstutzt wird. Es ergibt oft"
+    },
+    {
+      "id": "l035",
+      "blockNumber": 6,
+      "paragraphNumber": 8,
+      "lineNumber": 22,
+      "bbox": [
+        271,
+        3938,
+        1094,
+        3980
+      ],
+      "left": 271,
+      "top": 3938,
+      "right": 1094,
+      "bottom": 3980,
+      "width": 823,
+      "height": 42,
+      "confidence": 93.958,
+      "text": "einfach keinen Sinn. Jeder, der schon"
+    },
+    {
+      "id": "l036",
+      "blockNumber": 6,
+      "paragraphNumber": 9,
+      "lineNumber": 1,
+      "bbox": [
+        16,
+        4001,
+        1077,
+        4052
+      ],
+      "left": 16,
+      "top": 4001,
+      "right": 1077,
+      "bottom": 4052,
+      "width": 1061,
+      "height": 51,
+      "confidence": 84.139,
+      "text": "SPER Mal versucht hat legal auch nur eine"
+    },
+    {
+      "id": "l037",
+      "blockNumber": 6,
+      "paragraphNumber": 9,
+      "lineNumber": 2,
+      "bbox": [
+        274,
+        4055,
+        1114,
+        4106
+      ],
+      "left": 274,
+      "top": 4055,
+      "right": 1114,
+      "bottom": 4106,
+      "width": 840,
+      "height": 51,
+      "confidence": 91.014,
+      "text": "Bar anzumelden, hat dann acht Amter,"
+    },
+    {
+      "id": "l038",
+      "blockNumber": 6,
+      "paragraphNumber": 9,
+      "lineNumber": 3,
+      "bbox": [
+        156,
+        4106,
+        387,
+        4133
+      ],
+      "left": 156,
+      "top": 4106,
+      "right": 387,
+      "bottom": 4133,
+      "width": 231,
+      "height": 27,
+      "confidence": 41.821,
+      "text": "3. ."
+    },
+    {
+      "id": "l039",
+      "blockNumber": 6,
+      "paragraphNumber": 9,
+      "lineNumber": 4,
+      "bbox": [
+        271,
+        4128,
+        1522,
+        4174
+      ],
+      "left": 271,
+      "top": 4128,
+      "right": 1522,
+      "bottom": 4174,
+      "width": 1251,
+      "height": 46,
+      "confidence": 80.31,
+      "text": "die sich gegenseitig sperren und -_."
+    },
+    {
+      "id": "l040",
+      "blockNumber": 6,
+      "paragraphNumber": 9,
+      "lineNumber": 5,
+      "bbox": [
+        18,
+        4179,
+        1105,
+        4237
+      ],
+      "left": 18,
+      "top": 4179,
+      "right": 1105,
+      "bottom": 4237,
+      "width": 1087,
+      "height": 58,
+      "confidence": 79.718,
+      "text": "Sea tie behindern bis einem die Lust vergeht."
+    },
+    {
+      "id": "l041",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        262,
+        4229,
+        1311,
+        4306
+      ],
+      "left": 262,
+      "top": 4229,
+      "right": 1311,
+      "bottom": 4306,
+      "width": 1049,
+      "height": 77,
+      "confidence": 44.783,
+      "text": "a 1) Be 5"
+    },
+    {
+      "id": "l042",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        498,
+        4281,
+        522,
+        4303
+      ],
+      "left": 498,
+      "top": 4281,
+      "right": 522,
+      "bottom": 4303,
+      "width": 24,
+      "height": 22,
+      "confidence": 44.198,
+      "text": "N"
+    },
+    {
+      "id": "l043",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        194,
+        4295,
+        421,
+        4313
+      ],
+      "left": 194,
+      "top": 4295,
+      "right": 421,
+      "bottom": 4313,
+      "width": 227,
+      "height": 18,
+      "confidence": 52.891,
+      "text": "- i)"
+    },
+    {
+      "id": "l044",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        11,
+        4301,
+        492,
+        4361
+      ],
+      "left": 11,
+      "top": 4301,
+      "right": 492,
+      "bottom": 4361,
+      "width": 481,
+      "height": 60,
+      "confidence": 57.729,
+      "text": "Xer id wy AO"
+    },
+    {
+      "id": "l045",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        269,
+        4329,
+        368,
+        4353
+      ],
+      "left": 269,
+      "top": 4329,
+      "right": 368,
+      "bottom": 4353,
+      "width": 99,
+      "height": 24,
+      "confidence": 24.339,
+      "text": "4 ep"
+    }
+  ]
+}

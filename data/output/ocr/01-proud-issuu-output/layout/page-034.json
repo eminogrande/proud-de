@@ -1,0 +1,1427 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        83,
+        83,
+        234,
+        120
+      ],
+      "left": 83,
+      "top": 83,
+      "right": 234,
+      "bottom": 120,
+      "width": 151,
+      "height": 37,
+      "confidence": 96.335,
+      "text": "feature"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1270,
+        651,
+        2084,
+        691
+      ],
+      "left": 1270,
+      "top": 651,
+      "right": 2084,
+      "bottom": 691,
+      "width": 814,
+      "height": 40,
+      "confidence": 94.41,
+      "text": "Wer einmal Nacht lebt, will noch mehr"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        274,
+        883,
+        3011,
+        930
+      ],
+      "left": 274,
+      "top": 883,
+      "right": 3011,
+      "bottom": 930,
+      "width": 2737,
+      "height": 47,
+      "confidence": 94.782,
+      "text": "Es gibt einige Grunde sich auf einer Baugraben, von hinten in die kleine"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        273,
+        945,
+        3068,
+        993
+      ],
+      "left": 273,
+      "top": 945,
+      "right": 3068,
+      "bottom": 993,
+      "width": 2795,
+      "height": 48,
+      "confidence": 94.24,
+      "text": "Party blicken zu lassen. Langeweile, Tur eines alten Gebaudes. Rauf bis in"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        274,
+        1009,
+        3070,
+        1056
+      ],
+      "left": 274,
+      "top": 1009,
+      "right": 3070,
+      "bottom": 1056,
+      "width": 2796,
+      "height": 47,
+      "confidence": 93.823,
+      "text": "Deine Freunde, Deine Ex-Beziehung, den vierten Stock. Wow. Wir befanden"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        271,
+        1072,
+        3010,
+        1118
+      ],
+      "left": 271,
+      "top": 1072,
+      "right": 3010,
+      "bottom": 1118,
+      "width": 2739,
+      "height": 46,
+      "confidence": 95.324,
+      "text": "der Hype oder einfach platter uns in einem Meer aus Teelichtern,"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        274,
+        1136,
+        3032,
+        1183
+      ],
+      "left": 274,
+      "top": 1136,
+      "right": 3032,
+      "bottom": 1183,
+      "width": 2758,
+      "height": 47,
+      "confidence": 93.776,
+      "text": "Drogenkonsum. Manchmal ist es die die fur die schummrige Beleuchtung"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        1200,
+        1097,
+        1246
+      ],
+      "left": 273,
+      "top": 1200,
+      "right": 1097,
+      "bottom": 1246,
+      "width": 824,
+      "height": 46,
+      "confidence": 76.911,
+      "text": "hei8&e Nachbarin, Gruppenzwang oder"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2235,
+        1200,
+        2960,
+        1246
+      ],
+      "left": 2235,
+      "top": 1200,
+      "right": 2960,
+      "bottom": 1246,
+      "width": 725,
+      "height": 46,
+      "confidence": 92.886,
+      "text": "sorgten. Es war angenehm weich"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2236,
+        1262,
+        3001,
+        1308
+      ],
+      "left": 2236,
+      "top": 1262,
+      "right": 3001,
+      "bottom": 1308,
+      "width": 765,
+      "height": 46,
+      "confidence": 83.706,
+      "text": "unter unseren Fu8en: Teppich. Wie"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        271,
+        1263,
+        1111,
+        1309
+      ],
+      "left": 271,
+      "top": 1263,
+      "right": 1111,
+      "bottom": 1309,
+      "width": 840,
+      "height": 46,
+      "confidence": 92.666,
+      "text": "einfach irgendein Posting im virtuellen"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        274,
+        1326,
+        1090,
+        1372
+      ],
+      "left": 274,
+      "top": 1326,
+      "right": 1090,
+      "bottom": 1372,
+      "width": 816,
+      "height": 46,
+      "confidence": 93.32,
+      "text": "Leben. Fakt ist, dass irgendwer lockt."
+    },
+    {
+      "id": "l013",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2236,
+        1326,
+        2998,
+        1371
+      ],
+      "left": 2236,
+      "top": 1326,
+      "right": 2998,
+      "bottom": 1371,
+      "width": 762,
+      "height": 45,
+      "confidence": 94.406,
+      "text": "kam denn bitte der Teppich dahin?"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        274,
+        1390,
+        1048,
+        1437
+      ],
+      "left": 274,
+      "top": 1390,
+      "right": 1048,
+      "bottom": 1437,
+      "width": 774,
+      "height": 47,
+      "confidence": 93.803,
+      "text": "Fur mich begann der ganze Techno-"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        2237,
+        1391,
+        2891,
+        1433
+      ],
+      "left": 2237,
+      "top": 1391,
+      "right": 2891,
+      "bottom": 1433,
+      "width": 654,
+      "height": 42,
+      "confidence": 95.104,
+      "text": "Es waren etwa 200 Leute, die"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        2236,
+        1452,
+        2929,
+        1500
+      ],
+      "left": 2236,
+      "top": 1452,
+      "right": 2929,
+      "bottom": 1500,
+      "width": 693,
+      "height": 48,
+      "confidence": 91.812,
+      "text": "leger gekleidet mit glucklichem,"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        274,
+        1454,
+        1033,
+        1498
+      ],
+      "left": 274,
+      "top": 1454,
+      "right": 1033,
+      "bottom": 1498,
+      "width": 759,
+      "height": 44,
+      "confidence": 91.253,
+      "text": "Utz-Utz-Sucht-nach-Kellern-Quatsch"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        271,
+        1515,
+        1048,
+        1561
+      ],
+      "left": 271,
+      "top": 1515,
+      "right": 1048,
+      "bottom": 1561,
+      "width": 777,
+      "height": 46,
+      "confidence": 93.093,
+      "text": "an einem lauen Spatsommerabend"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        2233,
+        1517,
+        2915,
+        1563
+      ],
+      "left": 2233,
+      "top": 1517,
+      "right": 2915,
+      "bottom": 1563,
+      "width": 682,
+      "height": 46,
+      "confidence": 91.363,
+      "text": "gelassenem Gesichtsausdruck"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        270,
+        1581,
+        1070,
+        1627
+      ],
+      "left": 270,
+      "top": 1581,
+      "right": 1070,
+      "bottom": 1627,
+      "width": 800,
+      "height": 46,
+      "confidence": 93.667,
+      "text": "vor einigen Jahren. Ein kleines Auto,"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        2234,
+        1581,
+        2962,
+        1626
+      ],
+      "left": 2234,
+      "top": 1581,
+      "right": 2962,
+      "bottom": 1626,
+      "width": 728,
+      "height": 45,
+      "confidence": 91.925,
+      "text": "quatschten, tranken und tanzten."
+    },
+    {
+      "id": "l022",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        270,
+        1643,
+        1116,
+        1686
+      ],
+      "left": 270,
+      "top": 1643,
+      "right": 1116,
+      "bottom": 1686,
+      "width": 846,
+      "height": 43,
+      "confidence": 87.675,
+      "text": "vollkommen uberladen, eine Shirkhan-"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        2236,
+        1644,
+        3077,
+        1690
+      ],
+      "left": 2236,
+      "top": 1644,
+      "right": 3077,
+      "bottom": 1690,
+      "width": 841,
+      "height": 46,
+      "confidence": 92.046,
+      "text": "Bei genauerem Hinschauen entdeckte"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        272,
+        1706,
+        1064,
+        1744
+      ],
+      "left": 272,
+      "top": 1706,
+      "right": 1064,
+      "bottom": 1744,
+      "width": 792,
+      "height": 38,
+      "confidence": 95.208,
+      "text": "CD in voller Lautstarke und die Lust"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        2236,
+        1707,
+        3005,
+        1753
+      ],
+      "left": 2236,
+      "top": 1707,
+      "right": 3005,
+      "bottom": 1753,
+      "width": 769,
+      "height": 46,
+      "confidence": 95.132,
+      "text": "ich einen Generator, der die Anlage"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 10,
+      "bbox": [
+        273,
+        1769,
+        965,
+        1807
+      ],
+      "left": 273,
+      "top": 1769,
+      "right": 965,
+      "bottom": 1807,
+      "width": 692,
+      "height": 38,
+      "confidence": 91.963,
+      "text": "nach Neuem. Leicht enttauscht"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 10,
+      "bbox": [
+        2236,
+        1770,
+        2683,
+        1816
+      ],
+      "left": 2236,
+      "top": 1770,
+      "right": 2683,
+      "bottom": 1816,
+      "width": 447,
+      "height": 46,
+      "confidence": 93.174,
+      "text": "mit Strom versorgte."
+    },
+    {
+      "id": "l028",
+      "blockNumber": 5,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        1835,
+        997,
+        1871
+      ],
+      "left": 270,
+      "top": 1835,
+      "right": 997,
+      "bottom": 1871,
+      "width": 727,
+      "height": 36,
+      "confidence": 92.634,
+      "text": "von dem monotonen Clubbesuch"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 11,
+      "bbox": [
+        2237,
+        1835,
+        2902,
+        1881
+      ],
+      "left": 2237,
+      "top": 1835,
+      "right": 2902,
+      "bottom": 1881,
+      "width": 665,
+      "height": 46,
+      "confidence": 92.284,
+      "text": "Ich war gefesselt, euphorisiert"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 12,
+      "bbox": [
+        2236,
+        1896,
+        2964,
+        1944
+      ],
+      "left": 2236,
+      "top": 1896,
+      "right": 2964,
+      "bottom": 1944,
+      "width": 728,
+      "height": 48,
+      "confidence": 91.997,
+      "text": "und glucklich. Wieso organisierte"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 5,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        270,
+        1898,
+        1003,
+        1940
+      ],
+      "left": 270,
+      "top": 1898,
+      "right": 1003,
+      "bottom": 1940,
+      "width": 733,
+      "height": 42,
+      "confidence": 91.594,
+      "text": "wollten wir weiterziehen, wussten"
+    },
+    {
+      "id": "l032",
+      "blockNumber": 5,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        271,
+        1961,
+        994,
+        2007
+      ],
+      "left": 271,
+      "top": 1961,
+      "right": 994,
+      "bottom": 2007,
+      "width": 723,
+      "height": 46,
+      "confidence": 96.488,
+      "text": "aber nicht genau, was uns in der"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 13,
+      "bbox": [
+        2228,
+        1961,
+        2865,
+        2006
+      ],
+      "left": 2228,
+      "top": 1961,
+      "right": 2865,
+      "bottom": 2006,
+      "width": 637,
+      "height": 45,
+      "confidence": 95.072,
+      "text": "jemand mit soviel Liebe eine"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 5,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        270,
+        2024,
+        1051,
+        2070
+      ],
+      "left": 270,
+      "top": 2024,
+      "right": 1051,
+      "bottom": 2070,
+      "width": 781,
+      "height": 46,
+      "confidence": 92.444,
+      "text": "vorgeschlagenen Location erwarten"
+    },
+    {
+      "id": "l035",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 14,
+      "bbox": [
+        2234,
+        2024,
+        3035,
+        2070
+      ],
+      "left": 2234,
+      "top": 2024,
+      "right": 3035,
+      "bottom": 2070,
+      "width": 801,
+      "height": 46,
+      "confidence": 94.506,
+      "text": "derartige Veranstaltung, was war die"
+    },
+    {
+      "id": "l036",
+      "blockNumber": 5,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        272,
+        2087,
+        1026,
+        2134
+      ],
+      "left": 272,
+      "top": 2087,
+      "right": 1026,
+      "bottom": 2134,
+      "width": 754,
+      "height": 47,
+      "confidence": 91.143,
+      "text": "sollte. Es hie8, irgendwer wurde in"
+    },
+    {
+      "id": "l037",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 15,
+      "bbox": [
+        2236,
+        2088,
+        2489,
+        2125
+      ],
+      "left": 2236,
+      "top": 2088,
+      "right": 2489,
+      "bottom": 2125,
+      "width": 253,
+      "height": 37,
+      "confidence": 96.071,
+      "text": "Motivation?"
+    },
+    {
+      "id": "l038",
+      "blockNumber": 6,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        2371,
+        2150,
+        2975,
+        2197
+      ],
+      "left": 2371,
+      "top": 2150,
+      "right": 2975,
+      "bottom": 2197,
+      "width": 604,
+      "height": 47,
+      "confidence": 96.24,
+      "text": "hat sich ein paar der Trager"
+    },
+    {
+      "id": "l039",
+      "blockNumber": 5,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        271,
+        2151,
+        802,
+        2197
+      ],
+      "left": 271,
+      "top": 2151,
+      "right": 802,
+      "bottom": 2197,
+      "width": 531,
+      "height": 46,
+      "confidence": 92.2,
+      "text": "einer Fabriketage feiern."
+    },
+    {
+      "id": "l040",
+      "blockNumber": 5,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        274,
+        2214,
+        925,
+        2252
+      ],
+      "left": 274,
+      "top": 2214,
+      "right": 925,
+      "bottom": 2252,
+      "width": 651,
+      "height": 38,
+      "confidence": 84.73,
+      "text": "In einer dunklen Seitenstra8e"
+    },
+    {
+      "id": "l041",
+      "blockNumber": 6,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        2234,
+        2214,
+        2893,
+        2260
+      ],
+      "left": 2234,
+      "top": 2214,
+      "right": 2893,
+      "bottom": 2260,
+      "width": 659,
+      "height": 46,
+      "confidence": 93.292,
+      "text": "dieser Bewegung geschnappt."
+    },
+    {
+      "id": "l042",
+      "blockNumber": 6,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        2237,
+        2278,
+        3044,
+        2323
+      ],
+      "left": 2237,
+      "top": 2278,
+      "right": 3044,
+      "bottom": 2323,
+      "width": 807,
+      "height": 45,
+      "confidence": 93.963,
+      "text": "Leute, die wir personlich kennen und"
+    },
+    {
+      "id": "l043",
+      "blockNumber": 5,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        272,
+        2279,
+        913,
+        2325
+      ],
+      "left": 272,
+      "top": 2279,
+      "right": 913,
+      "bottom": 2325,
+      "width": 641,
+      "height": 46,
+      "confidence": 92.163,
+      "text": "angekommen dachten wir, es"
+    },
+    {
+      "id": "l044",
+      "blockNumber": 5,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        2340,
+        988,
+        2388
+      ],
+      "left": 270,
+      "top": 2340,
+      "right": 988,
+      "bottom": 2388,
+      "width": 718,
+      "height": 48,
+      "confidence": 92.856,
+      "text": "wurde ein Irrtum vorliegen. Doch"
+    },
+    {
+      "id": "l045",
+      "blockNumber": 6,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        2235,
+        2341,
+        2970,
+        2384
+      ],
+      "left": 2235,
+      "top": 2341,
+      "right": 2970,
+      "bottom": 2384,
+      "width": 735,
+      "height": 43,
+      "confidence": 93.874,
+      "text": "schatzen. Leute, auf deren Feiern"
+    },
+    {
+      "id": "l046",
+      "blockNumber": 5,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        271,
+        2403,
+        883,
+        2451
+      ],
+      "left": 271,
+      "top": 2403,
+      "right": 883,
+      "bottom": 2451,
+      "width": 612,
+      "height": 48,
+      "confidence": 90.824,
+      "text": "ausgestiegen horten wir ein"
+    },
+    {
+      "id": "l047",
+      "blockNumber": 6,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        2236,
+        2405,
+        2990,
+        2447
+      ],
+      "left": 2236,
+      "top": 2405,
+      "right": 2990,
+      "bottom": 2447,
+      "width": 754,
+      "height": 42,
+      "confidence": 94.623,
+      "text": "man froh ist, sich wieder zu sehen"
+    },
+    {
+      "id": "l048",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        42,
+        2466,
+        117,
+        2619
+      ],
+      "left": 42,
+      "top": 2466,
+      "right": 117,
+      "bottom": 2619,
+      "width": 75,
+      "height": 153,
+      "confidence": 24.246,
+      "text": "ee)"
+    },
+    {
+      "id": "l049",
+      "blockNumber": 6,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        2236,
+        2467,
+        3063,
+        2514
+      ],
+      "left": 2236,
+      "top": 2467,
+      "right": 3063,
+      "bottom": 2514,
+      "width": 827,
+      "height": 47,
+      "confidence": 93.978,
+      "text": "und die Partygaste untereinander Lob"
+    },
+    {
+      "id": "l050",
+      "blockNumber": 5,
+      "paragraphNumber": 4,
+      "lineNumber": 3,
+      "bbox": [
+        272,
+        2468,
+        1076,
+        2512
+      ],
+      "left": 272,
+      "top": 2468,
+      "right": 1076,
+      "bottom": 2512,
+      "width": 804,
+      "height": 44,
+      "confidence": 82.854,
+      "text": "schwaches, dumpfes Wummern. Wir"
+    },
+    {
+      "id": "l051",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        120,
+        2532,
+        3053,
+        2616
+      ],
+      "left": 120,
+      "top": 2532,
+      "right": 3053,
+      "bottom": 2616,
+      "width": 2933,
+      "height": 84,
+      "confidence": 90.86,
+      "text": "5 waren doch richtig. Nun trieb uns die verteilen. Irgendwie sind wir dann ein"
+    },
+    {
+      "id": "l052",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        0,
+        2572,
+        3047,
+        2654
+      ],
+      "left": 0,
+      "top": 2572,
+      "right": 3047,
+      "bottom": 2654,
+      "width": 3047,
+      "height": 82,
+      "confidence": 90.588,
+      "text": "\\ NNN Neugier. Wir fingen an zu suchen. bisschen darauf, ein Teil davon"
+    },
+    {
+      "id": "l053",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        69,
+        2631,
+        2820,
+        2704
+      ],
+      "left": 69,
+      "top": 2631,
+      "right": 2820,
+      "bottom": 2704,
+      "width": 2751,
+      "height": 73,
+      "confidence": 90.679,
+      "text": "NO Durch einen aufgerissenen Zaun, - zu sein. Und das mal zwei."
+    },
+    {
+      "id": "l054",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        69,
+        2664,
+        216,
+        2765
+      ],
+      "left": 69,
+      "top": 2664,
+      "right": 216,
+      "bottom": 2765,
+      "width": 147,
+      "height": 101,
+      "confidence": 43.706,
+      "text": "WN"
+    },
+    {
+      "id": "l055",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        270,
+        2721,
+        1073,
+        2767
+      ],
+      "left": 270,
+      "top": 2721,
+      "right": 1073,
+      "bottom": 2767,
+      "width": 803,
+      "height": 46,
+      "confidence": 92.482,
+      "text": "vorbei an einem halb ausgehobenen"
+    },
+    {
+      "id": "l056",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        43,
+        2730,
+        2886,
+        2858
+      ],
+      "left": 43,
+      "top": 2730,
+      "right": 2886,
+      "bottom": 2858,
+      "width": 2843,
+      "height": 128,
+      "confidence": 48.421,
+      "text": "NN RS,"
+    },
+    {
+      "id": "l057",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        19,
+        2815,
+        2946,
+        2898
+      ],
+      "left": 19,
+      "top": 2815,
+      "right": 2946,
+      "bottom": 2898,
+      "width": 2927,
+      "height": 83,
+      "confidence": 73.23,
+      "text": "Ws www. agazi"
+    },
+    {
+      "id": "l058",
+      "blockNumber": 26,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        2740,
+        2901,
+        2772,
+        2992
+      ],
+      "left": 2740,
+      "top": 2901,
+      "right": 2772,
+      "bottom": 2992,
+      "width": 32,
+      "height": 91,
+      "confidence": 43.223,
+      "text": "did da"
+    },
+    {
+      "id": "l059",
+      "blockNumber": 26,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2712,
+        2904,
+        2726,
+        2960
+      ],
+      "left": 2712,
+      "top": 2904,
+      "right": 2726,
+      "bottom": 2960,
+      "width": 14,
+      "height": 56,
+      "confidence": 48.287,
+      "text": "AAS"
+    },
+    {
+      "id": "l060",
+      "blockNumber": 30,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        2850,
+        2904,
+        2869,
+        2999
+      ],
+      "left": 2850,
+      "top": 2904,
+      "right": 2869,
+      "bottom": 2999,
+      "width": 19,
+      "height": 95,
+      "confidence": 39.368,
+      "text": "Mddid."
+    },
+    {
+      "id": "l061",
+      "blockNumber": 26,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2721,
+        2908,
+        2752,
+        3098
+      ],
+      "left": 2721,
+      "top": 2908,
+      "right": 2752,
+      "bottom": 3098,
+      "width": 31,
+      "height": 190,
+      "confidence": 38.643,
+      "text": "PS BP LD LIS"
+    },
+    {
+      "id": "l062",
+      "blockNumber": 30,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        2865,
+        3023,
+        2899,
+        3244
+      ],
+      "left": 2865,
+      "top": 3023,
+      "right": 2899,
+      "bottom": 3244,
+      "width": 34,
+      "height": 221,
+      "confidence": 35.043,
+      "text": "(7 i AAA"
+    },
+    {
+      "id": "l063",
+      "blockNumber": 30,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        2886,
+        3074,
+        2921,
+        3270
+      ],
+      "left": 2886,
+      "top": 3074,
+      "right": 2921,
+      "bottom": 3270,
+      "width": 35,
+      "height": 196,
+      "confidence": 25.28,
+      "text": "II Ii dA"
+    },
+    {
+      "id": "l064",
+      "blockNumber": 27,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2703,
+        3090,
+        2732,
+        3144
+      ],
+      "left": 2703,
+      "top": 3090,
+      "right": 2732,
+      "bottom": 3144,
+      "width": 29,
+      "height": 54,
+      "confidence": 47.006,
+      "text": "A \\7"
+    },
+    {
+      "id": "l065",
+      "blockNumber": 27,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2725,
+        3110,
+        2740,
+        3146
+      ],
+      "left": 2725,
+      "top": 3110,
+      "right": 2740,
+      "bottom": 3146,
+      "width": 15,
+      "height": 36,
+      "confidence": 74.298,
+      "text": "a"
+    },
+    {
+      "id": "l066",
+      "blockNumber": 29,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2630,
+        3123,
+        2641,
+        3131
+      ],
+      "left": 2630,
+      "top": 3123,
+      "right": 2641,
+      "bottom": 3131,
+      "width": 11,
+      "height": 8,
+      "confidence": 22.089,
+      "text": "."
+    },
+    {
+      "id": "l067",
+      "blockNumber": 29,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2666,
+        3126,
+        2686,
+        3135
+      ],
+      "left": 2666,
+      "top": 3126,
+      "right": 2686,
+      "bottom": 3135,
+      "width": 20,
+      "height": 9,
+      "confidence": 47.167,
+      "text": ","
+    },
+    {
+      "id": "l068",
+      "blockNumber": 27,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2742,
+        3127,
+        2757,
+        3138
+      ],
+      "left": 2742,
+      "top": 3127,
+      "right": 2757,
+      "bottom": 3138,
+      "width": 15,
+      "height": 11,
+      "confidence": 72.138,
+      "text": "4"
+    },
+    {
+      "id": "l069",
+      "blockNumber": 30,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        2834,
+        3214,
+        2849,
+        3236
+      ],
+      "left": 2834,
+      "top": 3214,
+      "right": 2849,
+      "bottom": 3236,
+      "width": 15,
+      "height": 22,
+      "confidence": 33.962,
+      "text": "7"
+    },
+    {
+      "id": "l070",
+      "blockNumber": 31,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2886,
+        3276,
+        2921,
+        3424
+      ],
+      "left": 2886,
+      "top": 3276,
+      "right": 2921,
+      "bottom": 3424,
+      "width": 35,
+      "height": 148,
+      "confidence": 67.858,
+      "text": "— Oo"
+    },
+    {
+      "id": "l071",
+      "blockNumber": 33,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3243,
+        4070,
+        3270,
+        4389
+      ],
+      "left": 3243,
+      "top": 4070,
+      "right": 3270,
+      "bottom": 4389,
+      "width": 27,
+      "height": 319,
+      "confidence": 39.125,
+      "text": "ABEREEERE"
+    }
+  ]
+}

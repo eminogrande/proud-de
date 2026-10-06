@@ -1,0 +1,747 @@
+{
+  "scale": 2.0,
+  "imageWidth": 4478,
+  "imageHeight": 3002,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        4233,
+        60,
+        4398,
+        99
+      ],
+      "left": 4233,
+      "top": 60,
+      "right": 4398,
+      "bottom": 99,
+      "width": 165,
+      "height": 39,
+      "confidence": 96.456,
+      "text": "feature"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1211,
+        251,
+        1578,
+        302
+      ],
+      "left": 1211,
+      "top": 251,
+      "right": 1578,
+      "bottom": 302,
+      "width": 367,
+      "height": 51,
+      "confidence": 90.533,
+      "text": "Ein gemutlicher"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1209,
+        311,
+        1963,
+        370
+      ],
+      "left": 1209,
+      "top": 311,
+      "right": 1963,
+      "bottom": 370,
+      "width": 754,
+      "height": 59,
+      "confidence": 94.309,
+      "text": "Sonnenscheinspaziergang durch"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1209,
+        380,
+        1971,
+        431
+      ],
+      "left": 1209,
+      "top": 380,
+      "right": 1971,
+      "bottom": 431,
+      "width": 762,
+      "height": 51,
+      "confidence": 91.729,
+      "text": "die wundervollste, einzigartigste,"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1209,
+        444,
+        1864,
+        495
+      ],
+      "left": 1209,
+      "top": 444,
+      "right": 1864,
+      "bottom": 495,
+      "width": 655,
+      "height": 51,
+      "confidence": 95.232,
+      "text": "schmierigste Stadt der Welt."
+    },
+    {
+      "id": "l006",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        1211,
+        505,
+        1792,
+        564
+      ],
+      "left": 1211,
+      "top": 505,
+      "right": 1792,
+      "bottom": 564,
+      "width": 581,
+      "height": 59,
+      "confidence": 86.363,
+      "text": "Moskau.... Neeee. Berlin!"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        1215,
+        568,
+        2047,
+        630
+      ],
+      "left": 1215,
+      "top": 568,
+      "right": 2047,
+      "bottom": 630,
+      "width": 832,
+      "height": 62,
+      "confidence": 88.095,
+      "text": "An jeder Ecke wird einem ,,Kunst” in"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        1232,
+        640,
+        2001,
+        678
+      ],
+      "left": 1232,
+      "top": 640,
+      "right": 2001,
+      "bottom": 678,
+      "width": 769,
+      "height": 38,
+      "confidence": 93.591,
+      "text": "erschiedensten Preisklassen und"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        1210,
+        700,
+        1979,
+        760
+      ],
+      "left": 1210,
+      "top": 700,
+      "right": 1979,
+      "bottom": 760,
+      "width": 769,
+      "height": 60,
+      "confidence": 92.573,
+      "text": "Qualitaten angeboten. Erstes und"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        1208,
+        769,
+        2011,
+        807
+      ],
+      "left": 1208,
+      "top": 769,
+      "right": 2011,
+      "bottom": 807,
+      "width": 803,
+      "height": 38,
+      "confidence": 83.291,
+      "text": "zweites Kriterium mussen dabel in"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 10,
+      "bbox": [
+        1211,
+        829,
+        2018,
+        888
+      ],
+      "left": 1211,
+      "top": 829,
+      "right": 2018,
+      "bottom": 888,
+      "width": 807,
+      "height": 59,
+      "confidence": 86.69,
+      "text": "keinerlei Verknupfung miteinander"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 11,
+      "bbox": [
+        1208,
+        898,
+        1374,
+        936
+      ],
+      "left": 1208,
+      "top": 898,
+      "right": 1374,
+      "bottom": 936,
+      "width": 166,
+      "height": 38,
+      "confidence": 87.511,
+      "text": "stehen."
+    },
+    {
+      "id": "l013",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 12,
+      "bbox": [
+        1211,
+        958,
+        1875,
+        1018
+      ],
+      "left": 1211,
+      "top": 958,
+      "right": 1875,
+      "bottom": 1018,
+      "width": 664,
+      "height": 60,
+      "confidence": 90.94,
+      "text": "Da wir von proud aber eh kein"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 13,
+      "bbox": [
+        1210,
+        1026,
+        1914,
+        1066
+      ],
+      "left": 1210,
+      "top": 1026,
+      "right": 1914,
+      "bottom": 1066,
+      "width": 704,
+      "height": 40,
+      "confidence": 93.46,
+      "text": "Geld besitzen und auch keinen"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 14,
+      "bbox": [
+        1211,
+        1089,
+        2019,
+        1147
+      ],
+      "left": 1211,
+      "top": 1089,
+      "right": 2019,
+      "bottom": 1147,
+      "width": 808,
+      "height": 58,
+      "confidence": 94.281,
+      "text": "Kunstgeschmack, dachten wir uns,"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 15,
+      "bbox": [
+        1249,
+        1157,
+        1966,
+        1202
+      ],
+      "left": 1249,
+      "top": 1157,
+      "right": 1966,
+      "bottom": 1202,
+      "width": 717,
+      "height": 45,
+      "confidence": 91.134,
+      "text": "ir klauen einfach mal drauf los,"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 16,
+      "bbox": [
+        1211,
+        1222,
+        1922,
+        1272
+      ],
+      "left": 1211,
+      "top": 1222,
+      "right": 1922,
+      "bottom": 1272,
+      "width": 711,
+      "height": 50,
+      "confidence": 93.252,
+      "text": "Irgendwas. Ging schief und wir"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 17,
+      "bbox": [
+        1209,
+        1282,
+        1930,
+        1341
+      ],
+      "left": 1209,
+      "top": 1282,
+      "right": 1930,
+      "bottom": 1341,
+      "width": 721,
+      "height": 59,
+      "confidence": 82.73,
+      "text": "SafBen danach drei Tage bei der"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 18,
+      "bbox": [
+        1209,
+        1351,
+        1877,
+        1390
+      ],
+      "left": 1209,
+      "top": 1351,
+      "right": 1877,
+      "bottom": 1390,
+      "width": 668,
+      "height": 39,
+      "confidence": 92.827,
+      "text": "Schmiere in na kleinen Zelle."
+    },
+    {
+      "id": "l020",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 19,
+      "bbox": [
+        1211,
+        1415,
+        1871,
+        1454
+      ],
+      "left": 1211,
+      "top": 1415,
+      "right": 1871,
+      "bottom": 1454,
+      "width": 660,
+      "height": 39,
+      "confidence": 94.991,
+      "text": "Das Resultat was ihr auf den"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        806,
+        1460,
+        1033,
+        1490
+      ],
+      "left": 806,
+      "top": 1460,
+      "right": 1033,
+      "bottom": 1490,
+      "width": 227,
+      "height": 30,
+      "confidence": 96.485,
+      "text": "Felipe Guerrero"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 20,
+      "bbox": [
+        1208,
+        1476,
+        1922,
+        1535
+      ],
+      "left": 1208,
+      "top": 1476,
+      "right": 1922,
+      "bottom": 1535,
+      "width": 714,
+      "height": 59,
+      "confidence": 89.135,
+      "text": "folgenden funf Seiten seht war"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 21,
+      "bbox": [
+        1209,
+        1540,
+        1869,
+        1599
+      ],
+      "left": 1209,
+      "top": 1540,
+      "right": 1869,
+      "bottom": 1599,
+      "width": 660,
+      "height": 59,
+      "confidence": 94.647,
+      "text": "diese Horrorshow aber doch"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 22,
+      "bbox": [
+        1210,
+        1610,
+        1563,
+        1661
+      ],
+      "left": 1210,
+      "top": 1610,
+      "right": 1563,
+      "bottom": 1661,
+      "width": 353,
+      "height": 51,
+      "confidence": 94.004,
+      "text": "irgendwie wert."
+    },
+    {
+      "id": "l025",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 23,
+      "bbox": [
+        1207,
+        1675,
+        2043,
+        1726
+      ],
+      "left": 1207,
+      "top": 1675,
+      "right": 2043,
+      "bottom": 1726,
+      "width": 836,
+      "height": 51,
+      "confidence": 94.304,
+      "text": "Wir haben uns fur euch aufgeopfert,"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 24,
+      "bbox": [
+        1209,
+        1735,
+        1635,
+        1794
+      ],
+      "left": 1209,
+      "top": 1735,
+      "right": 1635,
+      "bottom": 1794,
+      "width": 426,
+      "height": 59,
+      "confidence": 95.335,
+      "text": "ehrt diese KUNST!"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 25,
+      "bbox": [
+        1211,
+        1804,
+        2038,
+        1849
+      ],
+      "left": 1211,
+      "top": 1804,
+      "right": 2038,
+      "bottom": 1849,
+      "width": 827,
+      "height": 45,
+      "confidence": 94.153,
+      "text": "PS: Klauen ist total uncool! Merken,"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 26,
+      "bbox": [
+        1211,
+        1869,
+        1987,
+        1913
+      ],
+      "left": 1211,
+      "top": 1869,
+      "right": 1987,
+      "bottom": 1913,
+      "width": 776,
+      "height": 44,
+      "confidence": 94.515,
+      "text": "merken, merken. Nur manchmal,"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 27,
+      "bbox": [
+        1247,
+        1933,
+        2015,
+        1983
+      ],
+      "left": 1247,
+      "top": 1933,
+      "right": 2015,
+      "bottom": 1983,
+      "width": 768,
+      "height": 50,
+      "confidence": 93.772,
+      "text": "enns halt nem guten Zweck dient"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 28,
+      "bbox": [
+        1210,
+        1993,
+        1882,
+        2052
+      ],
+      "left": 1210,
+      "top": 1993,
+      "right": 1882,
+      "bottom": 2052,
+      "width": 672,
+      "height": 59,
+      "confidence": 95.54,
+      "text": "isses ganz ok... So wie Robin."
+    },
+    {
+      "id": "l031",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2517,
+        2333,
+        2680,
+        2363
+      ],
+      "left": 2517,
+      "top": 2333,
+      "right": 2680,
+      "bottom": 2363,
+      "width": 163,
+      "height": 30,
+      "confidence": 57.279,
+      "text": "ef :"
+    },
+    {
+      "id": "l032",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2381,
+        2573,
+        3481,
+        2622
+      ],
+      "left": 2381,
+      "top": 2573,
+      "right": 3481,
+      "bottom": 2622,
+      "width": 1100,
+      "height": 49,
+      "confidence": 93.119,
+      "text": "Jonas studiert an der UdK Berlin. Vor ein paar anren hat er Vektorgrafiken"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1026,
+        2593,
+        1337,
+        2623
+      ],
+      "left": 1026,
+      "top": 2593,
+      "right": 1337,
+      "bottom": 2623,
+      "width": 311,
+      "height": 30,
+      "confidence": 70.176,
+      "text": "$.38 Benjamin Heps"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2382,
+        2615,
+        3891,
+        2671
+      ],
+      "left": 2382,
+      "top": 2615,
+      "right": 3891,
+      "bottom": 2671,
+      "width": 1509,
+      "height": 56,
+      "confidence": 95.384,
+      "text": "Heute werden seine Grafiken von Quicksilver und Coca Cola in Auftrag gegeben. Eine Arbeit pro Monat"
+    },
+    {
+      "id": "l035",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2379,
+        2659,
+        2837,
+        2691
+      ],
+      "left": 2379,
+      "top": 2659,
+      "right": 2837,
+      "bottom": 2691,
+      "width": 458,
+      "height": 32,
+      "confidence": 81.512,
+      "text": "finanziert den Lebensunterhalt."
+    },
+    {
+      "id": "l036",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2379,
+        2701,
+        3635,
+        2748
+      ],
+      "left": 2379,
+      "top": 2701,
+      "right": 3635,
+      "bottom": 2748,
+      "width": 1256,
+      "height": 47,
+      "confidence": 95.055,
+      "text": "Alles was er kann, lehrte ihn das World Wide Web. An der UdK studiert er Architektur."
+    },
+    {
+      "id": "l037",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        4367,
+        2925,
+        4399,
+        2950
+      ],
+      "left": 4367,
+      "top": 2925,
+      "right": 4399,
+      "bottom": 2950,
+      "width": 32,
+      "height": 25,
+      "confidence": 96.628,
+      "text": "35"
+    }
+  ]
+}

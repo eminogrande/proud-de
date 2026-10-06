@@ -1,0 +1,22 @@
+{
+  "title": "Seid!",
+  "summary": "",
+  "blocks": [
+    {
+      "pageNumber": 6,
+      "spreadPages": [
+        6,
+        7
+      ],
+      "sectionIds": [
+        "p006s09"
+      ],
+      "titles": [
+        "Seid!"
+      ],
+      "markdown": "## Seid!",
+      "text": "Seid!",
+      "pageImage": null
+    }
+  ]
+}

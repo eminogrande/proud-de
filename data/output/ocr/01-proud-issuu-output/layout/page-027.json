@@ -1,0 +1,387 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        897,
+        2077,
+        975
+      ],
+      "left": 270,
+      "top": 897,
+      "right": 2077,
+      "bottom": 975,
+      "width": 1807,
+      "height": 78,
+      "confidence": 88.627,
+      "text": "Skalitzerstrafie. Bar25 muss dunkle Keller, bunt beleuchtete Ruinen - was"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        990,
+        761,
+        1028
+      ],
+      "left": 273,
+      "top": 990,
+      "right": 761,
+      "bottom": 1028,
+      "width": 488,
+      "height": 38,
+      "confidence": 96.08,
+      "text": "macht Demir in Berlin?"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        0,
+        1055,
+        477,
+        1099
+      ],
+      "left": 0,
+      "top": 1055,
+      "right": 477,
+      "bottom": 1099,
+      "width": 477,
+      "height": 44,
+      "confidence": 36.241,
+      "text": "© sa ¥"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        568,
+        1496,
+        624,
+        1510
+      ],
+      "left": 568,
+      "top": 1496,
+      "right": 624,
+      "bottom": 1510,
+      "width": 56,
+      "height": 14,
+      "confidence": 23.717,
+      "text": "Pee."
+    },
+    {
+      "id": "l005",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        192,
+        1519,
+        1344,
+        1549
+      ],
+      "left": 192,
+      "top": 1519,
+      "right": 1344,
+      "bottom": 1549,
+      "width": 1152,
+      "height": 30,
+      "confidence": 57.337,
+      "text": "* 5 ="
+    },
+    {
+      "id": "l006",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        0,
+        1529,
+        2132,
+        1719
+      ],
+      "left": 0,
+      "top": 1529,
+      "right": 2132,
+      "bottom": 1719,
+      "width": 2132,
+      "height": 190,
+      "confidence": 87.154,
+      "text": "na Fiir welche Frau wiirdest Du mitten im Technoset im Berghain Hip-Hop auflegen? |"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        1619,
+        1977,
+        1667
+      ],
+      "left": 273,
+      "top": 1619,
+      "right": 1977,
+      "bottom": 1667,
+      "width": 1704,
+      "height": 48,
+      "confidence": 94.997,
+      "text": "Fur meine Freundin wurde ich selbst Schlager spielen, wenn sie das glucklich"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        273,
+        1679,
+        1515,
+        1734
+      ],
+      "left": 273,
+      "top": 1679,
+      "right": 1515,
+      "bottom": 1734,
+      "width": 1242,
+      "height": 55,
+      "confidence": 95.187,
+      "text": "machen sollte... Aber zum GlUck ist das ja nicht der Fall."
+    },
+    {
+      "id": "l009",
+      "blockNumber": 18,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        179,
+        1796,
+        1642,
+        1856
+      ],
+      "left": 179,
+      "top": 1796,
+      "right": 1642,
+      "bottom": 1856,
+      "width": 1463,
+      "height": 60,
+      "confidence": 91.949,
+      "text": "©* Was miisste man Dir bieten, damit Du aus Berlin wegziehst?"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 21,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        271,
+        2316,
+        1025,
+        2364
+      ],
+      "left": 271,
+      "top": 2316,
+      "right": 1025,
+      "bottom": 2364,
+      "width": 754,
+      "height": 48,
+      "confidence": 86.877,
+      "text": "einen Lieblingsclub haben kénnte."
+    },
+    {
+      "id": "l011",
+      "blockNumber": 22,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        0,
+        2353,
+        131,
+        2393
+      ],
+      "left": 0,
+      "top": 2353,
+      "right": 131,
+      "bottom": 2393,
+      "width": 131,
+      "height": 40,
+      "confidence": 66.784,
+      "text": "#2) 2329"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 23,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        2445,
+        1533,
+        2491
+      ],
+      "left": 270,
+      "top": 2445,
+      "right": 1533,
+      "bottom": 2491,
+      "width": 1263,
+      "height": 46,
+      "confidence": 92.143,
+      "text": "Wo und fur wieviel hast Du Dein erstes DJ-Set gespielt?"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 23,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        32,
+        2507,
+        1960,
+        2555
+      ],
+      "left": 32,
+      "top": 2507,
+      "right": 1960,
+      "bottom": 2555,
+      "width": 1928,
+      "height": 48,
+      "confidence": 93.615,
+      "text": ": Das war auf der Pentagonik-Grundungsparty 2005. Die HiFi-Kopfhorer von zu"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 23,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        219,
+        2570,
+        2034,
+        2626
+      ],
+      "left": 219,
+      "top": 2570,
+      "right": 2034,
+      "bottom": 2626,
+      "width": 1815,
+      "height": 56,
+      "confidence": 89.842,
+      "text": "@ Hause waren naturlich viel zu leise und die Anlage, die wir gemietet hatten, wie"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 23,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        273,
+        2634,
+        2069,
+        2682
+      ],
+      "left": 273,
+      "top": 2634,
+      "right": 2069,
+      "bottom": 2682,
+      "width": 1796,
+      "height": 48,
+      "confidence": 95.304,
+      "text": "immer viel zu laut. Somit habe ich so gut wie nichts gehort. Geil war es trotzdem."
+    },
+    {
+      "id": "l016",
+      "blockNumber": 23,
+      "paragraphNumber": 3,
+      "lineNumber": 3,
+      "bbox": [
+        273,
+        2698,
+        1110,
+        2742
+      ],
+      "left": 273,
+      "top": 2698,
+      "right": 1110,
+      "bottom": 2742,
+      "width": 837,
+      "height": 44,
+      "confidence": 95.276,
+      "text": "Entlohnt?! Don, Kai wo ist mein Geld?"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        193,
+        2807,
+        1786,
+        2870
+      ],
+      "left": 193,
+      "top": 2807,
+      "right": 1786,
+      "bottom": 2870,
+      "width": 1593,
+      "height": 63,
+      "confidence": 90.586,
+      "text": "™ Was machst Du im Ausland, was Du hier niemals bringen wiirdest?"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        274,
+        2889,
+        2007,
+        2926
+      ],
+      "left": 274,
+      "top": 2889,
+      "right": 2007,
+      "bottom": 2926,
+      "width": 1733,
+      "height": 37,
+      "confidence": 93.153,
+      "text": "Ich ziehe mich nackt aus und scratche mit den Arschbacken... Nein im Grunde"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        273,
+        2951,
+        1524,
+        2995
+      ],
+      "left": 273,
+      "top": 2951,
+      "right": 1524,
+      "bottom": 2995,
+      "width": 1251,
+      "height": 44,
+      "confidence": 95.843,
+      "text": "mache ich all das, was ich auch in Berlin machen wurde."
+    }
+  ]
+}

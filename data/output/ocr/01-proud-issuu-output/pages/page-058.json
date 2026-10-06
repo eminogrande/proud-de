@@ -1,0 +1,75 @@
+{
+  "id": "gen-1778172005-XgCAynUm5Hihs2SxTsMd",
+  "object": "chat.completion",
+  "created": 1778172005,
+  "model": "google/gemini-2.5-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "standard",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "OK.",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "file",
+            "file": {
+              "hash": "27023700a11667a0df911066b20b454afe10ce0bb4d9be0f8cb5f9de2a4d7580",
+              "name": "01 proud issuu_output-page-058.pdf",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "<file name=\"01 proud issuu_output-page-058.pdf\">"
+                },
+                {
+                  "type": "text",
+                  "text": "focus artist\n\n# pola kardum x maren böttcher\n\nEsmod Fashion trifft\nProfifotografin bei\nBlumen-Sühr im Keller.\n\n![img-0.jpeg](img-0.jpeg)\n\nGeplant war ein richtig geiles\nAdvertorial. Bezahlter, redaktioneller\nInhalt. Gekaufter Checkbuch-\njournalismus, so wie wir es von\nder proud am Liebsten haben. Die\nMagazine wollen ja auch irgendwie\nbezahlt werden.\nDas Schönste ist es immer noch,\nsich zu prostituieren und trotzdem\ntun, was man vorhatte. Wir wollen\neine Kombo aus der Fotografin\nund der Designerin. Der Artikel soll\ndie Fotografin vorstellen und die\nDesignerin präsentieren.\nAlles Berliner Gesteine, hier groß\ngezogen.\n\nMaren Böttcher, eine unendlich\nbegabte Fotografin mit einer heißen\nFreundin in New York. Quirlig und\nzeitweise zum Couchsurfen im\nproud Büro. Sie wird durch harte\n\nImage www.MarenBoettcher.com\n\nAssistant Katarzyna Konopka\n\nFoltermethoden zum regelmäßigen\nBeisteuern von Bilder gezwungen.\n\nPola Kardum, Studentin der Esmod,\nkreative Designerin, stellt sich und\nihre Kleider zur Verfügung. Ab in\nden Keller von Blumen-Sühr, dem\nBlumenladen unseres Vertrauens.\nPolas WG-Mitbewohnerin, Emin's\nVater, sowie eine unserer Freundinnen\nergaben mit der Assistentin der\nFotografin ein perfektes Team.\nWir sind sehr zufrieden mit dem\nErgebnis, nur passte dieses nicht\nzu der Ausrichtung der anderen\nMarketingabteilung. Auch ohne\nFinanzspritze ist es einmal mehr\nwertvoll zu zeigen, was für Potenzial\nin uns steckt. Polas Designerstücke\nkönnt ihr zudem auf\nproudmagazine.de bewundern.\n\nFashion &amp; Model Pola Kardum\n\nMake-Up Rouge Bunny Rouge"
+                },
+                {
+                  "type": "image_url",
+                  "image_url": {
+                    "url": "data:image/jpeg;base64,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"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "</file>"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1504,
+    "completion_tokens": 2,
+    "total_tokens": 1506,
+    "cost": 0.002451638,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0004562,
+      "upstream_inference_prompt_cost": 0.0004512,
+      "upstream_inference_completions_cost": 5e-06
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

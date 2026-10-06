@@ -1,0 +1,69 @@
+{
+  "id": "gen-1778171788-IJClQA8Uc7qlhpTOp5YQ",
+  "object": "chat.completion",
+  "created": 1778171788,
+  "model": "google/gemini-2.5-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "standard",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "OK",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "file",
+            "file": {
+              "hash": "aaa4e1a371b43b7638920b0ebb40b5e4878ac5701074da003a1096b07b25a98c",
+              "name": "01 proud issuu_output-page-026.pdf",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "<file name=\"01 proud issuu_output-page-026.pdf\">"
+                },
+                {
+                  "type": "text",
+                  "text": "Kannibalistische Babarenvölker. Dschungelwälder, kreischende Einhörner - was macht Demir. Produzent und DJ von Pentagonik außerhalb von Berlin?\n\n# Andere Richtungen\n\n## Wie hast Du schon einmal eine Tanzfläche leergespielt?\n\nIch habe mich vor dem Auflegen schon derartig abgeschossen, dass ich mich während des Spielens ständig gefragt habe, welcher der beiden Plattenspieler denn nun läuft und warum? Den Fehler habe ich aber auch nur einmal gemacht. Na ja, zumindest ich hatte meinen Spaß.\n\n## Bist Du beim DJ-Wechsel zurückhaltend oder aggressiv? Wo gab's mal richtig Probleme?\n\nIch glaube nur Anfänger sind aggressiv. Denn auf eine Platte mehr oder weniger kommt es nun wirklich nicht an. Und falls doch habe ich meine Buddies dabei ;). Richtige Probleme hatte ich zum Glück noch nie. Die meisten DJs sind halt locker.\n\n## Deine beste Berlin-Story, die Du im Ausland den Girls auspackst?\n\nIch erzähle, dass in Berlin das Durchschnittseinkommen bei 20.000 Euro monatlich liegt und dass wir alle ...cm und ...m und ... Stunden und ... Dann ist die Frau allerdings schon meist weg.\n\n## Ist es denn von Vorteil, aus Berlin zu sein?\n\nNatürlich hat Berlin in der Welt einen besonderen Status, wenn es um elektronische Musik geht. Allerdings ist das bloße Wohnen in der Stadt kein Garant dafür, dass man ein guter DJ ist. Gerade im Ausland treffe ich immer wieder auf sehr gute DJs. Helfen tut es daher nicht wirklich. proud erzähle ich natürlich von der Stadt.\n\nwww.pentagonik.de/artists/Demir"
+                },
+                {
+                  "type": "text",
+                  "text": "</file>"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 384,
+    "completion_tokens": 1,
+    "total_tokens": 385,
+    "cost": 0.002116523,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0001177,
+      "upstream_inference_prompt_cost": 0.0001152,
+      "upstream_inference_completions_cost": 2.5e-06
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

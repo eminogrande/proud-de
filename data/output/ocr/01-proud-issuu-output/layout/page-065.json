@@ -1,0 +1,67 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3091,
+        83,
+        3270,
+        120
+      ],
+      "left": 3091,
+      "top": 83,
+      "right": 3270,
+      "bottom": 120,
+      "width": 179,
+      "height": 37,
+      "confidence": 96.514,
+      "text": "last look"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2215,
+        3764,
+        2783,
+        3809
+      ],
+      "left": 2215,
+      "top": 3764,
+      "right": 2783,
+      "bottom": 3809,
+      "width": 568,
+      "height": 45,
+      "confidence": 93.007,
+      "text": "Image Moritz Stellmacher"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3223,
+        4372,
+        3269,
+        4409
+      ],
+      "left": 3223,
+      "top": 4372,
+      "right": 3269,
+      "bottom": 4409,
+      "width": 46,
+      "height": 37,
+      "confidence": 96.952,
+      "text": "65"
+    }
+  ]
+}

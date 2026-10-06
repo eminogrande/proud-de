@@ -1,0 +1,179 @@
+[
+  {
+    "title": "fashion flash",
+    "kind": "article",
+    "titleLineIds": [
+      "l002"
+    ],
+    "lineIds": [
+      "l002",
+      "l003",
+      "l004",
+      "l005",
+      "l007",
+      "l009",
+      "l011",
+      "l013",
+      "l015",
+      "l017"
+    ]
+  },
+  {
+    "title": "rütli-fashion",
+    "kind": "article",
+    "titleLineIds": [],
+    "lineIds": [
+      "l008",
+      "l010",
+      "l014",
+      "l016",
+      "l018",
+      "l019",
+      "l020",
+      "l022"
+    ]
+  },
+  {
+    "title": "tsumori chisato",
+    "kind": "article",
+    "titleLineIds": [],
+    "lineIds": [
+      "l006",
+      "l012",
+      "l023",
+      "l025",
+      "l028",
+      "l030",
+      "l032",
+      "l033",
+      "l035",
+      "l041",
+      "l044",
+      "l048",
+      "l051",
+      "l054",
+      "l057",
+      "l059",
+      "l060",
+      "l065",
+      "l068",
+      "l070",
+      "l071",
+      "l073",
+      "l075",
+      "l077",
+      "l079",
+      "l083",
+      "l085"
+    ]
+  },
+  {
+    "title": "richard ruiz",
+    "kind": "article",
+    "titleLineIds": [],
+    "lineIds": [
+      "l069",
+      "l072",
+      "l074",
+      "l078",
+      "l080",
+      "l081",
+      "l082",
+      "l084",
+      "l086",
+      "l087",
+      "l089",
+      "l090",
+      "l092",
+      "l093",
+      "l094",
+      "l095",
+      "l096",
+      "l097",
+      "l098",
+      "l099",
+      "l101"
+    ]
+  },
+  {
+    "title": "velvet hour",
+    "kind": "article",
+    "titleLineIds": [
+      "l031",
+      "l042"
+    ],
+    "lineIds": [
+      "l031",
+      "l036",
+      "l039",
+      "l042",
+      "l045",
+      "l047",
+      "l049",
+      "l053",
+      "l055",
+      "l056",
+      "l062",
+      "l063",
+      "l066",
+      "l067",
+      "l076"
+    ]
+  },
+  {
+    "title": "cosmo recommends",
+    "kind": "article",
+    "titleLineIds": [],
+    "lineIds": [
+      "l026",
+      "l027",
+      "l029",
+      "l034",
+      "l037",
+      "l038",
+      "l040",
+      "l043",
+      "l046",
+      "l050",
+      "l058",
+      "l061",
+      "l064"
+    ]
+  },
+  {
+    "title": "dear sparkasse",
+    "kind": "article",
+    "titleLineIds": [],
+    "lineIds": [
+      "l100",
+      "l102",
+      "l103",
+      "l106",
+      "l107",
+      "l109",
+      "l111",
+      "l113",
+      "l115",
+      "l117",
+      "l119"
+    ]
+  },
+  {
+    "title": "terrouistik",
+    "kind": "article",
+    "titleLineIds": [
+      "l091"
+    ],
+    "lineIds": [
+      "l091",
+      "l105",
+      "l108",
+      "l110",
+      "l112",
+      "l114",
+      "l116",
+      "l118",
+      "l120"
+    ]
+  }
+]

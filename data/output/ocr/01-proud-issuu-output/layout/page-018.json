@@ -1,0 +1,647 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1255,
+        1150,
+        2008,
+        1195
+      ],
+      "left": 1255,
+      "top": 1150,
+      "right": 2008,
+      "bottom": 1195,
+      "width": 753,
+      "height": 45,
+      "confidence": 92.453,
+      "text": "prufenden Blicken von Ibo aus der"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        274,
+        1151,
+        884,
+        1187
+      ],
+      "left": 274,
+      "top": 1151,
+      "right": 884,
+      "bottom": 1187,
+      "width": 610,
+      "height": 36,
+      "confidence": 94.603,
+      "text": "Das Ballhaus-Theater in der"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        273,
+        1214,
+        1071,
+        1259
+      ],
+      "left": 273,
+      "top": 1214,
+      "right": 1071,
+      "bottom": 1259,
+      "width": 798,
+      "height": 45,
+      "confidence": 84.491,
+      "text": "Naunynstrafe ist nach vielen Jahren"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1255,
+        1214,
+        1957,
+        1260
+      ],
+      "left": 1255,
+      "top": 1214,
+      "right": 1957,
+      "bottom": 1260,
+      "width": 702,
+      "height": 46,
+      "confidence": 93.309,
+      "text": "Naunynritze ausgesprochen gut."
+    },
+    {
+      "id": "l005",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        271,
+        1278,
+        834,
+        1314
+      ],
+      "left": 271,
+      "top": 1278,
+      "right": 834,
+      "bottom": 1314,
+      "width": 563,
+      "height": 36,
+      "confidence": 92.238,
+      "text": "zu neuem Leben erwacht."
+    },
+    {
+      "id": "l006",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1252,
+        1278,
+        1879,
+        1314
+      ],
+      "left": 1252,
+      "top": 1278,
+      "right": 1879,
+      "bottom": 1314,
+      "width": 627,
+      "height": 36,
+      "confidence": 93.691,
+      "text": "Wahrscheinlich waren es die"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 1,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        274,
+        1341,
+        1011,
+        1378
+      ],
+      "left": 274,
+      "top": 1341,
+      "right": 1011,
+      "bottom": 1378,
+      "width": 737,
+      "height": 37,
+      "confidence": 95.24,
+      "text": "Endlich nicht nur alle drei Monate"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1253,
+        1341,
+        2089,
+        1387
+      ],
+      "left": 1253,
+      "top": 1341,
+      "right": 2089,
+      "bottom": 1387,
+      "width": 836,
+      "height": 46,
+      "confidence": 93.447,
+      "text": "aufgedonnerten Hip-Hop-Gurlz, welche"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 1,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        271,
+        1403,
+        988,
+        1446
+      ],
+      "left": 271,
+      "top": 1403,
+      "right": 988,
+      "bottom": 1446,
+      "width": 717,
+      "height": 43,
+      "confidence": 94.702,
+      "text": "ein Stuck, von dem keiner etwas"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        1254,
+        1403,
+        2057,
+        1450
+      ],
+      "left": 1254,
+      "top": 1403,
+      "right": 2057,
+      "bottom": 1450,
+      "width": 803,
+      "height": 47,
+      "confidence": 93.375,
+      "text": "bis in die fruhen Morgenstunden wie"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 1,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        273,
+        1467,
+        1091,
+        1503
+      ],
+      "left": 273,
+      "top": 1467,
+      "right": 1091,
+      "bottom": 1503,
+      "width": 818,
+      "height": 36,
+      "confidence": 94.708,
+      "text": "mitbekommt. Gerade erst wurde dort"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        1255,
+        1467,
+        1995,
+        1513
+      ],
+      "left": 1255,
+      "top": 1467,
+      "right": 1995,
+      "bottom": 1513,
+      "width": 740,
+      "height": 46,
+      "confidence": 93.331,
+      "text": "Magneten auf die Schar Statisten"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 1,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        272,
+        1532,
+        1093,
+        1576
+      ],
+      "left": 272,
+      "top": 1532,
+      "right": 1093,
+      "bottom": 1576,
+      "width": 821,
+      "height": 44,
+      "confidence": 93.834,
+      "text": "der Videodreh des Rappers Ceza aus"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        1252,
+        1532,
+        2019,
+        1568
+      ],
+      "left": 1252,
+      "top": 1532,
+      "right": 2019,
+      "bottom": 1568,
+      "width": 767,
+      "height": 36,
+      "confidence": 95.303,
+      "text": "wirkten. Denn mehr haben wir vom"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 1,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        274,
+        1595,
+        1001,
+        1641
+      ],
+      "left": 274,
+      "top": 1595,
+      "right": 1001,
+      "bottom": 1641,
+      "width": 727,
+      "height": 46,
+      "confidence": 92.517,
+      "text": "Fatih Akins ,,Crossing the Bridge“"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        1256,
+        1595,
+        1943,
+        1631
+      ],
+      "left": 1256,
+      "top": 1595,
+      "right": 1943,
+      "bottom": 1631,
+      "width": 687,
+      "height": 36,
+      "confidence": 92.49,
+      "text": "Dreh auch nicht mitbekommen."
+    },
+    {
+      "id": "l017",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1256,
+        1657,
+        2035,
+        1704
+      ],
+      "left": 1256,
+      "top": 1657,
+      "right": 2035,
+      "bottom": 1704,
+      "width": 779,
+      "height": 47,
+      "confidence": 94.027,
+      "text": "Das Video gibt’s jedenfalls bald auf"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 1,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        270,
+        1658,
+        1047,
+        1704
+      ],
+      "left": 270,
+      "top": 1658,
+      "right": 1047,
+      "bottom": 1704,
+      "width": 777,
+      "height": 46,
+      "confidence": 91.724,
+      "text": "gedreht. Die gesamte Naunynmafia"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 1,
+      "paragraphNumber": 2,
+      "lineNumber": 7,
+      "bbox": [
+        270,
+        1722,
+        978,
+        1768
+      ],
+      "left": 270,
+      "top": 1722,
+      "right": 978,
+      "bottom": 1768,
+      "width": 708,
+      "height": 46,
+      "confidence": 93.35,
+      "text": "versammelte sich, neugierig wie"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        1255,
+        1722,
+        1958,
+        1759
+      ],
+      "left": 1255,
+      "top": 1722,
+      "right": 1958,
+      "bottom": 1759,
+      "width": 703,
+      "height": 37,
+      "confidence": 96.412,
+      "text": "MTV und YouTube zu sehen. Die"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 1,
+      "paragraphNumber": 2,
+      "lineNumber": 8,
+      "bbox": [
+        273,
+        1785,
+        968,
+        1831
+      ],
+      "left": 273,
+      "top": 1785,
+      "right": 968,
+      "bottom": 1831,
+      "width": 695,
+      "height": 46,
+      "confidence": 92.463,
+      "text": "kleine Jungs, prollten ordentlich"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        1254,
+        1785,
+        2034,
+        1831
+      ],
+      "left": 1254,
+      "top": 1785,
+      "right": 2034,
+      "bottom": 1831,
+      "width": 780,
+      "height": 46,
+      "confidence": 92.594,
+      "text": "sabbernden Jungs bleiben dagegen"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 1,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        1848,
+        1062,
+        1890
+      ],
+      "left": 273,
+      "top": 1848,
+      "right": 1062,
+      "bottom": 1890,
+      "width": 789,
+      "height": 42,
+      "confidence": 95.021,
+      "text": "rum, benahmen sich aber unter den"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        1255,
+        1848,
+        1986,
+        1893
+      ],
+      "left": 1255,
+      "top": 1848,
+      "right": 1986,
+      "bottom": 1893,
+      "width": 731,
+      "height": 45,
+      "confidence": 86.638,
+      "text": "in der Naunynstra8e. Dort, wo Ihr"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        1253,
+        1911,
+        2030,
+        1957
+      ],
+      "left": 1253,
+      "top": 1911,
+      "right": 2030,
+      "bottom": 1957,
+      "width": 777,
+      "height": 46,
+      "confidence": 93.18,
+      "text": "auch das Ballhaus findet. Langsam"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        1255,
+        1975,
+        2050,
+        2020
+      ],
+      "left": 1255,
+      "top": 1975,
+      "right": 2050,
+      "bottom": 2020,
+      "width": 795,
+      "height": 45,
+      "confidence": 91.309,
+      "text": "mausert sich namlich der Schuppen"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        407,
+        2019,
+        1119,
+        2064
+      ],
+      "left": 407,
+      "top": 2019,
+      "right": 1119,
+      "bottom": 2064,
+      "width": 712,
+      "height": 45,
+      "confidence": 90.04,
+      "text": "www.ballhausnaunynstrasse.de"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 7,
+      "bbox": [
+        1252,
+        2038,
+        2071,
+        2083
+      ],
+      "left": 1252,
+      "top": 2038,
+      "right": 2071,
+      "bottom": 2083,
+      "width": 819,
+      "height": 45,
+      "confidence": 93.023,
+      "text": "zum Dreh- und Treffpunkt fur Kreative"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 8,
+      "bbox": [
+        1255,
+        2100,
+        1994,
+        2148
+      ],
+      "left": 1255,
+      "top": 2100,
+      "right": 1994,
+      "bottom": 2148,
+      "width": 739,
+      "height": 48,
+      "confidence": 95.284,
+      "text": "in Kreuzberg. Wenn Ihr mehr Uber"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 9,
+      "bbox": [
+        1253,
+        2165,
+        2085,
+        2211
+      ],
+      "left": 1253,
+      "top": 2165,
+      "right": 2085,
+      "bottom": 2211,
+      "width": 832,
+      "height": 46,
+      "confidence": 91.432,
+      "text": "das unterhaltsame Theater-Programm"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 10,
+      "bbox": [
+        1252,
+        2229,
+        2054,
+        2271
+      ],
+      "left": 1252,
+      "top": 2229,
+      "right": 2054,
+      "bottom": 2271,
+      "width": 802,
+      "height": 42,
+      "confidence": 95.064,
+      "text": "wissen wollt, dann schnell auf deren"
+    },
+    {
+      "id": "l032",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 11,
+      "bbox": [
+        1252,
+        2292,
+        1467,
+        2329
+      ],
+      "left": 1252,
+      "top": 2292,
+      "right": 1467,
+      "bottom": 2329,
+      "width": 215,
+      "height": 37,
+      "confidence": 96.452,
+      "text": "Webseite."
+    }
+  ]
+}

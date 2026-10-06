@@ -1,0 +1,2387 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        82,
+        83,
+        374,
+        120
+      ],
+      "left": 82,
+      "top": 83,
+      "right": 374,
+      "bottom": 120,
+      "width": 292,
+      "height": 37,
+      "confidence": 96.61,
+      "text": "streets ahead"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        320,
+        267,
+        1371,
+        411
+      ],
+      "left": 320,
+      "top": 267,
+      "right": 1371,
+      "bottom": 411,
+      "width": 1051,
+      "height": 144,
+      "confidence": 95.72,
+      "text": "love in berlin"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        271,
+        512,
+        2168,
+        560
+      ],
+      "left": 271,
+      "top": 512,
+      "right": 2168,
+      "bottom": 560,
+      "width": 1897,
+      "height": 48,
+      "confidence": 93.382,
+      "text": "Christian Rothenhage alias deerBLN, Berliner Lokalpatriot mit Hang zum Konzeptionellen"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        274,
+        641,
+        915,
+        688
+      ],
+      "left": 274,
+      "top": 641,
+      "right": 915,
+      "bottom": 688,
+      "width": 641,
+      "height": 47,
+      "confidence": 91.606,
+      "text": "Er ist gelernter Mobeltischler,"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1255,
+        642,
+        2041,
+        687
+      ],
+      "left": 1255,
+      "top": 642,
+      "right": 2041,
+      "bottom": 687,
+      "width": 786,
+      "height": 45,
+      "confidence": 94.129,
+      "text": "im Innenfutter. Mal eben so als Rip-"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2233,
+        642,
+        3005,
+        679
+      ],
+      "left": 2233,
+      "top": 642,
+      "right": 3005,
+      "bottom": 679,
+      "width": 772,
+      "height": 37,
+      "confidence": 96.214,
+      "text": "Wie war San Francisco? Alles klar"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        272,
+        704,
+        943,
+        751
+      ],
+      "left": 272,
+      "top": 704,
+      "right": 943,
+      "bottom": 751,
+      "width": 671,
+      "height": 47,
+      "confidence": 93.337,
+      "text": "studierter Sozialpadagoge und"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1253,
+        704,
+        2093,
+        750
+      ],
+      "left": 1253,
+      "top": 704,
+      "right": 2093,
+      "bottom": 750,
+      "width": 840,
+      "height": 46,
+      "confidence": 94.34,
+      "text": "off. Naja, ich hatte ausflippen konnen,"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2235,
+        705,
+        2626,
+        742
+      ],
+      "left": 2235,
+      "top": 705,
+      "right": 2626,
+      "bottom": 742,
+      "width": 391,
+      "height": 37,
+      "confidence": 92.273,
+      "text": "mit Deiner Crew?"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        273,
+        768,
+        1027,
+        815
+      ],
+      "left": 273,
+      "top": 768,
+      "right": 1027,
+      "bottom": 815,
+      "width": 754,
+      "height": 47,
+      "confidence": 93.435,
+      "text": "professioneller Grafikdesigner und"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1254,
+        768,
+        2084,
+        805
+      ],
+      "left": 1254,
+      "top": 768,
+      "right": 2084,
+      "bottom": 805,
+      "width": 830,
+      "height": 37,
+      "confidence": 94.53,
+      "text": "bin ich erstmal auch. Versuche das in"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 12,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        2236,
+        768,
+        3038,
+        815
+      ],
+      "left": 2236,
+      "top": 768,
+      "right": 3038,
+      "bottom": 815,
+      "width": 802,
+      "height": 47,
+      "confidence": 85.64,
+      "text": "Der Trip war groBartig, ich habe viele"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        274,
+        831,
+        1114,
+        868
+      ],
+      "left": 274,
+      "top": 831,
+      "right": 1114,
+      "bottom": 868,
+      "width": 840,
+      "height": 37,
+      "confidence": 91.583,
+      "text": "Illustrator. In San Francisco sind seine"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1253,
+        831,
+        2087,
+        876
+      ],
+      "left": 1253,
+      "top": 831,
+      "right": 2087,
+      "bottom": 876,
+      "width": 834,
+      "height": 45,
+      "confidence": 94.363,
+      "text": "dem Fall aber eher als Kompliment zu"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 12,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        2236,
+        831,
+        3080,
+        877
+      ],
+      "left": 2236,
+      "top": 831,
+      "right": 3080,
+      "bottom": 877,
+      "width": 844,
+      "height": 46,
+      "confidence": 92.642,
+      "text": "Freunde getroffen und wiedergesehen,"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 12,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        2235,
+        894,
+        3022,
+        942
+      ],
+      "left": 2235,
+      "top": 894,
+      "right": 3022,
+      "bottom": 942,
+      "width": 787,
+      "height": 48,
+      "confidence": 78.264,
+      "text": "mit Kunstlern zusammengearbeitet,"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        270,
+        895,
+        1099,
+        942
+      ],
+      "left": 270,
+      "top": 895,
+      "right": 1099,
+      "bottom": 942,
+      "width": 829,
+      "height": 47,
+      "confidence": 94.142,
+      "text": "Arbeiten zu finden, in Mitte gestaltete"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        1254,
+        896,
+        1399,
+        932
+      ],
+      "left": 1254,
+      "top": 896,
+      "right": 1399,
+      "bottom": 932,
+      "width": 145,
+      "height": 36,
+      "confidence": 96.298,
+      "text": "sehen."
+    },
+    {
+      "id": "l019",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        271,
+        958,
+        1104,
+        1004
+      ],
+      "left": 271,
+      "top": 958,
+      "right": 1104,
+      "bottom": 1004,
+      "width": 833,
+      "height": 46,
+      "confidence": 95.408,
+      "text": "er den Carhartt-Laden und jetzt hat er"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 12,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        2234,
+        958,
+        3071,
+        995
+      ],
+      "left": 2234,
+      "top": 958,
+      "right": 3071,
+      "bottom": 995,
+      "width": 837,
+      "height": 37,
+      "confidence": 94.707,
+      "text": "auch in direkter Kollaboration. Das ist"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        270,
+        1020,
+        1088,
+        1067
+      ],
+      "left": 270,
+      "top": 1020,
+      "right": 1088,
+      "bottom": 1067,
+      "width": 818,
+      "height": 47,
+      "confidence": 92.176,
+      "text": "fur Artsprojekt eine Skateboard-Serie"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1254,
+        1021,
+        2022,
+        1067
+      ],
+      "left": 1254,
+      "top": 1021,
+      "right": 2022,
+      "bottom": 1067,
+      "width": 768,
+      "height": 46,
+      "confidence": 93.507,
+      "text": "Du bist ein echter Berliner. Magst"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 12,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        2234,
+        1022,
+        2871,
+        1068
+      ],
+      "left": 2234,
+      "top": 1022,
+      "right": 2871,
+      "bottom": 1068,
+      "width": 637,
+      "height": 46,
+      "confidence": 94.775,
+      "text": "auch die Idee der derzeitigen"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 12,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        2233,
+        1083,
+        3010,
+        1131
+      ],
+      "left": 2233,
+      "top": 1083,
+      "right": 3010,
+      "bottom": 1131,
+      "width": 777,
+      "height": 48,
+      "confidence": 93.354,
+      "text": "Ausstellung in SF und der Kunstler-"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        271,
+        1084,
+        1028,
+        1131
+      ],
+      "left": 271,
+      "top": 1084,
+      "right": 1028,
+      "bottom": 1131,
+      "width": 757,
+      "height": 47,
+      "confidence": 93.443,
+      "text": "designt. So vielschichtig wie seine"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1254,
+        1084,
+        2046,
+        1130
+      ],
+      "left": 1254,
+      "top": 1084,
+      "right": 2046,
+      "bottom": 1130,
+      "width": 792,
+      "height": 46,
+      "confidence": 80.522,
+      "text": "Du die Stadt heutzutage uberhaupt"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        273,
+        1149,
+        970,
+        1195
+      ],
+      "left": 273,
+      "top": 1149,
+      "right": 970,
+      "bottom": 1195,
+      "width": 697,
+      "height": 46,
+      "confidence": 95.6,
+      "text": "Biografie ist auch die Kunst von"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1254,
+        1149,
+        1388,
+        1186
+      ],
+      "left": 1254,
+      "top": 1149,
+      "right": 1388,
+      "bottom": 1186,
+      "width": 134,
+      "height": 37,
+      "confidence": 96.018,
+      "text": "noch?"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 12,
+      "paragraphNumber": 2,
+      "lineNumber": 7,
+      "bbox": [
+        2233,
+        1149,
+        2818,
+        1195
+      ],
+      "left": 2233,
+      "top": 1149,
+      "right": 2818,
+      "bottom": 1195,
+      "width": 585,
+      "height": 46,
+      "confidence": 95.408,
+      "text": "gruppe The Oyster Pirates:"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 10,
+      "bbox": [
+        271,
+        1212,
+        786,
+        1258
+      ],
+      "left": 271,
+      "top": 1212,
+      "right": 786,
+      "bottom": 1258,
+      "width": 515,
+      "height": 46,
+      "confidence": 92.356,
+      "text": "Christian Rothenhagen."
+    },
+    {
+      "id": "l031",
+      "blockNumber": 10,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1255,
+        1212,
+        2066,
+        1249
+      ],
+      "left": 1255,
+      "top": 1212,
+      "right": 2066,
+      "bottom": 1249,
+      "width": 811,
+      "height": 37,
+      "confidence": 95.468,
+      "text": "Ich wohne hier seit 1976. Da war ich"
+    },
+    {
+      "id": "l032",
+      "blockNumber": 12,
+      "paragraphNumber": 2,
+      "lineNumber": 8,
+      "bbox": [
+        2237,
+        1212,
+        3016,
+        1258
+      ],
+      "left": 2237,
+      "top": 1212,
+      "right": 3016,
+      "bottom": 1258,
+      "width": 779,
+      "height": 46,
+      "confidence": 90.418,
+      "text": "Kollaboration. Dabei sind unglaubli-"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 10,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        1253,
+        1274,
+        2001,
+        1312
+      ],
+      "left": 1253,
+      "top": 1274,
+      "right": 2001,
+      "bottom": 1312,
+      "width": 748,
+      "height": 38,
+      "confidence": 95.666,
+      "text": "dreieinhalb. Fur mich ist die Stadt"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 5,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        1275,
+        936,
+        1320
+      ],
+      "left": 270,
+      "top": 1275,
+      "right": 936,
+      "bottom": 1320,
+      "width": 666,
+      "height": 45,
+      "confidence": 93.13,
+      "text": "Wo andere jedes beschissene"
+    },
+    {
+      "id": "l035",
+      "blockNumber": 12,
+      "paragraphNumber": 2,
+      "lineNumber": 9,
+      "bbox": [
+        2234,
+        1275,
+        2985,
+        1312
+      ],
+      "left": 2234,
+      "top": 1275,
+      "right": 2985,
+      "bottom": 1312,
+      "width": 751,
+      "height": 37,
+      "confidence": 92.785,
+      "text": "che Sachen entstanden. Hammer."
+    },
+    {
+      "id": "l036",
+      "blockNumber": 10,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        1255,
+        1338,
+        2021,
+        1382
+      ],
+      "left": 1255,
+      "top": 1338,
+      "right": 2021,
+      "bottom": 1382,
+      "width": 766,
+      "height": 44,
+      "confidence": 87.043,
+      "text": "immer noch die schonste, raueste,"
+    },
+    {
+      "id": "l037",
+      "blockNumber": 5,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        270,
+        1339,
+        1024,
+        1382
+      ],
+      "left": 270,
+      "top": 1339,
+      "right": 1024,
+      "bottom": 1382,
+      "width": 754,
+      "height": 43,
+      "confidence": 92.185,
+      "text": "Tierchen als Streetart deklarieren,"
+    },
+    {
+      "id": "l038",
+      "blockNumber": 5,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        270,
+        1401,
+        1076,
+        1449
+      ],
+      "left": 270,
+      "top": 1401,
+      "right": 1076,
+      "bottom": 1449,
+      "width": 806,
+      "height": 48,
+      "confidence": 95.242,
+      "text": "verschonert der Designer mit seinen"
+    },
+    {
+      "id": "l039",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2235,
+        1402,
+        2898,
+        1448
+      ],
+      "left": 2235,
+      "top": 1402,
+      "right": 2898,
+      "bottom": 1448,
+      "width": 663,
+      "height": 46,
+      "confidence": 94.138,
+      "text": "Kannst Du das mit irgendwas"
+    },
+    {
+      "id": "l040",
+      "blockNumber": 10,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        1251,
+        1403,
+        1978,
+        1449
+      ],
+      "left": 1251,
+      "top": 1403,
+      "right": 1978,
+      "bottom": 1449,
+      "width": 727,
+      "height": 46,
+      "confidence": 91.368,
+      "text": "vielschichtigste, interessanteste,"
+    },
+    {
+      "id": "l041",
+      "blockNumber": 5,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        271,
+        1464,
+        1082,
+        1512
+      ],
+      "left": 271,
+      "top": 1464,
+      "right": 1082,
+      "bottom": 1512,
+      "width": 811,
+      "height": 48,
+      "confidence": 92.77,
+      "text": "aufwandig gestalteten Kacheln unter"
+    },
+    {
+      "id": "l042",
+      "blockNumber": 10,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        1254,
+        1465,
+        2030,
+        1511
+      ],
+      "left": 1254,
+      "top": 1465,
+      "right": 2030,
+      "bottom": 1511,
+      "width": 776,
+      "height": 46,
+      "confidence": 91.242,
+      "text": "unbestechlichste, kaputteste — und"
+    },
+    {
+      "id": "l043",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2233,
+        1465,
+        2520,
+        1511
+      ],
+      "left": 2233,
+      "top": 1465,
+      "right": 2520,
+      "bottom": 1511,
+      "width": 287,
+      "height": 46,
+      "confidence": 95.536,
+      "text": "vergleichen?"
+    },
+    {
+      "id": "l044",
+      "blockNumber": 10,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        1253,
+        1527,
+        1951,
+        1575
+      ],
+      "left": 1253,
+      "top": 1527,
+      "right": 1951,
+      "bottom": 1575,
+      "width": 698,
+      "height": 48,
+      "confidence": 94.007,
+      "text": "ehrlichste. Ich bin glucklich hier"
+    },
+    {
+      "id": "l045",
+      "blockNumber": 5,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        271,
+        1528,
+        1104,
+        1571
+      ],
+      "left": 271,
+      "top": 1528,
+      "right": 1104,
+      "bottom": 1571,
+      "width": 833,
+      "height": 43,
+      "confidence": 80.28,
+      "text": "dem Namen ,,deerBLN“ unsere Stadt."
+    },
+    {
+      "id": "l046",
+      "blockNumber": 13,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        2236,
+        1529,
+        3080,
+        1575
+      ],
+      "left": 2236,
+      "top": 1529,
+      "right": 3080,
+      "bottom": 1575,
+      "width": 844,
+      "height": 46,
+      "confidence": 95.069,
+      "text": "Nee, vergleichen kann man das kaum,"
+    },
+    {
+      "id": "l047",
+      "blockNumber": 5,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        270,
+        1587,
+        1033,
+        1643
+      ],
+      "left": 270,
+      "top": 1587,
+      "right": 1033,
+      "bottom": 1643,
+      "width": 763,
+      "height": 56,
+      "confidence": 84.642,
+      "text": "proud traf den Kunstler frisch nach"
+    },
+    {
+      "id": "l048",
+      "blockNumber": 10,
+      "paragraphNumber": 2,
+      "lineNumber": 7,
+      "bbox": [
+        1255,
+        1592,
+        2041,
+        1636
+      ],
+      "left": 1255,
+      "top": 1592,
+      "right": 2041,
+      "bottom": 1636,
+      "width": 786,
+      "height": 44,
+      "confidence": 95.299,
+      "text": "leben zu durfen und hoffe, dass der"
+    },
+    {
+      "id": "l049",
+      "blockNumber": 13,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        2234,
+        1592,
+        2981,
+        1630
+      ],
+      "left": 2234,
+      "top": 1592,
+      "right": 2981,
+      "bottom": 1630,
+      "width": 747,
+      "height": 38,
+      "confidence": 93.862,
+      "text": "obwohl... Naturlich sind die Leute"
+    },
+    {
+      "id": "l050",
+      "blockNumber": 5,
+      "paragraphNumber": 2,
+      "lineNumber": 7,
+      "bbox": [
+        272,
+        1655,
+        987,
+        1703
+      ],
+      "left": 272,
+      "top": 1655,
+      "right": 987,
+      "bottom": 1703,
+      "width": 715,
+      "height": 48,
+      "confidence": 90.754,
+      "text": "seiner funfwochigen Galerie-Tour"
+    },
+    {
+      "id": "l051",
+      "blockNumber": 13,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        2234,
+        1655,
+        2984,
+        1699
+      ],
+      "left": 2234,
+      "top": 1655,
+      "right": 2984,
+      "bottom": 1699,
+      "width": 750,
+      "height": 44,
+      "confidence": 95.25,
+      "text": "druben auch nicht anders als hier,"
+    },
+    {
+      "id": "l052",
+      "blockNumber": 10,
+      "paragraphNumber": 2,
+      "lineNumber": 8,
+      "bbox": [
+        1251,
+        1656,
+        2015,
+        1703
+      ],
+      "left": 1251,
+      "top": 1656,
+      "right": 2015,
+      "bottom": 1703,
+      "width": 764,
+      "height": 47,
+      "confidence": 93.213,
+      "text": "ganze Zustrom noch bisschen was"
+    },
+    {
+      "id": "l053",
+      "blockNumber": 10,
+      "paragraphNumber": 2,
+      "lineNumber": 9,
+      "bbox": [
+        1251,
+        1718,
+        2055,
+        1765
+      ],
+      "left": 1251,
+      "top": 1718,
+      "right": 2055,
+      "bottom": 1765,
+      "width": 804,
+      "height": 47,
+      "confidence": 88.464,
+      "text": "von meiner Stadt Ubrig lasst. Mal im"
+    },
+    {
+      "id": "l054",
+      "blockNumber": 5,
+      "paragraphNumber": 2,
+      "lineNumber": 8,
+      "bbox": [
+        271,
+        1719,
+        656,
+        1756
+      ],
+      "left": 271,
+      "top": 1719,
+      "right": 656,
+      "bottom": 1756,
+      "width": 385,
+      "height": 37,
+      "confidence": 92.214,
+      "text": "durch Kalifornien."
+    },
+    {
+      "id": "l055",
+      "blockNumber": 13,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        2235,
+        1719,
+        2975,
+        1756
+      ],
+      "left": 2235,
+      "top": 1719,
+      "right": 2975,
+      "bottom": 1756,
+      "width": 740,
+      "height": 37,
+      "confidence": 95.279,
+      "text": "nur wird Kunst da eher unter dem"
+    },
+    {
+      "id": "l056",
+      "blockNumber": 10,
+      "paragraphNumber": 2,
+      "lineNumber": 10,
+      "bbox": [
+        1255,
+        1782,
+        2058,
+        1827
+      ],
+      "left": 1255,
+      "top": 1782,
+      "right": 2058,
+      "bottom": 1827,
+      "width": 803,
+      "height": 45,
+      "confidence": 94.574,
+      "text": "Ernst, jeder und jede ist hier herzlich"
+    },
+    {
+      "id": "l057",
+      "blockNumber": 13,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        2236,
+        1782,
+        3044,
+        1828
+      ],
+      "left": 2236,
+      "top": 1782,
+      "right": 3044,
+      "bottom": 1828,
+      "width": 808,
+      "height": 46,
+      "confidence": 94.406,
+      "text": "Karriereaspekt gesehen. Also, wo du"
+    },
+    {
+      "id": "l058",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        1846,
+        1073,
+        1883
+      ],
+      "left": 270,
+      "top": 1846,
+      "right": 1073,
+      "bottom": 1883,
+      "width": 803,
+      "height": 37,
+      "confidence": 93.423,
+      "text": "Welche Ambitionen hast Du um Ka-"
+    },
+    {
+      "id": "l059",
+      "blockNumber": 10,
+      "paragraphNumber": 2,
+      "lineNumber": 11,
+      "bbox": [
+        1252,
+        1846,
+        2058,
+        1889
+      ],
+      "left": 1252,
+      "top": 1846,
+      "right": 2058,
+      "bottom": 1889,
+      "width": 806,
+      "height": 43,
+      "confidence": 94.736,
+      "text": "willkommen, aber lasst die Stadt die"
+    },
+    {
+      "id": "l060",
+      "blockNumber": 13,
+      "paragraphNumber": 3,
+      "lineNumber": 3,
+      "bbox": [
+        2234,
+        1846,
+        2983,
+        1892
+      ],
+      "left": 2234,
+      "top": 1846,
+      "right": 2983,
+      "bottom": 1892,
+      "width": 749,
+      "height": 46,
+      "confidence": 95.381,
+      "text": "ausstellst. Okay, das ist auch hier"
+    },
+    {
+      "id": "l061",
+      "blockNumber": 10,
+      "paragraphNumber": 2,
+      "lineNumber": 12,
+      "bbox": [
+        1254,
+        1908,
+        1998,
+        1952
+      ],
+      "left": 1254,
+      "top": 1908,
+      "right": 1998,
+      "bottom": 1952,
+      "width": 744,
+      "height": 44,
+      "confidence": 96.034,
+      "text": "Stadt sein. Wer Munchen will, soll"
+    },
+    {
+      "id": "l062",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        271,
+        1909,
+        1010,
+        1946
+      ],
+      "left": 271,
+      "top": 1909,
+      "right": 1010,
+      "bottom": 1946,
+      "width": 739,
+      "height": 37,
+      "confidence": 89.018,
+      "text": "cheln ins zu kleben?"
+    },
+    {
+      "id": "l063",
+      "blockNumber": 13,
+      "paragraphNumber": 3,
+      "lineNumber": 4,
+      "bbox": [
+        2235,
+        1910,
+        3015,
+        1956
+      ],
+      "left": 2235,
+      "top": 1910,
+      "right": 3015,
+      "bottom": 1956,
+      "width": 780,
+      "height": 46,
+      "confidence": 92.58,
+      "text": "nicht unwichtig, strenge Preispolitik"
+    },
+    {
+      "id": "l064",
+      "blockNumber": 10,
+      "paragraphNumber": 2,
+      "lineNumber": 13,
+      "bbox": [
+        1253,
+        1971,
+        1823,
+        2009
+      ],
+      "left": 1253,
+      "top": 1971,
+      "right": 1823,
+      "bottom": 2009,
+      "width": 570,
+      "height": 38,
+      "confidence": 95.963,
+      "text": "eben in Munchen bleiben."
+    },
+    {
+      "id": "l065",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        273,
+        1973,
+        1054,
+        2019
+      ],
+      "left": 273,
+      "top": 1973,
+      "right": 1054,
+      "bottom": 2019,
+      "width": 781,
+      "height": 46,
+      "confidence": 96.499,
+      "text": "Meine Ambition ist ganz klar, meine"
+    },
+    {
+      "id": "l066",
+      "blockNumber": 13,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        2234,
+        1973,
+        3011,
+        2009
+      ],
+      "left": 2234,
+      "top": 1973,
+      "right": 3011,
+      "bottom": 2009,
+      "width": 777,
+      "height": 36,
+      "confidence": 95.331,
+      "text": "et cetera. Ich sehe das alles etwas"
+    },
+    {
+      "id": "l067",
+      "blockNumber": 13,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        2234,
+        2035,
+        2991,
+        2081
+      ],
+      "left": 2234,
+      "top": 2035,
+      "right": 2991,
+      "bottom": 2081,
+      "width": 757,
+      "height": 46,
+      "confidence": 93.812,
+      "text": "entspannter. Die Stadt ist ohnehin"
+    },
+    {
+      "id": "l068",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        272,
+        2036,
+        1069,
+        2084
+      ],
+      "left": 272,
+      "top": 2036,
+      "right": 1069,
+      "bottom": 2084,
+      "width": 797,
+      "height": 48,
+      "confidence": 93.357,
+      "text": "Stadt zu verschonern und zu zeigen:"
+    },
+    {
+      "id": "l069",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        274,
+        2100,
+        1083,
+        2147
+      ],
+      "left": 274,
+      "top": 2100,
+      "right": 1083,
+      "bottom": 2147,
+      "width": 809,
+      "height": 47,
+      "confidence": 94.831,
+      "text": "In Zeichnungen, auf T-Shirts, Boards,"
+    },
+    {
+      "id": "l070",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1251,
+        2100,
+        1940,
+        2137
+      ],
+      "left": 1251,
+      "top": 2100,
+      "right": 1940,
+      "bottom": 2137,
+      "width": 689,
+      "height": 37,
+      "confidence": 93.482,
+      "text": "Streetart ist doch mittlerweile"
+    },
+    {
+      "id": "l071",
+      "blockNumber": 13,
+      "paragraphNumber": 4,
+      "lineNumber": 3,
+      "bbox": [
+        2235,
+        2100,
+        3078,
+        2147
+      ],
+      "left": 2235,
+      "top": 2100,
+      "right": 3078,
+      "bottom": 2147,
+      "width": 843,
+      "height": 47,
+      "confidence": 90.759,
+      "text": "speziell, genauso wie Berlin. Vielleicht"
+    },
+    {
+      "id": "l072",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        274,
+        2163,
+        1104,
+        2206
+      ],
+      "left": 274,
+      "top": 2163,
+      "right": 1104,
+      "bottom": 2206,
+      "width": 830,
+      "height": 43,
+      "confidence": 95.708,
+      "text": "Installationen, wo auch immer. Ich bin"
+    },
+    {
+      "id": "l073",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1464,
+        2163,
+        2066,
+        2208
+      ],
+      "left": 1464,
+      "top": 2163,
+      "right": 2066,
+      "bottom": 2208,
+      "width": 602,
+      "height": 45,
+      "confidence": 94.36,
+      "text": "Wie ist es, ein Streetartist"
+    },
+    {
+      "id": "l074",
+      "blockNumber": 13,
+      "paragraphNumber": 4,
+      "lineNumber": 4,
+      "bbox": [
+        2234,
+        2163,
+        3042,
+        2210
+      ],
+      "left": 2234,
+      "top": 2163,
+      "right": 3042,
+      "bottom": 2210,
+      "width": 808,
+      "height": 47,
+      "confidence": 92.525,
+      "text": "dahingehend doch vergleichbar. Zwei"
+    },
+    {
+      "id": "l075",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        270,
+        2225,
+        1068,
+        2272
+      ],
+      "left": 270,
+      "top": 2225,
+      "right": 1068,
+      "bottom": 2272,
+      "width": 798,
+      "height": 47,
+      "confidence": 94.056,
+      "text": "glucklich in der schonsten Stadt der"
+    },
+    {
+      "id": "l076",
+      "blockNumber": 13,
+      "paragraphNumber": 4,
+      "lineNumber": 5,
+      "bbox": [
+        2232,
+        2225,
+        2997,
+        2273
+      ],
+      "left": 2232,
+      "top": 2225,
+      "right": 2997,
+      "bottom": 2273,
+      "width": 765,
+      "height": 48,
+      "confidence": 93.328,
+      "text": "fertige Schonheiten. In SF ist alles"
+    },
+    {
+      "id": "l077",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1251,
+        2226,
+        1435,
+        2263
+      ],
+      "left": 1251,
+      "top": 2226,
+      "right": 1435,
+      "bottom": 2263,
+      "width": 184,
+      "height": 37,
+      "confidence": 95.085,
+      "text": "zu sein?"
+    },
+    {
+      "id": "l078",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        270,
+        2289,
+        734,
+        2327
+      ],
+      "left": 270,
+      "top": 2289,
+      "right": 734,
+      "bottom": 2327,
+      "width": 464,
+      "height": 38,
+      "confidence": 94.343,
+      "text": "Welt leben zu durfen."
+    },
+    {
+      "id": "l079",
+      "blockNumber": 13,
+      "paragraphNumber": 4,
+      "lineNumber": 6,
+      "bbox": [
+        2233,
+        2289,
+        3044,
+        2337
+      ],
+      "left": 2233,
+      "top": 2289,
+      "right": 3044,
+      "bottom": 2337,
+      "width": 811,
+      "height": 48,
+      "confidence": 86.406,
+      "text": "geballter und Ubersichtlicher, konkre-"
+    },
+    {
+      "id": "l080",
+      "blockNumber": 11,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1255,
+        2290,
+        2015,
+        2327
+      ],
+      "left": 1255,
+      "top": 2290,
+      "right": 2015,
+      "bottom": 2327,
+      "width": 760,
+      "height": 37,
+      "confidence": 95.148,
+      "text": "Ich seh mich nicht als Streetartist."
+    },
+    {
+      "id": "l081",
+      "blockNumber": 11,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        1255,
+        2353,
+        2016,
+        2400
+      ],
+      "left": 1255,
+      "top": 2353,
+      "right": 2016,
+      "bottom": 2400,
+      "width": 761,
+      "height": 47,
+      "confidence": 94.616,
+      "text": "Das ist ein so kaputter Begriff, der"
+    },
+    {
+      "id": "l082",
+      "blockNumber": 13,
+      "paragraphNumber": 4,
+      "lineNumber": 7,
+      "bbox": [
+        2232,
+        2354,
+        2704,
+        2390
+      ],
+      "left": 2232,
+      "top": 2354,
+      "right": 2704,
+      "bottom": 2390,
+      "width": 472,
+      "height": 36,
+      "confidence": 94.611,
+      "text": "ter und eben direkter."
+    },
+    {
+      "id": "l083",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        272,
+        2416,
+        640,
+        2453
+      ],
+      "left": 272,
+      "top": 2416,
+      "right": 640,
+      "bottom": 2453,
+      "width": 368,
+      "height": 37,
+      "confidence": 96.692,
+      "text": "Und die Motive?"
+    },
+    {
+      "id": "l084",
+      "blockNumber": 11,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        1255,
+        2417,
+        1987,
+        2463
+      ],
+      "left": 1255,
+      "top": 2417,
+      "right": 1987,
+      "bottom": 2463,
+      "width": 732,
+      "height": 46,
+      "confidence": 94.252,
+      "text": "in meinen Augen eher degradiert;"
+    },
+    {
+      "id": "l085",
+      "blockNumber": 11,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        1253,
+        2478,
+        2012,
+        2516
+      ],
+      "left": 1253,
+      "top": 2478,
+      "right": 2012,
+      "bottom": 2516,
+      "width": 759,
+      "height": 38,
+      "confidence": 96.267,
+      "text": "die Kunst und die Kunstler. Ich will"
+    },
+    {
+      "id": "l086",
+      "blockNumber": 7,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        274,
+        2479,
+        1069,
+        2522
+      ],
+      "left": 274,
+      "top": 2479,
+      "right": 1069,
+      "bottom": 2522,
+      "width": 795,
+      "height": 43,
+      "confidence": 94.751,
+      "text": "Erstmal die Stadt, also Berlin: Archi-"
+    },
+    {
+      "id": "l087",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2235,
+        2479,
+        2951,
+        2516
+      ],
+      "left": 2235,
+      "top": 2479,
+      "right": 2951,
+      "bottom": 2516,
+      "width": 716,
+      "height": 37,
+      "confidence": 83.088,
+      "text": "Frische Plane fiur’s frische Jahr?"
+    },
+    {
+      "id": "l088",
+      "blockNumber": 7,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        269,
+        2544,
+        1079,
+        2589
+      ],
+      "left": 269,
+      "top": 2544,
+      "right": 1079,
+      "bottom": 2589,
+      "width": 810,
+      "height": 45,
+      "confidence": 92.473,
+      "text": "tektur, Brandmauern. Mein Anspruch"
+    },
+    {
+      "id": "l089",
+      "blockNumber": 11,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        1253,
+        2544,
+        1977,
+        2581
+      ],
+      "left": 1253,
+      "top": 2544,
+      "right": 1977,
+      "bottom": 2581,
+      "width": 724,
+      "height": 37,
+      "confidence": 93.642,
+      "text": "das bitte nicht falsch verstanden"
+    },
+    {
+      "id": "l090",
+      "blockNumber": 14,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        2236,
+        2544,
+        2987,
+        2591
+      ],
+      "left": 2236,
+      "top": 2544,
+      "right": 2987,
+      "bottom": 2591,
+      "width": 751,
+      "height": 47,
+      "confidence": 96.032,
+      "text": "Ne Menge! Es sind so um die vier,"
+    },
+    {
+      "id": "l091",
+      "blockNumber": 14,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        2232,
+        2606,
+        2884,
+        2654
+      ],
+      "left": 2232,
+      "top": 2606,
+      "right": 2884,
+      "bottom": 2654,
+      "width": 652,
+      "height": 48,
+      "confidence": 93.342,
+      "text": "funf Gruppenausstellungen in"
+    },
+    {
+      "id": "l092",
+      "blockNumber": 7,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        273,
+        2607,
+        1079,
+        2650
+      ],
+      "left": 273,
+      "top": 2607,
+      "right": 1079,
+      "bottom": 2650,
+      "width": 806,
+      "height": 43,
+      "confidence": 94.517,
+      "text": "ist hoch, klar. Oft minimalistisch, auf"
+    },
+    {
+      "id": "l093",
+      "blockNumber": 11,
+      "paragraphNumber": 4,
+      "lineNumber": 3,
+      "bbox": [
+        1252,
+        2607,
+        1987,
+        2650
+      ],
+      "left": 1252,
+      "top": 2607,
+      "right": 1987,
+      "bottom": 2650,
+      "width": 735,
+      "height": 43,
+      "confidence": 96.318,
+      "text": "wissen, aber in einer Stadt in der"
+    },
+    {
+      "id": "l094",
+      "blockNumber": 7,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        271,
+        2670,
+        1029,
+        2717
+      ],
+      "left": 271,
+      "top": 2670,
+      "right": 1029,
+      "bottom": 2717,
+      "width": 758,
+      "height": 47,
+      "confidence": 92.22,
+      "text": "den Punkt gebracht, konzeptionell,"
+    },
+    {
+      "id": "l095",
+      "blockNumber": 11,
+      "paragraphNumber": 4,
+      "lineNumber": 4,
+      "bbox": [
+        1254,
+        2670,
+        2066,
+        2715
+      ],
+      "left": 1254,
+      "top": 2670,
+      "right": 2066,
+      "bottom": 2715,
+      "width": 812,
+      "height": 45,
+      "confidence": 94.249,
+      "text": "sich jeder Streetartist nennt, der mal"
+    },
+    {
+      "id": "l096",
+      "blockNumber": 14,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        2235,
+        2670,
+        3080,
+        2717
+      ],
+      "left": 2235,
+      "top": 2670,
+      "right": 3080,
+      "bottom": 2717,
+      "width": 845,
+      "height": 47,
+      "confidence": 95.53,
+      "text": "Planung. Allein in den Staaten mit den"
+    },
+    {
+      "id": "l097",
+      "blockNumber": 11,
+      "paragraphNumber": 4,
+      "lineNumber": 5,
+      "bbox": [
+        1256,
+        2733,
+        2009,
+        2780
+      ],
+      "left": 1256,
+      "top": 2733,
+      "right": 2009,
+      "bottom": 2780,
+      "width": 753,
+      "height": 47,
+      "confidence": 86.386,
+      "text": "“nen Sticker an eine Wand geklebt"
+    },
+    {
+      "id": "l098",
+      "blockNumber": 14,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        2235,
+        2733,
+        3054,
+        2779
+      ],
+      "left": 2235,
+      "top": 2733,
+      "right": 3054,
+      "bottom": 2779,
+      "width": 819,
+      "height": 46,
+      "confidence": 95.094,
+      "text": "Oyster Pirates und mit dem deerBLN-"
+    },
+    {
+      "id": "l099",
+      "blockNumber": 7,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        270,
+        2734,
+        948,
+        2781
+      ],
+      "left": 270,
+      "top": 2734,
+      "right": 948,
+      "bottom": 2781,
+      "width": 678,
+      "height": 47,
+      "confidence": 91.85,
+      "text": "Wiedererkennung, Handschrift."
+    },
+    {
+      "id": "l100",
+      "blockNumber": 11,
+      "paragraphNumber": 4,
+      "lineNumber": 6,
+      "bbox": [
+        1254,
+        2797,
+        2079,
+        2844
+      ],
+      "left": 1254,
+      "top": 2797,
+      "right": 2079,
+      "bottom": 2844,
+      "width": 825,
+      "height": 47,
+      "confidence": 96.455,
+      "text": "hat, wird der Begriff schnell zur Farce."
+    },
+    {
+      "id": "l101",
+      "blockNumber": 14,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        2236,
+        2797,
+        2894,
+        2843
+      ],
+      "left": 2236,
+      "top": 2797,
+      "right": 2894,
+      "bottom": 2843,
+      "width": 658,
+      "height": 46,
+      "confidence": 94.736,
+      "text": "project. Das ist eine Gruppen-"
+    },
+    {
+      "id": "l102",
+      "blockNumber": 14,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        2234,
+        2859,
+        3056,
+        2907
+      ],
+      "left": 2234,
+      "top": 2859,
+      "right": 3056,
+      "bottom": 2907,
+      "width": 822,
+      "height": 48,
+      "confidence": 95.55,
+      "text": "ausstellungsreihe zu der ich Kunstler"
+    },
+    {
+      "id": "l103",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        2860,
+        920,
+        2906
+      ],
+      "left": 273,
+      "top": 2860,
+      "right": 920,
+      "bottom": 2906,
+      "width": 647,
+      "height": 46,
+      "confidence": 95.065,
+      "text": "Bist Du schon mal gefressen"
+    },
+    {
+      "id": "l104",
+      "blockNumber": 11,
+      "paragraphNumber": 4,
+      "lineNumber": 7,
+      "bbox": [
+        1255,
+        2860,
+        2046,
+        2907
+      ],
+      "left": 1255,
+      "top": 2860,
+      "right": 2046,
+      "bottom": 2907,
+      "width": 791,
+      "height": 47,
+      "confidence": 96.415,
+      "text": "Kunst kann so viel sein, egal ob auf"
+    },
+    {
+      "id": "l105",
+      "blockNumber": 11,
+      "paragraphNumber": 4,
+      "lineNumber": 8,
+      "bbox": [
+        1253,
+        2923,
+        2071,
+        2960
+      ],
+      "left": 1253,
+      "top": 2923,
+      "right": 2071,
+      "bottom": 2960,
+      "width": 818,
+      "height": 37,
+      "confidence": 94.605,
+      "text": "der in Galerien oder eben die"
+    },
+    {
+      "id": "l106",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        270,
+        2924,
+        461,
+        2960
+      ],
+      "left": 270,
+      "top": 2924,
+      "right": 461,
+      "bottom": 2960,
+      "width": 191,
+      "height": 36,
+      "confidence": 95.976,
+      "text": "worden?"
+    },
+    {
+      "id": "l107",
+      "blockNumber": 14,
+      "paragraphNumber": 2,
+      "lineNumber": 7,
+      "bbox": [
+        2234,
+        2924,
+        3044,
+        2966
+      ],
+      "left": 2234,
+      "top": 2924,
+      "right": 3044,
+      "bottom": 2966,
+      "width": 810,
+      "height": 42,
+      "confidence": 95.598,
+      "text": "einlade, etwas zum Thema “deer” zu"
+    },
+    {
+      "id": "l108",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        2988,
+        1012,
+        3035
+      ],
+      "left": 270,
+      "top": 2988,
+      "right": 1012,
+      "bottom": 3035,
+      "width": 742,
+      "height": 47,
+      "confidence": 94.72,
+      "text": "Ja, so zwei, drei Sachen gibt’s da."
+    },
+    {
+      "id": "l109",
+      "blockNumber": 11,
+      "paragraphNumber": 4,
+      "lineNumber": 9,
+      "bbox": [
+        1254,
+        2988,
+        2076,
+        3035
+      ],
+      "left": 1254,
+      "top": 2988,
+      "right": 2076,
+      "bottom": 3035,
+      "width": 822,
+      "height": 47,
+      "confidence": 84.381,
+      "text": "StraBe selbst. Da gibt’s viele wunder-"
+    },
+    {
+      "id": "l110",
+      "blockNumber": 14,
+      "paragraphNumber": 2,
+      "lineNumber": 8,
+      "bbox": [
+        2235,
+        2988,
+        2990,
+        3035
+      ],
+      "left": 2235,
+      "top": 2988,
+      "right": 2990,
+      "bottom": 3035,
+      "width": 755,
+      "height": 47,
+      "confidence": 94.444,
+      "text": "machen, alles im gleichen Format."
+    },
+    {
+      "id": "l111",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        271,
+        3051,
+        1107,
+        3098
+      ],
+      "left": 271,
+      "top": 3051,
+      "right": 1107,
+      "bottom": 3098,
+      "width": 836,
+      "height": 47,
+      "confidence": 94.326,
+      "text": "Zum Beispiel vor gar nicht langer Zeit,"
+    },
+    {
+      "id": "l112",
+      "blockNumber": 11,
+      "paragraphNumber": 4,
+      "lineNumber": 10,
+      "bbox": [
+        1254,
+        3051,
+        2065,
+        3098
+      ],
+      "left": 1254,
+      "top": 3051,
+      "right": 2065,
+      "bottom": 3098,
+      "width": 811,
+      "height": 47,
+      "confidence": 91.712,
+      "text": "bare Entwicklungen, Kollaborationen."
+    },
+    {
+      "id": "l113",
+      "blockNumber": 14,
+      "paragraphNumber": 2,
+      "lineNumber": 9,
+      "bbox": [
+        2236,
+        3051,
+        3022,
+        3088
+      ],
+      "left": 2236,
+      "top": 3051,
+      "right": 3022,
+      "bottom": 3088,
+      "width": 786,
+      "height": 37,
+      "confidence": 94.716,
+      "text": "Derzeit sind das etwa 65 Leute aus"
+    },
+    {
+      "id": "l114",
+      "blockNumber": 14,
+      "paragraphNumber": 2,
+      "lineNumber": 10,
+      "bbox": [
+        2236,
+        3113,
+        2500,
+        3151
+      ],
+      "left": 2236,
+      "top": 3113,
+      "right": 2500,
+      "bottom": 3151,
+      "width": 264,
+      "height": 38,
+      "confidence": 90.734,
+      "text": "14 Landern."
+    },
+    {
+      "id": "l115",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        271,
+        3114,
+        1072,
+        3160
+      ],
+      "left": 271,
+      "top": 3114,
+      "right": 1072,
+      "bottom": 3160,
+      "width": 801,
+      "height": 46,
+      "confidence": 93.835,
+      "text": "eine oder mehrere Damenjacken bei"
+    },
+    {
+      "id": "l116",
+      "blockNumber": 11,
+      "paragraphNumber": 4,
+      "lineNumber": 11,
+      "bbox": [
+        1255,
+        3114,
+        2029,
+        3161
+      ],
+      "left": 1255,
+      "top": 3114,
+      "right": 2029,
+      "bottom": 3161,
+      "width": 774,
+      "height": 47,
+      "confidence": 95.333,
+      "text": "Kunst im Umgang mit der Stadt, im"
+    },
+    {
+      "id": "l117",
+      "blockNumber": 11,
+      "paragraphNumber": 4,
+      "lineNumber": 12,
+      "bbox": [
+        1255,
+        3176,
+        1979,
+        3214
+      ],
+      "left": 1255,
+      "top": 3176,
+      "right": 1979,
+      "bottom": 3214,
+      "width": 724,
+      "height": 38,
+      "confidence": 91.737,
+      "text": "Kontext und weit daruber hinaus."
+    },
+    {
+      "id": "l118",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        273,
+        3177,
+        1107,
+        3224
+      ],
+      "left": 273,
+      "top": 3177,
+      "right": 1107,
+      "bottom": 3224,
+      "width": 834,
+      "height": 47,
+      "confidence": 94.891,
+      "text": "H&M kamen mit einem minimal abge-"
+    },
+    {
+      "id": "l119",
+      "blockNumber": 8,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        270,
+        3242,
+        1093,
+        3288
+      ],
+      "left": 270,
+      "top": 3242,
+      "right": 1093,
+      "bottom": 3288,
+      "width": 823,
+      "height": 46,
+      "confidence": 95.097,
+      "text": "wandelten Design von mir als Pattern"
+    }
+  ]
+}

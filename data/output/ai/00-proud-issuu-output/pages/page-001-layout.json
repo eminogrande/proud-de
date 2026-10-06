@@ -1,0 +1,51 @@
+{
+  "sections": [
+    {
+      "title": "FREE EVERY MONTH",
+      "kind": "utility",
+      "body": "Januar 2009\n(...wie Willy)",
+      "titleLineIds": [
+        "l010"
+      ],
+      "lineIds": [
+        "l010",
+        "l011"
+      ]
+    },
+    {
+      "title": "ISSUE #1 • HIDDEN ARTISTS • THE LAUNCH ISSUE",
+      "kind": "utility",
+      "titleLineIds": [
+        "l020"
+      ],
+      "lineIds": [
+        "l020"
+      ]
+    },
+    {
+      "title": "PAUL VAN DYK",
+      "kind": "article",
+      "body": "Weltreisenweltmeister"
+    },
+    {
+      "title": "HIDDEN ARTISTS",
+      "kind": "article",
+      "body": "Nicht Unter, nicht Grund"
+    },
+    {
+      "title": "FRITZ HELDER",
+      "kind": "article",
+      "body": "Partyzünder"
+    },
+    {
+      "title": "WIN!",
+      "kind": "promo",
+      "body": "Deine Party\nRADIO Shirts\nPvD CDs\nproud Cards\nPokertische\nBlau.de SIMs\nund mehr..."
+    },
+    {
+      "title": "+PLUS",
+      "kind": "listing",
+      "body": "proud DJ Quest\nUnderground Raves\nStreet Stylin' Sounds\n...und Nelson"
+    }
+  ]
+}

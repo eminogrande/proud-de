@@ -1,0 +1,267 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3181,
+        83,
+        3270,
+        120
+      ],
+      "left": 3181,
+      "top": 83,
+      "right": 3270,
+      "bottom": 120,
+      "width": 89,
+      "height": 37,
+      "confidence": 96.438,
+      "text": "chat"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1051,
+        572,
+        2769,
+        652
+      ],
+      "left": 1051,
+      "top": 572,
+      "right": 2769,
+      "bottom": 652,
+      "width": 1718,
+      "height": 80,
+      "confidence": 94.246,
+      "text": "Damn. Yeee! Wir lieben Zeichenbattles und deshalb wird ab"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1052,
+        659,
+        2685,
+        751
+      ],
+      "left": 1052,
+      "top": 659,
+      "right": 2685,
+      "bottom": 751,
+      "width": 1633,
+      "height": 92,
+      "confidence": 95.097,
+      "text": "ungefahr jetzt in jeder Ausgabe eins Zu bewundern sein."
+    },
+    {
+      "id": "l004",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        395,
+        2091,
+        2189,
+        2229
+      ],
+      "left": 395,
+      "top": 2091,
+      "right": 2189,
+      "bottom": 2229,
+      "width": 1794,
+      "height": 138,
+      "confidence": 73.512,
+      "text": "/ Was uns glucklich macht ye ."
+    },
+    {
+      "id": "l005",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1159,
+        2185,
+        2317,
+        2278
+      ],
+      "left": 1159,
+      "top": 2185,
+      "right": 2317,
+      "bottom": 2278,
+      "width": 1158,
+      "height": 93,
+      "confidence": 39.52,
+      "text": "( aN ay"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2057,
+        2751,
+        3030,
+        2799
+      ],
+      "left": 2057,
+      "top": 2751,
+      "right": 3030,
+      "bottom": 2799,
+      "width": 973,
+      "height": 48,
+      "confidence": 94.787,
+      "text": "Wenn wir nurnoch einen Tag zu leben hatten"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2935,
+        3605,
+        3136,
+        3650
+      ],
+      "left": 2935,
+      "top": 3605,
+      "right": 3136,
+      "bottom": 3650,
+      "width": 201,
+      "height": 45,
+      "confidence": 51.114,
+      "text": "- ‘ i A"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3263,
+        3609,
+        3267,
+        3621
+      ],
+      "left": 3263,
+      "top": 3609,
+      "right": 3267,
+      "bottom": 3621,
+      "width": 4,
+      "height": 12,
+      "confidence": 42.931,
+      "text": "4"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2509,
+        3682,
+        2548,
+        3705
+      ],
+      "left": 2509,
+      "top": 3682,
+      "right": 2548,
+      "bottom": 3705,
+      "width": 39,
+      "height": 23,
+      "confidence": 77.907,
+      "text": "i"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2879,
+        3690,
+        2881,
+        3759
+      ],
+      "left": 2879,
+      "top": 3690,
+      "right": 2881,
+      "bottom": 3759,
+      "width": 2,
+      "height": 69,
+      "confidence": 85.146,
+      "text": "|"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2565,
+        3715,
+        2646,
+        3724
+      ],
+      "left": 2565,
+      "top": 3715,
+      "right": 2646,
+      "bottom": 3724,
+      "width": 81,
+      "height": 9,
+      "confidence": 53.195,
+      "text": "Cr"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        2754,
+        3768,
+        2820,
+        3785
+      ],
+      "left": 2754,
+      "top": 3768,
+      "right": 2820,
+      "bottom": 3785,
+      "width": 66,
+      "height": 17,
+      "confidence": 94.344,
+      "text": "= ~"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2377,
+        3875,
+        3066,
+        3911
+      ],
+      "left": 2377,
+      "top": 3875,
+      "right": 3066,
+      "bottom": 3911,
+      "width": 689,
+      "height": 36,
+      "confidence": 92.811,
+      "text": "Was die Menschen interessiert"
+    }
+  ]
+}

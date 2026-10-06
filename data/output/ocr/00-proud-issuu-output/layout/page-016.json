@@ -1,0 +1,87 @@
+{
+  "scale": 2.0,
+  "imageWidth": 4478,
+  "imageHeight": 3002,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1507,
+        2768,
+        1563,
+        2787
+      ],
+      "left": 1507,
+      "top": 2768,
+      "right": 1563,
+      "bottom": 2787,
+      "width": 56,
+      "height": 19,
+      "confidence": 50.318,
+      "text": "“tod"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1893,
+        2845,
+        2042,
+        2854
+      ],
+      "left": 1893,
+      "top": 2845,
+      "right": 2042,
+      "bottom": 2854,
+      "width": 149,
+      "height": 9,
+      "confidence": 26.356,
+      "text": "ee"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        35,
+        2859,
+        1760,
+        2885
+      ],
+      "left": 35,
+      "top": 2859,
+      "right": 1760,
+      "bottom": 2885,
+      "width": 1725,
+      "height": 26,
+      "confidence": 54.598,
+      "text": "~ = —"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        78,
+        2906,
+        4394,
+        2950
+      ],
+      "left": 78,
+      "top": 2906,
+      "right": 4394,
+      "bottom": 2950,
+      "width": 4316,
+      "height": 44,
+      "confidence": 70.206,
+      "text": "39 ; — 31"
+    }
+  ]
+}

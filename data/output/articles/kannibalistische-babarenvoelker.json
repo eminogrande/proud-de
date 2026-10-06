@@ -1,0 +1,74 @@
+{
+  "slug": "kannibalistische-babarenvoelker",
+  "title": "Kannibalistische Babarenvölker",
+  "magazineSlug": "01-proud-issuu-output",
+  "magazineTitle": "01 proud issuu_output",
+  "publicationDate": null,
+  "sourcePdf": "01 proud issuu_output.pdf",
+  "authors": [
+    "Demir"
+  ],
+  "tags": [
+    "chat"
+  ],
+  "pages": {
+    "start": 26,
+    "end": 26
+  },
+  "summary": "Kannibalistische Babarenvölker. Dschungelwälder, kreischende Einhörner - was macht Demir.",
+  "excerpt": "Kannibalistische Babarenvölker. Dschungelwälder, kreischende Einhörner - was macht Demir. Produzent und DJ von Pentagonik außerhalb von Berlin?",
+  "wordCount": 16,
+  "bodyText": "Kannibalistische Babarenvölker. Dschungelwälder, kreischende Einhörner - was macht Demir. Produzent und DJ von Pentagonik außerhalb von Berlin?",
+  "markdown": "# Kannibalistische Babarenvölker\n\n> Quelle: 01 proud issuu_output, Seiten 26-26\n> Autor:innen: Demir\n\n## Seite 26\n\nKannibalistische Babarenvölker. Dschungelwälder, kreischende Einhörner - was macht Demir. Produzent und DJ von Pentagonik außerhalb von Berlin?\n",
+  "previewImage": "previews/kannibalistische-babarenvoelker.png",
+  "pageImages": [
+    {
+      "pageNumber": 26,
+      "image": "page-images/kannibalistische-babarenvoelker/page-026.jpg",
+      "width": 1677,
+      "height": 2247
+    }
+  ],
+  "pageDetails": [
+    {
+      "pageNumber": 26,
+      "text": "Kannibalistische Babarenvölker. Dschungelwälder, kreischende Einhörner - was macht Demir. Produzent und DJ von Pentagonik außerhalb von Berlin?",
+      "nativeText": "",
+      "ocrMarkdown": "<file name=\"01 proud issuu_output-page-026.pdf\">\nKannibalistische Babarenvölker. Dschungelwälder, kreischende Einhörner - was macht Demir. Produzent und DJ von Pentagonik außerhalb von Berlin?\n\n# Andere Richtungen\n\n## Wie hast Du schon einmal eine Tanzfläche leergespielt?\n\nIch habe mich vor dem Auflegen schon derartig abgeschossen, dass ich mich während des Spielens ständig gefragt habe, welcher der beiden Plattenspieler denn nun läuft und warum? Den Fehler habe ich aber auch nur einmal gemacht. Na ja, zumindest ich hatte meinen Spaß.\n\n## Bist Du beim DJ-Wechsel zurückhaltend oder aggressiv? Wo gab's mal richtig Probleme?\n\nIch glaube nur Anfänger sind aggressiv. Denn auf eine Platte mehr oder weniger kommt es nun wirklich nicht an. Und falls doch habe ich meine Buddies dabei ;). Richtige Probleme hatte ich zum Glück noch nie. Die meisten DJs sind halt locker.\n\n## Deine beste Berlin-Story, die Du im Ausland den Girls auspackst?\n\nIch erzähle, dass in Berlin das Durchschnittseinkommen bei 20.000 Euro monatlich liegt und dass wir alle ...cm und ...m und ... Stunden und ... Dann ist die Frau allerdings schon meist weg.\n\n## Ist es denn von Vorteil, aus Berlin zu sein?\n\nNatürlich hat Berlin in der Welt einen besonderen Status, wenn es um elektronische Musik geht. Allerdings ist das bloße Wohnen in der Stadt kein Garant dafür, dass man ein guter DJ ist. Gerade im Ausland treffe ich immer wieder auf sehr gute DJs. Helfen tut es daher nicht wirklich. proud erzähle ich natürlich von der Stadt.\n\nwww.pentagonik.de/artists/Demir\n</file>",
+      "ocrSource": "openrouter:mistral-ocr",
+      "ocrImageCount": 0,
+      "ocrRawFile": "/Users/eminmahrt/Developer/proud-de/data/output/ocr/01-proud-issuu-output/pages/page-026.json",
+      "displayMarkdown": "Kannibalistische Babarenvölker. Dschungelwälder, kreischende Einhörner - was macht Demir. Produzent und DJ von Pentagonik außerhalb von Berlin?",
+      "sectionIds": [
+        "p026s01"
+      ],
+      "titles": [
+        "Kannibalistische Babarenvölker"
+      ]
+    }
+  ],
+  "contentBlocks": [
+    {
+      "pageNumber": 26,
+      "spreadPages": [
+        26,
+        27
+      ],
+      "sectionIds": [
+        "p026s01"
+      ],
+      "titles": [
+        "Kannibalistische Babarenvölker"
+      ],
+      "markdown": "Kannibalistische Babarenvölker. Dschungelwälder, kreischende Einhörner - was macht Demir. Produzent und DJ von Pentagonik außerhalb von Berlin?",
+      "text": "Kannibalistische Babarenvölker. Dschungelwälder, kreischende Einhörner - was macht Demir. Produzent und DJ von Pentagonik außerhalb von Berlin?",
+      "pageImage": {
+        "pageNumber": 26,
+        "image": "page-images/kannibalistische-babarenvoelker/page-026.jpg",
+        "width": 1677,
+        "height": 2247
+      }
+    }
+  ],
+  "contentHash": "52d474c20365b0941e96c5c127d0873d7e8c97bcb256a477fe9eb2027ce6ae53"
+}

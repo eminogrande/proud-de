@@ -1,0 +1,247 @@
+{
+  "scale": 2.0,
+  "imageWidth": 4478,
+  "imageHeight": 3002,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        4203,
+        60,
+        4400,
+        100
+      ],
+      "left": 4203,
+      "top": 60,
+      "right": 4400,
+      "bottom": 100,
+      "width": 197,
+      "height": 40,
+      "confidence": 96.378,
+      "text": "last look"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1276,
+        88,
+        1297,
+        809
+      ],
+      "left": 1276,
+      "top": 88,
+      "right": 1297,
+      "bottom": 809,
+      "width": 21,
+      "height": 721,
+      "confidence": 42.674,
+      "text": "af a"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        256,
+        118,
+        319,
+        2424
+      ],
+      "left": 256,
+      "top": 118,
+      "right": 319,
+      "bottom": 2424,
+      "width": 63,
+      "height": 2306,
+      "confidence": 35.961,
+      "text": "4 x 4k aS. r ; “"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1042,
+        148,
+        1064,
+        174
+      ],
+      "left": 1042,
+      "top": 148,
+      "right": 1064,
+      "bottom": 174,
+      "width": 22,
+      "height": 26,
+      "confidence": 29.596,
+      "text": "7"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        496,
+        159,
+        510,
+        1369
+      ],
+      "left": 496,
+      "top": 159,
+      "right": 510,
+      "bottom": 1369,
+      "width": 14,
+      "height": 1210,
+      "confidence": 45.355,
+      "text": "‘vant rae it"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        321,
+        628,
+        419,
+        2299
+      ],
+      "left": 321,
+      "top": 628,
+      "right": 419,
+      "bottom": 2299,
+      "width": 98,
+      "height": 1671,
+      "confidence": 55.368,
+      "text": "ONE mak /"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1208,
+        630,
+        1242,
+        1826
+      ],
+      "left": 1208,
+      "top": 630,
+      "right": 1242,
+      "bottom": 1826,
+      "width": 34,
+      "height": 1196,
+      "confidence": 42.759,
+      "text": "A 4 ix ; ‘e :"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1173,
+        807,
+        1213,
+        1383
+      ],
+      "left": 1173,
+      "top": 807,
+      "right": 1213,
+      "bottom": 1383,
+      "width": 40,
+      "height": 576,
+      "confidence": 54.724,
+      "text": "oF ~ »"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1272,
+        2355,
+        1274,
+        2362
+      ],
+      "left": 1272,
+      "top": 2355,
+      "right": 1274,
+      "bottom": 2362,
+      "width": 2,
+      "height": 7,
+      "confidence": 42.139,
+      "text": "="
+    },
+    {
+      "id": "l010",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        4376,
+        2730,
+        4408,
+        2844
+      ],
+      "left": 4376,
+      "top": 2730,
+      "right": 4408,
+      "bottom": 2844,
+      "width": 32,
+      "height": 114,
+      "confidence": 23.78,
+      "text": "D1ydesy"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2040,
+        2915,
+        2064,
+        2967
+      ],
+      "left": 2040,
+      "top": 2915,
+      "right": 2064,
+      "bottom": 2967,
+      "width": 24,
+      "height": 52,
+      "confidence": 66.097,
+      "text": "yt"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        4277,
+        2921,
+        4400,
+        2959
+      ],
+      "left": 4277,
+      "top": 2921,
+      "right": 4400,
+      "bottom": 2959,
+      "width": 123,
+      "height": 38,
+      "confidence": 90.138,
+      "text": "i"
+    }
+  ]
+}

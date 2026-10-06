@@ -1,0 +1,227 @@
+{
+  "scale": 2.0,
+  "imageWidth": 4478,
+  "imageHeight": 3002,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1193,
+        2515,
+        2098,
+        2558
+      ],
+      "left": 1193,
+      "top": 2515,
+      "right": 2098,
+      "bottom": 2558,
+      "width": 905,
+      "height": 43,
+      "confidence": 89.039,
+      "text": "Es ist ein fur sich stehendes, einmaliges Ding. Es erzahlt vom"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1192,
+        2558,
+        2098,
+        2599
+      ],
+      "left": 1192,
+      "top": 2558,
+      "right": 2098,
+      "bottom": 2599,
+      "width": 906,
+      "height": 41,
+      "confidence": 88.521,
+      "text": "Reisen und der Freundschaft. Blanke Anonymitat Gberschattet"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1190,
+        2601,
+        2052,
+        2650
+      ],
+      "left": 1190,
+      "top": 2601,
+      "right": 2052,
+      "bottom": 2650,
+      "width": 862,
+      "height": 49,
+      "confidence": 91.303,
+      "text": "das Bild. Es fehit etwas. Was genau fehlt, sieht man nicht."
+    },
+    {
+      "id": "l004",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1190,
+        2642,
+        1983,
+        2691
+      ],
+      "left": 1190,
+      "top": 2642,
+      "right": 1983,
+      "bottom": 2691,
+      "width": 793,
+      "height": 49,
+      "confidence": 86.065,
+      "text": "Es regt zum Raten an, zum Ratseln tiber die Aussage."
+    },
+    {
+      "id": "l005",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1189,
+        2684,
+        2095,
+        2730
+      ],
+      "left": 1189,
+      "top": 2684,
+      "right": 2095,
+      "bottom": 2730,
+      "width": 906,
+      "height": 46,
+      "confidence": 94.941,
+      "text": "Die Qualitat ist nicht so gut, es ist zu klein, beim genauen"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        1189,
+        2728,
+        1910,
+        2768
+      ],
+      "left": 1189,
+      "top": 2728,
+      "right": 1910,
+      "bottom": 2768,
+      "width": 721,
+      "height": 40,
+      "confidence": 96.109,
+      "text": "Hingucken sieht man die Schatten der Personen,"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 3,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        1186,
+        2770,
+        1910,
+        2807
+      ],
+      "left": 1186,
+      "top": 2770,
+      "right": 1910,
+      "bottom": 2807,
+      "width": 724,
+      "height": 37,
+      "confidence": 89.263,
+      "text": "das ausgeschnittene Bild und die BVG Fahrkarte."
+    },
+    {
+      "id": "l008",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1187,
+        2812,
+        1680,
+        2849
+      ],
+      "left": 1187,
+      "top": 2812,
+      "right": 1680,
+      "bottom": 2849,
+      "width": 493,
+      "height": 37,
+      "confidence": 87.528,
+      "text": "Es ist wenig und erzahit ganz viel."
+    },
+    {
+      "id": "l009",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1682,
+        2871,
+        1685,
+        2873
+      ],
+      "left": 1682,
+      "top": 2871,
+      "right": 1685,
+      "bottom": 2873,
+      "width": 3,
+      "height": 2,
+      "confidence": 32.402,
+      "text": ";"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1871,
+        2879,
+        1953,
+        2892
+      ],
+      "left": 1871,
+      "top": 2879,
+      "right": 1953,
+      "bottom": 2892,
+      "width": 82,
+      "height": 13,
+      "confidence": 49.553,
+      "text": "aN"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        78,
+        2907,
+        126,
+        2963
+      ],
+      "left": 78,
+      "top": 2907,
+      "right": 126,
+      "bottom": 2963,
+      "width": 48,
+      "height": 56,
+      "confidence": 88.765,
+      "text": "38 |"
+    }
+  ]
+}

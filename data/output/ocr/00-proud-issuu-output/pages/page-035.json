@@ -1,0 +1,68 @@
+{
+  "id": "gen-1778147002-zXrVQNlrogHmBHFATq3B",
+  "object": "chat.completion",
+  "created": 1778147002,
+  "model": "google/gemini-2.5-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "OK.",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "file",
+            "file": {
+              "hash": "cbf0631fcd0635dbc7d6ee34775360c5ddaa2901e78ca112f168f87c40dc8ffc",
+              "name": "00 proud issuu_output-page-035.pdf",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "<file name=\"00 proud issuu_output-page-035.pdf\">"
+                },
+                {
+                  "type": "text",
+                  "text": "ROAD BERLIN\nISSUE #1 • HIDDEN ARTISTS • THE LAUNCH ISSUE\nJanuar 2009\n\nproud\n\nproud GbR\nEmin Mahrt &amp; Richard Kirschstein\n\nNaunynstraße 27\n10997 Berlin\nDeutschland\n\nRichard : +49 177 26 88 375\nEmin : +49 170 166 73 48\nFax. : +49 30 521 36 879\nE-Mail : sales@proudmagazine.de\nWeb. : www.proudmagazine.de"
+                },
+                {
+                  "type": "text",
+                  "text": "</file>"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 171,
+    "completion_tokens": 2,
+    "total_tokens": 173,
+    "cost": 0.002055737,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 5.63e-05,
+      "upstream_inference_prompt_cost": 5.13e-05,
+      "upstream_inference_completions_cost": 5e-06
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "dj-craft",
+  "title": "dj craft",
+  "magazineSlug": "01-proud-issuu-output",
+  "magazineTitle": "01 proud issuu_output",
+  "publicationDate": null,
+  "sourcePdf": "01 proud issuu_output.pdf",
+  "authors": [],
+  "tags": [
+    "chat"
+  ],
+  "pages": {
+    "start": 28,
+    "end": 28
+  },
+  "summary": "dj craft Spiel Technol Und zeichne... K.I.Z.",
+  "excerpt": "dj craft Spiel Technol Und zeichne... K.I.Z. in 50 Jahren Dein schlimmster Alptraum Was die Menschen interessiert Wenn Du nur noch einen Tag zu leben hättest Deine schönste Kindheitserinnerung Kleiner Was Dich glücklich macht 28 pro",
+  "wordCount": 38,
+  "bodyText": "dj craft\nSpiel Technol Und zeichne...\nK.I.Z. in 50 Jahren\nDein schlimmster Alptraum\nWas die Menschen interessiert\nWenn Du nur noch einen Tag zu leben hättest\nDeine schönste Kindheitserinnerung\nKleiner\nWas Dich glücklich macht\n28 pro",
+  "markdown": "# dj craft\n\n> Quelle: 01 proud issuu_output, Seiten 28-28\n\n## Seite 28\n\n## dj craft\n\nSpiel Technol Und zeichne...\n\nK.I.Z. in 50 Jahren\n\nDein schlimmster Alptraum\n\nWas die Menschen interessiert\n\nWenn Du nur noch einen Tag zu leben hättest\n\nDeine schönste Kindheitserinnerung\n\nKleiner\n\nWas Dich glücklich macht\n\n28 pro\n",
+  "previewImage": "previews/dj-craft.png",
+  "pageImages": [
+    {
+      "pageNumber": 28,
+      "image": "page-images/dj-craft/page-028.jpg",
+      "width": 1677,
+      "height": 2247
+    }
+  ],
+  "pageDetails": [
+    {
+      "pageNumber": 28,
+      "text": "dj craft\nSpiel Technol Und zeichne...\nK.I.Z. in 50 Jahren\nDein schlimmster Alptraum\nWas die Menschen interessiert\nWenn Du nur noch einen Tag zu leben hättest\nDeine schönste Kindheitserinnerung\nKleiner\nWas Dich glücklich macht\n28 pro",
+      "nativeText": "",
+      "ocrMarkdown": "<file name=\"01 proud issuu_output-page-028.pdf\">\nchat\n\n# dj craft\n\nSpiel Technol Und zeichne...\n\n![img-0.jpeg](img-0.jpeg)\n\nK.I.Z. in 50 Jahren\n\n![img-1.jpeg](img-1.jpeg)\n\nDein schlimmster Alptraum\n\nWas die Menschen interessiert\n\nWenn Du nur noch einen Tag zu leben hättest\n\n![img-2.jpeg](img-2.jpeg)\n\nDeine schönste Kindheitserinnerung\n\n![img-3.jpeg](img-3.jpeg)\n\nKleiner\n\n![img-4.jpeg](img-4.jpeg)\n\nWas Dich glücklich macht\n\n![img-5.jpeg](img-5.jpeg)\n\n![img-6.jpeg](img-6.jpeg)\n\n28 pro\n</file>",
+      "ocrSource": "openrouter:mistral-ocr",
+      "ocrImageCount": 7,
+      "ocrRawFile": "/Users/eminmahrt/Developer/proud-de/data/output/ocr/01-proud-issuu-output/pages/page-028.json",
+      "displayMarkdown": "## dj craft\n\nSpiel Technol Und zeichne...\n\nK.I.Z. in 50 Jahren\n\nDein schlimmster Alptraum\n\nWas die Menschen interessiert\n\nWenn Du nur noch einen Tag zu leben hättest\n\nDeine schönste Kindheitserinnerung\n\nKleiner\n\nWas Dich glücklich macht\n\n28 pro",
+      "sectionIds": [
+        "p028s01"
+      ],
+      "titles": [
+        "dj craft"
+      ]
+    }
+  ],
+  "contentBlocks": [
+    {
+      "pageNumber": 28,
+      "spreadPages": [
+        28,
+        29
+      ],
+      "sectionIds": [
+        "p028s01"
+      ],
+      "titles": [
+        "dj craft"
+      ],
+      "markdown": "## dj craft\n\nSpiel Technol Und zeichne...\n\nK.I.Z. in 50 Jahren\n\nDein schlimmster Alptraum\n\nWas die Menschen interessiert\n\nWenn Du nur noch einen Tag zu leben hättest\n\nDeine schönste Kindheitserinnerung\n\nKleiner\n\nWas Dich glücklich macht\n\n28 pro",
+      "text": "dj craft\nSpiel Technol Und zeichne...\nK.I.Z. in 50 Jahren\nDein schlimmster Alptraum\nWas die Menschen interessiert\nWenn Du nur noch einen Tag zu leben hättest\nDeine schönste Kindheitserinnerung\nKleiner\nWas Dich glücklich macht\n28 pro",
+      "pageImage": {
+        "pageNumber": 28,
+        "image": "page-images/dj-craft/page-028.jpg",
+        "width": 1677,
+        "height": 2247
+      }
+    }
+  ],
+  "contentHash": "33c19d2343171cb12e90a89d39b6f58af6cae93bfd32eebe0b94524ff7256301"
+}

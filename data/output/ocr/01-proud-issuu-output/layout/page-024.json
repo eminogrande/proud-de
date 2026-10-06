@@ -1,0 +1,4187 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 74,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2410,
+        1201,
+        2525,
+        1257
+      ],
+      "left": 2410,
+      "top": 1201,
+      "right": 2525,
+      "bottom": 1257,
+      "width": 115,
+      "height": 56,
+      "confidence": 30.049,
+      "text": "OS"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1887,
+        1212,
+        2032,
+        1257
+      ],
+      "left": 1887,
+      "top": 1212,
+      "right": 2032,
+      "bottom": 1257,
+      "width": 145,
+      "height": 45,
+      "confidence": 33.114,
+      "text": "ene)"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 75,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2380,
+        1232,
+        2414,
+        1267
+      ],
+      "left": 2380,
+      "top": 1232,
+      "right": 2414,
+      "bottom": 1267,
+      "width": 34,
+      "height": 35,
+      "confidence": 49.945,
+      "text": "~»"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 73,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2269,
+        1242,
+        2303,
+        1277
+      ],
+      "left": 2269,
+      "top": 1242,
+      "right": 2303,
+      "bottom": 1277,
+      "width": 34,
+      "height": 35,
+      "confidence": 34.867,
+      "text": "aS"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1822,
+        1249,
+        1891,
+        1328
+      ],
+      "left": 1822,
+      "top": 1249,
+      "right": 1891,
+      "bottom": 1328,
+      "width": 69,
+      "height": 79,
+      "confidence": 32.482,
+      "text": "2th"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 75,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2349,
+        1252,
+        2686,
+        1297
+      ],
+      "left": 2349,
+      "top": 1252,
+      "right": 2686,
+      "bottom": 1297,
+      "width": 337,
+      "height": 45,
+      "confidence": 27.725,
+      "text": "Ke ="
+    },
+    {
+      "id": "l007",
+      "blockNumber": 75,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2315,
+        1272,
+        2847,
+        1368
+      ],
+      "left": 2315,
+      "top": 1272,
+      "right": 2847,
+      "bottom": 1368,
+      "width": 532,
+      "height": 96,
+      "confidence": 40.864,
+      "text": "ia SPB $s"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1525,
+        1273,
+        1750,
+        1338
+      ],
+      "left": 1525,
+      "top": 1273,
+      "right": 1750,
+      "bottom": 1338,
+      "width": 225,
+      "height": 65,
+      "confidence": 44.346,
+      "text": "SOLON"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 36,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2098,
+        1313,
+        2132,
+        1349
+      ],
+      "left": 2098,
+      "top": 1313,
+      "right": 2132,
+      "bottom": 1349,
+      "width": 34,
+      "height": 36,
+      "confidence": 27.527,
+      "text": "ES"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 3,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        423,
+        1314,
+        2102,
+        1412
+      ],
+      "left": 423,
+      "top": 1314,
+      "right": 2102,
+      "bottom": 1412,
+      "width": 1679,
+      "height": 98,
+      "confidence": 36.916,
+      "text": "SASSY, of SASSY, Se Sie LOH RX a"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 75,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        2339,
+        1344,
+        2789,
+        1412
+      ],
+      "left": 2339,
+      "top": 1344,
+      "right": 2789,
+      "bottom": 1412,
+      "width": 450,
+      "height": 68,
+      "confidence": 37.809,
+      "text": "xe SS ee)"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 73,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        2248,
+        1354,
+        2294,
+        1403
+      ],
+      "left": 2248,
+      "top": 1354,
+      "right": 2294,
+      "bottom": 1403,
+      "width": 46,
+      "height": 49,
+      "confidence": 45.09,
+      "text": "©"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 3,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        1182,
+        1426,
+        2048,
+        1475
+      ],
+      "left": 1182,
+      "top": 1426,
+      "right": 2048,
+      "bottom": 1475,
+      "width": 866,
+      "height": 49,
+      "confidence": 93.318,
+      "text": "~, Don und Kai, zwei der Labelgriinder"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 75,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        2232,
+        1429,
+        3002,
+        1476
+      ],
+      "left": 2232,
+      "top": 1429,
+      "right": 3002,
+      "bottom": 1476,
+      "width": 770,
+      "height": 47,
+      "confidence": 94.115,
+      "text": "teilung der Aufgaben hat sich dann"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 41,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2127,
+        1476,
+        2172,
+        1542
+      ],
+      "left": 2127,
+      "top": 1476,
+      "right": 2172,
+      "bottom": 1542,
+      "width": 45,
+      "height": 66,
+      "confidence": 44.404,
+      "text": "~"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 75,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        2233,
+        1493,
+        3080,
+        1539
+      ],
+      "left": 2233,
+      "top": 1493,
+      "right": 3080,
+      "bottom": 1539,
+      "width": 847,
+      "height": 46,
+      "confidence": 95.243,
+      "text": "fast wie von selbst, nach personlichen"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 3,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        1203,
+        1494,
+        1621,
+        1542
+      ],
+      "left": 1203,
+      "top": 1494,
+      "right": 1621,
+      "bottom": 1542,
+      "width": 418,
+      "height": 48,
+      "confidence": 93.1,
+      "text": "~ im Interview mit"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 3,
+      "paragraphNumber": 5,
+      "lineNumber": 1,
+      "bbox": [
+        1173,
+        1538,
+        1207,
+        1573
+      ],
+      "left": 1173,
+      "top": 1538,
+      "right": 1207,
+      "bottom": 1573,
+      "width": 34,
+      "height": 35,
+      "confidence": 33.695,
+      "text": "~"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 42,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2159,
+        1547,
+        2208,
+        1592
+      ],
+      "left": 2159,
+      "top": 1547,
+      "right": 2208,
+      "bottom": 1592,
+      "width": 49,
+      "height": 45,
+      "confidence": 41.926,
+      "text": "a"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 75,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        2233,
+        1556,
+        3006,
+        1603
+      ],
+      "left": 2233,
+      "top": 1556,
+      "right": 3006,
+      "bottom": 1603,
+      "width": 773,
+      "height": 47,
+      "confidence": 91.119,
+      "text": "Vorlieben und Fahigkeiten ergeben."
+    },
+    {
+      "id": "l021",
+      "blockNumber": 75,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        2237,
+        1619,
+        2903,
+        1657
+      ],
+      "left": 2237,
+      "top": 1619,
+      "right": 2903,
+      "bottom": 1657,
+      "width": 666,
+      "height": 38,
+      "confidence": 94.404,
+      "text": "Im Marz 2005 hatten wir dann"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 3,
+      "paragraphNumber": 6,
+      "lineNumber": 1,
+      "bbox": [
+        1254,
+        1620,
+        2009,
+        1665
+      ],
+      "left": 1254,
+      "top": 1620,
+      "right": 2009,
+      "bottom": 1665,
+      "width": 755,
+      "height": 45,
+      "confidence": 95.453,
+      "text": "Pentagonik wurde im Jahre 2005"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 3,
+      "paragraphNumber": 7,
+      "lineNumber": 1,
+      "bbox": [
+        1252,
+        1675,
+        2058,
+        1731
+      ],
+      "left": 1252,
+      "top": 1675,
+      "right": 2058,
+      "bottom": 1731,
+      "width": 806,
+      "height": 56,
+      "confidence": 93.275,
+      "text": "von Don, Max, Ozgtir, Buddy und Kai,"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 75,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        2236,
+        1685,
+        2990,
+        1730
+      ],
+      "left": 2236,
+      "top": 1685,
+      "right": 2990,
+      "bottom": 1730,
+      "width": 754,
+      "height": 45,
+      "confidence": 94.689,
+      "text": "unsere erste Releaseparty bei der"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 3,
+      "paragraphNumber": 8,
+      "lineNumber": 1,
+      "bbox": [
+        1152,
+        1731,
+        2071,
+        1797
+      ],
+      "left": 1152,
+      "top": 1731,
+      "right": 2071,
+      "bottom": 1797,
+      "width": 919,
+      "height": 66,
+      "confidence": 86.109,
+      "text": "he funf Freunden aus Berlin als Netlabel"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 75,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        2233,
+        1748,
+        2953,
+        1784
+      ],
+      "left": 2233,
+      "top": 1748,
+      "right": 2953,
+      "bottom": 1784,
+      "width": 720,
+      "height": 36,
+      "confidence": 95.003,
+      "text": "wir als Netlabel und Veranstalter"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 3,
+      "paragraphNumber": 9,
+      "lineNumber": 1,
+      "bbox": [
+        1203,
+        1810,
+        2093,
+        1857
+      ],
+      "left": 1203,
+      "top": 1810,
+      "right": 2093,
+      "bottom": 1857,
+      "width": 890,
+      "height": 47,
+      "confidence": 91.239,
+      "text": "~ gegrundet. Sie verstanden Pentagonik"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 75,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        2234,
+        1810,
+        2894,
+        1857
+      ],
+      "left": 2234,
+      "top": 1810,
+      "right": 2894,
+      "bottom": 1857,
+      "width": 660,
+      "height": 47,
+      "confidence": 95.73,
+      "text": "aufgetreten sind. Es war eine"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 3,
+      "paragraphNumber": 10,
+      "lineNumber": 1,
+      "bbox": [
+        1252,
+        1873,
+        1984,
+        1920
+      ],
+      "left": 1252,
+      "top": 1873,
+      "right": 1984,
+      "bottom": 1920,
+      "width": 732,
+      "height": 47,
+      "confidence": 94.871,
+      "text": "von Anfang an als eine Plattform,"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 75,
+      "paragraphNumber": 4,
+      "lineNumber": 3,
+      "bbox": [
+        2234,
+        1873,
+        2992,
+        1920
+      ],
+      "left": 2234,
+      "top": 1873,
+      "right": 2992,
+      "bottom": 1920,
+      "width": 758,
+      "height": 47,
+      "confidence": 94.81,
+      "text": "ziemlich erfolgreiche Party in einer"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 3,
+      "paragraphNumber": 11,
+      "lineNumber": 1,
+      "bbox": [
+        1253,
+        1938,
+        2060,
+        1975
+      ],
+      "left": 1253,
+      "top": 1938,
+      "right": 2060,
+      "bottom": 1975,
+      "width": 807,
+      "height": 37,
+      "confidence": 93.035,
+      "text": "die den Vertrieb freier elektronischer"
+    },
+    {
+      "id": "l032",
+      "blockNumber": 76,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2233,
+        1938,
+        3016,
+        1984
+      ],
+      "left": 2233,
+      "top": 1938,
+      "right": 3016,
+      "bottom": 1984,
+      "width": 783,
+      "height": 46,
+      "confidence": 93.514,
+      "text": "geilen Location in einer ehemaligen"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 43,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2198,
+        1944,
+        2208,
+        1964
+      ],
+      "left": 2198,
+      "top": 1944,
+      "right": 2208,
+      "bottom": 1964,
+      "width": 10,
+      "height": 20,
+      "confidence": 54.009,
+      "text": "Fad"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 3,
+      "paragraphNumber": 12,
+      "lineNumber": 1,
+      "bbox": [
+        1255,
+        2001,
+        2100,
+        2047
+      ],
+      "left": 1255,
+      "top": 2001,
+      "right": 2100,
+      "bottom": 2047,
+      "width": 845,
+      "height": 46,
+      "confidence": 95.137,
+      "text": "Musik und die Organisation von Partys"
+    },
+    {
+      "id": "l035",
+      "blockNumber": 77,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2236,
+        2001,
+        2981,
+        2038
+      ],
+      "left": 2236,
+      "top": 2001,
+      "right": 2981,
+      "bottom": 2038,
+      "width": 745,
+      "height": 37,
+      "confidence": 94.609,
+      "text": "Moschee direkt am Kotti in einem"
+    },
+    {
+      "id": "l036",
+      "blockNumber": 3,
+      "paragraphNumber": 13,
+      "lineNumber": 1,
+      "bbox": [
+        1252,
+        2064,
+        1556,
+        2101
+      ],
+      "left": 1252,
+      "top": 2064,
+      "right": 1556,
+      "bottom": 2101,
+      "width": 304,
+      "height": 37,
+      "confidence": 92.82,
+      "text": "verbindet. Die"
+    },
+    {
+      "id": "l037",
+      "blockNumber": 78,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2234,
+        2064,
+        2958,
+        2109
+      ],
+      "left": 2234,
+      "top": 2064,
+      "right": 2958,
+      "bottom": 2109,
+      "width": 724,
+      "height": 45,
+      "confidence": 93.597,
+      "text": "dieser Hochhauskomplexe. Noch"
+    },
+    {
+      "id": "l038",
+      "blockNumber": 44,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2127,
+        2116,
+        2142,
+        2151
+      ],
+      "left": 2127,
+      "top": 2116,
+      "right": 2142,
+      "bottom": 2151,
+      "width": 15,
+      "height": 35,
+      "confidence": 40.146,
+      "text": "ws"
+    },
+    {
+      "id": "l039",
+      "blockNumber": 78,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2233,
+        2126,
+        2920,
+        2173
+      ],
+      "left": 2233,
+      "top": 2126,
+      "right": 2920,
+      "bottom": 2173,
+      "width": 687,
+      "height": 47,
+      "confidence": 93.326,
+      "text": "wahrend wir angefangen haben"
+    },
+    {
+      "id": "l040",
+      "blockNumber": 3,
+      "paragraphNumber": 14,
+      "lineNumber": 1,
+      "bbox": [
+        1254,
+        2127,
+        1964,
+        2173
+      ],
+      "left": 1254,
+      "top": 2127,
+      "right": 1964,
+      "bottom": 2173,
+      "width": 710,
+      "height": 46,
+      "confidence": 94.776,
+      "text": "ungen stehen unter der Creative"
+    },
+    {
+      "id": "l041",
+      "blockNumber": 3,
+      "paragraphNumber": 15,
+      "lineNumber": 1,
+      "bbox": [
+        1223,
+        2192,
+        2012,
+        2238
+      ],
+      "left": 1223,
+      "top": 2192,
+      "right": 2012,
+      "bottom": 2238,
+      "width": 789,
+      "height": 46,
+      "confidence": 91.768,
+      "text": ". Common Lizenz auf pentagonik.de"
+    },
+    {
+      "id": "l042",
+      "blockNumber": 78,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2234,
+        2192,
+        2990,
+        2234
+      ],
+      "left": 2234,
+      "top": 2192,
+      "right": 2990,
+      "bottom": 2234,
+      "width": 756,
+      "height": 42,
+      "confidence": 95.459,
+      "text": "aufzubauen kamen Leute, die sich"
+    },
+    {
+      "id": "l043",
+      "blockNumber": 3,
+      "paragraphNumber": 16,
+      "lineNumber": 1,
+      "bbox": [
+        1252,
+        2253,
+        1961,
+        2301
+      ],
+      "left": 1252,
+      "top": 2253,
+      "right": 1961,
+      "bottom": 2301,
+      "width": 709,
+      "height": 48,
+      "confidence": 92.915,
+      "text": "frei zur Verfugung. Verschiedene"
+    },
+    {
+      "id": "l044",
+      "blockNumber": 78,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        2234,
+        2255,
+        2891,
+        2301
+      ],
+      "left": 2234,
+      "top": 2255,
+      "right": 2891,
+      "bottom": 2301,
+      "width": 657,
+      "height": 46,
+      "confidence": 95.797,
+      "text": "erkundigt haben, ob hier noch"
+    },
+    {
+      "id": "l045",
+      "blockNumber": 3,
+      "paragraphNumber": 17,
+      "lineNumber": 1,
+      "bbox": [
+        1256,
+        2316,
+        2098,
+        2354
+      ],
+      "left": 1256,
+      "top": 2316,
+      "right": 2098,
+      "bottom": 2354,
+      "width": 842,
+      "height": 38,
+      "confidence": 94.8,
+      "text": "Kunstler des Labels haben inzwischen"
+    },
+    {
+      "id": "l046",
+      "blockNumber": 78,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        2235,
+        2318,
+        2991,
+        2364
+      ],
+      "left": 2235,
+      "top": 2318,
+      "right": 2991,
+      "bottom": 2364,
+      "width": 756,
+      "height": 46,
+      "confidence": 93.551,
+      "text": "Gottesdienste abgehalten werden."
+    },
+    {
+      "id": "l047",
+      "blockNumber": 78,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        2233,
+        2380,
+        3009,
+        2417
+      ],
+      "left": 2233,
+      "top": 2380,
+      "right": 3009,
+      "bottom": 2417,
+      "width": 776,
+      "height": 37,
+      "confidence": 96.458,
+      "text": "Auf unserem ersten Release waren"
+    },
+    {
+      "id": "l048",
+      "blockNumber": 3,
+      "paragraphNumber": 18,
+      "lineNumber": 1,
+      "bbox": [
+        1253,
+        2381,
+        1896,
+        2425
+      ],
+      "left": 1253,
+      "top": 2381,
+      "right": 1896,
+      "bottom": 2425,
+      "width": 643,
+      "height": 44,
+      "confidence": 93.616,
+      "text": "auch auf Labeln wie Archipel,"
+    },
+    {
+      "id": "l049",
+      "blockNumber": 79,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2207,
+        2444,
+        3063,
+        2488
+      ],
+      "left": 2207,
+      "top": 2444,
+      "right": 3063,
+      "bottom": 2488,
+      "width": 856,
+      "height": 44,
+      "confidence": 89.421,
+      "text": ". acht verschiedene Kunstler vertreten,"
+    },
+    {
+      "id": "l050",
+      "blockNumber": 3,
+      "paragraphNumber": 19,
+      "lineNumber": 1,
+      "bbox": [
+        1255,
+        2445,
+        2027,
+        2491
+      ],
+      "left": 1255,
+      "top": 2445,
+      "right": 2027,
+      "bottom": 2491,
+      "width": 772,
+      "height": 46,
+      "confidence": 95.367,
+      "text": "Highrade, Oslo, Immigrant und This"
+    },
+    {
+      "id": "l051",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1222,
+        2507,
+        1685,
+        2545
+      ],
+      "left": 1222,
+      "top": 2507,
+      "right": 1685,
+      "bottom": 2545,
+      "width": 463,
+      "height": 38,
+      "confidence": 68.684,
+      "text": "- Order veroffentlicht."
+    },
+    {
+      "id": "l052",
+      "blockNumber": 80,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2234,
+        2508,
+        3034,
+        2554
+      ],
+      "left": 2234,
+      "top": 2508,
+      "right": 3034,
+      "bottom": 2554,
+      "width": 800,
+      "height": 46,
+      "confidence": 95.212,
+      "text": "die dann auch auf der Party gespielt"
+    },
+    {
+      "id": "l053",
+      "blockNumber": 80,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2236,
+        2570,
+        3081,
+        2617
+      ],
+      "left": 2236,
+      "top": 2570,
+      "right": 3081,
+      "bottom": 2617,
+      "width": 845,
+      "height": 47,
+      "confidence": 94.795,
+      "text": "haben. Die Veroffentlichung der Tracks"
+    },
+    {
+      "id": "l054",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1254,
+        2636,
+        1934,
+        2682
+      ],
+      "left": 1254,
+      "top": 2636,
+      "right": 1934,
+      "bottom": 2682,
+      "width": 680,
+      "height": 46,
+      "confidence": 94.549,
+      "text": "Der Fokus liegt auf innovativen"
+    },
+    {
+      "id": "l055",
+      "blockNumber": 80,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2234,
+        2636,
+        3044,
+        2672
+      ],
+      "left": 2234,
+      "top": 2636,
+      "right": 3044,
+      "bottom": 2672,
+      "width": 810,
+      "height": 36,
+      "confidence": 87.812,
+      "text": "auf unserem Netlabel war kurz zuvor."
+    },
+    {
+      "id": "l056",
+      "blockNumber": 49,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2137,
+        2665,
+        2202,
+        2731
+      ],
+      "left": 2137,
+      "top": 2665,
+      "right": 2202,
+      "bottom": 2731,
+      "width": 65,
+      "height": 66,
+      "confidence": 29.002,
+      "text": "~~"
+    },
+    {
+      "id": "l057",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1254,
+        2699,
+        2060,
+        2745
+      ],
+      "left": 1254,
+      "top": 2699,
+      "right": 2060,
+      "bottom": 2745,
+      "width": 806,
+      "height": 46,
+      "confidence": 92.666,
+      "text": "Projekten, die neue Wege der Musik-"
+    },
+    {
+      "id": "l058",
+      "blockNumber": 80,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        2237,
+        2699,
+        3019,
+        2743
+      ],
+      "left": 2237,
+      "top": 2699,
+      "right": 3019,
+      "bottom": 2743,
+      "width": 782,
+      "height": 44,
+      "confidence": 93.839,
+      "text": "Unser Anspruch war es, den Leuten"
+    },
+    {
+      "id": "l059",
+      "blockNumber": 50,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2127,
+        2727,
+        2142,
+        2762
+      ],
+      "left": 2127,
+      "top": 2727,
+      "right": 2142,
+      "bottom": 2762,
+      "width": 15,
+      "height": 35,
+      "confidence": 43.321,
+      "text": "we"
+    },
+    {
+      "id": "l060",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1253,
+        2762,
+        1958,
+        2798
+      ],
+      "left": 1253,
+      "top": 2762,
+      "right": 1958,
+      "bottom": 2798,
+      "width": 705,
+      "height": 36,
+      "confidence": 93.987,
+      "text": "distribution mit den klassischen"
+    },
+    {
+      "id": "l061",
+      "blockNumber": 80,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        2233,
+        2762,
+        2957,
+        2808
+      ],
+      "left": 2233,
+      "top": 2762,
+      "right": 2957,
+      "bottom": 2808,
+      "width": 724,
+      "height": 46,
+      "confidence": 96.384,
+      "text": "zu zeigen das Netlabel und Party"
+    },
+    {
+      "id": "l062",
+      "blockNumber": 51,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2127,
+        2778,
+        2192,
+        2868
+      ],
+      "left": 2127,
+      "top": 2778,
+      "right": 2192,
+      "bottom": 2868,
+      "width": 65,
+      "height": 90,
+      "confidence": 25.353,
+      "text": "ne"
+    },
+    {
+      "id": "l063",
+      "blockNumber": 6,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1222,
+        2825,
+        1937,
+        2870
+      ],
+      "left": 1222,
+      "top": 2825,
+      "right": 1937,
+      "bottom": 2870,
+      "width": 715,
+      "height": 45,
+      "confidence": 85.59,
+      "text": ", Medien Vinyl und CD verbinden"
+    },
+    {
+      "id": "l064",
+      "blockNumber": 80,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        2233,
+        2825,
+        2990,
+        2871
+      ],
+      "left": 2233,
+      "top": 2825,
+      "right": 2990,
+      "bottom": 2871,
+      "width": 757,
+      "height": 46,
+      "confidence": 92.789,
+      "text": "wunderbar zusammengehen kann."
+    },
+    {
+      "id": "l065",
+      "blockNumber": 6,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        1226,
+        2885,
+        1402,
+        2926
+      ],
+      "left": 1226,
+      "top": 2885,
+      "right": 1402,
+      "bottom": 2926,
+      "width": 176,
+      "height": 41,
+      "confidence": 64.655,
+      "text": ". wollen."
+    },
+    {
+      "id": "l066",
+      "blockNumber": 80,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        2237,
+        2889,
+        2968,
+        2935
+      ],
+      "left": 2237,
+      "top": 2889,
+      "right": 2968,
+      "bottom": 2935,
+      "width": 731,
+      "height": 46,
+      "confidence": 94.339,
+      "text": "Deswegen von Anfang an die Ver-"
+    },
+    {
+      "id": "l067",
+      "blockNumber": 6,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        1255,
+        2952,
+        2052,
+        2998
+      ],
+      "left": 1255,
+      "top": 2952,
+      "right": 2052,
+      "bottom": 2998,
+      "width": 797,
+      "height": 46,
+      "confidence": 93.757,
+      "text": "Daraus ergibt sich der Anspruch von"
+    },
+    {
+      "id": "l068",
+      "blockNumber": 80,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        2235,
+        2952,
+        2999,
+        2998
+      ],
+      "left": 2235,
+      "top": 2952,
+      "right": 2999,
+      "bottom": 2998,
+      "width": 764,
+      "height": 46,
+      "confidence": 95.614,
+      "text": "bindung der Musik mit den Events."
+    },
+    {
+      "id": "l069",
+      "blockNumber": 6,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        1254,
+        3014,
+        2069,
+        3061
+      ],
+      "left": 1254,
+      "top": 3014,
+      "right": 2069,
+      "bottom": 3061,
+      "width": 815,
+      "height": 47,
+      "confidence": 91.266,
+      "text": "Pentagonik neben Veroffentlichungen"
+    },
+    {
+      "id": "l070",
+      "blockNumber": 53,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2207,
+        3054,
+        2208,
+        3062
+      ],
+      "left": 2207,
+      "top": 3054,
+      "right": 2208,
+      "bottom": 3062,
+      "width": 1,
+      "height": 8,
+      "confidence": 42.704,
+      "text": "1"
+    },
+    {
+      "id": "l071",
+      "blockNumber": 53,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2187,
+        3072,
+        2208,
+        3087
+      ],
+      "left": 2187,
+      "top": 3072,
+      "right": 2208,
+      "bottom": 3087,
+      "width": 21,
+      "height": 15,
+      "confidence": 35.062,
+      "text": "~"
+    },
+    {
+      "id": "l072",
+      "blockNumber": 6,
+      "paragraphNumber": 4,
+      "lineNumber": 3,
+      "bbox": [
+        1253,
+        3078,
+        1982,
+        3124
+      ],
+      "left": 1253,
+      "top": 3078,
+      "right": 1982,
+      "bottom": 3124,
+      "width": 729,
+      "height": 46,
+      "confidence": 95.183,
+      "text": "auf dem Netlabel durch die Orga-"
+    },
+    {
+      "id": "l073",
+      "blockNumber": 81,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2233,
+        3078,
+        2972,
+        3115
+      ],
+      "left": 2233,
+      "top": 3078,
+      "right": 2972,
+      "bottom": 3115,
+      "width": 739,
+      "height": 37,
+      "confidence": 95.231,
+      "text": "Warum das Ganze? Es kann doch"
+    },
+    {
+      "id": "l074",
+      "blockNumber": 54,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2157,
+        3082,
+        2192,
+        3117
+      ],
+      "left": 2157,
+      "top": 3082,
+      "right": 2192,
+      "bottom": 3117,
+      "width": 35,
+      "height": 35,
+      "confidence": 54.64,
+      "text": "~)"
+    },
+    {
+      "id": "l075",
+      "blockNumber": 57,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2127,
+        3113,
+        2162,
+        3148
+      ],
+      "left": 2127,
+      "top": 3113,
+      "right": 2162,
+      "bottom": 3148,
+      "width": 35,
+      "height": 35,
+      "confidence": 26.388,
+      "text": "iA"
+    },
+    {
+      "id": "l076",
+      "blockNumber": 81,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2235,
+        3142,
+        3044,
+        3188
+      ],
+      "left": 2235,
+      "top": 3142,
+      "right": 3044,
+      "bottom": 3188,
+      "width": 809,
+      "height": 46,
+      "confidence": 91.398,
+      "text": "nicht nur Wohitatigkeit fur die Szene"
+    },
+    {
+      "id": "l077",
+      "blockNumber": 6,
+      "paragraphNumber": 5,
+      "lineNumber": 1,
+      "bbox": [
+        1255,
+        3143,
+        1921,
+        3188
+      ],
+      "left": 1255,
+      "top": 3143,
+      "right": 1921,
+      "bottom": 3188,
+      "width": 666,
+      "height": 45,
+      "confidence": 91.69,
+      "text": "nisation von Partys ein breites"
+    },
+    {
+      "id": "l078",
+      "blockNumber": 6,
+      "paragraphNumber": 5,
+      "lineNumber": 2,
+      "bbox": [
+        1254,
+        3206,
+        1934,
+        3250
+      ],
+      "left": 1254,
+      "top": 3206,
+      "right": 1934,
+      "bottom": 3250,
+      "width": 680,
+      "height": 44,
+      "confidence": 94.018,
+      "text": "Spektrum von Menschen anzu-"
+    },
+    {
+      "id": "l079",
+      "blockNumber": 81,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2233,
+        3206,
+        2336,
+        3242
+      ],
+      "left": 2233,
+      "top": 3206,
+      "right": 2336,
+      "bottom": 3242,
+      "width": 103,
+      "height": 36,
+      "confidence": 96.583,
+      "text": "sein."
+    },
+    {
+      "id": "l080",
+      "blockNumber": 58,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2127,
+        3225,
+        2151,
+        3260
+      ],
+      "left": 2127,
+      "top": 3225,
+      "right": 2151,
+      "bottom": 3260,
+      "width": 24,
+      "height": 35,
+      "confidence": 31.753,
+      "text": "&"
+    },
+    {
+      "id": "l081",
+      "blockNumber": 56,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2167,
+        3265,
+        2208,
+        3311
+      ],
+      "left": 2167,
+      "top": 3265,
+      "right": 2208,
+      "bottom": 3311,
+      "width": 41,
+      "height": 46,
+      "confidence": 29.023,
+      "text": "4"
+    },
+    {
+      "id": "l082",
+      "blockNumber": 6,
+      "paragraphNumber": 5,
+      "lineNumber": 3,
+      "bbox": [
+        1254,
+        3267,
+        1971,
+        3314
+      ],
+      "left": 1254,
+      "top": 3267,
+      "right": 1971,
+      "bottom": 3314,
+      "width": 717,
+      "height": 47,
+      "confidence": 87.421,
+      "text": "sprechen. DarUber hinaus wurde"
+    },
+    {
+      "id": "l083",
+      "blockNumber": 81,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        2235,
+        3269,
+        2936,
+        3315
+      ],
+      "left": 2235,
+      "top": 3269,
+      "right": 2936,
+      "bottom": 3315,
+      "width": 701,
+      "height": 46,
+      "confidence": 94.639,
+      "text": "Don: Doch, eigentlich schon. Es"
+    },
+    {
+      "id": "l084",
+      "blockNumber": 6,
+      "paragraphNumber": 5,
+      "lineNumber": 4,
+      "bbox": [
+        1255,
+        3332,
+        1946,
+        3370
+      ],
+      "left": 1255,
+      "top": 3332,
+      "right": 1946,
+      "bottom": 3370,
+      "width": 691,
+      "height": 38,
+      "confidence": 93.036,
+      "text": "kurzlich mit dem kommerziellen"
+    },
+    {
+      "id": "l085",
+      "blockNumber": 81,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        2233,
+        3332,
+        2984,
+        3379
+      ],
+      "left": 2233,
+      "top": 3332,
+      "right": 2984,
+      "bottom": 3379,
+      "width": 751,
+      "height": 47,
+      "confidence": 91.22,
+      "text": "ging tatsachlich darum, der Szene"
+    },
+    {
+      "id": "l086",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        377,
+        3358,
+        698,
+        3389
+      ],
+      "left": 377,
+      "top": 3358,
+      "right": 698,
+      "bottom": 3389,
+      "width": 321,
+      "height": 31,
+      "confidence": 47.76,
+      "text": "<5 \\ ~"
+    },
+    {
+      "id": "l087",
+      "blockNumber": 59,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2207,
+        3359,
+        2208,
+        3367
+      ],
+      "left": 2207,
+      "top": 3359,
+      "right": 2208,
+      "bottom": 3367,
+      "width": 1,
+      "height": 8,
+      "confidence": 49.93,
+      "text": "'"
+    },
+    {
+      "id": "l088",
+      "blockNumber": 59,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2187,
+        3377,
+        2208,
+        3392
+      ],
+      "left": 2187,
+      "top": 3377,
+      "right": 2208,
+      "bottom": 3392,
+      "width": 21,
+      "height": 15,
+      "confidence": 22.714,
+      "text": "~"
+    },
+    {
+      "id": "l089",
+      "blockNumber": 6,
+      "paragraphNumber": 5,
+      "lineNumber": 5,
+      "bbox": [
+        1252,
+        3395,
+        1997,
+        3433
+      ],
+      "left": 1252,
+      "top": 3395,
+      "right": 1997,
+      "bottom": 3433,
+      "width": 745,
+      "height": 38,
+      "confidence": 93.254,
+      "text": "Vertrieb von Musik Uber das neue"
+    },
+    {
+      "id": "l090",
+      "blockNumber": 81,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        2234,
+        3395,
+        3024,
+        3442
+      ],
+      "left": 2234,
+      "top": 3395,
+      "right": 3024,
+      "bottom": 3442,
+      "width": 790,
+      "height": 47,
+      "confidence": 84.34,
+      "text": "etwas zuruckgeben, in der wir gerne"
+    },
+    {
+      "id": "l091",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        273,
+        3426,
+        933,
+        3472
+      ],
+      "left": 273,
+      "top": 3426,
+      "right": 933,
+      "bottom": 3472,
+      "width": 660,
+      "height": 46,
+      "confidence": 94.595,
+      "text": "Pentagonik Netlabel Releases"
+    },
+    {
+      "id": "l092",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        3459,
+        2028,
+        3554
+      ],
+      "left": 270,
+      "top": 3459,
+      "right": 2028,
+      "bottom": 3554,
+      "width": 1758,
+      "height": 95,
+      "confidence": 70.314,
+      "text": "Tom Ellis: Switched Off EP [pntgo21] & ‘aan <—e"
+    },
+    {
+      "id": "l093",
+      "blockNumber": 81,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        2233,
+        3459,
+        2940,
+        3505
+      ],
+      "left": 2233,
+      "top": 3459,
+      "right": 2940,
+      "bottom": 3505,
+      "width": 707,
+      "height": 46,
+      "confidence": 93.543,
+      "text": "weggehen. Ich hatte mir damals"
+    },
+    {
+      "id": "l094",
+      "blockNumber": 81,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        2234,
+        3522,
+        3031,
+        3559
+      ],
+      "left": 2234,
+      "top": 3522,
+      "right": 3031,
+      "bottom": 3559,
+      "width": 797,
+      "height": 37,
+      "confidence": 95.899,
+      "text": "zusammen mit Max mitten bei einer"
+    },
+    {
+      "id": "l095",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1422,
+        3525,
+        2070,
+        3558
+      ],
+      "left": 1422,
+      "top": 3525,
+      "right": 2070,
+      "bottom": 3558,
+      "width": 648,
+      "height": 33,
+      "confidence": 38.562,
+      "text": "™. ™, ™."
+    },
+    {
+      "id": "l096",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        922,
+        3545,
+        1316,
+        3571
+      ],
+      "left": 922,
+      "top": 3545,
+      "right": 1316,
+      "bottom": 3571,
+      "width": 394,
+      "height": 26,
+      "confidence": 33.701,
+      "text": ". a | is"
+    },
+    {
+      "id": "l097",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        272,
+        3552,
+        1986,
+        3626
+      ],
+      "left": 272,
+      "top": 3552,
+      "right": 1986,
+      "bottom": 3626,
+      "width": 1714,
+      "height": 74,
+      "confidence": 95.012,
+      "text": "& Enzo & Topper: Black Rabbit Wie hat alles begonnen und was"
+    },
+    {
+      "id": "l098",
+      "blockNumber": 81,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        2233,
+        3586,
+        2921,
+        3633
+      ],
+      "left": 2233,
+      "top": 3586,
+      "right": 2921,
+      "bottom": 3633,
+      "width": 688,
+      "height": 47,
+      "confidence": 91.2,
+      "text": "Afterhour gedacht, wir mussten"
+    },
+    {
+      "id": "l099",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        216,
+        3615,
+        1740,
+        3690
+      ],
+      "left": 216,
+      "top": 3615,
+      "right": 1740,
+      "bottom": 3690,
+      "width": 1524,
+      "height": 75,
+      "confidence": 72.865,
+      "text": "~: [pntg023] verfugbar auf OS! macht Ihr iiberhaupt?"
+    },
+    {
+      "id": "l100",
+      "blockNumber": 81,
+      "paragraphNumber": 2,
+      "lineNumber": 7,
+      "bbox": [
+        2234,
+        3650,
+        2920,
+        3696
+      ],
+      "left": 2234,
+      "top": 3650,
+      "right": 2920,
+      "bottom": 3696,
+      "width": 686,
+      "height": 46,
+      "confidence": 92.956,
+      "text": "einen Schritt nach vorne gehen"
+    },
+    {
+      "id": "l101",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        236,
+        3708,
+        1972,
+        3754
+      ],
+      "left": 236,
+      "top": 3708,
+      "right": 1972,
+      "bottom": 3754,
+      "width": 1736,
+      "height": 46,
+      "confidence": 86.196,
+      "text": ". Kai: Angefangen hat alles damit,"
+    },
+    {
+      "id": "l102",
+      "blockNumber": 81,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        2236,
+        3713,
+        3019,
+        3759
+      ],
+      "left": 2236,
+      "top": 3713,
+      "right": 3019,
+      "bottom": 3759,
+      "width": 783,
+      "height": 46,
+      "confidence": 94.941,
+      "text": "und auch mal agieren und nicht nur"
+    },
+    {
+      "id": "l103",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        805,
+        3736,
+        843,
+        3773
+      ],
+      "left": 805,
+      "top": 3736,
+      "right": 843,
+      "bottom": 3773,
+      "width": 38,
+      "height": 37,
+      "confidence": 70.489,
+      "text": "~>"
+    },
+    {
+      "id": "l104",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        447,
+        3754,
+        1996,
+        3830
+      ],
+      "left": 447,
+      "top": 3754,
+      "right": 1996,
+      "bottom": 3830,
+      "width": 1549,
+      "height": 76,
+      "confidence": 79.13,
+      "text": "ay ny dass jeder von uns irgendwie was"
+    },
+    {
+      "id": "l105",
+      "blockNumber": 81,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        2234,
+        3776,
+        2507,
+        3812
+      ],
+      "left": 2234,
+      "top": 3776,
+      "right": 2507,
+      "bottom": 3812,
+      "width": 273,
+      "height": 36,
+      "confidence": 92.177,
+      "text": "absorbieren."
+    },
+    {
+      "id": "l106",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1008,
+        3795,
+        1165,
+        3850
+      ],
+      "left": 1008,
+      "top": 3795,
+      "right": 1165,
+      "bottom": 3850,
+      "width": 157,
+      "height": 55,
+      "confidence": 33.23,
+      "text": "OLS"
+    },
+    {
+      "id": "l107",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        306,
+        3826,
+        2047,
+        3891
+      ],
+      "left": 306,
+      "top": 3826,
+      "right": 2047,
+      "bottom": 3891,
+      "width": 1741,
+      "height": 65,
+      "confidence": 84.25,
+      "text": "SO mit elektronischer Musik und Partys"
+    },
+    {
+      "id": "l108",
+      "blockNumber": 81,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        2237,
+        3840,
+        2988,
+        3886
+      ],
+      "left": 2237,
+      "top": 3840,
+      "right": 2988,
+      "bottom": 3886,
+      "width": 751,
+      "height": 46,
+      "confidence": 94.817,
+      "text": "Dann ist uns aufgefallen, dass wir"
+    },
+    {
+      "id": "l109",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1181,
+        3866,
+        1215,
+        3901
+      ],
+      "left": 1181,
+      "top": 3866,
+      "right": 1215,
+      "bottom": 3901,
+      "width": 34,
+      "height": 35,
+      "confidence": 52.535,
+      "text": "ES"
+    },
+    {
+      "id": "l110",
+      "blockNumber": 18,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        628,
+        3887,
+        692,
+        3952
+      ],
+      "left": 628,
+      "top": 3887,
+      "right": 692,
+      "bottom": 3952,
+      "width": 64,
+      "height": 65,
+      "confidence": 23.556,
+      "text": "~~"
+    },
+    {
+      "id": "l111",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1252,
+        3899,
+        2062,
+        3935
+      ],
+      "left": 1252,
+      "top": 3899,
+      "right": 2062,
+      "bottom": 3935,
+      "width": 810,
+      "height": 36,
+      "confidence": 95.615,
+      "text": "zu tun hatte. Wir waren also ziemlich"
+    },
+    {
+      "id": "l112",
+      "blockNumber": 81,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        2234,
+        3902,
+        3022,
+        3949
+      ],
+      "left": 2234,
+      "top": 3902,
+      "right": 3022,
+      "bottom": 3949,
+      "width": 788,
+      "height": 47,
+      "confidence": 94.481,
+      "text": "eigentlich schon sehr viele Kunstler"
+    },
+    {
+      "id": "l113",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        407,
+        3907,
+        471,
+        3972
+      ],
+      "left": 407,
+      "top": 3907,
+      "right": 471,
+      "bottom": 3972,
+      "width": 64,
+      "height": 65,
+      "confidence": 27.844,
+      "text": "oS"
+    },
+    {
+      "id": "l114",
+      "blockNumber": 14,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        738,
+        3907,
+        773,
+        3942
+      ],
+      "left": 738,
+      "top": 3907,
+      "right": 773,
+      "bottom": 3942,
+      "width": 35,
+      "height": 35,
+      "confidence": 56.723,
+      "text": "ws"
+    },
+    {
+      "id": "l115",
+      "blockNumber": 16,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        517,
+        3927,
+        552,
+        3962
+      ],
+      "left": 517,
+      "top": 3927,
+      "right": 552,
+      "bottom": 3962,
+      "width": 35,
+      "height": 35,
+      "confidence": 26.807,
+      "text": "~)"
+    },
+    {
+      "id": "l116",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        789,
+        3937,
+        1227,
+        3993
+      ],
+      "left": 789,
+      "top": 3937,
+      "right": 1227,
+      "bottom": 3993,
+      "width": 438,
+      "height": 56,
+      "confidence": 24.046,
+      "text": "SOs ek aS"
+    },
+    {
+      "id": "l117",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        1254,
+        3960,
+        2073,
+        4008
+      ],
+      "left": 1254,
+      "top": 3960,
+      "right": 2073,
+      "bottom": 4008,
+      "width": 819,
+      "height": 48,
+      "confidence": 80.355,
+      "text": "bunt zusammengewtrfelt und wollten"
+    },
+    {
+      "id": "l118",
+      "blockNumber": 81,
+      "paragraphNumber": 4,
+      "lineNumber": 3,
+      "bbox": [
+        2236,
+        3966,
+        2943,
+        4003
+      ],
+      "left": 2236,
+      "top": 3966,
+      "right": 2943,
+      "bottom": 4003,
+      "width": 707,
+      "height": 37,
+      "confidence": 94.158,
+      "text": "kennen. Ich hatte damals schon"
+    },
+    {
+      "id": "l119",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        758,
+        3978,
+        903,
+        4023
+      ],
+      "left": 758,
+      "top": 3978,
+      "right": 903,
+      "bottom": 4023,
+      "width": 145,
+      "height": 45,
+      "confidence": 21.003,
+      "text": "ROE"
+    },
+    {
+      "id": "l120",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        728,
+        4009,
+        873,
+        4054
+      ],
+      "left": 728,
+      "top": 4009,
+      "right": 873,
+      "bottom": 4054,
+      "width": 145,
+      "height": 45,
+      "confidence": 21.196,
+      "text": "SSMS"
+    },
+    {
+      "id": "l121",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        698,
+        4025,
+        1227,
+        4108
+      ],
+      "left": 698,
+      "top": 4025,
+      "right": 1227,
+      "bottom": 4108,
+      "width": 529,
+      "height": 83,
+      "confidence": 29.191,
+      "text": "SILI IONS"
+    },
+    {
+      "id": "l122",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        1253,
+        4025,
+        2062,
+        4061
+      ],
+      "left": 1253,
+      "top": 4025,
+      "right": 2062,
+      "bottom": 4061,
+      "width": 809,
+      "height": 36,
+      "confidence": 92.903,
+      "text": "etwas zur Szene beisteuern. Die Ver-"
+    },
+    {
+      "id": "l123",
+      "blockNumber": 60,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2127,
+        4028,
+        2208,
+        4072
+      ],
+      "left": 2127,
+      "top": 4028,
+      "right": 2208,
+      "bottom": 4072,
+      "width": 81,
+      "height": 44,
+      "confidence": 44.998,
+      "text": "YS"
+    },
+    {
+      "id": "l124",
+      "blockNumber": 82,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2234,
+        4028,
+        2933,
+        4075
+      ],
+      "left": 2234,
+      "top": 4028,
+      "right": 2933,
+      "bottom": 4075,
+      "width": 699,
+      "height": 47,
+      "confidence": 94.627,
+      "text": "etwas von Netlabels gehort und"
+    },
+    {
+      "id": "l125",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        618,
+        4029,
+        652,
+        4064
+      ],
+      "left": 618,
+      "top": 4029,
+      "right": 652,
+      "bottom": 4064,
+      "width": 34,
+      "height": 35,
+      "confidence": 25.97,
+      "text": "SS"
+    },
+    {
+      "id": "l126",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        588,
+        4060,
+        702,
+        4115
+      ],
+      "left": 588,
+      "top": 4060,
+      "right": 702,
+      "bottom": 4115,
+      "width": 114,
+      "height": 55,
+      "confidence": 47.397,
+      "text": "SS"
+    },
+    {
+      "id": "l127",
+      "blockNumber": 61,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2127,
+        4075,
+        2211,
+        4114
+      ],
+      "left": 2127,
+      "top": 4075,
+      "right": 2211,
+      "bottom": 4114,
+      "width": 84,
+      "height": 39,
+      "confidence": 33.221,
+      "text": "oon"
+    },
+    {
+      "id": "l128",
+      "blockNumber": 17,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        970,
+        4080,
+        1195,
+        4155
+      ],
+      "left": 970,
+      "top": 4080,
+      "right": 1195,
+      "bottom": 4155,
+      "width": 225,
+      "height": 75,
+      "confidence": 26.513,
+      "text": "MRS"
+    },
+    {
+      "id": "l129",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1568,
+        4090,
+        1909,
+        4132
+      ],
+      "left": 1568,
+      "top": 4090,
+      "right": 1909,
+      "bottom": 4132,
+      "width": 341,
+      "height": 42,
+      "confidence": 41.128,
+      "text": "Vv Vv"
+    },
+    {
+      "id": "l130",
+      "blockNumber": 82,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2478,
+        4094,
+        3005,
+        4134
+      ],
+      "left": 2478,
+      "top": 4094,
+      "right": 3005,
+      "bottom": 4134,
+      "width": 527,
+      "height": 40,
+      "confidence": 34.985,
+      "text": "VANS OND ORD"
+    },
+    {
+      "id": "l131",
+      "blockNumber": 10,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1211,
+        4095,
+        2070,
+        4195
+      ],
+      "left": 1211,
+      "top": 4095,
+      "right": 2070,
+      "bottom": 4195,
+      "width": 859,
+      "height": 100,
+      "confidence": 36.418,
+      "text": "SPOKE xe aye a"
+    },
+    {
+      "id": "l132",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        638,
+        4100,
+        783,
+        4145
+      ],
+      "left": 638,
+      "top": 4100,
+      "right": 783,
+      "bottom": 4145,
+      "width": 145,
+      "height": 45,
+      "confidence": 38.737,
+      "text": "SOs"
+    },
+    {
+      "id": "l133",
+      "blockNumber": 62,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2146,
+        4109,
+        2181,
+        4144
+      ],
+      "left": 2146,
+      "top": 4109,
+      "right": 2181,
+      "bottom": 4144,
+      "width": 35,
+      "height": 35,
+      "confidence": 30.448,
+      "text": "~"
+    },
+    {
+      "id": "l134",
+      "blockNumber": 68,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2337,
+        4119,
+        2372,
+        4154
+      ],
+      "left": 2337,
+      "top": 4119,
+      "right": 2372,
+      "bottom": 4154,
+      "width": 35,
+      "height": 35,
+      "confidence": 42.544,
+      "text": "~"
+    },
+    {
+      "id": "l135",
+      "blockNumber": 97,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3127,
+        4119,
+        3353,
+        4172
+      ],
+      "left": 3127,
+      "top": 4119,
+      "right": 3353,
+      "bottom": 4172,
+      "width": 226,
+      "height": 53,
+      "confidence": 53.676,
+      "text": "a) ~ ‘"
+    },
+    {
+      "id": "l136",
+      "blockNumber": 37,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2086,
+        4140,
+        2151,
+        4205
+      ],
+      "left": 2086,
+      "top": 4140,
+      "right": 2151,
+      "bottom": 4205,
+      "width": 65,
+      "height": 65,
+      "confidence": 50.695,
+      "text": "a"
+    },
+    {
+      "id": "l137",
+      "blockNumber": 97,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3212,
+        4149,
+        3353,
+        4184
+      ],
+      "left": 3212,
+      "top": 4149,
+      "right": 3353,
+      "bottom": 4184,
+      "width": 141,
+      "height": 35,
+      "confidence": 41.099,
+      "text": "Soo"
+    },
+    {
+      "id": "l138",
+      "blockNumber": 85,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2277,
+        4150,
+        2342,
+        4215
+      ],
+      "left": 2277,
+      "top": 4150,
+      "right": 2342,
+      "bottom": 4215,
+      "width": 65,
+      "height": 65,
+      "confidence": 26.68,
+      "text": "ae"
+    },
+    {
+      "id": "l139",
+      "blockNumber": 10,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        1769,
+        4160,
+        2010,
+        4236
+      ],
+      "left": 1769,
+      "top": 4160,
+      "right": 2010,
+      "bottom": 4236,
+      "width": 241,
+      "height": 76,
+      "confidence": 24.65,
+      "text": "ILLS"
+    },
+    {
+      "id": "l140",
+      "blockNumber": 93,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3071,
+        4160,
+        3136,
+        4225
+      ],
+      "left": 3071,
+      "top": 4160,
+      "right": 3136,
+      "bottom": 4225,
+      "width": 65,
+      "height": 65,
+      "confidence": 20.401,
+      "text": "SY"
+    },
+    {
+      "id": "l141",
+      "blockNumber": 97,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        3182,
+        4169,
+        3327,
+        4214
+      ],
+      "left": 3182,
+      "top": 4169,
+      "right": 3327,
+      "bottom": 4214,
+      "width": 145,
+      "height": 45,
+      "confidence": 47.763,
+      "text": "> OS"
+    },
+    {
+      "id": "l142",
+      "blockNumber": 84,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2991,
+        4170,
+        3026,
+        4205
+      ],
+      "left": 2991,
+      "top": 4170,
+      "right": 3026,
+      "bottom": 4205,
+      "width": 35,
+      "height": 35,
+      "confidence": 31.682,
+      "text": "P44"
+    },
+    {
+      "id": "l143",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        879,
+        4171,
+        914,
+        4206
+      ],
+      "left": 879,
+      "top": 4171,
+      "right": 914,
+      "bottom": 4206,
+      "width": 35,
+      "height": 35,
+      "confidence": 55.089,
+      "text": "~"
+    },
+    {
+      "id": "l144",
+      "blockNumber": 17,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        960,
+        4181,
+        1104,
+        4226
+      ],
+      "left": 960,
+      "top": 4181,
+      "right": 1104,
+      "bottom": 4226,
+      "width": 144,
+      "height": 45,
+      "confidence": 28.999,
+      "text": "eee)"
+    },
+    {
+      "id": "l145",
+      "blockNumber": 82,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        2357,
+        4190,
+        2693,
+        4245
+      ],
+      "left": 2357,
+      "top": 4190,
+      "right": 2693,
+      "bottom": 4245,
+      "width": 336,
+      "height": 55,
+      "confidence": 27.443,
+      "text": "DMV TEMAS"
+    },
+    {
+      "id": "l146",
+      "blockNumber": 63,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2136,
+        4191,
+        2201,
+        4256
+      ],
+      "left": 2136,
+      "top": 4191,
+      "right": 2201,
+      "bottom": 4256,
+      "width": 65,
+      "height": 65,
+      "confidence": 25.359,
+      "text": "ny"
+    },
+    {
+      "id": "l147",
+      "blockNumber": 84,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2961,
+        4200,
+        2995,
+        4235
+      ],
+      "left": 2961,
+      "top": 4200,
+      "right": 2995,
+      "bottom": 4235,
+      "width": 34,
+      "height": 35,
+      "confidence": 30.793,
+      "text": "~»"
+    },
+    {
+      "id": "l148",
+      "blockNumber": 97,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        3263,
+        4200,
+        3297,
+        4235
+      ],
+      "left": 3263,
+      "top": 4200,
+      "right": 3297,
+      "bottom": 4235,
+      "width": 34,
+      "height": 35,
+      "confidence": 35.652,
+      "text": "SS"
+    },
+    {
+      "id": "l149",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        849,
+        4202,
+        883,
+        4236
+      ],
+      "left": 849,
+      "top": 4202,
+      "right": 883,
+      "bottom": 4236,
+      "width": 34,
+      "height": 34,
+      "confidence": 30.892,
+      "text": "~»"
+    },
+    {
+      "id": "l150",
+      "blockNumber": 97,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        3122,
+        4206,
+        3191,
+        4279
+      ],
+      "left": 3122,
+      "top": 4206,
+      "right": 3191,
+      "bottom": 4279,
+      "width": 69,
+      "height": 73,
+      "confidence": 21.2,
+      "text": "SY,"
+    },
+    {
+      "id": "l151",
+      "blockNumber": 10,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        1120,
+        4211,
+        1979,
+        4287
+      ],
+      "left": 1120,
+      "top": 4211,
+      "right": 1979,
+      "bottom": 4287,
+      "width": 859,
+      "height": 76,
+      "confidence": 34.28,
+      "text": "SILOS, NS"
+    },
+    {
+      "id": "l152",
+      "blockNumber": 86,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2247,
+        4211,
+        3076,
+        4255
+      ],
+      "left": 2247,
+      "top": 4211,
+      "right": 3076,
+      "bottom": 4255,
+      "width": 829,
+      "height": 44,
+      "confidence": 56.699,
+      "text": "~ a"
+    },
+    {
+      "id": "l153",
+      "blockNumber": 17,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        929,
+        4212,
+        1074,
+        4277
+      ],
+      "left": 929,
+      "top": 4212,
+      "right": 1074,
+      "bottom": 4277,
+      "width": 145,
+      "height": 65,
+      "confidence": 36.842,
+      "text": "Se"
+    },
+    {
+      "id": "l154",
+      "blockNumber": 82,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        2488,
+        4221,
+        2774,
+        4316
+      ],
+      "left": 2488,
+      "top": 4221,
+      "right": 2774,
+      "bottom": 4316,
+      "width": 286,
+      "height": 95,
+      "confidence": 28.261,
+      "text": "SPOKE Sx"
+    },
+    {
+      "id": "l155",
+      "blockNumber": 69,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2186,
+        4236,
+        2251,
+        4311
+      ],
+      "left": 2186,
+      "top": 4236,
+      "right": 2251,
+      "bottom": 4311,
+      "width": 65,
+      "height": 75,
+      "confidence": 49.188,
+      "text": "mae"
+    },
+    {
+      "id": "l156",
+      "blockNumber": 21,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        708,
+        4242,
+        743,
+        4277
+      ],
+      "left": 708,
+      "top": 4242,
+      "right": 743,
+      "bottom": 4277,
+      "width": 35,
+      "height": 35,
+      "confidence": 42.225,
+      "text": "~»"
+    },
+    {
+      "id": "l157",
+      "blockNumber": 25,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1613,
+        4242,
+        1647,
+        4277
+      ],
+      "left": 1613,
+      "top": 4242,
+      "right": 1647,
+      "bottom": 4277,
+      "width": 34,
+      "height": 35,
+      "confidence": 22.136,
+      "text": "~~"
+    },
+    {
+      "id": "l158",
+      "blockNumber": 98,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3172,
+        4251,
+        3346,
+        4326
+      ],
+      "left": 3172,
+      "top": 4251,
+      "right": 3346,
+      "bottom": 4326,
+      "width": 174,
+      "height": 75,
+      "confidence": 28.387,
+      "text": "ai oS"
+    },
+    {
+      "id": "l159",
+      "blockNumber": 26,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1502,
+        4252,
+        1537,
+        4287
+      ],
+      "left": 1502,
+      "top": 4252,
+      "right": 1537,
+      "bottom": 4287,
+      "width": 35,
+      "height": 35,
+      "confidence": 66.325,
+      "text": "~"
+    },
+    {
+      "id": "l160",
+      "blockNumber": 27,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1804,
+        4252,
+        1839,
+        4287
+      ],
+      "left": 1804,
+      "top": 4252,
+      "right": 1839,
+      "bottom": 4287,
+      "width": 35,
+      "height": 35,
+      "confidence": 56.787,
+      "text": "~"
+    },
+    {
+      "id": "l161",
+      "blockNumber": 38,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2075,
+        4252,
+        2141,
+        4317
+      ],
+      "left": 2075,
+      "top": 4252,
+      "right": 2141,
+      "bottom": 4317,
+      "width": 66,
+      "height": 65,
+      "confidence": 43.253,
+      "text": "ae"
+    },
+    {
+      "id": "l162",
+      "blockNumber": 17,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        869,
+        4253,
+        1013,
+        4338
+      ],
+      "left": 869,
+      "top": 4253,
+      "right": 1013,
+      "bottom": 4338,
+      "width": 144,
+      "height": 85,
+      "confidence": 23.561,
+      "text": "oh"
+    },
+    {
+      "id": "l163",
+      "blockNumber": 28,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1090,
+        4262,
+        1125,
+        4298
+      ],
+      "left": 1090,
+      "top": 4262,
+      "right": 1125,
+      "bottom": 4298,
+      "width": 35,
+      "height": 36,
+      "confidence": 36.243,
+      "text": "a"
+    },
+    {
+      "id": "l164",
+      "blockNumber": 29,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1332,
+        4262,
+        1426,
+        4358
+      ],
+      "left": 1332,
+      "top": 4262,
+      "right": 1426,
+      "bottom": 4358,
+      "width": 94,
+      "height": 96,
+      "confidence": 42.581,
+      "text": "Sx"
+    },
+    {
+      "id": "l165",
+      "blockNumber": 30,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1664,
+        4262,
+        1728,
+        4328
+      ],
+      "left": 1664,
+      "top": 4262,
+      "right": 1728,
+      "bottom": 4328,
+      "width": 64,
+      "height": 66,
+      "confidence": 48.738,
+      "text": "ay"
+    },
+    {
+      "id": "l166",
+      "blockNumber": 27,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1774,
+        4282,
+        1809,
+        4317
+      ],
+      "left": 1774,
+      "top": 4282,
+      "right": 1809,
+      "bottom": 4317,
+      "width": 35,
+      "height": 35,
+      "confidence": 39.365,
+      "text": "~)"
+    },
+    {
+      "id": "l167",
+      "blockNumber": 10,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        1110,
+        4283,
+        1205,
+        4379
+      ],
+      "left": 1110,
+      "top": 4283,
+      "right": 1205,
+      "bottom": 4379,
+      "width": 95,
+      "height": 96,
+      "confidence": 53.649,
+      "text": "x"
+    },
+    {
+      "id": "l168",
+      "blockNumber": 82,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        2237,
+        4292,
+        2794,
+        4368
+      ],
+      "left": 2237,
+      "top": 4292,
+      "right": 2794,
+      "bottom": 4368,
+      "width": 557,
+      "height": 76,
+      "confidence": 21.021,
+      "text": "SPILLS"
+    },
+    {
+      "id": "l169",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        758,
+        4293,
+        793,
+        4328
+      ],
+      "left": 758,
+      "top": 4293,
+      "right": 793,
+      "bottom": 4328,
+      "width": 35,
+      "height": 35,
+      "confidence": 48.176,
+      "text": "~"
+    },
+    {
+      "id": "l170",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1251,
+        4303,
+        1286,
+        4338
+      ],
+      "left": 1251,
+      "top": 4303,
+      "right": 1286,
+      "bottom": 4338,
+      "width": 35,
+      "height": 35,
+      "confidence": 52.547,
+      "text": "~"
+    },
+    {
+      "id": "l171",
+      "blockNumber": 25,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1552,
+        4303,
+        1587,
+        4338
+      ],
+      "left": 1552,
+      "top": 4303,
+      "right": 1587,
+      "bottom": 4338,
+      "width": 35,
+      "height": 35,
+      "confidence": 52.378,
+      "text": "~"
+    },
+    {
+      "id": "l172",
+      "blockNumber": 98,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3142,
+        4312,
+        3353,
+        4377
+      ],
+      "left": 3142,
+      "top": 4312,
+      "right": 3353,
+      "bottom": 4377,
+      "width": 211,
+      "height": 65,
+      "confidence": 32.699,
+      "text": "SONOS"
+    },
+    {
+      "id": "l173",
+      "blockNumber": 27,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1744,
+        4313,
+        1778,
+        4348
+      ],
+      "left": 1744,
+      "top": 4313,
+      "right": 1778,
+      "bottom": 4348,
+      "width": 34,
+      "height": 35,
+      "confidence": 32.424,
+      "text": "~"
+    },
+    {
+      "id": "l174",
+      "blockNumber": 88,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2699,
+        4329,
+        2768,
+        4402
+      ],
+      "left": 2699,
+      "top": 4329,
+      "right": 2768,
+      "bottom": 4402,
+      "width": 69,
+      "height": 73,
+      "confidence": 28.503,
+      "text": "SS,"
+    },
+    {
+      "id": "l175",
+      "blockNumber": 25,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        1522,
+        4333,
+        1557,
+        4368
+      ],
+      "left": 1522,
+      "top": 4333,
+      "right": 1557,
+      "bottom": 4368,
+      "width": 35,
+      "height": 35,
+      "confidence": 44.338,
+      "text": "~"
+    },
+    {
+      "id": "l176",
+      "blockNumber": 17,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        919,
+        4334,
+        954,
+        4369
+      ],
+      "left": 919,
+      "top": 4334,
+      "right": 954,
+      "bottom": 4369,
+      "width": 35,
+      "height": 35,
+      "confidence": 36.476,
+      "text": "~)"
+    },
+    {
+      "id": "l177",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1221,
+        4334,
+        1255,
+        4368
+      ],
+      "left": 1221,
+      "top": 4334,
+      "right": 1255,
+      "bottom": 4368,
+      "width": 34,
+      "height": 34,
+      "confidence": 33.776,
+      "text": "~»"
+    },
+    {
+      "id": "l178",
+      "blockNumber": 87,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2921,
+        4342,
+        2955,
+        4377
+      ],
+      "left": 2921,
+      "top": 4342,
+      "right": 2955,
+      "bottom": 4377,
+      "width": 34,
+      "height": 35,
+      "confidence": 69.247,
+      "text": "5"
+    },
+    {
+      "id": "l179",
+      "blockNumber": 90,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2619,
+        4343,
+        2653,
+        4377
+      ],
+      "left": 2619,
+      "top": 4343,
+      "right": 2653,
+      "bottom": 4377,
+      "width": 34,
+      "height": 34,
+      "confidence": 26.543,
+      "text": "~)"
+    },
+    {
+      "id": "l180",
+      "blockNumber": 29,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1241,
+        4344,
+        1446,
+        4450
+      ],
+      "left": 1241,
+      "top": 4344,
+      "right": 1446,
+      "bottom": 4450,
+      "width": 205,
+      "height": 106,
+      "confidence": 45.253,
+      "text": "Sx Sx"
+    },
+    {
+      "id": "l181",
+      "blockNumber": 27,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1713,
+        4344,
+        1748,
+        4378
+      ],
+      "left": 1713,
+      "top": 4344,
+      "right": 1748,
+      "bottom": 4378,
+      "width": 35,
+      "height": 34,
+      "confidence": 33.43,
+      "text": "~"
+    },
+    {
+      "id": "l182",
+      "blockNumber": 84,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        2810,
+        4353,
+        2844,
+        4388
+      ],
+      "left": 2810,
+      "top": 4353,
+      "right": 2844,
+      "bottom": 4388,
+      "width": 34,
+      "height": 35,
+      "confidence": 39.712,
+      "text": "~"
+    },
+    {
+      "id": "l183",
+      "blockNumber": 22,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1874,
+        4354,
+        1939,
+        4419
+      ],
+      "left": 1874,
+      "top": 4354,
+      "right": 1939,
+      "bottom": 4419,
+      "width": 65,
+      "height": 65,
+      "confidence": 50.689,
+      "text": "a"
+    },
+    {
+      "id": "l184",
+      "blockNumber": 39,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2096,
+        4363,
+        2130,
+        4398
+      ],
+      "left": 2096,
+      "top": 4363,
+      "right": 2130,
+      "bottom": 4398,
+      "width": 34,
+      "height": 35,
+      "confidence": 42.596,
+      "text": "~»"
+    },
+    {
+      "id": "l185",
+      "blockNumber": 83,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2367,
+        4363,
+        2432,
+        4428
+      ],
+      "left": 2367,
+      "top": 4363,
+      "right": 2432,
+      "bottom": 4428,
+      "width": 65,
+      "height": 65,
+      "confidence": 28.097,
+      "text": "ay"
+    },
+    {
+      "id": "l186",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1160,
+        4364,
+        1225,
+        4430
+      ],
+      "left": 1160,
+      "top": 4364,
+      "right": 1225,
+      "bottom": 4430,
+      "width": 65,
+      "height": 66,
+      "confidence": 27.23,
+      "text": "a"
+    },
+    {
+      "id": "l187",
+      "blockNumber": 25,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        1492,
+        4364,
+        1527,
+        4399
+      ],
+      "left": 1492,
+      "top": 4364,
+      "right": 1527,
+      "bottom": 4399,
+      "width": 35,
+      "height": 35,
+      "confidence": 32.77,
+      "text": "~~"
+    },
+    {
+      "id": "l188",
+      "blockNumber": 23,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1794,
+        4364,
+        1829,
+        4398
+      ],
+      "left": 1794,
+      "top": 4364,
+      "right": 1829,
+      "bottom": 4398,
+      "width": 35,
+      "height": 34,
+      "confidence": 62.883,
+      "text": "~"
+    },
+    {
+      "id": "l189",
+      "blockNumber": 87,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        2860,
+        4373,
+        2925,
+        4439
+      ],
+      "left": 2860,
+      "top": 4373,
+      "right": 2925,
+      "bottom": 4439,
+      "width": 65,
+      "height": 66,
+      "confidence": 55.315,
+      "text": "SS"
+    },
+    {
+      "id": "l190",
+      "blockNumber": 10,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        1080,
+        4374,
+        1115,
+        4409
+      ],
+      "left": 1080,
+      "top": 4374,
+      "right": 1115,
+      "bottom": 4409,
+      "width": 35,
+      "height": 35,
+      "confidence": 34.838,
+      "text": "XS"
+    },
+    {
+      "id": "l191",
+      "blockNumber": 27,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        1683,
+        4374,
+        1718,
+        4409
+      ],
+      "left": 1683,
+      "top": 4374,
+      "right": 1718,
+      "bottom": 4409,
+      "width": 35,
+      "height": 35,
+      "confidence": 45.445,
+      "text": "~"
+    },
+    {
+      "id": "l192",
+      "blockNumber": 91,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2256,
+        4374,
+        2321,
+        4439
+      ],
+      "left": 2256,
+      "top": 4374,
+      "right": 2321,
+      "bottom": 4439,
+      "width": 65,
+      "height": 65,
+      "confidence": 25.023,
+      "text": "hy"
+    },
+    {
+      "id": "l193",
+      "blockNumber": 92,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2448,
+        4379,
+        2518,
+        4453
+      ],
+      "left": 2448,
+      "top": 4379,
+      "right": 2518,
+      "bottom": 4453,
+      "width": 70,
+      "height": 74,
+      "confidence": 42.554,
+      "text": "SS,"
+    },
+    {
+      "id": "l194",
+      "blockNumber": 84,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        2749,
+        4379,
+        2814,
+        4453
+      ],
+      "left": 2749,
+      "top": 4379,
+      "right": 2814,
+      "bottom": 4453,
+      "width": 65,
+      "height": 74,
+      "confidence": 20.846,
+      "text": "aay"
+    },
+    {
+      "id": "l195",
+      "blockNumber": 95,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3081,
+        4383,
+        3116,
+        4418
+      ],
+      "left": 3081,
+      "top": 4383,
+      "right": 3116,
+      "bottom": 4418,
+      "width": 35,
+      "height": 35,
+      "confidence": 54.514,
+      "text": "~"
+    },
+    {
+      "id": "l196",
+      "blockNumber": 98,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        3242,
+        4393,
+        3307,
+        4458
+      ],
+      "left": 3242,
+      "top": 4393,
+      "right": 3307,
+      "bottom": 4458,
+      "width": 65,
+      "height": 65,
+      "confidence": 28.621,
+      "text": "me"
+    },
+    {
+      "id": "l197",
+      "blockNumber": 31,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1539,
+        4411,
+        1608,
+        4453
+      ],
+      "left": 1539,
+      "top": 4411,
+      "right": 1608,
+      "bottom": 4453,
+      "width": 69,
+      "height": 42,
+      "confidence": 35.654,
+      "text": "me ("
+    },
+    {
+      "id": "l198",
+      "blockNumber": 96,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3051,
+        4414,
+        3086,
+        4448
+      ],
+      "left": 3051,
+      "top": 4414,
+      "right": 3086,
+      "bottom": 4448,
+      "width": 35,
+      "height": 34,
+      "confidence": 51.55,
+      "text": "SS"
+    },
+    {
+      "id": "l199",
+      "blockNumber": 71,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2337,
+        4424,
+        2372,
+        4459
+      ],
+      "left": 2337,
+      "top": 4424,
+      "right": 2372,
+      "bottom": 4459,
+      "width": 35,
+      "height": 35,
+      "confidence": 37.799,
+      "text": "SS"
+    },
+    {
+      "id": "l200",
+      "blockNumber": 87,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        2799,
+        4434,
+        2864,
+        4494
+      ],
+      "left": 2799,
+      "top": 4434,
+      "right": 2864,
+      "bottom": 4494,
+      "width": 65,
+      "height": 60,
+      "confidence": 24.459,
+      "text": "ey"
+    },
+    {
+      "id": "l201",
+      "blockNumber": 71,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2216,
+        4435,
+        2562,
+        4494
+      ],
+      "left": 2216,
+      "top": 4435,
+      "right": 2562,
+      "bottom": 4494,
+      "width": 346,
+      "height": 59,
+      "confidence": 47.8,
+      "text": "~ YS ey"
+    },
+    {
+      "id": "l202",
+      "blockNumber": 29,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1200,
+        4441,
+        1249,
+        4494
+      ],
+      "left": 1200,
+      "top": 4441,
+      "right": 1249,
+      "bottom": 4494,
+      "width": 49,
+      "height": 53,
+      "confidence": 43.664,
+      "text": "ee)"
+    },
+    {
+      "id": "l203",
+      "blockNumber": 31,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1502,
+        4441,
+        1551,
+        4494
+      ],
+      "left": 1502,
+      "top": 4441,
+      "right": 1551,
+      "bottom": 4494,
+      "width": 49,
+      "height": 53,
+      "confidence": 43.153,
+      "text": "ee)"
+    },
+    {
+      "id": "l204",
+      "blockNumber": 66,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1994,
+        4441,
+        2220,
+        4494
+      ],
+      "left": 1994,
+      "top": 4441,
+      "right": 2220,
+      "bottom": 4494,
+      "width": 226,
+      "height": 53,
+      "confidence": 38.157,
+      "text": "a OO tr"
+    },
+    {
+      "id": "l205",
+      "blockNumber": 84,
+      "paragraphNumber": 1,
+      "lineNumber": 10,
+      "bbox": [
+        2708,
+        4444,
+        2754,
+        4494
+      ],
+      "left": 2708,
+      "top": 4444,
+      "right": 2754,
+      "bottom": 4494,
+      "width": 46,
+      "height": 50,
+      "confidence": 46.786,
+      "text": "ee)"
+    },
+    {
+      "id": "l206",
+      "blockNumber": 89,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2900,
+        4444,
+        3056,
+        4494
+      ],
+      "left": 2900,
+      "top": 4444,
+      "right": 3056,
+      "bottom": 4494,
+      "width": 156,
+      "height": 50,
+      "confidence": 41.993,
+      "text": "YON"
+    },
+    {
+      "id": "l207",
+      "blockNumber": 25,
+      "paragraphNumber": 3,
+      "lineNumber": 3,
+      "bbox": [
+        1391,
+        4455,
+        1436,
+        4494
+      ],
+      "left": 1391,
+      "top": 4455,
+      "right": 1436,
+      "bottom": 4494,
+      "width": 45,
+      "height": 39,
+      "confidence": 46.339,
+      "text": "AS"
+    },
+    {
+      "id": "l208",
+      "blockNumber": 27,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        1693,
+        4455,
+        1738,
+        4494
+      ],
+      "left": 1693,
+      "top": 4455,
+      "right": 1738,
+      "bottom": 4494,
+      "width": 45,
+      "height": 39,
+      "confidence": 44.931,
+      "text": "YAS"
+    },
+    {
+      "id": "l209",
+      "blockNumber": 34,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        985,
+        4475,
+        1094,
+        4494
+      ],
+      "left": 985,
+      "top": 4475,
+      "right": 1094,
+      "bottom": 4494,
+      "width": 109,
+      "height": 19,
+      "confidence": 26.994,
+      "text": "~~ A"
+    }
+  ]
+}

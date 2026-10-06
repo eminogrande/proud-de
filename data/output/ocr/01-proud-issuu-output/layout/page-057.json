@@ -1,0 +1,87 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        353,
+        4097,
+        2045,
+        4146
+      ],
+      "left": 353,
+      "top": 4097,
+      "right": 2045,
+      "bottom": 4146,
+      "width": 1692,
+      "height": 49,
+      "confidence": 95.918,
+      "text": "ADIDAS ATTICUS ANALOG BENCH BILLABONG BURTON CARHARTT CONVERSE"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        365,
+        4157,
+        2044,
+        4206
+      ],
+      "left": 365,
+      "top": 4157,
+      "right": 2044,
+      "bottom": 4206,
+      "width": 1679,
+      "height": 49,
+      "confidence": 93.494,
+      "text": "DAKINE DC FAMOUS FORNARINA FOX GRAVIS LRG MAZINE NEW ERA NIKESB"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        517,
+        4211,
+        2045,
+        4266
+      ],
+      "left": 517,
+      "top": 4211,
+      "right": 2045,
+      "bottom": 4266,
+      "width": 1528,
+      "height": 55,
+      "confidence": 90.276,
+      "text": "NIXON NUDIE POINTER REELL ROXY STUSSY VANS VOLCOM 200 YORK"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1730,
+        4313,
+        2045,
+        4370
+      ],
+      "left": 1730,
+      "top": 4313,
+      "right": 2045,
+      "bottom": 4370,
+      "width": 315,
+      "height": 57,
+      "confidence": 61.951,
+      "text": "- DROP-N.DE"
+    }
+  ]
+}

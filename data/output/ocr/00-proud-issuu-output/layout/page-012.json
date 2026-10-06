@@ -1,0 +1,927 @@
+{
+  "scale": 2.0,
+  "imageWidth": 4478,
+  "imageHeight": 3002,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        5,
+        440,
+        136,
+        492
+      ],
+      "left": 5,
+      "top": 440,
+      "right": 136,
+      "bottom": 492,
+      "width": 131,
+      "height": 52,
+      "confidence": 49.784,
+      "text": "—~ ra"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        64,
+        511,
+        2090,
+        752
+      ],
+      "left": 64,
+      "top": 511,
+      "right": 2090,
+      "bottom": 752,
+      "width": 2026,
+      "height": 241,
+      "confidence": 72.659,
+      "text": "adidas skate clash IV |"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        0,
+        524,
+        114,
+        533
+      ],
+      "left": 0,
+      "top": 524,
+      "right": 114,
+      "bottom": 533,
+      "width": 114,
+      "height": 9,
+      "confidence": 43.551,
+      "text": "ee"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        811,
+        761,
+        1266,
+        785
+      ],
+      "left": 811,
+      "top": 761,
+      "right": 1266,
+      "bottom": 785,
+      "width": 455,
+      "height": 24,
+      "confidence": 94.046,
+      "text": "Motiviert von der Vorfreude auf"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        810,
+        803,
+        1209,
+        833
+      ],
+      "left": 810,
+      "top": 803,
+      "right": 1209,
+      "bottom": 833,
+      "width": 399,
+      "height": 30,
+      "confidence": 93.553,
+      "text": "ein erstklassiges Event mit"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3018,
+        813,
+        3575,
+        843
+      ],
+      "left": 3018,
+      "top": 813,
+      "right": 3575,
+      "bottom": 843,
+      "width": 557,
+      "height": 30,
+      "confidence": 94.416,
+      "text": "Was sollte schon passieren, wenn die"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        811,
+        846,
+        1143,
+        877
+      ],
+      "left": 811,
+      "top": 846,
+      "right": 1143,
+      "bottom": 877,
+      "width": 332,
+      "height": 31,
+      "confidence": 91.51,
+      "text": "Unterhaltungsgarantie,"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3020,
+        855,
+        3528,
+        883
+      ],
+      "left": 3020,
+      "top": 855,
+      "right": 3528,
+      "bottom": 883,
+      "width": 508,
+      "height": 28,
+      "confidence": 94.422,
+      "text": "BVG streikt, kein Bus fahrt und die"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        811,
+        888,
+        1262,
+        912
+      ],
+      "left": 811,
+      "top": 888,
+      "right": 1262,
+      "bottom": 912,
+      "width": 451,
+      "height": 24,
+      "confidence": 93.814,
+      "text": "Skaterbabes und reichlich Bier"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        3019,
+        897,
+        3472,
+        922
+      ],
+      "left": 3019,
+      "top": 897,
+      "right": 3472,
+      "bottom": 922,
+      "width": 453,
+      "height": 25,
+      "confidence": 95.014,
+      "text": "nachste S-Bahn 20 Minuten zu"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        809,
+        930,
+        1288,
+        961
+      ],
+      "left": 809,
+      "top": 930,
+      "right": 1288,
+      "bottom": 961,
+      "width": 479,
+      "height": 31,
+      "confidence": 91.158,
+      "text": "ging ich am Freitag fruh ins Bett."
+    },
+    {
+      "id": "l012",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        3018,
+        941,
+        3188,
+        965
+      ],
+      "left": 3018,
+      "top": 941,
+      "right": 3188,
+      "bottom": 965,
+      "width": 170,
+      "height": 24,
+      "confidence": 94.182,
+      "text": "entfernt ist."
+    },
+    {
+      "id": "l013",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        811,
+        972,
+        1299,
+        1003
+      ],
+      "left": 811,
+      "top": 972,
+      "right": 1299,
+      "bottom": 1003,
+      "width": 488,
+      "height": 31,
+      "confidence": 92.858,
+      "text": "Nach einem langen, guten Schlaf"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 6,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        3020,
+        982,
+        3544,
+        1013
+      ],
+      "left": 3020,
+      "top": 982,
+      "right": 3544,
+      "bottom": 1013,
+      "width": 524,
+      "height": 31,
+      "confidence": 89.573,
+      "text": "Natirlich wurde nix abgeblasen und"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        810,
+        1016,
+        1286,
+        1045
+      ],
+      "left": 810,
+      "top": 1016,
+      "right": 1286,
+      "bottom": 1045,
+      "width": 476,
+      "height": 29,
+      "confidence": 94.231,
+      "text": "erreichte ich das Cassiopaia um"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 6,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        3017,
+        1025,
+        3577,
+        1056
+      ],
+      "left": 3017,
+      "top": 1025,
+      "right": 3577,
+      "bottom": 1056,
+      "width": 560,
+      "height": 31,
+      "confidence": 93.357,
+      "text": "trotz aller Katastrophenwarnungen die"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 4,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        811,
+        1057,
+        1275,
+        1088
+      ],
+      "left": 811,
+      "top": 1057,
+      "right": 1275,
+      "bottom": 1088,
+      "width": 464,
+      "height": 31,
+      "confidence": 95.088,
+      "text": "18 Uhr - zu spat, denn die Quali"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 6,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        3018,
+        1067,
+        3558,
+        1097
+      ],
+      "left": 3018,
+      "top": 1067,
+      "right": 3558,
+      "bottom": 1097,
+      "width": 540,
+      "height": 30,
+      "confidence": 93.344,
+      "text": "erste Party der TANZMICHMAL Reihe"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 4,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        809,
+        1099,
+        1326,
+        1124
+      ],
+      "left": 809,
+      "top": 1099,
+      "right": 1326,
+      "bottom": 1124,
+      "width": 517,
+      "height": 25,
+      "confidence": 87.388,
+      "text": "war schon vorbei. Also zuriick nach"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 6,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        3020,
+        1108,
+        3569,
+        1139
+      ],
+      "left": 3020,
+      "top": 1108,
+      "right": 3569,
+      "bottom": 1139,
+      "width": 549,
+      "height": 31,
+      "confidence": 85.225,
+      "text": "planmafig veranstaltet. Das Resultat"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 4,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        811,
+        1142,
+        1295,
+        1170
+      ],
+      "left": 811,
+      "top": 1142,
+      "right": 1295,
+      "bottom": 1170,
+      "width": 484,
+      "height": 28,
+      "confidence": 95.164,
+      "text": "Hause und zum zweiten Versuch,"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2988,
+        1152,
+        3542,
+        1183
+      ],
+      "left": 2988,
+      "top": 1152,
+      "right": 3542,
+      "bottom": 1183,
+      "width": 554,
+      "height": 31,
+      "confidence": 81.536,
+      "text": "| war eine unvergessliche, 600 Mann"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 4,
+      "paragraphNumber": 4,
+      "lineNumber": 3,
+      "bbox": [
+        810,
+        1185,
+        1169,
+        1216
+      ],
+      "left": 810,
+      "top": 1185,
+      "right": 1169,
+      "bottom": 1216,
+      "width": 359,
+      "height": 31,
+      "confidence": 96.108,
+      "text": "dem Finale am Sonntag."
+    },
+    {
+      "id": "l024",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3019,
+        1194,
+        3530,
+        1225
+      ],
+      "left": 3019,
+      "top": 1194,
+      "right": 3530,
+      "bottom": 1225,
+      "width": 511,
+      "height": 31,
+      "confidence": 90.966,
+      "text": "und Frau starke Tanzgemeinschaft."
+    },
+    {
+      "id": "l025",
+      "blockNumber": 4,
+      "paragraphNumber": 5,
+      "lineNumber": 1,
+      "bbox": [
+        811,
+        1227,
+        1302,
+        1258
+      ],
+      "left": 811,
+      "top": 1227,
+      "right": 1302,
+      "bottom": 1258,
+      "width": 491,
+      "height": 31,
+      "confidence": 92.98,
+      "text": "Etwas enttauscht von der ruhigen"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3020,
+        1236,
+        3547,
+        1267
+      ],
+      "left": 3020,
+      "top": 1236,
+      "right": 3547,
+      "bottom": 1267,
+      "width": 527,
+      "height": 31,
+      "confidence": 94.134,
+      "text": "Der BVG Streik trug dann noch dazu"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 4,
+      "paragraphNumber": 5,
+      "lineNumber": 2,
+      "bbox": [
+        811,
+        1269,
+        1270,
+        1300
+      ],
+      "left": 811,
+      "top": 1269,
+      "right": 1270,
+      "bottom": 1300,
+      "width": 459,
+      "height": 31,
+      "confidence": 94.825,
+      "text": "Stimmung erfuhr ich bald, dass"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2998,
+        1300,
+        3003,
+        1303
+      ],
+      "left": 2998,
+      "top": 1300,
+      "right": 3003,
+      "bottom": 1303,
+      "width": 5,
+      "height": 3,
+      "confidence": 55.65,
+      "text": "5 1 9 1 1 2 3019 1278 51 28 96.172493 bei,5 1 9 1 1 3 3081 1279 70 24 96.833107 dass5 1 9 1 1 4 3164 1279 52 24 92.775543 das5 1 9 1 1 5 3227 1278 122 25 92.430130 Tanzvolk5 1 9 1 1 6 3362 1279 41 24 96.437035 bis5 1 9 1 1 7 3416 1278 23 24 95.970695 in5 1 9 1 1 8 3451 1279 43 24 96.687950 die2 1 10 0 0 0 3017 1321 550 259 -1 3 1 10 1 0 0 3017 1321 550 243 -1 4 1 10 1 1 0 3017 1321 527 31 -1 5 1 10 1 1 1 3017 1321 93 25 90.916206 fruhen5 1 10 1 1 2 3125 1322 227 30 91.108170 Morgenstunden5 1 10 1 1 3 3366 1321 178 25 79.693619 unermidlich4 1 10 1 2 0 3018 1364 537 24 -1 5 1 10 1 2 1 3018 1364 179 24 92.321159 weitertanzte5 1 10 1 2 2 3210 1364 51 24 96.232834 und5 1 10 1 2 3 3274 1364 43 24 96.075684 die5 1 10 1 2 4 3330 1364 100 24 96.540428 Platten5 1 10 1 2 5 3444 1364 56 24 96.404312 sich5 1 10 1 2 6 3514 1364 41 24 96.937050 bis4 1 10 1 3 0 3020 1406 450 31 -1 5 1 10 1 3 1 3020 1406 21 24 96.811134 in5 1 10 1 3 2 3055 1406 42 24 93.236832 die5 1 10 1 3 3 3111 1406 227 31 91.323608 Mittagsstunden5 1 10 1 3 4 3351 1406 119 24 90.791176 drehten.4 1 10 1 4 0 3019 1446 443 36 -1 5 1 10 1 4 1 3019 1448 143 31 78.695282 Grofartig!5 1 10 1 4 2 3176 1446 79 36 93.305069 proud5 1 10 1 4 3 3266 1448 68 24 92.158554 freut5 1 10 1 4 4 3346 1448 57 24 97.013229 sich5 1 10 1 4 5 3415 1448 47 24 96.852234 auf4 1 10 1 5 0 3017 1491 550 31 -1 5 1 10 1 5 1 3017 1491 220 25 92.259247 TANZMICHMAL5 1 10 1 5 2 3248 1491 17 24 96.712769 25 1 10 1 5 3 3279 1492 51 24 96.821228 und5 1 10 1 5 4 3343 1492 53 30 94.800041 gibt5 1 10 1 5 5 3408 1492 86 24 96.213104 schon5 1 10 1 5 6 3503 1492 64 29 96.884720 jetzt4 1 10 1 6 0 3018 1534 218 46 -1 5 1 10 1 6 1 3018 1534 53 24 96.205338 den5 1 10 1 6 2 3083 1534 153 46 87.246376 Ausgentip.2 1 11 0 0 0 3586 1076 25 46 -1 3 1 11 1 0 0 3586 1076 25 46 -1 4 1 11 1 1 0 3586 1076 25 46 -1 5 1 11 1 1 1 3586 1076 25 46 15.571032 bs2 1 12 0 0 0 0 0 4478 3002 -1 3 1 12 1 0 0 0 0 4478 3002 -1 4 1 12 1 1 0 0 0 4478 3002 -1 5 1 12 1 1 1 0 0 4478 3002 95.000000"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 4,
+      "paragraphNumber": 6,
+      "lineNumber": 1,
+      "bbox": [
+        811,
+        1311,
+        1322,
+        1336
+      ],
+      "left": 811,
+      "top": 1311,
+      "right": 1322,
+      "bottom": 1336,
+      "width": 511,
+      "height": 25,
+      "confidence": 95.477,
+      "text": "ich am Abend zuvor die wohl beste"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 4,
+      "paragraphNumber": 6,
+      "lineNumber": 2,
+      "bbox": [
+        811,
+        1353,
+        1261,
+        1384
+      ],
+      "left": 811,
+      "top": 1353,
+      "right": 1261,
+      "bottom": 1384,
+      "width": 450,
+      "height": 31,
+      "confidence": 95.073,
+      "text": "Party der Stadt verpasst hatte."
+    },
+    {
+      "id": "l031",
+      "blockNumber": 4,
+      "paragraphNumber": 7,
+      "lineNumber": 1,
+      "bbox": [
+        812,
+        1397,
+        1156,
+        1425
+      ],
+      "left": 812,
+      "top": 1397,
+      "right": 1156,
+      "bottom": 1425,
+      "width": 344,
+      "height": 28,
+      "confidence": 92.874,
+      "text": "Im Detail: reichlich Bier,"
+    },
+    {
+      "id": "l032",
+      "blockNumber": 4,
+      "paragraphNumber": 7,
+      "lineNumber": 2,
+      "bbox": [
+        810,
+        1439,
+        1313,
+        1463
+      ],
+      "left": 810,
+      "top": 1439,
+      "right": 1313,
+      "bottom": 1463,
+      "width": 503,
+      "height": 24,
+      "confidence": 92.89,
+      "text": "Skaterbabes und BumBum Musik."
+    },
+    {
+      "id": "l033",
+      "blockNumber": 4,
+      "paragraphNumber": 7,
+      "lineNumber": 3,
+      "bbox": [
+        811,
+        1480,
+        1326,
+        1505
+      ],
+      "left": 811,
+      "top": 1480,
+      "right": 1326,
+      "bottom": 1505,
+      "width": 515,
+      "height": 25,
+      "confidence": 95.045,
+      "text": "Das erklarte dann auch schnell die"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 4,
+      "paragraphNumber": 7,
+      "lineNumber": 4,
+      "bbox": [
+        811,
+        1523,
+        1356,
+        1554
+      ],
+      "left": 811,
+      "top": 1523,
+      "right": 1356,
+      "bottom": 1554,
+      "width": 545,
+      "height": 31,
+      "confidence": 93.449,
+      "text": "Sonnenbrillen, kleinen Augen und die"
+    },
+    {
+      "id": "l035",
+      "blockNumber": 4,
+      "paragraphNumber": 7,
+      "lineNumber": 5,
+      "bbox": [
+        811,
+        1567,
+        1043,
+        1597
+      ],
+      "left": 811,
+      "top": 1567,
+      "right": 1043,
+      "bottom": 1597,
+      "width": 232,
+      "height": 30,
+      "confidence": 89.467,
+      "text": "Katerstimmung."
+    },
+    {
+      "id": "l036",
+      "blockNumber": 4,
+      "paragraphNumber": 8,
+      "lineNumber": 1,
+      "bbox": [
+        811,
+        1608,
+        1307,
+        1636
+      ],
+      "left": 811,
+      "top": 1608,
+      "right": 1307,
+      "bottom": 1636,
+      "width": 496,
+      "height": 28,
+      "confidence": 90.883,
+      "text": "Dennoch, an Entertainment fehite"
+    },
+    {
+      "id": "l037",
+      "blockNumber": 4,
+      "paragraphNumber": 8,
+      "lineNumber": 2,
+      "bbox": [
+        810,
+        1650,
+        1311,
+        1681
+      ],
+      "left": 810,
+      "top": 1650,
+      "right": 1311,
+      "bottom": 1681,
+      "width": 501,
+      "height": 31,
+      "confidence": 94.887,
+      "text": "es nicht. Auf dem Brett zeigten so"
+    },
+    {
+      "id": "l038",
+      "blockNumber": 4,
+      "paragraphNumber": 8,
+      "lineNumber": 3,
+      "bbox": [
+        810,
+        1692,
+        1327,
+        1723
+      ],
+      "left": 810,
+      "top": 1692,
+      "right": 1327,
+      "bottom": 1723,
+      "width": 517,
+      "height": 31,
+      "confidence": 94.768,
+      "text": "einige was wir normalen Menschen"
+    },
+    {
+      "id": "l039",
+      "blockNumber": 4,
+      "paragraphNumber": 8,
+      "lineNumber": 4,
+      "bbox": [
+        809,
+        1735,
+        1316,
+        1760
+      ],
+      "left": 809,
+      "top": 1735,
+      "right": 1316,
+      "bottom": 1760,
+      "width": 507,
+      "height": 25,
+      "confidence": 82.035,
+      "text": "fiir erklaren. Zum Glick"
+    },
+    {
+      "id": "l040",
+      "blockNumber": 4,
+      "paragraphNumber": 8,
+      "lineNumber": 5,
+      "bbox": [
+        811,
+        1778,
+        1361,
+        1809
+      ],
+      "left": 811,
+      "top": 1778,
+      "right": 1361,
+      "bottom": 1809,
+      "width": 550,
+      "height": 31,
+      "confidence": 94.932,
+      "text": "kamen dann zur Preisverleihung auch"
+    },
+    {
+      "id": "l041",
+      "blockNumber": 4,
+      "paragraphNumber": 8,
+      "lineNumber": 6,
+      "bbox": [
+        810,
+        1819,
+        1332,
+        1844
+      ],
+      "left": 810,
+      "top": 1819,
+      "right": 1332,
+      "bottom": 1844,
+      "width": 522,
+      "height": 25,
+      "confidence": 92.353,
+      "text": "die ersten Madels aus ihren Betten"
+    },
+    {
+      "id": "l042",
+      "blockNumber": 4,
+      "paragraphNumber": 8,
+      "lineNumber": 7,
+      "bbox": [
+        809,
+        1861,
+        1351,
+        1893
+      ],
+      "left": 809,
+      "top": 1861,
+      "right": 1351,
+      "bottom": 1893,
+      "width": 542,
+      "height": 32,
+      "confidence": 93.59,
+      "text": "gekrochen. Beim spateren Flirt unter"
+    },
+    {
+      "id": "l043",
+      "blockNumber": 4,
+      "paragraphNumber": 8,
+      "lineNumber": 8,
+      "bbox": [
+        811,
+        1904,
+        1324,
+        1932
+      ],
+      "left": 811,
+      "top": 1904,
+      "right": 1324,
+      "bottom": 1932,
+      "width": 513,
+      "height": 28,
+      "confidence": 86.035,
+      "text": "Sonnenschirmen, mit Pestonudeln,"
+    },
+    {
+      "id": "l044",
+      "blockNumber": 4,
+      "paragraphNumber": 8,
+      "lineNumber": 9,
+      "bbox": [
+        809,
+        1941,
+        1343,
+        1977
+      ],
+      "left": 809,
+      "top": 1941,
+      "right": 1343,
+      "bottom": 1977,
+      "width": 534,
+      "height": 36,
+      "confidence": 86.403,
+      "text": "frischen Apfeln und Bionade, konnte"
+    },
+    {
+      "id": "l045",
+      "blockNumber": 4,
+      "paragraphNumber": 8,
+      "lineNumber": 10,
+      "bbox": [
+        810,
+        1989,
+        1252,
+        2020
+      ],
+      "left": 810,
+      "top": 1989,
+      "right": 1252,
+      "bottom": 2020,
+      "width": 442,
+      "height": 31,
+      "confidence": 94.872,
+      "text": "der Tag als absolut erfolgreich"
+    },
+    {
+      "id": "l046",
+      "blockNumber": 4,
+      "paragraphNumber": 8,
+      "lineNumber": 11,
+      "bbox": [
+        809,
+        2032,
+        1059,
+        2056
+      ],
+      "left": 809,
+      "top": 2032,
+      "right": 1059,
+      "bottom": 2056,
+      "width": 250,
+      "height": 24,
+      "confidence": 94.138,
+      "text": "verbucht werden."
+    }
+  ]
+}

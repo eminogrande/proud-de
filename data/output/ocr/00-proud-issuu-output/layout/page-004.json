@@ -1,0 +1,2187 @@
+{
+  "scale": 2.0,
+  "imageWidth": 4478,
+  "imageHeight": 3002,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        72,
+        60,
+        179,
+        95
+      ],
+      "left": 72,
+      "top": 60,
+      "right": 179,
+      "bottom": 95,
+      "width": 107,
+      "height": 35,
+      "confidence": 96.692,
+      "text": "start"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 50,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3978,
+        60,
+        4397,
+        111
+      ],
+      "left": 3978,
+      "top": 60,
+      "right": 4397,
+      "bottom": 111,
+      "width": 419,
+      "height": 51,
+      "confidence": 96.597,
+      "text": "advertising option"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        172,
+        155,
+        324,
+        185
+      ],
+      "left": 172,
+      "top": 155,
+      "right": 324,
+      "bottom": 185,
+      "width": 152,
+      "height": 30,
+      "confidence": 96.297,
+      "text": "Editorial"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        170,
+        245,
+        282,
+        269
+      ],
+      "left": 170,
+      "top": 245,
+      "right": 282,
+      "bottom": 269,
+      "width": 112,
+      "height": 24,
+      "confidence": 90.733,
+      "text": "Juhuuu!"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1491,
+        314,
+        1982,
+        351
+      ],
+      "left": 1491,
+      "top": 314,
+      "right": 1982,
+      "bottom": 351,
+      "width": 491,
+      "height": 37,
+      "confidence": 95.27,
+      "text": "»Who is your man crush?“"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        170,
+        326,
+        1255,
+        363
+      ],
+      "left": 170,
+      "top": 326,
+      "right": 1255,
+      "bottom": 363,
+      "width": 1085,
+      "height": 37,
+      "confidence": 93.368,
+      "text": "Willkommen zu der Startausgabe des proud magazine, der unerlasslichen"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        172,
+        366,
+        1632,
+        403
+      ],
+      "left": 172,
+      "top": 366,
+      "right": 1632,
+      "bottom": 403,
+      "width": 1460,
+      "height": 37,
+      "confidence": 90.725,
+      "text": "Uberlebenshilfe im alltaglichen Kampf mit dem Gro&stadtdschungel. Publisher"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 33,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1491,
+        408,
+        1819,
+        434
+      ],
+      "left": 1491,
+      "top": 408,
+      "right": 1819,
+      "bottom": 434,
+      "width": 328,
+      "height": 26,
+      "confidence": 90.026,
+      "text": "Emin ,,Einstein“ Mahrt"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        172,
+        414,
+        1268,
+        445
+      ],
+      "left": 172,
+      "top": 414,
+      "right": 1268,
+      "bottom": 445,
+      "width": 1096,
+      "height": 31,
+      "confidence": 93.112,
+      "text": "Unsere Mission: Die Vermittlung von Mode-, Musik- und Kunstbewusstsein"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 33,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1491,
+        450,
+        2056,
+        475
+      ],
+      "left": 1491,
+      "top": 450,
+      "right": 2056,
+      "bottom": 475,
+      "width": 565,
+      "height": 25,
+      "confidence": 69.926,
+      "text": "Richard ,Nelson Mandela“ Kirschstein"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        171,
+        456,
+        448,
+        487
+      ],
+      "left": 171,
+      "top": 456,
+      "right": 448,
+      "bottom": 487,
+      "width": 277,
+      "height": 31,
+      "confidence": 81.074,
+      "text": "an die Bedurftigen."
+    },
+    {
+      "id": "l012",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        172,
+        496,
+        1247,
+        533
+      ],
+      "left": 172,
+      "top": 496,
+      "right": 1247,
+      "bottom": 533,
+      "width": 1075,
+      "height": 37,
+      "confidence": 93.287,
+      "text": "Das proud magazine ist ein Zusammenschluss von Urban-, Musik-, Style-,"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 35,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1489,
+        512,
+        1680,
+        536
+      ],
+      "left": 1489,
+      "top": 512,
+      "right": 1680,
+      "bottom": 536,
+      "width": 191,
+      "height": 24,
+      "confidence": 96.275,
+      "text": "Contributors"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        171,
+        542,
+        1232,
+        570
+      ],
+      "left": 171,
+      "top": 542,
+      "right": 1232,
+      "bottom": 570,
+      "width": 1061,
+      "height": 28,
+      "confidence": 85.369,
+      "text": "Sex-, Mode-, Tierforscher-, Eulenkenner-, Teeliebhaber-, Yodanachahmer.,"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 35,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1490,
+        554,
+        2032,
+        584
+      ],
+      "left": 1490,
+      "top": 554,
+      "right": 2032,
+      "bottom": 584,
+      "width": 542,
+      "height": 30,
+      "confidence": 94.661,
+      "text": "Goethe, Brahms, Dostojewski, Dieter"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        172,
+        583,
+        918,
+        608
+      ],
+      "left": 172,
+      "top": 583,
+      "right": 918,
+      "bottom": 608,
+      "width": 746,
+      "height": 25,
+      "confidence": 92.427,
+      "text": "Sekundenmillionars- und Zwiebackeinfriererikonen."
+    },
+    {
+      "id": "l017",
+      "blockNumber": 35,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1491,
+        594,
+        2036,
+        622
+      ],
+      "left": 1491,
+      "top": 594,
+      "right": 2036,
+      "bottom": 622,
+      "width": 545,
+      "height": 28,
+      "confidence": 96.366,
+      "text": "Bohlen, Schiller, Thomas Mann, Anne"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        172,
+        625,
+        1204,
+        656
+      ],
+      "left": 172,
+      "top": 625,
+      "right": 1204,
+      "bottom": 656,
+      "width": 1032,
+      "height": 31,
+      "confidence": 93.914,
+      "text": "Diese legendare Vereinigung hat sich zum erklarten Ziel gemacht, den"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 35,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1491,
+        636,
+        2066,
+        666
+      ],
+      "left": 1491,
+      "top": 636,
+      "right": 2066,
+      "bottom": 666,
+      "width": 575,
+      "height": 30,
+      "confidence": 92.44,
+      "text": "Hahner, Benjamin Heps, Till Kolter, Lale"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        171,
+        669,
+        1290,
+        700
+      ],
+      "left": 171,
+      "top": 669,
+      "right": 1290,
+      "bottom": 700,
+      "width": 1119,
+      "height": 31,
+      "confidence": 92.922,
+      "text": "chronischen Mangel an straightforward, in-ya-face, mir-is-alles-egal-KUnstlern"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 35,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        1491,
+        678,
+        2083,
+        706
+      ],
+      "left": 1491,
+      "top": 678,
+      "right": 2083,
+      "bottom": 706,
+      "width": 592,
+      "height": 28,
+      "confidence": 90.393,
+      "text": "Mahrt, Martin Wende, Vincenz Neuhaus,"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        172,
+        711,
+        641,
+        742
+      ],
+      "left": 172,
+      "top": 711,
+      "right": 641,
+      "bottom": 742,
+      "width": 469,
+      "height": 31,
+      "confidence": 93.698,
+      "text": "in allen Richtungen zu beheben."
+    },
+    {
+      "id": "l023",
+      "blockNumber": 35,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        1490,
+        719,
+        2027,
+        747
+      ],
+      "left": 1490,
+      "top": 719,
+      "right": 2027,
+      "bottom": 747,
+      "width": 537,
+      "height": 28,
+      "confidence": 92.652,
+      "text": "Susanna Maria, Vicco Farah, Melana"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 35,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        1491,
+        761,
+        2037,
+        791
+      ],
+      "left": 1491,
+      "top": 761,
+      "right": 2037,
+      "bottom": 791,
+      "width": 546,
+      "height": 30,
+      "confidence": 95.606,
+      "text": "Kosim, Johnny Cheuk, Felix Buchholz,"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        172,
+        795,
+        392,
+        825
+      ],
+      "left": 172,
+      "top": 795,
+      "right": 392,
+      "bottom": 825,
+      "width": 220,
+      "height": 30,
+      "confidence": 92.091,
+      "text": "Hip-Hop-Tip-Top"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 35,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        1490,
+        803,
+        2034,
+        833
+      ],
+      "left": 1490,
+      "top": 803,
+      "right": 2034,
+      "bottom": 833,
+      "width": 544,
+      "height": 30,
+      "confidence": 96.685,
+      "text": "Sarai Schubert, Yue Tong (Ava) Chau,"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 35,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        1491,
+        844,
+        2082,
+        873
+      ],
+      "left": 1491,
+      "top": 844,
+      "right": 2082,
+      "bottom": 873,
+      "width": 591,
+      "height": 29,
+      "confidence": 94.788,
+      "text": "Falk Gartner, Salvatore Romanotto, Nora"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 16,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        172,
+        876,
+        1309,
+        915
+      ],
+      "left": 172,
+      "top": 876,
+      "right": 1309,
+      "bottom": 915,
+      "width": 1137,
+      "height": 39,
+      "confidence": 95.197,
+      "text": "Mit diesem Magazin in den Handen seid ihr auf jeden Fall bei unserer Geburt"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 35,
+      "paragraphNumber": 1,
+      "lineNumber": 10,
+      "bbox": [
+        1490,
+        885,
+        2060,
+        915
+      ],
+      "left": 1490,
+      "top": 885,
+      "right": 2060,
+      "bottom": 915,
+      "width": 570,
+      "height": 30,
+      "confidence": 91.642,
+      "text": "Schroter, Johnny Cheuk, Alexa von Hey,"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 16,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        171,
+        923,
+        1356,
+        953
+      ],
+      "left": 171,
+      "top": 923,
+      "right": 1356,
+      "bottom": 953,
+      "width": 1185,
+      "height": 30,
+      "confidence": 95.617,
+      "text": "dabei. Also, nicht bei dem ekligen Teil mit Schleim und Blut und so, viel mehr ist"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 35,
+      "paragraphNumber": 1,
+      "lineNumber": 11,
+      "bbox": [
+        1491,
+        927,
+        1980,
+        958
+      ],
+      "left": 1491,
+      "top": 927,
+      "right": 1980,
+      "bottom": 958,
+      "width": 489,
+      "height": 31,
+      "confidence": 93.44,
+      "text": "Hannes Greve, Negar Moinzadeh."
+    },
+    {
+      "id": "l032",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        171,
+        965,
+        681,
+        994
+      ],
+      "left": 171,
+      "top": 965,
+      "right": 681,
+      "bottom": 994,
+      "width": 510,
+      "height": 29,
+      "confidence": 95.144,
+      "text": "dieser Akt metaphorisch zu sehen."
+    },
+    {
+      "id": "l033",
+      "blockNumber": 36,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1490,
+        989,
+        1811,
+        1019
+      ],
+      "left": 1490,
+      "top": 989,
+      "right": 1811,
+      "bottom": 1019,
+      "width": 321,
+      "height": 30,
+      "confidence": 96.321,
+      "text": "Regular Contributors"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 18,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        172,
+        1004,
+        1351,
+        1041
+      ],
+      "left": 172,
+      "top": 1004,
+      "right": 1351,
+      "bottom": 1041,
+      "width": 1179,
+      "height": 37,
+      "confidence": 93.198,
+      "text": "Ihr seid ein Teil von proud und kénnt mit uns Richtung Zukunft in eine glanzende"
+    },
+    {
+      "id": "l035",
+      "blockNumber": 36,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1490,
+        1031,
+        2091,
+        1059
+      ],
+      "left": 1490,
+      "top": 1031,
+      "right": 2091,
+      "bottom": 1059,
+      "width": 601,
+      "height": 28,
+      "confidence": 95.035,
+      "text": "Oliver Keresztes, von Ahn, Wieland"
+    },
+    {
+      "id": "l036",
+      "blockNumber": 18,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        172,
+        1050,
+        1362,
+        1081
+      ],
+      "left": 172,
+      "top": 1050,
+      "right": 1362,
+      "bottom": 1081,
+      "width": 1190,
+      "height": 31,
+      "confidence": 95.741,
+      "text": "Nacht voller Glamour, Style, Sex, Yoga, Wodka, Musik, Redbull und noch ganz viel"
+    },
+    {
+      "id": "l037",
+      "blockNumber": 36,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        1490,
+        1073,
+        1994,
+        1103
+      ],
+      "left": 1490,
+      "top": 1073,
+      "right": 1994,
+      "bottom": 1103,
+      "width": 504,
+      "height": 30,
+      "confidence": 94.278,
+      "text": "Speck, Mabel Aschenneller, Moritz"
+    },
+    {
+      "id": "l038",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        172,
+        1092,
+        934,
+        1116
+      ],
+      "left": 172,
+      "top": 1092,
+      "right": 934,
+      "bottom": 1116,
+      "width": 762,
+      "height": 24,
+      "confidence": 93.982,
+      "text": "mehr auf meinem Einhorn Nelson Mandela II reiten."
+    },
+    {
+      "id": "l039",
+      "blockNumber": 36,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        1490,
+        1113,
+        2040,
+        1144
+      ],
+      "left": 1490,
+      "top": 1113,
+      "right": 2040,
+      "bottom": 1144,
+      "width": 550,
+      "height": 31,
+      "confidence": 95.058,
+      "text": "Stellmacher, Tsz Ching (Emilie) Wong,"
+    },
+    {
+      "id": "l040",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        170,
+        1134,
+        1323,
+        1165
+      ],
+      "left": 170,
+      "top": 1134,
+      "right": 1323,
+      "bottom": 1165,
+      "width": 1153,
+      "height": 31,
+      "confidence": 92.241,
+      "text": "Au8erdem blicken wir zusammen in eine Zukunft, die so einiges zu bieten hat."
+    },
+    {
+      "id": "l041",
+      "blockNumber": 36,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        1489,
+        1155,
+        2110,
+        1186
+      ],
+      "left": 1489,
+      "top": 1155,
+      "right": 2110,
+      "bottom": 1186,
+      "width": 621,
+      "height": 31,
+      "confidence": 93.579,
+      "text": "Anja Butter, Holga Wende, Ayhan Sarikaya,"
+    },
+    {
+      "id": "l042",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        170,
+        1176,
+        1345,
+        1207
+      ],
+      "left": 170,
+      "top": 1176,
+      "right": 1345,
+      "bottom": 1207,
+      "width": 1175,
+      "height": 31,
+      "confidence": 87.358,
+      "text": "Wenn wir erstmal die Weltherrschaft Ubernommen haben, gibt‘'s Schokolade fur"
+    },
+    {
+      "id": "l043",
+      "blockNumber": 36,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        1490,
+        1197,
+        2033,
+        1228
+      ],
+      "left": 1490,
+      "top": 1197,
+      "right": 2033,
+      "bottom": 1228,
+      "width": 543,
+      "height": 31,
+      "confidence": 94.549,
+      "text": "Peter Imhoff, Paris Hilton, George W.,"
+    },
+    {
+      "id": "l044",
+      "blockNumber": 21,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        171,
+        1220,
+        229,
+        1244
+      ],
+      "left": 171,
+      "top": 1220,
+      "right": 229,
+      "bottom": 1244,
+      "width": 58,
+      "height": 24,
+      "confidence": 96.283,
+      "text": "alle."
+    },
+    {
+      "id": "l045",
+      "blockNumber": 36,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        1491,
+        1238,
+        1802,
+        1262
+      ],
+      "left": 1491,
+      "top": 1238,
+      "right": 1802,
+      "bottom": 1262,
+      "width": 311,
+      "height": 24,
+      "confidence": 96.266,
+      "text": "Michael Schumacher."
+    },
+    {
+      "id": "l046",
+      "blockNumber": 22,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        172,
+        1304,
+        267,
+        1332
+      ],
+      "left": 172,
+      "top": 1304,
+      "right": 267,
+      "bottom": 1332,
+      "width": 95,
+      "height": 28,
+      "confidence": 96.475,
+      "text": "Peace,"
+    },
+    {
+      "id": "l047",
+      "blockNumber": 37,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1491,
+        1325,
+        1692,
+        1355
+      ],
+      "left": 1491,
+      "top": 1325,
+      "right": 1692,
+      "bottom": 1355,
+      "width": 201,
+      "height": 30,
+      "confidence": 96.671,
+      "text": "Production"
+    },
+    {
+      "id": "l048",
+      "blockNumber": 22,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        172,
+        1346,
+        318,
+        1370
+      ],
+      "left": 172,
+      "top": 1346,
+      "right": 318,
+      "bottom": 1370,
+      "width": 146,
+      "height": 24,
+      "confidence": 91.738,
+      "text": "Nelson M."
+    },
+    {
+      "id": "l049",
+      "blockNumber": 37,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1489,
+        1377,
+        1754,
+        1407
+      ],
+      "left": 1489,
+      "top": 1377,
+      "right": 1754,
+      "bottom": 1407,
+      "width": 265,
+      "height": 30,
+      "confidence": 95.987,
+      "text": "Graphic Designer"
+    },
+    {
+      "id": "l050",
+      "blockNumber": 38,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1491,
+        1419,
+        1820,
+        1447
+      ],
+      "left": 1491,
+      "top": 1419,
+      "right": 1820,
+      "bottom": 1447,
+      "width": 329,
+      "height": 28,
+      "confidence": 88.627,
+      "text": "Emin ,,Einstein“ Mahrt"
+    },
+    {
+      "id": "l051",
+      "blockNumber": 38,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1491,
+        1460,
+        2056,
+        1488
+      ],
+      "left": 1491,
+      "top": 1460,
+      "right": 2056,
+      "bottom": 1488,
+      "width": 565,
+      "height": 28,
+      "confidence": 89.155,
+      "text": "Richard ,,Nelson Mandela“ Kirschstein"
+    },
+    {
+      "id": "l052",
+      "blockNumber": 39,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1490,
+        1533,
+        1682,
+        1564
+      ],
+      "left": 1490,
+      "top": 1533,
+      "right": 1682,
+      "bottom": 1564,
+      "width": 192,
+      "height": 31,
+      "confidence": 96.203,
+      "text": "Photography"
+    },
+    {
+      "id": "l053",
+      "blockNumber": 39,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1491,
+        1574,
+        1820,
+        1601
+      ],
+      "left": 1491,
+      "top": 1574,
+      "right": 1820,
+      "bottom": 1601,
+      "width": 329,
+      "height": 27,
+      "confidence": 78.535,
+      "text": "Emin ,,Einstein“ Mahrt"
+    },
+    {
+      "id": "l054",
+      "blockNumber": 23,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        812,
+        1607,
+        1302,
+        1637
+      ],
+      "left": 812,
+      "top": 1607,
+      "right": 1302,
+      "bottom": 1637,
+      "width": 490,
+      "height": 30,
+      "confidence": 94.765,
+      "text": "Wenn nicht alle Advertising- und"
+    },
+    {
+      "id": "l055",
+      "blockNumber": 39,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1491,
+        1616,
+        2056,
+        1644
+      ],
+      "left": 1491,
+      "top": 1616,
+      "right": 2056,
+      "bottom": 1644,
+      "width": 565,
+      "height": 28,
+      "confidence": 91.051,
+      "text": "Richard ,,Nelson Mandela“ Kirschstein"
+    },
+    {
+      "id": "l056",
+      "blockNumber": 23,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        814,
+        1649,
+        1230,
+        1673
+      ],
+      "left": 814,
+      "top": 1649,
+      "right": 1230,
+      "bottom": 1673,
+      "width": 416,
+      "height": 24,
+      "confidence": 94.598,
+      "text": "Editorialmaterialien bis zum"
+    },
+    {
+      "id": "l057",
+      "blockNumber": 23,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        813,
+        1689,
+        1369,
+        1718
+      ],
+      "left": 813,
+      "top": 1689,
+      "right": 1369,
+      "bottom": 1718,
+      "width": 556,
+      "height": 29,
+      "confidence": 96.465,
+      "text": "21. November bei uns sind, schicken"
+    },
+    {
+      "id": "l058",
+      "blockNumber": 40,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1489,
+        1704,
+        1993,
+        1740
+      ],
+      "left": 1489,
+      "top": 1704,
+      "right": 1993,
+      "bottom": 1740,
+      "width": 504,
+      "height": 36,
+      "confidence": 96.451,
+      "text": "Advertising and Marketing"
+    },
+    {
+      "id": "l059",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        812,
+        1731,
+        1003,
+        1756
+      ],
+      "left": 812,
+      "top": 1731,
+      "right": 1003,
+      "bottom": 1756,
+      "width": 191,
+      "height": 25,
+      "confidence": 95.895,
+      "text": "wir Lee los..."
+    },
+    {
+      "id": "l060",
+      "blockNumber": 40,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1489,
+        1754,
+        1812,
+        1784
+      ],
+      "left": 1489,
+      "top": 1754,
+      "right": 1812,
+      "bottom": 1784,
+      "width": 323,
+      "height": 30,
+      "confidence": 95.767,
+      "text": "Advertising Manager"
+    },
+    {
+      "id": "l061",
+      "blockNumber": 40,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1491,
+        1796,
+        2056,
+        1824
+      ],
+      "left": 1491,
+      "top": 1796,
+      "right": 2056,
+      "bottom": 1824,
+      "width": 565,
+      "height": 28,
+      "confidence": 86.26,
+      "text": "Richard ,,Nelson Mandela“ Kirschstein"
+    },
+    {
+      "id": "l062",
+      "blockNumber": 40,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        1491,
+        1838,
+        1887,
+        1868
+      ],
+      "left": 1491,
+      "top": 1838,
+      "right": 1887,
+      "bottom": 1868,
+      "width": 396,
+      "height": 30,
+      "confidence": 90.954,
+      "text": "richard@proudmagazine.de"
+    },
+    {
+      "id": "l063",
+      "blockNumber": 40,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        1491,
+        1880,
+        1820,
+        1907
+      ],
+      "left": 1491,
+      "top": 1880,
+      "right": 1820,
+      "bottom": 1907,
+      "width": 329,
+      "height": 27,
+      "confidence": 84.989,
+      "text": "Emin ,,Einstein“ Mahrt"
+    },
+    {
+      "id": "l064",
+      "blockNumber": 40,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        1490,
+        1921,
+        1859,
+        1951
+      ],
+      "left": 1490,
+      "top": 1921,
+      "right": 1859,
+      "bottom": 1951,
+      "width": 369,
+      "height": 30,
+      "confidence": 91.705,
+      "text": "emin@proudmagazine.de"
+    },
+    {
+      "id": "l065",
+      "blockNumber": 41,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1489,
+        2108,
+        2060,
+        2136
+      ],
+      "left": 1489,
+      "top": 2108,
+      "right": 2060,
+      "bottom": 2136,
+      "width": 571,
+      "height": 28,
+      "confidence": 94.191,
+      "text": "Ja, die Mitarbeiterliste ist ein bisschen"
+    },
+    {
+      "id": "l066",
+      "blockNumber": 41,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1491,
+        2149,
+        2060,
+        2179
+      ],
+      "left": 1491,
+      "top": 2149,
+      "right": 2060,
+      "bottom": 2179,
+      "width": 569,
+      "height": 30,
+      "confidence": 94.717,
+      "text": "monoton und ja, wir haben den ganzen"
+    },
+    {
+      "id": "l067",
+      "blockNumber": 41,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1491,
+        2191,
+        2100,
+        2221
+      ],
+      "left": 1491,
+      "top": 2191,
+      "right": 2100,
+      "bottom": 2221,
+      "width": 609,
+      "height": 30,
+      "confidence": 94.422,
+      "text": "lieben langen Tag nichts besseres zu tun."
+    },
+    {
+      "id": "l068",
+      "blockNumber": 26,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        813,
+        2248,
+        1357,
+        2293
+      ],
+      "left": 813,
+      "top": 2248,
+      "right": 1357,
+      "bottom": 2293,
+      "width": 544,
+      "height": 45,
+      "confidence": 88.749,
+      "text": "Auch ,,Booze“ Lee liest"
+    },
+    {
+      "id": "l069",
+      "blockNumber": 42,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1456,
+        2255,
+        1973,
+        2273
+      ],
+      "left": 1456,
+      "top": 2255,
+      "right": 1973,
+      "bottom": 2273,
+      "width": 517,
+      "height": 18,
+      "confidence": 93.525,
+      "text": "MEET THE TEAM: EMIN “EINSTEIN” MAHRT"
+    },
+    {
+      "id": "l070",
+      "blockNumber": 26,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        812,
+        2310,
+        1227,
+        2363
+      ],
+      "left": 812,
+      "top": 2310,
+      "right": 1227,
+      "bottom": 2363,
+      "width": 415,
+      "height": 53,
+      "confidence": 94.537,
+      "text": "proud und liebt es!"
+    },
+    {
+      "id": "l071",
+      "blockNumber": 43,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1868,
+        2405,
+        2055,
+        2428
+      ],
+      "left": 1868,
+      "top": 2405,
+      "right": 2055,
+      "bottom": 2428,
+      "width": 187,
+      "height": 23,
+      "confidence": 94.685,
+      "text": "BRUDER UNTER"
+    },
+    {
+      "id": "l072",
+      "blockNumber": 27,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        166,
+        2416,
+        345,
+        2499
+      ],
+      "left": 166,
+      "top": 2416,
+      "right": 345,
+      "bottom": 2499,
+      "width": 179,
+      "height": 83,
+      "confidence": 96.27,
+      "text": "proud"
+    },
+    {
+      "id": "l073",
+      "blockNumber": 43,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1938,
+        2438,
+        1994,
+        2456
+      ],
+      "left": 1938,
+      "top": 2438,
+      "right": 1994,
+      "bottom": 2456,
+      "width": 56,
+      "height": 18,
+      "confidence": 96.617,
+      "text": "SICH"
+    },
+    {
+      "id": "l074",
+      "blockNumber": 28,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        167,
+        2518,
+        985,
+        2535
+      ],
+      "left": 167,
+      "top": 2518,
+      "right": 985,
+      "bottom": 2535,
+      "width": 818,
+      "height": 17,
+      "confidence": 93.895,
+      "text": "ist eine freie, monatliche Publikation von Orang-Utan-Fans, darf nicht ohne das"
+    },
+    {
+      "id": "l075",
+      "blockNumber": 45,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1106,
+        2519,
+        1422,
+        2535
+      ],
+      "left": 1106,
+      "top": 2519,
+      "right": 1422,
+      "bottom": 2535,
+      "width": 316,
+      "height": 16,
+      "confidence": 95.383,
+      "text": "Alle Artikel die bei publiziert"
+    },
+    {
+      "id": "l076",
+      "blockNumber": 28,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        167,
+        2540,
+        1055,
+        2557
+      ],
+      "left": 167,
+      "top": 2540,
+      "right": 1055,
+      "bottom": 2557,
+      "width": 888,
+      "height": 17,
+      "confidence": 91.585,
+      "text": "Tee mit erhohtem Vitamin C Gehalt Liebhabern und legendaren Einverstandnis von Richard Kirschstein"
+    },
+    {
+      "id": "l077",
+      "blockNumber": 45,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1106,
+        2545,
+        1416,
+        2561
+      ],
+      "left": 1106,
+      "top": 2545,
+      "right": 1416,
+      "bottom": 2561,
+      "width": 310,
+      "height": 16,
+      "confidence": 95.212,
+      "text": "werden, entsprechen nur der Meinung"
+    },
+    {
+      "id": "l078",
+      "blockNumber": 28,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        167,
+        2564,
+        1018,
+        2582
+      ],
+      "left": 167,
+      "top": 2564,
+      "right": 1018,
+      "bottom": 2582,
+      "width": 851,
+      "height": 18,
+      "confidence": 92.567,
+      "text": "Profis aller Fachgebiete. oder Emin Mahrt oder den Leuten,"
+    },
+    {
+      "id": "l079",
+      "blockNumber": 45,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1106,
+        2571,
+        1199,
+        2584
+      ],
+      "left": 1106,
+      "top": 2571,
+      "right": 1199,
+      "bottom": 2584,
+      "width": 93,
+      "height": 13,
+      "confidence": 95.03,
+      "text": "der Autoren."
+    },
+    {
+      "id": "l080",
+      "blockNumber": 28,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        737,
+        2593,
+        998,
+        2609
+      ],
+      "left": 737,
+      "top": 2593,
+      "right": 998,
+      "bottom": 2609,
+      "width": 261,
+      "height": 16,
+      "confidence": 93.949,
+      "text": "die deren Unterschriften perfekt"
+    },
+    {
+      "id": "l081",
+      "blockNumber": 45,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1106,
+        2594,
+        1396,
+        2610
+      ],
+      "left": 1106,
+      "top": 2594,
+      "right": 1396,
+      "bottom": 2610,
+      "width": 290,
+      "height": 16,
+      "confidence": 83.867,
+      "text": "Diese miissen nicht intelligent oder"
+    },
+    {
+      "id": "l082",
+      "blockNumber": 28,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        737,
+        2618,
+        1032,
+        2632
+      ],
+      "left": 737,
+      "top": 2618,
+      "right": 1032,
+      "bottom": 2632,
+      "width": 295,
+      "height": 14,
+      "confidence": 59.162,
+      "text": "faischen konnen, verkauft, verlienen"
+    },
+    {
+      "id": "l083",
+      "blockNumber": 45,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        1106,
+        2620,
+        1364,
+        2636
+      ],
+      "left": 1106,
+      "top": 2620,
+      "right": 1364,
+      "bottom": 2636,
+      "width": 258,
+      "height": 16,
+      "confidence": 94.907,
+      "text": "richtig oder gut durchdacht sein."
+    },
+    {
+      "id": "l084",
+      "blockNumber": 28,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        737,
+        2644,
+        1040,
+        2660
+      ],
+      "left": 737,
+      "top": 2644,
+      "right": 1040,
+      "bottom": 2660,
+      "width": 303,
+      "height": 16,
+      "confidence": 93.778,
+      "text": "oder geknickt werden. Man darf auch"
+    },
+    {
+      "id": "l085",
+      "blockNumber": 45,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        1105,
+        2646,
+        1401,
+        2659
+      ],
+      "left": 1105,
+      "top": 2646,
+      "right": 1401,
+      "bottom": 2659,
+      "width": 296,
+      "height": 13,
+      "confidence": 96.101,
+      "text": "Wir haben sie noch nicht mal immer"
+    },
+    {
+      "id": "l086",
+      "blockNumber": 29,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        162,
+        2655,
+        1051,
+        2700
+      ],
+      "left": 162,
+      "top": 2655,
+      "right": 1051,
+      "bottom": 2700,
+      "width": 889,
+      "height": 45,
+      "confidence": 95.554,
+      "text": "proud GbR nicht alles, was wir schreiben so emst"
+    },
+    {
+      "id": "l087",
+      "blockNumber": 45,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        1105,
+        2672,
+        1173,
+        2686
+      ],
+      "left": 1105,
+      "top": 2672,
+      "right": 1173,
+      "bottom": 2686,
+      "width": 68,
+      "height": 14,
+      "confidence": 96.408,
+      "text": "gelesen."
+    },
+    {
+      "id": "l088",
+      "blockNumber": 29,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        737,
+        2693,
+        1009,
+        2710
+      ],
+      "left": 737,
+      "top": 2693,
+      "right": 1009,
+      "bottom": 2710,
+      "width": 272,
+      "height": 17,
+      "confidence": 83.394,
+      "text": "nehmen und sich beleidigt filhlen."
+    },
+    {
+      "id": "l089",
+      "blockNumber": 45,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        1106,
+        2695,
+        1364,
+        2708
+      ],
+      "left": 1106,
+      "top": 2695,
+      "right": 1364,
+      "bottom": 2708,
+      "width": 258,
+      "height": 13,
+      "confidence": 96.907,
+      "text": "Es kann also auch was nicht so"
+    },
+    {
+      "id": "l090",
+      "blockNumber": 29,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        168,
+        2701,
+        1046,
+        2739
+      ],
+      "left": 168,
+      "top": 2701,
+      "right": 1046,
+      "bottom": 2739,
+      "width": 878,
+      "height": 38,
+      "confidence": 78.028,
+      "text": "Naunynstra8e Zt Wir wollen eigentlich selten jemanden"
+    },
+    {
+      "id": "l091",
+      "blockNumber": 45,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        1106,
+        2721,
+        1308,
+        2734
+      ],
+      "left": 1106,
+      "top": 2721,
+      "right": 1308,
+      "bottom": 2734,
+      "width": 202,
+      "height": 13,
+      "confidence": 88.842,
+      "text": "Interessantes dabei sein"
+    },
+    {
+      "id": "l092",
+      "blockNumber": 46,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1804,
+        2728,
+        1983,
+        2743
+      ],
+      "left": 1804,
+      "top": 2728,
+      "right": 1983,
+      "bottom": 2743,
+      "width": 179,
+      "height": 15,
+      "confidence": 90.456,
+      "text": "LIEBLINGSAUSRUF:"
+    },
+    {
+      "id": "l093",
+      "blockNumber": 29,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        738,
+        2743,
+        1050,
+        2759
+      ],
+      "left": 738,
+      "top": 2743,
+      "right": 1050,
+      "bottom": 2759,
+      "width": 312,
+      "height": 16,
+      "confidence": 83.289,
+      "text": "persénlich beleidigen, wobei dies aber"
+    },
+    {
+      "id": "l094",
+      "blockNumber": 45,
+      "paragraphNumber": 5,
+      "lineNumber": 1,
+      "bbox": [
+        1106,
+        2744,
+        1375,
+        2758
+      ],
+      "left": 1106,
+      "top": 2744,
+      "right": 1375,
+      "bottom": 2758,
+      "width": 269,
+      "height": 14,
+      "confidence": 93.208,
+      "text": "Dafiir machen wir dann auch mal"
+    },
+    {
+      "id": "l095",
+      "blockNumber": 29,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        168,
+        2747,
+        958,
+        2782
+      ],
+      "left": 168,
+      "top": 2747,
+      "right": 958,
+      "bottom": 2782,
+      "width": 790,
+      "height": 35,
+      "confidence": 93.923,
+      "text": "10997 Berlin auch mal vorkommen kann."
+    },
+    {
+      "id": "l096",
+      "blockNumber": 46,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1833,
+        2754,
+        1890,
+        2768
+      ],
+      "left": 1833,
+      "top": 2754,
+      "right": 1890,
+      "bottom": 2768,
+      "width": 57,
+      "height": 14,
+      "confidence": 87.768,
+      "text": "ALTER!"
+    },
+    {
+      "id": "l097",
+      "blockNumber": 45,
+      "paragraphNumber": 5,
+      "lineNumber": 2,
+      "bbox": [
+        1106,
+        2770,
+        1379,
+        2783
+      ],
+      "left": 1106,
+      "top": 2770,
+      "right": 1379,
+      "bottom": 2783,
+      "width": 273,
+      "height": 13,
+      "confidence": 95.451,
+      "text": "wieder eine coole Seite. Wenn ihr"
+    },
+    {
+      "id": "l098",
+      "blockNumber": 29,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        166,
+        2789,
+        499,
+        2813
+      ],
+      "left": 166,
+      "top": 2789,
+      "right": 499,
+      "bottom": 2813,
+      "width": 333,
+      "height": 24,
+      "confidence": 95.555,
+      "text": "T +49 30 521 36 881"
+    },
+    {
+      "id": "l099",
+      "blockNumber": 30,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        738,
+        2794,
+        1005,
+        2810
+      ],
+      "left": 738,
+      "top": 2794,
+      "right": 1005,
+      "bottom": 2810,
+      "width": 267,
+      "height": 16,
+      "confidence": 91.721,
+      "text": "Das passiert insbesondere dann"
+    },
+    {
+      "id": "l100",
+      "blockNumber": 45,
+      "paragraphNumber": 6,
+      "lineNumber": 1,
+      "bbox": [
+        1106,
+        2795,
+        1406,
+        2809
+      ],
+      "left": 1106,
+      "top": 2795,
+      "right": 1406,
+      "bottom": 2809,
+      "width": 300,
+      "height": 14,
+      "confidence": 86.993,
+      "text": "uns ne Grafik kiaut, holen wir unsere"
+    },
+    {
+      "id": "l101",
+      "blockNumber": 47,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1453,
+        2805,
+        1614,
+        2819
+      ],
+      "left": 1453,
+      "top": 2805,
+      "right": 1614,
+      "bottom": 2819,
+      "width": 161,
+      "height": 14,
+      "confidence": 91.849,
+      "text": "LIEBLINGSSTADT:"
+    },
+    {
+      "id": "l102",
+      "blockNumber": 48,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1805,
+        2805,
+        2033,
+        2819
+      ],
+      "left": 1805,
+      "top": 2805,
+      "right": 2033,
+      "bottom": 2819,
+      "width": 228,
+      "height": 14,
+      "confidence": 91.501,
+      "text": "LIEBLINGSSEXPOSITION:"
+    },
+    {
+      "id": "l103",
+      "blockNumber": 31,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        737,
+        2819,
+        1030,
+        2836
+      ],
+      "left": 737,
+      "top": 2819,
+      "right": 1030,
+      "bottom": 2836,
+      "width": 293,
+      "height": 17,
+      "confidence": 93.802,
+      "text": "haufiger, wenn die beleidigte Person"
+    },
+    {
+      "id": "l104",
+      "blockNumber": 45,
+      "paragraphNumber": 6,
+      "lineNumber": 2,
+      "bbox": [
+        1106,
+        2819,
+        1383,
+        2836
+      ],
+      "left": 1106,
+      "top": 2819,
+      "right": 1383,
+      "bottom": 2836,
+      "width": 277,
+      "height": 17,
+      "confidence": 80.798,
+      "text": "Freunde und ihr misst wegrennen."
+    },
+    {
+      "id": "l105",
+      "blockNumber": 47,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1463,
+        2829,
+        1597,
+        2843
+      ],
+      "left": 1463,
+      "top": 2829,
+      "right": 1597,
+      "bottom": 2843,
+      "width": 134,
+      "height": 14,
+      "confidence": 92.849,
+      "text": "Berlin & Konsta"
+    },
+    {
+      "id": "l106",
+      "blockNumber": 29,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        168,
+        2831,
+        530,
+        2862
+      ],
+      "left": 168,
+      "top": 2831,
+      "right": 530,
+      "bottom": 2862,
+      "width": 362,
+      "height": 31,
+      "confidence": 87.847,
+      "text": "E hq@proudmagazine.de"
+    },
+    {
+      "id": "l107",
+      "blockNumber": 31,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        737,
+        2843,
+        932,
+        2857
+      ],
+      "left": 737,
+      "top": 2843,
+      "right": 932,
+      "bottom": 2857,
+      "width": 195,
+      "height": 14,
+      "confidence": 94.896,
+      "text": "nicht aus Berlin stammt"
+    },
+    {
+      "id": "l108",
+      "blockNumber": 45,
+      "paragraphNumber": 6,
+      "lineNumber": 3,
+      "bbox": [
+        1106,
+        2844,
+        1309,
+        2860
+      ],
+      "left": 1106,
+      "top": 2844,
+      "right": 1309,
+      "bottom": 2860,
+      "width": 203,
+      "height": 16,
+      "confidence": 94.913,
+      "text": "Ansonsten ist alles roger."
+    },
+    {
+      "id": "l109",
+      "blockNumber": 49,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1823,
+        2874,
+        2106,
+        2898
+      ],
+      "left": 1823,
+      "top": 2874,
+      "right": 2106,
+      "bottom": 2898,
+      "width": 283,
+      "height": 24,
+      "confidence": 92.27,
+      "text": "www.proudmagazine.de"
+    }
+  ]
+}

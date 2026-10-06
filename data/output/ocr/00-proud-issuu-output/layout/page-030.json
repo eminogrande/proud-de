@@ -1,0 +1,67 @@
+{
+  "scale": 2.0,
+  "imageWidth": 4478,
+  "imageHeight": 3002,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2888,
+        285,
+        3388,
+        376
+      ],
+      "left": 2888,
+      "top": 285,
+      "right": 3388,
+      "bottom": 376,
+      "width": 500,
+      "height": 91,
+      "confidence": 96.72,
+      "text": "weekend"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2343,
+        445,
+        3388,
+        562
+      ],
+      "left": 2343,
+      "top": 445,
+      "right": 3388,
+      "bottom": 562,
+      "width": 1045,
+      "height": 117,
+      "confidence": 68.408,
+      "text": "fe (dvarious places"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3375,
+        1897,
+        4121,
+        2092
+      ],
+      "left": 3375,
+      "top": 1897,
+      "right": 4121,
+      "bottom": 2092,
+      "width": 746,
+      "height": 195,
+      "confidence": 64.688,
+      "text": "ee gate"
+    }
+  ]
+}

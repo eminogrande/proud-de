@@ -1,0 +1,2427 @@
+{
+  "scale": 2.0,
+  "imageWidth": 4478,
+  "imageHeight": 3002,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        4195,
+        0,
+        4199,
+        35
+      ],
+      "left": 4195,
+      "top": 0,
+      "right": 4199,
+      "bottom": 35,
+      "width": 4,
+      "height": 35,
+      "confidence": 89.393,
+      "text": "|"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        4085,
+        60,
+        4397,
+        127
+      ],
+      "left": 4085,
+      "top": 60,
+      "right": 4397,
+      "bottom": 127,
+      "width": 312,
+      "height": 67,
+      "confidence": 96.725,
+      "text": "fashion flash"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        517,
+        163,
+        1471,
+        194
+      ],
+      "left": 517,
+      "top": 163,
+      "right": 1471,
+      "bottom": 194,
+      "width": 954,
+      "height": 31,
+      "confidence": 93.028,
+      "text": "Die japanische Nagi Noda toupiert und kammt"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        516,
+        206,
+        1331,
+        237
+      ],
+      "left": 516,
+      "top": 206,
+      "right": 1331,
+      "bottom": 237,
+      "width": 815,
+      "height": 31,
+      "confidence": 93.072,
+      "text": "diese haarigen Kunstwerke. Nago ist eine renommierte"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        515,
+        248,
+        1454,
+        278
+      ],
+      "left": 515,
+      "top": 248,
+      "right": 1454,
+      "bottom": 278,
+      "width": 939,
+      "height": 30,
+      "confidence": 95.18,
+      "text": "Video-Regisseurin aus Japan und hat u.a. schon mit Jack White"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3638,
+        264,
+        4207,
+        302
+      ],
+      "left": 3638,
+      "top": 264,
+      "right": 4207,
+      "bottom": 302,
+      "width": 569,
+      "height": 38,
+      "confidence": 73.474,
+      "text": "‘ Tsumori Chisato, die Kénigin des"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        515,
+        290,
+        1451,
+        322
+      ],
+      "left": 515,
+      "top": 290,
+      "right": 1451,
+      "bottom": 322,
+      "width": 936,
+      "height": 32,
+      "confidence": 93.701,
+      "text": "von The White Stripes, fur Coca Cola und Panasonic gearbeitet."
+    },
+    {
+      "id": "l008",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2398,
+        308,
+        4207,
+        345
+      ],
+      "left": 2398,
+      "top": 308,
+      "right": 4207,
+      "bottom": 345,
+      "width": 1809,
+      "height": 37,
+      "confidence": 81.582,
+      "text": "mm.. ja. Ic’ Designen von I-Shirts kann man »kawaii“ (Japanisch: si8), behalt"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        517,
+        333,
+        1478,
+        363
+      ],
+      "left": 517,
+      "top": 333,
+      "right": 1478,
+      "bottom": 363,
+      "width": 961,
+      "height": 30,
+      "confidence": 95.737,
+      "text": "Eines ihrer Projekte sind die Hair Hats. Der Pariser Konzept-Store"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2361,
+        350,
+        4193,
+        388
+      ],
+      "left": 2361,
+      "top": 350,
+      "right": 4193,
+      "bottom": 388,
+      "width": 1832,
+      "height": 38,
+      "confidence": 89.175,
+      "text": "Setrost mal ausprobieren... um die Fabrikate dann seinen { die Stimmung des erwachsenen"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        516,
+        375,
+        1220,
+        399
+      ],
+      "left": 516,
+      "top": 375,
+      "right": 1220,
+      "bottom": 399,
+      "width": 704,
+      "height": 24,
+      "confidence": 96.357,
+      "text": "Colette stellt diese vom 30. Juni bis 5. Juli aus."
+    },
+    {
+      "id": "l012",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        2410,
+        393,
+        4160,
+        423
+      ],
+      "left": 2410,
+      "top": 393,
+      "right": 4160,
+      "bottom": 423,
+      "width": 1750,
+      "height": 30,
+      "confidence": 88.385,
+      "text": "i i i / \\ Madchens auch in ihrer 2008"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 6,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        515,
+        416,
+        1407,
+        445
+      ],
+      "left": 515,
+      "top": 416,
+      "right": 1407,
+      "bottom": 445,
+      "width": 892,
+      "height": 29,
+      "confidence": 93.929,
+      "text": "Wer von euch also den Eifelturm besuchen fahrt, sollte auch"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        2361,
+        435,
+        4136,
+        468
+      ],
+      "left": 2361,
+      "top": 435,
+      "right": 4136,
+      "bottom": 468,
+      "width": 1775,
+      "height": 33,
+      "confidence": 76.049,
+      "text": "machen... Aber die Rutli-Mode-Kollektion verursacht wirklich ~ “he Herbst-Winter-Kollektion bei."
+    },
+    {
+      "id": "l015",
+      "blockNumber": 6,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        441,
+        460,
+        1014,
+        497
+      ],
+      "left": 441,
+      "top": 460,
+      "right": 1014,
+      "bottom": 497,
+      "width": 573,
+      "height": 37,
+      "confidence": 83.899,
+      "text": "\\ definitiv einen Abstecher machen."
+    },
+    {
+      "id": "l016",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        2365,
+        473,
+        4199,
+        514
+      ],
+      "left": 2365,
+      "top": 473,
+      "right": 4199,
+      "bottom": 514,
+      "width": 1834,
+      "height": 41,
+      "confidence": 92.678,
+      "text": "Augenkrebs. Ich habe mich selten so derart unangenehm und — Es ist keine Uberraschung, dass"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 6,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        441,
+        499,
+        867,
+        533
+      ],
+      "left": 441,
+      "top": 499,
+      "right": 867,
+      "bottom": 533,
+      "width": 426,
+      "height": 34,
+      "confidence": 48.515,
+      "text": "’ www.uchu-country.com"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        2360,
+        519,
+        4222,
+        551
+      ],
+      "left": 2360,
+      "top": 519,
+      "right": 4222,
+      "bottom": 551,
+      "width": 1862,
+      "height": 32,
+      "confidence": 85.721,
+      "text": "lbeschamt gefuhit wie bei dem Anblick eines dieser Dinger. = diese mit marchenhaften Mustern"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2361,
+        562,
+        4162,
+        599
+      ],
+      "left": 2361,
+      "top": 562,
+      "right": 4162,
+      "bottom": 599,
+      "width": 1801,
+      "height": 37,
+      "confidence": 84.587,
+      "text": "Mein Tipp lautet, all euer Geld fur diese Shirts auszugeben und ae gefillt ist und dem Betrachter"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        145,
+        572,
+        4252,
+        676
+      ],
+      "left": 145,
+      "top": 572,
+      "right": 4252,
+      "bottom": 676,
+      "width": 4107,
+      "height": 104,
+      "confidence": 86.293,
+      "text": "Mm | a U W U ff U ks f diese dann augenblicklich und ohne zu z6gern zu verbrennen. farbenfroh wie buntes Hubba Bubba"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        270,
+        572,
+        1856,
+        590
+      ],
+      "left": 270,
+      "top": 572,
+      "right": 1856,
+      "bottom": 590,
+      "width": 1586,
+      "height": 18,
+      "confidence": 77.793,
+      "text": "a ' |"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2361,
+        647,
+        4081,
+        678
+      ],
+      "left": 2361,
+      "top": 647,
+      "right": 4081,
+      "bottom": 678,
+      "width": 1720,
+      "height": 31,
+      "confidence": 86.97,
+      "text": "Danke. Kopf ab. Se den Atem raubt. Wie nur"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3721,
+        696,
+        4264,
+        727
+      ],
+      "left": 3721,
+      "top": 696,
+      "right": 4264,
+      "bottom": 727,
+      "width": 543,
+      "height": 31,
+      "confidence": 92.411,
+      "text": "Tsumoris Fans diese Sachen hangen"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1377,
+        720,
+        1390,
+        778
+      ],
+      "left": 1377,
+      "top": 720,
+      "right": 1390,
+      "bottom": 778,
+      "width": 13,
+      "height": 58,
+      "confidence": 71.512,
+      "text": "Cappello"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3723,
+        738,
+        3827,
+        762
+      ],
+      "left": 3723,
+      "top": 738,
+      "right": 3827,
+      "bottom": 762,
+      "width": 104,
+      "height": 24,
+      "confidence": 96.225,
+      "text": "lassen."
+    },
+    {
+      "id": "l026",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        168,
+        741,
+        3078,
+        799
+      ],
+      "left": 168,
+      "top": 741,
+      "right": 3078,
+      "bottom": 799,
+      "width": 2910,
+      "height": 58,
+      "confidence": 87.582,
+      "text": "EX : Die Farbe des Sommers 2008"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        954,
+        774,
+        3098,
+        839
+      ],
+      "left": 954,
+      "top": 774,
+      "right": 3098,
+      "bottom": 839,
+      "width": 2144,
+      "height": 65,
+      "confidence": 77.051,
+      "text": "e N L ist laut der unschlagbaren, |"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 9,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        3721,
+        780,
+        4236,
+        805
+      ],
+      "left": 3721,
+      "top": 780,
+      "right": 4236,
+      "bottom": 805,
+      "width": 515,
+      "height": 25,
+      "confidence": 92.577,
+      "text": "Tsumori Chisato etabliert weiterhin"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        786,
+        810,
+        3064,
+        886
+      ],
+      "left": 786,
+      "top": 810,
+      "right": 3064,
+      "bottom": 886,
+      "width": 2278,
+      "height": 76,
+      "confidence": 74.232,
+      "text": "SS ry 72) nie einen Trend verfehlenden,"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 9,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        3722,
+        822,
+        4198,
+        850
+      ],
+      "left": 3722,
+      "top": 822,
+      "right": 4198,
+      "bottom": 850,
+      "width": 476,
+      "height": 28,
+      "confidence": 95.035,
+      "text": "die Leidenschaft von Frauen, die"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1508,
+        856,
+        1811,
+        962
+      ],
+      "left": 1508,
+      "top": 856,
+      "right": 1811,
+      "bottom": 962,
+      "width": 303,
+      "height": 106,
+      "confidence": 95.904,
+      "text": "hour"
+    },
+    {
+      "id": "l032",
+      "blockNumber": 9,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        3723,
+        866,
+        4179,
+        890
+      ],
+      "left": 3723,
+      "top": 866,
+      "right": 4179,
+      "bottom": 890,
+      "width": 456,
+      "height": 24,
+      "confidence": 94.38,
+      "text": "nicht erwachsen werden wollen"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 9,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        3698,
+        908,
+        4217,
+        944
+      ],
+      "left": 3698,
+      "top": 908,
+      "right": 4217,
+      "bottom": 944,
+      "width": 519,
+      "height": 36,
+      "confidence": 79.152,
+      "text": "h.und lieber in einem wundervollen,"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2630,
+        929,
+        2950,
+        959
+      ],
+      "left": 2630,
+      "top": 929,
+      "right": 2950,
+      "bottom": 959,
+      "width": 320,
+      "height": 30,
+      "confidence": 94.792,
+      "text": "geliebten Cosmo, ein"
+    },
+    {
+      "id": "l035",
+      "blockNumber": 9,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        3723,
+        949,
+        4142,
+        974
+      ],
+      "left": 3723,
+      "top": 949,
+      "right": 4142,
+      "bottom": 974,
+      "width": 419,
+      "height": 25,
+      "confidence": 94.445,
+      "text": "marchenhaften Traum leben."
+    },
+    {
+      "id": "l036",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1071,
+        962,
+        3103,
+        1023
+      ],
+      "left": 1071,
+      "top": 962,
+      "right": 3103,
+      "bottom": 1023,
+      "width": 2032,
+      "height": 61,
+      "confidence": 83.762,
+      "text": "Kate Moss weilte kirzlich in Berlin, um ihr neues, leider ; Be ‘ |"
+    },
+    {
+      "id": "l037",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2632,
+        964,
+        3128,
+        995
+      ],
+      "left": 2632,
+      "top": 964,
+      "right": 3128,
+      "bottom": 995,
+      "width": 496,
+      "height": 31,
+      "confidence": 70.777,
+      "text": "knalliges Lila... ‘"
+    },
+    {
+      "id": "l038",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1169,
+        1014,
+        3061,
+        1040
+      ],
+      "left": 1169,
+      "top": 1014,
+      "right": 3061,
+      "bottom": 1040,
+      "width": 1892,
+      "height": 26,
+      "confidence": 89.917,
+      "text": ". Direkt im Anschluss an einen"
+    },
+    {
+      "id": "l039",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        1069,
+        1037,
+        2968,
+        1068
+      ],
+      "left": 1069,
+      "top": 1037,
+      "right": 2968,
+      "bottom": 1068,
+      "width": 1899,
+      "height": 31,
+      "confidence": 80.231,
+      "text": "aber wieder einmal vollig untragbares, Parfum ak :"
+    },
+    {
+      "id": "l040",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        1533,
+        1054,
+        3098,
+        1100
+      ],
+      "left": 1533,
+      "top": 1054,
+      "right": 3098,
+      "bottom": 1100,
+      "width": 1565,
+      "height": 46,
+      "confidence": 79.78,
+      "text": ": kleinen Einfuhrungsartikel |"
+    },
+    {
+      "id": "l041",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3723,
+        1077,
+        4171,
+        1108
+      ],
+      "left": 3723,
+      "top": 1077,
+      "right": 4171,
+      "bottom": 1108,
+      "width": 448,
+      "height": 31,
+      "confidence": 94.399,
+      "text": "Fashion Designerin aus Japan."
+    },
+    {
+      "id": "l042",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        1072,
+        1079,
+        2658,
+        1106
+      ],
+      "left": 1072,
+      "top": 1079,
+      "right": 2658,
+      "bottom": 1106,
+      "width": 1586,
+      "height": 27,
+      "confidence": 86.085,
+      "text": "»Velvet Hour“ vorzustellen. Es riecht wie eine alte P"
+    },
+    {
+      "id": "l043",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        1626,
+        1098,
+        3027,
+        1124
+      ],
+      "left": 1626,
+      "top": 1098,
+      "right": 3027,
+      "bottom": 1124,
+      "width": 1401,
+      "height": 26,
+      "confidence": 76.706,
+      "text": ": es wird einem dann auch eine"
+    },
+    {
+      "id": "l044",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3722,
+        1119,
+        4229,
+        1150
+      ],
+      "left": 3722,
+      "top": 1119,
+      "right": 4229,
+      "bottom": 1150,
+      "width": 507,
+      "height": 31,
+      "confidence": 94.059,
+      "text": "Sie ging aufs Tokyo Bunka Fashion"
+    },
+    {
+      "id": "l045",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        1071,
+        1121,
+        2982,
+        1152
+      ],
+      "left": 1071,
+      "top": 1121,
+      "right": 2982,
+      "bottom": 1152,
+      "width": 1911,
+      "height": 31,
+      "confidence": 88.744,
+      "text": "Matratze aus dem Puff. Jetzt fragen sich einige :"
+    },
+    {
+      "id": "l046",
+      "blockNumber": 13,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1136,
+        1140,
+        3053,
+        1171
+      ],
+      "left": 1136,
+      "top": 1140,
+      "right": 3053,
+      "bottom": 1171,
+      "width": 1917,
+      "height": 31,
+      "confidence": 81.155,
+      "text": ". Kollektion vorgestellt mit der"
+    },
+    {
+      "id": "l047",
+      "blockNumber": 13,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        1070,
+        1146,
+        3098,
+        1192
+      ],
+      "left": 1070,
+      "top": 1146,
+      "right": 3098,
+      "bottom": 1192,
+      "width": 2028,
+      "height": 46,
+      "confidence": 83.369,
+      "text": "bestimmt, woher ich weif8, wie alte Matratze aus dem , |"
+    },
+    {
+      "id": "l048",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        3722,
+        1161,
+        4184,
+        1192
+      ],
+      "left": 3722,
+      "top": 1161,
+      "right": 4184,
+      "bottom": 1192,
+      "width": 462,
+      "height": 31,
+      "confidence": 94.884,
+      "text": "College und machte ihre ersten"
+    },
+    {
+      "id": "l049",
+      "blockNumber": 13,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        1070,
+        1184,
+        3028,
+        1231
+      ],
+      "left": 1070,
+      "top": 1184,
+      "right": 3028,
+      "bottom": 1231,
+      "width": 1958,
+      "height": 47,
+      "confidence": 93.267,
+      "text": "Puff riecht man aus dem Mainstream-"
+    },
+    {
+      "id": "l050",
+      "blockNumber": 13,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        1089,
+        1188,
+        2923,
+        1296
+      ],
+      "left": 1089,
+      "top": 1188,
+      "right": 2923,
+      "bottom": 1296,
+      "width": 1834,
+      "height": 108,
+      "confidence": 79.352,
+      "text": "nin = Trend wohl kéniglich"
+    },
+    {
+      "id": "l051",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        3723,
+        1203,
+        4171,
+        1234
+      ],
+      "left": 3723,
+      "top": 1203,
+      "right": 4171,
+      "bottom": 1234,
+      "width": 448,
+      "height": 31,
+      "confidence": 93.656,
+      "text": "professionellen Erfahrungen in"
+    },
+    {
+      "id": "l052",
+      "blockNumber": 18,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        218,
+        1230,
+        936,
+        1248
+      ],
+      "left": 218,
+      "top": 1230,
+      "right": 936,
+      "bottom": 1248,
+      "width": 718,
+      "height": 18,
+      "confidence": 54.047,
+      "text": "= ry"
+    },
+    {
+      "id": "l053",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1137,
+        1238,
+        3098,
+        1284
+      ],
+      "left": 1137,
+      "top": 1238,
+      "right": 3098,
+      "bottom": 1284,
+      "width": 1961,
+      "height": 46,
+      "confidence": 94.688,
+      "text": "ich aber nicht! Auch die Gasteliste bei der |"
+    },
+    {
+      "id": "l054",
+      "blockNumber": 15,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        3721,
+        1247,
+        4234,
+        1277
+      ],
+      "left": 3721,
+      "top": 1247,
+      "right": 4234,
+      "bottom": 1277,
+      "width": 513,
+      "height": 30,
+      "confidence": 93.639,
+      "text": "Zusammenarbeit mit Issey Miyake."
+    },
+    {
+      "id": "l055",
+      "blockNumber": 18,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        141,
+        1258,
+        3098,
+        1376
+      ],
+      "left": 141,
+      "top": 1258,
+      "right": 3098,
+      "bottom": 1376,
+      "width": 2957,
+      "height": 118,
+      "confidence": 78.055,
+      "text": "I [ C Ps | i i U Z enttauscht. Eine Party, auf der auch Hubertus Regout : ai |"
+    },
+    {
+      "id": "l056",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1089,
+        1268,
+        2919,
+        1315
+      ],
+      "left": 1089,
+      "top": 1268,
+      "right": 2919,
+      "bottom": 1315,
+      "width": 1830,
+      "height": 47,
+      "confidence": 88.014,
+      "text": "nschlieSenden Party im Watergate hat mich soll"
+    },
+    {
+      "id": "l057",
+      "blockNumber": 15,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        3723,
+        1289,
+        4332,
+        1320
+      ],
+      "left": 3723,
+      "top": 1289,
+      "right": 4332,
+      "bottom": 1320,
+      "width": 609,
+      "height": 31,
+      "confidence": 90.656,
+      "text": "Nach 13 Jahren begann sie mit der Xx"
+    },
+    {
+      "id": "l058",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1069,
+        1296,
+        3070,
+        1341
+      ],
+      "left": 1069,
+      "top": 1296,
+      "right": 3070,
+      "bottom": 1341,
+      "width": 2001,
+      "height": 45,
+      "confidence": 58.448,
+      "text": "a a DEE A Wir finden die Designerstucke"
+    },
+    {
+      "id": "l059",
+      "blockNumber": 15,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        3722,
+        1331,
+        4322,
+        1362
+      ],
+      "left": 3722,
+      "top": 1331,
+      "right": 4322,
+      "bottom": 1362,
+      "width": 600,
+      "height": 31,
+      "confidence": 84.691,
+      "text": "Produktion unter eigener Flagge. '"
+    },
+    {
+      "id": "l060",
+      "blockNumber": 15,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        3722,
+        1333,
+        4449,
+        1457
+      ],
+      "left": 3722,
+      "top": 1333,
+      "right": 4449,
+      "bottom": 1457,
+      "width": 727,
+      "height": 124,
+      "confidence": 89.305,
+      "text": "Seit der ersten Kollektion bleibt sie fe"
+    },
+    {
+      "id": "l061",
+      "blockNumber": 18,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2630,
+        1352,
+        2955,
+        1376
+      ],
+      "left": 2630,
+      "top": 1352,
+      "right": 2955,
+      "bottom": 1376,
+      "width": 325,
+      "height": 24,
+      "confidence": 93.788,
+      "text": "einfach nur langweilig."
+    },
+    {
+      "id": "l062",
+      "blockNumber": 18,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        705,
+        1355,
+        3017,
+        1424
+      ],
+      "left": 705,
+      "top": 1355,
+      "right": 3017,
+      "bottom": 1424,
+      "width": 2312,
+      "height": 69,
+      "confidence": 83.975,
+      "text": "acn seinem tanzt, ist eine S*#%&$-Party! Dachte sich auch Kate Die = ifs"
+    },
+    {
+      "id": "l063",
+      "blockNumber": 18,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        1071,
+        1417,
+        1864,
+        1449
+      ],
+      "left": 1071,
+      "top": 1417,
+      "right": 1864,
+      "bottom": 1449,
+      "width": 793,
+      "height": 32,
+      "confidence": 90.961,
+      "text": "Voss und blieb die ganze Zeit schon in der Nahe vom"
+    },
+    {
+      "id": "l064",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2631,
+        1437,
+        3053,
+        1468
+      ],
+      "left": 2631,
+      "top": 1437,
+      "right": 3053,
+      "bottom": 1468,
+      "width": 422,
+      "height": 31,
+      "confidence": 92.705,
+      "text": "Outfit belaufen sich Ubrigens"
+    },
+    {
+      "id": "l065",
+      "blockNumber": 15,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        3723,
+        1458,
+        4134,
+        1483
+      ],
+      "left": 3723,
+      "top": 1458,
+      "right": 4134,
+      "bottom": 1483,
+      "width": 411,
+      "height": 25,
+      "confidence": 89.98,
+      "text": "ihrer asthetischen Linie treu"
+    },
+    {
+      "id": "l066",
+      "blockNumber": 18,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        683,
+        1460,
+        1807,
+        1491
+      ],
+      "left": 683,
+      "top": 1460,
+      "right": 1807,
+      "bottom": 1491,
+      "width": 1124,
+      "height": 31,
+      "confidence": 94.434,
+      "text": "Richard Ruiz seine DJ-Pult. Da schienen ihr die einzig netten Leute zu"
+    },
+    {
+      "id": "l067",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1070,
+        1460,
+        2754,
+        1533
+      ],
+      "left": 1070,
+      "top": 1460,
+      "right": 2754,
+      "bottom": 1533,
+      "width": 1684,
+      "height": 73,
+      "confidence": 78.711,
+      "text": "sein: Queens of Noise, zwei schicke Damen mit gutem Y Bal Site"
+    },
+    {
+      "id": "l068",
+      "blockNumber": 15,
+      "paragraphNumber": 5,
+      "lineNumber": 1,
+      "bbox": [
+        3721,
+        1500,
+        4221,
+        1531
+      ],
+      "left": 3721,
+      "top": 1500,
+      "right": 4221,
+      "bottom": 1531,
+      "width": 500,
+      "height": 31,
+      "confidence": 93.177,
+      "text": "- fett bedruckt mit einer gesunden"
+    },
+    {
+      "id": "l069",
+      "blockNumber": 19,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        682,
+        1534,
+        1332,
+        1581
+      ],
+      "left": 682,
+      "top": 1534,
+      "right": 1332,
+      "bottom": 1581,
+      "width": 650,
+      "height": 47,
+      "confidence": 90.775,
+      "text": "auf den Markt. Musikgeschmack."
+    },
+    {
+      "id": "l070",
+      "blockNumber": 15,
+      "paragraphNumber": 6,
+      "lineNumber": 1,
+      "bbox": [
+        3723,
+        1542,
+        4418,
+        1581
+      ],
+      "left": 3723,
+      "top": 1542,
+      "right": 4418,
+      "bottom": 1581,
+      "width": 695,
+      "height": 39,
+      "confidence": 67.15,
+      "text": "Dosis an Manga-Niedlichkeit. Rae 2"
+    },
+    {
+      "id": "l071",
+      "blockNumber": 15,
+      "paragraphNumber": 6,
+      "lineNumber": 2,
+      "bbox": [
+        3722,
+        1584,
+        4229,
+        1613
+      ],
+      "left": 3722,
+      "top": 1584,
+      "right": 4229,
+      "bottom": 1613,
+      "width": 507,
+      "height": 29,
+      "confidence": 94.504,
+      "text": "Sterne, Monde, Sonnen, Blumen..."
+    },
+    {
+      "id": "l072",
+      "blockNumber": 19,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        683,
+        1588,
+        1024,
+        1617
+      ],
+      "left": 683,
+      "top": 1588,
+      "right": 1024,
+      "bottom": 1617,
+      "width": 341,
+      "height": 29,
+      "confidence": 94.002,
+      "text": "Der (noch) unbekannte"
+    },
+    {
+      "id": "l073",
+      "blockNumber": 15,
+      "paragraphNumber": 6,
+      "lineNumber": 3,
+      "bbox": [
+        3721,
+        1622,
+        4424,
+        1659
+      ],
+      "left": 3721,
+      "top": 1622,
+      "right": 4424,
+      "bottom": 1659,
+      "width": 703,
+      "height": 37,
+      "confidence": 90.652,
+      "text": "All diese marchenhaften Dinge a"
+    },
+    {
+      "id": "l074",
+      "blockNumber": 19,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        683,
+        1629,
+        1850,
+        1660
+      ],
+      "left": 683,
+      "top": 1629,
+      "right": 1850,
+      "bottom": 1660,
+      "width": 1167,
+      "height": 31,
+      "confidence": 94.084,
+      "text": "Designer machte sich Das Kleid von Kate Moss stammt Ubrigens nicht aus"
+    },
+    {
+      "id": "l075",
+      "blockNumber": 15,
+      "paragraphNumber": 6,
+      "lineNumber": 4,
+      "bbox": [
+        3721,
+        1670,
+        4000,
+        1694
+      ],
+      "left": 3721,
+      "top": 1670,
+      "right": 4000,
+      "bottom": 1694,
+      "width": 279,
+      "height": 24,
+      "confidence": 95.658,
+      "text": "finden sich in ihren"
+    },
+    {
+      "id": "l076",
+      "blockNumber": 19,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        1071,
+        1671,
+        1825,
+        1701
+      ],
+      "left": 1071,
+      "top": 1671,
+      "right": 1825,
+      "bottom": 1701,
+      "width": 754,
+      "height": 30,
+      "confidence": 90.583,
+      "text": "ihrer Topshop-Kollektion, sondern von Marc Jacobs."
+    },
+    {
+      "id": "l077",
+      "blockNumber": 16,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3723,
+        1712,
+        4393,
+        1741
+      ],
+      "left": 3723,
+      "top": 1712,
+      "right": 4393,
+      "bottom": 1741,
+      "width": 670,
+      "height": 29,
+      "confidence": 71.835,
+      "text": "immer wieder. ;"
+    },
+    {
+      "id": "l078",
+      "blockNumber": 19,
+      "paragraphNumber": 5,
+      "lineNumber": 1,
+      "bbox": [
+        682,
+        1715,
+        1897,
+        1746
+      ],
+      "left": 682,
+      "top": 1715,
+      "right": 1897,
+      "bottom": 1746,
+      "width": 1215,
+      "height": 31,
+      "confidence": 92.862,
+      "text": "als Stylist von Stars Bei mytheresa.com ist es gerade ,,reduziert“: von 4070"
+    },
+    {
+      "id": "l079",
+      "blockNumber": 16,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3723,
+        1747,
+        4413,
+        1789
+      ],
+      "left": 3723,
+      "top": 1747,
+      "right": 4413,
+      "bottom": 1789,
+      "width": 690,
+      "height": 42,
+      "confidence": 73.075,
+      "text": "Es ist unglaublich, wie eine © WH Pi?"
+    },
+    {
+      "id": "l080",
+      "blockNumber": 19,
+      "paragraphNumber": 5,
+      "lineNumber": 2,
+      "bbox": [
+        681,
+        1757,
+        1947,
+        1792
+      ],
+      "left": 681,
+      "top": 1757,
+      "right": 1947,
+      "bottom": 1792,
+      "width": 1266,
+      "height": 35,
+      "confidence": 92.413,
+      "text": "wie PR Diddy und auf 2445 Euro. Uff. Text Alexa von Hey"
+    },
+    {
+      "id": "l081",
+      "blockNumber": 19,
+      "paragraphNumber": 5,
+      "lineNumber": 3,
+      "bbox": [
+        682,
+        1799,
+        861,
+        1823
+      ],
+      "left": 682,
+      "top": 1799,
+      "right": 861,
+      "bottom": 1823,
+      "width": 179,
+      "height": 24,
+      "confidence": 96.232,
+      "text": "Celine Dion."
+    },
+    {
+      "id": "l082",
+      "blockNumber": 19,
+      "paragraphNumber": 6,
+      "lineNumber": 1,
+      "bbox": [
+        683,
+        1843,
+        1020,
+        1867
+      ],
+      "left": 683,
+      "top": 1843,
+      "right": 1020,
+      "bottom": 1867,
+      "width": 337,
+      "height": 24,
+      "confidence": 92.318,
+      "text": "Die neueste Kollektion"
+    },
+    {
+      "id": "l083",
+      "blockNumber": 21,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3736,
+        1881,
+        4196,
+        1912
+      ],
+      "left": 3736,
+      "top": 1881,
+      "right": 4196,
+      "bottom": 1912,
+      "width": 460,
+      "height": 31,
+      "confidence": 95.531,
+      "text": "ugendlichen als auch ihr selbst"
+    },
+    {
+      "id": "l084",
+      "blockNumber": 19,
+      "paragraphNumber": 6,
+      "lineNumber": 2,
+      "bbox": [
+        682,
+        1885,
+        995,
+        1909
+      ],
+      "left": 682,
+      "top": 1885,
+      "right": 995,
+      "bottom": 1909,
+      "width": 313,
+      "height": 24,
+      "confidence": 84.846,
+      "text": "beweist einmal mehr"
+    },
+    {
+      "id": "l085",
+      "blockNumber": 21,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3723,
+        1924,
+        4009,
+        1954
+      ],
+      "left": 3723,
+      "top": 1924,
+      "right": 4009,
+      "bottom": 1954,
+      "width": 286,
+      "height": 30,
+      "confidence": 88.554,
+      "text": "hervorragend steht."
+    },
+    {
+      "id": "l086",
+      "blockNumber": 19,
+      "paragraphNumber": 6,
+      "lineNumber": 3,
+      "bbox": [
+        682,
+        1927,
+        911,
+        1957
+      ],
+      "left": 682,
+      "top": 1927,
+      "right": 911,
+      "bottom": 1957,
+      "width": 229,
+      "height": 30,
+      "confidence": 92.985,
+      "text": "seinen Hang zu"
+    },
+    {
+      "id": "l087",
+      "blockNumber": 19,
+      "paragraphNumber": 6,
+      "lineNumber": 4,
+      "bbox": [
+        683,
+        1968,
+        1022,
+        1994
+      ],
+      "left": 683,
+      "top": 1968,
+      "right": 1022,
+      "bottom": 1994,
+      "width": 339,
+      "height": 26,
+      "confidence": 81.642,
+      "text": "luxuridsen Materialien,"
+    },
+    {
+      "id": "l088",
+      "blockNumber": 23,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2531,
+        1988,
+        2797,
+        2075
+      ],
+      "left": 2531,
+      "top": 1988,
+      "right": 2797,
+      "bottom": 2075,
+      "width": 266,
+      "height": 87,
+      "confidence": 24.779,
+      "text": "UY !"
+    },
+    {
+      "id": "l089",
+      "blockNumber": 19,
+      "paragraphNumber": 6,
+      "lineNumber": 5,
+      "bbox": [
+        681,
+        2012,
+        951,
+        2042
+      ],
+      "left": 681,
+      "top": 2012,
+      "right": 951,
+      "bottom": 2042,
+      "width": 270,
+      "height": 30,
+      "confidence": 81.471,
+      "text": "Vverspielt sexy und"
+    },
+    {
+      "id": "l090",
+      "blockNumber": 19,
+      "paragraphNumber": 6,
+      "lineNumber": 6,
+      "bbox": [
+        681,
+        2054,
+        972,
+        2085
+      ],
+      "left": 681,
+      "top": 2054,
+      "right": 972,
+      "bottom": 2085,
+      "width": 291,
+      "height": 31,
+      "confidence": 86.995,
+      "text": "leleganten Kleidern."
+    },
+    {
+      "id": "l091",
+      "blockNumber": 23,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2519,
+        2094,
+        3223,
+        2252
+      ],
+      "left": 2519,
+      "top": 2094,
+      "right": 3223,
+      "bottom": 2252,
+      "width": 704,
+      "height": 158,
+      "confidence": 89.916,
+      "text": "terrouistik"
+    },
+    {
+      "id": "l092",
+      "blockNumber": 19,
+      "paragraphNumber": 6,
+      "lineNumber": 7,
+      "bbox": [
+        683,
+        2096,
+        971,
+        2120
+      ],
+      "left": 683,
+      "top": 2096,
+      "right": 971,
+      "bottom": 2120,
+      "width": 288,
+      "height": 24,
+      "confidence": 81.396,
+      "text": "Samtliche Entwurfe"
+    },
+    {
+      "id": "l093",
+      "blockNumber": 19,
+      "paragraphNumber": 6,
+      "lineNumber": 8,
+      "bbox": [
+        682,
+        2138,
+        1017,
+        2162
+      ],
+      "left": 682,
+      "top": 2138,
+      "right": 1017,
+      "bottom": 2162,
+      "width": 335,
+      "height": 24,
+      "confidence": 80.407,
+      "text": "lentwickelt Ruiz hochst"
+    },
+    {
+      "id": "l094",
+      "blockNumber": 19,
+      "paragraphNumber": 6,
+      "lineNumber": 9,
+      "bbox": [
+        683,
+        2180,
+        1020,
+        2210
+      ],
+      "left": 683,
+      "top": 2180,
+      "right": 1020,
+      "bottom": 2210,
+      "width": 337,
+      "height": 30,
+      "confidence": 90.822,
+      "text": "personlich. Fast schon"
+    },
+    {
+      "id": "l095",
+      "blockNumber": 19,
+      "paragraphNumber": 6,
+      "lineNumber": 10,
+      "bbox": [
+        681,
+        2224,
+        968,
+        2251
+      ],
+      "left": 681,
+      "top": 2224,
+      "right": 968,
+      "bottom": 2251,
+      "width": 287,
+      "height": 27,
+      "confidence": 76.036,
+      "text": "eine Seltenheit, wo"
+    },
+    {
+      "id": "l096",
+      "blockNumber": 19,
+      "paragraphNumber": 6,
+      "lineNumber": 11,
+      "bbox": [
+        681,
+        2266,
+        1005,
+        2296
+      ],
+      "left": 681,
+      "top": 2266,
+      "right": 1005,
+      "bottom": 2296,
+      "width": 324,
+      "height": 30,
+      "confidence": 84.486,
+      "text": "doch sehr viele grofe"
+    },
+    {
+      "id": "l097",
+      "blockNumber": 19,
+      "paragraphNumber": 6,
+      "lineNumber": 12,
+      "bbox": [
+        683,
+        2308,
+        927,
+        2332
+      ],
+      "left": 683,
+      "top": 2308,
+      "right": 927,
+      "bottom": 2332,
+      "width": 244,
+      "height": 24,
+      "confidence": 96.448,
+      "text": "Namen nur noch"
+    },
+    {
+      "id": "l098",
+      "blockNumber": 19,
+      "paragraphNumber": 7,
+      "lineNumber": 1,
+      "bbox": [
+        681,
+        2350,
+        987,
+        2380
+      ],
+      "left": 681,
+      "top": 2350,
+      "right": 987,
+      "bottom": 2380,
+      "width": 306,
+      "height": 30,
+      "confidence": 94.69,
+      "text": "zum Briefing und zur"
+    },
+    {
+      "id": "l099",
+      "blockNumber": 26,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        681,
+        2393,
+        1006,
+        2417
+      ],
+      "left": 681,
+      "top": 2393,
+      "right": 1006,
+      "bottom": 2417,
+      "width": 325,
+      "height": 24,
+      "confidence": 72.245,
+      "text": "Abnahme erscheinen."
+    },
+    {
+      "id": "l100",
+      "blockNumber": 27,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1390,
+        2430,
+        2075,
+        2461
+      ],
+      "left": 1390,
+      "top": 2430,
+      "right": 2075,
+      "bottom": 2461,
+      "width": 685,
+      "height": 31,
+      "confidence": 83.441,
+      "text": "...hiermit mochte ich gern einen Allzweckkredit"
+    },
+    {
+      "id": "l101",
+      "blockNumber": 26,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        682,
+        2435,
+        970,
+        2465
+      ],
+      "left": 682,
+      "top": 2435,
+      "right": 970,
+      "bottom": 2465,
+      "width": 288,
+      "height": 30,
+      "confidence": 91.996,
+      "text": "richardruiznyc.com"
+    },
+    {
+      "id": "l102",
+      "blockNumber": 27,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1389,
+        2472,
+        1836,
+        2497
+      ],
+      "left": 1389,
+      "top": 2472,
+      "right": 1836,
+      "bottom": 2497,
+      "width": 447,
+      "height": 25,
+      "confidence": 91.592,
+      "text": "Uber 10.000 Euro aufnehmen."
+    },
+    {
+      "id": "l103",
+      "blockNumber": 27,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1389,
+        2516,
+        2037,
+        2547
+      ],
+      "left": 1389,
+      "top": 2516,
+      "right": 2037,
+      "bottom": 2547,
+      "width": 648,
+      "height": 31,
+      "confidence": 93.8,
+      "text": "Diesen Betrag werde ich in die neue Herbst-"
+    },
+    {
+      "id": "l104",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2493,
+        2524,
+        2535,
+        2586
+      ],
+      "left": 2493,
+      "top": 2524,
+      "right": 2535,
+      "bottom": 2586,
+      "width": 42,
+      "height": 62,
+      "confidence": 30.435,
+      "text": "ae"
+    },
+    {
+      "id": "l105",
+      "blockNumber": 25,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2378,
+        2529,
+        3549,
+        2611
+      ],
+      "left": 2378,
+      "top": 2529,
+      "right": 3549,
+      "bottom": 2611,
+      "width": 1171,
+      "height": 82,
+      "confidence": 87.505,
+      "text": "Von Afghanistan pis zum lrak. Aa e zelgt ein wunderschones Werk aus K"
+    },
+    {
+      "id": "l106",
+      "blockNumber": 27,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        1389,
+        2558,
+        1903,
+        2582
+      ],
+      "left": 1389,
+      "top": 2558,
+      "right": 1903,
+      "bottom": 2582,
+      "width": 514,
+      "height": 24,
+      "confidence": 93.205,
+      "text": "Kollektion von Balmain investieren."
+    },
+    {
+      "id": "l107",
+      "blockNumber": 27,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        1389,
+        2600,
+        2043,
+        2631
+      ],
+      "left": 1389,
+      "top": 2600,
+      "right": 2043,
+      "bottom": 2631,
+      "width": 654,
+      "height": 31,
+      "confidence": 93.826,
+      "text": "Diese Geldanlage ist langfristig sicher, denn:"
+    },
+    {
+      "id": "l108",
+      "blockNumber": 25,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        2380,
+        2618,
+        3665,
+        2649
+      ],
+      "left": 2380,
+      "top": 2618,
+      "right": 3665,
+      "bottom": 2649,
+      "width": 1285,
+      "height": 31,
+      "confidence": 95.445,
+      "text": "und Accessoires. Ganz klar im Fokus steht ihr Ohr- und Umhangeschmuck, der sich mit"
+    },
+    {
+      "id": "l109",
+      "blockNumber": 27,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        1389,
+        2642,
+        1974,
+        2667
+      ],
+      "left": 1389,
+      "top": 2642,
+      "right": 1974,
+      "bottom": 2667,
+      "width": 585,
+      "height": 25,
+      "confidence": 94.004,
+      "text": "ich fuhle mich in Hochwasserhosen und"
+    },
+    {
+      "id": "l110",
+      "blockNumber": 25,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        2378,
+        2661,
+        2982,
+        2692
+      ],
+      "left": 2378,
+      "top": 2661,
+      "right": 2982,
+      "bottom": 2692,
+      "width": 604,
+      "height": 31,
+      "confidence": 85.71,
+      "text": "traditioneller Kleidung kombinieren lasst."
+    },
+    {
+      "id": "l111",
+      "blockNumber": 27,
+      "paragraphNumber": 3,
+      "lineNumber": 3,
+      "bbox": [
+        1389,
+        2685,
+        2042,
+        2711
+      ],
+      "left": 1389,
+      "top": 2685,
+      "right": 2042,
+      "bottom": 2711,
+      "width": 653,
+      "height": 26,
+      "confidence": 89.696,
+      "text": "Mannerunterhemden auferst wohl. Ich liebe"
+    },
+    {
+      "id": "l112",
+      "blockNumber": 25,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        2381,
+        2704,
+        3245,
+        2734
+      ],
+      "left": 2381,
+      "top": 2704,
+      "right": 3245,
+      "bottom": 2734,
+      "width": 864,
+      "height": 30,
+      "confidence": 93.344,
+      "text": "Kleingedruckt aber eindeutig es in inren Mediadaten:"
+    },
+    {
+      "id": "l113",
+      "blockNumber": 27,
+      "paragraphNumber": 3,
+      "lineNumber": 4,
+      "bbox": [
+        1388,
+        2728,
+        2086,
+        2758
+      ],
+      "left": 1388,
+      "top": 2728,
+      "right": 2086,
+      "bottom": 2758,
+      "width": 698,
+      "height": 30,
+      "confidence": 87.009,
+      "text": "edie Materialien wie Leder und Seide und trage"
+    },
+    {
+      "id": "l114",
+      "blockNumber": 28,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2380,
+        2746,
+        3659,
+        2776
+      ],
+      "left": 2380,
+      "top": 2746,
+      "right": 3659,
+      "bottom": 2776,
+      "width": 1279,
+      "height": 30,
+      "confidence": 96.238,
+      "text": "SUPERFERTILE want to show the rest of the world these forgotten countries and reveal"
+    },
+    {
+      "id": "l115",
+      "blockNumber": 27,
+      "paragraphNumber": 3,
+      "lineNumber": 5,
+      "bbox": [
+        1389,
+        2770,
+        1894,
+        2801
+      ],
+      "left": 1389,
+      "top": 2770,
+      "right": 1894,
+      "bottom": 2801,
+      "width": 505,
+      "height": 31,
+      "confidence": 93.695,
+      "text": "Pailletten auch gern am Vormittag."
+    },
+    {
+      "id": "l116",
+      "blockNumber": 28,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2378,
+        2788,
+        3701,
+        2818
+      ],
+      "left": 2378,
+      "top": 2788,
+      "right": 3701,
+      "bottom": 2818,
+      "width": 1323,
+      "height": 30,
+      "confidence": 96.23,
+      "text": "them in a positive light. Let the children, women, wildlife and culture from these countries"
+    },
+    {
+      "id": "l117",
+      "blockNumber": 27,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        1389,
+        2805,
+        1856,
+        2842
+      ],
+      "left": 1389,
+      "top": 2805,
+      "right": 1856,
+      "bottom": 2842,
+      "width": 467,
+      "height": 37,
+      "confidence": 94.982,
+      "text": "Uber die Zusage freue ich mich."
+    },
+    {
+      "id": "l118",
+      "blockNumber": 28,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2379,
+        2831,
+        2574,
+        2855
+      ],
+      "left": 2379,
+      "top": 2831,
+      "right": 2574,
+      "bottom": 2855,
+      "width": 195,
+      "height": 24,
+      "confidence": 96.935,
+      "text": "shine. PEACE"
+    },
+    {
+      "id": "l119",
+      "blockNumber": 27,
+      "paragraphNumber": 5,
+      "lineNumber": 1,
+      "bbox": [
+        1389,
+        2855,
+        1905,
+        2880
+      ],
+      "left": 1389,
+      "top": 2855,
+      "right": 1905,
+      "bottom": 2880,
+      "width": 516,
+      "height": 25,
+      "confidence": 88.336,
+      "text": "Mit freundlichen Ihre Alexa"
+    },
+    {
+      "id": "l120",
+      "blockNumber": 28,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        2378,
+        2873,
+        2709,
+        2903
+      ],
+      "left": 2378,
+      "top": 2873,
+      "right": 2709,
+      "bottom": 2903,
+      "width": 331,
+      "height": 30,
+      "confidence": 88.634,
+      "text": "www.superfertile.com"
+    },
+    {
+      "id": "l121",
+      "blockNumber": 29,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        914,
+        2952,
+        1016,
+        2963
+      ],
+      "left": 914,
+      "top": 2952,
+      "right": 1016,
+      "bottom": 2963,
+      "width": 102,
+      "height": 11,
+      "confidence": 68.858,
+      "text": "em productions"
+    }
+  ]
+}

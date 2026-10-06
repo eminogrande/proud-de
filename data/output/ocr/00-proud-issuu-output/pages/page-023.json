@@ -1,0 +1,69 @@
+{
+  "id": "gen-1778146892-LX058CtuiyC3zmm0jTng",
+  "object": "chat.completion",
+  "created": 1778146892,
+  "model": "google/gemini-2.5-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "standard",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "OK.",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "file",
+            "file": {
+              "hash": "85fad94883710381efe9f14dd385aff6f666e5812cefae82c3ecb1323aa0498c",
+              "name": "00 proud issuu_output-page-023.pdf",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "<file name=\"00 proud issuu_output-page-023.pdf\">"
+                },
+                {
+                  "type": "text",
+                  "text": "wardrobe\n\nBinnenbrille, 280 Euro, Chanel\n\nBlaurot gemusterte Jacke, 350 Euro, Zucca\n\nWagelbe retro Samtjacke, 150 Euro, Miu-Miu\n\nZornsseries Seiden-Nachdoss von Peach John, 25 Euro, 190 Euro, Kleid von Choy, 2000 Euro\n\nSchwarze Schwanze, 150 Euro, 190 Euro, Emma, 250 Euro\n\nSchwarze Schwanze, Messarchitektur, 190 Euro\n\nSchwarze Schwanze, Messarchitektur, 190 Euro\n\nGoldene Reisetasche, 150 Euro, 190 Euro\n\nfor fashion queens, and womanizers\n\nOlivgrüner Hoodie, 25 Euro, 190 Euro\n\nDrangenfarbiges Muskelshut, 11 Euro vom Flohmarkt\n\nBrauner Marmor\n\nPicket von Champions von Karstads Sport, 40 Euro\n\nBrauer Werbiges Stimbard vom Flohmarkt, 5 Euro\n\nZornsseries weißes Hemd von Hugo Boss, 80 Euro\n\nBrauer Ladeschuhe von 4Meis, 80 Euro, Braufl bei Drichmann, 45 Euro\n\nJeans von PJ, 40 Euro, irgendwo am Ernst-Reuter-Platz\n\nwww.wardrobe.de\n\nwww.wardrobe.de\n\nwww.wardrobe.de\n\nwww.wardrobe.de\n\nwww.wardrobe.de\n\n44 pmud"
+                },
+                {
+                  "type": "text",
+                  "text": "</file>"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 380,
+    "completion_tokens": 2,
+    "total_tokens": 382,
+    "cost": 0.00211781,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000119,
+      "upstream_inference_prompt_cost": 0.000114,
+      "upstream_inference_completions_cost": 5e-06
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

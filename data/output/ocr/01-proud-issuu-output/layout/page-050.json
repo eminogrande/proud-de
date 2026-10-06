@@ -1,0 +1,27 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        157,
+        2216,
+        362,
+        2807
+      ],
+      "left": 157,
+      "top": 2216,
+      "right": 362,
+      "bottom": 2807,
+      "width": 205,
+      "height": 591,
+      "confidence": 38.186,
+      "text": "UOpUA)"
+    }
+  ]
+}

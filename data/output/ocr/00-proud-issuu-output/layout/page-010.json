@@ -1,0 +1,1227 @@
+{
+  "scale": 2.0,
+  "imageWidth": 4478,
+  "imageHeight": 3002,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        4114,
+        60,
+        4399,
+        130
+      ],
+      "left": 4114,
+      "top": 60,
+      "right": 4399,
+      "bottom": 130,
+      "width": 285,
+      "height": 70,
+      "confidence": 63.678,
+      "text": "££ report"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3377,
+        454,
+        3405,
+        493
+      ],
+      "left": 3377,
+      "top": 454,
+      "right": 3405,
+      "bottom": 493,
+      "width": 28,
+      "height": 39,
+      "confidence": 38.73,
+      "text": "&"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3794,
+        475,
+        3795,
+        478
+      ],
+      "left": 3794,
+      "top": 475,
+      "right": 3795,
+      "bottom": 478,
+      "width": 1,
+      "height": 3,
+      "confidence": 88.36,
+      "text": "}"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3090,
+        494,
+        4033,
+        670
+      ],
+      "left": 3090,
+      "top": 494,
+      "right": 4033,
+      "bottom": 670,
+      "width": 943,
+      "height": 176,
+      "confidence": 92.572,
+      "text": "theaterfest"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3122,
+        693,
+        4034,
+        832
+      ],
+      "left": 3122,
+      "top": 693,
+      "right": 4034,
+      "bottom": 832,
+      "width": 912,
+      "height": 139,
+      "confidence": 77.586,
+      "text": "(dq ballhaus"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        468,
+        725,
+        1521,
+        902
+      ],
+      "left": 468,
+      "top": 725,
+      "right": 1521,
+      "bottom": 902,
+      "width": 1053,
+      "height": 177,
+      "confidence": 93.801,
+      "text": "paul van dyk"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1585,
+        728,
+        1777,
+        763
+      ],
+      "left": 1585,
+      "top": 728,
+      "right": 1777,
+      "bottom": 763,
+      "width": 192,
+      "height": 35,
+      "confidence": 34.888,
+      "text": "ALLEN A HEATH."
+    },
+    {
+      "id": "l008",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3120,
+        871,
+        3572,
+        896
+      ],
+      "left": 3120,
+      "top": 871,
+      "right": 3572,
+      "bottom": 896,
+      "width": 452,
+      "height": 25,
+      "confidence": 95.175,
+      "text": "Jahr fur Jahr und das seit Uber"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        854,
+        886,
+        1511,
+        1026
+      ],
+      "left": 854,
+      "top": 886,
+      "right": 1511,
+      "bottom": 1026,
+      "width": 657,
+      "height": 140,
+      "confidence": 64.9,
+      "text": "(dq arena"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3121,
+        914,
+        3575,
+        938
+      ],
+      "left": 3121,
+      "top": 914,
+      "right": 3575,
+      "bottom": 938,
+      "width": 454,
+      "height": 24,
+      "confidence": 93.568,
+      "text": "einem Jahrzehnt in Berlin - das"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        3122,
+        956,
+        3572,
+        986
+      ],
+      "left": 3122,
+      "top": 956,
+      "right": 3572,
+      "bottom": 986,
+      "width": 450,
+      "height": 30,
+      "confidence": 94.084,
+      "text": "Diyalog Theaterfest. Der Name"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        3121,
+        999,
+        3623,
+        1030
+      ],
+      "left": 3121,
+      "top": 999,
+      "right": 3623,
+      "bottom": 1030,
+      "width": 502,
+      "height": 31,
+      "confidence": 92.767,
+      "text": "steht fur das Konzept. Dialog mit i"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        3122,
+        1041,
+        3627,
+        1071
+      ],
+      "left": 3122,
+      "top": 1041,
+      "right": 3627,
+      "bottom": 1071,
+      "width": 505,
+      "height": 30,
+      "confidence": 91.836,
+      "text": "im Deutschen, mit y im Turkischen"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        832,
+        1083,
+        1349,
+        1122
+      ],
+      "left": 832,
+      "top": 1083,
+      "right": 1349,
+      "bottom": 1122,
+      "width": 517,
+      "height": 39,
+      "confidence": 95.873,
+      "text": "Es mag ja gute geben nicht"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        3122,
+        1083,
+        3611,
+        1113
+      ],
+      "left": 3122,
+      "top": 1083,
+      "right": 3611,
+      "bottom": 1113,
+      "width": 489,
+      "height": 30,
+      "confidence": 94.904,
+      "text": "und mit beidem, i und y, in Berlin."
+    },
+    {
+      "id": "l016",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        3122,
+        1125,
+        3653,
+        1155
+      ],
+      "left": 3122,
+      "top": 1125,
+      "right": 3653,
+      "bottom": 1155,
+      "width": 531,
+      "height": 30,
+      "confidence": 82.031,
+      "text": "Neben dem Schwerpunkt turkisches"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        830,
+        1130,
+        1104,
+        1160
+      ],
+      "left": 830,
+      "top": 1130,
+      "right": 1104,
+      "bottom": 1160,
+      "width": 274,
+      "height": 30,
+      "confidence": 94.101,
+      "text": "zu Paule zu gehen."
+    },
+    {
+      "id": "l018",
+      "blockNumber": 15,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        3122,
+        1169,
+        3532,
+        1193
+      ],
+      "left": 3122,
+      "top": 1169,
+      "right": 3532,
+      "bottom": 1193,
+      "width": 410,
+      "height": 24,
+      "confidence": 95.483,
+      "text": "Kulturtheater ist es wie fast"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        830,
+        1172,
+        1313,
+        1202
+      ],
+      "left": 830,
+      "top": 1172,
+      "right": 1313,
+      "bottom": 1202,
+      "width": 483,
+      "height": 30,
+      "confidence": 94.308,
+      "text": "Zum Beispiel Ossis. Es gibt aber"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 15,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        3117,
+        1211,
+        3598,
+        1241
+      ],
+      "left": 3117,
+      "top": 1211,
+      "right": 3598,
+      "bottom": 1241,
+      "width": 481,
+      "height": 30,
+      "confidence": 92.847,
+      "text": "jede tolle Veranstaltung in Berlin"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        831,
+        1213,
+        1267,
+        1244
+      ],
+      "left": 831,
+      "top": 1213,
+      "right": 1267,
+      "bottom": 1244,
+      "width": 436,
+      "height": 31,
+      "confidence": 92.312,
+      "text": "auch gute Griinde zu Paule zu"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 15,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        3122,
+        1252,
+        3635,
+        1283
+      ],
+      "left": 3122,
+      "top": 1252,
+      "right": 3635,
+      "bottom": 1283,
+      "width": 513,
+      "height": 31,
+      "confidence": 94.868,
+      "text": "multikulturell gepragt und aus aller"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        830,
+        1253,
+        1314,
+        1293
+      ],
+      "left": 830,
+      "top": 1253,
+      "right": 1314,
+      "bottom": 1293,
+      "width": 484,
+      "height": 40,
+      "confidence": 93.406,
+      "text": "gehen. Zum Beispiel wilde, junge"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 15,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        3120,
+        1294,
+        3626,
+        1319
+      ],
+      "left": 3120,
+      "top": 1294,
+      "right": 3626,
+      "bottom": 1319,
+      "width": 506,
+      "height": 25,
+      "confidence": 82.696,
+      "text": "Welt werden Musiker und Kunstler"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        831,
+        1299,
+        1374,
+        1329
+      ],
+      "left": 831,
+      "top": 1299,
+      "right": 1374,
+      "bottom": 1329,
+      "width": 543,
+      "height": 30,
+      "confidence": 92.214,
+      "text": "Partytouristinnen und reiche Russen,"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 15,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        3122,
+        1338,
+        3563,
+        1368
+      ],
+      "left": 3122,
+      "top": 1338,
+      "right": 3563,
+      "bottom": 1368,
+      "width": 441,
+      "height": 30,
+      "confidence": 77.451,
+      "text": "in das Ballhaus NaunynstraBe"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        831,
+        1341,
+        1390,
+        1371
+      ],
+      "left": 831,
+      "top": 1341,
+      "right": 1390,
+      "bottom": 1371,
+      "width": 559,
+      "height": 30,
+      "confidence": 94.784,
+      "text": "die nach einem kurzen Gesprach Uber"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 15,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        3121,
+        1380,
+        3553,
+        1411
+      ],
+      "left": 3121,
+      "top": 1380,
+      "right": 3553,
+      "bottom": 1411,
+      "width": 432,
+      "height": 31,
+      "confidence": 93.323,
+      "text": "eingeladen. Das Theater- und"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        830,
+        1383,
+        1377,
+        1414
+      ],
+      "left": 830,
+      "top": 1383,
+      "right": 1377,
+      "bottom": 1414,
+      "width": 547,
+      "height": 31,
+      "confidence": 90.631,
+      "text": "den gemeinsamen Musikgeschmack,"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 15,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        3122,
+        1422,
+        3635,
+        1453
+      ],
+      "left": 3122,
+      "top": 1422,
+      "right": 3635,
+      "bottom": 1453,
+      "width": 513,
+      "height": 31,
+      "confidence": 93.23,
+      "text": "Musikfest wurde zwei Wochen lang"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        830,
+        1427,
+        1305,
+        1458
+      ],
+      "left": 830,
+      "top": 1427,
+      "right": 1305,
+      "bottom": 1458,
+      "width": 475,
+      "height": 31,
+      "confidence": 94.794,
+      "text": "Wodkaflaschen springen lassen."
+    },
+    {
+      "id": "l032",
+      "blockNumber": 16,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3056,
+        1456,
+        3696,
+        1498
+      ],
+      "left": 3056,
+      "top": 1456,
+      "right": 3696,
+      "bottom": 1498,
+      "width": 640,
+      "height": 42,
+      "confidence": 79.144,
+      "text": "be) von unseren proud Fotografen betreut |"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 10,
+      "bbox": [
+        832,
+        1469,
+        1279,
+        1499
+      ],
+      "left": 832,
+      "top": 1469,
+      "right": 1279,
+      "bottom": 1499,
+      "width": 447,
+      "height": 30,
+      "confidence": 87.324,
+      "text": "Dann gibt‘s da noch die Horde"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3122,
+        1508,
+        3613,
+        1532
+      ],
+      "left": 3122,
+      "top": 1508,
+      "right": 3613,
+      "bottom": 1532,
+      "width": 491,
+      "height": 24,
+      "confidence": 94.062,
+      "text": "und dokumentiert. Schweizer und"
+    },
+    {
+      "id": "l035",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 11,
+      "bbox": [
+        832,
+        1511,
+        1378,
+        1539
+      ],
+      "left": 832,
+      "top": 1511,
+      "right": 1378,
+      "bottom": 1539,
+      "width": 546,
+      "height": 28,
+      "confidence": 94.873,
+      "text": "Models, welche zum Modeln in Berlin"
+    },
+    {
+      "id": "l036",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3121,
+        1550,
+        3669,
+        1580
+      ],
+      "left": 3121,
+      "top": 1550,
+      "right": 3669,
+      "bottom": 1580,
+      "width": 548,
+      "height": 30,
+      "confidence": 91.922,
+      "text": "deutsche Jugendtheater, afrikanische"
+    },
+    {
+      "id": "l037",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 12,
+      "bbox": [
+        830,
+        1553,
+        1317,
+        1577
+      ],
+      "left": 830,
+      "top": 1553,
+      "right": 1317,
+      "bottom": 1577,
+      "width": 487,
+      "height": 24,
+      "confidence": 95.329,
+      "text": "zu Besuch ist und sich von ihrem"
+    },
+    {
+      "id": "l038",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        3122,
+        1591,
+        3608,
+        1616
+      ],
+      "left": 3122,
+      "top": 1591,
+      "right": 3608,
+      "bottom": 1616,
+      "width": 486,
+      "height": 25,
+      "confidence": 91.36,
+      "text": "und turkische Musiker - alles war"
+    },
+    {
+      "id": "l039",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 13,
+      "bbox": [
+        832,
+        1596,
+        1331,
+        1626
+      ],
+      "left": 832,
+      "top": 1596,
+      "right": 1331,
+      "bottom": 1626,
+      "width": 499,
+      "height": 30,
+      "confidence": 93.553,
+      "text": "Label den Clubbesuch spendieren"
+    },
+    {
+      "id": "l040",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        3120,
+        1634,
+        3566,
+        1664
+      ],
+      "left": 3120,
+      "top": 1634,
+      "right": 3566,
+      "bottom": 1664,
+      "width": 446,
+      "height": 30,
+      "confidence": 80.335,
+      "text": "vorhanden und nix hat gefehit."
+    },
+    {
+      "id": "l041",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        530,
+        1638,
+        909,
+        1663
+      ],
+      "left": 530,
+      "top": 1638,
+      "right": 909,
+      "bottom": 1663,
+      "width": 379,
+      "height": 25,
+      "confidence": 63.262,
+      "text": ". lasst."
+    },
+    {
+      "id": "l042",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        830,
+        1680,
+        1354,
+        1711
+      ],
+      "left": 830,
+      "top": 1680,
+      "right": 1354,
+      "bottom": 1711,
+      "width": 524,
+      "height": 31,
+      "confidence": 90.742,
+      "text": "Also haben wir hier eine gemUtliche"
+    },
+    {
+      "id": "l043",
+      "blockNumber": 18,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3117,
+        1682,
+        3486,
+        1806
+      ],
+      "left": 3117,
+      "top": 1682,
+      "right": 3486,
+      "bottom": 1806,
+      "width": 369,
+      "height": 124,
+      "confidence": 23.92,
+      "text": "ae |"
+    },
+    {
+      "id": "l044",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        832,
+        1722,
+        1311,
+        1753
+      ],
+      "left": 832,
+      "top": 1722,
+      "right": 1311,
+      "bottom": 1753,
+      "width": 479,
+      "height": 31,
+      "confidence": 93.133,
+      "text": "Mischung aus 4000 tanzwutigen"
+    },
+    {
+      "id": "l045",
+      "blockNumber": 18,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3227,
+        1761,
+        3565,
+        1842
+      ],
+      "left": 3227,
+      "top": 1761,
+      "right": 3565,
+      "bottom": 1842,
+      "width": 338,
+      "height": 81,
+      "confidence": 28.516,
+      "text": "ie 4 )"
+    },
+    {
+      "id": "l046",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        830,
+        1764,
+        1278,
+        1795
+      ],
+      "left": 830,
+      "top": 1764,
+      "right": 1278,
+      "bottom": 1795,
+      "width": 448,
+      "height": 31,
+      "confidence": 79.168,
+      "text": "Tresorveteranen, riesengrofen"
+    },
+    {
+      "id": "l047",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        830,
+        1808,
+        1358,
+        1836
+      ],
+      "left": 830,
+      "top": 1808,
+      "right": 1358,
+      "bottom": 1836,
+      "width": 528,
+      "height": 28,
+      "confidence": 91.591,
+      "text": "freundlichen Schwulen, Touristinnen"
+    },
+    {
+      "id": "l048",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        831,
+        1846,
+        1357,
+        1884
+      ],
+      "left": 831,
+      "top": 1846,
+      "right": 1357,
+      "bottom": 1884,
+      "width": 526,
+      "height": 38,
+      "confidence": 94.204,
+      "text": "und Models - ach ja, ab und an trifft"
+    },
+    {
+      "id": "l049",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 7,
+      "bbox": [
+        831,
+        1888,
+        1309,
+        1927
+      ],
+      "left": 831,
+      "top": 1888,
+      "right": 1309,
+      "bottom": 1927,
+      "width": 478,
+      "height": 39,
+      "confidence": 94.09,
+      "text": "man sogar jemanden aus Berlin."
+    },
+    {
+      "id": "l050",
+      "blockNumber": 18,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        3490,
+        1931,
+        3554,
+        1968
+      ],
+      "left": 3490,
+      "top": 1931,
+      "right": 3554,
+      "bottom": 1968,
+      "width": 64,
+      "height": 37,
+      "confidence": 46.379,
+      "text": "SS"
+    },
+    {
+      "id": "l051",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 8,
+      "bbox": [
+        830,
+        1933,
+        1382,
+        1964
+      ],
+      "left": 830,
+      "top": 1933,
+      "right": 1382,
+      "bottom": 1964,
+      "width": 552,
+      "height": 31,
+      "confidence": 80.706,
+      "text": "Au8erdem sind Griippchen an der Tur"
+    },
+    {
+      "id": "l052",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3356,
+        1967,
+        3385,
+        1994
+      ],
+      "left": 3356,
+      "top": 1967,
+      "right": 3385,
+      "bottom": 1994,
+      "width": 29,
+      "height": 27,
+      "confidence": 27.223,
+      "text": "i"
+    },
+    {
+      "id": "l053",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 9,
+      "bbox": [
+        831,
+        1978,
+        1308,
+        2002
+      ],
+      "left": 831,
+      "top": 1978,
+      "right": 1308,
+      "bottom": 2002,
+      "width": 477,
+      "height": 24,
+      "confidence": 96.069,
+      "text": "der Arena mehr als Willkommen."
+    },
+    {
+      "id": "l054",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 10,
+      "bbox": [
+        830,
+        2017,
+        1278,
+        2052
+      ],
+      "left": 830,
+      "top": 2017,
+      "right": 1278,
+      "bottom": 2052,
+      "width": 448,
+      "height": 35,
+      "confidence": 88.274,
+      "text": "proud lasst sich jedenfalls aus"
+    },
+    {
+      "id": "l055",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 11,
+      "bbox": [
+        830,
+        2061,
+        1343,
+        2092
+      ],
+      "left": 830,
+      "top": 2061,
+      "right": 1343,
+      "bottom": 2092,
+      "width": 513,
+      "height": 31,
+      "confidence": 89.256,
+      "text": "eindeutig dokumentierten Grunden"
+    },
+    {
+      "id": "l056",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 12,
+      "bbox": [
+        830,
+        2104,
+        1287,
+        2134
+      ],
+      "left": 830,
+      "top": 2104,
+      "right": 1287,
+      "bottom": 2134,
+      "width": 457,
+      "height": 30,
+      "confidence": 94.15,
+      "text": "weiterhin keine Party von Paule"
+    },
+    {
+      "id": "l057",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 13,
+      "bbox": [
+        831,
+        2147,
+        974,
+        2178
+      ],
+      "left": 831,
+      "top": 2147,
+      "right": 974,
+      "bottom": 2178,
+      "width": 143,
+      "height": 31,
+      "confidence": 92.578,
+      "text": "entgehen."
+    },
+    {
+      "id": "l058",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 14,
+      "bbox": [
+        832,
+        2189,
+        1054,
+        2213
+      ],
+      "left": 832,
+      "top": 2189,
+      "right": 1054,
+      "bottom": 2213,
+      "width": 222,
+      "height": 24,
+      "confidence": 95.955,
+      "text": "Man sieht sich!"
+    },
+    {
+      "id": "l059",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1086,
+        2254,
+        1386,
+        2278
+      ],
+      "left": 1086,
+      "top": 2254,
+      "right": 1386,
+      "bottom": 2278,
+      "width": 300,
+      "height": 24,
+      "confidence": 58.585,
+      "text": "iwww.paulvandyk.de|"
+    },
+    {
+      "id": "l060",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1096,
+        2845,
+        1130,
+        2871
+      ],
+      "left": 1096,
+      "top": 2845,
+      "right": 1130,
+      "bottom": 2871,
+      "width": 34,
+      "height": 26,
+      "confidence": 58.012,
+      "text": "<a"
+    },
+    {
+      "id": "l061",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1123,
+        2869,
+        1250,
+        2911
+      ],
+      "left": 1123,
+      "top": 2869,
+      "right": 1250,
+      "bottom": 2911,
+      "width": 127,
+      "height": 42,
+      "confidence": 33.07,
+      "text": "SS ="
+    }
+  ]
+}

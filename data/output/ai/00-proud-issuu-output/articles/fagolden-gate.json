@@ -1,0 +1,22 @@
+{
+  "title": "Golden Gate",
+  "summary": "N/A",
+  "blocks": [
+    {
+      "pageNumber": 30,
+      "spreadPages": [
+        30,
+        31
+      ],
+      "sectionIds": [
+        "p030s08"
+      ],
+      "titles": [
+        "fagolden gate"
+      ],
+      "markdown": "## Golden Gate",
+      "text": "Golden Gate",
+      "pageImage": null
+    }
+  ]
+}

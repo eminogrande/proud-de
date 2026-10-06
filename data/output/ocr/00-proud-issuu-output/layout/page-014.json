@@ -1,0 +1,927 @@
+{
+  "scale": 2.0,
+  "imageWidth": 4478,
+  "imageHeight": 3002,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3184,
+        60,
+        4399,
+        99
+      ],
+      "left": 3184,
+      "top": 60,
+      "right": 4399,
+      "bottom": 99,
+      "width": 1215,
+      "height": 39,
+      "confidence": 70.296,
+      "text": "_ chat"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3216,
+        149,
+        3430,
+        173
+      ],
+      "left": 3216,
+      "top": 149,
+      "right": 3430,
+      "bottom": 173,
+      "width": 214,
+      "height": 24,
+      "confidence": 55.611,
+      "text": "R820 Bo"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2924,
+        227,
+        3580,
+        272
+      ],
+      "left": 2924,
+      "top": 227,
+      "right": 3580,
+      "bottom": 272,
+      "width": 656,
+      "height": 45,
+      "confidence": 88.848,
+      "text": "Berlin im Sommer oder im Winter? Sommer,"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3159,
+        269,
+        3167,
+        289
+      ],
+      "left": 3159,
+      "top": 269,
+      "right": 3167,
+      "bottom": 289,
+      "width": 8,
+      "height": 20,
+      "confidence": 38.477,
+      "text": "I"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2534,
+        298,
+        2683,
+        337
+      ],
+      "left": 2534,
+      "top": 298,
+      "right": 2683,
+      "bottom": 337,
+      "width": 149,
+      "height": 39,
+      "confidence": 44.745,
+      "text": "18 S25)"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2428,
+        319,
+        3065,
+        344
+      ],
+      "left": 2428,
+      "top": 319,
+      "right": 3065,
+      "bottom": 344,
+      "width": 637,
+      "height": 25,
+      "confidence": 28.13,
+      "text": "‘ ‘2"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2437,
+        328,
+        3317,
+        366
+      ],
+      "left": 2437,
+      "top": 328,
+      "right": 3317,
+      "bottom": 366,
+      "width": 880,
+      "height": 38,
+      "confidence": 48.033,
+      "text": "4 S) B"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2953,
+        342,
+        4184,
+        680
+      ],
+      "left": 2953,
+      "top": 342,
+      "right": 4184,
+      "bottom": 680,
+      "width": 1231,
+      "height": 338,
+      "confidence": 74.442,
+      "text": "paul van dyk al"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2506,
+        372,
+        3589,
+        462
+      ],
+      "left": 2506,
+      "top": 372,
+      "right": 3589,
+      "bottom": 462,
+      "width": 1083,
+      "height": 90,
+      "confidence": 90.542,
+      "text": "23.5.2008 Dublin 24 3: 2008 Mumbai"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2575,
+        457,
+        2598,
+        480
+      ],
+      "left": 2575,
+      "top": 457,
+      "right": 2598,
+      "bottom": 480,
+      "width": 23,
+      "height": 23,
+      "confidence": 55.086,
+      "text": "14]"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2405,
+        497,
+        2810,
+        527
+      ],
+      "left": 2405,
+      "top": 497,
+      "right": 2810,
+      "bottom": 527,
+      "width": 405,
+      "height": 30,
+      "confidence": 80.06,
+      "text": "Ketchup oder Majo? Rotwe!"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2848,
+        541,
+        2884,
+        561
+      ],
+      "left": 2848,
+      "top": 541,
+      "right": 2884,
+      "bottom": 561,
+      "width": 36,
+      "height": 20,
+      "confidence": 55.429,
+      "text": "U6)"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 16,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2688,
+        624,
+        2920,
+        654
+      ],
+      "left": 2688,
+      "top": 624,
+      "right": 2920,
+      "bottom": 654,
+      "width": 232,
+      "height": 30,
+      "confidence": 88.366,
+      "text": "22.2.2008 Beiji"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3778,
+        676,
+        4103,
+        734
+      ],
+      "left": 3778,
+      "top": 676,
+      "right": 4103,
+      "bottom": 734,
+      "width": 325,
+      "height": 58,
+      "confidence": 63.206,
+      "text": "trance rance © ear Paul!"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3333,
+        683,
+        3494,
+        743
+      ],
+      "left": 3333,
+      "top": 683,
+      "right": 3494,
+      "bottom": 743,
+      "width": 161,
+      "height": 60,
+      "confidence": 91.06,
+      "text": "23.2. 2088"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2893,
+        693,
+        2897,
+        713
+      ],
+      "left": 2893,
+      "top": 693,
+      "right": 2897,
+      "bottom": 713,
+      "width": 4,
+      "height": 20,
+      "confidence": 69.526,
+      "text": "\\"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3733,
+        743,
+        4054,
+        773
+      ],
+      "left": 3733,
+      "top": 743,
+      "right": 4054,
+      "bottom": 773,
+      "width": 321,
+      "height": 30,
+      "confidence": 94.748,
+      "text": "dass seine Partys nur"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        3624,
+        784,
+        4082,
+        815
+      ],
+      "left": 3624,
+      "top": 784,
+      "right": 4082,
+      "bottom": 815,
+      "width": 458,
+      "height": 31,
+      "confidence": 80.583,
+      "text": "schwer zu schlagen sind, konnt"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3241,
+        809,
+        3596,
+        833
+      ],
+      "left": 3241,
+      "top": 809,
+      "right": 3596,
+      "bottom": 833,
+      "width": 355,
+      "height": 24,
+      "confidence": 89.723,
+      "text": "Bus oder (U-)Bahn? Bus"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        3624,
+        826,
+        4084,
+        857
+      ],
+      "left": 3624,
+      "top": 826,
+      "right": 4084,
+      "bottom": 857,
+      "width": 460,
+      "height": 31,
+      "confidence": 91.605,
+      "text": "ihr euch im Report Uberzeugen."
+    },
+    {
+      "id": "l021",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2511,
+        859,
+        4087,
+        902
+      ],
+      "left": 2511,
+      "top": 859,
+      "right": 4087,
+      "bottom": 902,
+      "width": 1576,
+      "height": 43,
+      "confidence": 90.992,
+      "text": "21.2.2008 Tokyo er die Musik nicht mag, kennt"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3624,
+        909,
+        4056,
+        945
+      ],
+      "left": 3624,
+      "top": 909,
+      "right": 4056,
+      "bottom": 945,
+      "width": 432,
+      "height": 36,
+      "confidence": 86.05,
+      "text": "nur seinen Namen. provd war"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        3291,
+        930,
+        4300,
+        1012
+      ],
+      "left": 3291,
+      "top": 930,
+      "right": 4300,
+      "bottom": 1012,
+      "width": 1009,
+      "height": 82,
+      "confidence": 84.516,
+      "text": "\\ auf der Suche nach dem Bild Mi"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        2539,
+        960,
+        4289,
+        1030
+      ],
+      "left": 2539,
+      "top": 960,
+      "right": 4289,
+      "bottom": 1030,
+      "width": 1750,
+      "height": 70,
+      "confidence": 79.379,
+      "text": "1 Chicago , : Berliner von Paul und fragte viele z"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        4300,
+        963,
+        4371,
+        987
+      ],
+      "left": 4300,
+      "top": 963,
+      "right": 4371,
+      "bottom": 987,
+      "width": 71,
+      "height": 24,
+      "confidence": 92.003,
+      "text": "adrid"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3624,
+        1038,
+        4063,
+        1069
+      ],
+      "left": 3624,
+      "top": 1038,
+      "right": 4063,
+      "bottom": 1069,
+      "width": 439,
+      "height": 31,
+      "confidence": 93.389,
+      "text": "Leute die selben zehn Fragen."
+    },
+    {
+      "id": "l027",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2564,
+        1075,
+        4094,
+        1111
+      ],
+      "left": 2564,
+      "top": 1075,
+      "right": 4094,
+      "bottom": 1111,
+      "width": 1530,
+      "height": 36,
+      "confidence": 81.81,
+      "text": "pe i Die Antworten findet ihr hier, die"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2906,
+        1108,
+        2918,
+        1132
+      ],
+      "left": 2906,
+      "top": 1108,
+      "right": 2918,
+      "bottom": 1132,
+      "width": 12,
+      "height": 24,
+      "confidence": 46.958,
+      "text": "NI"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        2635,
+        1113,
+        4355,
+        1194
+      ],
+      "left": 2635,
+      "top": 1113,
+      "right": 4355,
+      "bottom": 1194,
+      "width": 1720,
+      "height": 81,
+      "confidence": 69.196,
+      "text": "empethot fa oder Nein? Enthalten f | Aufldsung von Paul gibts auf: | N"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3698,
+        1166,
+        3980,
+        1196
+      ],
+      "left": 3698,
+      "top": 1166,
+      "right": 3980,
+      "bottom": 1196,
+      "width": 282,
+      "height": 30,
+      "confidence": 56.638,
+      "text": ". proudmagazine.de"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        3672,
+        1201,
+        4396,
+        1260
+      ],
+      "left": 3672,
+      "top": 1201,
+      "right": 4396,
+      "bottom": 1260,
+      "width": 724,
+      "height": 59,
+      "confidence": 57.403,
+      "text": "Benin »"
+    },
+    {
+      "id": "l032",
+      "blockNumber": 25,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        4335,
+        1301,
+        4378,
+        1322
+      ],
+      "left": 4335,
+      "top": 1301,
+      "right": 4378,
+      "bottom": 1322,
+      "width": 43,
+      "height": 21,
+      "confidence": 27.361,
+      "text": "ean)"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 25,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        4057,
+        1326,
+        4375,
+        1351
+      ],
+      "left": 4057,
+      "top": 1326,
+      "right": 4375,
+      "bottom": 1351,
+      "width": 318,
+      "height": 25,
+      "confidence": 92.328,
+      "text": "30.4.2008 Dortmund"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 27,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2704,
+        1585,
+        3622,
+        1632
+      ],
+      "left": 2704,
+      "top": 1585,
+      "right": 3622,
+      "bottom": 1632,
+      "width": 918,
+      "height": 47,
+      "confidence": 80.693,
+      "text": "=Asien oder Amerika? Asien a"
+    },
+    {
+      "id": "l035",
+      "blockNumber": 28,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2238,
+        1621,
+        2299,
+        1665
+      ],
+      "left": 2238,
+      "top": 1621,
+      "right": 2299,
+      "bottom": 1665,
+      "width": 61,
+      "height": 44,
+      "confidence": 40.508,
+      "text": "\\t"
+    },
+    {
+      "id": "l036",
+      "blockNumber": 29,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2453,
+        1681,
+        2535,
+        1719
+      ],
+      "left": 2453,
+      "top": 1681,
+      "right": 2535,
+      "bottom": 1719,
+      "width": 82,
+      "height": 38,
+      "confidence": 48.116,
+      "text": "iy + [rao"
+    },
+    {
+      "id": "l037",
+      "blockNumber": 29,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2255,
+        1748,
+        2525,
+        1772
+      ],
+      "left": 2255,
+      "top": 1748,
+      "right": 2525,
+      "bottom": 1772,
+      "width": 270,
+      "height": 24,
+      "confidence": 94.851,
+      "text": "16.2.2008 Vienna"
+    },
+    {
+      "id": "l038",
+      "blockNumber": 32,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2590,
+        2234,
+        2895,
+        2258
+      ],
+      "left": 2590,
+      "top": 2234,
+      "right": 2895,
+      "bottom": 2258,
+      "width": 305,
+      "height": 24,
+      "confidence": 93.974,
+      "text": "15.5.2008 Charlotte"
+    },
+    {
+      "id": "l039",
+      "blockNumber": 32,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        4075,
+        2283,
+        4334,
+        2308
+      ],
+      "left": 4075,
+      "top": 2283,
+      "right": 4334,
+      "bottom": 2308,
+      "width": 259,
+      "height": 25,
+      "confidence": 94.516,
+      "text": "2.5.2008 London"
+    },
+    {
+      "id": "l040",
+      "blockNumber": 32,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        4210,
+        2316,
+        4233,
+        2334
+      ],
+      "left": 4210,
+      "top": 2316,
+      "right": 4233,
+      "bottom": 2334,
+      "width": 23,
+      "height": 18,
+      "confidence": 61.646,
+      "text": "[7]"
+    },
+    {
+      "id": "l041",
+      "blockNumber": 33,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2315,
+        2365,
+        2338,
+        2388
+      ],
+      "left": 2315,
+      "top": 2365,
+      "right": 2338,
+      "bottom": 2388,
+      "width": 23,
+      "height": 23,
+      "confidence": 81.939,
+      "text": "a"
+    },
+    {
+      "id": "l042",
+      "blockNumber": 34,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2349,
+        2435,
+        2827,
+        2461
+      ],
+      "left": 2349,
+      "top": 2435,
+      "right": 2827,
+      "bottom": 2461,
+      "width": 478,
+      "height": 26,
+      "confidence": 79.542,
+      "text": "30.5.2008 Lisboa a"
+    },
+    {
+      "id": "l043",
+      "blockNumber": 35,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3047,
+        2519,
+        3291,
+        2543
+      ],
+      "left": 3047,
+      "top": 2519,
+      "right": 3291,
+      "bottom": 2543,
+      "width": 244,
+      "height": 24,
+      "confidence": 93.693,
+      "text": "6.5.2008 Dallas"
+    },
+    {
+      "id": "l044",
+      "blockNumber": 35,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2845,
+        2555,
+        2878,
+        2570
+      ],
+      "left": 2845,
+      "top": 2555,
+      "right": 2878,
+      "bottom": 2570,
+      "width": 33,
+      "height": 15,
+      "confidence": 73.929,
+      "text": "S25"
+    },
+    {
+      "id": "l045",
+      "blockNumber": 36,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2474,
+        2624,
+        2905,
+        2652
+      ],
+      "left": 2474,
+      "top": 2624,
+      "right": 2905,
+      "bottom": 2652,
+      "width": 431,
+      "height": 28,
+      "confidence": 89.264,
+      "text": "elix oder Berghain? berghain"
+    },
+    {
+      "id": "l046",
+      "blockNumber": 37,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        4368,
+        2926,
+        4400,
+        2951
+      ],
+      "left": 4368,
+      "top": 2926,
+      "right": 4400,
+      "bottom": 2951,
+      "width": 32,
+      "height": 25,
+      "confidence": 56.629,
+      "text": "2]"
+    }
+  ]
+}

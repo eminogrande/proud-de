@@ -1,0 +1,1387 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        7,
+        787,
+        41,
+        821
+      ],
+      "left": 7,
+      "top": 787,
+      "right": 41,
+      "bottom": 821,
+      "width": 34,
+      "height": 34,
+      "confidence": 27.281,
+      "text": "x"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        0,
+        792,
+        232,
+        852
+      ],
+      "left": 0,
+      "top": 792,
+      "right": 232,
+      "bottom": 852,
+      "width": 232,
+      "height": 60,
+      "confidence": 52.121,
+      "text": "Os ~»"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        27,
+        796,
+        631,
+        903
+      ],
+      "left": 27,
+      "top": 796,
+      "right": 631,
+      "bottom": 903,
+      "width": 604,
+      "height": 107,
+      "confidence": 23.884,
+      "text": "SREY SILI]"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        0,
+        847,
+        584,
+        933
+      ],
+      "left": 0,
+      "top": 847,
+      "right": 584,
+      "bottom": 933,
+      "width": 584,
+      "height": 86,
+      "confidence": 29.078,
+      "text": "SI SSS OILS S"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        489,
+        898,
+        634,
+        943
+      ],
+      "left": 489,
+      "top": 898,
+      "right": 634,
+      "bottom": 943,
+      "width": 145,
+      "height": 45,
+      "confidence": 30.233,
+      "text": "OEY x"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 14,
+      "bbox": [
+        0,
+        901,
+        2926,
+        1238
+      ],
+      "left": 0,
+      "top": 901,
+      "right": 2926,
+      "bottom": 1238,
+      "width": 2926,
+      "height": 337,
+      "confidence": 71.456,
+      "text": "SRE SKS von Pentagonik e Einhérner - wa"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        0,
+        927,
+        1400,
+        1065
+      ],
+      "left": 0,
+      "top": 927,
+      "right": 1400,
+      "bottom": 1065,
+      "width": 1400,
+      "height": 138,
+      "confidence": 49.956,
+      "text": "SSS Sx —"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 11,
+      "bbox": [
+        0,
+        927,
+        2416,
+        1157
+      ],
+      "left": 0,
+      "top": 927,
+      "right": 2416,
+      "bottom": 1157,
+      "width": 2416,
+      "height": 230,
+      "confidence": 64.482,
+      "text": "MS SPAS NALS macht Demir, P , Dschungelwald :"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 10,
+      "bbox": [
+        6,
+        927,
+        1975,
+        1126
+      ],
+      "left": 6,
+      "top": 927,
+      "right": 1975,
+      "bottom": 1126,
+      "width": 1969,
+      "height": 199,
+      "confidence": 67.218,
+      "text": "SON SORRY OR alistische Babarenvélker, D"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 12,
+      "bbox": [
+        389,
+        927,
+        2726,
+        1146
+      ],
+      "left": 389,
+      "top": 927,
+      "right": 2726,
+      "bottom": 1146,
+      "width": 2337,
+      "height": 219,
+      "confidence": 64.902,
+      "text": "OSS SOs , Produze alder, kre =e"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 9,
+      "bbox": [
+        620,
+        927,
+        1499,
+        1013
+      ],
+      "left": 620,
+      "top": 927,
+      "right": 1499,
+      "bottom": 1013,
+      "width": 879,
+      "height": 86,
+      "confidence": 60.798,
+      "text": "3 isti"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 13,
+      "bbox": [
+        1727,
+        927,
+        2638,
+        1028
+      ],
+      "left": 1727,
+      "top": 927,
+      "right": 2638,
+      "bottom": 1028,
+      "width": 911,
+      "height": 101,
+      "confidence": 93.109,
+      "text": "nt und DJ ischende E"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        570,
+        929,
+        604,
+        963
+      ],
+      "left": 570,
+      "top": 929,
+      "right": 604,
+      "bottom": 963,
+      "width": 34,
+      "height": 34,
+      "confidence": 31.301,
+      "text": "a"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 15,
+      "bbox": [
+        651,
+        976,
+        2693,
+        1181
+      ],
+      "left": 651,
+      "top": 976,
+      "right": 2693,
+      "bottom": 1181,
+      "width": 2042,
+      "height": 205,
+      "confidence": 91.028,
+      "text": "| ik auBerhalb von Berli"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 16,
+      "bbox": [
+        600,
+        990,
+        2744,
+        1238
+      ],
+      "left": 600,
+      "top": 990,
+      "right": 2744,
+      "bottom": 1238,
+      "width": 2144,
+      "height": 248,
+      "confidence": 76.007,
+      "text": "KN n Berlin?"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 20,
+      "bbox": [
+        6,
+        1189,
+        2531,
+        1431
+      ],
+      "left": 6,
+      "top": 1189,
+      "right": 2531,
+      "bottom": 1431,
+      "width": 2525,
+      "height": 242,
+      "confidence": 22.466,
+      "text": "ISOS OILS :"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 18,
+      "bbox": [
+        509,
+        1191,
+        1628,
+        1329
+      ],
+      "left": 509,
+      "top": 1191,
+      "right": 1628,
+      "bottom": 1329,
+      "width": 1119,
+      "height": 138,
+      "confidence": 41.929,
+      "text": "SOS o t"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 21,
+      "bbox": [
+        529,
+        1192,
+        2649,
+        1410
+      ],
+      "left": 529,
+      "top": 1192,
+      "right": 2649,
+      "bottom": 1410,
+      "width": 2120,
+      "height": 218,
+      "confidence": 35.765,
+      "text": "Rr :"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 17,
+      "bbox": [
+        0,
+        1233,
+        604,
+        1350
+      ],
+      "left": 0,
+      "top": 1233,
+      "right": 604,
+      "bottom": 1350,
+      "width": 604,
+      "height": 117,
+      "confidence": 46.946,
+      "text": "RXR SKS"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 24,
+      "bbox": [
+        0,
+        1244,
+        2651,
+        1543
+      ],
+      "left": 0,
+      "top": 1244,
+      "right": 2651,
+      "bottom": 1543,
+      "width": 2651,
+      "height": 299,
+      "confidence": 26.945,
+      "text": "PISSING x }"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 22,
+      "bbox": [
+        388,
+        1374,
+        644,
+        1451
+      ],
+      "left": 388,
+      "top": 1374,
+      "right": 644,
+      "bottom": 1451,
+      "width": 256,
+      "height": 77,
+      "confidence": 22.303,
+      "text": "ILL ue"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 23,
+      "bbox": [
+        579,
+        1427,
+        614,
+        1461
+      ],
+      "left": 579,
+      "top": 1427,
+      "right": 614,
+      "bottom": 1461,
+      "width": 35,
+      "height": 34,
+      "confidence": 37.101,
+      "text": "i"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 25,
+      "bbox": [
+        626,
+        1455,
+        664,
+        1526
+      ],
+      "left": 626,
+      "top": 1455,
+      "right": 664,
+      "bottom": 1526,
+      "width": 38,
+      "height": 71,
+      "confidence": 38.196,
+      "text": "ny"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 26,
+      "bbox": [
+        600,
+        1508,
+        634,
+        1542
+      ],
+      "left": 600,
+      "top": 1508,
+      "right": 634,
+      "bottom": 1542,
+      "width": 34,
+      "height": 34,
+      "confidence": 34.988,
+      "text": "5"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 27,
+      "bbox": [
+        16,
+        1539,
+        676,
+        1624
+      ],
+      "left": 16,
+      "top": 1539,
+      "right": 676,
+      "bottom": 1624,
+      "width": 660,
+      "height": 85,
+      "confidence": 30.221,
+      "text": "OSS OILS Sel"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 31,
+      "bbox": [
+        0,
+        1553,
+        2519,
+        1848
+      ],
+      "left": 0,
+      "top": 1553,
+      "right": 2519,
+      "bottom": 1848,
+      "width": 2519,
+      "height": 295,
+      "confidence": 32.538,
+      "text": "SREP SRO enon eet Besplelt?"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 29,
+      "bbox": [
+        6,
+        1557,
+        1733,
+        1736
+      ],
+      "left": 6,
+      "top": 1557,
+      "right": 1733,
+      "bottom": 1736,
+      "width": 1727,
+      "height": 179,
+      "confidence": 65.395,
+      "text": "x Sx x x Sd | Wie hast Du schon ei"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 30,
+      "bbox": [
+        529,
+        1557,
+        2122,
+        1716
+      ],
+      "left": 529,
+      "top": 1557,
+      "right": 2122,
+      "bottom": 1716,
+      "width": 1593,
+      "height": 159,
+      "confidence": 69.864,
+      "text": "SS lati Habe fi on einmal eine Tanzfla"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 28,
+      "bbox": [
+        0,
+        1569,
+        676,
+        1655
+      ],
+      "left": 0,
+      "top": 1569,
+      "right": 676,
+      "bottom": 1655,
+      "width": 676,
+      "height": 86,
+      "confidence": 28.791,
+      "text": "LPO ALS” Yost"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 33,
+      "bbox": [
+        16,
+        1620,
+        2964,
+        1929
+      ],
+      "left": 16,
+      "top": 1620,
+      "right": 2964,
+      "bottom": 1929,
+      "width": 2948,
+      "height": 309,
+      "confidence": 84.123,
+      "text": "~~ Ry SY, enn nun lauft und warum? g gefragt habe, welcher der bei , dass ich mich"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 32,
+      "bbox": [
+        1253,
+        1620,
+        2629,
+        1784
+      ],
+      "left": 1253,
+      "top": 1620,
+      "right": 2629,
+      "bottom": 1784,
+      "width": 1376,
+      "height": 164,
+      "confidence": 80.753,
+      "text": "i es Spielens standi erartig abgeschossen"
+    },
+    {
+      "id": "l032",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 34,
+      "bbox": [
+        509,
+        1685,
+        2893,
+        1939
+      ],
+      "left": 509,
+      "top": 1685,
+      "right": 2893,
+      "bottom": 1939,
+      "width": 2384,
+      "height": 254,
+      "confidence": 81.266,
+      "text": "ROR Na ja, zumindest ich hatte | Den Fehler habe i r beiden Plattenspi"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 35,
+      "bbox": [
+        1500,
+        1685,
+        2979,
+        1847
+      ],
+      "left": 1500,
+      "top": 1685,
+      "right": 2979,
+      "bottom": 1847,
+      "width": 1479,
+      "height": 162,
+      "confidence": 92.526,
+      "text": "ndest ich hatte mei e ich aber auch nur ei pleler"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 36,
+      "bbox": [
+        418,
+        1748,
+        3018,
+        2031
+      ],
+      "left": 418,
+      "top": 1748,
+      "right": 3018,
+      "bottom": 2031,
+      "width": 2600,
+      "height": 283,
+      "confidence": 68.453,
+      "text": "SOPH - nen Spas. r einmal gemacht."
+    },
+    {
+      "id": "l035",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 40,
+      "bbox": [
+        15,
+        1913,
+        2977,
+        2234
+      ],
+      "left": 15,
+      "top": 1913,
+      "right": 2977,
+      "bottom": 2234,
+      "width": 2962,
+      "height": 321,
+      "confidence": 76.783,
+      "text": "SIRENS SRE LPNS Ich glaub ssiv? Wo gab’s mal richti"
+    },
+    {
+      "id": "l036",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 38,
+      "bbox": [
+        0,
+        1930,
+        2150,
+        2153
+      ],
+      "left": 0,
+      "top": 1930,
+      "right": 2150,
+      "bottom": 2153,
+      "width": 2150,
+      "height": 223,
+      "confidence": 46.62,
+      "text": "ILI, Sd Od Probleme? zuriickhaltend"
+    },
+    {
+      "id": "l037",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 37,
+      "bbox": [
+        26,
+        1938,
+        1920,
+        2123
+      ],
+      "left": 26,
+      "top": 1938,
+      "right": 1920,
+      "bottom": 2123,
+      "width": 1894,
+      "height": 185,
+      "confidence": 56.129,
+      "text": "YS YS SS YS SSO ist Du beim DJ-Wechsel zurii"
+    },
+    {
+      "id": "l038",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 39,
+      "bbox": [
+        76,
+        1938,
+        2526,
+        2173
+      ],
+      "left": 76,
+      "top": 1938,
+      "right": 2526,
+      "bottom": 2173,
+      "width": 2450,
+      "height": 235,
+      "confidence": 69.269,
+      "text": "ISPS ILS e? oder aggressiv?"
+    },
+    {
+      "id": "l039",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 41,
+      "bbox": [
+        716,
+        1938,
+        3008,
+        2170
+      ],
+      "left": 716,
+      "top": 1938,
+      "right": 3008,
+      "bottom": 2170,
+      "width": 2292,
+      "height": 232,
+      "confidence": 91.3,
+      "text": "| e nur Anfanger si al richtig"
+    },
+    {
+      "id": "l040",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 43,
+      "bbox": [
+        478,
+        2051,
+        2587,
+        2275
+      ],
+      "left": 478,
+      "top": 2051,
+      "right": 2587,
+      "bottom": 2275,
+      "width": 2109,
+      "height": 224,
+      "confidence": 78.203,
+      "text": "LS Ron Pichtl s nun wirklich nicht a . Denn auf eine Platte"
+    },
+    {
+      "id": "l041",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 44,
+      "bbox": [
+        86,
+        2060,
+        3015,
+        2367
+      ],
+      "left": 86,
+      "top": 2060,
+      "right": 3015,
+      "bottom": 2367,
+      "width": 2929,
+      "height": 307,
+      "confidence": 80.157,
+      "text": "Ss ~~ ~ ~~ ichtige Probleme hatte i n. Und falls doch habe ich > mehr oder weniger"
+    },
+    {
+      "id": "l042",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 42,
+      "bbox": [
+        1255,
+        2064,
+        2167,
+        2186
+      ],
+      "left": 1255,
+      "top": 2064,
+      "right": 2167,
+      "bottom": 2186,
+      "width": 912,
+      "height": 122,
+      "confidence": 89.839,
+      "text": "kommt e fanger sind aggressiv. D"
+    },
+    {
+      "id": "l043",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 45,
+      "bbox": [
+        26,
+        2101,
+        3004,
+        2427
+      ],
+      "left": 26,
+      "top": 2101,
+      "right": 3004,
+      "bottom": 2427,
+      "width": 2978,
+      "height": 326,
+      "confidence": 81.264,
+      "text": "SREY ORS ich zum Gltick noch nie. Di meine Buddies dabei :"
+    },
+    {
+      "id": "l044",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 46,
+      "bbox": [
+        297,
+        2127,
+        3034,
+        2458
+      ],
+      "left": 297,
+      "top": 2127,
+      "right": 3034,
+      "bottom": 2458,
+      "width": 2737,
+      "height": 331,
+      "confidence": 83.708,
+      "text": "SS SNES Deine b ch nie. Die meisten DJs sind abel ;)."
+    },
+    {
+      "id": "l045",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 47,
+      "bbox": [
+        15,
+        2192,
+        3061,
+        2539
+      ],
+      "left": 15,
+      "top": 2192,
+      "right": 3061,
+      "bottom": 2539,
+      "width": 3046,
+      "height": 347,
+      "confidence": 79.343,
+      "text": "SOS SHS x Ich peste Berlin-Story, die Du im A halt locker."
+    },
+    {
+      "id": "l046",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 48,
+      "bbox": [
+        1333,
+        2317,
+        2453,
+        2425
+      ],
+      "left": 1333,
+      "top": 2317,
+      "right": 2453,
+      "bottom": 2425,
+      "width": 1120,
+      "height": 108,
+      "confidence": 92.718,
+      "text": "erzahle, dass in Berli usland den Girls"
+    },
+    {
+      "id": "l047",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 49,
+      "bbox": [
+        66,
+        2318,
+        2732,
+        2590
+      ],
+      "left": 66,
+      "top": 2318,
+      "right": 2732,
+      "bottom": 2590,
+      "width": 2666,
+      "height": 272,
+      "confidence": 66.226,
+      "text": "LPIA OES monatlich |i rlin das D auspackst?"
+    },
+    {
+      "id": "l048",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 50,
+      "bbox": [
+        36,
+        2327,
+        2723,
+        2621
+      ],
+      "left": 36,
+      "top": 2327,
+      "right": 2723,
+      "bottom": 2621,
+      "width": 2687,
+      "height": 294,
+      "confidence": 67.958,
+      "text": "SLRS LSS onatlich liegt u Jas Durchschnittseink oh"
+    },
+    {
+      "id": "l049",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 52,
+      "bbox": [
+        528,
+        2382,
+        2877,
+        2630
+      ],
+      "left": 528,
+      "top": 2382,
+      "right": 2877,
+      "bottom": 2630,
+      "width": 2349,
+      "height": 248,
+      "confidence": 79.802,
+      "text": "RO ann ist die Fi ; e ...cm und .000 Euro"
+    },
+    {
+      "id": "l050",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 51,
+      "bbox": [
+        1256,
+        2382,
+        2656,
+        2544
+      ],
+      "left": 1256,
+      "top": 2382,
+      "right": 2656,
+      "bottom": 2544,
+      "width": 1400,
+      "height": 162,
+      "confidence": 87.432,
+      "text": "Dann ai nd dass wir all nkommen bei 20"
+    },
+    {
+      "id": "l051",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 53,
+      "bbox": [
+        609,
+        2441,
+        2594,
+        2651
+      ],
+      "left": 609,
+      "top": 2441,
+      "right": 2594,
+      "bottom": 2651,
+      "width": 1985,
+      "height": 210,
+      "confidence": 81.941,
+      "text": "Sy rau allerdings sch und ...m und ... Stund"
+    },
+    {
+      "id": "l052",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 54,
+      "bbox": [
+        25,
+        2445,
+        2806,
+        2732
+      ],
+      "left": 25,
+      "top": 2445,
+      "right": 2806,
+      "bottom": 2732,
+      "width": 2781,
+      "height": 287,
+      "confidence": 73.82,
+      "text": "SSM ES RO schon meist weg en und ..."
+    },
+    {
+      "id": "l053",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 55,
+      "bbox": [
+        156,
+        2538,
+        2256,
+        2804
+      ],
+      "left": 156,
+      "top": 2538,
+      "right": 2256,
+      "bottom": 2804,
+      "width": 2100,
+      "height": 266,
+      "confidence": 63.303,
+      "text": "Sx x Sx Sx So Ist es denn von Vortei |"
+    },
+    {
+      "id": "l054",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 56,
+      "bbox": [
+        15,
+        2632,
+        2159,
+        2844
+      ],
+      "left": 15,
+      "top": 2632,
+      "right": 2159,
+      "bottom": 2844,
+      "width": 2144,
+      "height": 212,
+      "confidence": 63.604,
+      "text": "SSMS Oe ee Sg Nattrlich orteil, aus Berlin zu sei"
+    },
+    {
+      "id": "l055",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 57,
+      "bbox": [
+        1389,
+        2636,
+        2216,
+        2756
+      ],
+      "left": 1389,
+      "top": 2636,
+      "right": 2216,
+      "bottom": 2756,
+      "width": 827,
+      "height": 120,
+      "confidence": 96.371,
+      "text": "ich hat Berlin i sein?"
+    },
+    {
+      "id": "l056",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 58,
+      "bbox": [
+        35,
+        2676,
+        2112,
+        2926
+      ],
+      "left": 35,
+      "top": 2676,
+      "right": 2112,
+      "bottom": 2926,
+      "width": 2077,
+      "height": 250,
+      "confidence": 77.191,
+      "text": "SREY SREP LS elektroni in der Welt einen b"
+    },
+    {
+      "id": "l057",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 59,
+      "bbox": [
+        1407,
+        2699,
+        2432,
+        2798
+      ],
+      "left": 1407,
+      "top": 2699,
+      "right": 2432,
+      "bottom": 2798,
+      "width": 1025,
+      "height": 99,
+      "confidence": 86.571,
+      "text": "nische Musik ge inen besonderen Sta"
+    },
+    {
+      "id": "l058",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 60,
+      "bbox": [
+        1713,
+        2701,
+        2503,
+        2808
+      ],
+      "left": 1713,
+      "top": 2701,
+      "right": 2503,
+      "bottom": 2808,
+      "width": 790,
+      "height": 107,
+      "confidence": 96.501,
+      "text": "geht. tus"
+    },
+    {
+      "id": "l059",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 61,
+      "bbox": [
+        196,
+        2708,
+        2715,
+        2966
+      ],
+      "left": 196,
+      "top": 2708,
+      "right": 2715,
+      "bottom": 2966,
+      "width": 2519,
+      "height": 258,
+      "confidence": 77.558,
+      "text": "ISSO ILS Garant d Allerdin , wenn es"
+    },
+    {
+      "id": "l060",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 62,
+      "bbox": [
+        715,
+        2708,
+        2798,
+        2950
+      ],
+      "left": 715,
+      "top": 2708,
+      "right": 2798,
+      "bottom": 2950,
+      "width": 2083,
+      "height": 242,
+      "confidence": 83.631,
+      "text": "ies afur, dass m gs ist das W . um"
+    },
+    {
+      "id": "l061",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 63,
+      "bbox": [
+        1252,
+        2762,
+        2738,
+        2926
+      ],
+      "left": 1252,
+      "top": 2762,
+      "right": 2738,
+      "bottom": 2926,
+      "width": 1486,
+      "height": 164,
+      "confidence": 93.781,
+      "text": "wied an ein guter DJ i ohnen in der S"
+    },
+    {
+      "id": "l062",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 64,
+      "bbox": [
+        1289,
+        2762,
+        2930,
+        2926
+      ],
+      "left": 1289,
+      "top": 2762,
+      "right": 2930,
+      "bottom": 2926,
+      "width": 1641,
+      "height": 164,
+      "confidence": 94.623,
+      "text": "ieder auf sehr ist. Gerade i r Stadt kein"
+    },
+    {
+      "id": "l063",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 65,
+      "bbox": [
+        1609,
+        2803,
+        2806,
+        2935
+      ],
+      "left": 1609,
+      "top": 2803,
+      "right": 2806,
+      "bottom": 2935,
+      "width": 1197,
+      "height": 132,
+      "confidence": 94.867,
+      "text": "gute DJs. Helfen im Ausland treffe ich i"
+    },
+    {
+      "id": "l064",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 66,
+      "bbox": [
+        1989,
+        2825,
+        2937,
+        2926
+      ],
+      "left": 1989,
+      "top": 2825,
+      "right": 2937,
+      "bottom": 2926,
+      "width": 948,
+      "height": 101,
+      "confidence": 93.499,
+      "text": "tut es daher nicht wirklich e ich immer"
+    },
+    {
+      "id": "l065",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 67,
+      "bbox": [
+        2566,
+        2875,
+        2962,
+        2947
+      ],
+      "left": 2566,
+      "top": 2875,
+      "right": 2962,
+      "bottom": 2947,
+      "width": 396,
+      "height": 72,
+      "confidence": 78.452,
+      "text": ". proud erzahle ich"
+    },
+    {
+      "id": "l066",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1254,
+        2951,
+        1756,
+        2989
+      ],
+      "left": 1254,
+      "top": 2951,
+      "right": 1756,
+      "bottom": 2989,
+      "width": 502,
+      "height": 38,
+      "confidence": 95.11,
+      "text": "naturlich von der Stadt"
+    },
+    {
+      "id": "l067",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        805,
+        3208,
+        1974,
+        3372
+      ],
+      "left": 805,
+      "top": 3208,
+      "right": 1974,
+      "bottom": 3372,
+      "width": 1169,
+      "height": 164,
+      "confidence": 40.0,
+      "text": "| = oif- are"
+    },
+    {
+      "id": "l068",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1101,
+        3284,
+        2078,
+        3439
+      ],
+      "left": 1101,
+      "top": 3284,
+      "right": 2078,
+      "bottom": 3439,
+      "width": 977,
+      "height": 155,
+      "confidence": 64.272,
+      "text": "4 al de/artists/Demir"
+    },
+    {
+      "id": "l069",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        964,
+        3306,
+        1643,
+        3383
+      ],
+      "left": 964,
+      "top": 3306,
+      "right": 1643,
+      "bottom": 3383,
+      "width": 679,
+      "height": 77,
+      "confidence": 64.601,
+      "text": "; www.pentagonik."
+    }
+  ]
+}

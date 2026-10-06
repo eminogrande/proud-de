@@ -1,0 +1,147 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        290,
+        377,
+        850,
+        470
+      ],
+      "left": 290,
+      "top": 377,
+      "right": 850,
+      "bottom": 470,
+      "width": 560,
+      "height": 93,
+      "confidence": 51.25,
+      "text": "24.-29.01.09"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        293,
+        493,
+        1555,
+        585
+      ],
+      "left": 293,
+      "top": 493,
+      "right": 1555,
+      "bottom": 585,
+      "width": 1262,
+      "height": 92,
+      "confidence": 90.351,
+      "text": "IM BALLHAUS NAUNYNSTRASSE"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        290,
+        609,
+        1705,
+        650
+      ],
+      "left": 290,
+      "top": 609,
+      "right": 1705,
+      "bottom": 650,
+      "width": 1415,
+      "height": 41,
+      "confidence": 81.712,
+      "text": "IM RAHMEN VON DOGLAND — JUNGES POSTMIGRANTISCHES THEATERFESTIVAL"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        394,
+        2975,
+        1547,
+        3307
+      ],
+      "left": 394,
+      "top": 2975,
+      "right": 1547,
+      "bottom": 3307,
+      "width": 1153,
+      "height": 332,
+      "confidence": 40.477,
+      "text": "heat"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        320,
+        3375,
+        1687,
+        3475
+      ],
+      "left": 320,
+      "top": 3375,
+      "right": 1687,
+      "bottom": 3475,
+      "width": 1367,
+      "height": 100,
+      "confidence": 85.272,
+      "text": "CHOREOGRAFIE: KADIR MEMIS ALIAS >>AMIGO<"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        320,
+        3483,
+        1532,
+        3559
+      ],
+      "left": 320,
+      "top": 3483,
+      "right": 1532,
+      "bottom": 3559,
+      "width": 1212,
+      "height": 76,
+      "confidence": 88.451,
+      "text": "BERATUNG: ZULA LEMES, KOMPOSITION: NEVZAT AKPINAR"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        320,
+        3561,
+        1893,
+        3615
+      ],
+      "left": 320,
+      "top": 3561,
+      "right": 1893,
+      "bottom": 3615,
+      "width": 1573,
+      "height": 54,
+      "confidence": 82.082,
+      "text": "MIT KADIR MEMIS ALIAS >>AMIGO<< UND YAVUZ TOPUZ ALIAS >>RISK ONE<<"
+    }
+  ]
+}

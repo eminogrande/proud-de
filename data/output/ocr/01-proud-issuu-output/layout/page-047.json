@@ -1,0 +1,87 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3069,
+        83,
+        3268,
+        131
+      ],
+      "left": 3069,
+      "top": 83,
+      "right": 3268,
+      "bottom": 131,
+      "width": 199,
+      "height": 48,
+      "confidence": 96.506,
+      "text": "style icon"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        752,
+        3260,
+        2809,
+        3502
+      ],
+      "left": 752,
+      "top": 3260,
+      "right": 2809,
+      "bottom": 3502,
+      "width": 2057,
+      "height": 242,
+      "confidence": 96.718,
+      "text": "ALEXANDER"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1072,
+        3582,
+        2508,
+        3833
+      ],
+      "left": 1072,
+      "top": 3582,
+      "right": 2508,
+      "bottom": 3833,
+      "width": 1436,
+      "height": 251,
+      "confidence": 92.586,
+      "text": "MOLOKO"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1221,
+        3906,
+        1434,
+        4007
+      ],
+      "left": 1221,
+      "top": 3906,
+      "right": 1434,
+      "bottom": 4007,
+      "width": 213,
+      "height": 101,
+      "confidence": 23.522,
+      "text": "288)"
+    }
+  ]
+}

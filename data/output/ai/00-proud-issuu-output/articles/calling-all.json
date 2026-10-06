@@ -1,0 +1,22 @@
+{
+  "title": "calling all",
+  "summary": "This article is a call for promoters to submit information about parties and events to be included in the magazine. It specifies a submission deadline and an email address.",
+  "blocks": [
+    {
+      "pageNumber": 31,
+      "spreadPages": [
+        30,
+        31
+      ],
+      "sectionIds": [
+        "p031s12"
+      ],
+      "titles": [
+        "calling all"
+      ],
+      "markdown": "## calling all\n\npromoters:\n\nParties and events painfully missed here?\n\nThe submission deadline is the second Friday of the month. navigator@proudmagazine.de",
+      "text": "calling all\npromoters:\nParties and events painfully missed here?\nThe submission deadline is the second Friday of the month. navigator@proudmagazine.de",
+      "pageImage": null
+    }
+  ]
+}

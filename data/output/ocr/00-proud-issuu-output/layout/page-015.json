@@ -1,0 +1,427 @@
+{
+  "scale": 2.0,
+  "imageWidth": 4478,
+  "imageHeight": 3002,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        41,
+        0,
+        4426,
+        107
+      ],
+      "left": 41,
+      "top": 0,
+      "right": 4426,
+      "bottom": 107,
+      "width": 4385,
+      "height": 107,
+      "confidence": 55.951,
+      "text": "a> a Axe x i ¢ a e 4."
+    },
+    {
+      "id": "l002",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2,
+        24,
+        4466,
+        143
+      ],
+      "left": 2,
+      "top": 24,
+      "right": 4466,
+      "bottom": 143,
+      "width": 4464,
+      "height": 119,
+      "confidence": 40.21,
+      "text": "that. ; we Wo Ne th ee 4 DR 3,"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3309,
+        108,
+        4264,
+        123
+      ],
+      "left": 3309,
+      "top": 108,
+      "right": 4264,
+      "bottom": 123,
+      "width": 955,
+      "height": 15,
+      "confidence": 43.651,
+      "text": ". = a"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        63,
+        117,
+        717,
+        179
+      ],
+      "left": 63,
+      "top": 117,
+      "right": 717,
+      "bottom": 179,
+      "width": 654,
+      "height": 62,
+      "confidence": 38.383,
+      "text": "a Ave."
+    },
+    {
+      "id": "l005",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        4284,
+        126,
+        4476,
+        240
+      ],
+      "left": 4284,
+      "top": 126,
+      "right": 4476,
+      "bottom": 240,
+      "width": 192,
+      "height": 114,
+      "confidence": 25.035,
+      "text": "oe} Re"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        26,
+        143,
+        1076,
+        232
+      ],
+      "left": 26,
+      "top": 143,
+      "right": 1076,
+      "bottom": 232,
+      "width": 1050,
+      "height": 89,
+      "confidence": 39.946,
+      "text": "dp iy ."
+    },
+    {
+      "id": "l007",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        0,
+        161,
+        1084,
+        228
+      ],
+      "left": 0,
+      "top": 161,
+      "right": 1084,
+      "bottom": 228,
+      "width": 1084,
+      "height": 67,
+      "confidence": 63.783,
+      "text": "M4 vie -Yan Bori a ote aft und We é ."
+    },
+    {
+      "id": "l008",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1018,
+        171,
+        1035,
+        182
+      ],
+      "left": 1018,
+      "top": 171,
+      "right": 1035,
+      "bottom": 182,
+      "width": 17,
+      "height": 11,
+      "confidence": 51.064,
+      "text": "~"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        257,
+        178,
+        1473,
+        521
+      ],
+      "left": 257,
+      "top": 178,
+      "right": 1473,
+      "bottom": 521,
+      "width": 1216,
+      "height": 343,
+      "confidence": 76.389,
+      "text": "gegen die proud Redaktion auf. is ie yc"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        263,
+        233,
+        1083,
+        316
+      ],
+      "left": 263,
+      "top": 233,
+      "right": 1083,
+      "bottom": 316,
+      "width": 820,
+      "height": 83,
+      "confidence": 75.478,
+      "text": "forderten ihn zu einem Zeichenbattle 4 -® a"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        42,
+        301,
+        490,
+        532
+      ],
+      "left": 42,
+      "top": 301,
+      "right": 490,
+      "bottom": 532,
+      "width": 448,
+      "height": 231,
+      "confidence": 66.351,
+      "text": "ve: BS www. .de"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        220,
+        311,
+        967,
+        354
+      ],
+      "left": 220,
+      "top": 311,
+      "right": 967,
+      "bottom": 354,
+      "width": 747,
+      "height": 43,
+      "confidence": 77.447,
+      "text": "*,'Seit 2000 mixt er die Beats fiir K.I.Z. —_—_"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        207,
+        342,
+        822,
+        400
+      ],
+      "left": 207,
+      "top": 342,
+      "right": 822,
+      "bottom": 400,
+      "width": 615,
+      "height": 58,
+      "confidence": 89.393,
+      "text": "x Aim Januar werdet ihr ihn auf der proud"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        256,
+        410,
+        562,
+        440
+      ],
+      "left": 256,
+      "top": 410,
+      "right": 562,
+      "bottom": 440,
+      "width": 306,
+      "height": 30,
+      "confidence": 96.04,
+      "text": "‘Launch Party sehen."
+    },
+    {
+      "id": "l015",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        4170,
+        480,
+        4177,
+        487
+      ],
+      "left": 4170,
+      "top": 480,
+      "right": 4177,
+      "bottom": 487,
+      "width": 7,
+      "height": 7,
+      "confidence": 44.38,
+      "text": ","
+    },
+    {
+      "id": "l016",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        0,
+        848,
+        403,
+        882
+      ],
+      "left": 0,
+      "top": 848,
+      "right": 403,
+      "bottom": 882,
+      "width": 403,
+      "height": 34,
+      "confidence": 35.121,
+      "text": "- na Mie"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        49,
+        984,
+        377,
+        1028
+      ],
+      "left": 49,
+      "top": 984,
+      "right": 377,
+      "bottom": 1028,
+      "width": 328,
+      "height": 44,
+      "confidence": 26.409,
+      "text": "7 a"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3866,
+        1004,
+        4333,
+        1099
+      ],
+      "left": 3866,
+      "top": 1004,
+      "right": 4333,
+      "bottom": 1099,
+      "width": 467,
+      "height": 95,
+      "confidence": 57.231,
+      "text": "y=? oe 3 We s uns hat"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2308,
+        1251,
+        2936,
+        1302
+      ],
+      "left": 2308,
+      "top": 1251,
+      "right": 2936,
+      "bottom": 1302,
+      "width": 628,
+      "height": 51,
+      "confidence": 91.146,
+      "text": "4 Unsere schonste Kindheitserinnerung"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 21,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        368,
+        1642,
+        526,
+        1679
+      ],
+      "left": 368,
+      "top": 1642,
+      "right": 526,
+      "bottom": 1679,
+      "width": 158,
+      "height": 37,
+      "confidence": 88.222,
+      "text": "Alptraum /"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 22,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        405,
+        1675,
+        525,
+        1762
+      ],
+      "left": 405,
+      "top": 1675,
+      "right": 525,
+      "bottom": 1762,
+      "width": 120,
+      "height": 87,
+      "confidence": 46.064,
+      "text": "wd 4"
+    }
+  ]
+}

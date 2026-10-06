@@ -1,0 +1,187 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2817,
+        88,
+        2856,
+        132
+      ],
+      "left": 2817,
+      "top": 88,
+      "right": 2856,
+      "bottom": 132,
+      "width": 39,
+      "height": 44,
+      "confidence": 61.024,
+      "text": "4"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        899,
+        307,
+        3108,
+        364
+      ],
+      "left": 899,
+      "top": 307,
+      "right": 3108,
+      "bottom": 364,
+      "width": 2209,
+      "height": 57,
+      "confidence": 96.197,
+      "text": "Julien Kwan Authorized Reseller"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        951,
+        1029,
+        1994,
+        1103
+      ],
+      "left": 951,
+      "top": 1029,
+      "right": 1994,
+      "bottom": 1103,
+      "width": 1043,
+      "height": 74,
+      "confidence": 67.637,
+      "text": "Y Y"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        867,
+        1109,
+        2394,
+        1183
+      ],
+      "left": 867,
+      "top": 1109,
+      "right": 2394,
+      "bottom": 1183,
+      "width": 1527,
+      "height": 74,
+      "confidence": 92.757,
+      "text": "D D D"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        720,
+        1537,
+        2627,
+        1629
+      ],
+      "left": 720,
+      "top": 1537,
+      "right": 2627,
+      "bottom": 1629,
+      "width": 1907,
+      "height": 92,
+      "confidence": 93.91,
+      "text": "Serving the Mac-Community since 1990"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        561,
+        1667,
+        2785,
+        1739
+      ],
+      "left": 561,
+      "top": 1667,
+      "right": 2785,
+      "bottom": 1739,
+      "width": 2224,
+      "height": 72,
+      "confidence": 84.075,
+      "text": "Vorbergstr. 2 - 10823 Berlin-Sch6neberg - Fon: 030/617 00 51-0"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        597,
+        1764,
+        2749,
+        1821
+      ],
+      "left": 597,
+      "top": 1764,
+      "right": 2749,
+      "bottom": 1821,
+      "width": 2152,
+      "height": 57,
+      "confidence": 70.544,
+      "text": "www.deinmac.de - info@deinmac.de : Mo.—Fr. 10—19 : Sa. 12-16"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        274,
+        4312,
+        1214,
+        4370
+      ],
+      "left": 274,
+      "top": 4312,
+      "right": 1214,
+      "bottom": 4370,
+      "width": 940,
+      "height": 58,
+      "confidence": 91.279,
+      "text": "Autorisierter Professionelles"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 12,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        298,
+        4365,
+        1250,
+        4420
+      ],
+      "left": 298,
+      "top": 4365,
+      "right": 1250,
+      "bottom": 4420,
+      "width": 952,
+      "height": 55,
+      "confidence": 91.328,
+      "text": "Fachhandel Farbmamagement"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "sections": [
+    {
+      "title": "battle convention",
+      "kind": "article",
+      "titleLineIds": [
+        "l006",
+        "l010"
+      ],
+      "lineIds": [
+        "l006",
+        "l010",
+        "l013",
+        "l016",
+        "l018",
+        "l020",
+        "l022",
+        "l023",
+        "l024"
+      ]
+    },
+    {
+      "title": "the helder hype",
+      "kind": "article",
+      "titleLineIds": [
+        "l025"
+      ],
+      "lineIds": [
+        "l025",
+        "l027",
+        "l028",
+        "l029",
+        "l030",
+        "l032",
+        "l033",
+        "l034"
+      ]
+    },
+    {
+      "title": "José Feliciano - Buena Vista in",
+      "kind": "article",
+      "titleLineIds": [
+        "l060"
+      ],
+      "lineIds": [
+        "l043",
+        "l044",
+        "l045",
+        "l046",
+        "l048",
+        "l051",
+        "l053",
+        "l056",
+        "l058",
+        "l060",
+        "l062",
+        "l065"
+      ]
+    },
+    {
+      "title": "radioskateboards",
+      "kind": "promo",
+      "titleLineIds": [
+        "l064"
+      ],
+      "lineIds": [
+        "l064",
+        "l069",
+        "l071",
+        "l073",
+        "l075",
+        "l077",
+        "l080",
+        "l084",
+        "l088"
+      ]
+    },
+    {
+      "title": "Freitag keine UNI? Donnerstag in den Club!",
+      "kind": "event",
+      "titleLineIds": [
+        "l002",
+        "l003"
+      ],
+      "lineIds": [
+        "l002",
+        "l003",
+        "l004",
+        "l005",
+        "l007",
+        "l008",
+        "l009",
+        "l011",
+        "l012",
+        "l015",
+        "l017",
+        "l019",
+        "l021"
+      ]
+    },
+    {
+      "title": "House of Holland",
+      "kind": "listing",
+      "titleLineIds": [
+        "l036"
+      ],
+      "lineIds": [
+        "l035",
+        "l036",
+        "l037",
+        "l038",
+        "l039",
+        "l040",
+        "l042"
+      ]
+    },
+    {
+      "title": "invisible men",
+      "kind": "article",
+      "titleLineIds": [
+        "l041"
+      ],
+      "lineIds": [
+        "l041",
+        "l047",
+        "l050",
+        "l052",
+        "l055",
+        "l057",
+        "l059",
+        "l061",
+        "l063",
+        "l066",
+        "l067",
+        "l068",
+        "l070",
+        "l072",
+        "l074",
+        "l076",
+        "l078"
+      ]
+    },
+    {
+      "title": "advertising option",
+      "kind": "utility",
+      "titleLineIds": [
+        "l001"
+      ],
+      "lineIds": [
+        "l001"
+      ]
+    }
+  ]
+}

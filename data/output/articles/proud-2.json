@@ -1,0 +1,72 @@
+{
+  "slug": "proud-2",
+  "title": "proud",
+  "magazineSlug": "01-proud-issuu-output",
+  "magazineTitle": "01 proud issuu_output",
+  "publicationDate": null,
+  "sourcePdf": "01 proud issuu_output.pdf",
+  "authors": [],
+  "tags": [
+    "chat"
+  ],
+  "pages": {
+    "start": 29,
+    "end": 29
+  },
+  "summary": "proud Damn. Yee!",
+  "excerpt": "proud Damn. Yee! Wir lieben Zeichenbattles und deshalb wird ab ungefähr jetzt in jeder Ausgabe eins zu bewundern sein. Unser schlimmster Alptraum Unsere schönste Kindheitserinnerung Was uns geprägt hat Was uns glücklich macht Grouplies Unser letztes Frühstück…",
+  "wordCount": 54,
+  "bodyText": "proud\nDamn. Yee! Wir lieben Zeichenbattles und deshalb wird ab ungefähr jetzt in jeder Ausgabe eins zu bewundern sein.\nUnser schlimmster Alptraum\nUnsere schönste Kindheitserinnerung\nWas uns geprägt hat\nWas uns glücklich macht\nGrouplies\nUnser letztes Frühstück\nWenn wir nur noch einen Tag zu leben hätten\nProud in 50 Jahren\nHip Hop\nproud 29",
+  "markdown": "# proud\n\n> Quelle: 01 proud issuu_output, Seiten 29-29\n\n## Seite 29\n\n## proud\n\nDamn. Yee! Wir lieben Zeichenbattles und deshalb wird ab ungefähr jetzt in jeder Ausgabe eins zu bewundern sein.\n\nUnser schlimmster Alptraum\n\nUnsere schönste Kindheitserinnerung\n\nWas uns geprägt hat\n\nWas uns glücklich macht\n\nGrouplies\n\nUnser letztes Frühstück\n\nWenn wir nur noch einen Tag zu leben hätten\n\nProud in 50 Jahren\n\nHip Hop\n\nproud 29\n",
+  "previewImage": "previews/proud-2.png",
+  "pageImages": [
+    {
+      "pageNumber": 29,
+      "image": "page-images/proud-2/page-029.jpg",
+      "width": 1677,
+      "height": 2247
+    }
+  ],
+  "pageDetails": [
+    {
+      "pageNumber": 29,
+      "text": "proud\nDamn. Yee! Wir lieben Zeichenbattles und deshalb wird ab ungefähr jetzt in jeder Ausgabe eins zu bewundern sein.\nUnser schlimmster Alptraum\nUnsere schönste Kindheitserinnerung\nWas uns geprägt hat\nWas uns glücklich macht\nGrouplies\nUnser letztes Frühstück\nWenn wir nur noch einen Tag zu leben hätten\nProud in 50 Jahren\nHip Hop\nproud 29",
+      "nativeText": "",
+      "ocrMarkdown": "<file name=\"01 proud issuu_output-page-029.pdf\">\nchat\n\n# proud\n\nDamn. Yee! Wir lieben Zeichenbattles und deshalb wird ab ungefähr jetzt in jeder Ausgabe eins zu bewundern sein.\n\n![img-0.jpeg](img-0.jpeg)\n\nUnser schlimmster Alptraum\n\nUnsere schönste Kindheitserinnerung\n\nWas uns geprägt hat\n\n![img-1.jpeg](img-1.jpeg)\n\nWas uns glücklich macht\n\nGrouplies\n\nUnser letztes Frühstück\n\nWenn wir nur noch einen Tag zu leben hätten\n\n![img-2.jpeg](img-2.jpeg)\n\nProud in 50 Jahren\n\n![img-3.jpeg](img-3.jpeg)\n\nHip Hop\n\n![img-4.jpeg](img-4.jpeg)\n\n![img-5.jpeg](img-5.jpeg)\n\n![img-6.jpeg](img-6.jpeg)\n\nproud 29\n</file>",
+      "ocrSource": "openrouter:mistral-ocr",
+      "ocrImageCount": 7,
+      "ocrRawFile": "/Users/eminmahrt/Developer/proud-de/data/output/ocr/01-proud-issuu-output/pages/page-029.json",
+      "displayMarkdown": "## proud\n\nDamn. Yee! Wir lieben Zeichenbattles und deshalb wird ab ungefähr jetzt in jeder Ausgabe eins zu bewundern sein.\n\nUnser schlimmster Alptraum\n\nUnsere schönste Kindheitserinnerung\n\nWas uns geprägt hat\n\nWas uns glücklich macht\n\nGrouplies\n\nUnser letztes Frühstück\n\nWenn wir nur noch einen Tag zu leben hätten\n\nProud in 50 Jahren\n\nHip Hop\n\nproud 29",
+      "sectionIds": [
+        "p029s01"
+      ],
+      "titles": [
+        "proud"
+      ]
+    }
+  ],
+  "contentBlocks": [
+    {
+      "pageNumber": 29,
+      "spreadPages": [
+        28,
+        29
+      ],
+      "sectionIds": [
+        "p029s01"
+      ],
+      "titles": [
+        "proud"
+      ],
+      "markdown": "## proud\n\nDamn. Yee! Wir lieben Zeichenbattles und deshalb wird ab ungefähr jetzt in jeder Ausgabe eins zu bewundern sein.\n\nUnser schlimmster Alptraum\n\nUnsere schönste Kindheitserinnerung\n\nWas uns geprägt hat\n\nWas uns glücklich macht\n\nGrouplies\n\nUnser letztes Frühstück\n\nWenn wir nur noch einen Tag zu leben hätten\n\nProud in 50 Jahren\n\nHip Hop\n\nproud 29",
+      "text": "proud\nDamn. Yee! Wir lieben Zeichenbattles und deshalb wird ab ungefähr jetzt in jeder Ausgabe eins zu bewundern sein.\nUnser schlimmster Alptraum\nUnsere schönste Kindheitserinnerung\nWas uns geprägt hat\nWas uns glücklich macht\nGrouplies\nUnser letztes Frühstück\nWenn wir nur noch einen Tag zu leben hätten\nProud in 50 Jahren\nHip Hop\nproud 29",
+      "pageImage": {
+        "pageNumber": 29,
+        "image": "page-images/proud-2/page-029.jpg",
+        "width": 1677,
+        "height": 2247
+      }
+    }
+  ],
+  "contentHash": "a285de228d67696ef392c38f4a9c58ff0995ad15b5f5fdceb7f0a1eb97a2072d"
+}

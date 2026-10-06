@@ -1,0 +1,69 @@
+{
+  "id": "gen-1778146725-t53eMRul0OOTMvSqIjRv",
+  "object": "chat.completion",
+  "created": 1778146725,
+  "model": "google/gemini-2.5-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "standard",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "OK",
+        "refusal": null,
+        "reasoning": null,
+        "annotations": [
+          {
+            "type": "file",
+            "file": {
+              "hash": "aebe44af7c1f03175115750e25a8eaee6b5f4abe9e96e42ae9a396dce3970419",
+              "name": "00 proud issuu_output-page-002.pdf",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "<file name=\"00 proud issuu_output-page-002.pdf\">"
+                },
+                {
+                  "type": "text",
+                  "text": "advertising option\nadvertising option\n\n„THE BEVERAGE YOU ARE ABOUT TO ENJOY MAY BE EXTREMELY HOT“\n\nBOOK\n\n„FÜR KINDER UNTER 3 JAHREN UNZUGÄNGLICH AUFBEWAHREN“\n\nME"
+                },
+                {
+                  "type": "text",
+                  "text": "</file>"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 83,
+    "completion_tokens": 1,
+    "total_tokens": 84,
+    "cost": 0.002027126,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 2.74e-05,
+      "upstream_inference_prompt_cost": 2.49e-05,
+      "upstream_inference_completions_cost": 2.5e-06
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

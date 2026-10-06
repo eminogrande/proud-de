@@ -1,0 +1,1067 @@
+{
+  "scale": 2.0,
+  "imageWidth": 4478,
+  "imageHeight": 3002,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        78,
+        60,
+        209,
+        110
+      ],
+      "left": 78,
+      "top": 60,
+      "right": 209,
+      "bottom": 110,
+      "width": 131,
+      "height": 50,
+      "confidence": 82.053,
+      "text": "7days"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        4268,
+        60,
+        4399,
+        111
+      ],
+      "left": 4268,
+      "top": 60,
+      "right": 4399,
+      "bottom": 111,
+      "width": 131,
+      "height": 51,
+      "confidence": 90.993,
+      "text": "7days"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3084,
+        153,
+        4058,
+        204
+      ],
+      "left": 3084,
+      "top": 153,
+      "right": 4058,
+      "bottom": 204,
+      "width": 974,
+      "height": 51,
+      "confidence": 94.21,
+      "text": "zeigt dir die Woche zweier Fashion-Gurus,"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2959,
+        218,
+        4084,
+        257
+      ],
+      "left": 2959,
+      "top": 218,
+      "right": 4084,
+      "bottom": 257,
+      "width": 1125,
+      "height": 39,
+      "confidence": 93.46,
+      "text": "die wissen wie man sich darstellt. Fuhle dich frei"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        2958,
+        282,
+        3985,
+        333
+      ],
+      "left": 2958,
+      "top": 282,
+      "right": 3985,
+      "bottom": 333,
+      "width": 1027,
+      "height": 51,
+      "confidence": 93.392,
+      "text": "sie zu kopieren, anzubeten und zu verfolgen."
+    },
+    {
+      "id": "l006",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2928,
+        388,
+        3792,
+        437
+      ],
+      "left": 2928,
+      "top": 388,
+      "right": 3792,
+      "bottom": 437,
+      "width": 864,
+      "height": 49,
+      "confidence": 93.001,
+      "text": "FREITAG SAMSTAG"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        4015,
+        388,
+        4343,
+        434
+      ],
+      "left": 4015,
+      "top": 388,
+      "right": 4343,
+      "bottom": 434,
+      "width": 328,
+      "height": 46,
+      "confidence": 96.307,
+      "text": "SONNTAG"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 18,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1772,
+        391,
+        2144,
+        437
+      ],
+      "left": 1772,
+      "top": 391,
+      "right": 2144,
+      "bottom": 437,
+      "width": 372,
+      "height": 46,
+      "confidence": 90.489,
+      "text": "MITTWOCH"
+    },
+    {
+      "id": "l009",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        689,
+        394,
+        1556,
+        440
+      ],
+      "left": 689,
+      "top": 394,
+      "right": 1556,
+      "bottom": 440,
+      "width": 867,
+      "height": 46,
+      "confidence": 92.875,
+      "text": "MONTAG DIENSTAG"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        77,
+        528,
+        512,
+        558
+      ],
+      "left": 77,
+      "top": 528,
+      "right": 512,
+      "bottom": 558,
+      "width": 435,
+      "height": 30,
+      "confidence": 91.735,
+      "text": "Unser Fotograf hat-von"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        77,
+        571,
+        537,
+        602
+      ],
+      "left": 77,
+      "top": 571,
+      "right": 537,
+      "bottom": 602,
+      "width": 460,
+      "height": 31,
+      "confidence": 90.632,
+      "text": "deinem Flirtblick geschwarmt,"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 24,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        668,
+        584,
+        1435,
+        618
+      ],
+      "left": 668,
+      "top": 584,
+      "right": 1435,
+      "bottom": 618,
+      "width": 767,
+      "height": 34,
+      "confidence": 67.501,
+      "text": "Fad 4 S"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        77,
+        613,
+        422,
+        638
+      ],
+      "left": 77,
+      "top": 613,
+      "right": 422,
+      "bottom": 638,
+      "width": 345,
+      "height": 25,
+      "confidence": 95.378,
+      "text": "machst du das immer?"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        78,
+        655,
+        494,
+        683
+      ],
+      "left": 78,
+      "top": 655,
+      "right": 494,
+      "bottom": 683,
+      "width": 416,
+      "height": 28,
+      "confidence": 86.978,
+      "text": "Naturlich nicht, nur fur euch!"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 2,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        78,
+        698,
+        393,
+        722
+      ],
+      "left": 78,
+      "top": 698,
+      "right": 393,
+      "bottom": 722,
+      "width": 315,
+      "height": 24,
+      "confidence": 82.791,
+      "text": "Blub bia bla bla blub!"
+    },
+    {
+      "id": "l016",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        78,
+        741,
+        516,
+        766
+      ],
+      "left": 78,
+      "top": 741,
+      "right": 516,
+      "bottom": 766,
+      "width": 438,
+      "height": 25,
+      "confidence": 96.146,
+      "text": "Find ich auch nicht schlecht..."
+    },
+    {
+      "id": "l017",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        77,
+        783,
+        479,
+        808
+      ],
+      "left": 77,
+      "top": 783,
+      "right": 479,
+      "bottom": 808,
+      "width": 402,
+      "height": 25,
+      "confidence": 93.914,
+      "text": "Aber warum versucht ihr es"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        78,
+        826,
+        507,
+        850
+      ],
+      "left": 78,
+      "top": 826,
+      "right": 507,
+      "bottom": 850,
+      "width": 429,
+      "height": 24,
+      "confidence": 92.644,
+      "text": "nicht einmal mit einer echten"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 2,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        78,
+        867,
+        454,
+        898
+      ],
+      "left": 78,
+      "top": 867,
+      "right": 454,
+      "bottom": 898,
+      "width": 376,
+      "height": 31,
+      "confidence": 90.338,
+      "text": "Frage, seid ihr zu blod um"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 2,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        77,
+        910,
+        496,
+        941
+      ],
+      "left": 77,
+      "top": 910,
+      "right": 496,
+      "bottom": 941,
+      "width": 419,
+      "height": 31,
+      "confidence": 79.443,
+      "text": "ein vernuinftiges Interview zu"
+    },
+    {
+      "id": "l021",
+      "blockNumber": 2,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        77,
+        952,
+        188,
+        977
+      ],
+      "left": 77,
+      "top": 952,
+      "right": 188,
+      "bottom": 977,
+      "width": 111,
+      "height": 25,
+      "confidence": 88.964,
+      "text": "fuhren?"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 2,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        78,
+        995,
+        500,
+        1025
+      ],
+      "left": 78,
+      "top": 995,
+      "right": 500,
+      "bottom": 1025,
+      "width": 422,
+      "height": 30,
+      "confidence": 84.82,
+      "text": "Keine Rickfragen bitte, wer"
+    },
+    {
+      "id": "l023",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        76,
+        1037,
+        544,
+        1067
+      ],
+      "left": 76,
+      "top": 1037,
+      "right": 544,
+      "bottom": 1067,
+      "width": 468,
+      "height": 30,
+      "confidence": 87.41,
+      "text": "zahit deine ganzen Klamotten?"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 25,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1045,
+        1059,
+        1061,
+        1067
+      ],
+      "left": 1045,
+      "top": 1059,
+      "right": 1061,
+      "bottom": 1067,
+      "width": 16,
+      "height": 8,
+      "confidence": 43.824,
+      "text": "le"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 25,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1005,
+        1065,
+        1038,
+        1076
+      ],
+      "left": 1005,
+      "top": 1065,
+      "right": 1038,
+      "bottom": 1076,
+      "width": 33,
+      "height": 11,
+      "confidence": 35.541,
+      "text": "ery"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        79,
+        1078,
+        445,
+        1103
+      ],
+      "left": 79,
+      "top": 1078,
+      "right": 445,
+      "bottom": 1103,
+      "width": 366,
+      "height": 25,
+      "confidence": 82.77,
+      "text": "Die Kreditkarte naturlich."
+    },
+    {
+      "id": "l027",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        78,
+        1122,
+        405,
+        1147
+      ],
+      "left": 78,
+      "top": 1122,
+      "right": 405,
+      "bottom": 1147,
+      "width": 327,
+      "height": 25,
+      "confidence": 96.519,
+      "text": "Bei Saturn und Media"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        78,
+        1164,
+        474,
+        1189
+      ],
+      "left": 78,
+      "top": 1164,
+      "right": 474,
+      "bottom": 1189,
+      "width": 396,
+      "height": 25,
+      "confidence": 95.945,
+      "text": "Markt kann man nicht mit"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        78,
+        1206,
+        513,
+        1235
+      ],
+      "left": 78,
+      "top": 1206,
+      "right": 513,
+      "bottom": 1235,
+      "width": 435,
+      "height": 29,
+      "confidence": 91.369,
+      "text": "Kreditkarte zahlen, wusstest"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        77,
+        1248,
+        195,
+        1273
+      ],
+      "left": 77,
+      "top": 1248,
+      "right": 195,
+      "bottom": 1273,
+      "width": 118,
+      "height": 25,
+      "confidence": 96.536,
+      "text": "du das?"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        79,
+        1292,
+        507,
+        1323
+      ],
+      "left": 79,
+      "top": 1292,
+      "right": 507,
+      "bottom": 1323,
+      "width": 428,
+      "height": 31,
+      "confidence": 88.091,
+      "text": "Ist doch scheifegal, da gibt’s"
+    },
+    {
+      "id": "l032",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        77,
+        1334,
+        532,
+        1364
+      ],
+      "left": 77,
+      "top": 1334,
+      "right": 532,
+      "bottom": 1364,
+      "width": 455,
+      "height": 30,
+      "confidence": 94.959,
+      "text": "doch gar keine Klamotten oder"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 8,
+      "bbox": [
+        78,
+        1376,
+        348,
+        1400
+      ],
+      "left": 78,
+      "top": 1376,
+      "right": 348,
+      "bottom": 1400,
+      "width": 270,
+      "height": 24,
+      "confidence": 96.27,
+      "text": "Schuhe zu kaufen!"
+    },
+    {
+      "id": "l034",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        168,
+        1418,
+        490,
+        1448
+      ],
+      "left": 168,
+      "top": 1418,
+      "right": 490,
+      "bottom": 1448,
+      "width": 322,
+      "height": 30,
+      "confidence": 93.54,
+      "text": "liebt geile Miezen die"
+    },
+    {
+      "id": "l035",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        77,
+        1461,
+        456,
+        1486
+      ],
+      "left": 77,
+      "top": 1461,
+      "right": 456,
+      "bottom": 1486,
+      "width": 379,
+      "height": 25,
+      "confidence": 91.52,
+      "text": "auf teure Sachen stehen."
+    },
+    {
+      "id": "l036",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        79,
+        1504,
+        427,
+        1533
+      ],
+      "left": 79,
+      "top": 1504,
+      "right": 427,
+      "bottom": 1533,
+      "width": 348,
+      "height": 29,
+      "confidence": 95.9,
+      "text": "Kann mich bitte jemand"
+    },
+    {
+      "id": "l037",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        77,
+        1545,
+        382,
+        1570
+      ],
+      "left": 77,
+      "top": 1545,
+      "right": 382,
+      "bottom": 1570,
+      "width": 305,
+      "height": 25,
+      "confidence": 90.621,
+      "text": "anderes Interviewen!"
+    },
+    {
+      "id": "l038",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        78,
+        1587,
+        473,
+        1616
+      ],
+      "left": 78,
+      "top": 1587,
+      "right": 473,
+      "bottom": 1616,
+      "width": 395,
+      "height": 29,
+      "confidence": 94.325,
+      "text": "Nein, aber danke fir deine"
+    },
+    {
+      "id": "l039",
+      "blockNumber": 4,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        78,
+        1631,
+        169,
+        1656
+      ],
+      "left": 78,
+      "top": 1631,
+      "right": 169,
+      "bottom": 1656,
+      "width": 91,
+      "height": 25,
+      "confidence": 96.561,
+      "text": "Fotos!"
+    },
+    {
+      "id": "l040",
+      "blockNumber": 29,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1212,
+        1744,
+        2186,
+        1809
+      ],
+      "left": 1212,
+      "top": 1744,
+      "right": 2186,
+      "bottom": 1809,
+      "width": 974,
+      "height": 65,
+      "confidence": 90.186,
+      "text": "MITTWOCH DONNERSTAG"
+    },
+    {
+      "id": "l041",
+      "blockNumber": 27,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        2908,
+        1745,
+        3232,
+        1791
+      ],
+      "left": 2908,
+      "top": 1745,
+      "right": 3232,
+      "bottom": 1791,
+      "width": 324,
+      "height": 46,
+      "confidence": 96.409,
+      "text": "SAMSTAG"
+    },
+    {
+      "id": "l042",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        129,
+        1751,
+        431,
+        1823
+      ],
+      "left": 129,
+      "top": 1751,
+      "right": 431,
+      "bottom": 1823,
+      "width": 302,
+      "height": 72,
+      "confidence": 96.563,
+      "text": "MONTAG"
+    },
+    {
+      "id": "l043",
+      "blockNumber": 26,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        665,
+        1751,
+        996,
+        1796
+      ],
+      "left": 665,
+      "top": 1751,
+      "right": 996,
+      "bottom": 1796,
+      "width": 331,
+      "height": 45,
+      "confidence": 92.353,
+      "text": "DIENSTAG"
+    },
+    {
+      "id": "l044",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        427,
+        1835,
+        434,
+        1843
+      ],
+      "left": 427,
+      "top": 1835,
+      "right": 434,
+      "bottom": 1843,
+      "width": 7,
+      "height": 8,
+      "confidence": 74.651,
+      "text": "<"
+    },
+    {
+      "id": "l045",
+      "blockNumber": 28,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3147,
+        1837,
+        3246,
+        1868
+      ],
+      "left": 3147,
+      "top": 1837,
+      "right": 3246,
+      "bottom": 1868,
+      "width": 99,
+      "height": 31,
+      "confidence": 50.541,
+      "text": "Yap"
+    },
+    {
+      "id": "l046",
+      "blockNumber": 29,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1135,
+        1850,
+        4343,
+        1885
+      ],
+      "left": 1135,
+      "top": 1850,
+      "right": 4343,
+      "bottom": 1885,
+      "width": 3208,
+      "height": 35,
+      "confidence": 71.899,
+      "text": "wt egw / ; Wer ist dein Fashion Hero?"
+    },
+    {
+      "id": "l047",
+      "blockNumber": 29,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        3940,
+        1898,
+        4312,
+        1933
+      ],
+      "left": 3940,
+      "top": 1898,
+      "right": 4312,
+      "bottom": 1933,
+      "width": 372,
+      "height": 35,
+      "confidence": 76.051,
+      "text": "»Uberhaupt Clueless“ die"
+    },
+    {
+      "id": "l048",
+      "blockNumber": 29,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        3938,
+        1945,
+        4338,
+        1974
+      ],
+      "left": 3938,
+      "top": 1945,
+      "right": 4338,
+      "bottom": 1974,
+      "width": 400,
+      "height": 29,
+      "confidence": 94.402,
+      "text": "Serie, da ist alles so schon"
+    },
+    {
+      "id": "l049",
+      "blockNumber": 29,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        3914,
+        1988,
+        4158,
+        2018
+      ],
+      "left": 3914,
+      "top": 1988,
+      "right": 4158,
+      "bottom": 2018,
+      "width": 244,
+      "height": 30,
+      "confidence": 92.227,
+      "text": "~ bunt und funky."
+    },
+    {
+      "id": "l050",
+      "blockNumber": 29,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        3937,
+        2030,
+        4263,
+        2060
+      ],
+      "left": 3937,
+      "top": 2030,
+      "right": 4263,
+      "bottom": 2060,
+      "width": 326,
+      "height": 30,
+      "confidence": 94.959,
+      "text": "Welchen Tipp hast du"
+    },
+    {
+      "id": "l051",
+      "blockNumber": 29,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        3936,
+        2073,
+        4298,
+        2098
+      ],
+      "left": 3936,
+      "top": 2073,
+      "right": 4298,
+      "bottom": 2098,
+      "width": 362,
+      "height": 25,
+      "confidence": 89.509,
+      "text": "fir Leute mit modischer"
+    },
+    {
+      "id": "l052",
+      "blockNumber": 29,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        3937,
+        2115,
+        4285,
+        2146
+      ],
+      "left": 3937,
+      "top": 2115,
+      "right": 4285,
+      "bottom": 2146,
+      "width": 348,
+      "height": 31,
+      "confidence": 91.36,
+      "text": "Geschmacksverirrung?"
+    },
+    {
+      "id": "l053",
+      "blockNumber": 8,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        78,
+        2925,
+        110,
+        2950
+      ],
+      "left": 78,
+      "top": 2925,
+      "right": 110,
+      "bottom": 2950,
+      "width": 32,
+      "height": 25,
+      "confidence": 96.943,
+      "text": "42"
+    }
+  ]
+}

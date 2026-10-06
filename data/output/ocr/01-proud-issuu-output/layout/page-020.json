@@ -1,0 +1,27 @@
+{
+  "scale": 2.0,
+  "imageWidth": 3353,
+  "imageHeight": 4494,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 1,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        216,
+        202,
+        952,
+        339
+      ],
+      "left": 216,
+      "top": 202,
+      "right": 952,
+      "bottom": 339,
+      "width": 736,
+      "height": 137,
+      "confidence": 21.538,
+      "text": "NCOOKAY"
+    }
+  ]
+}

@@ -1,0 +1,1867 @@
+{
+  "scale": 2.0,
+  "imageWidth": 4478,
+  "imageHeight": 3002,
+  "lines": [
+    {
+      "id": "l001",
+      "blockNumber": 41,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        3978,
+        60,
+        4397,
+        111
+      ],
+      "left": 3978,
+      "top": 60,
+      "right": 4397,
+      "bottom": 111,
+      "width": 419,
+      "height": 51,
+      "confidence": 96.449,
+      "text": "advertising option"
+    },
+    {
+      "id": "l002",
+      "blockNumber": 28,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1667,
+        163,
+        1933,
+        194
+      ],
+      "left": 1667,
+      "top": 163,
+      "right": 1933,
+      "bottom": 194,
+      "width": 266,
+      "height": 31,
+      "confidence": 95.814,
+      "text": "Freitag keine UNI?"
+    },
+    {
+      "id": "l003",
+      "blockNumber": 28,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1668,
+        206,
+        2020,
+        236
+      ],
+      "left": 1668,
+      "top": 206,
+      "right": 2020,
+      "bottom": 236,
+      "width": 352,
+      "height": 30,
+      "confidence": 95.337,
+      "text": "Donnerstag in den Club!"
+    },
+    {
+      "id": "l004",
+      "blockNumber": 28,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1668,
+        247,
+        2003,
+        272
+      ],
+      "left": 1668,
+      "top": 247,
+      "right": 2003,
+      "bottom": 272,
+      "width": 335,
+      "height": 25,
+      "confidence": 88.438,
+      "text": "Do fiir Do das"
+    },
+    {
+      "id": "l005",
+      "blockNumber": 28,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1666,
+        291,
+        2005,
+        315
+      ],
+      "left": 1666,
+      "top": 291,
+      "right": 2005,
+      "bottom": 315,
+      "width": 339,
+      "height": 24,
+      "confidence": 96.384,
+      "text": "Golden Gate mit einem"
+    },
+    {
+      "id": "l006",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        893,
+        296,
+        1194,
+        421
+      ],
+      "left": 893,
+      "top": 296,
+      "right": 1194,
+      "bottom": 421,
+      "width": 301,
+      "height": 125,
+      "confidence": 96.616,
+      "text": "battle"
+    },
+    {
+      "id": "l007",
+      "blockNumber": 28,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        1667,
+        333,
+        2057,
+        364
+      ],
+      "left": 1667,
+      "top": 333,
+      "right": 2057,
+      "bottom": 364,
+      "width": 390,
+      "height": 31,
+      "confidence": 92.514,
+      "text": "partyguthabenfreundlichen"
+    },
+    {
+      "id": "l008",
+      "blockNumber": 28,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        1666,
+        375,
+        1876,
+        399
+      ],
+      "left": 1666,
+      "top": 375,
+      "right": 1876,
+      "bottom": 399,
+      "width": 210,
+      "height": 24,
+      "confidence": 90.728,
+      "text": "3 Euro Eintritt."
+    },
+    {
+      "id": "l009",
+      "blockNumber": 28,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1668,
+        411,
+        2043,
+        448
+      ],
+      "left": 1668,
+      "top": 411,
+      "right": 2043,
+      "bottom": 448,
+      "width": 375,
+      "height": 37,
+      "confidence": 92.687,
+      "text": "Uberkultig spielen Berlins"
+    },
+    {
+      "id": "l010",
+      "blockNumber": 3,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        624,
+        412,
+        1192,
+        490
+      ],
+      "left": 624,
+      "top": 412,
+      "right": 1192,
+      "bottom": 490,
+      "width": 568,
+      "height": 78,
+      "confidence": 95.866,
+      "text": "convention"
+    },
+    {
+      "id": "l011",
+      "blockNumber": 28,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        1665,
+        460,
+        1939,
+        490
+      ],
+      "left": 1665,
+      "top": 460,
+      "right": 1939,
+      "bottom": 490,
+      "width": 274,
+      "height": 30,
+      "confidence": 39.008,
+      "text": "Top-Techno-Grofen"
+    },
+    {
+      "id": "l012",
+      "blockNumber": 28,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        1667,
+        502,
+        2039,
+        533
+      ],
+      "left": 1667,
+      "top": 502,
+      "right": 2039,
+      "bottom": 533,
+      "width": 372,
+      "height": 31,
+      "confidence": 88.269,
+      "text": "regelmafig, bis der letzte"
+    },
+    {
+      "id": "l013",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        141,
+        516,
+        1036,
+        553
+      ],
+      "left": 141,
+      "top": 516,
+      "right": 1036,
+      "bottom": 553,
+      "width": 895,
+      "height": 37,
+      "confidence": 93.622,
+      "text": "Unsere proud Reporterinnen waren mehr als beeindruckt von"
+    },
+    {
+      "id": "l014",
+      "blockNumber": 42,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        4121,
+        543,
+        4153,
+        556
+      ],
+      "left": 4121,
+      "top": 543,
+      "right": 4153,
+      "bottom": 556,
+      "width": 32,
+      "height": 13,
+      "confidence": 43.526,
+      "text": "a"
+    },
+    {
+      "id": "l015",
+      "blockNumber": 28,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        1668,
+        545,
+        1977,
+        569
+      ],
+      "left": 1668,
+      "top": 545,
+      "right": 1977,
+      "bottom": 569,
+      "width": 309,
+      "height": 24,
+      "confidence": 94.085,
+      "text": "Druffi aus’m Club ist."
+    },
+    {
+      "id": "l016",
+      "blockNumber": 4,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        141,
+        561,
+        1114,
+        589
+      ],
+      "left": 141,
+      "top": 561,
+      "right": 1114,
+      "bottom": 589,
+      "width": 973,
+      "height": 28,
+      "confidence": 94.13,
+      "text": "Solokunstlern, die aus dem fernen Asien anreisten und Schweizer"
+    },
+    {
+      "id": "l017",
+      "blockNumber": 28,
+      "paragraphNumber": 2,
+      "lineNumber": 5,
+      "bbox": [
+        1668,
+        587,
+        1952,
+        611
+      ],
+      "left": 1668,
+      "top": 587,
+      "right": 1952,
+      "bottom": 611,
+      "width": 284,
+      "height": 24,
+      "confidence": 96.718,
+      "text": "Diese Woche in der"
+    },
+    {
+      "id": "l018",
+      "blockNumber": 5,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        140,
+        603,
+        1197,
+        631
+      ],
+      "left": 140,
+      "top": 603,
+      "right": 1197,
+      "bottom": 631,
+      "width": 1057,
+      "height": 28,
+      "confidence": 93.227,
+      "text": "Girlbands, die am BEATBOXBATTLE im Universal Gebaude ausnahmslos"
+    },
+    {
+      "id": "l019",
+      "blockNumber": 28,
+      "paragraphNumber": 2,
+      "lineNumber": 6,
+      "bbox": [
+        1667,
+        630,
+        2070,
+        661
+      ],
+      "left": 1667,
+      "top": 630,
+      "right": 2070,
+      "bottom": 661,
+      "width": 403,
+      "height": 31,
+      "confidence": 90.575,
+      "text": "Gegenkultur nd baumecker!"
+    },
+    {
+      "id": "l020",
+      "blockNumber": 6,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        136,
+        644,
+        827,
+        674
+      ],
+      "left": 136,
+      "top": 644,
+      "right": 827,
+      "bottom": 674,
+      "width": 691,
+      "height": 30,
+      "confidence": 87.127,
+      "text": "jedem die Haare auf den Armen tanzen lie8en."
+    },
+    {
+      "id": "l021",
+      "blockNumber": 29,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1281,
+        668,
+        2057,
+        726
+      ],
+      "left": 1281,
+      "top": 668,
+      "right": 2057,
+      "bottom": 726,
+      "width": 776,
+      "height": 58,
+      "confidence": 88.923,
+      "text": "| www.goldengate-berlin.de"
+    },
+    {
+      "id": "l022",
+      "blockNumber": 7,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        139,
+        685,
+        1197,
+        716
+      ],
+      "left": 139,
+      "top": 685,
+      "right": 1197,
+      "bottom": 716,
+      "width": 1058,
+      "height": 31,
+      "confidence": 91.948,
+      "text": "Auch nach vier Stunden Dauerbeschallung nicht im Geringsten eintonig."
+    },
+    {
+      "id": "l023",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        139,
+        728,
+        1025,
+        752
+      ],
+      "left": 139,
+      "top": 728,
+      "right": 1025,
+      "bottom": 752,
+      "width": 886,
+      "height": 24,
+      "confidence": 95.056,
+      "text": "Videos auf Youtube. Stichwort: Beatbox + Berlin + Universal"
+    },
+    {
+      "id": "l024",
+      "blockNumber": 9,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        139,
+        770,
+        508,
+        794
+      ],
+      "left": 139,
+      "top": 770,
+      "right": 508,
+      "bottom": 794,
+      "width": 369,
+      "height": 24,
+      "confidence": 88.015,
+      "text": "iwww.beatboxbattle.com"
+    },
+    {
+      "id": "l025",
+      "blockNumber": 10,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        345,
+        842,
+        1156,
+        1013
+      ],
+      "left": 345,
+      "top": 842,
+      "right": 1156,
+      "bottom": 1013,
+      "width": 811,
+      "height": 171,
+      "confidence": 92.175,
+      "text": "the helder hype"
+    },
+    {
+      "id": "l026",
+      "blockNumber": 11,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        620,
+        949,
+        689,
+        966
+      ],
+      "left": 620,
+      "top": 949,
+      "right": 689,
+      "bottom": 966,
+      "width": 69,
+      "height": 17,
+      "confidence": 22.408,
+      "text": "RY"
+    },
+    {
+      "id": "l027",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        372,
+        1238,
+        1067,
+        1268
+      ],
+      "left": 372,
+      "top": 1238,
+      "right": 1067,
+      "bottom": 1268,
+      "width": 695,
+      "height": 30,
+      "confidence": 94.427,
+      "text": "aking a scene, doing it right, taking the party to"
+    },
+    {
+      "id": "l028",
+      "blockNumber": 13,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        453,
+        1280,
+        531,
+        1310
+      ],
+      "left": 453,
+      "top": 1280,
+      "right": 531,
+      "bottom": 1310,
+      "width": 78,
+      "height": 30,
+      "confidence": 96.338,
+      "text": "hype“"
+    },
+    {
+      "id": "l029",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        203,
+        1282,
+        1272,
+        1356
+      ],
+      "left": 203,
+      "top": 1282,
+      "right": 1272,
+      "bottom": 1356,
+      "width": 1069,
+      "height": 74,
+      "confidence": 76.68,
+      "text": "wy, Fruhe 90er mit fetzigem Electro. Style Icon Fritz Helder! > a"
+    },
+    {
+      "id": "l030",
+      "blockNumber": 14,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        329,
+        1358,
+        1253,
+        1416
+      ],
+      "left": 329,
+      "top": 1358,
+      "right": 1253,
+      "bottom": 1416,
+      "width": 924,
+      "height": 58,
+      "confidence": 90.304,
+      "text": "Podcasts gibt’s auf der Seite, das Album auf iTunes > y"
+    },
+    {
+      "id": "l031",
+      "blockNumber": 16,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        229,
+        1384,
+        234,
+        1407
+      ],
+      "left": 229,
+      "top": 1384,
+      "right": 234,
+      "bottom": 1407,
+      "width": 5,
+      "height": 23,
+      "confidence": 83.398,
+      "text": "{"
+    },
+    {
+      "id": "l032",
+      "blockNumber": 16,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        227,
+        1407,
+        1116,
+        1437
+      ],
+      "left": 227,
+      "top": 1407,
+      "right": 1116,
+      "bottom": 1437,
+      "width": 889,
+      "height": 30,
+      "confidence": 94.782,
+      "text": "} und ein EasyJet Ticket nach London am 29. Juli lohnt"
+    },
+    {
+      "id": "l033",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        203,
+        1432,
+        1094,
+        1485
+      ],
+      "left": 203,
+      "top": 1432,
+      "right": 1094,
+      "bottom": 1485,
+      "width": 891,
+      "height": 53,
+      "confidence": 89.266,
+      "text": "ae dicke um die ready to wear tour live zu erleben."
+    },
+    {
+      "id": "l034",
+      "blockNumber": 17,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        398,
+        1491,
+        823,
+        1521
+      ],
+      "left": 398,
+      "top": 1491,
+      "right": 823,
+      "bottom": 1521,
+      "width": 425,
+      "height": 30,
+      "confidence": 95.595,
+      "text": "schaut seinen aktuellen Clip!"
+    },
+    {
+      "id": "l035",
+      "blockNumber": 30,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1400,
+        1612,
+        2034,
+        1677
+      ],
+      "left": 1400,
+      "top": 1612,
+      "right": 2034,
+      "bottom": 1677,
+      "width": 634,
+      "height": 65,
+      "confidence": 64.509,
+      "text": "\\ x _Lange T-Shirts mit tollkUhnen Slogans"
+    },
+    {
+      "id": "l036",
+      "blockNumber": 30,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1464,
+        1681,
+        2072,
+        1706
+      ],
+      "left": 1464,
+      "top": 1681,
+      "right": 2072,
+      "bottom": 1706,
+      "width": 608,
+      "height": 25,
+      "confidence": 94.357,
+      "text": "an Madels. House of Holland"
+    },
+    {
+      "id": "l037",
+      "blockNumber": 30,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1465,
+        1725,
+        2063,
+        1750
+      ],
+      "left": 1465,
+      "top": 1725,
+      "right": 2063,
+      "bottom": 1750,
+      "width": 598,
+      "height": 25,
+      "confidence": 94.55,
+      "text": "ist und wird mit ihrer frischen Kollektion"
+    },
+    {
+      "id": "l038",
+      "blockNumber": 30,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1464,
+        1767,
+        2073,
+        1792
+      ],
+      "left": 1464,
+      "top": 1767,
+      "right": 2073,
+      "bottom": 1792,
+      "width": 609,
+      "height": 25,
+      "confidence": 93.12,
+      "text": "Schuld daran haben. Zu bekommen sind"
+    },
+    {
+      "id": "l039",
+      "blockNumber": 30,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        1464,
+        1809,
+        2057,
+        1838
+      ],
+      "left": 1464,
+      "top": 1809,
+      "right": 2057,
+      "bottom": 1838,
+      "width": 593,
+      "height": 29,
+      "confidence": 77.807,
+      "text": "au8erdem neonfarbende Boots, Hosen,"
+    },
+    {
+      "id": "l040",
+      "blockNumber": 30,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        1464,
+        1851,
+        1731,
+        1876
+      ],
+      "left": 1464,
+      "top": 1851,
+      "right": 1731,
+      "bottom": 1876,
+      "width": 267,
+      "height": 25,
+      "confidence": 86.916,
+      "text": "Socken und mehr."
+    },
+    {
+      "id": "l041",
+      "blockNumber": 31,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1200,
+        1891,
+        2092,
+        2048
+      ],
+      "left": 1200,
+      "top": 1891,
+      "right": 2092,
+      "bottom": 2048,
+      "width": 892,
+      "height": 157,
+      "confidence": 42.617,
+      "text": "“Tinvisible men."
+    },
+    {
+      "id": "l042",
+      "blockNumber": 30,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1464,
+        1891,
+        1622,
+        1938
+      ],
+      "left": 1464,
+      "top": 1891,
+      "right": 1622,
+      "bottom": 1938,
+      "width": 158,
+      "height": 47,
+      "confidence": 92.142,
+      "text": "myspace.c"
+    },
+    {
+      "id": "l043",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        491,
+        1907,
+        950,
+        1968
+      ],
+      "left": 491,
+      "top": 1907,
+      "right": 950,
+      "bottom": 1968,
+      "width": 459,
+      "height": 61,
+      "confidence": 90.609,
+      "text": "Blind von Geburt und"
+    },
+    {
+      "id": "l044",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        468,
+        1975,
+        963,
+        2000
+      ],
+      "left": 468,
+      "top": 1975,
+      "right": 963,
+      "bottom": 2000,
+      "width": 495,
+      "height": 25,
+      "confidence": 88.118,
+      "text": "einer der weltbesten Gitarristen."
+    },
+    {
+      "id": "l045",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        489,
+        2018,
+        891,
+        2049
+      ],
+      "left": 489,
+      "top": 2018,
+      "right": 891,
+      "bottom": 2049,
+      "width": 402,
+      "height": 31,
+      "confidence": 94.045,
+      "text": "Als Bonus ausgestattet mit"
+    },
+    {
+      "id": "l046",
+      "blockNumber": 19,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        490,
+        2060,
+        865,
+        2091
+      ],
+      "left": 490,
+      "top": 2060,
+      "right": 865,
+      "bottom": 2091,
+      "width": 375,
+      "height": 31,
+      "confidence": 91.8,
+      "text": "einer einmaligen Stimme,"
+    },
+    {
+      "id": "l047",
+      "blockNumber": 32,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1444,
+        2073,
+        1636,
+        2098
+      ],
+      "left": 1444,
+      "top": 2073,
+      "right": 1636,
+      "bottom": 2098,
+      "width": 192,
+      "height": 25,
+      "confidence": 91.417,
+      "text": "Unsichtbar??"
+    },
+    {
+      "id": "l048",
+      "blockNumber": 19,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        490,
+        2086,
+        890,
+        2139
+      ],
+      "left": 490,
+      "top": 2086,
+      "right": 890,
+      "bottom": 2139,
+      "width": 400,
+      "height": 53,
+      "confidence": 91.224,
+      "text": "nit der er es sogar schafft,"
+    },
+    {
+      "id": "l049",
+      "blockNumber": 22,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        994,
+        2112,
+        1049,
+        2184
+      ],
+      "left": 994,
+      "top": 2112,
+      "right": 1049,
+      "bottom": 2184,
+      "width": 55,
+      "height": 72,
+      "confidence": 43.808,
+      "text": "Iu"
+    },
+    {
+      "id": "l050",
+      "blockNumber": 32,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1444,
+        2115,
+        1929,
+        2140
+      ],
+      "left": 1444,
+      "top": 2115,
+      "right": 1929,
+      "bottom": 2140,
+      "width": 485,
+      "height": 25,
+      "confidence": 84.876,
+      "text": "In der Natur konnen Chamaleons"
+    },
+    {
+      "id": "l051",
+      "blockNumber": 19,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        489,
+        2143,
+        955,
+        2175
+      ],
+      "left": 489,
+      "top": 2143,
+      "right": 955,
+      "bottom": 2175,
+      "width": 466,
+      "height": 32,
+      "confidence": 92.618,
+      "text": "zwei Tone auf einmal zu singen."
+    },
+    {
+      "id": "l052",
+      "blockNumber": 32,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        1443,
+        2157,
+        2070,
+        2183
+      ],
+      "left": 1443,
+      "top": 2157,
+      "right": 2070,
+      "bottom": 2183,
+      "width": 627,
+      "height": 26,
+      "confidence": 81.592,
+      "text": "bekanntermafgen ihre Farben wechseln um"
+    },
+    {
+      "id": "l053",
+      "blockNumber": 19,
+      "paragraphNumber": 3,
+      "lineNumber": 2,
+      "bbox": [
+        489,
+        2185,
+        877,
+        2210
+      ],
+      "left": 489,
+      "top": 2185,
+      "right": 877,
+      "bottom": 2210,
+      "width": 388,
+      "height": 25,
+      "confidence": 86.62,
+      "text": "Wie sich das anhort? Geil!"
+    },
+    {
+      "id": "l054",
+      "blockNumber": 25,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        993,
+        2195,
+        1068,
+        2506
+      ],
+      "left": 993,
+      "top": 2195,
+      "right": 1068,
+      "bottom": 2506,
+      "width": 75,
+      "height": 311,
+      "confidence": 62.334,
+      "text": "1S9q 9}"
+    },
+    {
+      "id": "l055",
+      "blockNumber": 32,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        1443,
+        2199,
+        1975,
+        2224
+      ],
+      "left": 1443,
+      "top": 2199,
+      "right": 1975,
+      "bottom": 2224,
+      "width": 532,
+      "height": 25,
+      "confidence": 83.581,
+      "text": "sich selbst vor Feinden zu schutzen."
+    },
+    {
+      "id": "l056",
+      "blockNumber": 19,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        491,
+        2230,
+        898,
+        2260
+      ],
+      "left": 491,
+      "top": 2230,
+      "right": 898,
+      "bottom": 2260,
+      "width": 407,
+      "height": 30,
+      "confidence": 94.2,
+      "text": "Seit heute gibts the definite"
+    },
+    {
+      "id": "l057",
+      "blockNumber": 32,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        1444,
+        2242,
+        2010,
+        2267
+      ],
+      "left": 1444,
+      "top": 2242,
+      "right": 2010,
+      "bottom": 2267,
+      "width": 566,
+      "height": 25,
+      "confidence": 86.675,
+      "text": "In Holland sich eine Kunstlerin bei"
+    },
+    {
+      "id": "l058",
+      "blockNumber": 19,
+      "paragraphNumber": 4,
+      "lineNumber": 2,
+      "bbox": [
+        491,
+        2272,
+        802,
+        2296
+      ],
+      "left": 491,
+      "top": 2272,
+      "right": 802,
+      "bottom": 2296,
+      "width": 311,
+      "height": 24,
+      "confidence": 93.195,
+      "text": "best im Plattenladen."
+    },
+    {
+      "id": "l059",
+      "blockNumber": 38,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1444,
+        2285,
+        2082,
+        2315
+      ],
+      "left": 1444,
+      "top": 2285,
+      "right": 2082,
+      "bottom": 2315,
+      "width": 638,
+      "height": 30,
+      "confidence": 93.63,
+      "text": "ihrem Werk invisible man davon inspirieren."
+    },
+    {
+      "id": "l060",
+      "blockNumber": 19,
+      "paragraphNumber": 5,
+      "lineNumber": 1,
+      "bbox": [
+        489,
+        2313,
+        937,
+        2338
+      ],
+      "left": 489,
+      "top": 2313,
+      "right": 937,
+      "bottom": 2338,
+      "width": 448,
+      "height": 25,
+      "confidence": 95.419,
+      "text": "José Feliciano - Buena Vista in"
+    },
+    {
+      "id": "l061",
+      "blockNumber": 33,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1472,
+        2327,
+        1770,
+        2351
+      ],
+      "left": 1472,
+      "top": 2327,
+      "right": 1770,
+      "bottom": 2351,
+      "width": 298,
+      "height": 24,
+      "confidence": 94.463,
+      "text": "ie sie das anstellte?"
+    },
+    {
+      "id": "l062",
+      "blockNumber": 19,
+      "paragraphNumber": 5,
+      "lineNumber": 2,
+      "bbox": [
+        512,
+        2356,
+        831,
+        2386
+      ],
+      "left": 512,
+      "top": 2356,
+      "right": 831,
+      "bottom": 2386,
+      "width": 319,
+      "height": 30,
+      "confidence": 95.436,
+      "text": "panisch und Englisch."
+    },
+    {
+      "id": "l063",
+      "blockNumber": 33,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        1443,
+        2369,
+        2041,
+        2397
+      ],
+      "left": 1443,
+      "top": 2369,
+      "right": 2041,
+      "bottom": 2397,
+      "width": 598,
+      "height": 28,
+      "confidence": 94.72,
+      "text": "Sie bemalte Klamotten so, dass sie sich"
+    },
+    {
+      "id": "l064",
+      "blockNumber": 20,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        69,
+        2388,
+        879,
+        2518
+      ],
+      "left": 69,
+      "top": 2388,
+      "right": 879,
+      "bottom": 2518,
+      "width": 810,
+      "height": 130,
+      "confidence": 91.959,
+      "text": "radioskateboards"
+    },
+    {
+      "id": "l065",
+      "blockNumber": 19,
+      "paragraphNumber": 6,
+      "lineNumber": 1,
+      "bbox": [
+        492,
+        2399,
+        679,
+        2423
+      ],
+      "left": 492,
+      "top": 2399,
+      "right": 679,
+      "bottom": 2423,
+      "width": 187,
+      "height": 24,
+      "confidence": 91.05,
+      "text": "Kauft’s euch."
+    },
+    {
+      "id": "l066",
+      "blockNumber": 33,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        1444,
+        2412,
+        2069,
+        2443
+      ],
+      "left": 1444,
+      "top": 2412,
+      "right": 2069,
+      "bottom": 2443,
+      "width": 625,
+      "height": 31,
+      "confidence": 93.566,
+      "text": "perfekt an den Hintergrund anpassten und"
+    },
+    {
+      "id": "l067",
+      "blockNumber": 33,
+      "paragraphNumber": 4,
+      "lineNumber": 1,
+      "bbox": [
+        1444,
+        2455,
+        1997,
+        2485
+      ],
+      "left": 1444,
+      "top": 2455,
+      "right": 1997,
+      "bottom": 2485,
+      "width": 553,
+      "height": 30,
+      "confidence": 83.711,
+      "text": "lie8 ein Model genau richtig posieren."
+    },
+    {
+      "id": "l068",
+      "blockNumber": 33,
+      "paragraphNumber": 5,
+      "lineNumber": 1,
+      "bbox": [
+        1442,
+        2497,
+        2042,
+        2527
+      ],
+      "left": 1442,
+      "top": 2497,
+      "right": 2042,
+      "bottom": 2527,
+      "width": 600,
+      "height": 30,
+      "confidence": 95.626,
+      "text": "Warum? Neben der Kunst war das ganze"
+    },
+    {
+      "id": "l069",
+      "blockNumber": 21,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        219,
+        2534,
+        773,
+        2558
+      ],
+      "left": 219,
+      "top": 2534,
+      "right": 773,
+      "bottom": 2558,
+      "width": 554,
+      "height": 24,
+      "confidence": 96.057,
+      "text": "Alles andere als nur Skateboards wird"
+    },
+    {
+      "id": "l070",
+      "blockNumber": 33,
+      "paragraphNumber": 6,
+      "lineNumber": 1,
+      "bbox": [
+        1443,
+        2539,
+        2015,
+        2568
+      ],
+      "left": 1443,
+      "top": 2539,
+      "right": 2015,
+      "bottom": 2568,
+      "width": 572,
+      "height": 29,
+      "confidence": 94.565,
+      "text": "auch politisch motiviert und sollte eine"
+    },
+    {
+      "id": "l071",
+      "blockNumber": 21,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        147,
+        2576,
+        810,
+        2607
+      ],
+      "left": 147,
+      "top": 2576,
+      "right": 810,
+      "bottom": 2607,
+      "width": 663,
+      "height": 31,
+      "confidence": 85.936,
+      "text": "* von den Designern von Radio produziert."
+    },
+    {
+      "id": "l072",
+      "blockNumber": 33,
+      "paragraphNumber": 7,
+      "lineNumber": 1,
+      "bbox": [
+        1335,
+        2581,
+        1990,
+        2611
+      ],
+      "left": 1335,
+      "top": 2581,
+      "right": 1990,
+      "bottom": 2611,
+      "width": 655,
+      "height": 30,
+      "confidence": 67.055,
+      "text": "SRY Protestaktion gegen die zunehmende"
+    },
+    {
+      "id": "l073",
+      "blockNumber": 26,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        215,
+        2616,
+        950,
+        2700
+      ],
+      "left": 215,
+      "top": 2616,
+      "right": 950,
+      "bottom": 2700,
+      "width": 735,
+      "height": 84,
+      "confidence": 86.228,
+      "text": "Die Shirts gibts unter anderem auf a ‘."
+    },
+    {
+      "id": "l074",
+      "blockNumber": 33,
+      "paragraphNumber": 7,
+      "lineNumber": 2,
+      "bbox": [
+        1599,
+        2618,
+        1918,
+        2655
+      ],
+      "left": 1599,
+      "top": 2618,
+      "right": 1918,
+      "bottom": 2655,
+      "width": 319,
+      "height": 37,
+      "confidence": 94.527,
+      "text": "Uberwachung werden."
+    },
+    {
+      "id": "l075",
+      "blockNumber": 26,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        213,
+        2662,
+        920,
+        2692
+      ],
+      "left": 213,
+      "top": 2662,
+      "right": 920,
+      "bottom": 2692,
+      "width": 707,
+      "height": 30,
+      "confidence": 91.675,
+      "text": "der Homepage. Die neue Kollektion R"
+    },
+    {
+      "id": "l076",
+      "blockNumber": 33,
+      "paragraphNumber": 8,
+      "lineNumber": 1,
+      "bbox": [
+        1442,
+        2666,
+        2029,
+        2697
+      ],
+      "left": 1442,
+      "top": 2666,
+      "right": 2029,
+      "bottom": 2697,
+      "width": 587,
+      "height": 31,
+      "confidence": 89.563,
+      "text": "Als Ergebnis verkauften sich spater ihre"
+    },
+    {
+      "id": "l077",
+      "blockNumber": 26,
+      "paragraphNumber": 2,
+      "lineNumber": 1,
+      "bbox": [
+        63,
+        2694,
+        1122,
+        2768
+      ],
+      "left": 63,
+      "top": 2694,
+      "right": 1122,
+      "bottom": 2768,
+      "width": 1059,
+      "height": 74,
+      "confidence": 80.653,
+      "text": "Ne beeindruckt wieder einmal und fir proud { -_ —"
+    },
+    {
+      "id": "l078",
+      "blockNumber": 33,
+      "paragraphNumber": 9,
+      "lineNumber": 1,
+      "bbox": [
+        1402,
+        2702,
+        1825,
+        2766
+      ],
+      "left": 1402,
+      "top": 2702,
+      "right": 1825,
+      "bottom": 2766,
+      "width": 423,
+      "height": 64,
+      "confidence": 70.376,
+      "text": "ee x fur 1500 Pfund das"
+    },
+    {
+      "id": "l079",
+      "blockNumber": 34,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1845,
+        2743,
+        1981,
+        2760
+      ],
+      "left": 1845,
+      "top": 2743,
+      "right": 1981,
+      "bottom": 2760,
+      "width": 136,
+      "height": 17,
+      "confidence": 36.799,
+      "text": "QO We"
+    },
+    {
+      "id": "l080",
+      "blockNumber": 26,
+      "paragraphNumber": 2,
+      "lineNumber": 2,
+      "bbox": [
+        215,
+        2746,
+        682,
+        2776
+      ],
+      "left": 215,
+      "top": 2746,
+      "right": 682,
+      "bottom": 2776,
+      "width": 467,
+      "height": 30,
+      "confidence": 94.15,
+      "text": "ist jedes pure Inspiration."
+    },
+    {
+      "id": "l081",
+      "blockNumber": 40,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1806,
+        2754,
+        2110,
+        2851
+      ],
+      "left": 1806,
+      "top": 2754,
+      "right": 2110,
+      "bottom": 2851,
+      "width": 304,
+      "height": 97,
+      "confidence": 40.464,
+      "text": "PENS NS"
+    },
+    {
+      "id": "l082",
+      "blockNumber": 34,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        2038,
+        2759,
+        2072,
+        2784
+      ],
+      "left": 2038,
+      "top": 2759,
+      "right": 2072,
+      "bottom": 2784,
+      "width": 34,
+      "height": 25,
+      "confidence": 81.155,
+      "text": "NE"
+    },
+    {
+      "id": "l083",
+      "blockNumber": 35,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1304,
+        2777,
+        1314,
+        2796
+      ],
+      "left": 1304,
+      "top": 2777,
+      "right": 1314,
+      "bottom": 2796,
+      "width": 10,
+      "height": 19,
+      "confidence": 87.395,
+      "text": "\\"
+    },
+    {
+      "id": "l084",
+      "blockNumber": 26,
+      "paragraphNumber": 2,
+      "lineNumber": 3,
+      "bbox": [
+        213,
+        2789,
+        734,
+        2820
+      ],
+      "left": 213,
+      "top": 2789,
+      "right": 734,
+      "bottom": 2820,
+      "width": 521,
+      "height": 31,
+      "confidence": 95.049,
+      "text": "Wir verlosen ein Shirt, check grabs!"
+    },
+    {
+      "id": "l085",
+      "blockNumber": 35,
+      "paragraphNumber": 1,
+      "lineNumber": 2,
+      "bbox": [
+        1765,
+        2804,
+        1799,
+        2838
+      ],
+      "left": 1765,
+      "top": 2804,
+      "right": 1799,
+      "bottom": 2838,
+      "width": 34,
+      "height": 34,
+      "confidence": 51.132,
+      "text": "«2"
+    },
+    {
+      "id": "l086",
+      "blockNumber": 35,
+      "paragraphNumber": 1,
+      "lineNumber": 3,
+      "bbox": [
+        1403,
+        2813,
+        2027,
+        2856
+      ],
+      "left": 1403,
+      "top": 2813,
+      "right": 2027,
+      "bottom": 2856,
+      "width": 624,
+      "height": 43,
+      "confidence": 44.204,
+      "text": "\\ He aes by %"
+    },
+    {
+      "id": "l087",
+      "blockNumber": 35,
+      "paragraphNumber": 1,
+      "lineNumber": 4,
+      "bbox": [
+        1362,
+        2818,
+        2077,
+        2937
+      ],
+      "left": 1362,
+      "top": 2818,
+      "right": 2077,
+      "bottom": 2937,
+      "width": 715,
+      "height": 119,
+      "confidence": 30.559,
+      "text": ": VANS"
+    },
+    {
+      "id": "l088",
+      "blockNumber": 26,
+      "paragraphNumber": 2,
+      "lineNumber": 4,
+      "bbox": [
+        213,
+        2831,
+        633,
+        2856
+      ],
+      "left": 213,
+      "top": 2831,
+      "right": 633,
+      "bottom": 2856,
+      "width": 420,
+      "height": 25,
+      "confidence": 91.395,
+      "text": "www.radioskateboards.com"
+    },
+    {
+      "id": "l089",
+      "blockNumber": 35,
+      "paragraphNumber": 1,
+      "lineNumber": 5,
+      "bbox": [
+        1325,
+        2867,
+        2049,
+        2924
+      ],
+      "left": 1325,
+      "top": 2867,
+      "right": 2049,
+      "bottom": 2924,
+      "width": 724,
+      "height": 57,
+      "confidence": 47.72,
+      "text": "a ‘ %, %, <3"
+    },
+    {
+      "id": "l090",
+      "blockNumber": 35,
+      "paragraphNumber": 1,
+      "lineNumber": 6,
+      "bbox": [
+        1266,
+        2888,
+        1776,
+        2937
+      ],
+      "left": 1266,
+      "top": 2888,
+      "right": 1776,
+      "bottom": 2937,
+      "width": 510,
+      "height": 49,
+      "confidence": 37.356,
+      "text": "ea Re"
+    },
+    {
+      "id": "l091",
+      "blockNumber": 26,
+      "paragraphNumber": 3,
+      "lineNumber": 1,
+      "bbox": [
+        80,
+        2922,
+        202,
+        2959
+      ],
+      "left": 80,
+      "top": 2922,
+      "right": 202,
+      "bottom": 2959,
+      "width": 122,
+      "height": 37,
+      "confidence": 77.994,
+      "text": "16 proud"
+    },
+    {
+      "id": "l092",
+      "blockNumber": 36,
+      "paragraphNumber": 1,
+      "lineNumber": 1,
+      "bbox": [
+        1911,
+        2922,
+        1996,
+        2968
+      ],
+      "left": 1911,
+      "top": 2922,
+      "right": 1996,
+      "bottom": 2968,
+      "width": 85,
+      "height": 46,
+      "confidence": 30.69,
+      "text": "ny ne"
+    },
+    {
+      "id": "l093",
+      "blockNumber": 35,
+      "paragraphNumber": 1,
+      "lineNumber": 7,
+      "bbox": [
+        1755,
+        2929,
+        1780,
+        2958
+      ],
+      "left": 1755,
+      "top": 2929,
+      "right": 1780,
+      "bottom": 2958,
+      "width": 25,
+      "height": 29,
+      "confidence": 34.329,
+      "text": "mR"
+    }
+  ]
+}
