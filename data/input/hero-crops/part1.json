@@ -1,0 +1,178 @@
+{
+ "editorial": {
+  "page": 6,
+  "bbox": [
+   163,
+   1285,
+   1420,
+   2225
+  ],
+  "kind": "photo",
+  "note": "Man asleep on wicker bench, Peng Chau waterfront, Hong Kong"
+ },
+ "proud": {
+  "page": 6,
+  "bbox": [
+   163,
+   1285,
+   1420,
+   2225
+  ],
+  "kind": "photo",
+  "note": "Same page photo: man asleep on wicker bench by the sea (masthead page)"
+ },
+ "flap-flap-flap": {
+  "page": 10,
+  "bbox": [
+   782,
+   2160,
+   1430,
+   2778
+  ],
+  "kind": "photo",
+  "note": "Shopping cart overloaded with empty bottles (inbox page image)"
+ },
+ "gut-erkannt": {
+  "page": 10,
+  "bbox": [
+   782,
+   2160,
+   1430,
+   2778
+  ],
+  "kind": "photo",
+  "note": "Shopping cart overloaded with empty bottles (inbox page image)"
+ },
+ "kitlers": {
+  "page": 10,
+  "bbox": [
+   782,
+   2160,
+   1430,
+   2778
+  ],
+  "kind": "photo",
+  "note": "Inbox page cart photo; own cat photo only 280px wide"
+ },
+ "mail-of-the-month": {
+  "page": 10,
+  "bbox": [
+   782,
+   2160,
+   1430,
+   2778
+  ],
+  "kind": "photo",
+  "note": "Shopping cart overloaded with empty bottles (inbox page image)"
+ },
+ "new-uri-geller": {
+  "page": 10,
+  "bbox": [
+   782,
+   2160,
+   1430,
+   2778
+  ],
+  "kind": "photo",
+  "note": "Shopping cart overloaded with empty bottles (inbox page image)"
+ },
+ "vorsicht-vor-irgendwas": {
+  "page": 10,
+  "bbox": [
+   782,
+   2160,
+   1430,
+   2778
+  ],
+  "kind": "photo",
+  "note": "Shopping cart overloaded with empty bottles, cut-out on white"
+ },
+ "write-to-us-and-win": {
+  "page": 10,
+  "bbox": [
+   782,
+   2160,
+   1430,
+   2778
+  ],
+  "kind": "photo",
+  "note": "Shopping cart overloaded with empty bottles (inbox page image)"
+ },
+ "ihr-koennt-alle-kommen": {
+  "page": 11,
+  "bbox": [
+   1440,
+   1520,
+   2040,
+   1725
+  ],
+  "kind": "photo",
+  "note": "Launch-party club photo collage: mascot face, partygoers posing"
+ },
+ "phb-berlin": {
+  "page": 12,
+  "bbox": [
+   200,
+   980,
+   800,
+   1215
+  ],
+  "kind": "photo",
+  "note": "Derelict phb industrial hall with hoppers and green columns"
+ },
+ "shit-glitter": {
+  "page": 12,
+  "bbox": [
+   200,
+   980,
+   800,
+   1215
+  ],
+  "kind": "photo",
+  "note": "Page fallback: phb hall; gold capsules only ~365px wide"
+ },
+ "tr-s-bonjour": {
+  "page": 12,
+  "bbox": [
+   200,
+   980,
+   800,
+   1215
+  ],
+  "kind": "photo",
+  "note": "Page fallback: phb hall; swimsuit overlapped by headline/text"
+ },
+ "world-2-1": {
+  "page": 12,
+  "bbox": [
+   200,
+   980,
+   800,
+   1215
+  ],
+  "kind": "photo",
+  "note": "Page fallback: phb hall; phone image overlapped by heading/text"
+ },
+ "200-calories": {
+  "page": 13,
+  "bbox": [
+   130,
+   1452,
+   730,
+   1775
+  ],
+  "kind": "photo",
+  "note": "Fudgy chocolate cake chunk on a fork"
+ },
+ "artgerechtes": {
+  "page": 13,
+  "bbox": [
+   0,
+   52,
+   610,
+   352
+  ],
+  "kind": "illustration",
+  "note": "Sketched figures wearing colored eco T-shirts"
+ }
+}

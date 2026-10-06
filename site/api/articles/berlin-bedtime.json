@@ -71,6 +71,7 @@
     }
   ],
   "contentHash": "33bda8f17d500cf41f9d516eb794cdc303a546c6d52a4852d92e845f27b046f8",
+  "heroImage": "hero/berlin-bedtime.jpg",
   "locales": {
     "de": {
       "title": "Berlin bedtime",
@@ -135,5 +136,6 @@
   },
   "canonicalUrl": "https://proud.xn--wp9h.tk/articles/berlin-bedtime/",
   "pdfUrl": "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=34",
-  "previewUrl": "https://proud.xn--wp9h.tk/assets/previews/berlin-bedtime.webp"
+  "previewUrl": "https://proud.xn--wp9h.tk/assets/hero/berlin-bedtime.webp",
+  "heroUrl": "https://proud.xn--wp9h.tk/assets/hero/berlin-bedtime.webp"
 }

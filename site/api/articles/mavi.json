@@ -71,6 +71,7 @@
     }
   ],
   "contentHash": "88dc75dca65574068984fd7cf0040bef726e9f30122dd78589eee6cd6ae07fd7",
+  "heroImage": "hero/mavi.jpg",
   "locales": {
     "de": {
       "title": "mavi",
@@ -137,5 +138,6 @@
   },
   "canonicalUrl": "https://proud.xn--wp9h.tk/articles/mavi/",
   "pdfUrl": "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=13",
-  "previewUrl": "https://proud.xn--wp9h.tk/assets/previews/mavi.webp"
+  "previewUrl": "https://proud.xn--wp9h.tk/assets/hero/mavi.webp",
+  "heroUrl": "https://proud.xn--wp9h.tk/assets/hero/mavi.webp"
 }

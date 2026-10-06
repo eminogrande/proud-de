@@ -69,6 +69,7 @@
     }
   ],
   "contentHash": "f51ea212eaa562fd11ce448e93c8670ab56251537d9c2ff6b3847a4bf84c0597",
+  "heroImage": "hero/on-the-road-with-a-radio-skater.jpg",
   "locales": {
     "de": {
       "title": "unterwegs mit einem Radioskater",
@@ -186,5 +187,6 @@
   },
   "canonicalUrl": "https://proud.xn--wp9h.tk/articles/on-the-road-with-a-radio-skater/",
   "pdfUrl": "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=56",
-  "previewUrl": "https://proud.xn--wp9h.tk/assets/previews/on-the-road-with-a-radio-skater.webp"
+  "previewUrl": "https://proud.xn--wp9h.tk/assets/hero/on-the-road-with-a-radio-skater.webp",
+  "heroUrl": "https://proud.xn--wp9h.tk/assets/hero/on-the-road-with-a-radio-skater.webp"
 }

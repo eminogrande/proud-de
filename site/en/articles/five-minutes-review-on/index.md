@@ -7,7 +7,7 @@ detected_language: "de"
 translation_state: "translated"
 canonical_url: "https://proud.xn--wp9h.tk/en/articles/five-minutes-review-on/"
 pdf_url: "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=14"
-preview_image_url: "https://proud.xn--wp9h.tk/assets/previews/five-minutes-review-on.webp"
+preview_image_url: "https://proud.xn--wp9h.tk/assets/hero/five-minutes-review-on.webp"
 page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"

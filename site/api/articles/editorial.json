@@ -69,6 +69,7 @@
     }
   ],
   "contentHash": "9341c8fe0a830bbdd61b4b2579c58d9ff63d8f5d6f1fea1b116b59475e4a27e5",
+  "heroImage": "hero/editorial.jpg",
   "locales": {
     "de": {
       "title": "editorial",
@@ -122,5 +123,6 @@
   },
   "canonicalUrl": "https://proud.xn--wp9h.tk/articles/editorial/",
   "pdfUrl": "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=6",
-  "previewUrl": "https://proud.xn--wp9h.tk/assets/previews/editorial.webp"
+  "previewUrl": "https://proud.xn--wp9h.tk/assets/hero/editorial.webp",
+  "heroUrl": "https://proud.xn--wp9h.tk/assets/hero/editorial.webp"
 }

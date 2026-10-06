@@ -71,6 +71,7 @@
     }
   ],
   "contentHash": "979d52f37f92c0a1be98bc2def6f7307c6dfe6b14878a327c9a68f3bbbb5e18d",
+  "heroImage": "hero/hoervergnuegen.jpg",
   "locales": {
     "de": {
       "title": "hörvergnügen",
@@ -135,5 +136,6 @@
   },
   "canonicalUrl": "https://proud.xn--wp9h.tk/articles/hoervergnuegen/",
   "pdfUrl": "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=37",
-  "previewUrl": "https://proud.xn--wp9h.tk/assets/previews/hoervergnuegen.webp"
+  "previewUrl": "https://proud.xn--wp9h.tk/assets/hero/hoervergnuegen.webp",
+  "heroUrl": "https://proud.xn--wp9h.tk/assets/hero/hoervergnuegen.webp"
 }

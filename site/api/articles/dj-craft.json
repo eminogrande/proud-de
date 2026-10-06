@@ -71,6 +71,7 @@
     }
   ],
   "contentHash": "33c19d2343171cb12e90a89d39b6f58af6cae93bfd32eebe0b94524ff7256301",
+  "heroImage": "hero/dj-craft.jpg",
   "locales": {
     "de": {
       "title": "dj craft",
@@ -121,5 +122,6 @@
   },
   "canonicalUrl": "https://proud.xn--wp9h.tk/articles/dj-craft/",
   "pdfUrl": "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=28",
-  "previewUrl": "https://proud.xn--wp9h.tk/assets/previews/dj-craft.webp"
+  "previewUrl": "https://proud.xn--wp9h.tk/assets/hero/dj-craft.webp",
+  "heroUrl": "https://proud.xn--wp9h.tk/assets/hero/dj-craft.webp"
 }

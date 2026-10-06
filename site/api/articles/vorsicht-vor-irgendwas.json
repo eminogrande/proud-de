@@ -69,6 +69,7 @@
     }
   ],
   "contentHash": "9e3a669a232531f9f97533889a5b87e86d829507a21d3f983911acb6164cf75e",
+  "heroImage": "hero/vorsicht-vor-irgendwas.jpg",
   "locales": {
     "de": {
       "title": "Vorsicht vor irgendwas",
@@ -121,5 +122,6 @@
   },
   "canonicalUrl": "https://proud.xn--wp9h.tk/articles/vorsicht-vor-irgendwas/",
   "pdfUrl": "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=10",
-  "previewUrl": "https://proud.xn--wp9h.tk/assets/previews/vorsicht-vor-irgendwas.webp"
+  "previewUrl": "https://proud.xn--wp9h.tk/assets/hero/vorsicht-vor-irgendwas.webp",
+  "heroUrl": "https://proud.xn--wp9h.tk/assets/hero/vorsicht-vor-irgendwas.webp"
 }

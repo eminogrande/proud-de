@@ -71,6 +71,7 @@
     }
   ],
   "contentHash": "a285de228d67696ef392c38f4a9c58ff0995ad15b5f5fdceb7f0a1eb97a2072d",
+  "heroImage": "hero/proud-2.jpg",
   "locales": {
     "de": {
       "title": "proud",
@@ -123,5 +124,6 @@
   },
   "canonicalUrl": "https://proud.xn--wp9h.tk/articles/proud-2/",
   "pdfUrl": "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=29",
-  "previewUrl": "https://proud.xn--wp9h.tk/assets/previews/proud-2.webp"
+  "previewUrl": "https://proud.xn--wp9h.tk/assets/hero/proud-2.webp",
+  "heroUrl": "https://proud.xn--wp9h.tk/assets/hero/proud-2.webp"
 }

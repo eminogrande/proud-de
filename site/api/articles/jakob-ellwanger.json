@@ -71,6 +71,7 @@
     }
   ],
   "contentHash": "24039e48962c13fa2777e0de91e934def963f2ebaac903a60f65c1b4fc8e3fc9",
+  "heroImage": "hero/jakob-ellwanger.jpg",
   "locales": {
     "de": {
       "title": "jakob ellwanger",
@@ -138,5 +139,6 @@
   },
   "canonicalUrl": "https://proud.xn--wp9h.tk/articles/jakob-ellwanger/",
   "pdfUrl": "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=38",
-  "previewUrl": "https://proud.xn--wp9h.tk/assets/previews/jakob-ellwanger.webp"
+  "previewUrl": "https://proud.xn--wp9h.tk/assets/hero/jakob-ellwanger.webp",
+  "heroUrl": "https://proud.xn--wp9h.tk/assets/hero/jakob-ellwanger.webp"
 }

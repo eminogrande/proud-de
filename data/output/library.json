@@ -692,7 +692,8 @@
       "pageImageCount": 1,
       "contentHash": "9341c8fe0a830bbdd61b4b2579c58d9ff63d8f5d6f1fea1b116b59475e4a27e5",
       "bodyText": "editorial\nWillkommen bei der ersten Ausgabe **proud** magazine! Wir sind Deine Waffe im Großstadtschungel. Wir sind der Angstschweiß auf Deiner Stirn, der Raubtieratem in Deinem Nacken. Wir sind Dein Fluchtinstinkt und Dein Jagdtrieb. Unsere Mission: Bedürftige versorgen. Denn der Moloch Berlin hat die ganzen straightforward-Menschen nicht verschluckt, sondern nur verdeckt. Wir zeigen Euch was geht.\nDas Team: Urbanisten, Musikisten, Stylisten, Modisten, Sexisten. Oder so. Wir hätten wohl auf Oma hören sollen, die uns sagte, dass alles mit -isten schlecht sei. Da haben wir wohl verschissen.\nHip-Hop-Tip-Top\nDiese **proud** ist die Geburt und Ihr seid dabei. Also, natürlich nicht der schleimige Akt mit Blut und so, vielmehr müsst Ihr das metaphorisch sehen. Ihr seid ein Teil von **proud** und könnt mit uns Richtung Zukunft in eine glänzende Nacht voller Glamour, Style, Sex und Yoga reiten. Auf, auf! Wenn wir erstmal die Stadt übernommen haben, gibt’s Schokolade für alle.\nBe Berlin. Be **proud**.\nHong Kong, Peng Chau, den 25.08.2007 - 15:24:38 - 22°17'7\"N 114°2'19\"E",
-      "file": "articles/editorial.json"
+      "file": "articles/editorial.json",
+      "heroImage": "hero/editorial.jpg"
     },
     {
       "slug": "proud",
@@ -859,7 +860,8 @@
       "pageImageCount": 1,
       "contentHash": "9e3a669a232531f9f97533889a5b87e86d829507a21d3f983911acb6164cf75e",
       "bodyText": "Vorsicht vor irgendwas\nLiebe proud,\nSnape tötet bald Dumbledore!\nHahahahaha!\nDer Verräter\nWer ist Snape? Wer ist Dumbledore? Was sollst Du wem verraten haben, Du Idiot?",
-      "file": "articles/vorsicht-vor-irgendwas.json"
+      "file": "articles/vorsicht-vor-irgendwas.json",
+      "heroImage": "hero/vorsicht-vor-irgendwas.jpg"
     },
     {
       "slug": "write-to-us-and-win",
@@ -903,7 +905,8 @@
       "pageImageCount": 1,
       "contentHash": "d774e149c9ef80acb6677acfaf9ab073a3389c03ab042d4143c3a22d0801a1ec",
       "bodyText": "Ihr könnt alle kommen. Nur muss der Großteil leider vor der Tür stehen bleiben. Aber das ist ja nicht so schlimm. Ist ja nicht kalt. Drinnen tobt jedenfalls die sickeste Party. Eintritt ab Coolnessfaktor 7. Das wäre David Hasselhoff im Moonwalk zu Grandmaster Flash im Berghain.\nSAMSTAG 17. Januar\nPHB-CLUB\n[Landsberger Allee 54]\nDJs unter Anderen: Till & Jonka (Hoervergnuegen), Katov Menovsky (proud), Alle Farben (Farbreiz), Stefan Hoffmann (Keller), Buggy (SexyDöner), Retro (Playplus), Balinsky (W12), Yason (Duscholux)\n+ a lot of fucking special guests!\nGet Your Ticket www.proudmagazine.de",
-      "file": "articles/ihr-koennt-alle-kommen.json"
+      "file": "articles/ihr-koennt-alle-kommen.json",
+      "heroImage": "hero/ihr-koennt-alle-kommen.jpg"
     },
     {
       "slug": "phb-berlin",
@@ -927,7 +930,8 @@
       "pageImageCount": 1,
       "contentHash": "5bae2e150f6dadafbad5f88085a9d1e4d4de54749a1b2993b73073eb04b3be38",
       "bodyText": "phb berlin\nHier entsteht etwas ganz Großes – Potential ohne Ende. Es ist so verdammt gut, dass es sogar gefördert wird. Auch von proud. Säle für Kunst, Künstler und Kunstwerke. Fläche für mehr als 100 Ateliers und Tonstudios. Fotografie, Film, Musik und Mode. Dazu ein elektronischer Club für uns, der auch für unsere Launch-Party am 17. Januar herhalten wird. Im Moment putzen die sich ganz emsig, planen und entwickeln. Im Übrigen wirken die Wände wie das grafische Gästebuch der Stadt. proud begleitet den phb über die nächsten Monate und Jahre, featured Künstler und gibt Euch Hook-ups, wenn Ihr es nötig habt.\nwww.phb-berlin.de",
-      "file": "articles/phb-berlin.json"
+      "file": "articles/phb-berlin.json",
+      "heroImage": "hero/phb-berlin.jpg"
     },
     {
       "slug": "shit-glitter",
@@ -1023,7 +1027,8 @@
       "pageImageCount": 1,
       "contentHash": "375e2ca06ac9bdb58f8004ddf6f7fb240d1264d0f2e5fc2657dae2b235482ab2",
       "bodyText": "200 calories\nHey Fetties, hab ihr euch schon einmal gefragt wie 200 Kalorien eigentlich aussehen? Hier ein Beispiel...",
-      "file": "articles/200-calories.json"
+      "file": "articles/200-calories.json",
+      "heroImage": "hero/200-calories.jpg"
     },
     {
       "slug": "artgerechtes",
@@ -1047,7 +1052,8 @@
       "pageImageCount": 1,
       "contentHash": "f7ed858547fc0f5891b2339a4b1b7c52bac64f0ad6af2c36a972b447ba52c3f0",
       "bodyText": "artgerechtes\nÖkosein ist Jutestyle? Am Arsch, Alter. Das sehen 14 Studis anders. Der heiße Scheiß, den die vertreiben, ist nämlich artgerecht, fair gehandelt und aus ökologischer Herstellung. Hell, yeah! Wirklich cool ist die offene Einladung, eigene Designvorschläge einzusenden und mit dem Team die Ideen auf Shirts drucken zu lassen. Das klappt auch, wir haben es versucht und sind seitdem glücklichere, bessere Menschen.\nwww.artgerechtes.de",
-      "file": "articles/artgerechtes.json"
+      "file": "articles/artgerechtes.json",
+      "heroImage": "hero/artgerechtes.jpg"
     },
     {
       "slug": "e-rags",
@@ -1095,7 +1101,8 @@
       "pageImageCount": 1,
       "contentHash": "88dc75dca65574068984fd7cf0040bef726e9f30122dd78589eee6cd6ae07fd7",
       "bodyText": "mavi\nHong Kong. Hippe Party, wir sind eingeladen – auf der Liste. Prima Sache, doch wir werden an der Tür ausgelacht und weggeschickt. Scheiße, denn unsere Wohnung ist auf Peng Chau Island. Glücklicherweise hilft uns unser hübscher Modelfreund. Ab in seine Wohnung, in seine Mavijeans und zurück zum Club. Happy End.\nwww.mavi.de",
-      "file": "articles/mavi.json"
+      "file": "articles/mavi.json",
+      "heroImage": "hero/mavi.jpg"
     },
     {
       "slug": "oh-mi-bod",
@@ -1167,7 +1174,8 @@
       "pageImageCount": 1,
       "contentHash": "f3d3e7eecd3ef6e2c3f69a35bb401d47e1df44749ae03b3870e886109cfbafd9",
       "bodyText": "traktor scratch pro\nNach der Entscheidung auf TRAKTOR SCRATCH umzusteigen, ist Schlafen vorbei. Zwischen Gewissensbissen, was wohl die anderen DJs denken, und ob ich noch in den DJ-Himmel kommen werde, und totaler Faszination ziehen die nächtlichen Stunden an mir vorbei. Weg sind die Zweifel – die können sich gerne mal kreuzweise – die Entscheidung steht: Zukünftig wird es wohl vermehrt digitale Musik sein.\nWas erwartet Euch? In der quadratischen Schachtel bekommt Ihr das Audio 8 Interface, die Timecode-Platten und den üblichen Techniknippes. Die erste Installation verläuft ohne Probleme. Interface rein und ran an die Bouletten. Vergiss Deine schüchternen Blicke über die Schultern diverser Kollegen, jetzt stehst Du am Set; oder besser am Computer. Ziehe die erste Datei in das Deck. Die Timecode-Platte bietet Dir drei unterschiedliche Spiellängen von fünf, zehn und 15 Minuten an, wobei der persönliche Nutzen nicht wirklich klar ist. Nimm einfach immer",
-      "file": "articles/five-minutes-review-on.json"
+      "file": "articles/five-minutes-review-on.json",
+      "heroImage": "hero/five-minutes-review-on.jpg"
     },
     {
       "slug": "fritz-helder",
@@ -1191,7 +1199,8 @@
       "pageImageCount": 1,
       "contentHash": "67593536b59957c9074adf41950f50ed02154f71b4cd8d944f0846bb410c7966",
       "bodyText": "fritz helder\nEntdeckt bei YouTube, wo auch sonst. Fritz Helder & The Phantoms. Angeleased durch ein supergeiles Video zu „Making A Scene“ können wir nicht davon ablassen, uns ein paar Live-Gigs anzusehen. Wer Namosh kennt und liebt, wird auf Fritz Helder abgehen. Der Song ist ein Ohrwurm! Ganz klar, die Show steht absolut im Vordergrund. Also geht feiern und rockt mal richtig die Kacke, Jungs und Mädels!\nwww.fritzhelder.com",
-      "file": "articles/fritz-helder.json"
+      "file": "articles/fritz-helder.json",
+      "heroImage": "hero/fritz-helder.jpg"
     },
     {
       "slug": "launch-at-yaka-paka",
@@ -1215,7 +1224,8 @@
       "pageImageCount": 1,
       "contentHash": "c42bb17d86b95cad9c288709d1cc2906543e6f32426185bcfafba43e20311dbd",
       "bodyText": "launch at yaka paka\nBulgarischer Tanzabend mit fett Krach und viel Hurra\nYaka Paka. Ein bulgarisches Kuppelnest verwandelt sich in einen grellen Lichterdschungel. Ein derartiges Etablissement als Techno-Spielplatz im Herzen Kreuzbergs zu gewinnen ist eine unglaubliche Glückssache. Dazu braucht man nur ein Handy und einen guten türkischen Papa, der die Community wie seine eigene Westentasche kennt und mit zwei Anrufen einen Freischein zum Veranstalten klarmacht. Tesekkür ederim, baba! Die erste Veranstaltung begann am Donnerstag gegen 24 Uhr, wobei bereits um 23 Uhr alle Veranstalter betrunken mit den DJs über die Tische tanzten. Um ein Uhr war der Laden mit 500 Gästen gefüllt und alle hingen wie gebannt vor den einarmigen Banditen, den Wandpostern der Playboy-Boys und -Girls und den unglaublich hübschen Barladys. Die Nachbarin schmeißt Blumenkästen und bekommt Sekt zurück, alle sind glücklich und bald heißt es wieder Yaka-Paka-Entertainment ahoi.",
-      "file": "articles/launch-at-yaka-paka.json"
+      "file": "articles/launch-at-yaka-paka.json",
+      "heroImage": "hero/launch-at-yaka-paka.jpg"
     },
     {
       "slug": "schnaps-magazine",
@@ -1239,7 +1249,8 @@
       "pageImageCount": 1,
       "contentHash": "11032674c6e6bbe2943f537c4875f3e0f43b9c02eaba6477e72f183be944befd",
       "bodyText": "schnaps magazine\n\nberlin's daily circus\nEndlich – das neue Video-Magazin für die Generation Exzess.\nScheiß auf Anstand, Hochglanz und Apfelschorle! Berlin hat endlich ein Magazin, das dahin geht, wo sich die anderen Kinder nicht hintrauen: in die dreckig-schillernden Abgründe einer Stadt, die vergessen hat, schlafen zu gehen.\nOb Pyjama-Parties mit Killgoth-Bands, Toiletten-Interviews mit Rockstars, Gedankenschmusen mit Rummelsnuff, Selbstversuche im SM-Club des Vertrauens, Fashion-Shootings mit Toten, unzensierte Fotostrecken von der Party letzte\nNacht oder Bratwurstschmeißen mit Pornostars – täglich bringt uns Schnaps eine neue Perle unserer schönen neon Welt. Und Berlin endlich ein Tagebuch, das seine Seele zeigt, wie sie ist: Dreckig, schön, unerwartet, exzessiv und immer ein bisschen betrunken.\nDenn Berlin ist vieles – aber eines ganz bestimmt: Schnaps.\nDanke, Jungs!\nwww.schnapsmagazine.com\nwww.myspace.com/schnapsmagazine",
-      "file": "articles/schnaps-magazine.json"
+      "file": "articles/schnaps-magazine.json",
+      "heroImage": "hero/schnaps-magazine.jpg"
     },
     {
       "slug": "ceza-at-ballhaus-naunynstrasse",
@@ -1263,7 +1274,8 @@
       "pageImageCount": 1,
       "contentHash": "5e232a3d76448af37907430779a8aa48438a4a78b971e39ee6c9ecb2f03412fc",
       "bodyText": "ceza at ballhaus naunynstrasse\nDas Ballhaus-Theater in der Naunynstraße ist nach vielen Jahren zu neuem Leben erwacht. Endlich nicht nur alle drei Monate ein Stück, von dem keiner etwas mitbekommen. Gerade erst wurde dort der Videodreh des Rappers Ceza aus Fatih Akins „Crossing the Bridge“ gedreht. Die gesamte Naunynmafia versammelte sich, neugierig wie kleine Jungs, wollten ordentlich rum, benahmen sich aber unter den prüfenden Blicken von Ibo aus der Naunynritze ausgesprochen gut. Wahrscheinlich waren es die aufgedonnerten Hip-Hop-Gurlz, welche bis in die frühen Morgenstunden wie Magneten auf die Schar Statisten wirkten. Denn mehr haben wir vom Dreh auch nicht mitbekommen. Das Video gibt's jedenfalls bald auf MTV und YouTube zu sehen. Die sabbernden Jungs bleiben dagegen in der Naunynstraße. Dort, wo Ihr auch das Ballhaus findet. Langsam mausert sich nämlich der Schuppen zum Dreh- und Treffpunkt für Kreative in Kreuzberg. Wenn Ihr mehr über das unterhaltsame Theater-Programm wissen wollt, dann schnell auf deren Webseite.\nwww.ballhausnaunynstrasse.de",
-      "file": "articles/ceza-at-ballhaus-naunynstrasse.json"
+      "file": "articles/ceza-at-ballhaus-naunynstrasse.json",
+      "heroImage": "hero/ceza-at-ballhaus-naunynstrasse.jpg"
     },
     {
       "slug": "tr-s-bonjour-fashion-show-2008",
@@ -1287,7 +1299,8 @@
       "pageImageCount": 1,
       "contentHash": "57b02f48238c5c099bdd8920725ea981b9fd2c1c735fc6daf6c90566f3e3c617",
       "bodyText": "très bonjour fashion show 2008\nEine abendliche Exkursion ist eine feine Sache. Wenn dabei heiße Frauen in abgefahrener Latex-Couture-Lingerie und Swimwear-Kollektionen eine entscheidende Rolle spielen, reicht es, das süße Sein zu begrüßen. Jauchzend am Feiern findet sich die proud Redaktion in einem mit viel Liebe designten S-Bahn-Bogen, zwischen endlosen Bikinireihen. Augen und Münder weit geöffnet starren wir die aktuelle Kollektion der jungen Designerin Viola Jaeger an. Als Sahnehäubchen gibt es außerdem die extravaganten Hutkreationen von Hat-Affairs aus München, exklusiv für dieses Event entworfen. „Deep Sea Geishas“-Unterwasseratmosphäre\nverschaffte das unglaublich geile Lichtdesign (von Mark Beversdorf und die Projektionen des renommierten 3D-Artists Till Nowak!). Alle Gäste, darunter Peaches und Estelle, ließen sich dann auch auf der Aftershowparty von Disko44 blicken. Vom außergewöhnlichen Modelabel Très Bonjour erwarten wir in Zukunft Großes und freuen uns auf spannende Kollaborationen sowie die Showroom-Eröffnung am 24. Januar in Berlin. Ihr braucht noch mehr Beweise neben unseren überzeugenden Bildern? Sucht nach den Schlagwörtern „Deep Sea Geishas“ auf vimeo.com.\nimage Jan Adler",
-      "file": "articles/tr-s-bonjour-fashion-show-2008.json"
+      "file": "articles/tr-s-bonjour-fashion-show-2008.json",
+      "heroImage": "hero/tr-s-bonjour-fashion-show-2008.jpg"
     },
     {
       "slug": "love-in-berlin",
@@ -1313,7 +1326,8 @@
       "pageImageCount": 2,
       "contentHash": "3489a436a085d527b96f10df48ffd941ecc316d1b7086fb8d2286ce74f4d50a4",
       "bodyText": "love in berlin\nChristian Rothenhagen alias deerBLN, Berliner Lokalpatriot mit Hang zum Konzeptionellen\nEr ist gelernter Möbeltischler, studierter Sozialpädagoge und professioneller Grafikdesigner und Illustrator. In San Francisco sind seine Arbeiten zu finden, in Mitte gestaltete er den Carhartt-Laden und jetzt hat er für Artsprojekt eine Skateboard-Serie designt. So vielschichtig wie seine Biografie ist auch die Kunst von Christian Rothenhagen. Wo andere jedes beschissene Tierchen als Streetart deklarieren, verschönert der Designer mit seinen aufwändig gestalteten Kacheln unter dem Namen „deerBLN“ unsere Stadt. proud traf den Künstler frisch nach seiner fünfwöchigen Galerie-Tour durch Kalifornien.\nWelche Ambitionen hast Du um Kacheln ins Straßenbild zu kleben?\nMeine Ambition ist ganz klar, meine Stadt zu verschönern und zu zeigen: In Zeichnungen, auf T-Shirts, Boards, Installationen, wo auch immer. Ich bin glücklich in der schönsten Stadt der Welt leben zu dürfen.\nUnd die Motive?\nErstmal die Stadt, also Berlin: Architektur, Brandmauern. Mein Anspruch ist hoch, klar. Oft minimalistisch, auf den Punkt gebracht, konzeptionell, Wiedererkennung, Handschrift.\nBist Du schon mal gefressen worden?\nJa, so zwei, drei Sachen gibt’s da. Zum Beispiel vor gar nicht langer Zeit, eine oder mehrere Damenjacken bei H&M kamen mit einem minimal abgewandelten Design von mir als Pattern im Innenfutter. Mal eben so als Rip-off. Naja, ich hätte ausflippen können, bin ich erstmal auch. Versuche das in dem Fall aber eher als Kompliment zu sehen.\nDu bist ein echter Berliner. Magst Du die Stadt heutzutage überhaupt noch?\nIch wohne hier seit 1976. Da war ich dreieinhalb. Für mich ist die Stadt immer noch die schönste, raueste, vielschichtigste, interessanteste, unbestechlichste, kaputteste – und ehrlichste. Ich bin glücklich hier leben zu dürfen und hoffe, dass der ganze Zustrom noch bisschen was von meiner Stadt übrig lässt. Mal im Ernst, jeder und jede ist hier herzlich willkommen, aber lasst die Stadt die Stadt sein. Wer München will, soll eben in München bleiben.\nStreetart ist doch mittlerweile scheiße. Wie ist es, ein Streetartist zu sein?\nIch seh mich nicht als Streetartist. Das ist ein so kaputter Begriff, der in meinen Augen eher degradiert; die Kunst und die Künstler. Ich will das bitte nicht falsch verstanden wissen, aber in einer Stadt in der sich jeder Streetartist nennt, der mal 'nen Sticker an eine Wand geklebt hat, wird der Begriff schnell zur Farce. Kunst kann so viel sein, egal ob auf der Straße, in Galerien oder eben die Straße selbst. Da gibt’s viele wunderbare Entwicklungen, Kollaborationen. Kunst im Umgang mit der Stadt, im Kontext und weit darüber hinaus.\nWie war San Francisco? Alles klar mit Deiner Crew?\nDer Trip war großartig, ich habe viele Freunde getroffen und wiedergesehen, mit Künstlern zusammengearbeitet, auch in direkter Kollaboration. Das ist auch die Idee der derzeitigen Ausstellung in SF und der Künstlergruppe The Oyster Pirates: Kollaboration. Dabei sind unglaubliche Sachen entstanden. Hammer.\nKannst Du das mit irgendwas vergleichen?\nNee, vergleichen kann man das kaum, obwohl... Natürlich sind die Leute drüben auch nicht anders als hier, nur wird Kunst da eher unter dem Karriereaspekt gesehen. Also, wo du ausstellst. Okay, das ist auch hier nicht unwichtig, strenge Preispolitik et cetera. Ich sehe das alles etwas entspannter. Die Stadt ist ohnehin speziell, genauso wie Berlin. Vielleicht dahingehend doch vergleichbar. Zwei fertige Schönheiten. In SF ist alles geballter und übersichtlicher, konkreter und eben direkter.\nFrische Pläne für’s frische Jahr?\nNe Menge! Es sind so um die vier, fünf Gruppenausstellungen in Planung. Allein in den Staaten mit den Oyster Pirates und mit dem deerBLN-project. Das ist eine Gruppenausstellungsreihe zu der ich Künstler einlade, etwas zum Thema “deer” zu machen, alles im gleichen Format. Derzeit sind das etwa 65 Leute aus 14 Ländern.\n\nstreets ahead\nproud 23",
-      "file": "articles/love-in-berlin.json"
+      "file": "articles/love-in-berlin.json",
+      "heroImage": "hero/love-in-berlin.jpg"
     },
     {
       "slug": "pentagonik",
@@ -1340,7 +1354,8 @@
       "pageImageCount": 2,
       "contentHash": "45bd0e6649c9eae953e940f6f367ad3383aad155706d18ab53e2c602af3a268a",
       "bodyText": "pentagonik\n„Am Anfang gab es den Masterplan! Wir sind apostelmäßig rumgerannt. Von Club zu Club bis die Leute gemerkt haben das wir es ernst meinen. Selbst nach vier Jahren treffe ich noch Leute die sich daran erinnern. Das sind Punkte, an denen man merkt, dass es irgendwie funktioniert hat.“\nPentagonik Netlabel Releases\nTom Ellis: Switched Off EP [pntg021]\n& Enzo & Topper: Black Rabbit [pntg023] verfügbar auf pentagonik.de.\nDon und Kai, zwei der Labelgründer im Interview mit proud.\nPentagonik wurde im Jahre 2005 von Don, Max, Özgür, Buddy und Kai, fünf Freunden aus Berlin als Netlabel gegründet. Sie verstanden Pentagonik von Anfang an als eine Plattform, die den Vertrieb freier elektronischer Musik und die Organisation von Partys verbindet. Die Netlabelveröffentlichungen stehen unter der Creative Common Lizenz auf pentagonik.de frei zur Verfügung. Verschiedene Künstler des Labels haben inzwischen auch auf Label wie Archipel, Highrade, Oslo, Immigrant und This Order veröffentlicht.\nDer Fokus liegt auf innovativen Projekten, die neue Wege der Musikdistribution mit den klassischen Medien Vinyl und CD verbinden wollen.\nDaraus ergibt sich der Anspruch von Pentagonik neben Veröffentlichungen auf dem Netlabel durch die Organisation von Partys ein breites Spektrum von Menschen anzusprechen. Darüber hinaus wurde kürzlich mit dem kommerziellen Vertrieb von Musik über das neue Label Pentagonik Digital begonnen.\nWie hat alles begonnen und was macht Ihr überhaupt?\nKai: Angefangen hat alles damit, dass jeder von uns irgendwie was mit elektronischer Musik und Partys zu tun hatte. Wir waren also ziemlich bunt zusammengewürfelt und wollten etwas zur Szene beisteuern. Die Verteilung der Aufgaben hat sich dann fast wie von selbst, nach persönlichen Vorlieben und Fähigkeiten ergeben. Im März 2005 hatten wir dann unsere erste Releaseparty bei der wir als Netlabel und Veranstalter aufgetreten sind. Es war eine ziemlich erfolgreiche Party in einer geilen Location in einer ehemaligen Moschee direkt am Kotti in einem dieser Hochhauskomplexe. Noch während wir angefangen haben aufzubauen kamen Leute, die sich erkundigt haben, ob hier noch Gottesdienste abgehalten werden. Auf unserem ersten Release waren acht verschiedene Künstler vertreten, die dann auch auf der Party gespielt haben. Die Veröffentlichung der Tracks auf unserem Netlabel war kurz zuvor. Unser Anspruch war es, den Leuten zu zeigen das Netlabel und Party wunderbar zusammengehen kann. Deswegen von Anfang an die Verbindung der Musik mit den Events.\nWarum das Ganze? Es kann doch nicht nur Wohltätigkeit für die Szene sein.\nDon: Doch, eigentlich schon. Es ging tatsächlich darum, der Szene etwas zurückgeben, in der wir gerne weggehen. Ich hatte mir damals zusammen mit Max mitten bei einer Afterhour gedacht, wir müssten einen Schritt nach vorne gehen und auch mal agieren und nicht nur absorbieren. Dann ist uns aufgefallen, dass wir eigentlich schon sehr viele Künstler kennen. Ich hatte damals schon etwas von Netlabels gehört und\n\ndann haben wir uns einfach dazu entschlossen, auch so etwas auf die Beine zu stellen. In Verbindung damit haben wir dann Partys organisiert, das war die perfekte Kombination. Bei dieser einen Afterhour mit Max haben wir dann irgendwie von Kamps Bäckerpapier geholt und wie die Wahnsinnigen dieses Konzept aufgeschrieben. Als wir es dann am nächsten Tag noch mal durchgelesen haben und es auch am zweiten Tag noch alles einen Sinn ergeben hat, haben wir von diesem Zeitpunkt angefangen das Konzept umzusetzen. Es gab da ein Paar Eckpunkte an denen wir uns orientieren wollten: Musik, Kunst, Abendgestaltung, Kommunikation. Darauf aufbauend haben wir das an die Anderen herangetragen, wir haben einfach angefangen uns regelmäßig zu treffen und alles hat wunderbar funktioniert. Wir waren bald nicht nur ein Veranstalter sondern ein Veranstalter, der im Hintergrund noch ein Label hat. Die Frage nach dem Sinn haben wir uns nicht gestellt, weil es einfach Spaß gemacht hat und die Resonanz stimmte.\nWird der Plattenladen als Forum des Austausches zwischen DJs aussterben?\nDon: Nein! Der Austausch in Plattenläden wird weiterhin stattfinden, aber daneben waren immer schon auch andere Orte wichtig wie natürlich Clubs und Partys und dazu ist natürlich in den letzten Jahren im großen Still das Internet mit seinen vielfältigen Möglichkeiten gekommen.\nDie Notwendigkeit über Musik auch zu reden wird immer vorhanden sein. Der Ort für den Austausch verschiebt sich vielleicht, aber er wird nie verschwinden.\nSeht Ihr die Gefahr, dass das Vinyl verschwindet?\nKai: Es geht hier gar nicht um die Frage ob Gefahr oder nicht. Aber es ist Tatsache, dass der Trend ganz klar in Richtung digitaler Vertriebswege geht. Egal ob die Musik frei ist oder nicht. Mit allen seinen Vor- und Nachteilen, die das mit sich bringt. Manche Leute, die heute neu anfangen aufzulegen stellen sich ihre „Plattensammlung“ sehr schnell zusammen. Früher musste man sich vielleicht mehr Mühe damit geben. Für Labelmacher hat sich aber definitiv vieles vereinfacht...\nDon: Wer weiß was die Zukunft bringt. Erst einmal werden Vinyl und Digital weiter koexistieren. Vielleicht gibt es irgendwann ein abgefahrenes neues Medium. Im Trend wird auf jeden Fall das Netz bleiben, warum sollte man nicht schon bald kooperativ Tracks produzieren können. Dafür ist z.B. eine Schnittstelle wie Soundcloud, die sehr intuitiv funktioniert, bestens geeignet.\nWieviele Anfragen von potentiellen Produzenten habt Ihr?\nDon: Zur Zeit um die fünf Demos pro Woche, in Hochzeiten auch mal bis zu zehn.\nDann entscheidet Ihr ziemlich strikt, wer bei euch rausbringt?\nKai: Ja! Auf jeden Fall. Unser Ziel war nie möglichst viele Release rauszuhauen.\nDon: Interessanterweise entstehen Kontakte auch, wenn man ein Netlabel macht, oft auf Partys face-to-face und nicht nur virtuell.\nKai: Im Vordergrund steht immer und sollte auch immer die musikalische Qualität der Tracks stehen. Als Produzent muss man immer überlegen, welche Tracks man tatsächlich auch veröffentlichen will. Es gibt leider zu viele Leute, die ihre Musik einfach nach dem Motto „mal sehen was passiert“ raushauen. Was die Netlabel Szene teilweise ein wenig unübersichtlich und schwerer zugänglich macht.\nGrößte Entdeckung?\nDon: In letzter Zeit Tom Ellis aus Wales, den habe ich in London beim Netaudiofestival live gesehen und auch für die nächste Release Party am 23. Januar gebucht. Außerdem hat er eine sehr schöne EP bei uns veröffentlicht.\nIrgendeine andere Stadt als Berlin?\nDon und Kai: Nein! Wir kennen viele andere Städte, wollen aber nix anderes.\nPentagonik Digital Release\nDemir & Seymen: Treibjagd [pntgd001] & Larsson: Stadtwind [pntgd002] verfügbar ab 23.01.2009 auf iTunes, Beatport, Juno Download oder bei deinem elektronischen Online Store.\nwww.pentagonik.de",
-      "file": "articles/pentagonik.json"
+      "file": "articles/pentagonik.json",
+      "heroImage": "hero/pentagonik.jpg"
     },
     {
       "slug": "kannibalistische-babarenvoelker",
@@ -1392,7 +1407,8 @@
       "pageImageCount": 2,
       "contentHash": "23e69114f3e13de6c8900987bd44d1d1fdc2091f2163d2deb8ddca3c02ff1e91",
       "bodyText": "Andere Richtungen\nWie hast Du schon einmal eine Tanzfläche leergespielt?\nIch habe mich vor dem Auflegen schon derartig abgeschossen, dass ich mich während des Spielens ständig gefragt habe, welcher der beiden Plattenspieler denn nun läuft und warum? Den Fehler habe ich aber auch nur einmal gemacht. Na ja, zumindest ich hatte meinen Spaß.\nBist Du beim DJ-Wechsel zurückhaltend oder aggressiv? Wo gab's mal richtig Probleme?\nIch glaube, nur Anfänger sind aggressiv. Denn auf eine Platte mehr oder weniger kommt es nun wirklich nicht an. Und falls doch, habe ich meine Buddies dabei ;). Richtige Probleme hatte ich zum Glück noch nie. Die meisten DJs sind halt locker.\nDeine beste Berlin-Story, die Du im Ausland den Girls auspackst?\nIch erzähle, dass in Berlin das Durchschnittseinkommen bei 20.000 Euro monatlich liegt und dass wir alle ...cm und ...m und ... Stunden und ... Dann ist die Frau allerdings schon meist weg.\nIst es denn von Vorteil, aus Berlin zu sein?\nNatürlich hat Berlin in der Welt einen besonderen Status, wenn es um elektronische Musik geht. Allerdings ist das bloße Wohnen in der Stadt kein Garant dafür, dass man ein guter DJ ist. Gerade im Ausland treffe ich immer wieder auf sehr gute DJs. Helfen tut es daher nicht wirklich. `proud` erzähle ich natürlich von der Stadt.\nwww.pentagonik.de/artists/Demir\n\nBerlin\nFür welche Frau würdest Du mitten im Technoset im Berghain Hip-Hop auflegen?\nFür meine Freundin würde ich selbst Schlager spielen, wenn sie das glücklich machen sollte... Aber zum Glück ist das ja nicht der Fall.\nWas müsste man Dir bieten, damit Du aus Berlin wegziehst?\nBerlin plus Meer.\nUnter welchen Umständen würdest Du im Felix auflegen?\nIch bin Student, ich brauche das Geld.\nWarum ist Dein Berliner Lieblingsclub Dein Lieblingsclub geworden?\nDie Stadt ist mein Lieblingsclub. Es gibt einfach zu viele gute Partys, als dass ich einen Lieblingsclub haben könnte.\nWo und für wieviel hast Du Dein erstes DJ-Set gespielt?\nDas war auf der Pentagonik-Gründungsparty 2005. Die HiFi-Kopfhörer von zu Hause waren natürlich viel zu leise und die Anlage, die wir gemietet hatten, wie immer viel zu laut. Somit habe ich so gut wie nichts gehört. Geil war es trotzdem. Entlohnt?! Don, Kai wo ist mein Geld?\nWas machst Du im Ausland, was Du hier niemals bringen würdest?\nIch ziehe mich nackt aus und `scatche` mit den Arschbacken... Nein im Grunde mache ich all das, was ich auch in Berlin machen würde.",
-      "file": "articles/andere-richtungen.json"
+      "file": "articles/andere-richtungen.json",
+      "heroImage": "hero/andere-richtungen.jpg"
     },
     {
       "slug": "dj-craft",
@@ -1416,7 +1432,8 @@
       "pageImageCount": 1,
       "contentHash": "33c19d2343171cb12e90a89d39b6f58af6cae93bfd32eebe0b94524ff7256301",
       "bodyText": "dj craft\nSpiel Technol Und zeichne...\nK.I.Z. in 50 Jahren\nDein schlimmster Alptraum\nWas die Menschen interessiert\nWenn Du nur noch einen Tag zu leben hättest\nDeine schönste Kindheitserinnerung\nKleiner\nWas Dich glücklich macht\n28 pro",
-      "file": "articles/dj-craft.json"
+      "file": "articles/dj-craft.json",
+      "heroImage": "hero/dj-craft.jpg"
     },
     {
       "slug": "proud-2",
@@ -1440,7 +1457,8 @@
       "pageImageCount": 1,
       "contentHash": "a285de228d67696ef392c38f4a9c58ff0995ad15b5f5fdceb7f0a1eb97a2072d",
       "bodyText": "proud\nDamn. Yee! Wir lieben Zeichenbattles und deshalb wird ab ungefähr jetzt in jeder Ausgabe eins zu bewundern sein.\nUnser schlimmster Alptraum\nUnsere schönste Kindheitserinnerung\nWas uns geprägt hat\nWas uns glücklich macht\nGrouplies\nUnser letztes Frühstück\nWenn wir nur noch einen Tag zu leben hätten\nProud in 50 Jahren\nHip Hop\nproud 29",
-      "file": "articles/proud-2.json"
+      "file": "articles/proud-2.json",
+      "heroImage": "hero/proud-2.jpg"
     },
     {
       "slug": "maximal-my-ass",
@@ -1464,7 +1482,8 @@
       "pageImageCount": 2,
       "contentHash": "8ae4245136a92cc7e870e523f47eb54db7744af63ba75d6885281273022189c4",
       "bodyText": "maximal my ass\na gang bang with bucati force\nMAXIMAL auf dem Tanzflur ist wie eine Weihnachtsfeier im Swinger-Club – hier eine Einladungskarte von seinen aktivsten Mitgliedern: Bugati Force.\n\nknowlege\nEs soll ja tatsächlich Menschen geben, die ihre Jacke noch immer nicht an der Garderobe im Watergate abgeholt haben und sich weiterhin von einem Klicker hier und einem Klacker da mini-mal ans Limit pushen lassen. Doch die Zeiten, in denen sich lediglich der hip-frisierte Mitte-Scheitel bei bodenständigem Tanzgewippe richtig gehen lassen konnte, sind vorbei: MAXIMAL heißt die unfreiwillige Anti-Bewegung, die mit wabernden Basslines und viel Shake-your-ass über die Tanzflächen peitscht und dabei „in your face“ schreit wie Ron Jeremy.\nDie Verbindung von Elektro-Bounce-Beats und Rap-Vocals erinnert oft an DJ Funks 90er-Jahre-Miami-Bass-Sound. Aber MAXIMAL geht weiter. Die sich ständig steigernde Dramaturgie der Tracks stellt schnell klar, dass MAXIMAL eine Techno-Retorte und der Hip Hop oft nur die Kirsche oben drauf ist. Der liebliche Gesang moderner Synthesizer flirtet mit den essentiellen und tragenden Tiefen der Basslinien und sagt direkt „hallo und zieh Dich aus“. Auf 110 bis 140 bpm werden gepitchte Hip-Hop-Beats gelegt und Cuts geglitcht. Erlaubt ist alles, was eindringlich und euphorisierend ist.\nEgal, woher der Einfluss kommt – ob mehr Techno-Bumm oder Hip-Hop-Ohh – MAXIMAL holt das Maximum aus exzessiv-elektronischer Tanzmusik. Und immer mehr Jacken aus der Watergate-Garderobe.\nDie Jungs von der Bugati Force waren noch nicht im Watergate. Wahrscheinlich haben sie auch noch nie von dem Laden gehört. Denn wenn sie mal nicht in den Neon-Clubs dieses Landes eines ihrer gnadenlosen Live-Sets runterbrettern, sitzen sie im Studio und produzieren Tracks für namhafte Musiker. Aber von vorne: Angefangen hat alles imagegerecht auf irgendwelchen Jugendclubbühnen, irgendwo in der Weltstadt Marburg, wo Droopy, Spank und Cashmaster Diamond Mitte der 50er gemeinsame Hip-Hop-Projekte starten und erste Schlüpfer junger Groupie-Girls fangen. Anfang des neuen Jahrtausends suchen alle drei neue Herausforderungen und ziehen zunächst in verschiedene Städte, ehe sie sich 2004 in Berlin wieder formieren. Hier konzentrieren sie sich auf ihre Arbeit im Studio und produzieren prollig-elektronische Beats für Deine Lieblingsrapper, Culcha Candela, Lady Bitch Ray und remixen Ludacris, Lumidee, Tarkan und Jam & Spoon.\nBald merken die in der Blütezeit ihres Lebens stehenden, jungen Männer, dass sie für den alleinigen Zeitvertreib im Mischpultkeller zu schön sind und beschließen, unter dem Namen Bugati Force und mit einem Sound zwischen Electrobooty und Hip-Hop die Herzen verschwitzter Clubs zu erobern. Seitdem touren sie im Lovetrain durch Deutschland, klatschen ihren betörenden Rap-Poplectro-Bastard-Mix aufs Tanzparkett und fangen wieder Schlüpfer. Aber diesmal eine Nummer größer. EP-Release im Frühjahr 2009. Kaufen.\nwww.myspace.com/bugatiforce\nGASTAUTOR\nJohnny Macchiato, Schnaps Magazine",
-      "file": "articles/maximal-my-ass.json"
+      "file": "articles/maximal-my-ass.json",
+      "heroImage": "hero/maximal-my-ass.jpg"
     },
     {
       "slug": "alte-legenden-neue-entdeckungen",
@@ -1488,7 +1507,8 @@
       "pageImageCount": 1,
       "contentHash": "c99721dd5ab73999bb8ce2d6021ddd828894a4eae32fe28ebb8c639768feccb9",
       "bodyText": "Alte Legenden, neue Entdeckungen\nEs gibt wohl kein anderes Musikgenre, das wöchentlich mehr Veröffentlichungen ans Licht bringt als Techno. Bei dem Überangebot ist es nicht immer einfach, das zu finden, was man eigentlich sucht. Oft weiß man auch gar nicht, was man eigentlich sucht! An manchen Tagen reicht bereits ein druckvoller Kickdrum und eine simple Bassline – manche nennen das Minimal – an anderen Tagen muss es funky oder perkussiv sein. Je nach Tagesform. Womit man mich allerdings immer hinterm Ofen hervorlocken kann, sind rasselnde Hi-Hats, gepaart mit Claps und Snares. Je roher die Sounds, desto besser. Musik, die mich verprügelt und auspeitscht und trotzdem zärtlich zu mir ist. Technoiden Masochisten-House kann man das vielleicht nennen. Neue Tracks in diesem Stil sind leider extrem rar. Daher habe ich beschlossen, mich auf die Suche nach alten Platten zu begeben.\nMein erstes Fundstück ist „Carl Craig's Paperclip Remix\" von Green Velvets „Flash\" aus dem Jahr 1996. Der Track startet ohne zärtliches Vorspiel des bereits beschriebenen Kettengerassels. Um aber nicht unhöflich zu sein begrüßt uns Green Velvet höchstpersönlich, drückt jedem eine Kamera in die Hand und gestattet auch Fotos zu machen. Das waren damals noch Zeiten! „We've been here not more than thirty seconds, and already I see a bad little kid doing bad little things.\" Genau diese Dirtyness, die ich gesucht habe! Als Carl Craig nach 3 Minuten Rasselei auch noch gefühlvoll den Fader für die Bassline hochzieht, verstehe ich endlich, was seine Musik ausmacht. Der Mix als Kunstform. „Cameras ready, prepare to flash!\"\nText Dave Krass",
-      "file": "articles/alte-legenden-neue-entdeckungen.json"
+      "file": "articles/alte-legenden-neue-entdeckungen.json",
+      "heroImage": "hero/alte-legenden-neue-entdeckungen.jpg"
     },
     {
       "slug": "vom-anfang-bis-zum",
@@ -1536,7 +1556,8 @@
       "pageImageCount": 1,
       "contentHash": "3a0e296989fdae17a101221e8b3211961a61be491c81f6d28765b5b5dd99b57f",
       "bodyText": "Wie überzeugt man jemanden vom Techno?\n1. Kauf Dir ein Auto.\n2. Immer wenn Du mit Deiner Bezugsperson nach Hause fährst, lass ein dunkles Techno-Mixtape im Anschlag laufen.\n3. Leugne, dass Du noch andere Musik besitzt.\n4. Keine Pausen, wenn Dein Beifahrer leiser macht, mache subtil mit einem Satz wie: \"Ey, achte mal auf den Sound, das klingt als wärst du in einem U-Boot und jemand schlägt gegen die Rohre!\" wieder laut und ignoriere seinen verzweifelten Gesichtsausdruck.\n5. Nun eine Stufe weiter. Ab mit der Bezugsperson in die richtigen Clubs. Fang hier nicht gleich hardcore an. Erstmal einen Club, der in Richtung Bastardpop geht. Ihr trinkt am besten so viele Drinks, dass es erträglich wird. Du musst durchhalten und immer wieder anspornen zu bleiben. Ein Wochenende mehr oder weniger durchmachen.\n6. Zwischendrin immer paar positive Erlebnisse streuen, zum Beispiel Frühstücken, Sex, Obst oder so.\n7. Aber: gib dem fluffigen, leichten Pop-Elektro nicht zu viel Macht.\n8. Jetzt geht's an den Techno. Wieder ein Wochenende, diesmal mindestens 40 Stunden nonstop Action.\n9. Jetzt schenkst Du Deiner Bezugsperson das Automixtape.\n10. Gut gemacht.\nText Pumpa Petz",
-      "file": "articles/wie-ueberzeugt-man-jemanden-vom-techno.json"
+      "file": "articles/wie-ueberzeugt-man-jemanden-vom-techno.json",
+      "heroImage": "hero/wie-ueberzeugt-man-jemanden-vom-techno.jpg"
     },
     {
       "slug": "proud-dj-kolumnen",
@@ -1560,7 +1581,8 @@
       "pageImageCount": 1,
       "contentHash": "950b5dd6ed42aae700c51440dcc8f37b616f52476986f52b0255b0b04022634a",
       "bodyText": "Verwöhntes Berlin\n„Jungs, heute will ich richtig feiern gehen!“, posaunten meine angetrunkenen Stimmbänder. Nach viel Alkohol und Kartenspielen rafften wir uns aus dem Haus auf und gingen auf die Straße. Es ist still, da es nach Mitternacht ist. „Und wohin nun?“, fragt der schwankende Australier. „Ich habe Hunger!“, hustet der Engländer dazwischen, der am meisten von allen säuft. „Das kann man vergessen. Genauso wie eine musikalisch anspruchsvolle Feiernacht mitten in der Woche! Höchstens eine Bar“, sage ich verzweifelt, denn ich stelle eines fest: ich bin nicht in Berlin. Also geht die Nacht in einer Bar mit schlechter Pop-Musik zu Ende. Prompt habe ich Heimweh in Asien und merke, wie verwöhnt ich bin.\nBerlin… welch einzigartiges Terrain Du doch bist! Für alle, die es noch nicht gemerkt haben, wir leben in einer tollen Stadt! Ist Euch mal aufgefallen, wie billig es hier im Vergleich zu anderen europäischen Hauptstädten ist? Wir können uns blöd konsumieren, kreativ ausleben und krass austoben! Zum Beispiel habe ich es vermisst, bunte Wände zu lesen und mit Freunden zu Techno zu tanzen… andere vielleicht die Mauer. Ich will einfach nur loswerden, dass es mir während meiner Reise noch bewusster geworden ist, wie frei man hier sein kann. Fast grenzenlose Möglichkeiten und wir sollten dies schätzen, denn wenn wir nicht aufpassen, geht in unserem Sumpf einiges schief. Die Stadt verändert sich immer mehr durch ihren Verkauf, weil die auch merken, wie geil und profitabel Berlin ist! Ich bin kein schwarzer Maskenträger mit geballter Faust, aber wir sollten einfach ab und zu aus unserem Exzess und Überschuss aufwachen und verhindern, dass wir wie jede andere Stadt werden. Wir sind verwöhnt. Ich liebe es!\n93 Till Infinity\nHip Hop ist sowas von tot. Zehn Zeilen um die Veterane der Nineties zu würdigen.\n1. Souls of Mischief - 93 Till Infinity\n2. Too Short & Eazy E - Players club\n3. Wu Tang - I Cant Sleep\n4. A Tribe Called Quest - 1nce Again\n5. Notorious B.I.G. - Juicy\n6. Snoop Doggy Dog - Jin and Juice\n7. 2PAC - To Live & Die In L.A.\n8. Wu-Tang Clan - C.R.E.A.M.\n9. Jay Z - Sunshine\n10. Onyx - Slam Harder\n**Text Tim**\nElektronischer Hörgenuss On Air\nIm Gegensatz zur Clubkultur sieht es auf der Berliner Radiolandschaft, dem am härtesten umkämpften Radiomarkt Europas, für Liebhaber der elektronischen Musik recht düster aus. Zwar bietet die Bar25 einen Internetstream mit Aufzeichnungen und Liveübertragungen aus der Ranch an, doch wurde die Institution für elektronische Musik im Berliner Radio, Marushas Rave Satellite, schon im August 2007 abgesetzt.\nDa hat Russland mehr zu bieten. Seit 2002 bietet Moskaus Deepmix einen Internetstream mit ausgewählten DJ- und Livesets größtenteils russischer Künstler an. 24/7 gab es Deep- und Techhouse, Minimal-Techno und Electronica auf die Ohren. Kostenlos, weltweit. Leider beschränkt sich Deepmix heute fast ausschließlich auf Deephouse.\nDer aus Radio Tochka hervorgegangene Web-Sender RTS.FM konzentriert sich auf die Genres, die Deepmix so bekannt und beliebt gemacht haben. Der Newcomer bietet aber keinen konventionellen Audiostream, sondern zeigt fast täglich Live-Videostreams aus dem Moskauer Studio oder aus befreundeten Clubs. Neben den vielen russischen Resident-DJs wie Amesh, bvoice oder Anrilov, die sich auch hierzulande durch Deepmix in der Szene einen Namen machen konnten, zeigen auch international bekannte Größen wie Minilogue, John Tejada oder Radioslave ihr Können. Dass sich die Künstler in einer kurzen Videobotschaft und auf eigenen Profilseiten mit Biografie und Fotos vorstellen dürfen, ist ein echt nettes Sahnebonbon. Die Aufzeichnungen der Shows können sich registrierte User auf der gänzlich in Flash gestalteten Webseite jederzeit anschauen. Jedoch ist zur Registrierung eine Einladung nötig, die wiederum mit einer freundlichen Email zu bekommen ist.\nwww.bar25.de/radio\nwww.deepmix.eu\nwww.rts.fm\n**Text Lotema**",
-      "file": "articles/proud-dj-kolumnen.json"
+      "file": "articles/proud-dj-kolumnen.json",
+      "heroImage": "hero/proud-dj-kolumnen.jpg"
     },
     {
       "slug": "berlin-bedtime",
@@ -1584,7 +1606,8 @@
       "pageImageCount": 1,
       "contentHash": "33bda8f17d500cf41f9d516eb794cdc303a546c6d52a4852d92e845f27b046f8",
       "bodyText": "Berlin bedtime\nWer einmal Nacht lebt, will noch mehr.\nEs gibt einige Gründe sich auf einer Party blicken zu lassen. Langeweile, Deine Freunde, Deine Ex-Beziehung, der Hype oder einfach platter Drogenkonsum. Manchmal ist es die heiße Nachbarin, Gruppenzwang oder einfach irgendein Posting im virtuellen Leben. Fakt ist, dass irgendwer lockt. Für mich begann der ganze Techno-Utz-Utz-Sucht-nach-Kellern-Quatsch an einem lauen Spätsommerabend vor einigen Jahren. Ein kleines Auto, vollkommen überladen, eine Shirkhan-CD in voller Lautstärke und die Lust nach Neuem. Leicht enttäuscht von dem monotonen Clubbesuch wollten wir weiterziehen, wussten aber nicht genau, was uns in der vorgeschlagenen Location erwarten sollte. Es hieß, irgendwer würde in einer Fabriketage feiern.\nIn einer dunklen Seitenstraße angekommen dachten wir, es würde ein Irrtum vorliegen. Doch ausgestiegen hörten wir ein schwaches, dumpfes Wummern. Wir waren doch richtig. Nun trieb uns die Neugier. Wir fingen an zu suchen. Durch einen aufgerissenen Zaun, vorbei an einem halb ausgehobenen Baugraben, von hinten in die kleine Tür eines alten Gebäudes. Rauf bis in den vierten Stock. Wow. Wir befanden uns in einem Meer aus Teelichtern, die für die schummrige Beleuchtung sorgten. Es war angenehm weich unter unseren Füßen: Teppich. Wie kam denn bitte der Teppich dahin? Es waren etwa 200 Leute, die leger gekleidet mit glücklichem, gelassenem Gesichtsausdruck quatschten, tranken und tanzten. Bei genauerem Hinschauen entdeckte ich einen Generator, der die Anlage mit Strom versorgte. Ich war gefesselt, euphorisiert und glücklich. Wieso organisierte jemand mit soviel Liebe eine derartige Veranstaltung, was war die Motivation?\nproud hat sich ein paar der Träger dieser Bewegung geschnappt. Leute, die wir persönlich kennen und schätzen. Leute, auf deren Feiern man froh ist, sich wieder zu sehen und die Partygäste untereinander Lob verteilen. Irgendwie sind wir dann ein bisschen proud darauf, ein Teil davon zu sein. Und das mal zwei.\nwww.phasmagazine.de",
-      "file": "articles/berlin-bedtime.json"
+      "file": "articles/berlin-bedtime.json",
+      "heroImage": "hero/berlin-bedtime.jpg"
     },
     {
       "slug": "farbreiz",
@@ -1608,7 +1631,8 @@
       "pageImageCount": 1,
       "contentHash": "299f9799cf5063cb36a1e9e163905da248b064e589ffe97cd3d37ca92169aa8a",
       "bodyText": "farbreiz\nDas Veranstaltungskonzept von Farbreiz ist einfach. Alles ist Farbe; jede Veranstaltung eine neue. Alles immer wieder neu: die Drinks, die Visuals, der Schminkstand, der farbige Shot am Eingang und sogar die Kleidung der Gäste.\nDie kommen eben vor allem wegen des Erlebnisses untereinander, die Musik ist hier nur einer von vielen Teilen des grandiosen Flows. Farbreiz ist zudem keine stumpfe Technoparty. Selbst die Musik besitzt Farblichkeit. Aber vor allem sind die Gäste die Party. Die Farbreiz-Reihe folgt einem simplen Konzept, das sich auszahlt. Jedes Mal erwartet Dich etwas Neues. Bei bekannten Clubs kannst Du Dir nicht mehr sicher sein, da diese jedes Mal anders aussehen. Zumal die Veranstaltungssorte ohnehin ständig wechseln. Das goldgelbe Sonnenbad der einen Party wird für die nächste in eine feuerrote Hölle eingetauscht. Wir reden hier nicht von pissigen Lampen, die kontrastreich angeordnet werden, sondern wirklich vom ganzen Setting. Hier macht man sich wirklich Gedanken. Vom Flyer bis hin zur Kleidung der Türsteherin – die Farbe taucht überall auf.\nDiese konsequente Umsetzung wird entsprechend honoriert. Alle Events sind gut gefüllt. Ob das tatsächlich nur an einer Farbe liegt, bleibt jedem selbst überlassen. Denn abseits von Farbe gibt es auch genügend andere Reize, die den Abend speziell machen.\nDer Trend der Clubs geht ja momentan eher dahin, nicht einmal mehr Geld in die früher weit verbreiteten Dia-Projektoren zu stecken. Meistens laufen ein paar Beamer mit demselben Programm in allen Räumen – wenn überhaupt. Große Clubs setzen nur noch auf fetten Schall und Rauch. Liebe ins Detail ist schon mehr als viele Veranstalter bieten. Das Standardpersonal beinhaltet ein paar Türsteher, ein oder zwei Kassenheinis, Garderobe und Bar. Der Rest bleibt sehr gerne dem Veranstalter überlassen. Doch auch sie sehen oft keine Vorteile in einem liebevoll betreuten Event und sparen Geld an der falschen Stelle.\nwww.myspace.com/farbreizberlin",
-      "file": "articles/farbreiz.json"
+      "file": "articles/farbreiz.json",
+      "heroImage": "hero/farbreiz.jpg"
     },
     {
       "slug": "warum-ueberhaupt-diese-ganze",
@@ -1632,7 +1656,8 @@
       "pageImageCount": 1,
       "contentHash": "0a1a99277336de1fdc5eaf40c296db3c87e5a4b63351e9a7e5107bb701418d9b",
       "bodyText": "Warum überhaupt diese ganze\nPartyschiene und nicht irgendetwas\nSinnvolles?\nAngeblich sinnvolle Sachen hatte ich schon im Angestellten-Dasein, war mir irgendwie nichts.\nWas war Dein erstes Event?\nDas „MalZwei“ in Kreuzberg. Es war eigentlich eine eher kleine Sache, fünf bis sechs Leute haben mitgeholfen, die Veranstaltungsräume vorzubereiten. Wir hatten dann zirka 150 Partygäste. Vor dem Event wurde noch Geld zusammengestaubt, um eine Anlage zu kaufen. Wir sind in der Zeit viel mit einem alten Opel Rekord rumgekurvt und haben die Sachen zusammengeschart, es wurde viel handwerklich gearbeitet! Davon habe ich auch leider einen schönen Rückenschaden davongetragen... Wenn es ein bisschen kälter wird, tut alles wieder weh.\nDoofe Angelegenheit, gibt’s auch noch andere Probleme?\nJa, wenn du versuchst den nächsten Schritt zu machen, welcher Legalität heißt, wirst du von irgendwelchen Ämtern gesperrt. Das ist wirklich ein Punkt, da verstehe ich den Staat nicht. Der verlangt Steuern, will Geld, aber versuch mal ’ne Genehmigung für irgendetwas zu bekommen?! Da wollen die Bearbeiter, in den Ämtern, dass du ein Konzept einreichst, das sie selbst verstehen. Natürlich verstehen die meisten nicht, was jemand aus der Berliner Partyszene machen möchte, wenn sie den ganzen Tag nur in ihren verrauchten Büros sitzen und irgendwo Stempel drauf machen und letztendlich musst Du es dann so machen, wie Du es eigentlich machen wolltest. Veranstalten hat auch viel mit Spontaneität zu tun. Meistens eine temporäre Partyreihe an verschiedenen Orten. Da kann man dann einfach nicht so viel Zeit für aufbringen. Es ist ja kein klassisches Event, wo drei, vier vollgepackte LKW ankommen und ’ne Riesenlichtanlage aufbauen. Es geschieht alles über „Manpower“ und Freunde und da verstehe ich leider einfach den Deutschen Staat nicht, dass so etwas nicht unterstützt wird. Es ergibt oft einfach keinen Sinn. Jeder, der schon mal versucht hat legal auch nur eine Bar anzumelden, hat dann acht Ämter, die sich gegenseitig sperren und behindern bis einem die Lust vergeht.",
-      "file": "articles/warum-ueberhaupt-diese-ganze.json"
+      "file": "articles/warum-ueberhaupt-diese-ganze.json",
+      "heroImage": "hero/warum-ueberhaupt-diese-ganze.jpg"
     },
     {
       "slug": "hoervergnuegen",
@@ -1656,7 +1681,8 @@
       "pageImageCount": 1,
       "contentHash": "979d52f37f92c0a1be98bc2def6f7307c6dfe6b14878a327c9a68f3bbbb5e18d",
       "bodyText": "hörvergnügen\nBunt, bewegt und mitreißend\nGab es ein besonderes Event, an das Ihr Euch gerne erinnert?\nDa gibt es einige, besonders unser Auftakt am 30. April im Ritter Butzke. Es kamen über 1000 Gäste zu unserem ersten Event. Und am Ende waren vom Clubbesitzer über die Künstler bis zum Gast alle glücklich.\nWas sind Eure Ambitionen bei dem Veranstalten eines Events?\nUnsere Events sind wichtig für die Kommunikation mit den musikinteressierten Berlinern. Ganz zentral ist für uns, den Veranstaltungsort durch Licht, Musik und Dekoration für eine Nacht in eine besondere Stimmung zu tauchen.\nWer ist denn Eure Zielgruppe?\nWir haben keine Zielgruppe als solche. Wir sind ein Verein für urbane Musikkultur und wollen junge Berliner für die digitale Musikproduktion begeistern. Daher ist grundsätzlich jeder willkommen.\nWas ist Euch bei der Präsentation der Musik wichtig?\nWichtig ist uns, dass es zwischen bekannteren und unbekannteren DJs und Liveacts eine möglichst große Schere gibt. Die Headliner ziehen Musikbegeisterte an und so können wir den Nachwuchskünstlern die Möglichkeit bieten, Erfahrungen vor einem großen Publikum zu sammeln.\nWas ist der Grundstein Eurer Veranstaltungen?\nUnsere Qualität definiert sich über drei Komponenten: Sound, gute Musik und die Dekoration der Party. Wir sind proud darauf, dass bei unserer Party Leute vollkommen verzweifelt rumgerannt sind, weil sie keine Drogen bekommen haben. Für uns ist die Musik der Treibstoff für Ausgelassenheit.\nGab es etwas, das Euch in letzter Zeit besonders gefreut hat?\nJa, nach unserem Weihnachtstraum sprach uns ein Typ an und sagte, dass unsere Weihnachtsparty für ihn seit langem das beste Event gewesen sei und das obwohl er keine Drogen genommen habe. Das war zum Jahresabschluss die beste Bestätigung, dass wir auf dem richtigen Weg sind.\nwww.berlinerhoervergnuegen.de",
-      "file": "articles/hoervergnuegen.json"
+      "file": "articles/hoervergnuegen.json",
+      "heroImage": "hero/hoervergnuegen.jpg"
     },
     {
       "slug": "deinen-name-sieht-man-ueberall-ein-paar-worte-zur-szene",
@@ -1704,7 +1730,8 @@
       "pageImageCount": 1,
       "contentHash": "24039e48962c13fa2777e0de91e934def963f2ebaac903a60f65c1b4fc8e3fc9",
       "bodyText": "jakob ellwanger\nFuturistischer Industrial hat natürlich seine Faszination, aber da bin im Grunde meines Herzens ein Blumenkind. Jakob Ellwanger über Berliner Urgestein und die zarten Blümchen. Das Wohlgefühl. Luft&Liebe. Pentagonik & Nachtbanditen.\nwww.myspace.com/funkenkoenig",
-      "file": "articles/jakob-ellwanger.json"
+      "file": "articles/jakob-ellwanger.json",
+      "heroImage": "hero/jakob-ellwanger.jpg"
     },
     {
       "slug": "keller",
@@ -1728,7 +1755,8 @@
       "pageImageCount": 1,
       "contentHash": "79ff7cabba75d89e98e0873b804741b5914a6c3b5fbbdcd834482f6a1a39b3a5",
       "bodyText": "keller\nWeiße Männchen und Kanonen\nIn Gruppchen tigern wir zu Fuß auf der Suche nach den weißen Männchen durch den Park. Wir suchen das im Dunklen Verborgene. Uns geht es gut! SMS für SMS wird uns letztendlich der genaue Ort mitgeteilt. Teelichter und dumpfe Bassklänge lotsen uns nun durch die Ruinen zur ersehnten Party.\nDie Tanzfläche klein, prall gefüllt und es wird heiß geflirtet. Alle tanzen. Die Mucke besteht aus tiefstem Elektro und Minimal. Bier ist billig und als die Polizei kommt, will keiner gehen. Schmerzvoll, weil man unumstößlich gehen muss, aber schmerzlos, da doch alles ohne Körpereinsatz funktioniert. Wir ziehen weiter und suchen weiße Männchen im Park. Klar, kleine Off-Feiern sind einfach spannend. Wer hat nicht gerne von der „illegalen Party“ gehört? Wer geht nicht gerne zur „illegalen Party“? Wer hört nicht akribisch hin, wenn jemand über die „illegale Party“ spricht? Natürlich sind wir glücklich, wenn wir etwas von diesen Events mitbekommen. Das ist wie bei den Drei Fragezeichen. Abenteuer und Geheimnis und am Ende hat man ordentlich was erlebt. Viele, die zum ersten Mal weiße Männchen im Keller jagen sind, lassen daraufhin Jack Johnson, Shaggy und Snoop Dogg hinter sich. Wenn auch nur zeitweise. Diese schummrigen Orte machen berühmt. Die Veranstalter leben von einer blühenden Mund-zu-Mund-Propaganda. Es gibt keine Flyer, vielleicht mal ein Posting. Es ist normalerweise ein lockerer Kreis von ein paar Hundert Leuten. Diese bekommen die Information oft zwei oder drei Tage vor dem Event mit und verteilen die Infos langsam, aber sicher an alle Freunde. Freundlich auch der Eintritt. In der Regel nur eine kleine Spende – wenn überhaupt. Glaubt man dem einträchtigen Geraune der Touristen, böte wohl keine andere Stadt der Welt diese ausgeprägte Vielfalt an Off-Events. Nun gut. Menschen aus Metropolen wie London, New York oder Hongkong wissen Geschichten über Berlin zu erzählen, wo jeder gespannt zuhört. Viele, die es selbst nicht erlebt haben, glauben nicht alles davon. Viele, die genau wissen, wovon der Erzähler spricht, liebäugeln mit dem nächsten Event und freuen sich heimlich.",
-      "file": "articles/keller.json"
+      "file": "articles/keller.json",
+      "heroImage": "hero/keller.jpg"
     },
     {
       "slug": "7days-in-sieben-outfits",
@@ -1752,7 +1780,8 @@
       "pageImageCount": 1,
       "contentHash": "f12335dd4527c1ecac32be6291c331e60bad8f56f9f8ce0ade6f9c82a00a5ddf",
       "bodyText": "7days in sieben Outfits. Sarai und Mack dürfen sich zeigen. Persönliche Garderobe und geliehene Lieblingsteile. Mack Mckelton, versorgt durch seine zahlreichen Sponsoren. Königin Sarai, versorgt durch ihre zahlreichen Verehrer. Wir zeigen Dir die Woche zweier Fashion-Gurus, die wissen wie man sich darstellt. Fühle Dich frei sie zu kopieren, anzubeten und zu verfolgen.",
-      "file": "articles/7days-in-sieben-outfits.json"
+      "file": "articles/7days-in-sieben-outfits.json",
+      "heroImage": "hero/7days-in-sieben-outfits.jpg"
     },
     {
       "slug": "wardrobe",
@@ -1774,7 +1803,8 @@
       "pageImageCount": 1,
       "contentHash": "83ebb760a3f8d2cc86e9e7511afd0f99258a219a4dddd60d3e510856e28c6a32",
       "bodyText": "wardrobe\nTrès Bonjour\nLatex Couture Swimsuit & Bikini\nFred Perry\nTenniskleid\nTrès Bonjour\nSatin Kimono „Deep Sea Geisha\"\nUrban Outfitters\nMinirock, schwarz gepunktet\nUrban Outfitters\nKleid mit Blumenmuster\nStockist\nFred Perry\nNeue Schönhauser Str. 10\n10178 Berlin\nwww.fredperry.de\nOnitsuka Tiger\nAlte Schönhauser Str. 20-22\n10119 Berlin\nwww.onitsukatiger.de\nTrès Bonjour\nTorstrasse 3\n10119 Berlin\nwww.tresbonjour.de\nTitus Berlin\nSpandauer Str. 2\n10178 Berlin\nwww.titus-berlin.de\n\nfor couture chicks\n44 proud",
-      "file": "articles/wardrobe.json"
+      "file": "articles/wardrobe.json",
+      "heroImage": "hero/wardrobe.jpg"
     },
     {
       "slug": "end-skater-heroes",
@@ -1798,7 +1828,8 @@
       "pageImageCount": 1,
       "contentHash": "657f464938477195381250edd29c964168a9195cd7899afb0237a70cff5007ec",
       "bodyText": "end skater heroes\nUrban Outfitters\nWebshop\nwww.urbanoutfitters.co.uk\nDrop-In\nSelected Streetwear\nWebshop\nwww.drop-in.de\nSearch & Destroy\nOranienstraße 198\n10999 Kreuzberg\nF0 VE\nF0 MCKELMOR\nF0 VER\nF0 MCKELMOR\nF0 VER\nF0 MCKELMOR\nF0 VER\nF0 MCKELM\nWardrobe\nF0 VER\nF0 MCKELM\nGolde\nGolbes T-Shirt Mack\nMckelton Ltd. Edition\nGlobe\nT-Shirt schwarz\nGolde\nT-Shirt schwarz\nF0 VER\nF0 MCKELM\nF0 VER\nF0 MCKELM",
-      "file": "articles/end-skater-heroes.json"
+      "file": "articles/end-skater-heroes.json",
+      "heroImage": "hero/end-skater-heroes.jpg"
     },
     {
       "slug": "6-rags",
@@ -1846,7 +1877,8 @@
       "pageImageCount": 1,
       "contentHash": "2c898f25ff665cb3769eae2858319e63c338cc7c0459eb6faa5a5e51550b16c6",
       "bodyText": "naketan\nBlondie hat es uns ziemlich angetan. Die durchweg stark bequeme Kollektion wird nicht umsonst mit dem Slogan „Lieblingsteile“ beworben. Mädels, viel Spaß damit. Männer TRAKTOR!\nwww.naketano.de\ne-mail\n→\nwin@proudmagazine.de\nproud",
-      "file": "articles/naketan.json"
+      "file": "articles/naketan.json",
+      "heroImage": "hero/naketan.jpg"
     },
     {
       "slug": "traktor-scratch-pro",
@@ -1870,7 +1902,8 @@
       "pageImageCount": 1,
       "contentHash": "15bbbfbb7b8071be9e7f48b9667070941708c8d7cb5bd4395fea68452689a94f",
       "bodyText": "traktor scratch pro\nEs sieht wirklich aus, wonach es aussieht. Und nein, wir verschenken nicht eine MP3-CD mit Timecode-Piep-Tönen. Wahr und wahrhaftig. Ein echter TRAKTOR mit vier Scheiben. Mafiakontakte in die Tiefen der Musikindustrie haben uns das ermöglicht und wir geben das Teil auch nur unter folgenden vier Umständen her:\n1) Du schickst uns ein 20-min-Tape auf Vinyl gernixt + Video von Dir, während Du das Ganze getan hast, als Beweis.\n2) Du unterschreibst eine Erklärung, dass Du niemals in deinem Leben, und so lange dir TRAKTOR SCRATCH PRO nicht geklaut wurde, nur gekaufte MP3s auflegst.\n3) Stand zu Redaktionsschluss noch nicht fest.\n4) Du schaffst es, uns in einer E-Mail an win@proudmagazine.de davon zu überzeugen, dass wir von Punkt 1, 2 und 3 absehen und Dir das Ding so schenken.\nwww.native-instruments.com",
-      "file": "articles/traktor-scratch-pro.json"
+      "file": "articles/traktor-scratch-pro.json",
+      "heroImage": "hero/traktor-scratch-pro.jpg"
     },
     {
       "slug": "tr-s-bonjour-2",
@@ -1894,7 +1927,8 @@
       "pageImageCount": 1,
       "contentHash": "bf16b4183cf73efca3103be89d14ac2aead8a0e340eb82fd38161f696e757da0",
       "bodyText": "très bonjour\nIhr habt es gesehen. Ihr wollt es haben. Wir verstehen das. Interessentinnen lassen uns bitte ihre Konfektionsgröße wissen. Es gibt:\na) Latex Couture Bikini-Set aus der UV-Lingerie Kollektion von Très Bonjour in wahlweise transparent rosé oder deckend pastell rosé mit Kontrastpaspeln in neon limegreen (schwarzlichtaktiv), winzigen Strass-Elementen und nachtschwarzen Satinbändern\nb) Set bestehend aus Neckholder-BH „Sinner or Saint“ sowie Bikini-String „Nightflight“\nc) Geschenkbox mit pflegendem 30ml Glanzspray\nImage JanAdler.com",
-      "file": "articles/tr-s-bonjour-2.json"
+      "file": "articles/tr-s-bonjour-2.json",
+      "heroImage": "hero/tr-s-bonjour-2.jpg"
     },
     {
       "slug": "lyndon-wade",
@@ -1918,7 +1952,8 @@
       "pageImageCount": 6,
       "contentHash": "7c55ac17f0213e98d757ab6e8c8ae6a35e98e0597234752b60aa91869d062a0b",
       "bodyText": "Lyndon Wade\n\nLyndon Wade really loves to photograph. Damn, he's a photographer. That's his life. After all, he gets money and recognition for it. And since he's really, really good at one thing, everyone wants to be like him. That's how it is with stars, including Lyndon.\nLyndon is one of our fresh connections, and we already owe him something. Because one evening, when we no longer felt like doing anything useful, we surfed through various design blogs, waiting for the muse of creativity and desire to work to inspire us anew and captivate us. The trance ended when we stumbled upon Lyndon's homepage. Enough with the fun. The pictures literally stood out to us. We continued working cheerfully and recharged, but his photos didn't let go of us even days later. We don't want to keep something as unique as Lyndon's pictures from you.\nLyndon is one of the top 15 photographers in America, crowned by the Eisner Museum, and enjoys photographing for very large global brands at a very good price. Luckily, Lyndon is a good guy, because he could have easily blown our budget for the rights to simply print his pictures. But he didn't. Instead, he wrote to us that he would love to see his pictures in proud. We are proud to introduce Lyndon Wade to you.\nwww.lyndonwade.com",
-      "file": "articles/lyndon-wade.json"
+      "file": "articles/lyndon-wade.json",
+      "heroImage": "hero/lyndon-wade.jpg"
     },
     {
       "slug": "blvd-of",
@@ -1940,7 +1975,8 @@
       "pageImageCount": 1,
       "contentHash": "74454911de0c4daf5926ab2ad08b39e1b8176cf1d51226ac8d77fde1c4d5a2b4",
       "bodyText": "BLVD OF\nOne of a Kind\nScott & Robert\nS. A.\nMore Than You I Perguined For",
-      "file": "articles/blvd-of.json"
+      "file": "articles/blvd-of.json",
+      "heroImage": "hero/blvd-of.jpg"
     },
     {
       "slug": "on-the-road-with-a-radio-skater",
@@ -1962,7 +1998,8 @@
       "pageImageCount": 1,
       "contentHash": "f51ea212eaa562fd11ce448e93c8670ab56251537d9c2ff6b3847a4bf84c0597",
       "bodyText": "on the road with a radio skater\nFlickering air on the horizon. Summer sun. Cooling wind.\nI'm driving on the highway to Munich in the old, wine-red Golf 2. One of my co-passengers is a radio skater. He's going to compete in a skate contest tonight. The rest of us are accompanying him and plan to get drunk. Munich can't be anything for a Berliner. So much is firmly established and unquestioned.\nThe competition is interesting. Nothing more needs to be said. We're drunk. Quickly find a place to sleep for the night, which turns out not to be so easy, as all accommodation options are already closed. Sitting in the car, we devise a battle plan. We definitely can't drive anymore. Suddenly, a drunken Munich local presses himself against our window and babbles something about a mousetrap at the end of the street. Thanks, drunken Munich local.\nThe police are supposed to be our friends and helpers, and we are truly in a predicament at this moment. So, it can't hurt, that’s our shared conviction, to just ask for advice. Low chances of success were factored in. With slight articulation difficulties, asking for information about a place to sleep for the night, we try to appear as civilized as possible. Apparently successful, because the hot policewoman asks if we consider ourselves fit to drive. It's hard for me to suppress my laughter. The good woman immediately knows what's up and suggests I simply take an alcohol breath test. That way we'd be sure. I just wonder how many promille one has after half a bottle of good vodka. I blow into the damn thing until it finally beeps. She reads the electrical LED display and says something like: \"You can still drive, just barely!\"\n0.2 promille. Shit. The thing must be broken. I'm wasted and the police tell me to drive. I can barely see straight. With a certain urgency in her voice, the woman advises me to simply drive into the park opposite and camp there for a night. Just like that in Munich? Camp for a night in the park? What kind of? Fuck it, she says it, I'll just do it. Munich, nope! Just go now, the 800 meters won't be a problem. Then the nightmare will be over. After just 400 meters, the big turnaround. Another police patrol, which has nothing to do with the mousetrap, wants to talk to us. \"Please follow.\" I'm freaking out. In shock, I can no longer turn down the music from the speakers, and behind me, in the back seat, the first two have already fallen asleep from drunkenness. Never mind, fate is fate. And that is Munich after all. I surrender and get out of the car. I find the whole story completely ridiculous and prepare for a night of forms and Bavarian, head-shaking policemen. I can't believe it. Suddenly, the hot policewoman drives by, calls out to her colleague that she has already checked us and everything is okay. I can't believe it. Quickly set up the tents and sleep off the intoxication. The next morning, a homeless woman snores at us with the remark that we are camping on the grounds of the BKA. No Berliner can handle that.\nwww.radioskateboards.de",
-      "file": "articles/on-the-road-with-a-radio-skater.json"
+      "file": "articles/on-the-road-with-a-radio-skater.json",
+      "heroImage": "hero/on-the-road-with-a-radio-skater.jpg"
     },
     {
       "slug": "pola-kardumx-maren-boettcher",
@@ -1986,7 +2023,8 @@
       "pageImageCount": 1,
       "contentHash": "d8599e9d9abdb2dee7245f86ff11c31e4936228468887cd22197a00703671518",
       "bodyText": "Pola Kardum x Maren Böttcher\nEsmod Fashion trifft Profifotografin bei Blumen-Sühr im Keller.\nGeplant war ein richtig geiles Advertorial. Bezahlter, redaktioneller Inhalt. Gekaufter Checkbuchjournalismus, so wie wir es von der Proud am Liebsten haben. Die Magazine wollen ja auch irgendwie bezahlt werden.\nDas Schönste ist es immer noch, sich zu prostituieren und trotzdem tun, was man vorhatte. Wir wollen eine Kombo aus der Fotografin und der Designerin. Der Artikel soll die Fotografin vorstellen und die Designerin präsentieren. Alles Berliner Gesteine, hier groß gezogen.\nMaren Böttcher, eine unendlich begabte Fotografin mit einer heißen Freundin in New York. Quirlig und zeitweise zum Couchsurfen im Proud Büro. Sie wird durch harte Foltermethoden zum regelmäßigen Beisteuern von Bilder gezwungen.\nPola Kardum, Studentin der Esmod, kreative Designerin, stellt sich und ihre Kleider zur Verfügung. Ab in den Keller von Blumen-Sühr, dem Blumenladen unseres Vertrauens. Polas WG-Mitbewohnerin, Emin's Vater, sowie eine unserer Freundinnen ergaben mit der Assistentin der Fotografin ein perfektes Team. Wir sind sehr zufrieden mit dem Ergebnis, nur passte dieses nicht zu der Ausrichtung der anderen Marketingabteilung. Auch ohne Finanzspritze ist es einmal mehr wertvoll zu zeigen, was für Potenzial in uns steckt. Polas Designerstücke könnt ihr zudem auf proudmagazine.de bewundern.\nImage www.MarenBoettcher.com\nAssistant Katarzyna Konopka\nFashion & Model Pola Kardum\nMake-Up Rouge Bunny Rouge",
-      "file": "articles/pola-kardumx-maren-boettcher.json"
+      "file": "articles/pola-kardumx-maren-boettcher.json",
+      "heroImage": "hero/pola-kardumx-maren-boettcher.jpg"
     },
     {
       "slug": "tatsch",
@@ -2008,7 +2046,8 @@
       "pageImageCount": 1,
       "contentHash": "5ec281fccc52cb56e38c3480bab9ff9506e3497f85b9d549a420586d6fa26835",
       "bodyText": "tatsch\nNov techno gossip\nWie und wo sollen wir denn anfangen? Vielleicht mit der Geschichte von der Oma vorm Berghain? Oder die mit den streikenden Discokugeln, der Sicht der Ratten, dem Dschungel im U-Bahnhof, diesen Tieren namens Atzen, oder doch über den geheimen vom Staat geplanten Technotanzpflichtunterricht ab der vierten Klasse zur Verbesserung der Lebensenergie?\nAlles in allem plaudern hier zwei Damen der schreibenden Zunft über Kuriositäten im Kontext des Rave und greifen für die werten Leser die Geschichten und Gerüchte aus der Luft der Berliner Partyküchen. Zum Beispiel diese kleine Anekdote über das Schuhwerk:\nSchuld und Schuhe\nMan feierte den Weihnachtstraum bei den Nachtbanditen und mal wieder waren unter den Besucherinnen auch jene, die sich schuld fehlender Voraussicht Stöckelschuhe für den Tanzabend angezogen hatten. Trotz zahlreicher Scherben der Christbaumkugeln auf dem Tanzflur konnte eine ebensolche Jungfer nicht umhin, sich ob ihrer musikbedingten Bewegtheit ihrer Pfennigabsätze zu entledigen, die sie sogleich vor dem DJ-Pult platzierte. Ein druffes Schuhfetischist witterte seine ultimative Chance und griff sich die Dinger, sobald besagte Jungfer sich der tanzenden Meute zuwandte und mit dem schicken Typen in weiß flirtete, schlich sich aus dem Laden und ward nie wieder gesehen. Vermutlich wandert in diesem Moment seine Zunge über den Schaft ihres Pfennigabsatzes und seiner Brust entfährt ein leiser Seufzer.\nLetztlich stellt sich die Frage: Wo ist eigentlich Iris?",
-      "file": "articles/tatsch.json"
+      "file": "articles/tatsch.json",
+      "heroImage": "hero/tatsch.jpg"
     },
     {
       "slug": "doktorspielchen",
@@ -2056,7 +2095,8 @@
       "pageImageCount": 1,
       "contentHash": "6a96731dd30df1fab53eeff7bcb27c762807100637d3dc17b12efc68d3ea9e31",
       "bodyText": "farbreiz\nSAMSTAG 10. Januar\nPHB-CLUB\n[Landsberger Allee 54]\nMS Elbe (Femalepressure), Katovl Menovsky (proud), CanDJane (Pentagonik), Phillisight\nFarbreiz. Blau. Der Name wird dabei zum Programm: von den Gästen, über die Beleuchtung bis hin zu der Deko wird alles blau... Auf zwei Floors werden Elektro und Funk gespielt.\nwww.farbreiz-berlin.de",
-      "file": "articles/farbreiz-2.json"
+      "file": "articles/farbreiz-2.json",
+      "heroImage": "hero/farbreiz-2.jpg"
     },
     {
       "slug": "proud-launch-party",
@@ -2104,7 +2144,8 @@
       "pageImageCount": 1,
       "contentHash": "203e9a35fd793067001ce1567b92b052bdf23a4789fa99da943fb31e462842e0",
       "bodyText": "showroom\nSAMSTAG 24. Januar Showroom Opening [Torstraße 3]\nTrès Bonjour\nShowroom & Atelier\nTorstrasse 3\n10119 Berlin\nfon +49.30.22803.180\nmail@tresbonjour.de\nMo, Do, Fr 14-20 Uhr\nSa 14-19 Uhr\nwww.tresbonjour.de",
-      "file": "articles/showroom.json"
+      "file": "articles/showroom.json",
+      "heroImage": "hero/showroom.jpg"
     },
     {
       "slug": "tal-der-verwirrung",
@@ -2155,7 +2196,8 @@
       "pageImageCount": 1,
       "contentHash": "5626dbbcdceb3ba1e80a7ffe8dfc0c0d0c73fee0d3f6ca43041963a442251bd3",
       "bodyText": "ZEY' BREAK\nCHOREOGRAFIE: KADİR MEMİŞ ALIAS >>AMIGO<<\nBERATUNG: ZULA LEMES, KOMPOSITION: NEVZAT AKPINAR\nMIT KADİR MEMİŞ ALIAS >>AMIGO<< UND YAVUZ TOPUZ ALIAS >>RISK ONE<<\nBALLHAUS NAUNYNSTRASSE\nToijana (Krisia)\nwww.BallhausNaurynstrasse.de\nkultur&friese\nbenn\nkultur&friese",
-      "file": "articles/zey-break.json"
+      "file": "articles/zey-break.json",
+      "heroImage": "hero/zey-break.jpg"
     },
     {
       "slug": "m-und-die-verantwortung-nach-der-niemand-fragt",

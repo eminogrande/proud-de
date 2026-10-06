@@ -7,7 +7,7 @@ detected_language: "de"
 translation_state: "translated"
 canonical_url: "https://proud.xn--wp9h.tk/en/articles/love-in-berlin/"
 pdf_url: "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=22"
-preview_image_url: "https://proud.xn--wp9h.tk/assets/previews/love-in-berlin.webp"
+preview_image_url: "https://proud.xn--wp9h.tk/assets/hero/love-in-berlin.webp"
 page_image_count: 2
 reading_time_minutes: 3
 magazine_slug: "01-proud-issuu-output"

@@ -7,7 +7,7 @@ detected_language: "mixed"
 translation_state: "translated"
 canonical_url: "https://proud.xn--wp9h.tk/articles/showroom/"
 pdf_url: "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=62"
-preview_image_url: "https://proud.xn--wp9h.tk/assets/previews/showroom.webp"
+preview_image_url: "https://proud.xn--wp9h.tk/assets/hero/showroom.webp"
 page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"

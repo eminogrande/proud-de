@@ -7,7 +7,7 @@ detected_language: "de"
 translation_state: "translated"
 canonical_url: "https://proud.xn--wp9h.tk/en/articles/andere-richtungen/"
 pdf_url: "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=26"
-preview_image_url: "https://proud.xn--wp9h.tk/assets/previews/andere-richtungen.webp"
+preview_image_url: "https://proud.xn--wp9h.tk/assets/hero/andere-richtungen.webp"
 page_image_count: 2
 reading_time_minutes: 2
 magazine_slug: "01-proud-issuu-output"

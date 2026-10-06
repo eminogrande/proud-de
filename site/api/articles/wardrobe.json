@@ -71,6 +71,7 @@
     }
   ],
   "contentHash": "83ebb760a3f8d2cc86e9e7511afd0f99258a219a4dddd60d3e510856e28c6a32",
+  "heroImage": "hero/wardrobe.jpg",
   "locales": {
     "de": {
       "title": "wardrobe",
@@ -173,5 +174,6 @@
   },
   "canonicalUrl": "https://proud.xn--wp9h.tk/articles/wardrobe/",
   "pdfUrl": "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=44",
-  "previewUrl": "https://proud.xn--wp9h.tk/assets/previews/wardrobe.webp"
+  "previewUrl": "https://proud.xn--wp9h.tk/assets/hero/wardrobe.webp",
+  "heroUrl": "https://proud.xn--wp9h.tk/assets/hero/wardrobe.webp"
 }

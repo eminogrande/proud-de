@@ -69,6 +69,7 @@
     }
   ],
   "contentHash": "d774e149c9ef80acb6677acfaf9ab073a3389c03ab042d4143c3a22d0801a1ec",
+  "heroImage": "hero/ihr-koennt-alle-kommen.jpg",
   "locales": {
     "de": {
       "title": "Ihr könnt alle kommen",
@@ -135,5 +136,6 @@
   },
   "canonicalUrl": "https://proud.xn--wp9h.tk/articles/ihr-koennt-alle-kommen/",
   "pdfUrl": "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=11",
-  "previewUrl": "https://proud.xn--wp9h.tk/assets/previews/ihr-koennt-alle-kommen.webp"
+  "previewUrl": "https://proud.xn--wp9h.tk/assets/hero/ihr-koennt-alle-kommen.webp",
+  "heroUrl": "https://proud.xn--wp9h.tk/assets/hero/ihr-koennt-alle-kommen.webp"
 }

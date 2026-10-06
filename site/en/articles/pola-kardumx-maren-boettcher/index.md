@@ -7,7 +7,7 @@ detected_language: "de"
 translation_state: "translated"
 canonical_url: "https://proud.xn--wp9h.tk/en/articles/pola-kardumx-maren-boettcher/"
 pdf_url: "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=58"
-preview_image_url: "https://proud.xn--wp9h.tk/assets/previews/pola-kardumx-maren-boettcher.webp"
+preview_image_url: "https://proud.xn--wp9h.tk/assets/hero/pola-kardumx-maren-boettcher.webp"
 page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"

@@ -71,6 +71,7 @@
     }
   ],
   "contentHash": "3a0e296989fdae17a101221e8b3211961a61be491c81f6d28765b5b5dd99b57f",
+  "heroImage": "hero/wie-ueberzeugt-man-jemanden-vom-techno.jpg",
   "locales": {
     "de": {
       "title": "Wie überzeugt man jemanden vom Techno?",
@@ -121,5 +122,6 @@
   },
   "canonicalUrl": "https://proud.xn--wp9h.tk/articles/wie-ueberzeugt-man-jemanden-vom-techno/",
   "pdfUrl": "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=32",
-  "previewUrl": "https://proud.xn--wp9h.tk/assets/previews/wie-ueberzeugt-man-jemanden-vom-techno.webp"
+  "previewUrl": "https://proud.xn--wp9h.tk/assets/hero/wie-ueberzeugt-man-jemanden-vom-techno.webp",
+  "heroUrl": "https://proud.xn--wp9h.tk/assets/hero/wie-ueberzeugt-man-jemanden-vom-techno.webp"
 }

@@ -71,6 +71,7 @@
     }
   ],
   "contentHash": "f7ed858547fc0f5891b2339a4b1b7c52bac64f0ad6af2c36a972b447ba52c3f0",
+  "heroImage": "hero/artgerechtes.jpg",
   "locales": {
     "de": {
       "title": "artgerechtes",
@@ -138,5 +139,6 @@
   },
   "canonicalUrl": "https://proud.xn--wp9h.tk/articles/artgerechtes/",
   "pdfUrl": "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=13",
-  "previewUrl": "https://proud.xn--wp9h.tk/assets/previews/artgerechtes.webp"
+  "previewUrl": "https://proud.xn--wp9h.tk/assets/hero/artgerechtes.webp",
+  "heroUrl": "https://proud.xn--wp9h.tk/assets/hero/artgerechtes.webp"
 }

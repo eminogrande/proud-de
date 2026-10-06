@@ -71,6 +71,7 @@
     }
   ],
   "contentHash": "5bae2e150f6dadafbad5f88085a9d1e4d4de54749a1b2993b73073eb04b3be38",
+  "heroImage": "hero/phb-berlin.jpg",
   "locales": {
     "de": {
       "title": "phb berlin",
@@ -138,5 +139,6 @@
   },
   "canonicalUrl": "https://proud.xn--wp9h.tk/articles/phb-berlin/",
   "pdfUrl": "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=12",
-  "previewUrl": "https://proud.xn--wp9h.tk/assets/previews/phb-berlin.webp"
+  "previewUrl": "https://proud.xn--wp9h.tk/assets/hero/phb-berlin.webp",
+  "heroUrl": "https://proud.xn--wp9h.tk/assets/hero/phb-berlin.webp"
 }

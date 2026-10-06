@@ -1,0 +1,173 @@
+{
+ "maximal-my-ass": {
+  "page": 30,
+  "bbox": [
+   350,
+   290,
+   1965,
+   1680
+  ],
+  "kind": "photo",
+  "note": "Pop-art collage of Bugati Force trio in caps and sunglasses"
+ },
+ "alte-legenden-neue-entdeckungen": {
+  "page": 32,
+  "bbox": [
+   765,
+   2600,
+   1375,
+   2990
+  ],
+  "kind": "illustration",
+  "note": "Cartoon gloved hand gripping orb with lightning bolts"
+ },
+ "vom-anfang-bis-zum": {
+  "page": 32,
+  "bbox": null,
+  "kind": "none",
+  "note": "Only small star doodles under this column; nothing 600px wide"
+ },
+ "wie-ueberzeugt-man-jemanden-vom-techno": {
+  "page": 32,
+  "bbox": [
+   1420,
+   2030,
+   2235,
+   2996
+  ],
+  "kind": "graphic",
+  "note": "High-contrast B/W sports car above a cassette tape"
+ },
+ "proud-dj-kolumnen": {
+  "page": 33,
+  "bbox": [
+   795,
+   1420,
+   1435,
+   2305
+  ],
+  "kind": "illustration",
+  "note": "Stylized black-and-white DJ turntable"
+ },
+ "berlin-bedtime": {
+  "page": 34,
+  "bbox": [
+   760,
+   700,
+   1470,
+   2100
+  ],
+  "kind": "illustration",
+  "note": "Ink drawing of woman with beehive hair and headphones"
+ },
+ "farbreiz": {
+  "page": 35,
+  "bbox": [
+   600,
+   1200,
+   1455,
+   2900
+  ],
+  "kind": "photo",
+  "note": "Woman in fur-collar jacket and boots in graffiti backyard"
+ },
+ "warum-ueberhaupt-diese-ganze": {
+  "page": 36,
+  "bbox": [
+   760,
+   700,
+   2235,
+   2550
+  ],
+  "kind": "photo",
+  "note": "Man with pink scarf and sunglasses by BMW, collage overlay"
+ },
+ "hoervergnuegen": {
+  "page": 37,
+  "bbox": [
+   0,
+   680,
+   1465,
+   1700
+  ],
+  "kind": "photo",
+  "note": "Hazy purple club interior with disco ball and lights"
+ },
+ "deinen-name-sieht-man-ueberall-ein-paar-worte-zur-szene": {
+  "page": 38,
+  "bbox": [
+   765,
+   600,
+   2000,
+   2900
+  ],
+  "kind": "photo",
+  "note": "Jakob Ellwanger seated in warm-lit lounge, illustrated backdrop"
+ },
+ "jakob-ellwanger": {
+  "page": 38,
+  "bbox": [
+   765,
+   600,
+   2000,
+   2900
+  ],
+  "kind": "photo",
+  "note": "Jakob Ellwanger seated in warm-lit lounge, illustrated backdrop"
+ },
+ "keller": {
+  "page": 39,
+  "bbox": [
+   60,
+   940,
+   1060,
+   2900
+  ],
+  "kind": "photo",
+  "note": "DIY 'Keller Kanone' sound rig with lamps and wheel rim"
+ },
+ "7days-in-sieben-outfits": {
+  "page": 43,
+  "bbox": [
+   1005,
+   475,
+   1610,
+   1527
+  ],
+  "kind": "photo",
+  "note": "Woman in floral skirt posing in wooden doorway"
+ },
+ "wardrobe": {
+  "page": 44,
+  "bbox": [
+   1425,
+   2235,
+   2120,
+   2640
+  ],
+  "kind": "photo",
+  "note": "Green Onitsuka Tiger suede sneakers product shot"
+ },
+ "end-skater-heroes": {
+  "page": 45,
+  "bbox": [
+   860,
+   0,
+   1905,
+   545
+  ],
+  "kind": "photo",
+  "note": "Grey and yellow Forvert/Globe T-shirts flat-lay"
+ },
+ "6-rags": {
+  "page": 48,
+  "bbox": [
+   150,
+   305,
+   795,
+   990
+  ],
+  "kind": "graphic",
+  "note": "Traktor Scratch DJ setup diagram, vinyl and interface"
+ }
+}

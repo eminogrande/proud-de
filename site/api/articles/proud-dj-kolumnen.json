@@ -67,6 +67,7 @@
     }
   ],
   "contentHash": "950b5dd6ed42aae700c51440dcc8f37b616f52476986f52b0255b0b04022634a",
+  "heroImage": "hero/proud-dj-kolumnen.jpg",
   "locales": {
     "de": {
       "title": "proud DJ-Kolumnen",
@@ -169,5 +170,6 @@
   },
   "canonicalUrl": "https://proud.xn--wp9h.tk/articles/proud-dj-kolumnen/",
   "pdfUrl": "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=33",
-  "previewUrl": "https://proud.xn--wp9h.tk/assets/previews/proud-dj-kolumnen.webp"
+  "previewUrl": "https://proud.xn--wp9h.tk/assets/hero/proud-dj-kolumnen.webp",
+  "heroUrl": "https://proud.xn--wp9h.tk/assets/hero/proud-dj-kolumnen.webp"
 }

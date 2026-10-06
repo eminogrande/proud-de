@@ -7,7 +7,7 @@ detected_language: "en"
 translation_state: "translated"
 canonical_url: "https://proud.xn--wp9h.tk/articles/on-the-road-with-a-radio-skater/"
 pdf_url: "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=56"
-preview_image_url: "https://proud.xn--wp9h.tk/assets/previews/on-the-road-with-a-radio-skater.webp"
+preview_image_url: "https://proud.xn--wp9h.tk/assets/hero/on-the-road-with-a-radio-skater.webp"
 page_image_count: 1
 reading_time_minutes: 3
 magazine_slug: "01-proud-issuu-output"

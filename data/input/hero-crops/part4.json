@@ -1,0 +1,152 @@
+{
+ "naketan": {
+  "page": 49,
+  "bbox": [
+   0,
+   14,
+   2235,
+   2147
+  ],
+  "kind": "photo",
+  "note": "Naketano lookbook grid: blonde model in many hoodies (ad page after grabs)"
+ },
+ "traktor-scratch-pro": {
+  "page": 48,
+  "bbox": [
+   166,
+   318,
+   789,
+   729
+  ],
+  "kind": "illustration",
+  "note": "Line-art diagram of Traktor Scratch DJ setup on black"
+ },
+ "tr-s-bonjour-2": {
+  "page": 48,
+  "bbox": [
+   770,
+   2305,
+   1370,
+   2620
+  ],
+  "kind": "photo",
+  "note": "Flat-lay pink latex bikini set with gift box"
+ },
+ "lyndon-wade": {
+  "page": 51,
+  "bbox": [
+   30,
+   30,
+   2205,
+   2966
+  ],
+  "kind": "photo",
+  "note": "Carnival scene: blonde model with balloons, Rock My World booth"
+ },
+ "blvd-of": {
+  "page": 53,
+  "bbox": [
+   110,
+   40,
+   2020,
+   2340
+  ],
+  "kind": "photo",
+  "note": "Chauffeur with plaid bags before pink shack and fruit stall"
+ },
+ "on-the-road-with-a-radio-skater": {
+  "page": 56,
+  "bbox": [
+   0,
+   90,
+   2235,
+   1175
+  ],
+  "kind": "photo",
+  "note": "Wall of Radio skateboards and Rolling Stones tongue deck"
+ },
+ "pola-kardumx-maren-boettcher": {
+  "page": 58,
+  "bbox": [
+   1000,
+   345,
+   2235,
+   1780
+  ],
+  "kind": "photo",
+  "note": "Laughing model with flower headpiece in cellar"
+ },
+ "tatsch": {
+  "page": 60,
+  "bbox": [
+   1480,
+   20,
+   2215,
+   1490
+  ],
+  "kind": "graphic",
+  "note": "Blurred club photo with layered Klatsch typography"
+ },
+ "doktorspielchen": {
+  "page": 62,
+  "bbox": null,
+  "kind": "none",
+  "note": "Text-only listing"
+ },
+ "farbreiz-2": {
+  "page": 62,
+  "bbox": [
+   818,
+   150,
+   1418,
+   515
+  ],
+  "kind": "graphic",
+  "note": "Blue square farbreiz splatter logo"
+ },
+ "proud-launch-party": {
+  "page": 62,
+  "bbox": null,
+  "kind": "none",
+  "note": "Only proud logo and text box"
+ },
+ "showroom": {
+  "page": 62,
+  "bbox": [
+   1455,
+   150,
+   2060,
+   925
+  ],
+  "kind": "photo",
+  "note": "Woman in black fascinator and bikini top on white"
+ },
+ "tal-der-verwirrung": {
+  "page": 62,
+  "bbox": [
+   895,
+   1431,
+   1341,
+   1836
+  ],
+  "kind": "none",
+  "note": "Only image is 446px wide (<600); bbox kept for reference"
+ },
+ "zey-break": {
+  "page": 63,
+  "bbox": [
+   1275,
+   1380,
+   2068,
+   2238
+  ],
+  "kind": "photo",
+  "note": "Breakdancer crouching in sepia light, shadow at left"
+ },
+ "m-und-die-verantwortung-nach-der-niemand-fragt": {
+  "page": 66,
+  "bbox": null,
+  "kind": "none",
+  "note": "Text-only short story page"
+ }
+}

@@ -192,6 +192,7 @@
     }
   ],
   "contentHash": "7c55ac17f0213e98d757ab6e8c8ae6a35e98e0597234752b60aa91869d062a0b",
+  "heroImage": "hero/lyndon-wade.jpg",
   "locales": {
     "de": {
       "title": "Lyndon Wade",
@@ -259,5 +260,6 @@
   },
   "canonicalUrl": "https://proud.xn--wp9h.tk/articles/lyndon-wade/",
   "pdfUrl": "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=50",
-  "previewUrl": "https://proud.xn--wp9h.tk/assets/previews/lyndon-wade.webp"
+  "previewUrl": "https://proud.xn--wp9h.tk/assets/hero/lyndon-wade.webp",
+  "heroUrl": "https://proud.xn--wp9h.tk/assets/hero/lyndon-wade.webp"
 }

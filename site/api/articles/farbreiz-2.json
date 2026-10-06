@@ -71,6 +71,7 @@
     }
   ],
   "contentHash": "6a96731dd30df1fab53eeff7bcb27c762807100637d3dc17b12efc68d3ea9e31",
+  "heroImage": "hero/farbreiz-2.jpg",
   "locales": {
     "de": {
       "title": "farbreiz",
@@ -138,5 +139,6 @@
   },
   "canonicalUrl": "https://proud.xn--wp9h.tk/articles/farbreiz-2/",
   "pdfUrl": "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=62",
-  "previewUrl": "https://proud.xn--wp9h.tk/assets/previews/farbreiz-2.webp"
+  "previewUrl": "https://proud.xn--wp9h.tk/assets/hero/farbreiz-2.webp",
+  "heroUrl": "https://proud.xn--wp9h.tk/assets/hero/farbreiz-2.webp"
 }

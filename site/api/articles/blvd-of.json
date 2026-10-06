@@ -69,6 +69,7 @@
     }
   ],
   "contentHash": "74454911de0c4daf5926ab2ad08b39e1b8176cf1d51226ac8d77fde1c4d5a2b4",
+  "heroImage": "hero/blvd-of.jpg",
   "locales": {
     "de": {
       "title": "BLVD OF",
@@ -121,5 +122,6 @@
   },
   "canonicalUrl": "https://proud.xn--wp9h.tk/articles/blvd-of/",
   "pdfUrl": "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=53",
-  "previewUrl": "https://proud.xn--wp9h.tk/assets/previews/blvd-of.webp"
+  "previewUrl": "https://proud.xn--wp9h.tk/assets/hero/blvd-of.webp",
+  "heroUrl": "https://proud.xn--wp9h.tk/assets/hero/blvd-of.webp"
 }

@@ -71,6 +71,7 @@
     }
   ],
   "contentHash": "657f464938477195381250edd29c964168a9195cd7899afb0237a70cff5007ec",
+  "heroImage": "hero/end-skater-heroes.jpg",
   "locales": {
     "de": {
       "title": "end skater heroes",
@@ -147,5 +148,6 @@
   },
   "canonicalUrl": "https://proud.xn--wp9h.tk/articles/end-skater-heroes/",
   "pdfUrl": "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=45",
-  "previewUrl": "https://proud.xn--wp9h.tk/assets/previews/end-skater-heroes.webp"
+  "previewUrl": "https://proud.xn--wp9h.tk/assets/hero/end-skater-heroes.webp",
+  "heroUrl": "https://proud.xn--wp9h.tk/assets/hero/end-skater-heroes.webp"
 }

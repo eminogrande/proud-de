@@ -71,6 +71,7 @@
     }
   ],
   "contentHash": "0a1a99277336de1fdc5eaf40c296db3c87e5a4b63351e9a7e5107bb701418d9b",
+  "heroImage": "hero/warum-ueberhaupt-diese-ganze.jpg",
   "locales": {
     "de": {
       "title": "Warum überhaupt diese ganze",
@@ -121,5 +122,6 @@
   },
   "canonicalUrl": "https://proud.xn--wp9h.tk/articles/warum-ueberhaupt-diese-ganze/",
   "pdfUrl": "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=36",
-  "previewUrl": "https://proud.xn--wp9h.tk/assets/previews/warum-ueberhaupt-diese-ganze.webp"
+  "previewUrl": "https://proud.xn--wp9h.tk/assets/hero/warum-ueberhaupt-diese-ganze.webp",
+  "heroUrl": "https://proud.xn--wp9h.tk/assets/hero/warum-ueberhaupt-diese-ganze.webp"
 }

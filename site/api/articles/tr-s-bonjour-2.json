@@ -71,6 +71,7 @@
     }
   ],
   "contentHash": "bf16b4183cf73efca3103be89d14ac2aead8a0e340eb82fd38161f696e757da0",
+  "heroImage": "hero/tr-s-bonjour-2.jpg",
   "locales": {
     "de": {
       "title": "très bonjour",
@@ -137,5 +138,6 @@
   },
   "canonicalUrl": "https://proud.xn--wp9h.tk/articles/tr-s-bonjour-2/",
   "pdfUrl": "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=48",
-  "previewUrl": "https://proud.xn--wp9h.tk/assets/previews/tr-s-bonjour-2.webp"
+  "previewUrl": "https://proud.xn--wp9h.tk/assets/hero/tr-s-bonjour-2.webp",
+  "heroUrl": "https://proud.xn--wp9h.tk/assets/hero/tr-s-bonjour-2.webp"
 }

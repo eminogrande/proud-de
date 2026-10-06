@@ -71,6 +71,7 @@
     }
   ],
   "contentHash": "79ff7cabba75d89e98e0873b804741b5914a6c3b5fbbdcd834482f6a1a39b3a5",
+  "heroImage": "hero/keller.jpg",
   "locales": {
     "de": {
       "title": "keller",
@@ -121,5 +122,6 @@
   },
   "canonicalUrl": "https://proud.xn--wp9h.tk/articles/keller/",
   "pdfUrl": "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=39",
-  "previewUrl": "https://proud.xn--wp9h.tk/assets/previews/keller.webp"
+  "previewUrl": "https://proud.xn--wp9h.tk/assets/hero/keller.webp",
+  "heroUrl": "https://proud.xn--wp9h.tk/assets/hero/keller.webp"
 }

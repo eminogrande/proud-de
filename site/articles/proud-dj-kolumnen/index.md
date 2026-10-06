@@ -7,7 +7,7 @@ detected_language: "de"
 translation_state: "original"
 canonical_url: "https://proud.xn--wp9h.tk/articles/proud-dj-kolumnen/"
 pdf_url: "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=33"
-preview_image_url: "https://proud.xn--wp9h.tk/assets/previews/proud-dj-kolumnen.webp"
+preview_image_url: "https://proud.xn--wp9h.tk/assets/hero/proud-dj-kolumnen.webp"
 page_image_count: 1
 reading_time_minutes: 3
 magazine_slug: "01-proud-issuu-output"

@@ -74,6 +74,7 @@
     }
   ],
   "contentHash": "5626dbbcdceb3ba1e80a7ffe8dfc0c0d0c73fee0d3f6ca43041963a442251bd3",
+  "heroImage": "hero/zey-break.jpg",
   "locales": {
     "de": {
       "title": "ZEY' BREAK",
@@ -138,5 +139,6 @@
   },
   "canonicalUrl": "https://proud.xn--wp9h.tk/articles/zey-break/",
   "pdfUrl": "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=63",
-  "previewUrl": "https://proud.xn--wp9h.tk/assets/previews/zey-break.webp"
+  "previewUrl": "https://proud.xn--wp9h.tk/assets/hero/zey-break.webp",
+  "heroUrl": "https://proud.xn--wp9h.tk/assets/hero/zey-break.webp"
 }

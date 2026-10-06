@@ -1,0 +1,173 @@
+{
+ "e-rags": {
+  "page": 13,
+  "bbox": null,
+  "kind": "none",
+  "note": "Only photo is a ~230px sliver behind text box; no usable crop"
+ },
+ "mavi": {
+  "page": 13,
+  "bbox": [
+   420,
+   2575,
+   1205,
+   2992
+  ],
+  "kind": "photo",
+  "note": "Collage strip: jeans+sneaker, heeled legs over graffiti wall"
+ },
+ "oh-mi-bod": {
+  "page": 13,
+  "bbox": [
+   815,
+   470,
+   1455,
+   692
+  ],
+  "kind": "photo",
+  "note": "OhMiBod vibrator, white earphones and pink pouch product shot"
+ },
+ "superethe-com": {
+  "page": 13,
+  "bbox": [
+   1250,
+   2410,
+   2235,
+   2890
+  ],
+  "kind": "photo",
+  "note": "Silver bean-bead bib necklace on blue strapless top"
+ },
+ "five-minutes-review-on": {
+  "page": 14,
+  "bbox": [
+   15,
+   540,
+   815,
+   1195
+  ],
+  "kind": "graphic",
+  "note": "Tilted Native Instruments NI logo, top-right border slightly clipped"
+ },
+ "fritz-helder": {
+  "page": 14,
+  "bbox": [
+   0,
+   1740,
+   1405,
+   2220
+  ],
+  "kind": "photo",
+  "note": "Paint-splash collage: woman's face and man in sunglasses, bandana"
+ },
+ "launch-at-yaka-paka": {
+  "page": 16,
+  "bbox": [
+   1458,
+   1214,
+   2235,
+   2048
+  ],
+  "kind": "photo",
+  "note": "Partygoer waving inside red/pink striped light projection"
+ },
+ "schnaps-magazine": {
+  "page": 17,
+  "bbox": [
+   0,
+   215,
+   600,
+   742
+  ],
+  "kind": "photo",
+  "note": "Young man with glasses, plaid vest, purple/teal scarf"
+ },
+ "ceza-at-ballhaus-naunynstrasse": {
+  "page": 18,
+  "bbox": [
+   1450,
+   790,
+   2060,
+   1370
+  ],
+  "kind": "photo",
+  "note": "Two smiling women cheek to cheek"
+ },
+ "tr-s-bonjour-fashion-show-2008": {
+  "page": 21,
+  "bbox": [
+   906,
+   1634,
+   1692,
+   2822
+  ],
+  "kind": "photo",
+  "note": "Model in red-white latex bikini and fascinator, blue stage light"
+ },
+ "love-in-berlin": {
+  "page": 23,
+  "bbox": [
+   172,
+   770,
+   2235,
+   2820
+  ],
+  "kind": "illustration",
+  "note": "6x6 grid of painted urban-scene tiles by deerBLN"
+ },
+ "pentagonik": {
+  "page": 24,
+  "bbox": [
+   164,
+   948,
+   764,
+   1395
+  ],
+  "kind": "graphic",
+  "note": "Teal MRI spine artwork from Switched Off EP cover, text excluded"
+ },
+ "kannibalistische-babarenvoelker": {
+  "page": 26,
+  "bbox": [
+   786,
+   701,
+   1764,
+   1027
+  ],
+  "kind": "photo",
+  "note": "Yellow mailbox plate reading 'Andere Richtungen'"
+ },
+ "andere-richtungen": {
+  "page": 27,
+  "bbox": [
+   485,
+   706,
+   1433,
+   1024
+  ],
+  "kind": "photo",
+  "note": "Yellow mailbox slot plate reading 'Berlin'"
+ },
+ "dj-craft": {
+  "page": 28,
+  "bbox": [
+   560,
+   605,
+   1460,
+   1540
+  ],
+  "kind": "photo",
+  "note": "High-contrast B/W portrait of DJ Craft in sunglasses"
+ },
+ "proud-2": {
+  "page": 29,
+  "bbox": [
+   1210,
+   1250,
+   1975,
+   1810
+  ],
+  "kind": "illustration",
+  "note": "Ballpoint sketch of curly-haired sleeper in bed with Zzz"
+ }
+}

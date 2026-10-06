@@ -71,6 +71,7 @@
     }
   ],
   "contentHash": "5e232a3d76448af37907430779a8aa48438a4a78b971e39ee6c9ecb2f03412fc",
+  "heroImage": "hero/ceza-at-ballhaus-naunynstrasse.jpg",
   "locales": {
     "de": {
       "title": "ceza at ballhaus naunynstrasse",
@@ -138,5 +139,6 @@
   },
   "canonicalUrl": "https://proud.xn--wp9h.tk/articles/ceza-at-ballhaus-naunynstrasse/",
   "pdfUrl": "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=18",
-  "previewUrl": "https://proud.xn--wp9h.tk/assets/previews/ceza-at-ballhaus-naunynstrasse.webp"
+  "previewUrl": "https://proud.xn--wp9h.tk/assets/hero/ceza-at-ballhaus-naunynstrasse.webp",
+  "heroUrl": "https://proud.xn--wp9h.tk/assets/hero/ceza-at-ballhaus-naunynstrasse.webp"
 }

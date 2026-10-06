@@ -7,7 +7,7 @@ detected_language: "de"
 translation_state: "original"
 canonical_url: "https://proud.xn--wp9h.tk/articles/naketan/"
 pdf_url: "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=48"
-preview_image_url: "https://proud.xn--wp9h.tk/assets/previews/naketan.webp"
+preview_image_url: "https://proud.xn--wp9h.tk/assets/hero/naketan.webp"
 page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"

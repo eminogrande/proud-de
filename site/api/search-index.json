@@ -69,7 +69,8 @@
         }
       }
     ],
-    "contentHash": "375e2ca06ac9bdb58f8004ddf6f7fb240d1264d0f2e5fc2657dae2b235482ab2"
+    "contentHash": "375e2ca06ac9bdb58f8004ddf6f7fb240d1264d0f2e5fc2657dae2b235482ab2",
+    "heroImage": "hero/200-calories.jpg"
   },
   {
     "slug": "6-rags",
@@ -213,7 +214,8 @@
         }
       }
     ],
-    "contentHash": "f12335dd4527c1ecac32be6291c331e60bad8f56f9f8ce0ade6f9c82a00a5ddf"
+    "contentHash": "f12335dd4527c1ecac32be6291c331e60bad8f56f9f8ce0ade6f9c82a00a5ddf",
+    "heroImage": "hero/7days-in-sieben-outfits.jpg"
   },
   {
     "slug": "alte-legenden-neue-entdeckungen",
@@ -285,7 +287,8 @@
         }
       }
     ],
-    "contentHash": "c99721dd5ab73999bb8ce2d6021ddd828894a4eae32fe28ebb8c639768feccb9"
+    "contentHash": "c99721dd5ab73999bb8ce2d6021ddd828894a4eae32fe28ebb8c639768feccb9",
+    "heroImage": "hero/alte-legenden-neue-entdeckungen.jpg"
   },
   {
     "slug": "andere-richtungen",
@@ -402,7 +405,8 @@
         }
       }
     ],
-    "contentHash": "23e69114f3e13de6c8900987bd44d1d1fdc2091f2163d2deb8ddca3c02ff1e91"
+    "contentHash": "23e69114f3e13de6c8900987bd44d1d1fdc2091f2163d2deb8ddca3c02ff1e91",
+    "heroImage": "hero/andere-richtungen.jpg"
   },
   {
     "slug": "artgerechtes",
@@ -474,7 +478,8 @@
         }
       }
     ],
-    "contentHash": "f7ed858547fc0f5891b2339a4b1b7c52bac64f0ad6af2c36a972b447ba52c3f0"
+    "contentHash": "f7ed858547fc0f5891b2339a4b1b7c52bac64f0ad6af2c36a972b447ba52c3f0",
+    "heroImage": "hero/artgerechtes.jpg"
   },
   {
     "slug": "berlin-bedtime",
@@ -546,7 +551,8 @@
         }
       }
     ],
-    "contentHash": "33bda8f17d500cf41f9d516eb794cdc303a546c6d52a4852d92e845f27b046f8"
+    "contentHash": "33bda8f17d500cf41f9d516eb794cdc303a546c6d52a4852d92e845f27b046f8",
+    "heroImage": "hero/berlin-bedtime.jpg"
   },
   {
     "slug": "blvd-of",
@@ -616,7 +622,8 @@
         }
       }
     ],
-    "contentHash": "74454911de0c4daf5926ab2ad08b39e1b8176cf1d51226ac8d77fde1c4d5a2b4"
+    "contentHash": "74454911de0c4daf5926ab2ad08b39e1b8176cf1d51226ac8d77fde1c4d5a2b4",
+    "heroImage": "hero/blvd-of.jpg"
   },
   {
     "slug": "ceza-at-ballhaus-naunynstrasse",
@@ -688,7 +695,8 @@
         }
       }
     ],
-    "contentHash": "5e232a3d76448af37907430779a8aa48438a4a78b971e39ee6c9ecb2f03412fc"
+    "contentHash": "5e232a3d76448af37907430779a8aa48438a4a78b971e39ee6c9ecb2f03412fc",
+    "heroImage": "hero/ceza-at-ballhaus-naunynstrasse.jpg"
   },
   {
     "slug": "deinen-name-sieht-man-ueberall-ein-paar-worte-zur-szene",
@@ -832,7 +840,8 @@
         }
       }
     ],
-    "contentHash": "33c19d2343171cb12e90a89d39b6f58af6cae93bfd32eebe0b94524ff7256301"
+    "contentHash": "33c19d2343171cb12e90a89d39b6f58af6cae93bfd32eebe0b94524ff7256301",
+    "heroImage": "hero/dj-craft.jpg"
   },
   {
     "slug": "doktorspielchen",
@@ -1046,7 +1055,8 @@
         }
       }
     ],
-    "contentHash": "9341c8fe0a830bbdd61b4b2579c58d9ff63d8f5d6f1fea1b116b59475e4a27e5"
+    "contentHash": "9341c8fe0a830bbdd61b4b2579c58d9ff63d8f5d6f1fea1b116b59475e4a27e5",
+    "heroImage": "hero/editorial.jpg"
   },
   {
     "slug": "end-skater-heroes",
@@ -1118,7 +1128,8 @@
         }
       }
     ],
-    "contentHash": "657f464938477195381250edd29c964168a9195cd7899afb0237a70cff5007ec"
+    "contentHash": "657f464938477195381250edd29c964168a9195cd7899afb0237a70cff5007ec",
+    "heroImage": "hero/end-skater-heroes.jpg"
   },
   {
     "slug": "farbreiz",
@@ -1190,7 +1201,8 @@
         }
       }
     ],
-    "contentHash": "299f9799cf5063cb36a1e9e163905da248b064e589ffe97cd3d37ca92169aa8a"
+    "contentHash": "299f9799cf5063cb36a1e9e163905da248b064e589ffe97cd3d37ca92169aa8a",
+    "heroImage": "hero/farbreiz.jpg"
   },
   {
     "slug": "farbreiz-2",
@@ -1262,7 +1274,8 @@
         }
       }
     ],
-    "contentHash": "6a96731dd30df1fab53eeff7bcb27c762807100637d3dc17b12efc68d3ea9e31"
+    "contentHash": "6a96731dd30df1fab53eeff7bcb27c762807100637d3dc17b12efc68d3ea9e31",
+    "heroImage": "hero/farbreiz-2.jpg"
   },
   {
     "slug": "five-minutes-review-on",
@@ -1334,7 +1347,8 @@
         }
       }
     ],
-    "contentHash": "f3d3e7eecd3ef6e2c3f69a35bb401d47e1df44749ae03b3870e886109cfbafd9"
+    "contentHash": "f3d3e7eecd3ef6e2c3f69a35bb401d47e1df44749ae03b3870e886109cfbafd9",
+    "heroImage": "hero/five-minutes-review-on.jpg"
   },
   {
     "slug": "flap-flap-flap",
@@ -1476,7 +1490,8 @@
         }
       }
     ],
-    "contentHash": "67593536b59957c9074adf41950f50ed02154f71b4cd8d944f0846bb410c7966"
+    "contentHash": "67593536b59957c9074adf41950f50ed02154f71b4cd8d944f0846bb410c7966",
+    "heroImage": "hero/fritz-helder.jpg"
   },
   {
     "slug": "gut-erkannt",
@@ -1618,7 +1633,8 @@
         }
       }
     ],
-    "contentHash": "979d52f37f92c0a1be98bc2def6f7307c6dfe6b14878a327c9a68f3bbbb5e18d"
+    "contentHash": "979d52f37f92c0a1be98bc2def6f7307c6dfe6b14878a327c9a68f3bbbb5e18d",
+    "heroImage": "hero/hoervergnuegen.jpg"
   },
   {
     "slug": "ihr-koennt-alle-kommen",
@@ -1688,7 +1704,8 @@
         }
       }
     ],
-    "contentHash": "d774e149c9ef80acb6677acfaf9ab073a3389c03ab042d4143c3a22d0801a1ec"
+    "contentHash": "d774e149c9ef80acb6677acfaf9ab073a3389c03ab042d4143c3a22d0801a1ec",
+    "heroImage": "hero/ihr-koennt-alle-kommen.jpg"
   },
   {
     "slug": "jakob-ellwanger",
@@ -1760,7 +1777,8 @@
         }
       }
     ],
-    "contentHash": "24039e48962c13fa2777e0de91e934def963f2ebaac903a60f65c1b4fc8e3fc9"
+    "contentHash": "24039e48962c13fa2777e0de91e934def963f2ebaac903a60f65c1b4fc8e3fc9",
+    "heroImage": "hero/jakob-ellwanger.jpg"
   },
   {
     "slug": "kannibalistische-babarenvoelker",
@@ -1906,7 +1924,8 @@
         }
       }
     ],
-    "contentHash": "79ff7cabba75d89e98e0873b804741b5914a6c3b5fbbdcd834482f6a1a39b3a5"
+    "contentHash": "79ff7cabba75d89e98e0873b804741b5914a6c3b5fbbdcd834482f6a1a39b3a5",
+    "heroImage": "hero/keller.jpg"
   },
   {
     "slug": "kitlers",
@@ -2048,7 +2067,8 @@
         }
       }
     ],
-    "contentHash": "c42bb17d86b95cad9c288709d1cc2906543e6f32426185bcfafba43e20311dbd"
+    "contentHash": "c42bb17d86b95cad9c288709d1cc2906543e6f32426185bcfafba43e20311dbd",
+    "heroImage": "hero/launch-at-yaka-paka.jpg"
   },
   {
     "slug": "love-in-berlin",
@@ -2165,7 +2185,8 @@
         }
       }
     ],
-    "contentHash": "3489a436a085d527b96f10df48ffd941ecc316d1b7086fb8d2286ce74f4d50a4"
+    "contentHash": "3489a436a085d527b96f10df48ffd941ecc316d1b7086fb8d2286ce74f4d50a4",
+    "heroImage": "hero/love-in-berlin.jpg"
   },
   {
     "slug": "lyndon-wade",
@@ -2352,7 +2373,8 @@
         }
       }
     ],
-    "contentHash": "7c55ac17f0213e98d757ab6e8c8ae6a35e98e0597234752b60aa91869d062a0b"
+    "contentHash": "7c55ac17f0213e98d757ab6e8c8ae6a35e98e0597234752b60aa91869d062a0b",
+    "heroImage": "hero/lyndon-wade.jpg"
   },
   {
     "slug": "m-und-die-verantwortung-nach-der-niemand-fragt",
@@ -2562,7 +2584,8 @@
         }
       }
     ],
-    "contentHash": "88dc75dca65574068984fd7cf0040bef726e9f30122dd78589eee6cd6ae07fd7"
+    "contentHash": "88dc75dca65574068984fd7cf0040bef726e9f30122dd78589eee6cd6ae07fd7",
+    "heroImage": "hero/mavi.jpg"
   },
   {
     "slug": "maximal-my-ass",
@@ -2673,7 +2696,8 @@
         }
       }
     ],
-    "contentHash": "8ae4245136a92cc7e870e523f47eb54db7744af63ba75d6885281273022189c4"
+    "contentHash": "8ae4245136a92cc7e870e523f47eb54db7744af63ba75d6885281273022189c4",
+    "heroImage": "hero/maximal-my-ass.jpg"
   },
   {
     "slug": "naketan",
@@ -2745,7 +2769,8 @@
         }
       }
     ],
-    "contentHash": "2c898f25ff665cb3769eae2858319e63c338cc7c0459eb6faa5a5e51550b16c6"
+    "contentHash": "2c898f25ff665cb3769eae2858319e63c338cc7c0459eb6faa5a5e51550b16c6",
+    "heroImage": "hero/naketan.jpg"
   },
   {
     "slug": "new-uri-geller",
@@ -2957,7 +2982,8 @@
         }
       }
     ],
-    "contentHash": "f51ea212eaa562fd11ce448e93c8670ab56251537d9c2ff6b3847a4bf84c0597"
+    "contentHash": "f51ea212eaa562fd11ce448e93c8670ab56251537d9c2ff6b3847a4bf84c0597",
+    "heroImage": "hero/on-the-road-with-a-radio-skater.jpg"
   },
   {
     "slug": "pentagonik",
@@ -3071,7 +3097,8 @@
         }
       }
     ],
-    "contentHash": "45bd0e6649c9eae953e940f6f367ad3383aad155706d18ab53e2c602af3a268a"
+    "contentHash": "45bd0e6649c9eae953e940f6f367ad3383aad155706d18ab53e2c602af3a268a",
+    "heroImage": "hero/pentagonik.jpg"
   },
   {
     "slug": "phb-berlin",
@@ -3143,7 +3170,8 @@
         }
       }
     ],
-    "contentHash": "5bae2e150f6dadafbad5f88085a9d1e4d4de54749a1b2993b73073eb04b3be38"
+    "contentHash": "5bae2e150f6dadafbad5f88085a9d1e4d4de54749a1b2993b73073eb04b3be38",
+    "heroImage": "hero/phb-berlin.jpg"
   },
   {
     "slug": "pola-kardumx-maren-boettcher",
@@ -3215,7 +3243,8 @@
         }
       }
     ],
-    "contentHash": "d8599e9d9abdb2dee7245f86ff11c31e4936228468887cd22197a00703671518"
+    "contentHash": "d8599e9d9abdb2dee7245f86ff11c31e4936228468887cd22197a00703671518",
+    "heroImage": "hero/pola-kardumx-maren-boettcher.jpg"
   },
   {
     "slug": "proud",
@@ -3370,7 +3399,8 @@
         }
       }
     ],
-    "contentHash": "a285de228d67696ef392c38f4a9c58ff0995ad15b5f5fdceb7f0a1eb97a2072d"
+    "contentHash": "a285de228d67696ef392c38f4a9c58ff0995ad15b5f5fdceb7f0a1eb97a2072d",
+    "heroImage": "hero/proud-2.jpg"
   },
   {
     "slug": "proud-dj-kolumnen",
@@ -3438,7 +3468,8 @@
         }
       }
     ],
-    "contentHash": "950b5dd6ed42aae700c51440dcc8f37b616f52476986f52b0255b0b04022634a"
+    "contentHash": "950b5dd6ed42aae700c51440dcc8f37b616f52476986f52b0255b0b04022634a",
+    "heroImage": "hero/proud-dj-kolumnen.jpg"
   },
   {
     "slug": "proud-launch-party",
@@ -3586,7 +3617,8 @@
         }
       }
     ],
-    "contentHash": "11032674c6e6bbe2943f537c4875f3e0f43b9c02eaba6477e72f183be944befd"
+    "contentHash": "11032674c6e6bbe2943f537c4875f3e0f43b9c02eaba6477e72f183be944befd",
+    "heroImage": "hero/schnaps-magazine.jpg"
   },
   {
     "slug": "shit-glitter",
@@ -3730,7 +3762,8 @@
         }
       }
     ],
-    "contentHash": "203e9a35fd793067001ce1567b92b052bdf23a4789fa99da943fb31e462842e0"
+    "contentHash": "203e9a35fd793067001ce1567b92b052bdf23a4789fa99da943fb31e462842e0",
+    "heroImage": "hero/showroom.jpg"
   },
   {
     "slug": "superethe-com",
@@ -3948,7 +3981,8 @@
         }
       }
     ],
-    "contentHash": "5ec281fccc52cb56e38c3480bab9ff9506e3497f85b9d549a420586d6fa26835"
+    "contentHash": "5ec281fccc52cb56e38c3480bab9ff9506e3497f85b9d549a420586d6fa26835",
+    "heroImage": "hero/tatsch.jpg"
   },
   {
     "slug": "traktor-scratch-pro",
@@ -4020,7 +4054,8 @@
         }
       }
     ],
-    "contentHash": "15bbbfbb7b8071be9e7f48b9667070941708c8d7cb5bd4395fea68452689a94f"
+    "contentHash": "15bbbfbb7b8071be9e7f48b9667070941708c8d7cb5bd4395fea68452689a94f",
+    "heroImage": "hero/traktor-scratch-pro.jpg"
   },
   {
     "slug": "tr-s-bonjour",
@@ -4164,7 +4199,8 @@
         }
       }
     ],
-    "contentHash": "bf16b4183cf73efca3103be89d14ac2aead8a0e340eb82fd38161f696e757da0"
+    "contentHash": "bf16b4183cf73efca3103be89d14ac2aead8a0e340eb82fd38161f696e757da0",
+    "heroImage": "hero/tr-s-bonjour-2.jpg"
   },
   {
     "slug": "tr-s-bonjour-fashion-show-2008",
@@ -4236,7 +4272,8 @@
         }
       }
     ],
-    "contentHash": "57b02f48238c5c099bdd8920725ea981b9fd2c1c735fc6daf6c90566f3e3c617"
+    "contentHash": "57b02f48238c5c099bdd8920725ea981b9fd2c1c735fc6daf6c90566f3e3c617",
+    "heroImage": "hero/tr-s-bonjour-fashion-show-2008.jpg"
   },
   {
     "slug": "vom-anfang-bis-zum",
@@ -4378,7 +4415,8 @@
         }
       }
     ],
-    "contentHash": "9e3a669a232531f9f97533889a5b87e86d829507a21d3f983911acb6164cf75e"
+    "contentHash": "9e3a669a232531f9f97533889a5b87e86d829507a21d3f983911acb6164cf75e",
+    "heroImage": "hero/vorsicht-vor-irgendwas.jpg"
   },
   {
     "slug": "wardrobe",
@@ -4450,7 +4488,8 @@
         }
       }
     ],
-    "contentHash": "83ebb760a3f8d2cc86e9e7511afd0f99258a219a4dddd60d3e510856e28c6a32"
+    "contentHash": "83ebb760a3f8d2cc86e9e7511afd0f99258a219a4dddd60d3e510856e28c6a32",
+    "heroImage": "hero/wardrobe.jpg"
   },
   {
     "slug": "warum-ueberhaupt-diese-ganze",
@@ -4522,7 +4561,8 @@
         }
       }
     ],
-    "contentHash": "0a1a99277336de1fdc5eaf40c296db3c87e5a4b63351e9a7e5107bb701418d9b"
+    "contentHash": "0a1a99277336de1fdc5eaf40c296db3c87e5a4b63351e9a7e5107bb701418d9b",
+    "heroImage": "hero/warum-ueberhaupt-diese-ganze.jpg"
   },
   {
     "slug": "wie-ueberzeugt-man-jemanden-vom-techno",
@@ -4594,7 +4634,8 @@
         }
       }
     ],
-    "contentHash": "3a0e296989fdae17a101221e8b3211961a61be491c81f6d28765b5b5dd99b57f"
+    "contentHash": "3a0e296989fdae17a101221e8b3211961a61be491c81f6d28765b5b5dd99b57f",
+    "heroImage": "hero/wie-ueberzeugt-man-jemanden-vom-techno.jpg"
   },
   {
     "slug": "world-2-1",
@@ -4811,6 +4852,7 @@
         }
       }
     ],
-    "contentHash": "5626dbbcdceb3ba1e80a7ffe8dfc0c0d0c73fee0d3f6ca43041963a442251bd3"
+    "contentHash": "5626dbbcdceb3ba1e80a7ffe8dfc0c0d0c73fee0d3f6ca43041963a442251bd3",
+    "heroImage": "hero/zey-break.jpg"
   }
 ]

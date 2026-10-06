@@ -118,6 +118,7 @@
     }
   ],
   "contentHash": "3489a436a085d527b96f10df48ffd941ecc316d1b7086fb8d2286ce74f4d50a4",
+  "heroImage": "hero/love-in-berlin.jpg",
   "locales": {
     "de": {
       "title": "love in berlin",
@@ -206,5 +207,6 @@
   },
   "canonicalUrl": "https://proud.xn--wp9h.tk/articles/love-in-berlin/",
   "pdfUrl": "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=22",
-  "previewUrl": "https://proud.xn--wp9h.tk/assets/previews/love-in-berlin.webp"
+  "previewUrl": "https://proud.xn--wp9h.tk/assets/hero/love-in-berlin.webp",
+  "heroUrl": "https://proud.xn--wp9h.tk/assets/hero/love-in-berlin.webp"
 }

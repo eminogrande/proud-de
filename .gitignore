@@ -12,3 +12,4 @@ data/input/review-issue01/*.pdf
 data/input/review-issues-01-02/*.pdf
 data/input/issue01-test/*.pdf
 _pages/
+.worktrees/

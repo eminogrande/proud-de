@@ -7,7 +7,7 @@ detected_language: "de"
 translation_state: "original"
 canonical_url: "https://proud.xn--wp9h.tk/articles/wie-ueberzeugt-man-jemanden-vom-techno/"
 pdf_url: "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=32"
-preview_image_url: "https://proud.xn--wp9h.tk/assets/previews/wie-ueberzeugt-man-jemanden-vom-techno.webp"
+preview_image_url: "https://proud.xn--wp9h.tk/assets/hero/wie-ueberzeugt-man-jemanden-vom-techno.webp"
 page_image_count: 1
 reading_time_minutes: 1
 magazine_slug: "01-proud-issuu-output"

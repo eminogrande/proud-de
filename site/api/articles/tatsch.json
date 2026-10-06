@@ -73,6 +73,7 @@
     }
   ],
   "contentHash": "5ec281fccc52cb56e38c3480bab9ff9506e3497f85b9d549a420586d6fa26835",
+  "heroImage": "hero/tatsch.jpg",
   "locales": {
     "de": {
       "title": "tatsch",
@@ -125,5 +126,6 @@
   },
   "canonicalUrl": "https://proud.xn--wp9h.tk/articles/tatsch/",
   "pdfUrl": "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=60",
-  "previewUrl": "https://proud.xn--wp9h.tk/assets/previews/tatsch.webp"
+  "previewUrl": "https://proud.xn--wp9h.tk/assets/hero/tatsch.webp",
+  "heroUrl": "https://proud.xn--wp9h.tk/assets/hero/tatsch.webp"
 }

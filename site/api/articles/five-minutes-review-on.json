@@ -71,6 +71,7 @@
     }
   ],
   "contentHash": "f3d3e7eecd3ef6e2c3f69a35bb401d47e1df44749ae03b3870e886109cfbafd9",
+  "heroImage": "hero/five-minutes-review-on.jpg",
   "locales": {
     "de": {
       "title": "five minutes review on",
@@ -124,5 +125,6 @@
   },
   "canonicalUrl": "https://proud.xn--wp9h.tk/articles/five-minutes-review-on/",
   "pdfUrl": "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf#page=14",
-  "previewUrl": "https://proud.xn--wp9h.tk/assets/previews/five-minutes-review-on.webp"
+  "previewUrl": "https://proud.xn--wp9h.tk/assets/hero/five-minutes-review-on.webp",
+  "heroUrl": "https://proud.xn--wp9h.tk/assets/hero/five-minutes-review-on.webp"
 }
