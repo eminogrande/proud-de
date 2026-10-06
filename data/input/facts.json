@@ -1,0 +1,271 @@
+[
+  {
+    "id": "dnb-holding",
+    "claim_de": "proud ist in der Deutschen Nationalbibliothek (Frankfurt und Leipzig) unter der Signatur Z 2009 B 1863 vorhanden, Bestand 2009 – 6.2014.",
+    "claim_en": "proud is held by the German National Library (Frankfurt and Leipzig), shelf mark Z 2009 B 1863, holdings 2009 – 6.2014.",
+    "status": "VERIFIED-PRIMARY",
+    "sources": [
+      {
+        "url": "https://d-nb.info/992028108",
+        "accessed": "2026-10-06",
+        "quote": "Frankfurt Signatur: Z 2009 B 1863 Bestand: 2009 - 6.2014 … Leipzig Signatur: Z 2009 B 1863 Bestand: 2009 - 6.2014"
+      },
+      {
+        "url": "https://services.dnb.de/sru/zdb?version=1.1&operation=searchRetrieve&recordSchema=MARC21plus-1-xml&query=zdbid%3D2473146-8",
+        "accessed": "2026-10-06",
+        "quote": "924 $b DE-101a $g Z 2009 B 1863 $z <2009 - 6.2014>"
+      }
+    ]
+  },
+  {
+    "id": "dnb-ids",
+    "claim_de": "DNB-IDN 992028108, ZDB-ID 2473146-8, OCLC 723868146; keine ISSN.",
+    "claim_en": "DNB IDN 992028108, ZDB ID 2473146-8, OCLC 723868146; no ISSN.",
+    "status": "VERIFIED-PRIMARY",
+    "sources": [
+      {
+        "url": "https://d-nb.info/992028108",
+        "accessed": "2026-10-06",
+        "quote": "016 (DE-600) 2473146-8; 016 (DE-101) 992028108; 035 (OCoLC)723868146; no 022 field"
+      },
+      {
+        "url": "https://ld.zdb-services.de/data/2473146-8.jsonld",
+        "accessed": "2026-10-06",
+        "quote": "\"(DE-101)992028108\", \"(DE-600)2473146-8\", \"(OCoLC)723868146\""
+      }
+    ]
+  },
+  {
+    "id": "run-2009-2014",
+    "claim_de": "proud erschien monatlich von 2009 bis 2014; mit Ausgabe #32 (6. Jahrgang) eingestellt.",
+    "claim_en": "proud appeared monthly from 2009 to 2014 and ceased with issue #32 (vol. 6).",
+    "status": "VERIFIED-PRIMARY",
+    "sources": [
+      {
+        "url": "https://d-nb.info/992028108",
+        "accessed": "2026-10-06",
+        "quote": "2009 -6. Jahrgang, Ausgabe #32 ; damit Erscheinen eingestellt; Ersch. monatl."
+      }
+    ]
+  },
+  {
+    "id": "publisher-entities",
+    "claim_de": "Verlag: Kirschstein & Mahrt GbR, dann Proud GbR, dann Proud Works GmbH, Berlin.",
+    "claim_en": "Publisher: Kirschstein & Mahrt GbR, then Proud GbR, then Proud Works GmbH, Berlin.",
+    "status": "VERIFIED-PRIMARY",
+    "sources": [
+      {
+        "url": "https://d-nb.info/992028108",
+        "accessed": "2026-10-06",
+        "quote": "Berlin : Proud Works GmbH; Berlin : Proud GbR [anfangs] - Berlin : Kirschstein & Mahrt GbR [früher]"
+      }
+    ]
+  },
+  {
+    "id": "publishers-issue01",
+    "claim_de": "Herausgeber von Heft 01 (Januar 2009): Richard Kirschstein und Emin Henri Mahrt.",
+    "claim_en": "Publishers of issue 01 (January 2009): Richard Kirschstein and Emin Henri Mahrt.",
+    "status": "VERIFIED-PRIMARY",
+    "sources": [
+      {
+        "url": "https://issuu.com/proud/docs/01-proud-magazine-berlin-januar-2009",
+        "accessed": "2026-10-06",
+        "quote": "Impressum S. 6: Publisher Richard Kirschstein Emin Henri Mahrt (repo: data/output/ocr/01-proud-issuu-output/pages/page-006.md)"
+      }
+    ]
+  },
+  {
+    "id": "dummy-2008",
+    "claim_de": "Vor Heft 01 gab es ein Dummy-Heft #00 (2008) der proud GbR, Naunynstraße 27, 10997 Berlin.",
+    "claim_en": "Before issue 01 there was a dummy issue #00 (2008) by proud GbR, Naunynstraße 27, 10997 Berlin.",
+    "status": "VERIFIED-PRIMARY",
+    "sources": [
+      {
+        "url": "https://issuu.com/proud/docs/00-proud-magazine-berlin-dummy-2008",
+        "accessed": "2026-10-06",
+        "quote": "proud GbR Emin Mahrt & Richard Kirschstein Naunynstraße 27 10997 Berlin (repo OCR page-035)"
+      }
+    ]
+  },
+  {
+    "id": "hrb",
+    "claim_de": "proud works GmbH, Amtsgericht Charlottenburg HRB 132080 B, Gegenstand u. a. Publikation des Proud Magazine; gelöscht.",
+    "claim_en": "proud works GmbH, Charlottenburg local court HRB 132080 B, purpose incl. publishing Proud Magazine; dissolved.",
+    "status": "VERIFIED-SECONDARY",
+    "sources": [
+      {
+        "url": "https://www.northdata.de/proud%20works%20GmbH,%20Berlin/Amtsgericht%20Charlottenburg%20(Berlin)%20HRB%20132080%20B",
+        "accessed": "2026-10-06",
+        "quote": "Amtsgericht Charlottenburg (Berlin) HRB 132080 B … Die Publikation der Proud Magazine, die Produktion von Werbung, Musik, Film und Mode"
+      },
+      {
+        "url": "http://web.archive.org/web/20120105062932/http://proud.de/impressum",
+        "accessed": "2026-10-06",
+        "quote": "Registernummer: HRB 132080 B Geschäftsführer: Richard Kirschstein, Emin Mahrt"
+      }
+    ]
+  },
+  {
+    "id": "print-run-20000",
+    "claim_de": "Auflage 20.000 Exemplare pro Ausgabe, kostenlos (Verlagsangabe).",
+    "claim_en": "Print run 20,000 copies per issue, free (publisher's statement).",
+    "status": "SELF-REPORTED",
+    "sources": [
+      {
+        "url": "http://web.archive.org/web/20120105062932/http://proud.de/impressum",
+        "accessed": "2026-10-06",
+        "quote": "proud magazine erscheint seit Dezember 2008 in einer Auflage von 20.000 Magazinen."
+      }
+    ]
+  },
+  {
+    "id": "total-650k",
+    "claim_de": "33 Ausgaben, insgesamt mehr als 650.000 Exemplare, 68 Seiten.",
+    "claim_en": "33 issues, more than 650,000 copies in total, 68 pages.",
+    "status": "SELF-REPORTED",
+    "sources": [
+      {
+        "url": "https://linkedin.com/company/proud-works",
+        "accessed": "2026-10-06",
+        "quote": "33 Issues, printed and distributed with a total number of more than 650.000 copies (high quality offset print, 68 pages)"
+      },
+      {
+        "url": "https://coinagenda.com/emin-henri-mahrt",
+        "accessed": "2026-10-06",
+        "quote": "printed over 650,000 copies"
+      }
+    ]
+  },
+  {
+    "id": "circulation-1-5m",
+    "claim_de": "Gesamtauflage 1,5 Millionen.",
+    "claim_en": "Total circulation 1.5 million.",
+    "status": "UNVERIFIED",
+    "sources": [
+      {
+        "url": "https://bitget.com/news/detail/12560604619656",
+        "accessed": "2026-10-06",
+        "quote": "printing more than thirty issues with a total circulation of 1.5 million copies"
+      }
+    ]
+  },
+  {
+    "id": "dfjv",
+    "claim_de": "proud wurde vom DFJV anerkannt.",
+    "claim_en": "proud was recognized by the DFJV.",
+    "status": "UNVERIFIED",
+    "sources": [
+      {
+        "url": "https://emin.de",
+        "accessed": "2026-10-06",
+        "quote": "recognized by the DFJV"
+      },
+      {
+        "url": "https://bitget.com/news/detail/12560604619656",
+        "accessed": "2026-10-06",
+        "quote": "acknowledged by the Association of German Journalists (DFJV) for its cultural influence"
+      },
+      {
+        "url": "https://coinagenda.com/emin-henri-mahrt",
+        "accessed": "2026-10-06",
+        "quote": "noted by the German Journalist Association multiple times"
+      },
+      {
+        "url": "https://www.dfjv.de/suche?q=proud",
+        "accessed": "2026-10-06",
+        "quote": "No public DFJV page found; site search returns 'Seite nicht gefunden'"
+      }
+    ]
+  },
+  {
+    "id": "yuja-wang",
+    "claim_de": "Deutsche Grammophon berichtete 2011 über das proud-Cover mit Yuja Wang.",
+    "claim_en": "Deutsche Grammophon reported on proud's 2011 cover with Yuja Wang.",
+    "status": "VERIFIED-SECONDARY",
+    "sources": [
+      {
+        "url": "https://www.deutschegrammophon.com/de/kuenstler-innen/yujawang/neuigkeiten/yuja-wang-im-proud-magazin-183961",
+        "accessed": "2026-10-06",
+        "quote": "06.05.2011 … zeigen das Cover der neuen Ausgabe des proud Magazins, sowie die mehrseitige Fotostrecke im Heft."
+      }
+    ]
+  },
+  {
+    "id": "wikipedia-soundcloud",
+    "claim_de": "Wikipedia (SoundCloud) zitiert ein proud-Interview von Emin Mahrt vom 02.02.2009.",
+    "claim_en": "Wikipedia (SoundCloud) cites a proud interview by Emin Mahrt dated 2 Feb 2009.",
+    "status": "VERIFIED-SECONDARY",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/SoundCloud",
+        "accessed": "2026-10-06",
+        "quote": "Emin Mahrt: proud magazine. In: proud.de. proud works GmbH, 2. Februar 2009"
+      }
+    ]
+  },
+  {
+    "id": "wikipedia-independent",
+    "claim_de": "proud steht in der Wikipedia-Liste Independent-Titel.",
+    "claim_en": "proud is listed in German Wikipedia's 'Independent-Titel' list.",
+    "status": "VERIFIED-SECONDARY",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Independent-Titel",
+        "accessed": "2026-10-06",
+        "quote": "proud magazine (Berlin-Lifestyle, Fashion, Art und Music)"
+      }
+    ]
+  },
+  {
+    "id": "third-party-reprint",
+    "claim_de": "ilovegraffiti.de druckte 2010 einen proud-Text (Heft 15) nach.",
+    "claim_en": "ilovegraffiti.de reprinted a proud text (issue 15) in 2010.",
+    "status": "VERIFIED-SECONDARY",
+    "sources": [
+      {
+        "url": "https://ilovegraffiti.de/blog/2010/04/13/the-day-street-art-died/",
+        "accessed": "2026-10-06",
+        "quote": "Den durchaus interessanten Text haben wir in der aktuellen Proud gefunden."
+      }
+    ]
+  },
+  {
+    "id": "vsdp",
+    "claim_de": "Verantwortlich im Sinne des Presserechts: Emin Mahrt oder Richard Kirschstein (2010).",
+    "claim_en": "Responsible under press law: Emin Mahrt or Richard Kirschstein (2010).",
+    "status": "SELF-REPORTED",
+    "sources": [
+      {
+        "url": "http://web.archive.org/web/20100829175147/http://proudmagazine.de:80/about",
+        "accessed": "2026-10-06",
+        "quote": "Verantwortlicher im Sinne des Presserechts ist Emin Mahrt oder Richard."
+      }
+    ]
+  },
+  {
+    "id": "aeternity-board",
+    "claim_de": "Emin Mahrt war Vorstand der æternity crypto foundation.",
+    "claim_en": "Emin Mahrt was a board member of the æternity crypto foundation.",
+    "status": "VERIFIED-SECONDARY",
+    "sources": [
+      {
+        "url": "https://einpresswire.com/article/505264063/ternity-crypto-foundation-joins-erlang-ecosystem-foundation-as-founding-member",
+        "accessed": "2026-10-06",
+        "quote": "said Emin Mahrt, Board Member of the æternity crypto foundation"
+      }
+    ]
+  },
+  {
+    "id": "nuri-founder",
+    "claim_de": "Emin Mahrt gründet und leitet Nuri (Nurisoft Development OÜ, Tallinn).",
+    "claim_en": "Emin Mahrt founded and runs Nuri (Nurisoft Development OÜ, Tallinn).",
+    "status": "SELF-REPORTED",
+    "sources": [
+      {
+        "url": "https://nuri.com/about",
+        "accessed": "2026-10-06",
+        "quote": "Nuri is founded and run by Emin Mahrt and the Nuri team, and is operated by Nurisoft Development OÜ"
+      }
+    ]
+  }
+]
