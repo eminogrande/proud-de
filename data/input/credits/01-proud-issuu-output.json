@@ -1,0 +1,864 @@
+{
+  "issue": {
+    "magazineSlug": "01-proud-issuu-output",
+    "masthead": {
+      "publisher": [
+        "Richard Kirschstein",
+        "Emin Henri Mahrt"
+      ],
+      "textEditor": [
+        "Miron Tenenberg"
+      ],
+      "fashionEditor": [
+        "Emilie Wong"
+      ],
+      "eventManager": [
+        "Rico Kramer"
+      ],
+      "advertisingManager": [
+        "Richard Kirschstein",
+        "Emin Henri Mahrt",
+        "Kash Patton"
+      ],
+      "production": [
+        "Richard Kirschstein",
+        "Emin Henri Mahrt"
+      ],
+      "cover": [
+        "Jason Forster"
+      ],
+      "regularContributors": [
+        "Moritz Stellmacher",
+        "Till Kolter",
+        "Frederik Eichelbaum",
+        "Nuri Sezer",
+        "Eva und Lale Mahrt",
+        "Karl-Heinz und Ariane Kirschstein",
+        "Diyalog Theater Fest",
+        "Danyell",
+        "Christof Zollfrank",
+        "Martin Agosti",
+        "Hannes Greve",
+        "Benjamin Heps",
+        "Don Ludwig",
+        "Michael Mattersberger",
+        "Dominic Czaja"
+      ],
+      "contributors": [
+        "Sarai Schubert",
+        "Konstantin Spies",
+        "Dinah",
+        "Felix Buchholz",
+        "Mabel Ascheneller",
+        "Sünje von Ahn",
+        "Oliver Keresztes",
+        "Alf und seine Fotografin",
+        "Mario Martin",
+        "Christopher Gabbert",
+        "Denise",
+        "Fred Kreeger",
+        "Ron Wilson",
+        "Cotumo",
+        "Peta Pumpa",
+        "Uwe Krass",
+        "Tillman",
+        "Jakob Ellwanger",
+        "Kai",
+        "Max",
+        "Shermin Langhoff",
+        "Nermin",
+        "Negar",
+        "Luzie Baumgart",
+        "Susanna",
+        "Vinz"
+      ],
+      "correction": [
+        "K.-H. Kirschstein",
+        "Ariane Kirschstein",
+        "Jennifer Bendele"
+      ],
+      "specialThanksTo": [
+        "Frederik Eichelbaum"
+      ],
+      "publisherEntity": "proud GbR",
+      "email": "hq@proudmagazine.de",
+      "advertisingEmail": "proud@me.com",
+      "coverUrl": "www.salondepigeon.com",
+      "address": "proud GbR, Manteuffelstraße 64, 10999 Berlin Kreuzberg",
+      "issn": null,
+      "printRun": null,
+      "printer": null,
+      "issueDate": "JANUAR 2009 (Cover)",
+      "sourcePage": 6,
+      "rawText": "Publisher\nRichard Kirschstein\nEmin Henri Mahrt\nText Editor\nMiron Tenenberg\nFashion Editor\nEmilie Wong\nEvent Manager\nRico Kramer\nAdvertising Manager\nRichard Kirschstein (proud@me.com)\nEmin Henri Mahrt\nKash Patton\nProduction\nRichard Kirschstein\nEmin Henri Mahrt\nCover\nJason Forster\nwww.salondepigeon.com\nRegular Contributors\nMoritz Stellmacher, Till Kolter, Frederik Eichelbaum, Nuri Sezer, Eva und Lale Mahrt, Karl-Heinz und Ariane Kirschstein, Diyalog Theater Fest, Danyell, Christof Zollfrank, Martin Agosti, Hannes Greve, Benjamin Heps, Don Ludwig, Michael Mattersberger, Dominic Czaja.\nContributors\nSarai Schubert, Konstantin Spies, Dinah, Felix Buchholz, Mabel Ascheneller, Sünje von Ahn, Oliver Keresztes, Alf und seine Fotografin, Mario Martin, Christopher Gabbert, Denise, Fred Kreeger, Ron Wilson, Cotumo, Peta Pumpa, Uwe Krass, Tillman, Jakob Ellwanger, Kai, Max, Shermin Langhoff, Nermin, Negar, Luzie Baumgart, Susanna, Vinz.\nCorrection\nK.-H. Kirschstein\nAriane Kirschstein\nJennifer Bendele\nSpecial Thanks To\nFrederik Eichelbaum\n\nproud ist eine freie, monatliche Publikation von Liebhabern und Legenden.\nproud GbR\nManteuffelstraße 64\n10999 Berlin Kreuzberg\nE: hq@proudmagazine.de\n\nproud darf nicht ohne das Einverständnis von Richard Kirschstein oder Emin Mahrt, beziehungsweise den Leuten die deren Unterschriften perfekt fälschen können, verkauft, verliehen oder geknickt werden. proud respektiert die Unterschiedlichkeit der Menschen und das Allgemeine Gleichbehandlungsgesetz. proud liebt Dich doch!\nDie publizierten Artikel entsprechen dennoch ausschließlich der Meinung der Autoren und nicht zwangsläufig der proud Redaktion. Diese müssen auch nicht intelligent oder gut durchdacht sein. Dafür machen wir mal wieder eine schöne Seite zum Angucken. Wenn Ihr uns die Grafik klaut, holen wir unsere Freunde und Ihr seid dran. Ansonsten, alles Roger.",
+      "note": "Kein ISSN, keine Auflage, keine Druckerei, kein V.i.S.d.P. gedruckt."
+    },
+    "contributors": [
+      {
+        "name": "Moritz Stellmacher",
+        "bioText": "Moritz Stellmacher kommt aus dem Nimmer-Nimmer-Land. Dort wird unendlich viel getanzt. Deshalb lebt er, wo Bewegung zu Bumm-Bumm-Musik am weitesten verbreitet ist. Als fester Teil von proud ist er in der Redaktion unverzichtbar.",
+        "sourcePage": 8
+      },
+      {
+        "name": "Till Kolter",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Frederik Eichelbaum",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Nuri Sezer",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Eva und Lale Mahrt",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Karl-Heinz und Ariane Kirschstein",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Diyalog Theater Fest",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Danyell",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Christof Zollfrank",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Martin Agosti",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Hannes Greve",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Benjamin Heps",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Don Ludwig",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Michael Mattersberger",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Dominic Czaja",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Sarai Schubert",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Konstantin Spies",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Dinah",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Felix Buchholz",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Mabel Ascheneller",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Sünje von Ahn",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Oliver Keresztes",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Alf und seine Fotografin",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Mario Martin",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Christopher Gabbert",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Denise",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Fred Kreeger",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Ron Wilson",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Cotumo",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Peta Pumpa",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Uwe Krass",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Tillman",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Jakob Ellwanger",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Kai",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Max",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Shermin Langhoff",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Nermin",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Negar",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Luzie Baumgart",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Susanna",
+        "bioText": null,
+        "sourcePage": 6
+      },
+      {
+        "name": "Vinz",
+        "bioText": null,
+        "sourcePage": 6
+      }
+    ],
+    "otherPrintedCredits": [
+      {
+        "page": 7,
+        "label": "photography by",
+        "name": "moritz thau",
+        "context": "très bonjour Anzeige"
+      },
+      {
+        "page": 41,
+        "label": "By",
+        "name": "Ruby Kam",
+        "context": "Modestrecke 'geared up' (S. 40–41), nicht in library.json"
+      },
+      {
+        "page": 65,
+        "label": "Image",
+        "name": "Moritz Stellmacher",
+        "context": "'last look' (S. 64–65), nicht in library.json"
+      },
+      {
+        "page": 8,
+        "label": "contents",
+        "name": "ruby kam / sarai and mack / alexander moloko / maren x pola / moritz stellmacher",
+        "context": "Inhaltsverzeichnis-Einträge"
+      }
+    ],
+    "method": "Seiten per pdfimages extrahiert (2235x2996), visuell gelesen, Credit-Boxen gezoomt/zugeschnitten."
+  },
+  "articles": {
+    "editorial": {
+      "credits": [],
+      "sourcePage": 6,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit auf der Seite gefunden."
+    },
+    "proud": {
+      "credits": [],
+      "sourcePage": 6,
+      "confidence": "medium",
+      "note": "Impressum-Seite; Credits siehe issue.masthead."
+    },
+    "flap-flap-flap": {
+      "credits": [],
+      "sourcePage": 10,
+      "confidence": "medium",
+      "note": "Leserbrief, gezeichnet \"Sebastian\" (kein Autor-Credit)."
+    },
+    "gut-erkannt": {
+      "credits": [],
+      "sourcePage": 10,
+      "confidence": "medium",
+      "note": "Leserbrief, gezeichnet \"Zero Kool Zavas\"."
+    },
+    "kitlers": {
+      "credits": [
+        {
+          "role": "photo",
+          "name": "flickr.com",
+          "printedLabel": "image"
+        }
+      ],
+      "sourcePage": 10,
+      "confidence": "high",
+      "note": "Nur Bildquelle \"image flickr.com\" am Foto; als Quelle notiert."
+    },
+    "mail-of-the-month": {
+      "credits": [],
+      "sourcePage": 10,
+      "confidence": "medium",
+      "note": "Leserbrief \"Die schönste Äußerung\", gezeichnet \"Felix K.\"."
+    },
+    "new-uri-geller": {
+      "credits": [],
+      "sourcePage": 10,
+      "confidence": "medium",
+      "note": "Leserbrief, gezeichnet \"Mario\"."
+    },
+    "vorsicht-vor-irgendwas": {
+      "credits": [],
+      "sourcePage": 10,
+      "confidence": "medium",
+      "note": "Leserbrief, gezeichnet \"Der Verräter\"."
+    },
+    "write-to-us-and-win": {
+      "credits": [
+        {
+          "role": "photo",
+          "name": "flickr.com",
+          "printedLabel": "image"
+        }
+      ],
+      "sourcePage": 10,
+      "confidence": "high",
+      "note": "Nur \"image flickr.com\" am Foto."
+    },
+    "ihr-koennt-alle-kommen": {
+      "credits": [],
+      "sourcePage": 11,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit auf der Seite gefunden."
+    },
+    "phb-berlin": {
+      "credits": [],
+      "sourcePage": 12,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit auf der Seite gefunden."
+    },
+    "shit-glitter": {
+      "credits": [],
+      "sourcePage": 12,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit auf der Seite gefunden."
+    },
+    "tr-s-bonjour": {
+      "credits": [
+        {
+          "role": "photo",
+          "name": "JanAdler.com",
+          "printedLabel": "Image"
+        }
+      ],
+      "sourcePage": 12,
+      "confidence": "high",
+      "note": "Bildnachweis als Domain gedruckt."
+    },
+    "world-2-1": {
+      "credits": [],
+      "sourcePage": 12,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit auf der Seite gefunden."
+    },
+    "200-calories": {
+      "credits": [
+        {
+          "role": "photo",
+          "name": "flickr.com",
+          "printedLabel": "Image"
+        }
+      ],
+      "sourcePage": 13,
+      "confidence": "high",
+      "note": "Bildquelle, keine Person."
+    },
+    "artgerechtes": {
+      "credits": [],
+      "sourcePage": 13,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit auf der Seite gefunden."
+    },
+    "e-rags": {
+      "credits": [],
+      "sourcePage": 13,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit auf der Seite gefunden."
+    },
+    "mavi": {
+      "credits": [],
+      "sourcePage": 13,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit auf der Seite gefunden."
+    },
+    "oh-mi-bod": {
+      "credits": [],
+      "sourcePage": 13,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit auf der Seite gefunden."
+    },
+    "superethe-com": {
+      "credits": [
+        {
+          "role": "photo",
+          "name": "www.jannicahoney.com",
+          "printedLabel": "Image"
+        }
+      ],
+      "sourcePage": 13,
+      "confidence": "high",
+      "note": "Gedruckter Titel lautet \"superfertile.com\" (Slug weicht ab)."
+    },
+    "five-minutes-review-on": {
+      "credits": [],
+      "sourcePage": 14,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit auf der Seite gefunden."
+    },
+    "fritz-helder": {
+      "credits": [],
+      "sourcePage": 14,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit auf der Seite gefunden."
+    },
+    "launch-at-yaka-paka": {
+      "credits": [
+        {
+          "role": "photo",
+          "name": "Moritz Stellmacher",
+          "printedLabel": "Images"
+        }
+      ],
+      "sourcePage": 16,
+      "confidence": "high",
+      "note": ""
+    },
+    "schnaps-magazine": {
+      "credits": [],
+      "sourcePage": 17,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit auf der Seite gefunden."
+    },
+    "ceza-at-ballhaus-naunynstrasse": {
+      "credits": [],
+      "sourcePage": 18,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit auf der Seite gefunden."
+    },
+    "tr-s-bonjour-fashion-show-2008": {
+      "credits": [
+        {
+          "role": "photo",
+          "name": "Jan Adler",
+          "printedLabel": "image"
+        }
+      ],
+      "sourcePage": 21,
+      "confidence": "medium",
+      "note": "Kleine senkrechte Zeile am Foto; Groß-/Kleinschreibung von \"image\" unsicher."
+    },
+    "love-in-berlin": {
+      "credits": [
+        {
+          "role": "layout",
+          "name": "Christian Rothenhagen",
+          "printedLabel": "Layout"
+        },
+        {
+          "role": "text",
+          "name": "Lukas Kampfmann",
+          "printedLabel": "Text"
+        }
+      ],
+      "sourcePage": 22,
+      "confidence": "high",
+      "note": "Unterzeile schreibt \"Christian Rothenhage alias deerBLN\"; Credit-Box \"Rothenhagen\"."
+    },
+    "pentagonik": {
+      "credits": [],
+      "sourcePage": 24,
+      "confidence": "medium",
+      "note": "Interview mit Don und Kai; kein Interviewer genannt."
+    },
+    "kannibalistische-babarenvoelker": {
+      "credits": [],
+      "sourcePage": 26,
+      "confidence": "medium",
+      "note": "Interview mit Demir; kein Credit."
+    },
+    "andere-richtungen": {
+      "credits": [],
+      "sourcePage": 26,
+      "confidence": "medium",
+      "note": "Interview mit Demir; kein Credit."
+    },
+    "dj-craft": {
+      "credits": [],
+      "sourcePage": 28,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit auf der Seite gefunden."
+    },
+    "proud-2": {
+      "credits": [],
+      "sourcePage": 29,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit auf der Seite gefunden."
+    },
+    "maximal-my-ass": {
+      "credits": [
+        {
+          "role": "text",
+          "name": "Johnny Macchiato, Schnaps Magazine",
+          "printedLabel": "GASTAUTOR"
+        }
+      ],
+      "sourcePage": 31,
+      "confidence": "high",
+      "note": "Gastautor-Box mit Foto auf S. 31; unklar ob sie beide Textteile abdeckt."
+    },
+    "alte-legenden-neue-entdeckungen": {
+      "credits": [
+        {
+          "role": "text",
+          "name": "Uwe Krass",
+          "printedLabel": "Text"
+        }
+      ],
+      "sourcePage": 32,
+      "confidence": "high",
+      "note": ""
+    },
+    "vom-anfang-bis-zum": {
+      "credits": [
+        {
+          "role": "text",
+          "name": "Fred Kreeger",
+          "printedLabel": "Text"
+        }
+      ],
+      "sourcePage": 32,
+      "confidence": "high",
+      "note": ""
+    },
+    "wie-ueberzeugt-man-jemanden-vom-techno": {
+      "credits": [
+        {
+          "role": "text",
+          "name": "Pumpa Peta",
+          "printedLabel": "Text"
+        }
+      ],
+      "sourcePage": 32,
+      "confidence": "high",
+      "note": "Impressum schreibt \"Peta Pumpa\"."
+    },
+    "proud-dj-kolumnen": {
+      "credits": [
+        {
+          "role": "text",
+          "name": "Ron WIlson",
+          "printedLabel": "Text"
+        },
+        {
+          "role": "text",
+          "name": "Tim",
+          "printedLabel": "Text"
+        },
+        {
+          "role": "text",
+          "name": "Cotumo",
+          "printedLabel": "Text"
+        }
+      ],
+      "sourcePage": 33,
+      "confidence": "medium",
+      "note": "Drei Kolumnen auf einer Seite: \"Verwöhntes Berlin\" (Ron WIlson, so gedruckt mit großem I), \"93 Till Infinity\" (Tim), \"Elektronischer Hörgenuss On Air\" (Cotumo). Impressum nennt \"Ron Wilson\" und \"Tillman\"; \"Tim\" zweimal so gelesen."
+    },
+    "berlin-bedtime": {
+      "credits": [],
+      "sourcePage": 34,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit auf der Seite gefunden."
+    },
+    "farbreiz": {
+      "credits": [],
+      "sourcePage": 35,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit auf der Seite gefunden."
+    },
+    "warum-ueberhaupt-diese-ganze": {
+      "credits": [],
+      "sourcePage": 36,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit auf der Seite gefunden."
+    },
+    "hoervergnuegen": {
+      "credits": [],
+      "sourcePage": 37,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit auf der Seite gefunden."
+    },
+    "deinen-name-sieht-man-ueberall-ein-paar-worte-zur-szene": {
+      "credits": [],
+      "sourcePage": 38,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit auf der Seite gefunden."
+    },
+    "jakob-ellwanger": {
+      "credits": [],
+      "sourcePage": 38,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit auf der Seite gefunden."
+    },
+    "keller": {
+      "credits": [],
+      "sourcePage": 39,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit auf der Seite gefunden."
+    },
+    "7days-in-sieben-outfits": {
+      "credits": [],
+      "sourcePage": 43,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit auf der Seite gefunden."
+    },
+    "wardrobe": {
+      "credits": [
+        {
+          "role": "photo",
+          "name": "JanAdler.com",
+          "printedLabel": "Image"
+        }
+      ],
+      "sourcePage": 44,
+      "confidence": "high",
+      "note": "Gehört zum Block \"for couture chicks\"."
+    },
+    "end-skater-heroes": {
+      "credits": [],
+      "sourcePage": 45,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit auf der Seite gefunden."
+    },
+    "6-rags": {
+      "credits": [],
+      "sourcePage": 48,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit auf der Seite gefunden."
+    },
+    "naketan": {
+      "credits": [],
+      "sourcePage": 48,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit auf der Seite gefunden."
+    },
+    "traktor-scratch-pro": {
+      "credits": [],
+      "sourcePage": 48,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit auf der Seite gefunden."
+    },
+    "tr-s-bonjour-2": {
+      "credits": [
+        {
+          "role": "photo",
+          "name": "JanAdler.com",
+          "printedLabel": "Image"
+        }
+      ],
+      "sourcePage": 48,
+      "confidence": "high",
+      "note": ""
+    },
+    "lyndon-wade": {
+      "credits": [],
+      "sourcePage": 50,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit-Label; Fotograf Lyndon Wade wird im Text (S. 55) vorgestellt, www.lyndonwade.com. Nicht als Credit erfunden."
+    },
+    "blvd-of": {
+      "credits": [],
+      "sourcePage": 53,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit auf der Seite gefunden."
+    },
+    "on-the-road-with-a-radio-skater": {
+      "credits": [],
+      "sourcePage": 56,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit auf der Seite gefunden."
+    },
+    "pola-kardumx-maren-boettcher": {
+      "credits": [
+        {
+          "role": "photo",
+          "name": "www.MarenBoettcher.com",
+          "printedLabel": "Image"
+        },
+        {
+          "role": "other",
+          "name": "Katarzyna Konopka",
+          "printedLabel": "Assistant"
+        },
+        {
+          "role": "other",
+          "name": "Pola Kardum",
+          "printedLabel": "Fashion & Model"
+        },
+        {
+          "role": "other",
+          "name": "Rouge Bunny Rouge",
+          "printedLabel": "Make-Up"
+        }
+      ],
+      "sourcePage": 58,
+      "confidence": "high",
+      "note": "Titel gedruckt \"pola kardum x maren böttcher\"; Fotografin Maren Böttcher im Text."
+    },
+    "tatsch": {
+      "credits": [],
+      "sourcePage": 60,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit auf der Seite gefunden."
+    },
+    "doktorspielchen": {
+      "credits": [],
+      "sourcePage": 62,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit auf der Seite gefunden."
+    },
+    "farbreiz-2": {
+      "credits": [],
+      "sourcePage": 62,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit auf der Seite gefunden."
+    },
+    "proud-launch-party": {
+      "credits": [],
+      "sourcePage": 62,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit auf der Seite gefunden."
+    },
+    "showroom": {
+      "credits": [],
+      "sourcePage": 62,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit auf der Seite gefunden."
+    },
+    "tal-der-verwirrung": {
+      "credits": [],
+      "sourcePage": 62,
+      "confidence": "medium",
+      "note": "Kein gedruckter Credit auf der Seite gefunden."
+    },
+    "zey-break": {
+      "credits": [
+        {
+          "role": "other",
+          "name": "Kadir Memiş alias »Amigo«",
+          "printedLabel": "Choreografie"
+        },
+        {
+          "role": "other",
+          "name": "Zula Lemes",
+          "printedLabel": "Beratung"
+        },
+        {
+          "role": "other",
+          "name": "Nevzat Akpinar",
+          "printedLabel": "Komposition"
+        },
+        {
+          "role": "other",
+          "name": "Kadir Memiş alias »Amigo« und Yavuz Topuz alias »Risk One«",
+          "printedLabel": "Mit"
+        }
+      ],
+      "sourcePage": 63,
+      "confidence": "low",
+      "note": "Theaterplakat (Ballhaus Naunynstraße). Senkrechte Kleinzeile \"Gestaltung: [unleserlich], Berlin | Fotos: [unleserlich] | Druck: [unleserlich] Offset\" bei verfügbarer Auflösung nicht lesbar. Labels im Original in Versalien."
+    },
+    "m-und-die-verantwortung-nach-der-niemand-fragt": {
+      "credits": [
+        {
+          "role": "text",
+          "name": "Moritz Stellmacher",
+          "printedLabel": "Text"
+        }
+      ],
+      "sourcePage": 66,
+      "confidence": "high",
+      "note": ""
+    }
+  }
+}
