@@ -27,7 +27,7 @@ flowchart LR
 | Published so far | Only issue 01 (`site/magazines/01-proud-issuu-output`, ~65 article folders in `site/articles`). |
 | Issue 02 | `docs/ISSUE_02_STATUS.md`: OpenRouter OCR failed with 402. Local Tesseract fallback gave 23 broken articles. Do not publish the fallback. |
 | OpenRouter | Balance negative (used 256.05 vs 236 credits). **Needs a new key or top-up from the owner before the OCR run.** Never commit keys. `.env.local` is gitignored. |
-| GitHub Pages | A Hermes subagent works on branch `feat/github-pages` (workflow `.github/workflows/pages.yml`, `docs/GITHUB_PAGES.md`, audit). Check open PRs first: `gh pr list`. |
+| GitHub Pages | LIVE: https://eminogrande.github.io/proud-de/ (PR #1 7d8cfe5, PR #2 86790cb merged). Workflow `.github/workflows/pages.yml` copies committed `site/` via `scripts/build-pages.mjs` (no rebuild, no LFS). **New articles must be built into `site/` and committed; then Pages redeploys.** Details and audit: `docs/GITHUB_PAGES.md`. Static limits: no `/mcp`, `/api/search`, `Accept: text/markdown` (needs Cloudflare worker). |
 | Drive source | rclone remote `proud-gdrive:proud` (`scripts/sync-drive.mjs`). Same 31 issues, no 10, no 15. |
 
 ## Rules from the owner
@@ -42,7 +42,7 @@ flowchart LR
 
 ## Tasks in order
 
-1. `gh pr list` and `git log origin/main`. Merge the Pages PR if green. Confirm the live Pages URL and the audit result in `docs/GITHUB_PAGES.md`.
+1. Confirm the live Pages URL still returns 200 (`curl -I https://eminogrande.github.io/proud-de/`). Pages PRs are already merged.
 2. Get an OpenRouter key with credits from the owner. Measure cost on one issue first (`02`), report cost per page, then run all. Config is in `README.md` (env: `OPENROUTER_API_KEY`, `PROUD_OCR_PROVIDER=openrouter-page`, `PROUD_OCR_OPENROUTER_MODEL=google/gemini-2.5-flash`, `PROUD_OCR_OPENROUTER_PDF_ENGINE=mistral-ocr`).
 3. Per issue: `npm run generate -- --input-dir data/input/pdfs --magazine <NN-proud-issuu-output>`. Review title and segmentation quality before publishing (issue 02 failed this). Commit output per issue as its own PR.
 4. Add `--translate en` once German extraction is clean.
