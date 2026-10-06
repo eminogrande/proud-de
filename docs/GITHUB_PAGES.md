@@ -32,6 +32,7 @@ the following:
 - It rewrites `https://proud.xn--wp9h.tk` (and the bare host) to `PAGES_ORIGIN + PAGES_BASE_PATH`. This covers canonical, hreflang, OpenGraph, JSON-LD, sitemap, robots, llms.txt and `.well-known/*`.
 - It prefixes root-absolute `href`/`src`/`srcset`/`action` in HTML, `](/` in Markdown and `url(/` in CSS with the base path.
 - It adds `<lastmod>` to the sitemap, using the date of the last commit that touched `site/`.
+- It removes the worker-only `.well-known/oauth-*` and `http-message-signatures-directory` entries from the sitemap, because Pages can't serve them.
 - It drops the Cloudflare-only `_headers` file and adds `.nojekyll`. Without `.nojekyll`, Pages skips `.well-known/`.
 
 `actions/configure-pages` supplies the origin and base path. Today they are
