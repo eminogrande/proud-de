@@ -687,7 +687,7 @@ body:not(.article-page) .content > p:first-of-type::first-letter {
   display: none;
 }
 .article-list .article-card-media img {
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 3 / 2;
   object-fit: cover;
   border-radius: 4px;
 }
@@ -734,6 +734,11 @@ body:not(.article-page) .content > p:first-of-type::first-letter {
 }
 .article-card-media figure {
   margin: 0;
+}
+.article-card-media img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
 }
 .article-card-body {
   min-width: 0;
@@ -1009,10 +1014,23 @@ body.article-page .story-section {
 .story-teaser-art {
   margin: 0;
 }
+.article-hero-art {
+  margin: 1.2rem 0 0;
+}
+.article-hero-art img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+}
+.article-hero-art figcaption {
+  margin-top: 0.4rem;
+}
 .lead-story-art img,
 .story-teaser-art img {
   width: 100%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 3 / 2;
   object-fit: cover;
   border-radius: 10px;
   border: 1px solid var(--line);
@@ -1347,6 +1365,15 @@ function articlePreviewHref(article) {
   return article.previewImage ? `/assets/${optimizedImagePath(article.previewImage)}` : null;
 }
 
+function heroHref(article) {
+  return article?.heroImage ? `/assets/${optimizedImagePath(article.heroImage)}` : null;
+}
+
+// Cropped hero cutout first, then legacy full-page preview scan, then first page image.
+function articleCoverHref(article) {
+  return heroHref(article) ?? articlePreviewHref(article) ?? articlePageImageHref(article?.pageImages?.[0]);
+}
+
 function articlePageImageHref(pageImage) {
   return pageImage?.image ? `/assets/${optimizedImagePath(pageImage.image)}` : null;
 }
@@ -1512,6 +1539,7 @@ function ui(locale) {
     watchListen: english ? "Watch & Listen" : "Ansehen & Hören",
     relatedArchive: english ? "More from this issue" : "Mehr aus dieser Ausgabe",
     heroImageCaption: english ? "Original magazine spread" : "Originaler Heftausschnitt",
+    heroCutoutCaption: english ? "From the magazine" : "Aus dem Heft",
     quickRead: english ? "In short" : "In Kürze",
     minutesRead: (minutes) => english ? `${minutes} min read` : `${minutes} Min. Lesezeit`,
     fromThisIssue: english ? "From this issue" : "Aus dieser Ausgabe",
@@ -1865,7 +1893,7 @@ function renderRelatedArchive(copy, site, locale, articles) {
 
 function renderLeadStory(site, locale, article) {
   const copy = ui(locale);
-  const previewHref = articlePreviewHref(article) ?? articlePageImageHref(article.pageImages?.[0]);
+  const previewHref = articleCoverHref(article);
   const summary = visibleSummaryForArticle(article, locale);
   const issueTitle = displayMagazineTitle(article, locale);
 
@@ -1886,7 +1914,7 @@ function renderLeadStory(site, locale, article) {
 
 function renderStoryTeaser(site, locale, article) {
   const copy = ui(locale);
-  const previewHref = articlePreviewHref(article) ?? articlePageImageHref(article.pageImages?.[0]);
+  const previewHref = articleCoverHref(article);
   const summary = visibleSummaryForArticle(article, locale);
   const issueTitle = displayMagazineTitle(article, locale);
 
@@ -1924,7 +1952,7 @@ function renderPreviewFigure(article, locale) {
     </figure>`;
   }
 
-  const previewHref = articlePreviewHref(article) ?? articlePageImageHref(pageImages[0]);
+  const previewHref = articleCoverHref(article);
   if (!previewHref) {
     return "";
   }
@@ -1932,13 +1960,13 @@ function renderPreviewFigure(article, locale) {
   return `
     <figure class="hero-preview">
       <a href="${previewHref}"><img src="${previewHref}" alt="${escapeHtml(article.title)}"></a>
-      <figcaption>${escapeHtml(copy.articleScanPreview(pageImages[0]?.pageNumber))}</figcaption>
+      <figcaption>${escapeHtml(heroHref(article) ? copy.heroCutoutCaption : copy.articleScanPreview(pageImages[0]?.pageNumber))}</figcaption>
     </figure>`;
 }
 
 function renderArticleReviewCard(site, locale, article, { showMagazine = false } = {}) {
   const copy = ui(locale);
-  const previewHref = articlePreviewHref(article) ?? articlePageImageHref(article.pageImages?.[0]);
+  const previewHref = articleCoverHref(article);
   const summary = visibleListSummaryForArticle(article, locale);
   const issueTitle = displayMagazineTitle(article, locale);
   const mediaClass = previewHref ? "article-card with-media" : "article-card";
@@ -1953,7 +1981,7 @@ function renderArticleReviewCard(site, locale, article, { showMagazine = false }
           <figure>
             <a href="${routeForArticle(site, locale, article.slug)}"><img src="${previewHref}" alt="${escapeHtml(article.title)}"></a>
           </figure>
-          <div class="meta">${escapeHtml(copy.heroImageCaption)} · ${escapeHtml(copy.pages)} ${pageRangeLabel(article)}</div>
+          <div class="meta">${escapeHtml(heroHref(article) ? copy.heroCutoutCaption : copy.heroImageCaption)} · ${escapeHtml(copy.pages)} ${pageRangeLabel(article)}</div>
         </div>` : ""}
       <div class="article-card-body">
         <div class="article-card-header">
@@ -2559,7 +2587,7 @@ function buildArticleMarkdown(site, localized, locale, articlePool, manualEnrich
       translation_state: localized.translationState,
       canonical_url: `${baseUrl(site)}${articleCanonicalRoute(site, localized)}`,
       pdf_url: `${baseUrl(site)}${articlePdfHref(localized)}`,
-      preview_image_url: localized.previewImage ? `${baseUrl(site)}${articlePreviewHref(localized)}` : null,
+      preview_image_url: articleCoverHref(localized) ? `${baseUrl(site)}${articleCoverHref(localized)}` : null,
       page_image_count: localized.pageImages?.length ?? 0,
       reading_time_minutes: enrichment.readingTime,
       magazine_slug: localized.magazineSlug,
@@ -2637,7 +2665,7 @@ function renderArticleLocaleNav(site, article, locales, currentLocale) {
 
 function buildArticleHtml(site, localized, locale, locales, articlePool, manualEnrichment = null) {
   const copy = ui(locale);
-  const previewHref = articlePreviewHref(localized) ?? articlePageImageHref(localized.pageImages?.[0]);
+  const previewHref = articleCoverHref(localized);
   const articleBody = buildPublishedArticleBody(localized);
   const contentLocale = articleContentLocale(localized);
   const contentLocaleLabel = localeLabelForUi(contentLocale, locale);
@@ -2668,6 +2696,14 @@ function buildArticleHtml(site, localized, locale, locales, articlePool, manualE
   const articleSummary = displayHeroSummaryForArticle(localized, locale);
   const articleSummaryHtml = articleSummary ? `\n          <p class="lede">${renderInlineMarkdown(articleSummary)}</p>` : "";
   const topicPills = renderTopicPills(enrichment.topics);
+  const articleHero = heroHref(localized);
+  const articleHeroFigure = articleHero
+    ? `
+        <figure class="article-hero-art">
+          <img src="${articleHero}" alt="${escapeHtml(localized.title)}">
+          <figcaption class="meta">${escapeHtml(copy.heroCutoutCaption)}</figcaption>
+        </figure>`
+    : "";
   const videosSection = renderVideos(copy, enrichment.videos);
   const relatedArchiveSection = renderRelatedArchive(copy, site, locale, enrichment.relatedArticles);
 
@@ -2689,7 +2725,7 @@ function buildArticleHtml(site, localized, locale, locales, articlePool, manualE
             </div>
           </div>
           ${translationNote}
-        </div>
+        </div>${articleHeroFigure}
       </div>
     </section>
     ${topScans}
@@ -2783,7 +2819,7 @@ function buildMagazineHtml(site, locale, magazine, localizedArticles, locales) {
   if (magazine.publicationDate) {
     metaChips.push(`<span class="stat-chip"><strong>${escapeHtml(dateLabel(magazine.publicationDate, locale))}</strong> ${escapeHtml(copy.date)}</span>`);
   }
-  const shareImage = articlePreviewHref(orderedArticles[0]) ?? articlePageImageHref(orderedArticles[0]?.pageImages?.[0]) ?? null;
+  const shareImage = articleCoverHref(orderedArticles[0]) ?? null;
   const body = `
     <section class="hero">
       <div class="hero-grid">
@@ -2912,7 +2948,7 @@ function buildIndexHtml(site, locale, articles, magazines, locales) {
     markdownRoute: locale === site.defaultLocale ? "/index.md" : `${routePrefix(site, locale)}/index.md`,
     body,
     alternates: locales.map((entry) => ({ locale: entry, route: homeRoute(site, entry) })),
-    socialImage: articlePreviewHref(leadArticle) ?? articlePageImageHref(leadArticle?.pageImages?.[0]) ?? null,
+    socialImage: articleCoverHref(leadArticle) ?? null,
     socialTitle: `${site.siteTitle} | ${isEnglishLocale(locale) ? "Front Page" : "Titelseite"}`,
     socialDescription: siteDescription(site, locale),
     structuredData: {
@@ -3262,6 +3298,9 @@ async function walkFiles(rootDir) {
 async function optimizeImageTree(sourceDir, targetDir, { maxDimension, quality }) {
   await fs.rm(targetDir, { recursive: true, force: true });
   await fs.mkdir(targetDir, { recursive: true });
+  if (!(await fs.stat(sourceDir).catch(() => null))?.isDirectory()) {
+    return;
+  }
 
   const sourceFiles = await walkFiles(sourceDir);
   const imageFiles = sourceFiles.filter((filePath) => IMAGE_EXTENSION_RE.test(filePath));
@@ -3301,6 +3340,10 @@ async function main() {
   await optimizeImageTree(path.join(site.paths.outputDir, "previews"), path.join(site.paths.siteOutputDir, "assets", "previews"), {
     maxDimension: 900,
     quality: 76,
+  });
+  await optimizeImageTree(path.join(site.paths.outputDir, "hero"), path.join(site.paths.siteOutputDir, "assets", "hero"), {
+    maxDimension: 1600,
+    quality: 80,
   });
   await optimizeImageTree(path.join(site.paths.outputDir, "page-images"), path.join(site.paths.siteOutputDir, "assets", "page-images"), {
     maxDimension: 1400,
@@ -3368,7 +3411,7 @@ async function main() {
       isEnglishLocale(locale)
         ? "A reading-first index of proud stories with clean text pages, original scans, and issue navigation."
         : "Ein leseoptimierter Index der proud-Geschichten mit klaren Textseiten, Originalscans und Heftnavigation.",
-      articlePreviewHref(wordRankedArticles[0]) ?? articlePageImageHref(wordRankedArticles[0]?.pageImages?.[0]) ?? null,
+      articleCoverHref(wordRankedArticles[0]) ?? null,
     );
     await writePage(site, routeForArticlesIndex(site, locale), articlesListHtml, articlesListMarkdown);
 
@@ -3393,7 +3436,7 @@ async function main() {
       isEnglishLocale(locale)
         ? "All proud issues in a clean reading archive with direct access to issue pages and article editions."
         : "Alle proud-Ausgaben in einem klaren Lesearchiv mit direktem Zugang zu Heften und Artikelseiten.",
-      articlePreviewHref(localizedArticles[0]) ?? articlePageImageHref(localizedArticles[0]?.pageImages?.[0]) ?? null,
+      articleCoverHref(localizedArticles[0]) ?? null,
     );
     await writePage(site, routeForMagazinesIndex(site, locale), localizedMagazineHtml, localizedMagazineMarkdown);
 
@@ -3464,7 +3507,8 @@ async function main() {
     excerpt: article.excerpt,
     pages: article.pages,
     sourcePdf: article.sourcePdf,
-    previewImage: article.previewImage ? `${baseUrl(site)}${articlePreviewHref(article)}` : null,
+    previewImage: articleCoverHref(article) ? `${baseUrl(site)}${articleCoverHref(article)}` : null,
+    heroImage: heroHref(article) ? `${baseUrl(site)}${heroHref(article)}` : null,
     pageImageCount: article.pageImages?.length ?? 0,
     url: `${baseUrl(site)}${routeForArticle(site, site.defaultLocale, article.slug)}`,
   }));
@@ -3518,7 +3562,8 @@ async function main() {
       enrichment,
       canonicalUrl: `${baseUrl(site)}${routeForArticle(site, site.defaultLocale, article.slug)}`,
       pdfUrl: `${baseUrl(site)}${articlePdfHref(article)}`,
-      previewUrl: article.previewImage ? `${baseUrl(site)}${articlePreviewHref(article)}` : null,
+      previewUrl: articleCoverHref(article) ? `${baseUrl(site)}${articleCoverHref(article)}` : null,
+      heroUrl: heroHref(article) ? `${baseUrl(site)}${heroHref(article)}` : null,
       contentBlocks: (article.contentBlocks ?? []).map((block) => ({
         ...block,
         pageImage: block.pageImage
