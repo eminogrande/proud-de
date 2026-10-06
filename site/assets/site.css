@@ -16,8 +16,8 @@
   --size-logo: clamp(1.8rem, 3vw, 2.45rem);
   --size-title: clamp(2rem, 5vw, 3.4rem);
   --size-subhead: clamp(1.28rem, 2vw, 1.62rem);
-  --size-body: clamp(1.08rem, 1.35vw, 1.2rem);
-  --size-meta: 0.92rem;
+  --size-body: clamp(1.3rem, 1.6vw, 1.4rem);
+  --size-meta: 1.1rem;
 }
 
 * { box-sizing: border-box; }
