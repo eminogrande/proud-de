@@ -1,7 +1,169 @@
 # proud.de archive engine
 
-`proud.de` verarbeitet Magazin-PDFs lokal, extrahiert daraus einen strukturierten Archivbestand und veröffentlicht denselben Inhalt parallel als CLI, MCP, HTML, Markdown und JSON.
+Digitales Archiv des Magazins proud (Berlin, 2009-2014): Magazin-PDFs werden lokal per OCR in Artikel zerlegt.
+Derselbe Bestand erscheint als HTML, Markdown, JSON, `llms.txt`, CLI und MCP-Server.
+Für Leser, Suchmaschinen und AI-Agents.
 
+## Logs
+
+- [CHANGELOG.md](CHANGELOG.md): Änderungen pro Commit, neueste zuerst
+- [PROMPTLOG.md](PROMPTLOG.md): Vorgaben von emino
+- [RELEASE_NOTES.md](RELEASE_NOTES.md): ältere Release Notes (Juni 2026)
+
+## Status
+
+| Feld | Wert |
+|---|---|
+| Version | v0.1.1 |
+| Datum | 2026-10-14 |
+| updated by | hermes-agent for emino |
+| main HEAD | `c9d23b27` |
+| GitHub Pages | https://eminogrande.github.io/proud-de/ (`.github/workflows/pages.yml`, push auf `main` mit Änderungen in `site/**`) |
+| Cloudflare Worker | `wrangler.jsonc`: Worker `proud-de`, Custom Domain `proud.xn--wp9h.tk`, R2 `proud-preview-pdfs`. Deploy nur manuell (`npm run cf:deploy`), kein CI |
+| proud.de | geplant (`docs/HANDOFF.md`), laut Repo noch nicht aufgeschaltet |
+| Veröffentlicht | Ausgabe 01 (`site/magazines/01-proud-issuu-output`, 65 Artikelordner in `site/articles`) |
+
+## Architektur
+
+```mermaid
+flowchart LR
+  DRIVE["Google Drive<br/>rclone proud-gdrive:proud"] -->|"scripts/sync-drive.mjs"| PDFS["data/input/pdfs<br/>Git LFS"]
+  PDFS --> INGEST["scripts/ingest.mjs"]
+  INGEST --> PY["scripts/pdf_extract.py<br/>PyMuPDF + Tesseract"]
+  PY -->|"OCR, Segmentierung, Editorial"| OR["OpenRouter API"]
+  PY --> OUT["data/output<br/>library, articles, ocr, page-images"]
+  TR["scripts/translate-articles.mjs"] --> OR
+  TR --> TRANS["data/input/translations"]
+  MAN["data/input/manifests"] --> PY
+  OUT --> BUILD["scripts/build-site.mjs"]
+  TRANS --> BUILD
+  BUILD --> SITE["site/<br/>HTML, MD, JSON, llms.txt, .well-known"]
+  SITE --> PAGES["pages.yml + scripts/build-pages.mjs<br/>GitHub Pages"]
+  SITE --> WORKER["cloudflare/worker.mjs<br/>Static Assets + /api/search + /mcp"]
+  R2["R2 proud-preview-pdfs"] --> WORKER
+  OUT --> CLI["src/cli.mjs"]
+  OUT --> MCPS["src/mcp-server.mjs<br/>stdio MCP"]
+  OUT --> SERVE["src/serve.mjs<br/>lokal :8787"]
+  SITE --> SERVE
+```
+
+## User flow
+
+```mermaid
+sequenceDiagram
+  participant Op as Betreiber
+  participant Repo as Repo lokal
+  participant GH as GitHub main
+  participant Web as Pages / Worker
+  participant Agent as Leser oder Agent
+  Op->>Repo: npm run sync:drive (optional)
+  Op->>Repo: npm run generate -- --input-dir PDFs [--translate en]
+  Repo->>Repo: ingest -> data/output, build:site -> site/
+  Op->>GH: site/ committen (per PR)
+  GH->>Web: pages.yml deployt site/
+  Op->>Web: npm run cf:deploy (manuell, Worker)
+  Agent->>Web: HTML, Markdown, /api/*.json, llms.txt
+  Agent->>Web: GET /api/search?q=... oder POST /mcp (nur Worker)
+```
+
+## Komponenten
+
+| Komponente | Pfad | Rolle |
+|---|---|---|
+| Stammdaten | `config/site.json`, `config/contact.json`, `config/legal.json` | Domain, Locales, Drive-Remote, Pfade, Impressum |
+| PDF-Eingang | `data/input/pdfs/` | Roh-PDFs der Ausgaben (Git LFS) |
+| Manifeste | `data/input/manifests/` | manuelle Artikelgrenzen pro PDF |
+| Übersetzungen | `data/input/translations/<locale>/` | Übersetzungs-Overrides pro Artikel |
+| Ausgabe | `data/output/` | Bibliothek, Artikel, OCR-Cache, Previews, Seitenbilder |
+| Drive-Sync | `scripts/sync-drive.mjs` | `rclone` Kopie aus Google Drive |
+| Ingest | `scripts/ingest.mjs`, `scripts/pdf_extract.py` | PDF-Extraktion, OCR, Artikelsegmentierung |
+| Orchestrator | `scripts/generate.mjs` | Ingest, Übersetzung, Site-Build in einem Lauf |
+| Übersetzung | `scripts/translate-articles.mjs`, `scripts/scaffold-translations.mjs` | AI-Übersetzung via OpenRouter, Skelette |
+| Site-Build | `scripts/build-site.mjs`, `scripts/lib/editorial.mjs` | erzeugt `site/` |
+| Hero-Bilder | `scripts/crop-heroes.py` | beschnittene Artikelbilder |
+| Pages-Build | `scripts/build-pages.mjs` | schreibt `site/` auf Pages-Origin und Base-Path um |
+| Cloudflare-Deploy | `scripts/deploy-cloudflare.mjs`, `wrangler.jsonc` | `wrangler deploy` mit Token aus `.env.local` |
+| Live-Audit | `scripts/audit-live.mjs` | prüft öffentliche Endpunkte, PageSpeed API |
+| Public-Export | `site/` | committeter statischer Export |
+| Worker | `cloudflare/worker.mjs` | Assets, Markdown-Negotiation, PDFs aus R2, `/api/search`, `/mcp` |
+| CLI | `src/cli.mjs` | lokale Recherche in der Bibliothek |
+| MCP stdio | `src/mcp-server.mjs`, `src/lib/mcp-core.mjs` | MCP über stdio |
+| MCP-Tools | `src/lib/mcp-shared.mjs` | Tool-Definitionen für stdio, lokal-HTTP und Worker |
+| Lokaler Server | `src/serve.mjs` | HTTP-Server mit Search-API und MCP-Sessions |
+| Bibliothek/Suche | `src/lib/store.mjs`, `src/lib/search.mjs` | Laden und Volltextsuche |
+| Tests | `tests/editorial.test.mjs`, `tests/worker.test.mjs` | `node --test` |
+| Pages-Workflow | `.github/workflows/pages.yml` | Deploy von `site/` auf GitHub Pages |
+| Doku | `docs/` | Handoff, Deploy-Checkliste, Design-System, Recherche, Presse |
+
+## API / Endpunkte
+
+### HTTP
+
+| Methode | Pfad | Wo | Auth | Zweck |
+|---|---|---|---|---|
+| GET, HEAD, OPTIONS | `/api/search?q=&limit=` | Worker, `src/serve.mjs` (ohne OPTIONS) | keine | Volltextsuche über `site/api/library.json` |
+| POST, OPTIONS | `/mcp` | Worker | keine | stateless Streamable-HTTP-MCP |
+| POST, DELETE | `/mcp` | `src/serve.mjs` | keine, `mcp-session-id` Header | MCP mit Sessions |
+| GET, HEAD | `/assets/pdfs/<key>` | Worker | keine | Original-PDF aus R2 `PDFS_BUCKET`, Range-Requests |
+| GET | `/.well-known/mcp.json`, `/.well-known/ai-catalog.json`, `/.well-known/api-catalog`, `/.well-known/http-message-signatures-directory` | Worker | keine | Discovery mit festen Content-Types |
+| GET, HEAD | alle anderen Pfade | Worker, `src/serve.mjs` | keine | statische Dateien aus `site/`, bei `Accept: text/markdown` die `index.md` |
+| GET | `/api/*.json`, `/llms.txt`, `/llms-full.txt`, `/sitemap.xml`, `/feed.xml`, `/robots.txt` | statisch, auch Pages | keine | maschinenlesbarer Bestand |
+
+GitHub Pages liefert nur statische Dateien: kein `/api/search`, kein `/mcp`, keine Markdown-Negotiation (`docs/HANDOFF.md`).
+
+### MCP-Tools (Server `proud-archive`)
+
+| Tool | Parameter | Zweck |
+|---|---|---|
+| `list_magazines` | `limit` | alle Ausgaben mit Basis-Metadaten |
+| `list_articles` | `magazineSlug`, `limit` | Artikel, optional pro Ausgabe |
+| `search_articles` | `query` (Pflicht), `limit` | Volltextsuche |
+| `get_article` | `slug` (Pflicht) | Artikel mit Markdown und Metadaten |
+| `get_magazine` | `slug` (Pflicht) | Ausgabe mit Artikelliste |
+
+### CLI (`npm run cli -- <cmd> [--json]`)
+
+| Befehl | Zweck |
+|---|---|
+| `status` | Bestand zählen |
+| `magazines` | Ausgaben listen |
+| `articles [magazine-slug]` | Artikel listen |
+| `search <query>` | Volltextsuche |
+| `show <article-slug>` | Artikel anzeigen |
+| `magazine <magazine-slug>` | Ausgabe anzeigen |
+| `export <article-slug> [markdown\|json]` | Artikel exportieren |
+
+## Start
+
+```bash
+python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+npm install
+cp .env.example .env.local   # Werte lokal eintragen, nie committen
+npm run generate -- --input-dir "/pfad/zu/pdfs"
+npm run serve                # http://127.0.0.1:8787
+npm test                     # node --test tests/*.test.mjs
+```
+
+Weitere npm-Skripte: `sync:drive`, `ingest`, `ingest:drive`, `build:site`, `build:all`, `scaffold:translations`, `translate:articles`, `cli`, `mcp`, `audit:live`, `status`, `cf:whoami`, `cf:dev`, `cf:deploy`, `cf:deploy:local`.
+
+Externe Tools: `rclone` (Drive-Sync), `tesseract` (lokale OCR, optional), `wrangler` (devDependency).
+
+Umgebungsvariablen (nur Namen, gelesen im Code):
+
+| Bereich | Variablen |
+|---|---|
+| OpenRouter | `OPENROUTER_API_KEY`, `PROUD_OPENROUTER_API_KEY`, `PROUD_OPENROUTER_URL`, `PROUD_OPENROUTER_REFERER`, `PROUD_OPENROUTER_TITLE` |
+| OCR | `PROUD_ENABLE_OCR`, `PROUD_OCR_LANG`, `PROUD_OCR_PROVIDER`, `PROUD_OCR_OPENROUTER_MODEL`, `PROUD_OCR_OPENROUTER_PDF_ENGINE`, `PROUD_OCR_REFRESH` |
+| AI-Pässe | `PROUD_ENABLE_AI_LAYOUT`, `PROUD_ENABLE_AI_SEGMENTATION`, `PROUD_ENABLE_AI_EDITORIAL`, `PROUD_AI_REFRESH`, `PROUD_LAYOUT_MODEL`, `PROUD_LAYOUT_IMAGE_SCALE`, `PROUD_LAYOUT_MIN_CONFIDENCE`, `PROUD_LAYOUT_REFRESH`, `PROUD_EDITORIAL_MODEL`, `PROUD_TRANSLATION_MODEL` |
+| Bilder | `PROUD_EXPORT_PAGE_IMAGES`, `PROUD_PAGE_IMAGE_SCALE`, `PROUD_PAGE_IMAGE_QUALITY` |
+| Drive | `PROUD_DRIVE_REMOTE`, `PROUD_DRIVE_PATH` |
+| Site/Build | `PROUD_PUBLIC_DOMAIN`, `PROUD_ISSN`, `PAGES_ORIGIN`, `PAGES_BASE_PATH`, `PAGES_LASTMOD`, `PAGES_CNAME`, `SOURCE_ORIGIN` |
+| Server/Deploy | `PORT`, `CLOUDFLARE_API_TOKEN` |
+| Worker-Bindings | `ASSETS`, `PDFS_BUCKET` |
+
+`.env.example` listet zusätzlich `FAL_KEY`; im Code wird es nicht gelesen (UNVERIFIED, wofür es gedacht ist).
+
+## Ziel
 ## Ziel
 
 - PDFs aus einem Ordner einlesen
@@ -11,26 +173,6 @@
 - Artikel an Agents über MCP, `llms.txt`, JSON und Markdown ausliefern
 - Einen öffentlichen Export für Suchmaschinen und AI-Agents erzeugen
 - Mehrsprachige Ausspielung pro Artikel vorbereiten
-
-## Struktur
-
-- `config/site.json`: Stammdaten für `proud.de`
-- `data/input/pdfs/`: rohe PDF-Dateien
-- `data/input/manifests/`: optionale manuelle Artikeldefinitionen pro PDF
-- `data/input/translations/<locale>/`: manuelle Übersetzungs-Overrides pro Artikel
-- `data/output/`: erzeugte Bibliothek, Artikeldateien, Magazin-Metadaten und Vorschaubilder
-- `data/output/page-images/`: Seitenscreenshots pro Artikel
-- `site/`: generierter Public-Export
-- `cloudflare/worker.mjs`: Cloudflare-Worker für `/api/search` und `/mcp` auf Basis des statischen Exports
-- `wrangler.jsonc`: Deploy-Konfiguration für Cloudflare Workers mit Static Assets
-- `scripts/ingest.mjs`: Node-Wrapper für die PDF-Verarbeitung
-- `scripts/generate.mjs`: Orchestrator für Ingest, optionale Übersetzungen und Site-Build in einem Lauf
-- `scripts/pdf_extract.py`: eigentliche PDF-Extraktion und Normalisierung
-- `scripts/build-site.mjs`: erzeugt HTML, Markdown, JSON, Sitemap, `llms.txt` und Discovery-Dateien
-- `scripts/scaffold-translations.mjs`: legt Übersetzungs-Skelette pro Sprache an
-- `src/cli.mjs`: lokale Recherche über die Bibliothek
-- `src/mcp-server.mjs`: MCP-Server über stdio
-- `src/serve.mjs`: lokaler HTTP-Server mit statischem Export, Search-API und Remote-MCP unter `/mcp`
 
 ## Workflow
 
@@ -189,7 +331,9 @@ Die Konfiguration dafür liegt in `wrangler.jsonc`:
 
 - `assets.directory = "./site"`
 - `assets.binding = "ASSETS"`
-- `assets.run_worker_first = ["/api/search", "/mcp"]`
+- `assets.run_worker_first = true` (Worker sieht jede Anfrage zuerst)
+- R2-Binding `PDFS_BUCKET` -> Bucket `proud-preview-pdfs` (Original-PDFs unter `/assets/pdfs/`)
+- Route: Custom Domain `proud.xn--wp9h.tk`
 
 Der Worker in `cloudflare/worker.mjs`:
 
