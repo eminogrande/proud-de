@@ -1,7 +1,7 @@
 {
   "slug": "01-proud-issuu-output",
   "title": "01 proud issuu_output",
-  "publicationDate": null,
+  "publicationDate": "2009-01",
   "sourcePdf": "01 proud issuu_output.pdf",
   "pageCount": 68,
   "articleCount": 63,
@@ -660,6 +660,10 @@
   ],
   "file": "magazines/01-proud-issuu-output.json",
   "displayTitle": "proud #01",
-  "canonicalUrl": "https://proud.xn--wp9h.tk/magazines/01-proud-issuu-output/",
-  "pdfUrl": "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf"
+  "url": "https://proud.xn--wp9h.tk/magazines/01/",
+  "readerUrl": "https://proud.xn--wp9h.tk/magazines/01/read/",
+  "pdfUrl": "https://proud.xn--wp9h.tk/assets/issues/01/proud-01.pdf?v=f7315866",
+  "pdfBytes": 36822494,
+  "canonicalUrl": "https://proud.xn--wp9h.tk/magazines/01/",
+  "originalPdfUrl": "https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf"
 }
