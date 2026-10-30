@@ -38,7 +38,8 @@ Response rules:
 
 - GET and HEAD only, everything else is 405 with `Allow: GET, HEAD`.
 - Content type `image/webp` or `application/pdf`, plus `X-Content-Type-Options: nosniff`.
-- Range and conditional requests work, so the PDF viewer can seek.
+- No Range header: 200 with the whole file. A real sub-range (`bytes=0-9`, `bytes=-100`, `bytes=5-`): 206 with `Content-Range`. A range R2 cannot satisfy (`bytes=99999999-`, `bytes=abc`): 200 with the whole file.
+- `If-None-Match` or `If-Modified-Since` that matches: 304. A failed `If-Match`: 412. Both carry no body.
 - `?v=` in the URL means `Cache-Control: public, max-age=31536000, immutable`.
   Without it: `public, max-age=3600`. HTML links carry `?v=` plus the first 8 hex
   characters of the PDF sha256.
@@ -82,7 +83,7 @@ same byte count are skipped. `--force` re-uploads anyway. The ledger is
 node scripts/upload-issues-r2.mjs --dir /Users/eminmahrt/Developer/proud-de/data/output/issues --verify https://proud.xn--wp9h.tk
 ```
 
-HEAD every key, compare status 200 or 206 and the byte count with the local file.
+HEAD every key, compare status 200 and the byte count with the local file.
 It prints `N of M OK` and exits 1 on the first mismatch. Read only.
 
 ## Roll back
@@ -108,27 +109,64 @@ npx wrangler rollback
 Deleting R2 objects is free. Deleting the files does not change the Worker, so a
 404 for an uploaded file always means the object is missing.
 
+## Real-runtime proof
+
+Run on 2026-10-30 with `wrangler dev --local` (workerd, wrangler 4.91.0) on port 8798, a local R2 bucket under a scratch folder, no network and no remote binding. Objects: the real `24/pages/001-s.webp` (11,798 bytes), the real `24/proud-24.pdf` (25,792,880 bytes) and a 20,000 byte `legacy.pdf` for the old route. The local server (`src/serve.mjs`, port 8793, real issue folder) gave the same status, length and range column on every row it can answer.
+
+Why this was needed: R2 `get()` returns a `range` object even for a plain request, so a test of `"range" in object` answers 206 to everything. The route now compares the returned range with the file size.
+
+| Request | Status | Content-Length | Content-Range |
+|---|---|---|---|
+| GET image | 200 | 11798 | none |
+| GET PDF | 200 | 25792880 | none |
+| GET PDF `?download=1&v=abc12345` | 200, `immutable`, `attachment` | 25792880 | none |
+| GET PDF `Range: bytes=0-9` | 206 | 10 | `bytes 0-9/25792880` |
+| GET PDF `Range: bytes=-100` | 206 | 100 | `bytes 25792780-25792879/25792880` |
+| GET PDF `Range: bytes=25000000-` | 206 | 792880 | `bytes 25000000-25792879/25792880` |
+| GET PDF `Range: bytes=99999999-` | 200 | 25792880 | none |
+| GET PDF `Range: bytes=abc` | 200 | 25792880 | none |
+| HEAD PDF | 200 | 25792880 | none |
+| HEAD PDF `Range: bytes=0-9` | 206 | 10 | `bytes 0-9/25792880` |
+| GET PDF `If-None-Match` = its etag | 304 | none | none |
+| GET PDF `If-None-Match: "nope"` | 200 | 25792880 | none |
+| GET PDF `If-Match: "wrong"` | 412 | 0 | none |
+| GET PDF `If-Match` = its etag | 200 | 25792880 | none |
+| HEAD PDF with matching `If-None-Match` / wrong `If-Match` | 304 / 412 | none | none |
+| `/assets/issues/25/proud-24.pdf` (wrong folder) | 404 | 9 | none |
+| `/assets/issues/24/review/contact.jpg` | 404 | 9 | none |
+| `/assets/issues/_state/uploaded.json` | 404 | 9 | none |
+| `/assets/issues/24/PROUD-24.PDF` (uppercase) | 404 | 9 | none |
+| `/assets/issues/24%2Fproud-24.pdf` | 404 | 9 | none |
+| `/assets/issues/24/pages/002-s.webp` (not uploaded) | 404 | 9 | none |
+| `/assets/issues//24/proud-24.pdf`, trailing slash, page `000`, 4-digit page, variant `x`, 1-digit issue, folder only, root | 404 | 9 | none |
+| POST and DELETE | 405, `Allow: GET, HEAD` | 35 | none |
+
+Every 200 and 206 row has `X-Content-Type-Options: nosniff`, the etag of the object, and `Cache-Control: public, max-age=3600` (31536000, immutable with `?v=`). A `Range: bytes=0-9` body is 10 bytes, a plain body is 25,792,880 bytes.
+
+Path forms: `/assets/issues/24/../24/proud-24.pdf` and `.../%2e%2e/24/...` answer 200, because the client or workerd resolves the dot segments to `/assets/issues/24/proud-24.pdf` before the route sees them (the wrangler log shows the resolved path). `..%2f` stays encoded and answers 404. `/assets/issues/../../etc/passwd` resolves to `/etc/passwd` and never reaches this route.
+
+Old route, reported only and left unchanged: `/assets/pdfs/legacy.pdf` answers 206 for a plain GET (20,000 bytes, no Content-Range) and 206 for `Range: bytes=0-9`. The live site does the same today: `curl -sI https://proud.xn--wp9h.tk/assets/pdfs/01%20proud%20issuu_output.pdf` answers `HTTP/2 206` with no Range header, checked 2026-10-30. The same one-line fix applies there. It needs the owner's decision because the route is live.
+
 ## Size and cost
 
-No manifests exist yet, so this is the rough figure: 32 issues, about 25 MB of
-page images each and up to 40 MB per PDF.
+Measured with `node scripts/upload-issues-r2.mjs --dir data/output/issues` (dry run, no network), last two lines:
+
+```
+total 6608 objects, 1.844 GB
+dry run: nothing uploaded, no network call
+```
 
 | Item | Amount |
 |---|---|
-| Objects | about 6,600 (32 issues, 68 pages, 3 sizes, 1 PDF) |
-| Stored | about 2 GB, worst case |
-| Write operations per full upload | about 6,600 |
+| Objects | 6,608 (2,192 pages in 3 sizes, 32 PDFs) |
+| Page images | 6,576 files, 0.866 GB |
+| PDFs | 32 files, 0.978 GB (7.9 to 39.0 MB each) |
+| Stored | 1.844 GB |
+| Write operations per full upload | 6,608 |
 
-Prices read on https://developers.cloudflare.com/r2/pricing/ on 2026-10-30,
-quoted: "Storage $0.015 / GB-month", "Class A Operations $4.50 / million
-requests", "Class B Operations $0.36 / million requests", "Egress (data transfer
-to Internet) Free". Free tier per month: "10 GB-month", "1 million requests"
-class A, "10 million requests" class B.
+Prices read on https://developers.cloudflare.com/r2/pricing/ on 2026-10-30, quoted: "Storage $0.015 / GB-month", "Class A Operations $4.50 / million requests", "Class B Operations $0.36 / million requests", "Egress (data transfer to Internet) Free". Free tier per month: "10 GB-month", "1 million requests" class A, "10 million requests" class B.
 
-That puts one full upload and about 2 GB of storage inside the free tier: 0 USD
-per month at this size. Two things are UNVERIFIED: the final byte count per issue
-(manifests are not written yet) and whether traffic stays under 10 million reads
-per month. Re-read the price page before the upload and mark the guess in the PR.
+That puts one full upload and 1.844 GB of storage inside the free tier: 0 USD per month. One thing is UNVERIFIED: whether traffic stays under 10 million reads per month. Re-read the price page before the upload.
 
 ## Limits to know
 
