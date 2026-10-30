@@ -7,7 +7,8 @@ import { escapeHtml } from "../../src/lib/html.mjs";
 export const ISSUE_TEXT = {
   de: {
     overviewTitle: "Alle Ausgaben",
-    overviewIntro: "Jede Ausgabe von proud, von 00 bis 32. Blättern, lesen, herunterladen.",
+    overviewIntro: (count) => `Alle ${count} Ausgaben von proud. Blättern, lesen, herunterladen.`,
+    page: "Seite",
     coverAlt: (title) => `${title}, Titelseite`,
     read: "Lesen",
     readLabel: (title) => `${title} blättern`,
@@ -25,7 +26,8 @@ export const ISSUE_TEXT = {
   },
   en: {
     overviewTitle: "All issues",
-    overviewIntro: "Every issue of proud, 00 to 32. Browse, read, download.",
+    overviewIntro: (count) => `All ${count} issues of proud. Browse, read, download.`,
+    page: "Page",
     coverAlt: (title) => `${title}, cover`,
     read: "Read",
     readLabel: (title) => `Browse ${title}`,
@@ -85,6 +87,7 @@ export function buildIssueEntries(manifests, dateMap = {}) {
         pdfBytes: Number(web.bytes ?? 0),
         version: String(web.sha256 ?? "").slice(0, 8),
         cover: cover ? { w: Number(cover.w), h: Number(cover.h) } : null,
+        manifest,
       };
     })
     .filter(Boolean)
@@ -106,6 +109,10 @@ export function issueDateLabel(entry, locale = "de") {
   if (!month) return year;
   return new Intl.DateTimeFormat(locale === "en" ? "en-GB" : "de-DE", { month: "long", year: "numeric", timeZone: "UTC" })
     .format(new Date(Date.UTC(Number(year), Number(month) - 1, 1)));
+}
+
+export function issuePdfPath(entry) {
+  return `${entry.assetBase}/${entry.pdfName}?v=${entry.version}`;
 }
 
 export function issuePdfHref(entry) {
@@ -239,20 +246,37 @@ export function issueBreadcrumb(base, locale, entry) {
   ];
 }
 
-export function issueMarkdownLines(entry, locale) {
+export function issueMarkdownLine(entry, locale, { base = "", prefix = "" } = {}) {
   const t = issueText(locale);
-  return [
-    `- [${entry.title}](/magazines/${entry.n}/index.md): ${issueDateLabel(entry, locale)}${entry.date ? " · " : ""}${t.pages(entry.pages)} · [${t.read}](/magazines/${entry.n}/read/) · [PDF](${issuePdfHref(entry)})`,
-  ];
+  const meta = [issueDateLabel(entry, locale), t.pages(entry.pages)].filter(Boolean).join(" · ");
+  const page = `${base}${prefix}/magazines/${entry.n}/`;
+  return `- [${entry.title}](${page}index.md): ${meta} · [${t.read}](${page}read/) · [PDF](${base}${issuePdfPath(entry)})`;
 }
 
-export function readerMarkdownLines(entry, locale) {
+export function readerMarkdownLines(entry, locale, { base = "", prefix = "" } = {}) {
   const t = issueText(locale);
-  const lines = [`- [${entry.title}](/magazines/${entry.n}/read/) · [${t.back}](/magazines/${entry.n}/)`];
+  const lines = [`- [${t.back}](${base}${prefix}/magazines/${entry.n}/)`];
   for (let page = 1; page <= entry.pages; page += 1) {
-    lines.push(`- [${t.read} ${page}](${entry.assetBase}/pages/${String(page).padStart(3, "0")}-l.webp?v=${entry.version})`);
+    lines.push(`- [${t.page} ${page}](${base}${entry.assetBase}/pages/${String(page).padStart(3, "0")}-l.webp?v=${entry.version})`);
   }
   return lines;
+}
+
+// One row for /api/magazines.json and the head of each /api/magazines/<slug>.json.
+export function issueApiSummary(entry, { base, prefix = "", magazine, displayTitle }) {
+  return {
+    slug: magazine.slug,
+    title: magazine.title ?? entry.title,
+    displayTitle,
+    publicationDate: entry.date ?? magazine.publicationDate ?? null,
+    sourcePdf: magazine.sourcePdf ?? null,
+    pageCount: entry.pages,
+    articleCount: magazine.articleCount ?? 0,
+    url: `${base}${prefix}/magazines/${entry.n}/`,
+    readerUrl: `${base}${prefix}/magazines/${entry.n}/read/`,
+    pdfUrl: `${base}${issuePdfPath(entry)}`,
+    pdfBytes: entry.pdfBytes,
+  };
 }
 
 // The reader reserves the height of everything above it; measured header heights, one per viewport side.
