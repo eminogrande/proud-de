@@ -48,7 +48,7 @@ Response rules:
 ## Local check
 
 ```
-PROUD_ISSUES_DIR=/Users/eminmahrt/Developer/proud-de/data/output/issues npm run serve
+PROUD_ISSUES_DIR=data/output/issues npm run serve
 curl -sI http://127.0.0.1:8787/assets/issues/24/proud-24.pdf
 ```
 
@@ -58,8 +58,8 @@ The script prints one line per object and totals. Dry run makes no network call
 and writes nothing.
 
 ```
-node scripts/upload-issues-r2.mjs --dir /Users/eminmahrt/Developer/proud-de/data/output/issues > upload-list.txt
-node scripts/upload-issues-r2.mjs --dir /Users/eminmahrt/Developer/proud-de/data/output/issues --only 24
+node scripts/upload-issues-r2.mjs --dir data/output/issues > upload-list.txt
+node scripts/upload-issues-r2.mjs --dir data/output/issues --only 24
 ```
 
 Read `upload-list.txt`: object count, total GB, no key with `review/` or `_state/`.
@@ -70,7 +70,7 @@ Load the token into the shell once. Nothing is printed.
 
 ```
 set -a; . ./.env.local; set +a
-node scripts/upload-issues-r2.mjs --dir /Users/eminmahrt/Developer/proud-de/data/output/issues --execute
+node scripts/upload-issues-r2.mjs --dir data/output/issues --execute
 ```
 
 Four files go up at a time. Keys already uploaded with the same sha256 and the
@@ -80,7 +80,7 @@ same byte count are skipped. `--force` re-uploads anyway. The ledger is
 ## Audit the public URLs
 
 ```
-node scripts/upload-issues-r2.mjs --dir /Users/eminmahrt/Developer/proud-de/data/output/issues --verify https://proud.xn--wp9h.tk
+node scripts/upload-issues-r2.mjs --dir data/output/issues --verify https://proud.xn--wp9h.tk
 ```
 
 HEAD every key, compare status 200 and the byte count with the local file.

@@ -19,11 +19,11 @@ flowchart LR
 ## Commands
 
 ```
-/Users/eminmahrt/Developer/proud-de/.venv/bin/python scripts/normalize-issues.py \
-  --pdf-dir /Users/eminmahrt/Developer/proud-de/data/input/pdfs \
-  --out /Users/eminmahrt/Developer/proud-de/data/output/issues [--only 24] [--force]
-/Users/eminmahrt/Developer/proud-de/.venv/bin/python scripts/normalize-issues.py --verify \
-  --out /Users/eminmahrt/Developer/proud-de/data/output/issues
+.venv/bin/python scripts/normalize-issues.py \
+  --pdf-dir data/input/pdfs \
+  --out data/output/issues [--only 24] [--force]
+.venv/bin/python scripts/normalize-issues.py --verify \
+  --out data/output/issues
 ```
 
 The run adds `--progress <file>` to append one line per finished issue. `--verify`
