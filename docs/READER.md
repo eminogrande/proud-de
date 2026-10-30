@@ -56,24 +56,26 @@ The next view is preloaded with detached `Image` objects that carry the same `sr
 
 ## Browser proof
 
-Measured with headless Chrome 156 over DevTools protocol, server `python3 -m http.server`, 10 page fixture at 1800 px wide images, German UI.
+Headless Chrome 156 over DevTools protocol, real pages of issue 24 (`data/output/issues/24/pages`, 68 pages), German UI, page `?page=6` unless noted. `--reader-offset: 0px`, so the page may use the full viewport height. All numbers are px and measure the drawn picture (the `img` box shrunk to what `object-fit: contain` really paints), not the box.
 
-| Viewport | Mode | Images after three ArrowRight | No sideways scroll | Smallest button box | Counter font | After Home / End | `?page` after End | Reduced motion |
-|---|---|---|---|---|---|---|---|---|
-| 1440x900 | pair | 2-3, 4-5, 6-7 | yes, 1440 of 1440 | 44 px | 17.6 px | Seite 1 / Seite 10 | 10 | transition 0 s, same images and counter |
-| 1024x768 | pair | 2-3, 4-5, 6-7 | yes, 1024 of 1024 | 44 px | 17.6 px | Seite 1 / Seite 10 | 10 | transition 0 s, same images and counter |
-| 390x844 | single | 2, 3, 4 | yes, 390 of 390 | 44 px | 17.6 px | Seite 1 / Seite 10 | 10 | transition 0 s, same images and counter |
-| 360x740 | single | 2, 3, 4 | yes, 360 of 360 | 44 px | 17.6 px | Seite 1 / Seite 10 | 10 | transition 0 s, same images and counter |
+| Viewport | Mode | Drawn picture (each) | Left and right picture edge | Picture height | Side margins | Sideways scroll (scrollWidth of clientWidth) | Slider row in view |
+|---|---|---|---|---|---|---|---|
+| 1440x900 | pair | 535.9 x 718.9 | 720 and 720, gap 0 | 719 (80 % of 900) | 24.1 and 24.1 inside the 1120 column | 1440 of 1440 | bottom at 892 of 900 |
+| 1024x768 | pair | 437.5 x 587.1 | 512 and 512, gap 0 | 587 (76 %) | 54.5 and 54.5 | 1024 of 1024 | bottom at 760 of 768 |
+| 390x844 | single | 374 x 501.5 | not applicable | 501 | 8 and 8 | 390 of 390 | bottom at 836 of 844 |
+| 360x740 | single | 344 x 461.5 | not applicable | 461 | 8 and 8 | 360 of 360 | bottom at 732 of 740 |
 
-Spine at 1440: two images, 560 and 561 px wide, gap 0, 1 px `--line` border on the right page.
+The old claim "gap 0" measured the image boxes, which were 50 % wide with a smaller picture inside. The pictures now fill their boxes. A 1 px border on the right page used to draw a light line down the middle (gray step of 154 between the two columns at x = 719 and 720 on pages 4 and 5). The border is gone and the largest step between neighbouring columns at the join is 2.7.
 
-Swipe: from page 5 a left swipe went to page 6, a right swipe back to 5, a left swipe at zoom factor 2 stayed on 5. Preload: showing page 5 requested `007-m.webp` before it was visible.
+Mobile widths are measured against the nominal width (390, 360), not `innerWidth`: mobile emulation reports `innerWidth` 4 px too large when the page overflows, which hid a 4 px overflow in the first version.
 
-No JavaScript at 390: 10 list items visible with `srcset` and `?v=`, stage hidden, Pages button hidden.
+Toolbar (all viewports): link back, Pages and PDF are 17.6 px, underlined, 44 px high (widths 158, 71, 117 at 1440; 152, 65, 110 at 390). Arrows: 48 px glyph, paper-colored outline of 2 px plus a 6 px blur, tap area 48 px wide and as high as the picture. At 640 px and below previous and next also sit in the control row, 44 x 50 px each.
 
-Grid: dialog opens with focus inside, page 7 jumps and closes, focus returns to the Pages button. Slider at 4 sets `aria-valuetext` `Seite 4 von 10` and `?page=4`.
+Keys on page 4 and 5: ArrowLeft goes to 2-3. Cmd+ArrowLeft stays on 2-3 and is not default-prevented. Space on the focused Pages button opens the dialog and the page stays at 4-5. ArrowRight with focus on the PDF link turns to 6-7.
 
-Transition duration came from `getComputedStyle(.reader-spread).transitionDuration`, 0.075 s normally and 0 s with emulated reduced motion.
+Srcset of a spread half: `002-m.webp 900w, 002-l.webp 1492w` (file widths 900 and 1492). Covers: `001-l.webp 1800w`.
+
+Not measured here: Safari, real touch devices, the swipe and zoom checks of the first version (unchanged code).
 
 ## Run the checks
 
@@ -83,4 +85,4 @@ node --check src/reader/reader.js
 node --check scripts/lib/reader.mjs
 ```
 
-Browser proof needs a demo build outside git: 10 white images per page in three sizes, `renderReaderMain` output, `python3 -m http.server 8790`, headless Chrome with `--remote-debugging-port=9422`. Screenshots from the run: `/Users/eminmahrt/.hermes/cache/scratch/r-demo/shot-1440-pair.png`, `shot-360-single.png`, `shot-grid.png`.
+Browser proof needs a demo page outside git: `renderReaderMain` output for issue 24 with `assets/issues` linked to `data/output/issues`, served by `python3 -m http.server`, and headless Chrome with `--remote-debugging-port`. The measuring scripts are not committed.
