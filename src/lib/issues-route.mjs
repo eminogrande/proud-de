@@ -40,6 +40,27 @@ export function issueCacheControl(hasVersion) {
   return hasVersion ? IMMUTABLE_CACHE_CONTROL : SHORT_CACHE_CONTROL;
 }
 
+// Real R2 sets object.range on every get that was handed a range option, even
+// for a plain request, so `"range" in object` cannot decide 206. Only a real
+// sub-range may answer 206; a whole object goes out as 200.
+// A failed precondition comes back without a body: 304 when If-None-Match or
+// If-Modified-Since asked, 412 when If-Match is the only condition.
+export function issueResponseStatus(object, headers) {
+  if (!object.body) {
+    if (headers.get("if-match") && !headers.get("if-none-match") && !headers.get("if-modified-since")) {
+      return 412;
+    }
+    return 304;
+  }
+
+  const range = object.range;
+  if (range && headers.get("range") && (range.offset > 0 || range.length < object.size)) {
+    return 206;
+  }
+
+  return 200;
+}
+
 export function issueContentDisposition(asset, download) {
   return `${download ? "attachment" : "inline"}; filename="${asset.filename}"`;
 }
