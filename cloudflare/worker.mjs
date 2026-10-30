@@ -1,5 +1,5 @@
 import { WebStandardStreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/webStandardStreamableHttp.js";
-import { ISSUES_PREFIX, issueCacheControl, issueContentDisposition, parseIssueAsset } from "../src/lib/issues-route.mjs";
+import { ISSUES_PREFIX, issueCacheControl, issueContentDisposition, issueResponseStatus, parseIssueAsset } from "../src/lib/issues-route.mjs";
 import { createProudMcpServerWithLoaders } from "../src/lib/mcp-shared.mjs";
 import { formatSearchResults } from "../src/lib/search.mjs";
 
@@ -255,28 +255,25 @@ async function handleStaticRequest(request, env) {
     if (asset.pdf) {
       headers.set("content-disposition", issueContentDisposition(asset, url.searchParams.get("download") === "1"));
     }
-    if ("range" in object) {
+    const status = issueResponseStatus(object, request.headers);
+    if (status === 206) {
       headers.set("content-range", `bytes ${object.range.offset}-${object.range.offset + object.range.length - 1}/${object.size}`);
       headers.set("content-length", `${object.range.length}`);
+    } else if (status === 200) {
+      headers.set("content-length", `${object.size}`);
     }
     addCommonHeaders(headers);
 
-    // A failed If-None-Match precondition comes back without a body.
-    if (request.method !== "HEAD" && !object.body) {
-      return new Response(null, { status: 304, headers });
+    // 304 and 412 carry no body, whatever the range header said.
+    if (status === 304 || status === 412) {
+      return new Response(null, { status, headers });
     }
 
     if (request.method === "HEAD") {
-      return new Response(null, {
-        status: "range" in object ? 206 : 200,
-        headers,
-      });
+      return new Response(null, { status, headers });
     }
 
-    return new Response(object.body, {
-      status: "range" in object ? 206 : 200,
-      headers,
-    });
+    return new Response(object.body, { status, headers });
   }
 
   if (url.pathname === "/.well-known/mcp.json") {
