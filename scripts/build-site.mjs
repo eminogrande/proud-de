@@ -658,6 +658,59 @@ body:not(.article-page) .content > p:first-of-type::first-letter {
 .issue-grid .review-actions {
   margin-top: 0;
 }
+.issue-cover-link {
+  flex: 0 0 clamp(72px, 22vw, 132px);
+  display: block;
+}
+.issue-cover {
+  display: block;
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--band);
+}
+.issue-cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.issue-body {
+  display: grid;
+  gap: 0.3rem;
+  justify-items: start;
+  min-width: 0;
+}
+.issue-hero .hero-grid {
+  display: grid;
+  gap: 1.4rem;
+  align-items: start;
+}
+.issue-hero .hero-cover {
+  width: min(320px, 72vw);
+}
+.issue-hero .hero-cover .issue-cover {
+  border-radius: var(--radius);
+}
+.issue-nav {
+  margin: 1rem 0 0;
+  font-family: var(--serif-font);
+  font-size: var(--size-meta);
+  color: var(--muted);
+}
+.issue-notice {
+  max-width: 46ch;
+  margin: 0 0 1rem;
+  font-family: var(--serif-font);
+  font-size: var(--size-body);
+}
+@media (min-width: 900px) {
+  .issue-hero .hero-grid {
+    grid-template-columns: minmax(0, 320px) minmax(0, 1fr);
+    gap: 2rem;
+  }
+  .issue-grid .issue-card {
+    align-items: flex-start;
+  }
+}
 .article-card {
   display: grid;
   gap: 1rem;
