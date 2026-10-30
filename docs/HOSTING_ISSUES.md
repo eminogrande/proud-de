@@ -111,7 +111,7 @@ Deleting R2 objects is free. Deleting the files does not change the Worker, so a
 
 ## Real-runtime proof
 
-Run on 2026-10-30 with `wrangler dev --local` (workerd, wrangler 4.91.0) on port 8798, a local R2 bucket under a scratch folder, no network and no remote binding. Objects: the real `24/pages/001-s.webp` (11,798 bytes), the real `24/proud-24.pdf` (25,792,880 bytes) and a 20,000 byte `legacy.pdf` for the old route. The local server (`src/serve.mjs`, port 8793, real issue folder) gave the same status, length and range column on every row it can answer.
+Run on 2026-10-30 with `wrangler dev --local` (workerd, wrangler 4.91.0) on port 8798, a local R2 bucket under a scratch folder, no network and no remote binding. Objects: the real `24/pages/001-s.webp` (11,798 bytes), the real `24/proud-24.pdf` (25,792,880 bytes) and a 20,000 byte `legacy.pdf` for the old route. The local server (`src/serve.mjs`, port 8793, real issue folder) gave the same status, length and range column on the 15 rows I ran against it (plain image and PDF, `?v=` with `download=1`, ranges `0-9` and `-100`, ranges `99999999-` and `abc`, both HEADs, `If-None-Match`, a wrong `If-Match`, four bad paths).
 
 Why this was needed: R2 `get()` returns a `range` object even for a plain request, so a test of `"range" in object` answers 206 to everything. The route now compares the returned range with the file size.
 
