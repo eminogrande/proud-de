@@ -42,7 +42,8 @@
   cursor: pointer;
 }
 .reader-pdf { color: var(--proud-pink); font-weight: 700; }
-.reader-grid-open { color: var(--head); }
+.reader-grid-open { display: none; color: var(--head); }
+.reader[data-enhanced="true"] .reader-grid-open { display: inline-flex; }
 .reader-back:hover,
 .reader-grid-open:hover,
 .reader-grid-close:hover { text-decoration: underline; }

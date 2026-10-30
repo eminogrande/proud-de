@@ -89,7 +89,9 @@ function init(section) {
   }
 
   function paint() {
-    const view = viewFor(current, count, isPair());
+    const pair = isPair();
+    const view = viewFor(current, count, pair);
+    section.dataset.mode = pair ? "pair" : "single";
     section.dataset.pair = String(view.length > 1);
     spread.replaceChildren(
       ...view.map((n) => {
@@ -242,6 +244,9 @@ function init(section) {
   current = parsePageParam(params.get("page") ?? section.dataset.startPage, count);
   section.dataset.enhanced = "true";
   paint();
+  // The first paint can run before the stylesheet is applied, when the stage has no height yet.
+  requestAnimationFrame(paint);
+  window.addEventListener("load", paint, { once: true });
 }
 
 function boot() {

@@ -104,7 +104,7 @@ export function renderReaderMain({
       `width="${escapeHtml(page.w)}" height="${escapeHtml(page.h)}" alt=""></button></li>`,
   );
 
-  return `<section class="reader" data-page-count="${pageCount}" data-start-page="${start}" data-asset-base="${escapeHtml(base)}" data-version="${escapeHtml(v)}" data-title="${escapeHtml(label)}">
+  return `<section class="reader" data-page-count="${pageCount}" data-start-page="${start}" data-asset-base="${escapeHtml(base)}" data-version="${escapeHtml(v)}" data-title="${escapeHtml(label)}" data-page-alt="${escapeHtml(t.pageAlt)}" data-counter-single="${escapeHtml(t.counterSingle)}" data-counter-pair="${escapeHtml(t.counterPair)}">
   <header class="reader-head">
     ${dateLabel ? `<p class="reader-kicker">${escapeHtml(dateLabel)}</p>` : ""}
     <h1 class="label-title"><span class="label">${escapeHtml(label)}</span></h1>
