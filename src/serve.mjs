@@ -170,26 +170,40 @@ async function serveIssueAsset(requestUrl, req, res, issuesDir) {
     return;
   }
 
+  const etag = `"${stat.size.toString(16)}-${Math.floor(stat.mtimeMs).toString(16)}"`;
   res.setHeader("Content-Type", asset.contentType);
   res.setHeader("X-Content-Type-Options", "nosniff");
   res.setHeader("Accept-Ranges", "bytes");
-  res.setHeader("ETag", `"${stat.size.toString(16)}-${Math.floor(stat.mtimeMs).toString(16)}"`);
+  res.setHeader("ETag", etag);
+  res.setHeader("Last-Modified", stat.mtime.toUTCString());
   res.setHeader("Cache-Control", issueCacheControl(requestUrl.searchParams.has("v")));
   if (asset.pdf) {
     res.setHeader("Content-Disposition", issueContentDisposition(asset, requestUrl.searchParams.get("download") === "1"));
   }
   addCommonHeaders(res);
 
+  // Same preconditions as the Worker: 304 for a conditional miss, 412 for a
+  // failed If-Match, no body either way.
+  if (req.headers["if-match"] && req.headers["if-match"] !== etag
+    && !req.headers["if-none-match"] && !req.headers["if-modified-since"]) {
+    res.statusCode = 412;
+    res.end();
+    return;
+  }
+  if (req.headers["if-none-match"] === etag || req.headers["if-modified-since"] === res.getHeader("Last-Modified")) {
+    res.statusCode = 304;
+    res.end();
+    return;
+  }
+
+  // A junk or unsatisfiable range answers the whole file, like R2 does.
   const range = /^bytes=(\d*)-(\d*)$/.exec(req.headers.range ?? "");
-  if (range && (range[1] || range[2])) {
-    const start = range[1] ? Number(range[1]) : Math.max(0, stat.size - Number(range[2]));
-    const end = range[1] && range[2] ? Math.min(Number(range[2]), stat.size - 1) : stat.size - 1;
-    if (start > end || start >= stat.size) {
-      res.statusCode = 416;
-      res.setHeader("Content-Range", `bytes */${stat.size}`);
-      res.end();
-      return;
-    }
+  const ranged = Boolean(range) && Boolean(range[1] || range[2]);
+  const start = ranged ? (range[1] ? Number(range[1]) : Math.max(0, stat.size - Number(range[2]))) : 0;
+  const end = ranged && range[1] && range[2] ? Math.min(Number(range[2]), stat.size - 1) : stat.size - 1;
+  const partial = ranged && start <= end && start < stat.size;
+
+  if (partial) {
     res.statusCode = 206;
     res.setHeader("Content-Range", `bytes ${start}-${end}/${stat.size}`);
     res.setHeader("Content-Length", `${end - start + 1}`);
