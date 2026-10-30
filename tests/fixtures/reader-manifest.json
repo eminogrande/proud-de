@@ -1,0 +1,33 @@
+{
+  "issue": "01",
+  "title": "proud #01",
+  "pages": 10,
+  "layout": "spreads",
+  "source": {
+    "file": "01 proud issuu_output.pdf",
+    "pdfPages": 5,
+    "bytes": 44117237,
+    "sha256": "b1946ac92492d2347c6235b4d2611184c0b9a1a1b3b0b4f6c7d8e9f0a1b2c3d4"
+  },
+  "pageSize": { "w": 2235, "h": 2996 },
+  "pagesInfo": [
+    { "n": 1, "srcPage": 1, "half": null, "w": 1800, "h": 2413 },
+    { "n": 2, "srcPage": 2, "half": "L", "w": 1800, "h": 1206 },
+    { "n": 3, "srcPage": 2, "half": "R", "w": 1800, "h": 1206 },
+    { "n": 4, "srcPage": 3, "half": "L", "w": 1800, "h": 1206 },
+    { "n": 5, "srcPage": 3, "half": "R", "w": 1800, "h": 1206 },
+    { "n": 6, "srcPage": 4, "half": "L", "w": 1800, "h": 1206 },
+    { "n": 7, "srcPage": 4, "half": "R", "w": 1800, "h": 1206 },
+    { "n": 8, "srcPage": 5, "half": "L", "w": 1800, "h": 1206 },
+    { "n": 9, "srcPage": 5, "half": "R", "w": 1800, "h": 1206 },
+    { "n": 10, "srcPage": 6, "half": null, "w": 1800, "h": 2413 }
+  ],
+  "variants": { "s": 360, "m": 900, "l": 1800 },
+  "web": {
+    "pdf": "proud-01.pdf",
+    "bytes": 29360128,
+    "sha256": "9f2c1b7e5d4a3c0b1e2f3a4b5c6d7e8f90123456789abcdef0123456789abcdef"
+  },
+  "lowRes": false,
+  "notes": ["fixture, no images in git"]
+}
