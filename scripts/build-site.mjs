@@ -10,6 +10,12 @@ import { detectLanguageFromText, localizeArticle, localeLabel } from "../src/lib
 import { loadLibrary, sortArticles } from "../src/lib/store.mjs";
 import { PROJECT_ROOT } from "../src/lib/config.mjs";
 import {
+  buildIssueEntries, issueBreadcrumb, issueJsonLd, issueMarkdownLines, issuePdfHref, issueText,
+  loadIssueManifests, readerMarkdownLines, READER_OFFSET_CSS, renderIssueCard, renderIssueHero,
+  renderIssueNotice, renderRedirectPage,
+} from "./lib/issues-site.mjs";
+import { READER_CSS_PATH, READER_JS_PATH, renderReaderMain } from "./lib/reader.mjs";
+import {
   DNB_URL, ISSUU_URL, ZDB_ID, DNB_SHELF, STATIC_PAGES,
   CURRENT_PUBLISHER, loadEditorialData, buildPeople, bylineFor, personRoleLabels, legalIsComplete,
   staticPageTitle, staticPageDescription, staticPageMarkdown, staticPageMarkdownWithMarker, dfjvMentionHtml, canonicalPersonName, slugifyName,
@@ -1888,8 +1894,18 @@ function routeForArticle(site, locale, slug) {
   return `${routePrefix(site, locale)}/articles/${slug}/`;
 }
 
+// Issue pages live at the clean number route; the old seed slug route becomes a redirect.
 function routeForMagazine(site, locale, slug) {
-  return `${routePrefix(site, locale)}/magazines/${slug}/`;
+  const number = issueNumberFromSeed(slug);
+  return `${routePrefix(site, locale)}/magazines/${number ?? slug}/`;
+}
+
+function routeForIssueRead(site, locale, issueNumber) {
+  return `${routePrefix(site, locale)}/magazines/${issueNumber}/read/`;
+}
+
+function routeForIssueJson(issueNumber) {
+  return `/api/magazines/${issueNumber}.json`;
 }
 
 function homeRoute(site, locale) {
@@ -3072,6 +3088,8 @@ function renderLayout(site, {
   issueDate = null,
   navCurrent = null,
   preloadImage = null,
+  headExtra = "",
+  bodyExtra = "",
 }) {
   const copy = ui(locale);
   const canonical = `${baseUrl(site)}${canonicalRoute}`;
@@ -3128,6 +3146,7 @@ function renderLayout(site, {
     <meta name="twitter:description" content="${escapeHtml(socialDescription)}">
     ${socialImageUrl ? `<meta name="twitter:image" content="${escapeHtml(socialImageUrl)}">` : ""}
     <link rel="stylesheet" href="/assets/site.css">
+    ${headExtra}
     ${jsonLd}
   </head>
   <body${bodyClass ? ` class="${escapeHtml(bodyClass)}"` : ""}>
@@ -3137,6 +3156,7 @@ function renderLayout(site, {
     </main>
     ${renderSiteFooter(site, locale)}
     <script src="/assets/webmcp.js" defer></script>
+    ${bodyExtra}
   </body>
 </html>`;
 }
@@ -3520,109 +3540,124 @@ function renderAuthorBox(site, locale, people, currentSlug) {
         </section>`;
 }
 
-function buildMagazineMarkdown(site, locale, magazine, localizedArticles) {
+function buildMagazineMarkdown(site, locale, entry, magazine, localizedArticles) {
   const copy = ui(locale);
   const orderedArticles = sortArticlesForIssue(localizedArticles);
-  const issueTitle = displayMagazineTitle(magazine, locale);
   const lines = [
     frontmatter({
-      title: issueTitle,
+      title: entry.title,
       slug: magazine.slug,
       locale,
-      publication_date: magazine.publicationDate,
-      source_pdf: magazine.sourcePdf,
-      page_count: magazine.pageCount,
-      article_count: magazine.articleCount,
+      publication_date: entry.date,
+      source_pdf: magazine.sourcePdf ?? null,
+      page_count: entry.pages,
+      article_count: orderedArticles.length,
       canonical_url: `${baseUrl(site)}${routeForMagazine(site, locale, magazine.slug)}`,
     }),
-    `# ${issueTitle}`,
+    `# ${entry.title}`,
     "",
-    `> ${copy.source}: ${magazine.sourcePdf}`,
-    `> ${copy.pages}: ${magazine.pageCount}`,
-    "",
-    `## ${copy.articles}`,
-    "",
-    ...orderedArticles.map(
-      (article) =>
-        `- [${article.title}](${baseUrl(site)}${routeForArticle(site, locale, article.slug)}index.md): ${article.pages.start === article.pages.end ? copy.pageSingularLower : copy.pageLower} ${pageRangeLabel(article)}, ${formatCount(article.wordCount, locale)} ${copy.words}. ${displaySummaryForArticle(article, locale)}`,
-    ),
+    `> ${copy.pages}: ${entry.pages}`,
+    `> ${copy.read}: ${baseUrl(site)}${routeForIssueRead(site, locale, entry.n)}`,
+    `> ${copy.originalPdf}: ${baseUrl(site)}${issuePdfHref(entry).replace(/&/g, "&amp;")}`,
     "",
   ];
+
+  if (!orderedArticles.length) {
+    lines.push(`> ${issueText(locale).notice}`, "");
+  } else {
+    lines.push(
+      `## ${copy.articles}`,
+      "",
+      ...orderedArticles.map(
+        (article) =>
+          `- [${article.title}](${baseUrl(site)}${routeForArticle(site, locale, article.slug)}index.md): ${article.pages.start === article.pages.end ? copy.pageSingularLower : copy.pageLower} ${pageRangeLabel(article)}, ${formatCount(article.wordCount, locale)} ${copy.words}. ${displaySummaryForArticle(article, locale)}`,
+      ),
+      "",
+    );
+  }
 
   return lines.join("\n");
 }
 
-function buildMagazineHtml(site, locale, magazine, localizedArticles, locales) {
+function buildMagazineHtml(site, locale, entry, magazine, localizedArticles, locales, { previous = null, next = null } = {}) {
   const copy = ui(locale);
   const orderedArticles = sortArticlesForIssue(localizedArticles);
-  const issueTitle = displayMagazineTitle(magazine, locale);
   const issueDescription = isEnglishLocale(locale)
-    ? `${issueTitle} from the proud archive with ${magazine.articleCount} stories and ${magazine.pageCount} pages.`
-    : `${issueTitle} aus dem proud-Archiv mit ${magazine.articleCount} Geschichten und ${magazine.pageCount} Seiten.`;
-  const metaChips = [
-    `<span class="stat-chip"><strong>${formatCount(magazine.pageCount, locale)}</strong> ${escapeHtml(copy.pages)}</span>`,
-    `<span class="stat-chip"><strong>${formatCount(magazine.articleCount, locale)}</strong> ${escapeHtml(copy.articles)}</span>`,
-  ];
-  const issueDate = issueDateFor(magazine.slug);
-  if (issueDate) {
-    metaChips.push(`<span class="stat-chip"><strong>${renderIssueTime(issueDate, locale)}</strong> ${escapeHtml(copy.date)}</span>`);
-  }
-  const shareImage = articleCoverHref(orderedArticles[0]) ?? null;
+    ? `${entry.title} from the proud archive, ${entry.pages} pages to browse and as a PDF.`
+    : `${entry.title} aus dem proud-Archiv, ${entry.pages} Seiten zum Blättern und als PDF.`;
+  const issueDate = entry.date ?? issueDateFor(magazine.slug);
+  const hero = renderIssueHero(entry, locale, {
+    prefix: routePrefix(site, locale),
+    markdownHref: magazineMarkdownRoute(site, locale, magazine),
+    alternatesHtml: renderAlternates(site, magazine, routeForMagazine, locales)
+      .map((alternate) => `<a class="${alternate.locale === locale ? "locale-chip current" : "locale-chip"}" href="${alternate.route}">${escapeHtml(localeLabelForUi(alternate.locale, locale))}</a>`)
+      .join(""),
+    previous,
+    next,
+  });
   const body = `
-    <section class="hero">
-      <div class="hero-grid">
-        <div class="hero-copy">
-          <p class="kicker"><span class="kicker-rubric">proud magazine Berlin</span></p>
-          ${labelTitle(issueTitle)}
-          <p class="lede">${escapeHtml(copy.issueIntro)}</p>
-          <div class="stat-row">${metaChips.join("")}</div>
-          <div class="locale-nav compact-locale-nav">
-            ${renderAlternates(site, magazine, routeForMagazine, locales)
-              .map((entry) => `<a class="${entry.locale === locale ? "locale-chip current" : "locale-chip"}" href="${entry.route}">${escapeHtml(localeLabelForUi(entry.locale, locale))}</a>`)
-              .join("")}
-          </div>
-          <div class="action-row" style="margin-top:0.8rem">
-            ${renderActionButton(`/assets/pdfs/${encodeURIComponent(magazine.sourcePdf)}`, copy.originalPdf, "primary")}
-            ${renderActionButton(magazineMarkdownRoute(site, locale, magazine), copy.issueMarkdown)}
-          </div>
-        </div>
-      </div>
-    </section>
+    ${hero}
     <section class="section-stack">
       <section class="panel list-panel">
         <div class="section-rule"></div>
-        <h2 class="label-heading"><span class="label">${escapeHtml(copy.issueContents)}</span></h2>
+        ${
+          orderedArticles.length
+            ? `<h2 class="label-heading"><span class="label">${escapeHtml(copy.issueContents)}</span></h2>
         <ol class="article-list" style="margin-top:1rem">
           ${orderedArticles.map((article) => renderArticleReviewCard(site, locale, article)).join("")}
-        </ol>
+        </ol>`
+            : renderIssueNotice(locale)
+        }
       </section>
     </section>`;
 
   return renderLayout(site, {
     locale,
-    title: `${issueTitle} | ${site.siteTitle}`,
+    title: `${entry.title} | ${site.siteTitle}`,
     description: issueDescription,
     route: routeForMagazine(site, locale, magazine.slug),
-    markdownRoute: `${routeForMagazine(site, locale, magazine.slug)}index.md`,
+    markdownRoute: magazineMarkdownRoute(site, locale, magazine),
     body,
     alternates: renderAlternates(site, magazine, routeForMagazine, locales),
     navCurrent: "issues",
-    socialImage: shareImage,
-    socialTitle: `${issueTitle} | ${site.siteTitle}`,
+    socialImage: entry.cover ? `${entry.assetBase}/pages/001-m.webp?v=${entry.version}` : null,
+    socialTitle: `${entry.title} | ${site.siteTitle}`,
     socialDescription: issueDescription,
     issueDate,
-    structuredData: {
-      "@context": "https://schema.org",
-      "@type": "PublicationIssue",
-      name: issueTitle,
-      url: `${baseUrl(site)}${routeForMagazine(site, locale, magazine.slug)}`,
-      inLanguage: site.defaultLocale,
-      ...(issueNumberFromSeed(magazine.title) ? { issueNumber: issueNumberFromSeed(magazine.title) } : {}),
-      ...(issueDate ? { datePublished: issueDate } : {}),
-      numberOfPages: magazine.pageCount,
-      isPartOf: periodicalJsonLd(site),
-      publisher: publisherJsonLd(site),
-    },
+    structuredData: [
+      issueJsonLd(entry, { base: baseUrl(site), locale, partOf: periodicalJsonLd(site) }),
+      breadcrumbJsonLd(site, issueBreadcrumb(baseUrl(site), locale, entry)),
+    ],
+  });
+}
+
+// Reader page: reader.css, the measured header offset and the reader module, inside the normal layout.
+function buildReaderHtml(site, locale, entry, manifest, locales) {
+  const issueHref = routeForMagazine(site, locale, entry.n);
+  const issueDescription = isEnglishLocale(locale)
+    ? `Browse ${entry.title} page by page.`
+    : `${entry.title} Seite für Seite blättern.`;
+  return renderLayout(site, {
+    locale,
+    title: `${issueText(locale).readerTitle(entry.title)} | ${site.siteTitle}`,
+    description: issueDescription,
+    route: routeForIssueRead(site, locale, entry.n),
+    markdownRoute: `${routeForIssueRead(site, locale, entry.n)}index.md`,
+    navCurrent: "issues",
+    body: renderReaderMain({
+      locale,
+      manifest,
+      assetBase: entry.assetBase,
+      version: entry.version,
+      title: entry.title,
+      dateLabel: issueDateLabel(entry.date, locale) || null,
+      hrefs: { issue: issueHref, overview: routeForMagazinesIndex(site, locale) },
+    }),
+    bodyClass: "reader-page",
+    alternates: locales.map((alternate) => ({ locale: alternate, route: routeForIssueRead(site, alternate, entry.n) })),
+    headExtra: `<link rel="stylesheet" href="/assets/reader.css?v=${READER_HASH}">
+    <style>${READER_OFFSET_CSS}</style>`,
+    bodyExtra: `<script type="module" src="/assets/reader.js?v=${READER_HASH}"></script>`,
   });
 }
 
