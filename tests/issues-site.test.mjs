@@ -12,6 +12,7 @@ import {
   renderIssueNotice,
   renderRedirectPage,
   issueApiSummary,
+  issueBreadcrumb,
   issueJsonLd,
   issueMarkdownLine,
   readerMarkdownLines,
@@ -128,4 +129,15 @@ test("hero names the neighbouring issues", () => {
   const hero = renderIssueHero(two, "de", { prefix: "", markdownHref: "/magazines/02/index.md", previous: one, next: three });
   assert.match(hero, /Vorherige Ausgabe: proud #01/);
   assert.match(hero, /Nächste Ausgabe: proud #03/);
+});
+
+test("breadcrumb gives routes with the language prefix, json-ld url follows the language", () => {
+  const [entry] = buildIssueEntries([manifest("24")]);
+  assert.deepEqual(issueBreadcrumb("en", entry), [
+    { name: "proud", route: "/en/" },
+    { name: "Issues", route: "/en/magazines/" },
+    { name: "proud #24", route: "/en/magazines/24/" },
+  ]);
+  assert.equal(issueBreadcrumb("de", entry)[2].route, "/magazines/24/");
+  assert.equal(issueJsonLd(entry, { base: "https://x.tld", locale: "en", partOf: {} }).url, "https://x.tld/en/magazines/24/");
 });

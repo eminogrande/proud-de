@@ -3604,10 +3604,13 @@ function buildMagazineHtml(site, locale, entry, magazine, localizedArticles, loc
     socialTitle: `${entry.title} | ${site.siteTitle}`,
     socialDescription: issueDescription,
     issueDate,
-    structuredData: [
-      issueJsonLd(entry, { base: baseUrl(site), locale, partOf: periodicalJsonLd(site) }),
-      breadcrumbJsonLd(site, issueBreadcrumb(baseUrl(site), locale, entry)),
-    ],
+    structuredData: {
+      "@context": "https://schema.org",
+      "@graph": [
+        (({ "@context": _context, ...issue }) => issue)(issueJsonLd(entry, { base: baseUrl(site), locale, partOf: periodicalJsonLd(site) })),
+        breadcrumbJsonLd(site, issueBreadcrumb(locale, entry)),
+      ],
+    },
   });
 }
 

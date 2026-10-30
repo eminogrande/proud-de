@@ -219,7 +219,7 @@ export function issueJsonLd(entry, { base, locale, partOf }) {
     "@context": "https://schema.org",
     "@type": "PublicationIssue",
     name: entry.title,
-    url: `${base}/magazines/${entry.n}/`,
+    url: `${base}${locale === "en" ? "/en" : ""}/magazines/${entry.n}/`,
     inLanguage: locale === "en" ? "en" : "de",
     issueNumber: entry.n,
     ...(entry.date ? { datePublished: entry.date } : {}),
@@ -237,11 +237,13 @@ export function issueJsonLd(entry, { base, locale, partOf }) {
   };
 }
 
-export function issueBreadcrumb(base, locale, entry) {
+// Routes, not urls: the site's breadcrumbJsonLd puts the base in front.
+export function issueBreadcrumb(locale, entry) {
   const prefix = locale === "en" ? "/en" : "";
   return [
-    { name: locale === "en" ? "Issues" : "Ausgaben", url: `${base}${prefix}/magazines/` },
-    { name: entry.title, url: `${base}/magazines/${entry.n}/` },
+    { name: "proud", route: `${prefix}/` },
+    { name: locale === "en" ? "Issues" : "Ausgaben", route: `${prefix}/magazines/` },
+    { name: entry.title, route: `${prefix}/magazines/${entry.n}/` },
   ];
 }
 
