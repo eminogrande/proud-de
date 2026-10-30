@@ -37,9 +37,9 @@ function fakeBucket() {
         body: entry.body,
       };
 
-      const rangeHeader = options.range?.get("range");
-      if (rangeHeader) {
-        const match = /^bytes=(\d*)-(\d*)$/.exec(rangeHeader);
+      // Real R2 sets `range` whenever a range option is passed, even for a plain request.
+      if (options.range) {
+        const match = /^bytes=(\d*)-(\d*)$/.exec(options.range.get("range") ?? "");
         const usable = Boolean(match) && Boolean(match[1] || match[2]);
         let offset = 0;
         let end = size - 1;
