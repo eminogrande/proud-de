@@ -63,6 +63,33 @@ Rules: no autoplay motion (the logo turn is user-triggered only), no particles, 
 
 Images: hero cutouts ship as 1600px plus 800px (`/assets/hero-800/`), scans as 1400px plus 760px (`/assets/page-images-760/`), offered via `srcset`/`sizes`; all immutable-cached.
 
+## Issues, reader, PDF
+
+All 32 issues (00 to 09 and 11 to 32; 10 never existed) have an overview card, an issue page and a reader. Tokens used are the existing ones: `--paper`, `--head`, `--link`, `--line`, `--muted`, `--proud-pink`, `--radius`, `--band`, `--size-meta`, `--size-body`, `--serif-font`. No new tokens, fonts, boxes or badges.
+
+```mermaid
+flowchart LR
+  M["/magazines/<br/>32 rows: cover, date, pages, Lesen, PDF"] --> I["/magazines/NN/<br/>cover, facts, previous + next issue"]
+  I --> R["/magazines/NN/read/<br/>page-by-page reader"]
+  I --> A["Articles (issue 01 only, 63)<br/>or one honest sentence"]
+  I --> P["/assets/issues/NN/proud-NN.pdf<br/>web PDF, 8 to 39 MB"]
+  R --> P
+  O["/magazines/01-proud-issuu-output/"] -->|"meta refresh + canonical"| I
+  R --> IMG["/assets/issues/NN/pages/PPP-s|m|l.webp<br/>R2 behind the Worker"]
+  M --> IMG
+```
+
+| Page | Order |
+|---|---|
+| Overview `/magazines/` (de) and `/en/magazines/` | Label H1 "Ausgaben" / "Issues" · one sentence with the number of issues · two-column list from 900 px, one column below · row = cover (96 to 150 px) · `proud #NN` · month and year when known, else only the page count · `Lesen` (primary) and `PDF, NN,N MB` |
+| Issue `/magazines/NN/` | Kicker · label H1 `proud #NN` · date and page count · Lesen, PDF, Markdown · language chips · `Vorherige Ausgabe: proud #NN` and `Nächste Ausgabe: proud #NN` · article list (issue 01) or "Die Artikel dieser Ausgabe werden noch erfasst. Lesen und PDF gibt es schon." |
+| Reader `/magazines/NN/read/` | Normal site header · reader section (see `docs/READER.md`) · `--reader-offset` is `7rem` from 900 px and `11rem` below, measured: reader top at 107.5 px (desktop) and 156.8 to 172.8 px (phones), controls end inside the screen at 11 widths from 320 to 1440 |
+| Old issue 01 address | Small static page with meta refresh and canonical link to `/magazines/01/` (de and en), plus a Markdown twin |
+
+Dates come from `data/input/issue-dates.json` (`issues` map). 26 of 32 are known (some year only: 00, 20, 22 to 26, 32). Unknown dates are left out, never guessed: 21, 27, 28, 29, 30, 31.
+
+Files: `scripts/lib/issues-site.mjs` (pure renderers, tests in `tests/issues-site.test.mjs`), wiring in `scripts/build-site.mjs`, `reader.css` and `reader.js` copied to `site/assets/` with an 8 character `?v=` hash. The GitHub Pages mirror loads page images and PDFs from the Worker host (`scripts/build-pages.mjs`, `tests/build-pages.test.mjs`).
+
 ## Honesty rules (enforced in `tests/editorial.test.mjs` and `scripts/audit-live.mjs`)
 
 - Bylines only from printed credits. No credit means no "Von" line. Low-confidence credits (`zey-break`) never create author pages.

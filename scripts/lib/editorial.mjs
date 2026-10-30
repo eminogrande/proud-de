@@ -331,7 +331,7 @@ function staticPageMarkdownRaw(key, locale, { editorial, site, routes, published
             "## Press mention",
             "@@DFJV_QUOTE@@",
             "## This archive",
-            `This website republishes the printed issues as a reading edition. Each article keeps a link to the scanned original pages. So far ${publishedIssues} issue is online with ${articleCount} articles. More issues follow once their text has been checked.`,
+            `This website republishes the printed issues as a reading edition. All ${publishedIssues} issues can be browsed page by page and downloaded as PDF. ${articleCount} articles are also online as checked text, each with a link to the scanned original pages. More articles follow once their text has been checked.`,
             `Read how the republication works in the [editorial standards](${routes.standards}), see who made issue 01 in the [masthead](${routes.masthead}), or browse the [authors](${routes.authors}).`,
           ].join("\n\n")
         : [
@@ -345,7 +345,7 @@ function staticPageMarkdownRaw(key, locale, { editorial, site, routes, published
             "## Presse",
             "@@DFJV_QUOTE@@",
             "## Dieses Archiv",
-            `Diese Website veröffentlicht die gedruckten Hefte als Leseausgabe neu. Jeder Artikel verlinkt auf die gescannten Originalseiten. Bisher ist ${publishedIssues} Heft mit ${articleCount} Artikeln online. Weitere Hefte folgen, sobald ihr Text geprüft ist.`,
+            `Diese Website veröffentlicht die gedruckten Hefte als Leseausgabe neu. Alle ${publishedIssues} Hefte lassen sich Seite für Seite blättern und als PDF laden. ${articleCount} Artikel gibt es zusätzlich als geprüften Text, jeder mit Link auf die gescannten Originalseiten. Weitere Artikel folgen, sobald ihr Text geprüft ist.`,
             `Wie die Neuveröffentlichung funktioniert, steht in den [Grundsätzen](${routes.standards}). Wer Heft 01 gemacht hat, zeigt die [Redaktion](${routes.masthead}). Alle Beteiligten mit Credit: [Autor:innen](${routes.authors}).`,
           ].join("\n\n");
     case "masthead": {

@@ -10,6 +10,12 @@ import { detectLanguageFromText, localizeArticle, localeLabel } from "../src/lib
 import { loadLibrary, sortArticles } from "../src/lib/store.mjs";
 import { PROJECT_ROOT } from "../src/lib/config.mjs";
 import {
+  buildIssueEntries, issueApiSummary, issueBreadcrumb, issueJsonLd, issueMarkdownLine, issuePdfPath,
+  issueText, loadIssueManifests, readerMarkdownLines, READER_OFFSET_CSS, renderIssueCard, renderIssueHero,
+  renderIssueNotice, renderRedirectPage,
+} from "./lib/issues-site.mjs";
+import { READER_CSS_PATH, READER_JS_PATH, renderReaderMain } from "./lib/reader.mjs";
+import {
   DNB_URL, ISSUU_URL, ZDB_ID, DNB_SHELF, STATIC_PAGES,
   CURRENT_PUBLISHER, loadEditorialData, buildPeople, bylineFor, personRoleLabels, legalIsComplete,
   staticPageTitle, staticPageDescription, staticPageMarkdown, staticPageMarkdownWithMarker, dfjvMentionHtml, canonicalPersonName, slugifyName,
@@ -644,19 +650,73 @@ body:not(.article-page) .content > p:first-of-type::first-letter {
 }
 .issue-grid .issue-card {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: 1rem;
-  align-items: center;
+  align-items: flex-start;
   padding: 1rem 0;
   border: 0;
+  border-top: 1px solid var(--line);
   border-radius: 0;
   background: transparent;
 }
-.issue-grid .issue-card + .issue-card {
-  border-top: 1px solid var(--line);
-}
 .issue-grid .review-actions {
   margin-top: 0;
+  gap: 0.5rem;
+}
+.issue-cover-link {
+  flex: 0 0 clamp(96px, 26vw, 150px);
+  display: block;
+}
+.issue-cover {
+  display: block;
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--band);
+}
+.issue-cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.issue-body {
+  display: grid;
+  gap: 0.3rem;
+  justify-items: start;
+  min-width: 0;
+}
+.issue-hero .hero-grid {
+  display: grid;
+  gap: 1.4rem;
+  align-items: start;
+}
+.issue-hero .hero-cover {
+  width: min(320px, 72vw);
+}
+.issue-hero .hero-cover .issue-cover {
+  border-radius: var(--radius);
+}
+.issue-nav {
+  margin: 1rem 0 0;
+  font-family: var(--serif-font);
+  font-size: var(--size-meta);
+  color: var(--muted);
+}
+.issue-notice {
+  max-width: 46ch;
+  margin: 0 0 1rem;
+  font-family: var(--serif-font);
+  font-size: var(--size-body);
+}
+@media (min-width: 900px) {
+  .issue-hero .hero-grid {
+    grid-template-columns: minmax(0, 320px) minmax(0, 1fr);
+    gap: 2rem;
+  }
+  .issue-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 3rem;
+    row-gap: 0;
+  }
 }
 .article-card {
   display: grid;
@@ -1681,6 +1741,7 @@ const MCP_TOOLS = [
 const ISSUE_DATES = new Map();
 const IMAGE_SIZES = new Map();
 let CONTENT_MODIFIED_AT = null;
+let READER_HASH = "";
 
 const SITE_LOGO_ROUTE = "/assets/logo-1200.png";
 // Filled in main(): the real proud ambigram (src/brand/proud-logo.svg), inlined in header and footer.
@@ -1835,8 +1896,18 @@ function routeForArticle(site, locale, slug) {
   return `${routePrefix(site, locale)}/articles/${slug}/`;
 }
 
+// Issue pages live at the clean number route; the old seed slug route becomes a redirect.
 function routeForMagazine(site, locale, slug) {
-  return `${routePrefix(site, locale)}/magazines/${slug}/`;
+  const number = issueNumberFromSeed(slug);
+  return `${routePrefix(site, locale)}/magazines/${number ?? slug}/`;
+}
+
+function routeForIssueRead(site, locale, issueNumber) {
+  return `${routePrefix(site, locale)}/magazines/${issueNumber}/read/`;
+}
+
+function routeForIssueJson(issueNumber) {
+  return `/api/magazines/${issueNumber}.json`;
 }
 
 function homeRoute(site, locale) {
@@ -2551,28 +2622,6 @@ function renderArticleReviewCard(site, locale, article, { showMagazine = false }
     </li>`;
 }
 
-function renderMagazineReviewCard(site, locale, magazine) {
-  const copy = ui(locale);
-  const issueTitle = displayMagazineTitle(magazine, locale);
-  const metaParts = [
-    issueDateFor(magazine.slug) ? issueDateLabel(issueDateFor(magazine.slug), locale) : null,
-    `${formatCount(magazine.pageCount, locale)} ${copy.pages}`,
-    `${formatCount(magazine.articleCount, locale)} ${copy.articles}`,
-  ].filter(Boolean);
-  return `
-    <li class="issue-card">
-      <div class="issue-card-header">
-        <div>
-          <h3><a href="${routeForMagazine(site, locale, magazine.slug)}">${escapeHtml(issueTitle)}</a></h3>
-          <p class="meta">${escapeHtml(metaParts.join(" · "))}</p>
-        </div>
-      </div>
-      <div class="action-row review-actions">
-        ${renderActionButton(routeForMagazine(site, locale, magazine.slug), copy.openIssue, "primary")}
-      </div>
-    </li>`;
-}
-
 function dateLabel(value, locale = "de") {
   return value ?? (isEnglishLocale(locale) ? "unknown" : "unbekannt");
 }
@@ -3019,6 +3068,8 @@ function renderLayout(site, {
   issueDate = null,
   navCurrent = null,
   preloadImage = null,
+  headExtra = "",
+  bodyExtra = "",
 }) {
   const copy = ui(locale);
   const canonical = `${baseUrl(site)}${canonicalRoute}`;
@@ -3074,7 +3125,7 @@ function renderLayout(site, {
     <meta name="twitter:title" content="${escapeHtml(socialTitle)}">
     <meta name="twitter:description" content="${escapeHtml(socialDescription)}">
     ${socialImageUrl ? `<meta name="twitter:image" content="${escapeHtml(socialImageUrl)}">` : ""}
-    <link rel="stylesheet" href="/assets/site.css">
+    <link rel="stylesheet" href="/assets/site.css">${headExtra ? `\n    ${headExtra}` : ""}
     ${jsonLd}
   </head>
   <body${bodyClass ? ` class="${escapeHtml(bodyClass)}"` : ""}>
@@ -3083,7 +3134,7 @@ function renderLayout(site, {
       ${visibleBody}
     </main>
     ${renderSiteFooter(site, locale)}
-    <script src="/assets/webmcp.js" defer></script>
+    <script src="/assets/webmcp.js" defer></script>${bodyExtra ? `\n    ${bodyExtra}` : ""}
   </body>
 </html>`;
 }
@@ -3467,113 +3518,147 @@ function renderAuthorBox(site, locale, people, currentSlug) {
         </section>`;
 }
 
-function buildMagazineMarkdown(site, locale, magazine, localizedArticles) {
+function buildMagazineMarkdown(site, locale, entry, magazine, localizedArticles) {
   const copy = ui(locale);
   const orderedArticles = sortArticlesForIssue(localizedArticles);
-  const issueTitle = displayMagazineTitle(magazine, locale);
   const lines = [
     frontmatter({
-      title: issueTitle,
+      title: entry.title,
       slug: magazine.slug,
       locale,
-      publication_date: magazine.publicationDate,
-      source_pdf: magazine.sourcePdf,
-      page_count: magazine.pageCount,
-      article_count: magazine.articleCount,
+      publication_date: entry.date,
+      source_pdf: magazine.sourcePdf ?? null,
+      page_count: entry.pages,
+      article_count: orderedArticles.length,
       canonical_url: `${baseUrl(site)}${routeForMagazine(site, locale, magazine.slug)}`,
     }),
-    `# ${issueTitle}`,
+    `# ${entry.title}`,
     "",
-    `> ${copy.source}: ${magazine.sourcePdf}`,
-    `> ${copy.pages}: ${magazine.pageCount}`,
-    "",
-    `## ${copy.articles}`,
-    "",
-    ...orderedArticles.map(
-      (article) =>
-        `- [${article.title}](${baseUrl(site)}${routeForArticle(site, locale, article.slug)}index.md): ${article.pages.start === article.pages.end ? copy.pageSingularLower : copy.pageLower} ${pageRangeLabel(article)}, ${formatCount(article.wordCount, locale)} ${copy.words}. ${displaySummaryForArticle(article, locale)}`,
-    ),
+    `> ${copy.pages}: ${entry.pages}`,
+    `> ${copy.read}: ${baseUrl(site)}${routeForIssueRead(site, locale, entry.n)}`,
+    `> PDF: ${baseUrl(site)}${issuePdfPath(entry)}`,
     "",
   ];
+
+  if (!orderedArticles.length) {
+    lines.push(`> ${issueText(locale).notice}`, "");
+  } else {
+    lines.push(
+      `## ${copy.articles}`,
+      "",
+      ...orderedArticles.map(
+        (article) =>
+          `- [${article.title}](${baseUrl(site)}${routeForArticle(site, locale, article.slug)}index.md): ${article.pages.start === article.pages.end ? copy.pageSingularLower : copy.pageLower} ${pageRangeLabel(article)}, ${formatCount(article.wordCount, locale)} ${copy.words}. ${displaySummaryForArticle(article, locale)}`,
+      ),
+      "",
+    );
+  }
 
   return lines.join("\n");
 }
 
-function buildMagazineHtml(site, locale, magazine, localizedArticles, locales) {
+function buildMagazineHtml(site, locale, entry, magazine, localizedArticles, locales, { previous = null, next = null } = {}) {
   const copy = ui(locale);
   const orderedArticles = sortArticlesForIssue(localizedArticles);
-  const issueTitle = displayMagazineTitle(magazine, locale);
   const issueDescription = isEnglishLocale(locale)
-    ? `${issueTitle} from the proud archive with ${magazine.articleCount} stories and ${magazine.pageCount} pages.`
-    : `${issueTitle} aus dem proud-Archiv mit ${magazine.articleCount} Geschichten und ${magazine.pageCount} Seiten.`;
-  const metaChips = [
-    `<span class="stat-chip"><strong>${formatCount(magazine.pageCount, locale)}</strong> ${escapeHtml(copy.pages)}</span>`,
-    `<span class="stat-chip"><strong>${formatCount(magazine.articleCount, locale)}</strong> ${escapeHtml(copy.articles)}</span>`,
-  ];
-  const issueDate = issueDateFor(magazine.slug);
-  if (issueDate) {
-    metaChips.push(`<span class="stat-chip"><strong>${renderIssueTime(issueDate, locale)}</strong> ${escapeHtml(copy.date)}</span>`);
-  }
-  const shareImage = articleCoverHref(orderedArticles[0]) ?? null;
+    ? `${entry.title} from the proud archive, ${entry.pages} pages to browse and as a PDF.`
+    : `${entry.title} aus dem proud-Archiv, ${entry.pages} Seiten zum Blättern und als PDF.`;
+  const issueDate = entry.date ?? issueDateFor(magazine.slug);
+  const hero = renderIssueHero(entry, locale, {
+    prefix: routePrefix(site, locale),
+    markdownHref: magazineMarkdownRoute(site, locale, magazine),
+    alternatesHtml: renderAlternates(site, magazine, routeForMagazine, locales)
+      .map((alternate) => `<a class="${alternate.locale === locale ? "locale-chip current" : "locale-chip"}" href="${alternate.route}">${escapeHtml(localeLabelForUi(alternate.locale, locale))}</a>`)
+      .join(""),
+    previous,
+    next,
+  });
   const body = `
-    <section class="hero">
-      <div class="hero-grid">
-        <div class="hero-copy">
-          <p class="kicker"><span class="kicker-rubric">proud magazine Berlin</span></p>
-          ${labelTitle(issueTitle)}
-          <p class="lede">${escapeHtml(copy.issueIntro)}</p>
-          <div class="stat-row">${metaChips.join("")}</div>
-          <div class="locale-nav compact-locale-nav">
-            ${renderAlternates(site, magazine, routeForMagazine, locales)
-              .map((entry) => `<a class="${entry.locale === locale ? "locale-chip current" : "locale-chip"}" href="${entry.route}">${escapeHtml(localeLabelForUi(entry.locale, locale))}</a>`)
-              .join("")}
-          </div>
-          <div class="action-row" style="margin-top:0.8rem">
-            ${renderActionButton(`/assets/pdfs/${encodeURIComponent(magazine.sourcePdf)}`, copy.originalPdf, "primary")}
-            ${renderActionButton(magazineMarkdownRoute(site, locale, magazine), copy.issueMarkdown)}
-          </div>
-        </div>
-      </div>
-    </section>
+    ${hero}
     <section class="section-stack">
       <section class="panel list-panel">
         <div class="section-rule"></div>
-        <h2 class="label-heading"><span class="label">${escapeHtml(copy.issueContents)}</span></h2>
+        ${
+          orderedArticles.length
+            ? `<h2 class="label-heading"><span class="label">${escapeHtml(copy.issueContents)}</span></h2>
         <ol class="article-list" style="margin-top:1rem">
           ${orderedArticles.map((article) => renderArticleReviewCard(site, locale, article)).join("")}
-        </ol>
+        </ol>`
+            : renderIssueNotice(locale)
+        }
       </section>
     </section>`;
 
   return renderLayout(site, {
     locale,
-    title: `${issueTitle} | ${site.siteTitle}`,
+    title: `${entry.title} | ${site.siteTitle}`,
     description: issueDescription,
     route: routeForMagazine(site, locale, magazine.slug),
-    markdownRoute: `${routeForMagazine(site, locale, magazine.slug)}index.md`,
+    markdownRoute: magazineMarkdownRoute(site, locale, magazine),
     body,
     alternates: renderAlternates(site, magazine, routeForMagazine, locales),
     navCurrent: "issues",
-    socialImage: shareImage,
-    socialTitle: `${issueTitle} | ${site.siteTitle}`,
+    socialImage: entry.cover ? `${entry.assetBase}/pages/001-m.webp?v=${entry.version}` : null,
+    socialTitle: `${entry.title} | ${site.siteTitle}`,
     socialDescription: issueDescription,
     issueDate,
     structuredData: {
       "@context": "https://schema.org",
-      "@type": "PublicationIssue",
-      name: issueTitle,
-      url: `${baseUrl(site)}${routeForMagazine(site, locale, magazine.slug)}`,
-      inLanguage: site.defaultLocale,
-      ...(issueNumberFromSeed(magazine.title) ? { issueNumber: issueNumberFromSeed(magazine.title) } : {}),
-      ...(issueDate ? { datePublished: issueDate } : {}),
-      numberOfPages: magazine.pageCount,
-      isPartOf: periodicalJsonLd(site),
-      publisher: publisherJsonLd(site),
+      "@graph": [
+        (({ "@context": _context, ...issue }) => issue)(issueJsonLd(entry, { base: baseUrl(site), locale, partOf: periodicalJsonLd(site) })),
+        breadcrumbJsonLd(site, issueBreadcrumb(locale, entry)),
+      ],
     },
   });
 }
 
-function buildIndexMarkdown(site, locale, articles, magazines) {
+// Reader page: reader.css, the measured header offset and the reader module, inside the normal layout.
+function buildReaderHtml(site, locale, entry, manifest, locales) {
+  const issueHref = routeForMagazine(site, locale, entry.n);
+  const issueDescription = isEnglishLocale(locale)
+    ? `Browse ${entry.title} page by page.`
+    : `${entry.title} Seite für Seite blättern.`;
+  return renderLayout(site, {
+    locale,
+    title: `${issueText(locale).readerTitle(entry.title)} | ${site.siteTitle}`,
+    description: issueDescription,
+    route: routeForIssueRead(site, locale, entry.n),
+    markdownRoute: `${routeForIssueRead(site, locale, entry.n)}index.md`,
+    navCurrent: "issues",
+    body: renderReaderMain({
+      locale,
+      manifest,
+      assetBase: entry.assetBase,
+      version: entry.version,
+      title: entry.title,
+      dateLabel: issueDateLabel(entry.date, locale) || null,
+      hrefs: { issue: issueHref, overview: routeForMagazinesIndex(site, locale) },
+    }),
+    bodyClass: "reader-page",
+    alternates: locales.map((alternate) => ({ locale: alternate, route: routeForIssueRead(site, alternate, entry.n) })),
+    headExtra: `<link rel="stylesheet" href="/assets/reader.css?v=${READER_HASH}">
+    <style>${READER_OFFSET_CSS}</style>`,
+    bodyExtra: `<script type="module" src="/assets/reader.js?v=${READER_HASH}"></script>`,
+  });
+}
+
+function buildReaderMarkdown(site, locale, entry) {
+  const title = issueText(locale).readerTitle(entry.title);
+  return [
+    frontmatter({
+      title,
+      locale,
+      canonical_url: `${baseUrl(site)}${routeForIssueRead(site, locale, entry.n)}`,
+      page_count: entry.pages,
+    }),
+    `# ${title}`,
+    "",
+    ...readerMarkdownLines(entry, locale, { base: baseUrl(site), prefix: routePrefix(site, locale) }),
+    "",
+  ].join("\n");
+}
+
+function buildIndexMarkdown(site, locale, articles, issueEntries) {
   const copy = ui(locale);
   const lines = [
     frontmatter({
@@ -3587,7 +3672,7 @@ function buildIndexMarkdown(site, locale, articles, magazines) {
     `> ${siteDescription(site, locale)}`,
     "",
     `## ${copy.archiveStats}`,
-    `- ${copy.magazinesNav}: ${magazines.length}`,
+    `- ${copy.magazinesNav}: ${issueEntries.length}`,
     `- ${copy.articlesNav}: ${articles.length}`,
     "",
     `## ${copy.recentArticles}`,
@@ -3599,10 +3684,7 @@ function buildIndexMarkdown(site, locale, articles, magazines) {
     "",
     `## ${copy.magazineIndex}`,
     "",
-    ...magazines.map(
-      (magazine) =>
-        `- [${magazine.title}](${baseUrl(site)}${routeForMagazine(site, locale, magazine.slug)}index.md): ${magazine.articleCount} ${copy.articles}`,
-    ),
+    ...issueEntries.map((entry) => issueMarkdownLine(entry, locale, { base: baseUrl(site), prefix: routePrefix(site, locale) })),
     "",
   ];
 
@@ -3689,10 +3771,6 @@ function rubricGroups(articles) {
 }
 
 // Issue cover thumbnail: only when a real cover asset exists (none are published yet, so the strip shows text).
-function issueCoverHref(magazine) {
-  return magazine?.coverImage ? `/assets/${optimizedImagePath(magazine.coverImage)}` : null;
-}
-
 // Home lead: the longest article that has both a printed text credit and a hero cutout; fall back to longest with hero.
 function pickLeadArticle(articles) {
   const ranked = sortArticlesByWordCount(articles);
@@ -3701,7 +3779,7 @@ function pickLeadArticle(articles) {
     ?? ranked[0];
 }
 
-function buildIndexHtml(site, locale, articles, magazines, locales) {
+function buildIndexHtml(site, locale, articles, issueEntries, locales) {
   const copy = ui(locale);
   const en = isEnglishLocale(locale);
   const leadArticle = pickLeadArticle(articles);
@@ -3710,10 +3788,6 @@ function buildIndexHtml(site, locale, articles, magazines, locales) {
     .slice(0, 9);
   const leadHref = leadArticle ? routeForArticle(site, locale, leadArticle.slug) : null;
   const leadImage = leadArticle ? articleCoverHref(leadArticle) : null;
-  const issueCovers = magazines
-    .map((magazine) => ({ magazine, cover: issueCoverHref(magazine) }))
-    .filter((entry) => entry.cover);
-  void issueCovers;
   // Latest: the lead story plus the next five longest stories with a cutout and a summary.
   const latest = gridArticles.slice(0, 5);
   const shown = new Set([leadArticle?.slug, ...latest.map((article) => article.slug)].filter(Boolean));
@@ -3774,12 +3848,12 @@ function buildIndexHtml(site, locale, articles, magazines, locales) {
           knowsAbout: ["Music", "Berlin", "City life", "Nightlife", "Style"],
         },
         periodicalJsonLd(site),
-        ...magazines.map((magazine) => ({
+        ...issueEntries.map((entry) => ({
           "@type": "PublicationIssue",
-          name: displayMagazineTitle(magazine, locale),
-          url: `${baseUrl(site)}${routeForMagazine(site, locale, magazine.slug)}`,
-          ...(issueNumberFromSeed(magazine.title) ? { issueNumber: issueNumberFromSeed(magazine.title) } : {}),
-          ...(issueDateFor(magazine.slug) ? { datePublished: issueDateFor(magazine.slug) } : {}),
+          name: entry.title,
+          url: `${baseUrl(site)}${routeForMagazine(site, locale, entry.n)}`,
+          issueNumber: entry.n,
+          ...(entry.date ? { datePublished: entry.date } : {}),
           isPartOf: { "@id": `${baseUrl(site)}/#periodical` },
         })),
         {
@@ -3813,7 +3887,7 @@ function buildListPageMarkdown(site, locale, title, route, items, type) {
   return lines.join("\n");
 }
 
-function buildListPageHtml(site, locale, title, route, markdownRoute, itemsHtml, description = title, socialImage = null, navCurrent = null, locales = [site.defaultLocale]) {
+function buildListPageHtml(site, locale, title, route, markdownRoute, itemsHtml, description = title, socialImage = null, navCurrent = null, locales = [site.defaultLocale], deck = null) {
   const copy = ui(locale);
   return renderLayout(site, {
     locale,
@@ -3824,7 +3898,7 @@ function buildListPageHtml(site, locale, title, route, markdownRoute, itemsHtml,
     body: `
       <section class="page-head">
         ${labelTitle(title)}
-        <p class="deck">${escapeHtml(copy.listPageIntro)}</p>
+        <p class="deck">${escapeHtml(deck ?? copy.listPageIntro)}</p>
       </section>
       <section class="panel list-panel">
         ${itemsHtml}
@@ -4128,7 +4202,7 @@ function buildOpenApi(site) {
       "/api/magazines/{slug}.json": {
         get: {
           operationId: "getMagazine",
-          summary: "Get magazine by slug",
+          summary: "Get one issue by slug (issue 01) or by its two-digit number (every issue, 00 to 32)",
           parameters: [slugParam],
           responses: { 200: { description: "OK", content: json("#/components/schemas/Magazine") }, 404: problem, default: problem },
         },
@@ -4217,6 +4291,9 @@ function buildOpenApi(site) {
             pageCount: { type: "integer" },
             articleCount: { type: "integer" },
             url: { type: "string", format: "uri" },
+            readerUrl: { type: "string", format: "uri" },
+            pdfUrl: { type: "string", format: "uri" },
+            pdfBytes: { type: "integer" },
           },
         },
         Magazine: {
@@ -4231,7 +4308,10 @@ function buildOpenApi(site) {
             articleCount: { type: "integer" },
             articles: { type: "array", items: { type: "object", additionalProperties: true } },
             canonicalUrl: { type: "string", format: "uri" },
-            pdfUrl: { type: "string", format: "uri" },
+            pdfUrl: { type: "string", format: "uri", description: "Web PDF of the issue, one magazine page per PDF page." },
+            originalPdfUrl: { type: "string", format: "uri", description: "Original scan PDF (issue 01 only)." },
+            readerUrl: { type: "string", format: "uri" },
+            pdfBytes: { type: "integer" },
           },
         },
         Library: {
@@ -4660,6 +4740,11 @@ async function main() {
   await fs.mkdir(path.join(site.paths.siteOutputDir, "assets", "pdfs"), { recursive: true });
   await writeText(site, "/assets/site.css", `${CSS}\n${EDITORIAL_CSS_SOURCE}\n${DESIGN_V2_CSS}`);
   await writeText(site, "/assets/webmcp.js", WEBMCP_SCRIPT);
+  const readerCss = await fs.readFile(READER_CSS_PATH);
+  const readerJs = await fs.readFile(READER_JS_PATH);
+  READER_HASH = crypto.createHash("sha256").update(readerCss).update(readerJs).digest("hex").slice(0, 8);
+  await fs.writeFile(path.join(site.paths.siteOutputDir, "assets", "reader.css"), readerCss);
+  await fs.writeFile(path.join(site.paths.siteOutputDir, "assets", "reader.js"), readerJs);
   for (const [from, to] of [["favicon.ico", "favicon.ico"], ["logo.png", "assets/logo.png"], ["logo-1200.png", "assets/logo-1200.png"], ["proud-logo.svg", "assets/proud-logo.svg"]]) {
     await fs.copyFile(path.join(BRAND_DIR, from), path.join(site.paths.siteOutputDir, to));
   }
@@ -4683,6 +4768,21 @@ async function main() {
       ISSUE_DATES.set(magazineSlug, isoDate);
     }
   }
+  // One entry per issue manifest (data/input/issues/NN.json), newest first. Issues without extracted articles
+  // get a magazine-shaped stand-in so routes, alternates and the API treat all issues the same way.
+  const issueDir = path.join(path.dirname(site.paths.enrichmentDir), "issues");
+  const issueManifests = await loadIssueManifests(issueDir).catch((error) => {
+    if (error.code === "ENOENT") return [];
+    throw error;
+  });
+  if (!issueManifests.length) {
+    throw new Error(`No issue manifests in ${issueDir}. Run scripts/normalize-issues.py first.`);
+  }
+  const issueEntries = buildIssueEntries(issueManifests, issueDates?.issues ?? {});
+  const issueAscending = [...issueEntries].reverse();
+  const issueMagazine = (entry) =>
+    magazines.find((magazine) => issueNumberFromSeed(magazine.slug) === entry.n) ??
+    { slug: entry.n, title: entry.title, articles: [], articleCount: 0, pageCount: entry.pages, sourcePdf: null };
   CONTENT_MODIFIED_AT = library.generatedAt ? String(library.generatedAt).slice(0, 10) : null;
   EDITORIAL = await loadEditorialData(PROJECT_ROOT);
   PEOPLE = buildPeople(EDITORIAL, sortedArticles);
@@ -4716,8 +4816,8 @@ async function main() {
     await writePage(
       site,
       homeRoute(site, locale),
-      buildIndexHtml(site, locale, localizedArticles, magazines, locales),
-      buildIndexMarkdown(site, locale, localizedArticles, magazines),
+      buildIndexHtml(site, locale, localizedArticles, issueEntries, locales),
+      buildIndexMarkdown(site, locale, localizedArticles, issueEntries),
     );
 
     const articlesListMarkdown = buildListPageMarkdown(
@@ -4755,15 +4855,14 @@ async function main() {
     );
     await writePage(site, routeForArticlesIndex(site, locale), articlesListHtml, articlesListMarkdown);
 
+    const localePrefix = routePrefix(site, locale);
+    const overviewIntro = issueText(locale).overviewIntro(issueEntries.length);
     const localizedMagazineMarkdown = buildListPageMarkdown(
       site,
       locale,
       ui(locale).allMagazines,
       routeForMagazinesIndex(site, locale),
-      magazines.map(
-        (magazine) =>
-          `- [${displayMagazineTitle(magazine, locale)}](${baseUrl(site)}${routeForMagazine(site, locale, magazine.slug)}index.md): ${magazine.articleCount} ${ui(locale).articles}`,
-      ),
+      [`> ${overviewIntro}`, "", ...issueEntries.map((entry) => issueMarkdownLine(entry, locale, { base: baseUrl(site), prefix: localePrefix }))],
       "magazines-index",
     );
     const localizedMagazineHtml = buildListPageHtml(
@@ -4772,13 +4871,12 @@ async function main() {
       ui(locale).allMagazines,
       routeForMagazinesIndex(site, locale),
       `${routeForMagazinesIndex(site, locale)}index.md`,
-      `<ol class="issue-grid">${magazines.map((magazine) => renderMagazineReviewCard(site, locale, magazine)).join("")}</ol>`,
-      isEnglishLocale(locale)
-        ? "All proud issues in a clean reading archive with direct access to issue pages and article editions."
-        : "Alle proud-Ausgaben in einem klaren Lesearchiv mit direktem Zugang zu Heften und Artikelseiten.",
+      `<ol class="issue-grid">${issueEntries.map((entry) => renderIssueCard(entry, locale, localePrefix)).join("")}</ol>`,
+      overviewIntro,
       articleCoverHref(localizedArticles[0]) ?? null,
       "issues",
       locales,
+      overviewIntro,
     );
     await writePage(site, routeForMagazinesIndex(site, locale), localizedMagazineHtml, localizedMagazineMarkdown);
 
@@ -4792,19 +4890,34 @@ async function main() {
       );
     }
 
-    for (const magazine of magazines) {
-      const relatedArticles = magazine.articles
-        .map((entry) => localizedArticleMap.get(entry.slug))
-        .filter(Boolean);
+    for (const [index, entry] of issueAscending.entries()) {
+      const magazine = issueMagazine(entry);
+      const relatedArticles = magazine.articles.map((item) => localizedArticleMap.get(item.slug)).filter(Boolean);
+      const neighbours = { previous: issueAscending[index - 1] ?? null, next: issueAscending[index + 1] ?? null };
       await writePage(
         site,
         routeForMagazine(site, locale, magazine.slug),
-        buildMagazineHtml(site, locale, magazine, relatedArticles, locales),
-        buildMagazineMarkdown(site, locale, magazine, relatedArticles),
+        buildMagazineHtml(site, locale, entry, magazine, relatedArticles, locales, neighbours),
+        buildMagazineMarkdown(site, locale, entry, magazine, relatedArticles),
+      );
+      await writePage(
+        site,
+        routeForIssueRead(site, locale, entry.n),
+        buildReaderHtml(site, locale, entry, entry.manifest, locales),
+        buildReaderMarkdown(site, locale, entry),
       );
     }
+    // The first build published issue 01 under its long seed name. That address stays alive as a small redirect.
+    for (const magazine of magazines) {
+      const seedRoute = `${localePrefix}/magazines/${magazine.slug}/`;
+      const target = `${baseUrl(site)}${routeForMagazine(site, locale, magazine.slug)}`;
+      if (seedRoute === routeForMagazine(site, locale, magazine.slug)) continue;
+      const title = displayMagazineTitle(magazine, locale);
+      await writeText(site, `${seedRoute}index.html`, renderRedirectPage({ target, locale, title }));
+      await writeText(site, `${seedRoute}index.md`, `# ${title}\n\n${issueText(locale).redirectLead} ${target}index.md\n`);
+    }
 
-    const staticContext = { publishedIssues: magazines.length, articleCount: localizedArticles.length, authorCount: PEOPLE.length };
+    const staticContext = { publishedIssues: issueEntries.length, articleCount: localizedArticles.length, authorCount: PEOPLE.length };
     const staticKeys = [...STATIC_PAGES, ...(legalPagesEnabled() ? ["impressum", "datenschutz"] : [])];
     for (const key of staticKeys) {
       const page = buildStaticPage(site, locale, key, locales, staticContext);
@@ -4833,6 +4946,9 @@ async function main() {
       `- [MCP Server Card](${baseUrl(site)}/.well-known/mcp/server-card.json): Remote MCP discovery document.`,
       `- [Authors](${baseUrl(site)}${routeForStatic(site, locale, "authors")}index.md): Everyone credited in print, with roles and articles. JSON: ${baseUrl(site)}/api/authors.json`,
       "",
+      "## Issues",
+      ...issueEntries.map((entry) => issueMarkdownLine(entry, locale, { base: baseUrl(site), prefix: localePrefix })),
+      "",
       "## About the magazine",
       ...staticKeys.map((key) => `- [${staticPageTitle(key, locale)}](${baseUrl(site)}${routeForStatic(site, locale, key)}index.md): ${staticPageDescription(key, locale)}`),
       `- Library record: German National Library, shelf mark ${DNB_SHELF}, ZDB ${ZDB_ID}, ${DNB_URL}`,
@@ -4853,6 +4969,9 @@ async function main() {
 
     const llmsFull = [
       `# ${site.siteTitle} Full Archive (${localeLabel(locale)})`,
+      "",
+      "## Issues",
+      ...issueEntries.map((entry) => issueMarkdownLine(entry, locale, { base: baseUrl(site), prefix: localePrefix })),
       "",
       ...localizedArticles.flatMap((article) => [
         `## ${article.title}`,
@@ -4884,16 +5003,11 @@ async function main() {
     url: `${baseUrl(site)}${routeForArticle(site, site.defaultLocale, article.slug)}`,
   }));
 
-  const apiMagazines = magazines.map((magazine) => ({
-    slug: magazine.slug,
-    title: magazine.title,
-    displayTitle: displayMagazineTitle(magazine, site.defaultLocale),
-    publicationDate: magazine.publicationDate,
-    sourcePdf: magazine.sourcePdf,
-    pageCount: magazine.pageCount,
-    articleCount: magazine.articleCount,
-    url: `${baseUrl(site)}${routeForMagazine(site, site.defaultLocale, magazine.slug)}`,
-  }));
+  const issueSummary = (entry) => {
+    const magazine = issueMagazine(entry);
+    return issueApiSummary(entry, { base: baseUrl(site), magazine, displayTitle: displayMagazineTitle(magazine, site.defaultLocale) });
+  };
+  const apiMagazines = issueEntries.map(issueSummary);
 
   await writeJson(site, "/api/library.json", library);
   await writeJson(site, "/api/articles.json", apiArticles);
@@ -4961,13 +5075,18 @@ async function main() {
     });
   }
 
-  for (const magazine of magazines) {
-    await writeJson(site, `/api/magazines/${magazine.slug}.json`, {
+  for (const entry of issueEntries) {
+    const magazine = issueMagazine(entry);
+    const payload = {
       ...magazine,
-      displayTitle: displayMagazineTitle(magazine, site.defaultLocale),
+      ...issueSummary(entry),
       canonicalUrl: `${baseUrl(site)}${routeForMagazine(site, site.defaultLocale, magazine.slug)}`,
-      pdfUrl: `${baseUrl(site)}/assets/pdfs/${encodeURIComponent(magazine.sourcePdf)}`,
-    });
+      ...(magazine.sourcePdf ? { originalPdfUrl: `${baseUrl(site)}/assets/pdfs/${encodeURIComponent(magazine.sourcePdf)}` } : {}),
+    };
+    // Issue 01 keeps the file under its long slug and gains the two-digit one.
+    for (const name of new Set([entry.n, magazine.slug])) {
+      await writeJson(site, routeForIssueJson(name), payload);
+    }
   }
 
   await writeText(site, "/robots.txt", buildRobots(site));
@@ -4988,8 +5107,9 @@ async function main() {
   for (const article of defaultLocalized) {
     addPageGroup(articleAlternateEntries(site, article, locales));
   }
-  for (const magazine of magazines) {
-    addPageGroup(renderAlternates(site, magazine, routeForMagazine, locales));
+  for (const entry of issueEntries) {
+    addPageGroup(renderAlternates(site, issueMagazine(entry), routeForMagazine, locales));
+    addPageGroup(locales.map((locale) => ({ locale, route: routeForIssueRead(site, locale, entry.n) })));
   }
   for (const key of [...STATIC_PAGES, "authors", ...(legalPagesEnabled() ? ["impressum", "datenschutz"] : [])]) {
     addPageGroup(locales.map((locale) => ({ locale, route: routeForStatic(site, locale, key) })));

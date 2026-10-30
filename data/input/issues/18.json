@@ -1,0 +1,506 @@
+{
+ "issue": "18",
+ "title": "proud #18",
+ "pages": 68,
+ "layout": "single",
+ "source": {
+  "file": "18 proud issuu_output.pdf",
+  "pdfPages": 68,
+  "bytes": 35367057,
+  "sha256": "84f0160e393ddbce1ef263825af4dd6fd76de3ece7bc4779584156944776a61f"
+ },
+ "pageSize": {
+  "w": 2235,
+  "h": 2996
+ },
+ "pagesInfo": [
+  {
+   "n": 1,
+   "srcPage": 1,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 2,
+   "srcPage": 2,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 3,
+   "srcPage": 3,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 4,
+   "srcPage": 4,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 5,
+   "srcPage": 5,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 6,
+   "srcPage": 6,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 7,
+   "srcPage": 7,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 8,
+   "srcPage": 8,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 9,
+   "srcPage": 9,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 10,
+   "srcPage": 10,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 11,
+   "srcPage": 11,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 12,
+   "srcPage": 12,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 13,
+   "srcPage": 13,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 14,
+   "srcPage": 14,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 15,
+   "srcPage": 15,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 16,
+   "srcPage": 16,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 17,
+   "srcPage": 17,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 18,
+   "srcPage": 18,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 19,
+   "srcPage": 19,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 20,
+   "srcPage": 20,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 21,
+   "srcPage": 21,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 22,
+   "srcPage": 22,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 23,
+   "srcPage": 23,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 24,
+   "srcPage": 24,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 25,
+   "srcPage": 25,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 26,
+   "srcPage": 26,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 27,
+   "srcPage": 27,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 28,
+   "srcPage": 28,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 29,
+   "srcPage": 29,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 30,
+   "srcPage": 30,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 31,
+   "srcPage": 31,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 32,
+   "srcPage": 32,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 33,
+   "srcPage": 33,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 34,
+   "srcPage": 34,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 35,
+   "srcPage": 35,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 36,
+   "srcPage": 36,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 37,
+   "srcPage": 37,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 38,
+   "srcPage": 38,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 39,
+   "srcPage": 39,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 40,
+   "srcPage": 40,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 41,
+   "srcPage": 41,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 42,
+   "srcPage": 42,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 43,
+   "srcPage": 43,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 44,
+   "srcPage": 44,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 45,
+   "srcPage": 45,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 46,
+   "srcPage": 46,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 47,
+   "srcPage": 47,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 48,
+   "srcPage": 48,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 49,
+   "srcPage": 49,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 50,
+   "srcPage": 50,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 51,
+   "srcPage": 51,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 52,
+   "srcPage": 52,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 53,
+   "srcPage": 53,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 54,
+   "srcPage": 54,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 55,
+   "srcPage": 55,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 56,
+   "srcPage": 56,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 57,
+   "srcPage": 57,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 58,
+   "srcPage": 58,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 59,
+   "srcPage": 59,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 60,
+   "srcPage": 60,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 61,
+   "srcPage": 61,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 62,
+   "srcPage": 62,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 63,
+   "srcPage": 63,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 64,
+   "srcPage": 64,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 65,
+   "srcPage": 65,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 66,
+   "srcPage": 66,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 67,
+   "srcPage": 67,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  },
+  {
+   "n": 68,
+   "srcPage": 68,
+   "half": null,
+   "w": 1800,
+   "h": 2413
+  }
+ ],
+ "variants": {
+  "s": 360,
+  "m": 900,
+  "l": 1800
+ },
+ "web": {
+  "pdf": "proud-18.pdf",
+  "bytes": 29688901,
+  "sha256": "6d3fd58532dbcc1de8bc4e13aeb786954e5e6bc050ea2b50c85ba2a3aebfb29d"
+ },
+ "lowRes": false,
+ "notes": []
+}

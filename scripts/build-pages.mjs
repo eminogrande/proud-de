@@ -17,7 +17,17 @@ const out = path.resolve(process.argv[3] ?? "_pages");
 const LASTMOD = process.env.PAGES_LASTMOD || new Date().toISOString().slice(0, 10);
 const TEXT = /\.(html|md|txt|xml|json|css|js)$|\/\.well-known\/[^/.]+$/;
 
+const ISSUES_TOKEN = "__PROUD_ISSUES__";
+
+// Page images and PDFs live in R2 behind the Worker, not in the Pages artifact. Park every issue-asset URL
+// (absolute or site-relative) behind a token so the usual rewrites leave it alone, then point it at the Worker host.
 function rewrite(file, body) {
+  body = body.split(`${SOURCE_ORIGIN}/assets/issues/`).join(ISSUES_TOKEN);
+  body = body.split("/assets/issues/").join(ISSUES_TOKEN);
+  return rewriteForPages(file, body).split(ISSUES_TOKEN).join(`${SOURCE_ORIGIN}/assets/issues/`);
+}
+
+function rewriteForPages(file, body) {
   body = body.split(SOURCE_ORIGIN).join(origin + base);
   body = body.split(new URL(SOURCE_ORIGIN).host).join(new URL(origin).host);
   // The sitemap lists pages only; drop any /.well-known/* entry defensively (Pages can't serve the worker-only ones).

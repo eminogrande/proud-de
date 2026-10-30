@@ -1,4 +1,5 @@
 import { WebStandardStreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/webStandardStreamableHttp.js";
+import { ISSUES_PREFIX, issueCacheControl, issueContentDisposition, issueResponseStatus, parseIssueAsset } from "../src/lib/issues-route.mjs";
 import { createProudMcpServerWithLoaders } from "../src/lib/mcp-shared.mjs";
 import { formatSearchResults } from "../src/lib/search.mjs";
 
@@ -219,6 +220,60 @@ async function handleStaticRequest(request, env) {
       status: "range" in object ? 206 : 200,
       headers,
     });
+  }
+
+  if (url.pathname.startsWith(ISSUES_PREFIX)) {
+    const asset = parseIssueAsset(url.pathname);
+    if (!asset) {
+      return new Response("Not found", { status: 404 });
+    }
+
+    if (request.method !== "GET" && request.method !== "HEAD") {
+      return methodNotAllowed("GET, HEAD");
+    }
+
+    if (!env.PDFS_BUCKET) {
+      return new Response("PDF bucket not configured", { status: 404 });
+    }
+
+    const object = await env.PDFS_BUCKET.get(asset.key, {
+      range: request.headers,
+      onlyIf: request.headers,
+    });
+
+    if (!object) {
+      return new Response("Not found", { status: 404 });
+    }
+
+    const headers = new Headers();
+    object.writeHttpMetadata(headers);
+    headers.set("etag", object.httpEtag);
+    headers.set("accept-ranges", "bytes");
+    headers.set("content-type", asset.contentType);
+    headers.set("x-content-type-options", "nosniff");
+    headers.set("cache-control", issueCacheControl(url.searchParams.has("v")));
+    if (asset.pdf) {
+      headers.set("content-disposition", issueContentDisposition(asset, url.searchParams.get("download") === "1"));
+    }
+    const status = issueResponseStatus(object, request.headers);
+    if (status === 206) {
+      headers.set("content-range", `bytes ${object.range.offset}-${object.range.offset + object.range.length - 1}/${object.size}`);
+      headers.set("content-length", `${object.range.length}`);
+    } else if (status === 200) {
+      headers.set("content-length", `${object.size}`);
+    }
+    addCommonHeaders(headers);
+
+    // 304 and 412 carry no body, whatever the range header said.
+    if (status === 304 || status === 412) {
+      return new Response(null, { status, headers });
+    }
+
+    if (request.method === "HEAD") {
+      return new Response(null, { status, headers });
+    }
+
+    return new Response(object.body, { status, headers });
   }
 
   if (url.pathname === "/.well-known/mcp.json") {
