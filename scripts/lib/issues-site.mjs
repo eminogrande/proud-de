@@ -167,10 +167,9 @@ export function renderIssueCard(entry, locale, prefix) {
 
 export function renderIssueHero(entry, locale, { prefix, markdownHref, alternatesHtml = "", previous = null, next = null }) {
   const t = issueText(locale);
-  const href = issuePageHref(prefix, entry);
   const nav = [];
-  if (previous) nav.push(`<a href="${escapeHtml(issuePageHref(prefix, previous))}">${escapeHtml(t.previous)}</a>`);
-  if (next) nav.push(`<a href="${escapeHtml(issuePageHref(prefix, next))}">${escapeHtml(t.next)}</a>`);
+  if (previous) nav.push(`<a href="${escapeHtml(issuePageHref(prefix, previous))}">${escapeHtml(t.previous)}: ${escapeHtml(previous.title)}</a>`);
+  if (next) nav.push(`<a href="${escapeHtml(issuePageHref(prefix, next))}">${escapeHtml(t.next)}: ${escapeHtml(next.title)}</a>`);
   return `
     <section class="hero issue-hero">
       <div class="hero-grid">
@@ -185,7 +184,7 @@ export function renderIssueHero(entry, locale, { prefix, markdownHref, alternate
             <a class="button-link subtle" href="${escapeHtml(markdownHref)}">Markdown</a>
           </div>
           ${alternatesHtml ? `<div class="locale-nav compact-locale-nav">${alternatesHtml}</div>` : ""}
-          ${nav.length ? `<p class="issue-nav">${nav.join(" · ")} <a href="${escapeHtml(href)}">${escapeHtml(entry.title)}</a></p>` : ""}
+          ${nav.length ? `<p class="issue-nav">${nav.join(" · ")}</p>` : ""}
         </div>
       </div>
     </section>`;

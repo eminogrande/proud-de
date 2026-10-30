@@ -11,7 +11,10 @@ import {
   renderIssueHero,
   renderIssueNotice,
   renderRedirectPage,
+  issueApiSummary,
   issueJsonLd,
+  issueMarkdownLine,
+  readerMarkdownLines,
 } from "../scripts/lib/issues-site.mjs";
 
 const manifest = (n, extra = {}) => ({
@@ -95,4 +98,34 @@ test("json-ld has issue, media and part of the periodical", () => {
   assert.equal(data.associatedMedia.encodingFormat, "application/pdf");
   assert.equal(data.associatedMedia.contentSize, "26214400 B");
   assert.deepEqual(data.isPartOf, { "@id": "https://x.tld/#periodical" });
+});
+
+test("markdown line and api summary carry read, pdf and the right prefix", () => {
+  const [entry] = buildIssueEntries([manifest("24")], { 24: "2011" });
+  const line = issueMarkdownLine(entry, "en", { base: "https://x.tld", prefix: "/en" });
+  assert.equal(
+    line,
+    "- [proud #24](https://x.tld/en/magazines/24/index.md): 2011 · 68 pages · [Read](https://x.tld/en/magazines/24/read/) · [PDF](https://x.tld/assets/issues/24/proud-24.pdf?v=abcdef12)",
+  );
+  const api = issueApiSummary(entry, { base: "https://x.tld", magazine: { slug: "24", articleCount: 0 }, displayTitle: "proud #24" });
+  assert.equal(api.pageCount, 68);
+  assert.equal(api.publicationDate, "2011");
+  assert.equal(api.readerUrl, "https://x.tld/magazines/24/read/");
+  assert.equal(api.pdfUrl, "https://x.tld/assets/issues/24/proud-24.pdf?v=abcdef12");
+  assert.equal(api.pdfBytes, 26214400);
+});
+
+test("reader markdown lists every page once, in order", () => {
+  const [entry] = buildIssueEntries([manifest("24", { pages: 3 })]);
+  const lines = readerMarkdownLines(entry, "de", { base: "https://x.tld" });
+  assert.equal(lines.length, 4);
+  assert.match(lines[1], /Seite 1\]\(https:\/\/x\.tld\/assets\/issues\/24\/pages\/001-l\.webp\?v=abcdef12\)/);
+  assert.match(lines[3], /Seite 3/);
+});
+
+test("hero names the neighbouring issues", () => {
+  const [one, two, three] = buildIssueEntries([manifest("01"), manifest("02"), manifest("03")]).reverse();
+  const hero = renderIssueHero(two, "de", { prefix: "", markdownHref: "/magazines/02/index.md", previous: one, next: three });
+  assert.match(hero, /Vorherige Ausgabe: proud #01/);
+  assert.match(hero, /Nächste Ausgabe: proud #03/);
 });

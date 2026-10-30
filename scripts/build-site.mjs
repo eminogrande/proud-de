@@ -650,22 +650,20 @@ body:not(.article-page) .content > p:first-of-type::first-letter {
 }
 .issue-grid .issue-card {
   display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-  align-items: center;
+  justify-content: flex-start;
+  gap: 1.4rem;
+  align-items: flex-start;
   padding: 1rem 0;
   border: 0;
+  border-top: 1px solid var(--line);
   border-radius: 0;
   background: transparent;
-}
-.issue-grid .issue-card + .issue-card {
-  border-top: 1px solid var(--line);
 }
 .issue-grid .review-actions {
   margin-top: 0;
 }
 .issue-cover-link {
-  flex: 0 0 clamp(72px, 22vw, 132px);
+  flex: 0 0 clamp(96px, 26vw, 150px);
   display: block;
 }
 .issue-cover {
@@ -713,8 +711,10 @@ body:not(.article-page) .content > p:first-of-type::first-letter {
     grid-template-columns: minmax(0, 320px) minmax(0, 1fr);
     gap: 2rem;
   }
-  .issue-grid .issue-card {
-    align-items: flex-start;
+  .issue-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 3rem;
+    row-gap: 0;
   }
 }
 .article-card {
