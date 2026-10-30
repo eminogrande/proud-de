@@ -38,6 +38,38 @@ export function parsePageParam(raw, pageCount) {
   return clampPage(raw ?? 1, pageCount);
 }
 
+// Which page action a keydown means, or null. Pure so the browser handler stays small.
+// Modifier chords (Cmd+Left is history back) are left to the browser; Space on a control activates it.
+export function keyAction(event) {
+  const tag = event?.target?.tagName ?? "";
+  if (/^(INPUT|TEXTAREA|SELECT)$/.test(tag)) {
+    return null;
+  }
+  if (event.metaKey || event.ctrlKey || event.altKey) {
+    return null;
+  }
+  const control = /^(BUTTON|A|SUMMARY)$/.test(tag);
+  switch (event.key) {
+    case "ArrowRight":
+    case "PageDown":
+      return "next";
+    case "ArrowLeft":
+    case "PageUp":
+      return "prev";
+    case " ":
+      if (control) {
+        return null;
+      }
+      return event.shiftKey ? "prev" : "next";
+    case "Home":
+      return "first";
+    case "End":
+      return "last";
+    default:
+      return null;
+  }
+}
+
 function fill(template, values) {
   return String(template ?? "").replace(/\{(\w+)\}/g, (match, key) => (key in values ? String(values[key]) : match));
 }
@@ -145,31 +177,18 @@ function init(section) {
     if (dialog?.open) {
       return;
     }
-    if (/^(INPUT|TEXTAREA|SELECT)$/.test(event.target.tagName ?? "")) {
+    const action = keyAction(event);
+    if (!action) {
       return;
     }
-    switch (event.key) {
-      case "ArrowRight":
-      case "PageDown":
-        step(1);
-        break;
-      case "ArrowLeft":
-      case "PageUp":
-        step(-1);
-        break;
-      case " ":
-        step(event.shiftKey ? -1 : 1);
-        break;
-      case "Home":
-        go(1);
-        break;
-      case "End":
-        go(count);
-        break;
-      default:
-        return;
-    }
     event.preventDefault();
+    if (action === "first") {
+      go(1);
+    } else if (action === "last") {
+      go(count);
+    } else {
+      step(action === "next" ? 1 : -1);
+    }
   }
 
   let startX = 0;
@@ -197,8 +216,12 @@ function init(section) {
     }
   });
 
-  section.querySelector(".reader-prev")?.addEventListener("click", () => step(-1));
-  section.querySelector(".reader-next")?.addEventListener("click", () => step(1));
+  for (const el of section.querySelectorAll(".reader-prev, .reader-prev-row")) {
+    el.addEventListener("click", () => step(-1));
+  }
+  for (const el of section.querySelectorAll(".reader-next, .reader-next-row")) {
+    el.addEventListener("click", () => step(1));
+  }
   section.querySelector(".reader-first")?.addEventListener("click", () => go(1));
   section.querySelector(".reader-last")?.addEventListener("click", () => go(count));
   slider?.addEventListener("input", () => {

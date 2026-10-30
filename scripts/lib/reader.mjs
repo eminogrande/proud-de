@@ -88,10 +88,11 @@ export function renderReaderMain({
 
   const list = pagesInfo.map((page) => {
     const alt = `${label}, ${t.pageAlt} ${page.n}`;
+    const w = Number(page.w) || 1;
     return (
       `<li><a href="${escapeHtml(url(page.n, "l"))}">` +
       `<img loading="lazy" decoding="async" src="${escapeHtml(url(page.n, "m"))}" ` +
-      `srcset="${escapeHtml(url(page.n, "m"))} 900w, ${escapeHtml(url(page.n, "l"))} 1800w" ` +
+      `srcset="${escapeHtml(url(page.n, "m"))} ${Math.min(900, w)}w, ${escapeHtml(url(page.n, "l"))} ${w}w" ` +
       `sizes="${SIZES}" width="${escapeHtml(page.w)}" height="${escapeHtml(page.h)}" ` +
       `alt="${escapeHtml(alt)}"></a></li>`
     );
@@ -122,7 +123,9 @@ export function renderReaderMain({
   <p class="reader-counter" aria-live="polite"></p>
   <div class="reader-controls">
     <button type="button" class="reader-first" aria-label="${escapeHtml(t.first)}"><span aria-hidden="true">\u00ab</span></button>
+    <button type="button" class="reader-prev-row" aria-label="${escapeHtml(t.previous)}"><span aria-hidden="true">\u2039</span></button>
     <input type="range" class="reader-slider" min="1" max="${pageCount}" step="1" value="${start}" aria-label="${escapeHtml(t.jumpToPage)}">
+    <button type="button" class="reader-next-row" aria-label="${escapeHtml(t.next)}"><span aria-hidden="true">\u203a</span></button>
     <button type="button" class="reader-last" aria-label="${escapeHtml(t.last)}"><span aria-hidden="true">\u00bb</span></button>
   </div>
   <dialog class="reader-grid" id="reader-grid" aria-labelledby="reader-grid-title">

@@ -6,7 +6,7 @@
   width: min(var(--wrap), calc(100vw - 2.5rem));
   margin: 1rem auto 3rem;
 }
-.reader[data-enhanced="true"] { height: calc(100dvh - 5rem); }
+.reader[data-enhanced="true"] { height: calc(100dvh - var(--reader-offset, 5rem)); margin-bottom: 0; }
 
 .reader-head { display: flex; flex-direction: column; gap: 0.3rem; }
 .reader-kicker { margin: 0; font-family: var(--serif-font); font-size: var(--size-meta); color: var(--muted); }
@@ -20,6 +20,12 @@
   margin: 0.2rem 0 0.4rem;
   font-family: var(--serif-font);
   font-size: var(--size-meta);
+}
+
+/* One compact row for kicker, title and toolbar from 900 px, so the page gets the height. */
+@media (min-width: 900px) {
+  .reader-head { flex-direction: row; flex-wrap: wrap; align-items: center; gap: 0 1.2rem; }
+  .reader-toolbar { margin: 0 0 0 auto; }
 }
 
 .reader-back,
@@ -39,6 +45,8 @@
   color: var(--link);
   font: inherit;
   font-size: var(--size-meta);
+  text-decoration: underline;
+  text-underline-offset: 3px;
   cursor: pointer;
 }
 .reader-pdf { color: var(--proud-pink); font-weight: 700; }
@@ -46,7 +54,7 @@
 .reader[data-enhanced="true"] .reader-grid-open { display: inline-flex; }
 .reader-back:hover,
 .reader-grid-open:hover,
-.reader-grid-close:hover { text-decoration: underline; }
+.reader-grid-close:hover { color: var(--proud-pink); }
 .reader :is(a, button, input):focus-visible { outline: 3px solid var(--logo-pink); outline-offset: 3px; border-radius: 4px; }
 
 /* Stage: hidden until JavaScript sets data-enhanced, then 1fr of the viewport. */
@@ -75,29 +83,49 @@
   width: auto;
   object-fit: contain;
 }
-.reader[data-pair="true"] .reader-spread img { width: 50%; height: 100%; }
+.reader[data-pair="true"] .reader-spread img { width: auto; height: 100%; max-width: 50%; }
 .reader-spread img + img { border-left: 1px solid var(--line); }
 
+/* Arrows: big glyph, paper halo so they read on black and on white pictures. */
+.reader-prev,
+.reader-next,
+.reader-prev-row,
+.reader-next-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  border: 0;
+  background: none;
+  color: var(--head);
+  font-size: 3rem;
+  line-height: 1;
+  cursor: pointer;
+}
 .reader-prev,
 .reader-next {
   position: absolute;
   top: 0;
   bottom: 0;
   z-index: 1;
-  width: 44px;
-  min-height: 44px;
-  border: 0;
-  background: none;
-  color: var(--head);
-  font-size: 2rem;
-  line-height: 1;
-  cursor: pointer;
-  opacity: 0.7;
+  width: 48px;
+}
+.reader-prev span,
+.reader-next span,
+.reader-prev-row span,
+.reader-next-row span {
+  text-shadow: 0 0 2px var(--paper), 0 0 6px var(--paper), 0 0 10px var(--paper);
 }
 .reader-prev { left: 0; }
 .reader-next { right: 0; }
 .reader-prev:hover,
-.reader-next:hover { opacity: 1; color: var(--proud-pink); }
+.reader-next:hover,
+.reader-prev-row:hover,
+.reader-next-row:hover { color: var(--proud-pink); }
+/* The control row copies only show on phones. */
+.reader-prev-row,
+.reader-next-row { display: none; }
 
 .reader-counter {
   display: none;
@@ -109,7 +137,8 @@
 }
 
 .reader-controls { display: none; align-items: center; gap: 0.4rem; }
-.reader-controls button { font-size: 1.3rem; color: var(--head); }
+.reader-controls .reader-first,
+.reader-controls .reader-last { font-size: 1.3rem; color: var(--head); }
 .reader-slider { flex: 1 1 auto; min-height: 44px; accent-color: var(--proud-pink); }
 
 .reader-list-intro { margin: 1.4rem 0 0.4rem; font-size: var(--size-meta); color: var(--muted); }
@@ -151,8 +180,12 @@
 .reader-grid-list button[aria-current="true"] img { border-color: var(--proud-pink); }
 
 @media (max-width: 640px) {
+  .reader { width: calc(100vw - 1rem); }
   .reader-toolbar { gap: 0.2rem 0.9rem; }
   .reader-head .label-title { font-size: 1.7rem; }
+  /* Arrows also in the control row, so a thumb never has to find the overlay. */
+  .reader-prev-row,
+  .reader-next-row { display: flex; }
 }
 
 @media (prefers-reduced-motion: reduce) {

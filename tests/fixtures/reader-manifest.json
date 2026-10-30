@@ -12,9 +12,9 @@
   "pageSize": { "w": 2235, "h": 2996 },
   "pagesInfo": [
     { "n": 1, "srcPage": 1, "half": null, "w": 1800, "h": 2413 },
-    { "n": 2, "srcPage": 2, "half": "L", "w": 1800, "h": 1206 },
+    { "n": 2, "srcPage": 2, "half": "L", "w": 1492, "h": 1206 },
     { "n": 3, "srcPage": 2, "half": "R", "w": 1800, "h": 1206 },
-    { "n": 4, "srcPage": 3, "half": "L", "w": 1800, "h": 1206 },
+    { "n": 4, "srcPage": 3, "half": "L", "w": 808, "h": 1206 },
     { "n": 5, "srcPage": 3, "half": "R", "w": 1800, "h": 1206 },
     { "n": 6, "srcPage": 4, "half": "L", "w": 1800, "h": 1206 },
     { "n": 7, "srcPage": 4, "half": "R", "w": 1800, "h": 1206 },

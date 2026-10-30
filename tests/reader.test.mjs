@@ -2,7 +2,7 @@
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import test from "node:test";
-import { viewFor, nextView, prevView, parsePageParam } from "../src/reader/reader.js";
+import { viewFor, nextView, prevView, parsePageParam, keyAction } from "../src/reader/reader.js";
 import { READER_TEXT, renderReaderMain } from "../scripts/lib/reader.mjs";
 
 const manifest = JSON.parse(readFileSync(new URL("./fixtures/reader-manifest.json", import.meta.url), "utf8"));
@@ -138,4 +138,44 @@ test("unknown locale falls back to English and start page is clamped", () => {
   assert.match(html, /data-start-page="10"/);
   assert.match(html, /PDF, 28 MB/);
   assert.match(html, /Back to issue/);
+});
+
+const press = (key, extra = {}) => ({ key, shiftKey: false, metaKey: false, ctrlKey: false, altKey: false, target: { tagName: "BODY" }, ...extra });
+
+test("keyAction maps page keys on the page body", () => {
+  assert.equal(keyAction(press("ArrowRight")), "next");
+  assert.equal(keyAction(press("PageDown")), "next");
+  assert.equal(keyAction(press(" ")), "next");
+  assert.equal(keyAction(press("ArrowLeft")), "prev");
+  assert.equal(keyAction(press("PageUp")), "prev");
+  assert.equal(keyAction(press(" ", { shiftKey: true })), "prev");
+  assert.equal(keyAction(press("Home")), "first");
+  assert.equal(keyAction(press("End")), "last");
+  assert.equal(keyAction(press("a")), null);
+  assert.equal(keyAction({}), null);
+});
+
+test("keyAction leaves modifier chords to the browser", () => {
+  for (const modifier of ["metaKey", "ctrlKey", "altKey"]) {
+    assert.equal(keyAction(press("ArrowLeft", { [modifier]: true })), null, modifier);
+    assert.equal(keyAction(press("ArrowRight", { [modifier]: true })), null, modifier);
+    assert.equal(keyAction(press(" ", { [modifier]: true })), null, modifier);
+  }
+  assert.equal(keyAction(press("ArrowRight", { shiftKey: true })), "next");
+});
+
+test("keyAction keeps Space for buttons, links and summary, arrows still turn", () => {
+  for (const tagName of ["BUTTON", "A", "SUMMARY"]) {
+    assert.equal(keyAction(press(" ", { target: { tagName } })), null, tagName);
+    assert.equal(keyAction(press("ArrowRight", { target: { tagName } })), "next", tagName);
+  }
+  assert.equal(keyAction(press(" ", { target: { tagName: "INPUT" } })), null);
+  assert.equal(keyAction(press("ArrowRight", { target: { tagName: "TEXTAREA" } })), null);
+});
+
+test("srcset descriptors are the real widths of the l and m files", () => {
+  const html = render();
+  assert.match(html, /\/pages\/002-m\.webp\?v=deadbeef 900w, \/assets\/issues\/01\/pages\/002-l\.webp\?v=deadbeef 1492w/);
+  assert.match(html, /\/pages\/004-m\.webp\?v=deadbeef 808w, \/assets\/issues\/01\/pages\/004-l\.webp\?v=deadbeef 808w/);
+  assert.match(html, /\/pages\/001-l\.webp\?v=deadbeef 1800w/);
 });
