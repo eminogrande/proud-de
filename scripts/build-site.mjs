@@ -3125,8 +3125,7 @@ function renderLayout(site, {
     <meta name="twitter:title" content="${escapeHtml(socialTitle)}">
     <meta name="twitter:description" content="${escapeHtml(socialDescription)}">
     ${socialImageUrl ? `<meta name="twitter:image" content="${escapeHtml(socialImageUrl)}">` : ""}
-    <link rel="stylesheet" href="/assets/site.css">
-    ${headExtra}
+    <link rel="stylesheet" href="/assets/site.css">${headExtra ? `\n    ${headExtra}` : ""}
     ${jsonLd}
   </head>
   <body${bodyClass ? ` class="${escapeHtml(bodyClass)}"` : ""}>
@@ -3135,8 +3134,7 @@ function renderLayout(site, {
       ${visibleBody}
     </main>
     ${renderSiteFooter(site, locale)}
-    <script src="/assets/webmcp.js" defer></script>
-    ${bodyExtra}
+    <script src="/assets/webmcp.js" defer></script>${bodyExtra ? `\n    ${bodyExtra}` : ""}
   </body>
 </html>`;
 }
