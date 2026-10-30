@@ -37,9 +37,9 @@ Access date for all web sources: 2026-10-30. Issue 10 never existed, so it has n
 | 16 | 2010-05 | proven | https://issuu.com/proud/docs/16-proud-magazine-berlin-mai-2010 | Issuu slug carries `mai-2010` |
 | 17 | 2010-06 | proven | https://issuu.com/proud/docs/17-proud-magazine-berlin-juni-2010 | Issuu slug carries `juni-2010` |
 | 18 | 2010-07 | proven | `data/input/pdfs/18 proud issuu_output.pdf`, page 1, top 16 percent | Printed cover line, OCR reads `JULI 2010`. Issuu upload 2012-03-07 under an upload id, so the title carries no date |
-| 19 | 2010-09 | proven | https://issuu.com/proud/docs/19-proud-magazine-berlin-september-2010 | Issuu slug carries `september-2010`. Upload 2010-08-16 |
+| 19 | 2010-09 | proven | https://issuu.com/proud/docs/19-proud-magazine-berlin-september-2010 | Issuu slug carries `september-2010`. The page shows upload date 2011-08-16, a bulk upload (see below) |
 | 20 | 2010 | proven year | `data/input/pdfs/20 proud issuu_output.pdf`, page 1 | Printed cover line, OCR reads `BERLIN 2010`. Month missing on the cover, so month is inferred |
-| 21 | 2010-10 | inferred | https://issuu.com/proud/docs/21-proud-magazine | Rule: issue 19 is September 2010 and 21 was uploaded on 2010-10-31. Cover has no date line. Upload date https://issuu.com/proud/docs/21-proud-magazine `datePublished` 2010-10-31 |
+| 21 | 2010-11 | inferred (guess) | https://issuu.com/proud/docs/21-proud-magazine | Rule: issue 19 is September 2010, so 20 fits October and 21 November. Issuu shows upload date 2010-10-31, one day before November. Cover has no date line. Upload date https://issuu.com/proud/docs/21-proud-magazine `datePublished` 2010-10-31 |
 | 22 | 2011 | proven year | https://issuu.com/proud/docs/22-proud-magazine-20111, file `data/input/pdfs/22-proud-magazine-2011.pdf` | Issuu slug carries `2011`. The vector PDF prints `3. jahrgang`, `aUSgaBE #22`, `#22 AUSGABE 2011` on pages 1 and 14 |
 | 23 | 2011 | proven year | https://issuu.com/proud/docs/23-proud-magazine-2011 | Issuu slug carries `2011`. Cover page 1 prints `3. JAHRGANG AUSGABE #23` |
 | 24 | 2011 | proven year | https://issuu.com/proud/docs/24-proud-magazine-berlin-2011 | Issuu slug carries `2011`. Cover prints `3. JAHRGANG AUSGABE #24` |
@@ -55,7 +55,7 @@ Access date for all web sources: 2026-10-30. Issue 10 never existed, so it has n
 ## Month of issue 20, 21, 22 and 23 in detail
 
 - Issue 18 proves the run was monthly in July 2010 (cover `JULI 2010`).
-- Issue 19 is September 2010 and was uploaded on August 16, 2010, so uploads ran about two weeks before the cover month.
+- An upload date proves a month only for issues uploaded when they appeared. The Issuu pages show 2009-03-05 (03), 2009-04-09 (04), 2009-05-07 (05), 2009-06-04 (06), 2009-11-05 (11), 2010-02-04 (14) and 2010-06-03 (17), each inside its cover month. Most other issues were uploaded in bulk later (2011-08-12 to 2011-08-16 and 2012-02-27 to 2012-03-12), so their upload date says nothing about the cover month. Issue 19 shows 2011-08-16, a bulk upload. Checked on 2026-10-30.
 - Issue 21 was uploaded on October 31, 2010.
 - That leaves issue 20 for October 2010 and issue 21 for November 2010. Both are only guesses, because no page of either issue prints a month.
 - Issue 22 is the first issue of `3. Jahrgang` and its opening pages list a party on 21 January 2011 and a `proud talents night` on 26 and 27 February 2011. The issue was therefore on sale in February 2011 or later, so January 2011 is too early.
