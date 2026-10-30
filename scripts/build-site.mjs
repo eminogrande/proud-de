@@ -651,7 +651,7 @@ body:not(.article-page) .content > p:first-of-type::first-letter {
 .issue-grid .issue-card {
   display: flex;
   justify-content: flex-start;
-  gap: 1.4rem;
+  gap: 1rem;
   align-items: flex-start;
   padding: 1rem 0;
   border: 0;
@@ -661,6 +661,7 @@ body:not(.article-page) .content > p:first-of-type::first-letter {
 }
 .issue-grid .review-actions {
   margin-top: 0;
+  gap: 0.5rem;
 }
 .issue-cover-link {
   flex: 0 0 clamp(96px, 26vw, 150px);

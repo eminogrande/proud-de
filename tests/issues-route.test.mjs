@@ -246,6 +246,17 @@ after(async () => {
   await fsp.rm(localDir, { recursive: true, force: true });
 });
 
+test("local server does not pile up Link headers from request to request", async () => {
+  const count = async () => {
+    const res = await fetch(`http://127.0.0.1:${port}/magazines/`);
+    await res.arrayBuffer();
+    return (res.headers.get("link") ?? "").split(", <").length;
+  };
+  const first = await count();
+  for (let i = 0; i < 5; i += 1) await count();
+  assert.equal(await count(), first);
+});
+
 test("local server answers the same allowlist and headers", async () => {
   assert.equal(parseIssueAsset("/assets/issues/24/pages/001-m.webp").relative, "24/pages/001-m.webp");
 

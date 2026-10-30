@@ -56,7 +56,7 @@ function extType(filePath) {
 
 function addCommonHeaders(res) {
   res.setHeader("X-Robots-Tag", "all");
-  res.setHeader("Link", COMMON_LINK_HEADERS);
+  res.setHeader("Link", [...COMMON_LINK_HEADERS]);
 }
 
 function safeFilePath(root, target) {
