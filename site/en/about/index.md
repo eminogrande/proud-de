@@ -30,6 +30,6 @@ The German National Library (Deutsche Nationalbibliothek) holds proud in Frankfu
 
 ## This archive
 
-This website republishes the printed issues as a reading edition. Each article keeps a link to the scanned original pages. So far 1 issue is online with 63 articles. More issues follow once their text has been checked.
+This website republishes the printed issues as a reading edition. All 32 issues can be browsed page by page and downloaded as PDF. 63 articles are also online as checked text, each with a link to the scanned original pages. More articles follow once their text has been checked.
 
 Read how the republication works in the [editorial standards](/en/standards/), see who made issue 01 in the [masthead](/en/masthead/), or browse the [authors](/en/authors/).

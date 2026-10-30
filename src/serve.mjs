@@ -5,7 +5,8 @@ import http from "node:http";
 import path from "node:path";
 import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/streamableHttp.js";
 import { isInitializeRequest } from "@modelcontextprotocol/sdk/types.js";
-import { ensureWorkspace } from "./lib/config.mjs";
+import { ensureWorkspace, PROJECT_ROOT } from "./lib/config.mjs";
+import { ISSUES_PREFIX, issueCacheControl, issueContentDisposition, parseIssueAsset } from "./lib/issues-route.mjs";
 import { createProudMcpServer } from "./lib/mcp-core.mjs";
 import { formatSearchResults } from "./lib/search.mjs";
 import { loadLibrary } from "./lib/store.mjs";
@@ -17,6 +18,11 @@ const MIME_TYPES = new Map([
   [".xml", "application/xml; charset=utf-8"],
   [".json", "application/json; charset=utf-8"],
   [".css", "text/css; charset=utf-8"],
+  [".js", "text/javascript; charset=utf-8"],
+  [".webp", "image/webp"],
+  [".svg", "image/svg+xml"],
+  [".woff2", "font/woff2"],
+  [".ico", "image/x-icon"],
   [".png", "image/png"],
   [".jpg", "image/jpeg"],
   [".jpeg", "image/jpeg"],
@@ -50,7 +56,7 @@ function extType(filePath) {
 
 function addCommonHeaders(res) {
   res.setHeader("X-Robots-Tag", "all");
-  res.setHeader("Link", COMMON_LINK_HEADERS);
+  res.setHeader("Link", [...COMMON_LINK_HEADERS]);
 }
 
 function safeFilePath(root, target) {
@@ -148,6 +154,81 @@ async function serveFile(res, filePath, req, routePath) {
   fs.createReadStream(filePath).pipe(res);
 }
 
+// Local twin of the Worker route: same allowlist, same headers, Range for the PDF.
+async function serveIssueAsset(requestUrl, req, res, issuesDir) {
+  const asset = parseIssueAsset(requestUrl.pathname);
+  const sendNotFound = () => {
+    res.statusCode = 404;
+    addCommonHeaders(res);
+    res.end("Not Found");
+  };
+
+  if (!asset) {
+    sendNotFound();
+    return;
+  }
+
+  const filePath = path.join(issuesDir, asset.relative);
+  const stat = await fsp.stat(filePath).catch(() => null);
+  if (!stat?.isFile()) {
+    sendNotFound();
+    return;
+  }
+
+  const etag = `"${stat.size.toString(16)}-${Math.floor(stat.mtimeMs).toString(16)}"`;
+  res.setHeader("Content-Type", asset.contentType);
+  res.setHeader("X-Content-Type-Options", "nosniff");
+  res.setHeader("Accept-Ranges", "bytes");
+  res.setHeader("ETag", etag);
+  res.setHeader("Last-Modified", stat.mtime.toUTCString());
+  res.setHeader("Cache-Control", issueCacheControl(requestUrl.searchParams.has("v")));
+  if (asset.pdf) {
+    res.setHeader("Content-Disposition", issueContentDisposition(asset, requestUrl.searchParams.get("download") === "1"));
+  }
+  addCommonHeaders(res);
+
+  // Same preconditions as the Worker: 304 for a conditional miss, 412 for a
+  // failed If-Match, no body either way.
+  if (req.headers["if-match"] && req.headers["if-match"] !== etag
+    && !req.headers["if-none-match"] && !req.headers["if-modified-since"]) {
+    res.statusCode = 412;
+    res.end();
+    return;
+  }
+  if (req.headers["if-none-match"] === etag || req.headers["if-modified-since"] === res.getHeader("Last-Modified")) {
+    res.statusCode = 304;
+    res.end();
+    return;
+  }
+
+  // A junk or unsatisfiable range answers the whole file, like R2 does.
+  const range = /^bytes=(\d*)-(\d*)$/.exec(req.headers.range ?? "");
+  const ranged = Boolean(range) && Boolean(range[1] || range[2]);
+  const start = ranged ? (range[1] ? Number(range[1]) : Math.max(0, stat.size - Number(range[2]))) : 0;
+  const end = ranged && range[1] && range[2] ? Math.min(Number(range[2]), stat.size - 1) : stat.size - 1;
+  const partial = ranged && start <= end && start < stat.size;
+
+  if (partial) {
+    res.statusCode = 206;
+    res.setHeader("Content-Range", `bytes ${start}-${end}/${stat.size}`);
+    res.setHeader("Content-Length", `${end - start + 1}`);
+    if (req.method === "HEAD") {
+      res.end();
+      return;
+    }
+    fs.createReadStream(filePath, { start, end }).pipe(res);
+    return;
+  }
+
+  res.statusCode = 200;
+  res.setHeader("Content-Length", `${stat.size}`);
+  if (req.method === "HEAD") {
+    res.end();
+    return;
+  }
+  fs.createReadStream(filePath).pipe(res);
+}
+
 async function readTextBody(req) {
   const chunks = [];
   for await (const chunk of req) {
@@ -179,6 +260,9 @@ async function main() {
   const siteDir = site.paths.siteOutputDir;
   const mcpTransports = new Map();
   const port = Number.parseInt(process.env.PORT ?? "8787", 10);
+  const issuesDir = process.env.PROUD_ISSUES_DIR
+    ? path.resolve(process.env.PROUD_ISSUES_DIR)
+    : path.join(PROJECT_ROOT, "data/output/issues");
 
   const server = http.createServer(async (req, res) => {
     try {
@@ -267,6 +351,11 @@ async function main() {
         res.statusCode = 405;
         res.setHeader("Allow", "GET, HEAD");
         res.end("Method Not Allowed");
+        return;
+      }
+
+      if (requestUrl.pathname.startsWith(ISSUES_PREFIX)) {
+        await serveIssueAsset(requestUrl, req, res, issuesDir);
         return;
       }
 

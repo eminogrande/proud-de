@@ -184,7 +184,7 @@
     "/api/magazines/{slug}.json": {
       "get": {
         "operationId": "getMagazine",
-        "summary": "Get magazine by slug",
+        "summary": "Get one issue by slug (issue 01) or by its two-digit number (every issue, 00 to 32)",
         "parameters": [
           {
             "name": "slug",
@@ -522,6 +522,17 @@
           "url": {
             "type": "string",
             "format": "uri"
+          },
+          "readerUrl": {
+            "type": "string",
+            "format": "uri"
+          },
+          "pdfUrl": {
+            "type": "string",
+            "format": "uri"
+          },
+          "pdfBytes": {
+            "type": "integer"
           }
         }
       },
@@ -562,7 +573,20 @@
           },
           "pdfUrl": {
             "type": "string",
+            "format": "uri",
+            "description": "Web PDF of the issue, one magazine page per PDF page."
+          },
+          "originalPdfUrl": {
+            "type": "string",
+            "format": "uri",
+            "description": "Original scan PDF (issue 01 only)."
+          },
+          "readerUrl": {
+            "type": "string",
             "format": "uri"
+          },
+          "pdfBytes": {
+            "type": "integer"
           }
         }
       },

@@ -1,0 +1,18 @@
+---
+title: "proud #19"
+slug: "19"
+locale: "de"
+publication_date: "2010-09"
+source_pdf: null
+page_count: 68
+article_count: 0
+canonical_url: "https://proud.xn--wp9h.tk/magazines/19/"
+---
+
+# proud #19
+
+> Seiten: 68
+> Lesen: https://proud.xn--wp9h.tk/magazines/19/read/
+> PDF: https://proud.xn--wp9h.tk/assets/issues/19/proud-19.pdf?v=d71482c0
+
+> Die Artikel dieser Ausgabe werden noch erfasst. Lesen und PDF gibt es schon.
