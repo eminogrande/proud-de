@@ -30,6 +30,6 @@ Die Deutsche Nationalbibliothek führt proud in Frankfurt am Main und Leipzig: S
 
 ## Dieses Archiv
 
-Diese Website veröffentlicht die gedruckten Hefte als Leseausgabe neu. Jeder Artikel verlinkt auf die gescannten Originalseiten. Bisher ist 1 Heft mit 63 Artikeln online. Weitere Hefte folgen, sobald ihr Text geprüft ist.
+Diese Website veröffentlicht die gedruckten Hefte als Leseausgabe neu. Alle 32 Hefte lassen sich Seite für Seite blättern und als PDF laden. 63 Artikel gibt es zusätzlich als geprüften Text, jeder mit Link auf die gescannten Originalseiten. Weitere Artikel folgen, sobald ihr Text geprüft ist.
 
 Wie die Neuveröffentlichung funktioniert, steht in den [Grundsätzen](/standards/). Wer Heft 01 gemacht hat, zeigt die [Redaktion](/masthead/). Alle Beteiligten mit Credit: [Autor:innen](/authors/).

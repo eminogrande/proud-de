@@ -1,0 +1,196 @@
+/* Page-by-page reader. Bright paper, no boxes, no shadows. */
+.reader {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  width: min(var(--wrap), calc(100vw - 2.5rem));
+  margin: 1rem auto 3rem;
+}
+.reader[data-enhanced="true"] { height: calc(100dvh - var(--reader-offset, 5rem) - 1.5rem); margin-bottom: 0.5rem; }
+
+.reader-head { display: flex; flex-direction: column; gap: 0.3rem; }
+.reader-kicker { margin: 0; font-family: var(--serif-font); font-size: var(--size-meta); color: var(--muted); }
+.reader-head .label-title { margin: 0; font-size: clamp(1.6rem, 4vw, 2.4rem); }
+
+.reader-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.2rem 1.2rem;
+  margin: 0.2rem 0 0.4rem;
+  font-family: var(--serif-font);
+  font-size: var(--size-meta);
+}
+
+/* One compact row for kicker, title and toolbar from 900 px, so the page gets the height. */
+@media (min-width: 900px) {
+  .reader-head { flex-direction: row; flex-wrap: wrap; align-items: center; gap: 0 1.2rem; }
+  .reader-toolbar { margin: 0 0 0 auto; }
+}
+
+.reader-back,
+.reader-pdf,
+.reader-grid-open,
+.reader-first,
+.reader-last,
+.reader-grid-close {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  min-width: 44px;
+  padding: 0 0.6rem;
+  border: 0;
+  background: none;
+  color: var(--link);
+  font: inherit;
+  font-size: var(--size-meta);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+.reader-pdf { color: var(--proud-pink); font-weight: 700; }
+.reader-grid-open { display: none; color: var(--head); }
+.reader[data-enhanced="true"] .reader-grid-open { display: inline-flex; }
+.reader-back:hover,
+.reader-grid-open:hover,
+.reader-grid-close:hover { color: var(--proud-pink); }
+.reader :is(a, button, input):focus-visible { outline: 3px solid var(--logo-pink); outline-offset: 3px; border-radius: 4px; }
+
+/* Stage: hidden until JavaScript sets data-enhanced, then 1fr of the viewport. */
+.reader-stage { display: none; flex: 1 1 auto; min-height: 0; position: relative; }
+.reader[data-enhanced="true"] .reader-stage { display: flex; }
+.reader[data-enhanced="true"] .reader-counter,
+.reader[data-enhanced="true"] .reader-controls { display: flex; }
+.reader[data-enhanced="true"] .reader-list-intro { display: none; }
+.reader[data-enhanced="true"] .reader-pages { display: none; }
+
+.reader-spread {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  touch-action: pan-y pinch-zoom;
+  transition: opacity 75ms linear;
+}
+.reader-spread.is-turning { opacity: 0; }
+.reader-spread img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  object-fit: contain;
+}
+.reader[data-pair="true"] .reader-spread img { width: auto; height: 100%; max-width: 50%; }
+
+/* Arrows: big glyph, paper halo so they read on black and on white pictures. */
+.reader-prev,
+.reader-next,
+.reader-prev-row,
+.reader-next-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  border: 0;
+  background: none;
+  color: var(--head);
+  font-size: 3rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.reader-prev,
+.reader-next {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 48px;
+}
+.reader-prev span,
+.reader-next span,
+.reader-prev-row span,
+.reader-next-row span {
+  text-shadow: 2px 0 0 var(--paper), -2px 0 0 var(--paper), 0 2px 0 var(--paper), 0 -2px 0 var(--paper),
+    1.5px 1.5px 0 var(--paper), -1.5px 1.5px 0 var(--paper), 1.5px -1.5px 0 var(--paper), -1.5px -1.5px 0 var(--paper),
+    0 0 6px var(--paper);
+}
+.reader-prev { left: 0; }
+.reader-next { right: 0; }
+.reader-prev:hover,
+.reader-next:hover,
+.reader-prev-row:hover,
+.reader-next-row:hover { color: var(--proud-pink); }
+/* The control row copies only show on phones. */
+.reader-prev-row,
+.reader-next-row { display: none; }
+
+.reader-counter {
+  display: none;
+  margin: 0;
+  font-family: var(--serif-font);
+  font-size: var(--size-meta);
+  color: var(--muted);
+  justify-content: center;
+}
+
+.reader-controls { display: none; align-items: center; gap: 0.4rem; }
+.reader-controls .reader-first,
+.reader-controls .reader-last { font-size: 1.3rem; color: var(--head); }
+.reader-slider { flex: 1 1 auto; min-height: 44px; accent-color: var(--proud-pink); }
+
+.reader-list-intro { margin: 1.4rem 0 0.4rem; font-size: var(--size-meta); color: var(--muted); }
+.reader-pages { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.6rem; }
+.reader-pages a { display: block; }
+.reader-pages img { width: 100%; height: auto; }
+
+/* Page grid */
+.reader-grid {
+  width: min(70rem, 92vw);
+  max-height: 88dvh;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif-font);
+}
+.reader-grid::backdrop { background: rgba(0, 43, 54, 0.4); }
+.reader-grid-head { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.reader-grid-head .label-heading { margin: 0; font-size: var(--size-label-h2); }
+.reader-grid-close { font-size: 1.6rem; }
+.reader-grid-list {
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(84px, 1fr));
+  gap: 0.5rem;
+}
+.reader-grid-list button {
+  width: 100%;
+  min-height: 44px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+.reader-grid-list img { width: 100%; height: auto; border: 1px solid var(--line); }
+.reader-grid-list button[aria-current="true"] img { border-color: var(--proud-pink); }
+
+@media (max-width: 640px) {
+  /* Wider than the text column by 0.75rem a side (the host gutter is 1.25rem). No vw: scrollbars cannot push it past the screen. */
+  .reader { width: auto; margin-inline: -0.75rem; }
+  .reader-toolbar { gap: 0 0.3rem; }
+  .reader-back, .reader-pdf, .reader-grid-open { padding: 0 0.4rem; }
+  .reader-head .label-title { font-size: 1.7rem; }
+  /* Arrows also in the control row, so a thumb never has to find the overlay. */
+  .reader-prev-row,
+  .reader-next-row { display: flex; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reader-spread { transition: none; }
+}
