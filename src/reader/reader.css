@@ -6,7 +6,7 @@
   width: min(var(--wrap), calc(100vw - 2.5rem));
   margin: 1rem auto 3rem;
 }
-.reader[data-enhanced="true"] { height: calc(100dvh - var(--reader-offset, 5rem)); margin-bottom: 0; }
+.reader[data-enhanced="true"] { height: calc(100dvh - var(--reader-offset, 5rem) - 1.5rem); margin-bottom: 0.5rem; }
 
 .reader-head { display: flex; flex-direction: column; gap: 0.3rem; }
 .reader-kicker { margin: 0; font-family: var(--serif-font); font-size: var(--size-meta); color: var(--muted); }
@@ -84,7 +84,6 @@
   object-fit: contain;
 }
 .reader[data-pair="true"] .reader-spread img { width: auto; height: 100%; max-width: 50%; }
-.reader-spread img + img { border-left: 1px solid var(--line); }
 
 /* Arrows: big glyph, paper halo so they read on black and on white pictures. */
 .reader-prev,
@@ -115,7 +114,9 @@
 .reader-next span,
 .reader-prev-row span,
 .reader-next-row span {
-  text-shadow: 0 0 2px var(--paper), 0 0 6px var(--paper), 0 0 10px var(--paper);
+  text-shadow: 2px 0 0 var(--paper), -2px 0 0 var(--paper), 0 2px 0 var(--paper), 0 -2px 0 var(--paper),
+    1.5px 1.5px 0 var(--paper), -1.5px 1.5px 0 var(--paper), 1.5px -1.5px 0 var(--paper), -1.5px -1.5px 0 var(--paper),
+    0 0 6px var(--paper);
 }
 .reader-prev { left: 0; }
 .reader-next { right: 0; }
@@ -180,8 +181,10 @@
 .reader-grid-list button[aria-current="true"] img { border-color: var(--proud-pink); }
 
 @media (max-width: 640px) {
-  .reader { width: calc(100vw - 1rem); }
-  .reader-toolbar { gap: 0.2rem 0.9rem; }
+  /* Wider than the text column by 0.75rem a side (the host gutter is 1.25rem). No vw: scrollbars cannot push it past the screen. */
+  .reader { width: auto; margin-inline: -0.75rem; }
+  .reader-toolbar { gap: 0 0.3rem; }
+  .reader-back, .reader-pdf, .reader-grid-open { padding: 0 0.4rem; }
   .reader-head .label-title { font-size: 1.7rem; }
   /* Arrows also in the control row, so a thumb never has to find the overlay. */
   .reader-prev-row,
