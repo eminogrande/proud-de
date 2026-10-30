@@ -23,7 +23,7 @@ test("pages mirror loads issue pages and PDFs from the Worker host, everything e
       '<link rel="canonical" href="https://worker.test/magazines/">',
     ].join("\n"),
   );
-  await fs.writeFile(path.join(src, "llms.txt"), "- [PDF](https://proud.xn--wp9h.tk/assets/issues/24/proud-24.pdf?v=ab)\n- [Lesen](/magazines/24/read/)\n");
+  await fs.writeFile(path.join(src, "llms.txt"), "- [PDF](https://worker.test/assets/issues/24/proud-24.pdf?v=ab)\n- [Lesen](/magazines/24/read/)\n");
 
   await run(process.execPath, [SCRIPT, src, out], { env: { ...process.env, PAGES_ORIGIN: "https://pages.test", PAGES_BASE_PATH: "/proud-de", SOURCE_ORIGIN: "https://worker.test" } });
 
