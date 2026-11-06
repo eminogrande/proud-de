@@ -5,7 +5,9 @@ import {
   formatIssueSize,
   issueDateLabel,
   issueNumberOf,
+  issuePdfBase,
   issuePdfHref,
+  issuePdfPath,
   issueReadHref,
   renderIssueCard,
   renderIssueHero,
@@ -51,7 +53,15 @@ test("entries carry the cover size and the pdf version", () => {
   const [entry] = buildIssueEntries([manifest("24")]);
   assert.deepEqual(entry.cover, { w: 1800, h: 2413 });
   assert.equal(entry.version, "abcdef12");
-  assert.equal(issuePdfHref(entry), "/assets/issues/24/proud-24.pdf?download=1&v=abcdef12");
+  assert.equal(issuePdfBase(), "https://github.com/eminogrande/proud-de/releases/download/issues-pdfs-v1");
+  assert.equal(issuePdfHref(entry), "https://github.com/eminogrande/proud-de/releases/download/issues-pdfs-v1/proud-24.pdf?download=1");
+  assert.equal(issuePdfPath(entry), "https://github.com/eminogrande/proud-de/releases/download/issues-pdfs-v1/proud-24.pdf");
+  process.env.PROUD_PDF_BASE = "/assets/issues/";
+  assert.equal(issuePdfHref(entry), "/assets/issues/proud-24.pdf?download=1&v=abcdef12");
+  assert.equal(issuePdfPath(entry), "/assets/issues/proud-24.pdf?v=abcdef12");
+  process.env.PROUD_PDF_BASE = "/assets/issues";
+  assert.equal(issuePdfHref(entry), "/assets/issues/proud-24.pdf?download=1&v=abcdef12");
+  delete process.env.PROUD_PDF_BASE;
   assert.equal(issueReadHref("/en", entry), "/en/magazines/24/read/");
   assert.equal(formatIssueSize(26214400, "de"), "25,0");
 });
@@ -97,6 +107,7 @@ test("json-ld has issue, media and part of the periodical", () => {
   assert.equal(data.numberOfPages, 68);
   assert.equal(data.image, "https://x.tld/assets/issues/23/pages/001-m.webp?v=abcdef12");
   assert.equal(data.associatedMedia.encodingFormat, "application/pdf");
+  assert.equal(data.associatedMedia.contentUrl, "https://github.com/eminogrande/proud-de/releases/download/issues-pdfs-v1/proud-23.pdf");
   assert.equal(data.associatedMedia.contentSize, "26214400 B");
   assert.deepEqual(data.isPartOf, { "@id": "https://x.tld/#periodical" });
 });
@@ -106,13 +117,13 @@ test("markdown line and api summary carry read, pdf and the right prefix", () =>
   const line = issueMarkdownLine(entry, "en", { base: "https://x.tld", prefix: "/en" });
   assert.equal(
     line,
-    "- [proud #24](https://x.tld/en/magazines/24/index.md): 2011 · 68 pages · [Read](https://x.tld/en/magazines/24/read/) · [PDF](https://x.tld/assets/issues/24/proud-24.pdf?v=abcdef12)",
+    "- [proud #24](https://x.tld/en/magazines/24/index.md): 2011 · 68 pages · [Read](https://x.tld/en/magazines/24/read/) · [PDF](https://github.com/eminogrande/proud-de/releases/download/issues-pdfs-v1/proud-24.pdf)",
   );
   const api = issueApiSummary(entry, { base: "https://x.tld", magazine: { slug: "24", articleCount: 0 }, displayTitle: "proud #24" });
   assert.equal(api.pageCount, 68);
   assert.equal(api.publicationDate, "2011");
   assert.equal(api.readerUrl, "https://x.tld/magazines/24/read/");
-  assert.equal(api.pdfUrl, "https://x.tld/assets/issues/24/proud-24.pdf?v=abcdef12");
+  assert.equal(api.pdfUrl, "https://github.com/eminogrande/proud-de/releases/download/issues-pdfs-v1/proud-24.pdf");
   assert.equal(api.pdfBytes, 26214400);
 });
 

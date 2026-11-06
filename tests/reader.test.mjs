@@ -124,6 +124,7 @@ test("every binary URL carries the version", () => {
     assert.match(url, /(?:[?&]|&amp;)v=deadbeef/, url);
   }
   assert.match(render(), /href="\/assets\/issues\/01\/proud-01\.pdf\?download=1&amp;v=deadbeef"/);
+  assert.match(render({ pdfUrl: "https://github.com/x/proud-01.pdf?download=1" }), /class="reader-pdf" href="https:\/\/github\.com\/x\/proud-01\.pdf\?download=1" target="_blank" rel="noopener"/);
 });
 
 test("interpolated values are escaped", () => {

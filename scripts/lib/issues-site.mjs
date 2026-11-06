@@ -111,12 +111,26 @@ export function issueDateLabel(entry, locale = "de") {
     .format(new Date(Date.UTC(Number(year), Number(month) - 1, 1)));
 }
 
+// The web PDFs live in a public GitHub release, because Cloudflare static assets
+// are limited to 25 MiB per file and the largest issue is 39 MB. The page images
+// ship with the Worker. PROUD_PDF_BASE can point elsewhere (for example the old
+// /assets/issues route) without a code change; a relative base keeps the old form.
+export const PDF_RELEASE_BASE = "https://github.com/eminogrande/proud-de/releases/download/issues-pdfs-v1";
+
+export function issuePdfBase() {
+  return (process.env.PROUD_PDF_BASE ?? PDF_RELEASE_BASE).replace(/\/+$/, "");
+}
+
 export function issuePdfPath(entry) {
-  return `${entry.assetBase}/${entry.pdfName}?v=${entry.version}`;
+  const base = issuePdfBase();
+  const suffix = base.startsWith("/") ? `?v=${entry.version}` : "";
+  return `${base}/${entry.pdfName}${suffix}`;
 }
 
 export function issuePdfHref(entry) {
-  return `${entry.assetBase}/${entry.pdfName}?download=1&v=${entry.version}`;
+  const base = issuePdfBase();
+  const suffix = base.startsWith("/") ? `?download=1&v=${entry.version}` : "?download=1";
+  return `${base}/${entry.pdfName}${suffix}`;
 }
 
 export function issuePageHref(prefix, entry) {
@@ -228,7 +242,7 @@ export function issueJsonLd(entry, { base, locale, partOf }) {
     associatedMedia: {
       "@type": "MediaObject",
       name: `${entry.title} PDF`,
-      contentUrl: `${base}${entry.assetBase}/${entry.pdfName}`,
+      contentUrl: issuePdfPath(entry),
       encodingFormat: "application/pdf",
       contentSize: `${entry.pdfBytes} B`,
     },
@@ -251,7 +265,7 @@ export function issueMarkdownLine(entry, locale, { base = "", prefix = "" } = {}
   const t = issueText(locale);
   const meta = [issueDateLabel(entry, locale), t.pages(entry.pages)].filter(Boolean).join(" · ");
   const page = `${base}${prefix}/magazines/${entry.n}/`;
-  return `- [${entry.title}](${page}index.md): ${meta} · [${t.read}](${page}read/) · [PDF](${base}${issuePdfPath(entry)})`;
+  return `- [${entry.title}](${page}index.md): ${meta} · [${t.read}](${page}read/) · [PDF](${issuePdfPath(entry)})`;
 }
 
 export function readerMarkdownLines(entry, locale, { base = "", prefix = "" } = {}) {
@@ -275,7 +289,7 @@ export function issueApiSummary(entry, { base, prefix = "", magazine, displayTit
     articleCount: magazine.articleCount ?? 0,
     url: `${base}${prefix}/magazines/${entry.n}/`,
     readerUrl: `${base}${prefix}/magazines/${entry.n}/read/`,
-    pdfUrl: `${base}${issuePdfPath(entry)}`,
+    pdfUrl: issuePdfPath(entry),
     pdfBytes: entry.pdfBytes,
   };
 }

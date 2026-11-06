@@ -10,7 +10,7 @@ import { detectLanguageFromText, localizeArticle, localeLabel } from "../src/lib
 import { loadLibrary, sortArticles } from "../src/lib/store.mjs";
 import { PROJECT_ROOT } from "../src/lib/config.mjs";
 import {
-  buildIssueEntries, issueApiSummary, issueBreadcrumb, issueJsonLd, issueMarkdownLine, issuePdfPath,
+  buildIssueEntries, issueApiSummary, issueBreadcrumb, issueJsonLd, issueMarkdownLine, issuePdfHref, issuePdfPath,
   issueText, loadIssueManifests, readerMarkdownLines, READER_OFFSET_CSS, renderIssueCard, renderIssueHero,
   renderIssueNotice, renderRedirectPage,
 } from "./lib/issues-site.mjs";
@@ -3536,7 +3536,7 @@ function buildMagazineMarkdown(site, locale, entry, magazine, localizedArticles)
     "",
     `> ${copy.pages}: ${entry.pages}`,
     `> ${copy.read}: ${baseUrl(site)}${routeForIssueRead(site, locale, entry.n)}`,
-    `> PDF: ${baseUrl(site)}${issuePdfPath(entry)}`,
+    `> PDF: ${issuePdfPath(entry)}`,
     "",
   ];
 
@@ -3632,6 +3632,7 @@ function buildReaderHtml(site, locale, entry, manifest, locales) {
       version: entry.version,
       title: entry.title,
       dateLabel: issueDateLabel(entry.date, locale) || null,
+      pdfUrl: issuePdfHref(entry),
       hrefs: { issue: issueHref, overview: routeForMagazinesIndex(site, locale) },
     }),
     bodyClass: "reader-page",
@@ -5282,7 +5283,29 @@ Example citation fields:
 
   await writeText(site, "/_headers", `${headerLines.join("\n")}\n`);
   console.log(`Site build complete: ${site.paths.siteOutputDir}`);
-  console.log("Page images were copied into the site output. Original PDFs should be served from R2 or another object store in production.");
+  // Page images of the 32 issues ship as static assets (max 25 MiB per file, 20,000 files).
+  // PDFs are not copied: they live in the GitHub release (see issuePdfBase in scripts/lib/issues-site.mjs).
+  // PROUD_ISSUES_DIR points at the normalized output; without it the build keeps working, with image links only.
+  {
+    const issuesDir = process.env.PROUD_ISSUES_DIR;
+    let copied = 0;
+    if (issuesDir) {
+      for (const entry of issueEntries) {
+        const from = path.join(issuesDir, entry.n, "pages");
+        const to = path.join(site.paths.siteOutputDir, "assets", "issues", entry.n, "pages");
+        await fs.mkdir(to, { recursive: true });
+        for (const page of entry.manifest.pagesInfo ?? []) {
+          for (const variant of ["s", "m", "l"]) {
+            const name = `${String(page.n).padStart(3, "0")}-${variant}.webp`;
+            await fs.copyFile(path.join(from, name), path.join(to, name));
+            copied += 1;
+          }
+        }
+      }
+    }
+    console.log(`Issue page images copied: ${copied}${issuesDir ? ` from PROUD_ISSUES_DIR` : " (PROUD_ISSUES_DIR not set, images not in this build)"}`);
+  }
+  console.log("Page images were copied into the site output. The web PDFs are served from the GitHub release (see PROUD_PDF_BASE).");
 }
 
 main().catch((error) => {

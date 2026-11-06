@@ -71,6 +71,7 @@ export function renderReaderMain({
   version,
   title,
   dateLabel = null,
+  pdfUrl = null,
   hrefs = {},
   startPage = 1,
 } = {}) {
@@ -83,7 +84,7 @@ export function renderReaderMain({
   const pageCount = pagesInfo.length || Number(manifest?.pages) || 1;
   const start = clampPage(startPage, pageCount);
   const url = (page, variant) => `${base}/pages/${pad(page)}-${variant}.webp?v=${v}`;
-  const pdfUrl = `${base}/${web.pdf}?download=1&v=${v}`;
+  const pdfHref = pdfUrl ?? `${base}/${web.pdf}?download=1&v=${v}`;
   const mb = Math.max(1, Math.round(Number(web.bytes ?? 0) / 1048576));
 
   const list = pagesInfo.map((page) => {
@@ -112,7 +113,7 @@ export function renderReaderMain({
     <div class="reader-toolbar">
       <a class="reader-back" href="${escapeHtml(hrefs.issue ?? "")}">${escapeHtml(t.backToIssue)}</a>
       <button type="button" class="reader-grid-open" aria-haspopup="dialog" aria-controls="reader-grid">${escapeHtml(t.pages)}</button>
-      <a class="reader-pdf" href="${escapeHtml(pdfUrl)}" download>${escapeHtml(fill(t.pdf, { mb }))}</a>
+      <a class="reader-pdf" href="${escapeHtml(pdfHref)}"${pdfHref.startsWith("http") ? ' target="_blank" rel="noopener"' : " download"}>${escapeHtml(fill(t.pdf, { mb }))}</a>
     </div>
   </header>
   <div class="reader-stage">

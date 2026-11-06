@@ -1,19 +1,38 @@
 # hosting the issue files
 
-Issue page images and the web PDFs live in the R2 bucket `proud-preview-pdfs`
-under the prefix `issues/`. The Worker and the local server both answer the same
-URLs, so the reader and the download button need no special casing.
+Since 2026-11-03 the issue page images are **static assets of the Worker**, and the
+web PDFs are **assets of the public GitHub release `issues-pdfs-v1`**. R2 is not
+needed. The reasons: static asset requests are free and unlimited, the free plan
+allows 20,000 files of at most 25 MiB each, and the largest issue PDF is 39 MB.
 
 ```mermaid
 flowchart LR
-  B[browser] -->|/assets/issues/NN/...| W[Worker route]
-  W -->|allowlist ok| R2[(R2 issues/NN/...)]
-  W -->|allowlist says no| N404[404]
+  B[browser] -->|/assets/issues/NN/pages/...| W[Worker]
+  W -->|static asset found| A[site/assets/issues/...]
+  W -->|not in assets| R2[(R2 fallback, old objects)]
+  B -->|PDF button| G[GitHub release issues-pdfs-v1]
+  B -->|build| S[scripts/build-site.mjs]
+  S -->|copies 6576 webp| A
   L[local server] -->|same allowlist| D[(PROUD_ISSUES_DIR)]
-  S[scripts/upload-issues-r2.mjs] -->|dry run prints plan| O[owner]
-  O -->|--execute| R2
-  A[--verify ORIGIN] -->|HEAD every key| W
 ```
+
+Measured on the real runtime (`wrangler dev --local`, no R2 binding, 2026-11-03):
+`/magazines/`, `/magazines/24/`, `/magazines/24/read/` answer 200; page images answer
+200 with `image/webp` and the right cache header (immutable only with `?v=`), and the
+bytes equal the normalized files. `/assets/issues/NN/proud-NN.pdf` answers 404 on
+purpose: the PDF lives on GitHub. `npm test`: 65 pass.
+
+Build with the images included:
+
+```
+PROUD_ISSUES_DIR=data/output/issues node scripts/build-site.mjs
+```
+
+`PROUD_PDF_BASE` overrides where the PDF button points (default: the GitHub release).
+Set it to `/assets/issues` to get the old R2-backed behaviour back, then upload the
+PDFs to R2 as described below.
+
+## The R2 path, kept as an option
 
 ## Files and URLs
 

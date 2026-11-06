@@ -232,8 +232,20 @@ async function handleStaticRequest(request, env) {
       return methodNotAllowed("GET, HEAD");
     }
 
+    // Page images ship as static assets (no R2 needed). Ask the asset store first;
+    // only a missing image falls back to R2, which also serves old objects from an earlier deploy.
+    const fromAssets = await fetchAsset(env, request, url.pathname);
+    if (fromAssets.status === 200) {
+      const headers = new Headers(fromAssets.headers);
+      headers.set("cache-control", issueCacheControl(url.searchParams.has("v")));
+      addCommonHeaders(headers);
+      return new Response(request.method === "HEAD" ? null : fromAssets.body, { status: 200, headers });
+    }
+    // Drain the unused 404 body so the connection is not left hanging.
+    await fromAssets.arrayBuffer();
+
     if (!env.PDFS_BUCKET) {
-      return new Response("PDF bucket not configured", { status: 404 });
+      return new Response("Not found", { status: 404 });
     }
 
     const object = await env.PDFS_BUCKET.get(asset.key, {

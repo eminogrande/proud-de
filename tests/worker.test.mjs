@@ -7,6 +7,7 @@ const files = new Map([
   ["/", { body: "<!doctype html><title>home</title>", type: "text/html; charset=utf-8" }],
   ["/index.md", { body: "# home", type: "text/markdown; charset=utf-8" }],
   ["/assets/hero/x.webp", { body: "RIFF", type: "image/webp" }],
+  ["/assets/issues/24/pages/006-l.webp", { body: "RIFF-issue", type: "image/webp" }],
 ]);
 
 const env = {
@@ -61,4 +62,39 @@ test("fake OAuth token endpoint is gone", async () => {
 test("scan images get an immutable long cache", async () => {
   const res = await get("/assets/hero/x.webp");
   assert.equal(res.headers.get("cache-control"), "public, max-age=31536000, immutable");
+});
+
+test("issue page images come from static assets, without R2", async () => {
+  const res = await get("/assets/issues/24/pages/006-l.webp?v=abc");
+  assert.equal(res.status, 200);
+  assert.equal(await res.text(), "RIFF-issue");
+  assert.equal(res.headers.get("content-type"), "image/webp");
+  assert.equal(res.headers.get("cache-control"), "public, max-age=31536000, immutable");
+});
+
+test("an issue image without a static asset and without a bucket is a plain 404", async () => {
+  const res = await get("/assets/issues/24/pages/007-l.webp");
+  assert.equal(res.status, 404);
+});
+
+test("a missing static issue image falls back to the R2 bucket when one exists", async () => {
+  let asked = null;
+  const withBucket = {
+    ...env,
+    PDFS_BUCKET: {
+      async get(key) {
+        asked = key;
+        return {
+          body: "from-r2",
+          size: 8,
+          httpEtag: '"etag"',
+          writeHttpMetadata(headers) { headers.set("content-type", "image/webp"); },
+        };
+      },
+    },
+  };
+  const res = await worker.fetch(new Request("https://example.test/assets/issues/24/pages/007-l.webp"), withBucket);
+  assert.equal(res.status, 200);
+  assert.equal(await res.text(), "from-r2");
+  assert.equal(asked, "issues/24/pages/007-l.webp");
 });

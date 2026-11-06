@@ -198,7 +198,7 @@ test("bad paths answer 404", async () => {
 test("missing bucket answers 404", async () => {
   const res = await worker.fetch(new Request("https://example.test/assets/issues/24/proud-24.pdf"), { ASSETS: env.ASSETS });
   assert.equal(res.status, 404);
-  assert.equal(await res.text(), "PDF bucket not configured");
+  assert.equal(await res.text(), "Not found");
 });
 
 test("unsupported methods answer 405 with Allow", async () => {
