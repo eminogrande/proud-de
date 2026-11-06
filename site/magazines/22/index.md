@@ -13,6 +13,6 @@ canonical_url: "https://proud.xn--wp9h.tk/magazines/22/"
 
 > Seiten: 68
 > Lesen: https://proud.xn--wp9h.tk/magazines/22/read/
-> PDF: https://proud.xn--wp9h.tk/assets/issues/22/proud-22.pdf?v=d08a19fb
+> PDF: https://github.com/eminogrande/proud-de/releases/download/issues-pdfs-v1/proud-22.pdf
 
 > Die Artikel dieser Ausgabe werden noch erfasst. Lesen und PDF gibt es schon.

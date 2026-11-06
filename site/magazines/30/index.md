@@ -13,6 +13,6 @@ canonical_url: "https://proud.xn--wp9h.tk/magazines/30/"
 
 > Seiten: 68
 > Lesen: https://proud.xn--wp9h.tk/magazines/30/read/
-> PDF: https://proud.xn--wp9h.tk/assets/issues/30/proud-30.pdf?v=272b0b4b
+> PDF: https://github.com/eminogrande/proud-de/releases/download/issues-pdfs-v1/proud-30.pdf
 
 > Die Artikel dieser Ausgabe werden noch erfasst. Lesen und PDF gibt es schon.

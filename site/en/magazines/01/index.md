@@ -13,7 +13,7 @@ canonical_url: "https://proud.xn--wp9h.tk/en/magazines/01/"
 
 > Pages: 68
 > Read: https://proud.xn--wp9h.tk/en/magazines/01/read/
-> PDF: https://proud.xn--wp9h.tk/assets/issues/01/proud-01.pdf?v=f7315866
+> PDF: https://github.com/eminogrande/proud-de/releases/download/issues-pdfs-v1/proud-01.pdf
 
 ## Articles
 

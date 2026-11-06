@@ -13,6 +13,6 @@ canonical_url: "https://proud.xn--wp9h.tk/en/magazines/18/"
 
 > Pages: 68
 > Read: https://proud.xn--wp9h.tk/en/magazines/18/read/
-> PDF: https://proud.xn--wp9h.tk/assets/issues/18/proud-18.pdf?v=6d3fd585
+> PDF: https://github.com/eminogrande/proud-de/releases/download/issues-pdfs-v1/proud-18.pdf
 
 > The articles in this issue are still being transcribed. Reading and the PDF are already here.

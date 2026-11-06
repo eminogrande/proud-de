@@ -13,6 +13,6 @@ canonical_url: "https://proud.xn--wp9h.tk/magazines/04/"
 
 > Seiten: 68
 > Lesen: https://proud.xn--wp9h.tk/magazines/04/read/
-> PDF: https://proud.xn--wp9h.tk/assets/issues/04/proud-04.pdf?v=2b4ea046
+> PDF: https://github.com/eminogrande/proud-de/releases/download/issues-pdfs-v1/proud-04.pdf
 
 > Die Artikel dieser Ausgabe werden noch erfasst. Lesen und PDF gibt es schon.

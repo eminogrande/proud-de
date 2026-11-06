@@ -13,6 +13,6 @@ canonical_url: "https://proud.xn--wp9h.tk/magazines/17/"
 
 > Seiten: 68
 > Lesen: https://proud.xn--wp9h.tk/magazines/17/read/
-> PDF: https://proud.xn--wp9h.tk/assets/issues/17/proud-17.pdf?v=e420c5a1
+> PDF: https://github.com/eminogrande/proud-de/releases/download/issues-pdfs-v1/proud-17.pdf
 
 > Die Artikel dieser Ausgabe werden noch erfasst. Lesen und PDF gibt es schon.
